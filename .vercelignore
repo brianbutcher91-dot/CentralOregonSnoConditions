@@ -1,0 +1,8 @@
+# The Python scripts here are the offline data pipeline, run by GitHub
+# Actions - Vercel only needs to serve the static site (index.html, app.js,
+# style.css, conditions.json, the GIFs). Without this, Vercel's framework
+# auto-detection sees *.py + requirements.txt and assumes this is a Python
+# backend app needing an entrypoint, instead of a static site.
+*.py
+requirements.txt
+.github/
