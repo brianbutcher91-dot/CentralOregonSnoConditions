@@ -52,16 +52,16 @@ PNW_CROP_BOX = (100, 150, 570, 540)
 
 OUTPUT_PATH = "gfs_snowfall_pnw.gif"
 
-# Sampled directly from a real frame's legend swatches (RGB at the center of
-# each color band), in the same high-to-low order the source image uses.
-# Each entry is the lower bound (inches) of that color's band.
-LEGEND = [
-    (72.0, "#FFE4DC"), (60.0, "#FFAEB9"), (48.0, "#FFA54F"), (36.0, "#FF7F00"),
-    (30.0, "#EE4000"), (24.0, "#CD0000"), (18.0, "#CD8500"), (15.0, "#FFD700"),
-    (12.0, "#FFFF00"), (10.0, "#912CEE"), (8.0, "#8B008B"), (6.0, "#FF00FF"),
-    (4.0, "#008B00"), (3.0, "#00CD00"), (2.0, "#00FF00"), (1.0, "#104E8B"),
-    (0.5, "#00B2EE"), (0.1, "#00EEEE"),
-]
+# Pixel box for MAG's own legend graphic (the vertical color-swatch-plus-
+# label strip on the left of the full CONUS frame) - excluded from
+# PNW_CROP_BOX above since it lives far outside that region, but the real
+# graphic reads much better than a rebuilt approximation, so it's cropped
+# out as its own small static image instead. Same reasoning as PNW_CROP_BOX:
+# identical across every cycle/forecast hour, found by eyeballing pixel
+# positions once. Only needs cropping from one frame per build, not all of
+# them, since the legend design itself never changes.
+LEGEND_CROP_BOX = (0, 455, 62, 950)
+LEGEND_OUTPUT_PATH = "gfs_snowfall_legend.png"
 
 
 def _frame_url(cycle, forecast_hour):
@@ -123,11 +123,15 @@ def build_snowfall_gif():
     init_dt = _init_time(cycle, cycle_mtime)
 
     frames = []
-    for hour in FORECAST_HOURS:
+    for i, hour in enumerate(FORECAST_HOURS):
         resp = requests.get(_frame_url(cycle, hour), headers=HEADERS)
         resp.raise_for_status()
-        frame = Image.open(io.BytesIO(resp.content)).convert("RGB").crop(PNW_CROP_BOX)
-        frame = _label_frame(frame, init_dt, hour)
+        full_frame = Image.open(io.BytesIO(resp.content)).convert("RGB")
+
+        if i == 0:
+            full_frame.crop(LEGEND_CROP_BOX).save(LEGEND_OUTPUT_PATH)
+
+        frame = _label_frame(full_frame.crop(PNW_CROP_BOX), init_dt, hour)
         frames.append(frame)
 
     frames[0].save(
@@ -140,9 +144,9 @@ def build_snowfall_gif():
 
     return {
         "path": OUTPUT_PATH,
+        "legend_path": LEGEND_OUTPUT_PATH,
         "cycle_run_at": init_dt.isoformat(),
         "forecast_hours": FORECAST_HOURS,
-        "legend": LEGEND,
     }
 
 

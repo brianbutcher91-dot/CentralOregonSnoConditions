@@ -634,13 +634,40 @@ function renderMapSection(container, forecastData) {
     });
   }
 
+  // On narrow (phone-width) viewports the fixed-pixel leader-line offsets
+  // above can push a card past the edge of the map entirely - resolving
+  // overlaps between cards doesn't stop them drifting off the visible area,
+  // so a card can end up fully clipped/invisible instead of just crowded.
+  // Nudges any card back inward so it stays fully within the visible map
+  // area (mapWrap, not the taller #map div - anything below mapWrap's crop
+  // line is clipped and invisible anyway).
+  function clampToMapBounds(markers) {
+    const bounds = mapWrap.getBoundingClientRect();
+    const margin = 4;
+    for (const m of markers) {
+      const rect = m.cardEl.getBoundingClientRect();
+      let shiftX = 0, shiftY = 0;
+      if (rect.left < bounds.left + margin) shiftX = (bounds.left + margin) - rect.left;
+      else if (rect.right > bounds.right - margin) shiftX = (bounds.right - margin) - rect.right;
+      if (rect.top < bounds.top + margin) shiftY = (bounds.top + margin) - rect.top;
+      else if (rect.bottom > bounds.bottom - margin) shiftY = (bounds.bottom - margin) - rect.bottom;
+      if (shiftX || shiftY) {
+        m.dx += shiftX;
+        m.dy += shiftY;
+        updateCalloutPosition(m);
+      }
+    }
+  }
+
   // Panning alone doesn't change cards' relative pixel spacing (the whole
   // marker layer translates together), but zooming does - points spread
   // apart when zooming in and compress when zooming out, so a layout that's
   // overlap-free at one zoom level can start overlapping at another. Re-run
   // the full reset-to-seed + resolve pass on every zoom/move so cards stay
   // clear of each other at whatever view the user pans/zooms to, instead of
-  // only ever being correct for the initial auto-fit view.
+  // only ever being correct for the initial auto-fit view. The bounds clamp
+  // runs last since resolving overlaps can itself push a card back off the
+  // edge it was just pulled in from.
   function layoutMarkers() {
     for (const m of markers) {
       m.dx = m.seedDx;
@@ -648,10 +675,21 @@ function renderMapSection(container, forecastData) {
       updateCalloutPosition(m);
     }
     resolveCardOverlaps(markers);
+    clampToMapBounds(markers);
+    // Clamping a crowded card back inward can reintroduce an overlap the
+    // first pass already resolved (and vice versa) - a second pass lets
+    // the two converge instead of leaving whichever ran last as the final
+    // (possibly still slightly off) word.
+    resolveCardOverlaps(markers);
+    clampToMapBounds(markers);
   }
 
   layoutMarkers();
   map.on("zoomend moveend", layoutMarkers);
+  window.addEventListener("resize", debounce(() => {
+    map.invalidateSize();
+    layoutMarkers();
+  }, 200));
 }
 
 function webcamFigure(label, webcam) {
@@ -827,24 +865,25 @@ function renderGfsSnowfallSection(container, gfsData) {
     `cumulative total since the model run started, growing out to ${lastHour} hours. ` +
     `Model run: ${runTime}.`));
 
+  const row = el("div", "gfs-snowfall-row");
+
   const img = document.createElement("img");
   img.src = `${gfsData.path}?t=${encodeURIComponent(gfsData.cycle_run_at || "")}`;
   img.alt = "GFS 72-hour snowfall forecast animation, Pacific Northwest";
   img.className = "gfs-snowfall-img";
-  section.appendChild(img);
+  row.appendChild(img);
 
-  const legend = el("div", "snowfall-legend");
-  for (const [value, color] of [...(gfsData.legend || [])].reverse()) {
-    const item = el("div", "snowfall-legend-item");
-    const swatch = document.createElement("span");
-    swatch.className = "snowfall-legend-swatch";
-    swatch.style.background = color;
-    item.appendChild(swatch);
-    item.appendChild(document.createTextNode(`${value}"`));
-    legend.appendChild(item);
+  if (gfsData.legend_path) {
+    const legendImg = document.createElement("img");
+    // Real crop of MAG's own legend graphic, not a rebuilt approximation -
+    // same cycle-freshness cache-busting as the main GIF.
+    legendImg.src = `${gfsData.legend_path}?t=${encodeURIComponent(gfsData.cycle_run_at || "")}`;
+    legendImg.alt = "Snowfall total legend, inches";
+    legendImg.className = "gfs-snowfall-legend-img";
+    row.appendChild(legendImg);
   }
-  section.appendChild(legend);
 
+  section.appendChild(row);
   container.appendChild(section);
 }
 

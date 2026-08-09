@@ -254,6 +254,18 @@ section h2 {
   font-size: 0.75rem;
 }
 
+@media (max-width: 480px) {
+  /* Narrow phone widths give fitBounds() less room to spread points apart,
+     so cards end up denser regardless of the JS-side clamping/overlap
+     resolution - shrinking the cards themselves buys back some breathing
+     room on top of that, rather than relying on layout math alone. */
+  .callout-card {
+    padding: 4px 6px;
+    font-size: 0.68rem;
+    gap: 1px;
+  }
+}
+
 .callout-name {
   font-weight: 600;
   color: var(--accent);
@@ -329,6 +341,15 @@ section h2 {
   color: var(--text-dim);
 }
 
+.gfs-snowfall-row {
+  display: flex;
+  gap: 14px;
+  align-items: flex-start;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
 .gfs-snowfall-img {
   display: block;
   max-width: 100%;
@@ -336,30 +357,16 @@ section h2 {
   border-radius: 6px;
   border: 1px solid var(--panel-border);
   background: #fff;
-  margin: 10px auto 0;
 }
 
-.snowfall-legend {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-  margin-top: 10px;
-  font-size: 0.78rem;
-  color: var(--text-dim);
-}
-
-.snowfall-legend-item {
-  display: flex;
-  align-items: center;
-  gap: 4px;
-}
-
-.snowfall-legend-swatch {
-  display: inline-block;
-  width: 12px;
-  height: 12px;
-  border-radius: 2px;
-  border: 1px solid rgba(255, 255, 255, 0.2);
+.gfs-snowfall-legend-img {
+  display: block;
+  height: 380px;
+  width: auto;
+  max-width: 100%;
+  border-radius: 4px;
+  border: 1px solid var(--panel-border);
+  background: #fff;
 }
 
 .forecast-table-wrap {
