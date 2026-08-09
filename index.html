@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Central Oregon Snow Info</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+</head>
+<body>
+
+<header>
+  <h1>Central Oregon Snow Info</h1>
+  <p id="updated-at">Loading...</p>
+</header>
+
+<main id="app">
+  <p id="load-status">Loading conditions.json...</p>
+</main>
+
+<footer>
+  <details id="feedback-details">
+    <summary>Feedback</summary>
+    <form id="feedback-form" action="https://formspree.io/f/mgawoqwz" method="POST">
+      <input type="email" name="email" placeholder="Your email (optional)" autocomplete="email">
+      <textarea name="message" placeholder="Bug, idea, whatever - let me know" required></textarea>
+      <input type="hidden" name="_subject" value="Central Oregon Snow Info feedback">
+      <input type="text" name="_gotcha" class="feedback-honeypot" tabindex="-1" autocomplete="off">
+      <button type="submit">Send</button>
+      <p id="feedback-status" class="sub"></p>
+    </form>
+  </details>
+  <p class="sub">or email <a href="mailto:brian.butcher.91@gmail.com">brian.butcher.91@gmail.com</a> directly</p>
+</footer>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+name: Build conditions data
+
+on:
+  schedule:
+    # Every 15 minutes. GitHub doesn't guarantee this runs exactly on time
+    # (scheduled workflows can be delayed under load), that's fine here.
+    - cron: "*/15 * * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install -r requirements.txt
+
+      - run: python build_conditions.py
+        env:
+          ODOT_API_KEY: ${{ secrets.ODOT_API_KEY }}
+
+      - name: Commit and push if the data changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add conditions.json gfs_snowfall_pnw.gif bachelor_snow_history.json
+          git diff --staged --quiet || git commit -m "Update conditions data"
+          git push
