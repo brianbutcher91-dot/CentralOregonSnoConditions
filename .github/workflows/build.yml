@@ -1,10 +1,17 @@
 name: Build conditions data
 
 on:
+  # GitHub's own `schedule` trigger is best-effort and gets significantly
+  # deprioritized for tight intervals like every 15 minutes - measured runs
+  # landing every 2-6 hours instead in practice, not a config problem.
+  # repository_dispatch (fired by an external cron service hitting GitHub's
+  # REST API, see cron-job.org setup) is the real 15-minute trigger; this
+  # schedule is kept only as a much-lower-frequency fallback in case that
+  # external service has its own downtime.
   schedule:
-    # Every 15 minutes. GitHub doesn't guarantee this runs exactly on time
-    # (scheduled workflows can be delayed under load), that's fine here.
-    - cron: "*/15 * * * *"
+    - cron: "0 */2 * * *"
+  repository_dispatch:
+    types: [build-conditions]
   workflow_dispatch: {}
 
 permissions:
