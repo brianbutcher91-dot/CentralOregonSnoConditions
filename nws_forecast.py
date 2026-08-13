@@ -113,14 +113,19 @@ def get_forecast(lat, lon):
     }
 
 
-def get_hourly_forecast(lat, lon, hours_forward=72):
+def get_hourly_forecast(lat, lon, hours_forward=72, hours_backward=0):
     # Hourly-sampled from the same raw gridpoint data get_forecast() uses,
-    # just walked forward hour by hour instead of per-12hr-period. This is
+    # just walked forward hour by hour instead of per-12hr-period. Mostly
     # forecast-only - history has to come from a real station/sensor instead,
     # since NWS's forecast/gridpoint products don't retain days of the past
     # (see mtbachelor.get_24h_history for why the Mt Bachelor chart pairs
     # this with the mountain's own sensor data rather than a NWS station -
     # the nearest NWS station is a valley airport, wrong elevation/location).
+    # hours_backward is the one exception: NWS's gridpoint series typically
+    # starts a handful of hours before "now" as part of the same response
+    # (this isn't an observation, just the model's own recent-past output),
+    # which is real enough to bridge a gap left by the mountain's own sensor
+    # feed lagging behind real-time - see build_bachelor_timeseries().
     points_url = f"https://api.weather.gov/points/{lat},{lon}"
     points_resp = requests.get(points_url, headers=HEADERS)
     points_resp.raise_for_status()
@@ -138,9 +143,22 @@ def get_hourly_forecast(lat, lon, hours_forward=72):
     wind_dir_values = grid_props["windDirection"]["values"]
     precip_values = grid_props["quantitativePrecipitation"]["values"]
 
-    hour_start = now.replace(minute=0, second=0, microsecond=0)
-    for i in range(hours_forward):
-        t = hour_start + datetime.timedelta(hours=i)
+    now_hour = now.replace(minute=0, second=0, microsecond=0)
+    hour_start = now_hour - datetime.timedelta(hours=hours_backward)
+    # _value_at() falls back to the first entry's value for any target
+    # before the series starts, which would silently flat-extrapolate
+    # backward instead of leaving a genuine gap - clamp the start so a
+    # hours_backward request never reaches further back than the grid data
+    # actually covers. The forward end time is anchored separately (not
+    # derived from a fixed point count) so clamping the start never eats
+    # into how far forward the forecast still reaches.
+    earliest_starts = [_parse_valid_time(v[0]["validTime"])[0] for v in (temp_values, wind_speed_values) if v]
+    if earliest_starts:
+        hour_start = max(hour_start, min(earliest_starts).replace(minute=0, second=0, microsecond=0))
+
+    end_time = now_hour + datetime.timedelta(hours=hours_forward)
+    t = hour_start
+    while t < end_time:
         temp_c = _value_at(temp_values, t)
         wind_kmh = _value_at(wind_speed_values, t)
         precip_in = _precip_amount_in(precip_values, t, t + datetime.timedelta(hours=1))
@@ -152,6 +170,7 @@ def get_hourly_forecast(lat, lon, hours_forward=72):
             "precip_in": precip_in,
             "period": "forecast",
         })
+        t += datetime.timedelta(hours=1)
 
     return points
 

@@ -42,7 +42,6 @@ def build_forecast():
 
 def build_bachelor_timeseries(mtbachelor_data):
     lat, lon = nws_forecast.LOCATIONS["Mt Bachelor"]
-    forecast_points = nws_forecast.get_hourly_forecast(lat, lon)
 
     # Match the NWS gridpoint's own elevation (7,638ft - the same number
     # shown everywhere else on the site for Mt Bachelor) rather than the
@@ -52,6 +51,21 @@ def build_bachelor_timeseries(mtbachelor_data):
     # this replaced - wrong location and ~1,500-3,000ft lower.
     sensor_key = mtbachelor.closest_sensor_key(7638)
     historical_points = mtbachelor.get_24h_history(sensor_key)
+
+    # The mountain's own sensor feed has been observed lagging several
+    # hours behind real time (its last reading isn't always "now") -
+    # bridge that gap with NWS's own gridpoint data for the same recent
+    # hours instead of leaving a hole in the wind/temp history. Starts an
+    # hour after the last real sensor reading (not on top of it) and is
+    # capped so a very stale/broken sensor feed doesn't request an
+    # unreasonably large NWS-only window.
+    hours_backward = 0
+    if historical_points:
+        last_historical_time = datetime.datetime.fromisoformat(historical_points[-1]["time"])
+        gap_hours = (datetime.datetime.now(datetime.timezone.utc) - last_historical_time).total_seconds() / 3600
+        hours_backward = max(0, min(24, int(gap_hours) - 1))
+
+    forecast_points = nws_forecast.get_hourly_forecast(lat, lon, hours_backward=hours_backward)
 
     # Bachelor's site has no hourly (or even 12hr) precip breakdown, just a
     # rolling 24hr total (the same figure used for the wind-rose card's
