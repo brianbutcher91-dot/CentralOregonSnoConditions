@@ -1,6 +1,7 @@
 import datetime
 import json
 import os
+import time
 
 import requests
 
@@ -93,12 +94,31 @@ def closest_sensor_key(target_elevation_ft):
     return min(SENSOR_INFO, key=lambda key: abs(SENSOR_INFO[key]["elevation_ft"] - target_elevation_ft))
 
 
+def _get_with_retry(url, retries=2, backoff_seconds=3):
+    # This specific endpoint has been observed returning a transient 502
+    # (resort's own undocumented API, not something we control) - a couple
+    # short retries is enough to smooth over a momentary blip within one
+    # build run, without masking a genuinely sustained outage (which would
+    # still fail after these retries and surface via build_conditions.py's
+    # safe() wrapper as usual).
+    last_exc = None
+    for attempt in range(retries + 1):
+        try:
+            resp = requests.get(url, headers=HEADERS)
+            resp.raise_for_status()
+            return resp
+        except requests.exceptions.RequestException as exc:
+            last_exc = exc
+            if attempt < retries:
+                time.sleep(backoff_seconds)
+    raise last_exc
+
+
 def get_24h_history(sensor_key):
     # Only 24hr of history is available here (checked for 48/72hr and 7-day
     # variants - all 404), unlike the multi-day NWS forecast this pairs with.
     # No precipitation field either - this is a wind/temp sensor, not a gauge.
-    resp = requests.get(f"{BASE_URL}/dor/24-hour-weather", headers=HEADERS)
-    resp.raise_for_status()
+    resp = _get_with_retry(f"{BASE_URL}/dor/24-hour-weather")
     readings = resp.json().get(sensor_key, [])  # API returns newest-first
     points = [
         {
