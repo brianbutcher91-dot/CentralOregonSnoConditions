@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T22:45:29.135343+00:00",
+  "generated_at": "2026-08-14T22:55:03.932376+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -914,8 +914,8 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 7,
-        "wind_direction_deg": 260,
+        "wind_speed_mph": 11.0,
+        "wind_direction_deg": 247.5,
         "snow_level_ft": 11046,
         "temp_f": 70
       },
@@ -3087,12 +3087,12 @@
     "Hoodoo": {
       "elevation_ft": 4705,
       "temp_f": 70,
-      "wind_speed_mph": 7,
-      "wind_direction_deg": 260,
+      "wind_speed_mph": 11.0,
+      "wind_direction_deg": 247.5,
       "snow_level_ft": 11046,
       "precip_chance_today": 13,
-      "snowfall_12h_in": null,
-      "snowfall_24h_in": null,
+      "snowfall_12h_in": -0.7,
+      "snowfall_24h_in": -0.4,
       "snowfall_48h_in": null
     },
     "Willamette Pass": {
@@ -4219,7 +4219,7 @@
           "weather_icon": "dor-mostlycloudy",
           "id": 1786737600,
           "day": "Friday",
-          "temperature_high": 67,
+          "temperature_high": 68,
           "temperature_low": 38,
           "precipitation_high": 39,
           "precipitation_low": 39,
@@ -4520,10 +4520,24 @@
     }
   },
   "hoodoo": {
-    "weather": {},
+    "weather": {
+      "Temperature": "66 &#176F",
+      "Wind": "WSW @ 11 MPH",
+      "Snow depth": "-1.4\"",
+      "Humidity": "51 %",
+      "Barometer": "30.21\" Hg"
+    },
     "snow_totals": {
-      "trend": {},
-      "season_total_in": null
+      "trend": {
+        "Max": "0.8\"",
+        "Min": "-3.8\"",
+        "1 Hr": "-0.2\"",
+        "3 Hr": "-0.4\"",
+        "6 Hr": "-0.6\"",
+        "12 Hr": "-0.7\"",
+        "24 Hr": "-0.4\""
+      },
+      "season_total_in": 158.5
     },
     "webcams": {
       "Base Area": {
