@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T02:15:26.612518+00:00",
+  "generated_at": "2026-08-14T02:30:41.925954+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -7,7 +7,7 @@
         {
           "number": 1,
           "name": "Tonight",
-          "startTime": "2026-08-13T18:00:00-07:00",
+          "startTime": "2026-08-13T19:00:00-07:00",
           "endTime": "2026-08-14T06:00:00-07:00",
           "isDaytime": false,
           "temperature": 45,
@@ -314,7 +314,7 @@
         {
           "number": 1,
           "name": "Tonight",
-          "startTime": "2026-08-13T18:00:00-07:00",
+          "startTime": "2026-08-13T19:00:00-07:00",
           "endTime": "2026-08-14T06:00:00-07:00",
           "isDaytime": false,
           "temperature": 50,
@@ -914,8 +914,8 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 5,
-        "wind_direction_deg": 300,
+        "wind_speed_mph": 13.0,
+        "wind_direction_deg": 315,
         "snow_level_ft": 10813,
         "temp_f": 65
       },
@@ -928,7 +928,7 @@
         {
           "number": 1,
           "name": "Tonight",
-          "startTime": "2026-08-13T18:00:00-07:00",
+          "startTime": "2026-08-13T19:00:00-07:00",
           "endTime": "2026-08-14T06:00:00-07:00",
           "isDaytime": false,
           "temperature": 49,
@@ -1235,7 +1235,7 @@
         {
           "number": 1,
           "name": "Tonight",
-          "startTime": "2026-08-13T18:00:00-07:00",
+          "startTime": "2026-08-13T19:00:00-07:00",
           "endTime": "2026-08-14T06:00:00-07:00",
           "isDaytime": false,
           "temperature": 46,
@@ -1251,7 +1251,7 @@
           "shortForecast": "Mostly Clear",
           "detailedForecast": "Mostly clear. Low around 46, with temperatures rising to around 48 overnight. North northeast wind 2 to 6 mph.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 10758
+          "snowLevelFt": 10655
         },
         {
           "number": 2,
@@ -1849,7 +1849,7 @@
         {
           "number": 1,
           "name": "Tonight",
-          "startTime": "2026-08-13T18:00:00-07:00",
+          "startTime": "2026-08-13T19:00:00-07:00",
           "endTime": "2026-08-14T06:00:00-07:00",
           "isDaytime": false,
           "temperature": 51,
@@ -2156,7 +2156,7 @@
         {
           "number": 1,
           "name": "Tonight",
-          "startTime": "2026-08-13T18:00:00-07:00",
+          "startTime": "2026-08-13T19:00:00-07:00",
           "endTime": "2026-08-14T06:00:00-07:00",
           "isDaytime": false,
           "temperature": 54,
@@ -2171,7 +2171,7 @@
           "icon": "https://api.weather.gov/icons/land/night/smoke?size=medium",
           "shortForecast": "Patchy Smoke",
           "detailedForecast": "Patchy smoke. Partly cloudy, with a low around 54. West wind 1 to 7 mph. New rainfall amounts less than a tenth of an inch possible.",
-          "precipitationAmountIn": 0.02,
+          "precipitationAmountIn": 0.01,
           "snowLevelFt": 11811
         },
         {
@@ -2463,7 +2463,7 @@
         {
           "number": 1,
           "name": "Tonight",
-          "startTime": "2026-08-13T18:00:00-07:00",
+          "startTime": "2026-08-13T19:00:00-07:00",
           "endTime": "2026-08-14T06:00:00-07:00",
           "isDaytime": false,
           "temperature": 47,
@@ -2770,7 +2770,7 @@
         {
           "number": 1,
           "name": "Tonight",
-          "startTime": "2026-08-13T18:00:00-07:00",
+          "startTime": "2026-08-13T19:00:00-07:00",
           "endTime": "2026-08-14T06:00:00-07:00",
           "isDaytime": false,
           "temperature": 40,
@@ -2780,11 +2780,11 @@
             "unitCode": "wmoUnit:percent",
             "value": 18
           },
-          "windSpeed": "0 to 6 mph",
-          "windDirection": "W",
+          "windSpeed": "0 to 5 mph",
+          "windDirection": "SW",
           "icon": "https://api.weather.gov/icons/land/night/tsra_hi,20/sct?size=medium",
           "shortForecast": "Slight Chance Showers And Thunderstorms then Partly Cloudy",
-          "detailedForecast": "A slight chance of showers and thunderstorms before 8pm. Partly cloudy. Low around 40, with temperatures rising to around 42 overnight. West wind 0 to 6 mph. Chance of precipitation is 20%.",
+          "detailedForecast": "A slight chance of showers and thunderstorms before 8pm. Partly cloudy. Low around 40, with temperatures rising to around 42 overnight. Southwest wind 0 to 5 mph. Chance of precipitation is 20%.",
           "precipitationAmountIn": 0.0,
           "snowLevelFt": 11968
         },
@@ -3087,12 +3087,12 @@
     "Hoodoo": {
       "elevation_ft": 4705,
       "temp_f": 65,
-      "wind_speed_mph": 5,
-      "wind_direction_deg": 300,
+      "wind_speed_mph": 13.0,
+      "wind_direction_deg": 315,
       "snow_level_ft": 10813,
       "precip_chance_today": 5,
-      "snowfall_12h_in": null,
-      "snowfall_24h_in": null,
+      "snowfall_12h_in": -0.6,
+      "snowfall_24h_in": -0.2,
       "snowfall_48h_in": null
     },
     "Willamette Pass": {
@@ -3109,14 +3109,6 @@
   },
   "bachelor_timeseries": {
     "hourly": [
-      {
-        "time": "2026-08-12T19:00:00.000Z",
-        "temp_f": 53.34,
-        "wind_speed_mph": 10.8,
-        "wind_direction_deg": 273.7,
-        "precip_in": null,
-        "period": "historical"
-      },
       {
         "time": "2026-08-12T20:00:00.000Z",
         "temp_f": 50.86,
@@ -3302,12 +3294,12 @@
         "period": "historical"
       },
       {
-        "time": "2026-08-13T19:00:00+00:00",
-        "temp_f": 61.0,
-        "wind_speed_mph": 4.6,
-        "wind_direction_deg": 220,
-        "precip_in": 0.0,
-        "period": "forecast"
+        "time": "2026-08-13T19:00:00.000Z",
+        "temp_f": 49.81,
+        "wind_speed_mph": 6.258,
+        "wind_direction_deg": 359.8,
+        "precip_in": null,
+        "period": "historical"
       },
       {
         "time": "2026-08-13T20:00:00+00:00",
@@ -4169,8 +4161,8 @@
   "mtbachelor": {
     "weather": {
       "current": {
-        "temperature": 62,
-        "weather_icon": "dor-rain"
+        "temperature": 55,
+        "weather_icon": "dor-mostlycloudy"
       },
       "forecast": [
         {
@@ -4302,10 +4294,10 @@
           "active": true,
           "primary": true,
           "nonstandardizedDataPoints": {
-            "depth": "-1.167",
-            "timestamp": "2026-08-13T18:00:00.000Z"
+            "depth": "-1.406",
+            "timestamp": "2026-08-13T19:00:00.000Z"
           },
-          "temperature": "61.57",
+          "temperature": "54.65",
           "wind": {
             "low": "0",
             "high": "0",
@@ -4325,15 +4317,15 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-08-13T18:00:00.000Z"
+            "timestamp": "2026-08-13T19:00:00.000Z"
           },
-          "temperature": "55.63",
+          "temperature": "51.41",
           "wind": {
-            "low": "7.984",
-            "high": "20.36",
+            "low": "5.876",
+            "high": "14.76",
             "current": null,
-            "average": "7.984",
-            "direction": "SE"
+            "average": "5.876",
+            "direction": "SSE"
           },
           "humidity": null,
           "display_name": "Sunrise",
@@ -4347,17 +4339,17 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-08-13T18:00:00.000Z"
+            "timestamp": "2026-08-13T19:00:00.000Z"
           },
-          "temperature": "55.86",
+          "temperature": "51.11",
           "wind": {
-            "low": "4.805",
-            "high": "30.69",
+            "low": "11.25",
+            "high": "33.27",
             "current": null,
-            "average": "4.805",
-            "direction": "ESE"
+            "average": "11.25",
+            "direction": "S"
           },
-          "humidity": "72.7",
+          "humidity": "65.41",
           "display_name": "Pine Marten",
           "elevation_ft": 7800
         },
@@ -4369,15 +4361,15 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-08-13T18:00:00.000Z"
+            "timestamp": "2026-08-13T19:00:00.000Z"
           },
-          "temperature": "52.66",
+          "temperature": "49.81",
           "wind": {
-            "low": "9.16",
-            "high": "21.92",
+            "low": "6.258",
+            "high": "14.54",
             "current": null,
-            "average": "9.16",
-            "direction": "ENE"
+            "average": "6.258",
+            "direction": "N"
           },
           "humidity": null,
           "display_name": "Cloud Chaser",
@@ -4482,10 +4474,24 @@
     }
   },
   "hoodoo": {
-    "weather": {},
+    "weather": {
+      "Temperature": "61 &#176F",
+      "Wind": "NW @ 13 MPH",
+      "Snow depth": "-0.9\"",
+      "Humidity": "82 %",
+      "Barometer": "30.10\" Hg"
+    },
     "snow_totals": {
-      "trend": {},
-      "season_total_in": null
+      "trend": {
+        "Max": "0.7\"",
+        "Min": "-3.8\"",
+        "1 Hr": "0.8\"",
+        "3 Hr": "0.1\"",
+        "6 Hr": "-0.1\"",
+        "12 Hr": "-0.6\"",
+        "24 Hr": "-0.2\""
+      },
+      "season_total_in": 158.5
     },
     "webcams": {
       "Base Area": {
