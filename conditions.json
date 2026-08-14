@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T14:30:35.815412+00:00",
+  "generated_at": "2026-08-14T14:45:22.343972+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -7,7 +7,7 @@
         {
           "number": 1,
           "name": "Today",
-          "startTime": "2026-08-14T07:00:00-07:00",
+          "startTime": "2026-08-14T06:00:00-07:00",
           "endTime": "2026-08-14T18:00:00-07:00",
           "isDaytime": true,
           "temperature": 63,
@@ -314,7 +314,7 @@
         {
           "number": 1,
           "name": "Today",
-          "startTime": "2026-08-14T07:00:00-07:00",
+          "startTime": "2026-08-14T06:00:00-07:00",
           "endTime": "2026-08-14T18:00:00-07:00",
           "isDaytime": true,
           "temperature": 66,
@@ -928,7 +928,7 @@
         {
           "number": 1,
           "name": "Today",
-          "startTime": "2026-08-14T07:00:00-07:00",
+          "startTime": "2026-08-14T06:00:00-07:00",
           "endTime": "2026-08-14T18:00:00-07:00",
           "isDaytime": true,
           "temperature": 64,
@@ -1849,7 +1849,7 @@
         {
           "number": 1,
           "name": "Today",
-          "startTime": "2026-08-14T07:00:00-07:00",
+          "startTime": "2026-08-14T06:00:00-07:00",
           "endTime": "2026-08-14T18:00:00-07:00",
           "isDaytime": true,
           "temperature": 74,
@@ -2156,7 +2156,7 @@
         {
           "number": 1,
           "name": "Today",
-          "startTime": "2026-08-14T06:00:00-07:00",
+          "startTime": "2026-08-14T07:00:00-07:00",
           "endTime": "2026-08-14T18:00:00-07:00",
           "isDaytime": true,
           "temperature": 83,
@@ -2770,7 +2770,7 @@
         {
           "number": 1,
           "name": "Today",
-          "startTime": "2026-08-14T07:00:00-07:00",
+          "startTime": "2026-08-14T06:00:00-07:00",
           "endTime": "2026-08-14T18:00:00-07:00",
           "isDaytime": true,
           "temperature": 82,
@@ -3091,7 +3091,7 @@
       "wind_direction_deg": 90,
       "snow_level_ft": 10338,
       "precip_chance_today": 16,
-      "snowfall_12h_in": 0.4,
+      "snowfall_12h_in": -0.3,
       "snowfall_24h_in": -0.2,
       "snowfall_48h_in": null
     },
@@ -3928,10 +3928,6 @@
     ],
     "historical_precip_snapshots": [
       {
-        "time": "2026-08-11T14:45:02.083739+00:00",
-        "precip_in": 0
-      },
-      {
         "time": "2026-08-11T18:04:36.076148+00:00",
         "precip_in": 0
       },
@@ -4049,6 +4045,10 @@
       },
       {
         "time": "2026-08-14T13:45:22.666510+00:00",
+        "precip_in": 0
+      },
+      {
+        "time": "2026-08-14T14:45:22.744370+00:00",
         "precip_in": 0
       }
     ]
@@ -4503,9 +4503,9 @@
   },
   "hoodoo": {
     "weather": {
-      "Temperature": "56 &#176F",
+      "Temperature": "55 &#176F",
       "Wind": "East @ 22 MPH",
-      "Snow depth": "-0.4\"",
+      "Snow depth": "-0.5\"",
       "Humidity": "65 %",
       "Barometer": "30.15\" Hg"
     },
@@ -4513,10 +4513,10 @@
       "trend": {
         "Max": "0.7\"",
         "Min": "-3.8\"",
-        "1 Hr": "0.0\"",
-        "3 Hr": "0.2\"",
-        "6 Hr": "0.4\"",
-        "12 Hr": "0.4\"",
+        "1 Hr": "-0.5\"",
+        "3 Hr": "-0.5\"",
+        "6 Hr": "-0.4\"",
+        "12 Hr": "-0.3\"",
         "24 Hr": "-0.2\""
       },
       "season_total_in": 158.5
@@ -4669,15 +4669,15 @@
   "satellite": {
     "Pacific Northwest": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/pnw/13/GOES18-PNW-13-600x600.gif",
-      "last_modified": "Fri, 14 Aug 2026 14:11:44 GMT"
+      "last_modified": "Fri, 14 Aug 2026 14:42:03 GMT"
     },
     "North Pacific (macro)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/np/13/GOES18-NP-13-900x540.gif",
-      "last_modified": "Fri, 14 Aug 2026 14:11:53 GMT"
+      "last_modified": "Fri, 14 Aug 2026 14:42:13 GMT"
     },
     "Pacific US (PACUS)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/13/GOES18-CONUS-13-625x375.gif",
-      "last_modified": "Fri, 14 Aug 2026 14:05:59 GMT"
+      "last_modified": "Fri, 14 Aug 2026 14:36:13 GMT"
     }
   },
   "gfs_snowfall": {
