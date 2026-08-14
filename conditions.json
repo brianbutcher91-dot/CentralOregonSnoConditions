@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T22:15:44.274889+00:00",
+  "generated_at": "2026-08-14T22:30:38.887064+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -914,8 +914,8 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 13.0,
-        "wind_direction_deg": 315,
+        "wind_speed_mph": 12.0,
+        "wind_direction_deg": 292.5,
         "snow_level_ft": 11046,
         "temp_f": 70
       },
@@ -3087,12 +3087,12 @@
     "Hoodoo": {
       "elevation_ft": 4705,
       "temp_f": 70,
-      "wind_speed_mph": 13.0,
-      "wind_direction_deg": 315,
+      "wind_speed_mph": 12.0,
+      "wind_direction_deg": 292.5,
       "snow_level_ft": 11046,
       "precip_chance_today": 13,
       "snowfall_12h_in": -0.2,
-      "snowfall_24h_in": 0.1,
+      "snowfall_24h_in": 0.0,
       "snowfall_48h_in": null
     },
     "Willamette Pass": {
@@ -3109,14 +3109,6 @@
   },
   "bachelor_timeseries": {
     "hourly": [
-      {
-        "time": "2026-08-13T15:00:00.000Z",
-        "temp_f": 56.16,
-        "wind_speed_mph": 6.345,
-        "wind_direction_deg": 13.8,
-        "precip_in": null,
-        "period": "historical"
-      },
       {
         "time": "2026-08-13T16:00:00.000Z",
         "temp_f": 55.53,
@@ -3298,6 +3290,14 @@
         "temp_f": 56.83,
         "wind_speed_mph": 6.431,
         "wind_direction_deg": 0.392,
+        "precip_in": null,
+        "period": "historical"
+      },
+      {
+        "time": "2026-08-14T15:00:00.000Z",
+        "temp_f": 56.5,
+        "wind_speed_mph": 8.47,
+        "wind_direction_deg": 40.32,
         "precip_in": null,
         "period": "historical"
       },
@@ -3928,10 +3928,6 @@
     ],
     "historical_precip_snapshots": [
       {
-        "time": "2026-08-11T22:27:07.504004+00:00",
-        "precip_in": 0
-      },
-      {
         "time": "2026-08-12T04:30:09.576694+00:00",
         "precip_in": 0
       },
@@ -4065,6 +4061,10 @@
       },
       {
         "time": "2026-08-14T21:30:38.252278+00:00",
+        "precip_in": 0
+      },
+      {
+        "time": "2026-08-14T22:30:39.784417+00:00",
         "precip_in": 0
       }
     ]
@@ -4207,19 +4207,19 @@
   "mtbachelor": {
     "weather": {
       "current": {
-        "temperature": 65,
+        "temperature": 64,
         "weather_icon": "dor-rain"
       },
       "forecast": [
         {
           "date": "2026-08-14",
-          "description_long": "moderate rain",
-          "description_short": "moderate rain",
+          "description_long": "light rain",
+          "description_short": "light rain",
           "details": "Rain",
           "weather_icon": "dor-rain",
           "id": 1786737600,
           "day": "Friday",
-          "temperature_high": 72,
+          "temperature_high": 71,
           "temperature_low": 38,
           "precipitation_high": 38,
           "precipitation_low": 38,
@@ -4340,10 +4340,10 @@
           "active": true,
           "primary": true,
           "nonstandardizedDataPoints": {
-            "depth": "-1.312",
-            "timestamp": "2026-08-14T14:00:00.000Z"
+            "depth": "-0.897",
+            "timestamp": "2026-08-14T15:00:00.000Z"
           },
-          "temperature": "64.72",
+          "temperature": "64.48",
           "wind": {
             "low": "0",
             "high": "0",
@@ -4363,15 +4363,15 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-08-14T14:00:00.000Z"
+            "timestamp": "2026-08-14T15:00:00.000Z"
           },
-          "temperature": "60.96",
+          "temperature": "60.15",
           "wind": {
-            "low": "4.797",
-            "high": "14.99",
+            "low": "4.892",
+            "high": "25.28",
             "current": null,
-            "average": "4.797",
-            "direction": "N"
+            "average": "4.892",
+            "direction": "NNE"
           },
           "humidity": null,
           "display_name": "Sunrise",
@@ -4385,17 +4385,17 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-08-14T14:00:00.000Z"
+            "timestamp": "2026-08-14T15:00:00.000Z"
           },
-          "temperature": "59.63",
+          "temperature": "58.43",
           "wind": {
-            "low": "2.727",
-            "high": "12.52",
+            "low": "1.313",
+            "high": "20.5",
             "current": null,
-            "average": "2.727",
-            "direction": "W"
+            "average": "1.313",
+            "direction": "SSE"
           },
-          "humidity": "55.88",
+          "humidity": "68.68",
           "display_name": "Pine Marten",
           "elevation_ft": 7800
         },
@@ -4407,15 +4407,15 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-08-14T14:00:00.000Z"
+            "timestamp": "2026-08-14T15:00:00.000Z"
           },
-          "temperature": "56.83",
+          "temperature": "56.5",
           "wind": {
-            "low": "6.431",
-            "high": "19.01",
+            "low": "8.47",
+            "high": "21.25",
             "current": null,
-            "average": "6.431",
-            "direction": "N"
+            "average": "8.47",
+            "direction": "NE"
           },
           "humidity": null,
           "display_name": "Cloud Chaser",
@@ -4475,7 +4475,7 @@
         "uuid": "d23b232c-529b-4408-9a10-602ab79c548a",
         "name": "Primary"
       },
-      "report": "<p><strong>August 10 - 16</strong></p><p><em><strong>Way Out and Hot Dust will be closed at 4:30pm for the Friday Night Race.</strong></em></p><p><strong>Friday 8/14 Update:</strong> Redline will open at 10am today. Enjoy the brown pow!</p><p>The <a href=\"https://forecast.weather.gov/MapClick.php?lon=-121.67019367218019&amp;lat=43.97341445519288#.YYloWmDMI2x\"><strong>forecast </strong></a>this week calls for sunshine and temperatures in the 70's, then a chance of rain and thunderstorms starting Friday. Check the <a href=\"https://www.mtbachelor.com/the-mountain/lift-trail-report/\"><strong>Lift &amp; Trail Status page</strong></a> for the full list of available Bike Park and hiking trails.&nbsp;</p><p><strong>Events</strong></p><p>This week is packed with events, starting with the <a href=\"https://www.mtbachelor.com/events-activities/events/events-calendar/grand-opening-party/\"><strong>Grand Opening Party</strong></a> at the Trailhead Lodge on Wednesday. Thursday brings <a href=\"https://www.mtbachelor.com/events-activities/events/events-calendar/yoga-in-the-wild-4/\"><strong>Yoga in the Wild</strong></a>, <a href=\"https://www.mtbachelor.com/events-activities/events/events-calendar/lady-laps-2/\"><strong>Lady Laps - Redline Takeover</strong></a>, and <a href=\"https://www.mtbachelor.com/events-activities/events/events-calendar/\"><strong>Autocross</strong></a> in the West Village parking lot. <a href=\"https://www.mtbachelor.com/events-activities/events/events-calendar/friday-night-races-4/\"><strong>Friday Night Race #4</strong></a> takes place on Hot Dust, kicking off a great weekend with <a href=\"https://www.mtbachelor.com/events-activities/events/events-calendar/music-series-3/\"><strong>live music by Dry Canyon Stampede</strong></a> on Saturday followed by <a href=\"https://www.mtbachelor.com/events-activities/events/events-calendar/little-rollers-3/\"><strong>Little Rollers </strong></a>on Sunday. Visit the <a href=\"https://www.mtbachelor.com/events-activities/events/events-calendar/\"><strong>Events Page&nbsp;</strong></a>to learn more about upcoming happenings.</p><p><strong>Please Note:</strong></p><ul><li><em>Mt. Bachelor allows&nbsp;</em><a href=\"https://transitbikes.com/blog/class-1-ebike-explained/\"><strong>Class-1 pedal-assist e-mountain bikes</strong></a><strong>&nbsp;</strong>o<em>n its downhill Bike Park trails. Class 2 and 3 e-bikes are prohibited. Mt. Bachelor continues to welcome the use of adaptive e-bikes.</em></li><li><em>Uphill riding is prohibited on all Mt. Bachelor trails and service roads, and all users must have a valid&nbsp;</em><a href=\"https://www.mtbachelor.com/tickets-passes/summer-tickets-passes/#daily\"><em><strong>lift ticket or pass</strong></em></a><em> to enjoy the Bike Park.\u202f</em></li><li><em>Smoking and vaping are not permitted anywhere at Mt. Bachelor, except inside personal vehicles.</em></li></ul><p><a href=\"https://www.mtbachelor.com/events-activities/summer-activities/\"><em><strong>Summer activities</strong></em></a><em><strong> </strong>at Mt. Bachelor include Bike Park, a zipline ZipTour, Sunset Dinners, scenic chairlift rides, camping, hiking, dining, and disc golf. Mt. Bachelor also has a licensed </em><a href=\"https://www.mtbachelor.com/amenities-groups/childcare/\"><em><strong>Childcare Center</strong></em></a><em><strong> </strong>and </em><a href=\"https://www.mtbachelor.com/lessons-rentals/kids-camps/\"><em><strong>Kids Bike Camps</strong></em></a><em>. Plus, Sun Country Tours is in full swing, offering a variety of half and full-day </em><a href=\"https://www.suncountrytours.com/whitewater-rafting/choose-your-trip/compare/\"><em><strong>whitewater rafting adventures</strong></em></a><em><strong> </strong>and </em><a href=\"https://www.suncountrytours.com/tubing-sup/river-tube/\"><em><strong>river tube rentals</strong></em></a><em><strong> </strong>including transportation to and from the water via electric golf cart shuttles.</em></p>",
+      "report": "<p><strong>August 10 - 16</strong></p><p><em><strong>Way Out and Hot Dust will be closed at 4:30pm for the Friday Night Race.</strong></em></p><p><em><strong>3:15pm Update: </strong></em>All operations are on hold due to lightning in the area. Check back here for updates.</p><p><strong>Friday 8/14 Update:</strong> Redline will open at 10am today. Enjoy the brown pow!</p><p>The <a href=\"https://forecast.weather.gov/MapClick.php?lon=-121.67019367218019&amp;lat=43.97341445519288#.YYloWmDMI2x\"><strong>forecast </strong></a>this week calls for sunshine and temperatures in the 70's, then a chance of rain and thunderstorms starting Friday. Check the <a href=\"https://www.mtbachelor.com/the-mountain/lift-trail-report/\"><strong>Lift &amp; Trail Status page</strong></a> for the full list of available Bike Park and hiking trails.&nbsp;</p><p><strong>Events</strong></p><p>This week is packed with events, starting with the <a href=\"https://www.mtbachelor.com/events-activities/events/events-calendar/grand-opening-party/\"><strong>Grand Opening Party</strong></a> at the Trailhead Lodge on Wednesday. Thursday brings <a href=\"https://www.mtbachelor.com/events-activities/events/events-calendar/yoga-in-the-wild-4/\"><strong>Yoga in the Wild</strong></a>, <a href=\"https://www.mtbachelor.com/events-activities/events/events-calendar/lady-laps-2/\"><strong>Lady Laps - Redline Takeover</strong></a>, and <a href=\"https://www.mtbachelor.com/events-activities/events/events-calendar/\"><strong>Autocross</strong></a> in the West Village parking lot. <a href=\"https://www.mtbachelor.com/events-activities/events/events-calendar/friday-night-races-4/\"><strong>Friday Night Race #4</strong></a> takes place on Hot Dust, kicking off a great weekend with <a href=\"https://www.mtbachelor.com/events-activities/events/events-calendar/music-series-3/\"><strong>live music by Dry Canyon Stampede</strong></a> on Saturday followed by <a href=\"https://www.mtbachelor.com/events-activities/events/events-calendar/little-rollers-3/\"><strong>Little Rollers </strong></a>on Sunday. Visit the <a href=\"https://www.mtbachelor.com/events-activities/events/events-calendar/\"><strong>Events Page&nbsp;</strong></a>to learn more about upcoming happenings.</p><p><strong>Please Note:</strong></p><ul><li><em>Mt. Bachelor allows&nbsp;</em><a href=\"https://transitbikes.com/blog/class-1-ebike-explained/\"><strong>Class-1 pedal-assist e-mountain bikes</strong></a><strong>&nbsp;</strong>o<em>n its downhill Bike Park trails. Class 2 and 3 e-bikes are prohibited. Mt. Bachelor continues to welcome the use of adaptive e-bikes.</em></li><li><em>Uphill riding is prohibited on all Mt. Bachelor trails and service roads, and all users must have a valid&nbsp;</em><a href=\"https://www.mtbachelor.com/tickets-passes/summer-tickets-passes/#daily\"><em><strong>lift ticket or pass</strong></em></a><em> to enjoy the Bike Park.\u202f</em></li><li><em>Smoking and vaping are not permitted anywhere at Mt. Bachelor, except inside personal vehicles.</em></li></ul><p><a href=\"https://www.mtbachelor.com/events-activities/summer-activities/\"><em><strong>Summer activities</strong></em></a><em><strong> </strong>at Mt. Bachelor include Bike Park, a zipline ZipTour, Sunset Dinners, scenic chairlift rides, camping, hiking, dining, and disc golf. Mt. Bachelor also has a licensed </em><a href=\"https://www.mtbachelor.com/amenities-groups/childcare/\"><em><strong>Childcare Center</strong></em></a><em><strong> </strong>and </em><a href=\"https://www.mtbachelor.com/lessons-rentals/kids-camps/\"><em><strong>Kids Bike Camps</strong></em></a><em>. Plus, Sun Country Tours is in full swing, offering a variety of half and full-day </em><a href=\"https://www.suncountrytours.com/whitewater-rafting/choose-your-trip/compare/\"><em><strong>whitewater rafting adventures</strong></em></a><em><strong> </strong>and </em><a href=\"https://www.suncountrytours.com/tubing-sup/river-tube/\"><em><strong>river tube rentals</strong></em></a><em><strong> </strong>including transportation to and from the water via electric golf cart shuttles.</em></p>",
       "amount": 0,
       "overnight_amount": 0,
       "base_depth": 0,
@@ -4485,7 +4485,7 @@
         "image": ""
       },
       "created": 1786664537,
-      "updated": 1786737733,
+      "updated": 1786745773,
       "computed": {
         "24_hour": 0,
         "48_hour": 0,
@@ -4521,21 +4521,21 @@
   },
   "hoodoo": {
     "weather": {
-      "Temperature": "66 &#176F",
-      "Wind": "NW @ 13 MPH",
-      "Snow depth": "-0.9\"",
-      "Humidity": "48 %",
+      "Temperature": "65 &#176F",
+      "Wind": "WNW @ 12 MPH",
+      "Snow depth": "-1.5\"",
+      "Humidity": "51 %",
       "Barometer": "30.20\" Hg"
     },
     "snow_totals": {
       "trend": {
         "Max": "0.8\"",
         "Min": "-3.8\"",
-        "1 Hr": "-0.5\"",
-        "3 Hr": "-0.6\"",
-        "6 Hr": "-0.3\"",
+        "1 Hr": "0.0\"",
+        "3 Hr": "-0.3\"",
+        "6 Hr": "-0.1\"",
         "12 Hr": "-0.2\"",
-        "24 Hr": "0.1\""
+        "24 Hr": "0.0\""
       },
       "season_total_in": 158.5
     },
