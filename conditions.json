@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T07:15:17.474370+00:00",
+  "generated_at": "2026-08-15T07:30:18.178065+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -3110,14 +3110,6 @@
   "bachelor_timeseries": {
     "hourly": [
       {
-        "time": "2026-08-14T00:00:00.000Z",
-        "temp_f": 48.84,
-        "wind_speed_mph": 12.25,
-        "wind_direction_deg": 265.6,
-        "precip_in": null,
-        "period": "historical"
-      },
-      {
         "time": "2026-08-14T01:00:00.000Z",
         "temp_f": 48.66,
         "wind_speed_mph": 11.34,
@@ -3302,12 +3294,12 @@
         "period": "historical"
       },
       {
-        "time": "2026-08-15T00:00:00+00:00",
-        "temp_f": 57.0,
-        "wind_speed_mph": 6.9,
-        "wind_direction_deg": 280,
-        "precip_in": 0.0,
-        "period": "forecast"
+        "time": "2026-08-15T00:00:00.000Z",
+        "temp_f": 50.5,
+        "wind_speed_mph": 9.2,
+        "wind_direction_deg": 285.5,
+        "precip_in": null,
+        "period": "historical"
       },
       {
         "time": "2026-08-15T01:00:00+00:00",
@@ -4140,12 +4132,110 @@
     }
   },
   "odot_cams": {
-    "error": "HTTPSConnectionPool(host='api.odot.state.or.us', port=443): Max retries exceeded with url: /tripcheck/Cctv/Inventory?DeviceName=Century+Dr (Caused by NameResolutionError(\"HTTPSConnection(host='api.odot.state.or.us', port=443): Failed to resolve 'api.odot.state.or.us' ([Errno -5] No address associated with hostname)\"))"
+    "Century Drive": [
+      {
+        "device-id": 768,
+        "device-name": "Century Dr at MP 21.11 E",
+        "latitude": 43.99178,
+        "longitude": -121.65663,
+        "hwy-id": "",
+        "route-id": "CITY",
+        "milepoint": 21.11,
+        "cctv-url": "http://www.TripCheck.com/roadcams/cams/Century Dr at MP 21.11 E_pid3545.JPG",
+        "cctv-other": "Century Drive at MP 21.11",
+        "last-update-time": "2026-08-14T03:44:02.533-07:00",
+        "tripcheck_link": "https://www.tripcheck.com/Pages/View-Custom-Cameras/?CamIds=3545"
+      },
+      {
+        "device-id": 771,
+        "device-name": "Century Dr at MP 21.11 W",
+        "latitude": 43.99178,
+        "longitude": -121.65663,
+        "hwy-id": "",
+        "route-id": "CITY",
+        "milepoint": 21.11,
+        "cctv-url": "http://www.TripCheck.com/roadcams/cams/Century Dr at MP 21.11 W_pid3557.JPG",
+        "cctv-other": "Century Drive at MP 21.11",
+        "last-update-time": "2026-08-14T03:44:02.457-07:00",
+        "tripcheck_link": "https://www.tripcheck.com/Pages/View-Custom-Cameras/?CamIds=3557"
+      }
+    ],
+    "Santiam Pass": [
+      {
+        "device-id": 567,
+        "device-name": "Santiam Pass EB",
+        "latitude": 44.422,
+        "longitude": -121.85731,
+        "hwy-id": "016",
+        "route-id": "US20",
+        "milepoint": 80.14,
+        "cctv-url": "http://www.TripCheck.com/roadcams/cams/Santiam Pass_pid2728.JPG",
+        "cctv-other": "US20 at Santiam Pass",
+        "last-update-time": "2026-08-14T03:43:54.677-07:00",
+        "tripcheck_link": "https://www.tripcheck.com/Pages/View-Custom-Cameras/?CamIds=2728"
+      },
+      {
+        "device-id": 1443,
+        "device-name": "Santiam Pass WB",
+        "latitude": 44.422,
+        "longitude": -121.8573,
+        "hwy-id": "016",
+        "route-id": "US20",
+        "milepoint": 80.14,
+        "cctv-url": "http://www.TripCheck.com/roadcams/cams/Santiam Pass WB_pid5258.jpg",
+        "cctv-other": "US20 at Santiam Pass",
+        "last-update-time": "2026-08-14T03:43:54.677-07:00",
+        "tripcheck_link": "https://www.tripcheck.com/Pages/View-Custom-Cameras/?CamIds=5258"
+      }
+    ],
+    "Tombstone Pass": [
+      {
+        "device-id": 332,
+        "device-name": "US20 at Tombstone",
+        "latitude": 44.39548,
+        "longitude": -122.14151,
+        "hwy-id": "016",
+        "route-id": "US20",
+        "milepoint": 63.64,
+        "cctv-url": "http://www.TripCheck.com/roadcams/cams/US20atTombstone_pid1354.jpg",
+        "cctv-other": "US20 at Tombstone",
+        "last-update-time": "2026-08-14T03:44:44.137-07:00",
+        "tripcheck_link": "https://www.tripcheck.com/Pages/View-Custom-Cameras/?CamIds=1354"
+      }
+    ],
+    "Willamette Pass": [
+      {
+        "device-id": 207,
+        "device-name": "OR58 at Willamette Pass",
+        "latitude": 43.59702,
+        "longitude": -122.03383,
+        "hwy-id": "018",
+        "route-id": "OR58",
+        "milepoint": 62.0,
+        "cctv-url": "http://www.TripCheck.com/roadcams/cams/WillamettePass_pid658.jpg",
+        "cctv-other": "OR58 at Willamette Pass",
+        "last-update-time": "2026-08-14T03:44:01.97-07:00",
+        "tripcheck_link": "https://www.tripcheck.com/Pages/View-Custom-Cameras/?CamIds=658"
+      },
+      {
+        "device-id": 721,
+        "device-name": "OR58 at Willamette Pass W",
+        "latitude": 43.59702,
+        "longitude": -122.03386,
+        "hwy-id": "018",
+        "route-id": "OR58",
+        "milepoint": 62.0,
+        "cctv-url": "http://www.TripCheck.com/roadcams/cams/Willamette Pass_pid3351.JPG",
+        "cctv-other": "OR58 at Willamette Pass",
+        "last-update-time": "2026-08-14T03:43:58.063-07:00",
+        "tripcheck_link": "https://www.tripcheck.com/Pages/View-Custom-Cameras/?CamIds=3351"
+      }
+    ]
   },
   "mtbachelor": {
     "weather": {
       "current": {
-        "temperature": 49,
+        "temperature": 50,
         "weather_icon": "dor-mostlycloudy"
       },
       "forecast": [
@@ -4278,10 +4368,10 @@
           "active": true,
           "primary": true,
           "nonstandardizedDataPoints": {
-            "depth": "143.6",
-            "timestamp": "2026-08-14T23:00:00.000Z"
+            "depth": "-0.6",
+            "timestamp": "2026-08-15T00:00:00.000Z"
           },
-          "temperature": "48.97",
+          "temperature": "49.93",
           "wind": {
             "low": "0",
             "high": "0",
@@ -4301,15 +4391,15 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-08-14T23:00:00.000Z"
+            "timestamp": "2026-08-15T00:00:00.000Z"
           },
-          "temperature": "53.88",
+          "temperature": "52.83",
           "wind": {
-            "low": "2.482",
-            "high": "6.04",
+            "low": "4.569",
+            "high": "12.3",
             "current": null,
-            "average": "2.482",
-            "direction": "SW"
+            "average": "4.569",
+            "direction": "WNW"
           },
           "humidity": null,
           "display_name": "Sunrise",
@@ -4323,17 +4413,17 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-08-14T23:00:00.000Z"
+            "timestamp": "2026-08-15T00:00:00.000Z"
           },
-          "temperature": "51.41",
+          "temperature": "49.4",
           "wind": {
-            "low": "4.029",
-            "high": "13.61",
+            "low": "5.136",
+            "high": "10.86",
             "current": null,
-            "average": "4.029",
+            "average": "5.136",
             "direction": "ESE"
           },
-          "humidity": "75.38",
+          "humidity": "76.96",
           "display_name": "Pine Marten",
           "elevation_ft": 7800
         },
@@ -4345,15 +4435,15 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-08-14T23:00:00.000Z"
+            "timestamp": "2026-08-15T00:00:00.000Z"
           },
-          "temperature": "52.62",
+          "temperature": "50.5",
           "wind": {
-            "low": "5.892",
-            "high": "9.62",
+            "low": "9.2",
+            "high": "13.87",
             "current": null,
-            "average": "5.892",
-            "direction": "NW"
+            "average": "9.2",
+            "direction": "WNW"
           },
           "humidity": null,
           "display_name": "Cloud Chaser",
