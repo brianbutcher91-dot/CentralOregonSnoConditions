@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T22:45:19.421776+00:00",
+  "generated_at": "2026-08-15T22:52:16.451679+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -914,8 +914,8 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 7,
-        "wind_direction_deg": 270,
+        "wind_speed_mph": 10.0,
+        "wind_direction_deg": 292.5,
         "snow_level_ft": 11230,
         "temp_f": 68
       },
@@ -3087,12 +3087,12 @@
     "Hoodoo": {
       "elevation_ft": 4705,
       "temp_f": 68,
-      "wind_speed_mph": 7,
-      "wind_direction_deg": 270,
+      "wind_speed_mph": 10.0,
+      "wind_direction_deg": 292.5,
       "snow_level_ft": 11230,
       "precip_chance_today": 17,
-      "snowfall_12h_in": null,
-      "snowfall_24h_in": null,
+      "snowfall_12h_in": -0.3,
+      "snowfall_24h_in": 0.0,
       "snowfall_48h_in": null
     },
     "Willamette Pass": {
@@ -4130,36 +4130,7 @@
     ]
   },
   "snotel": {
-    "Mt Bachelor area (Irish Taylor)": {
-      "snow_depth_in": 0,
-      "snow_depth_in_date": "2026-08-14",
-      "swe_in": 0.2,
-      "swe_in_date": "2026-08-14",
-      "change_12h_in": 0,
-      "change_24h_in": 0
-    },
-    "Three Creek / Tam McArthur (Three Creeks Meadow)": {
-      "snow_depth_in": 1,
-      "snow_depth_in_date": "2026-08-14",
-      "swe_in": 0.0,
-      "swe_in_date": "2026-08-14",
-      "change_12h_in": 0,
-      "change_24h_in": 0
-    },
-    "Santiam / Hoodoo (Hogg Pass)": {
-      "snow_depth_in": 0,
-      "snow_depth_in_date": "2026-08-14",
-      "swe_in": 0.1,
-      "swe_in_date": "2026-08-14",
-      "change_12h_in": 0,
-      "change_24h_in": 0
-    },
-    "Ochocos (Ochoco Meadows)": {
-      "snow_depth_in": 0,
-      "snow_depth_in_date": "2026-08-14",
-      "change_12h_in": 0,
-      "change_24h_in": 0
-    }
+    "error": "HTTPSConnectionPool(host='wcc.sc.egov.usda.gov', port=443): Max retries exceeded with url: /awdbRestApi/services/v1/data?stationTriplets=545%3AOR%3ASNTL&elements=SNWD%2CWTEQ&duration=DAILY&getFlags=false&beginDate=-1&endDate=-1 (Caused by ConnectTimeoutError(<HTTPSConnection(host='wcc.sc.egov.usda.gov', port=443) at 0x7fabe7d88950>, 'Connection to wcc.sc.egov.usda.gov timed out. (connect timeout=None)'))"
   },
   "odot_cams": {
     "Century Drive": [
@@ -4277,7 +4248,7 @@
           "weather_icon": "dor-rain",
           "id": 1786824000,
           "day": "Saturday",
-          "temperature_high": 71,
+          "temperature_high": 69,
           "temperature_low": 40,
           "precipitation_high": 44,
           "precipitation_low": 44,
@@ -4578,10 +4549,25 @@
     }
   },
   "hoodoo": {
-    "weather": {},
+    "weather": {
+      "Temperature": "64 &#176F",
+      "Wind": "WNW @ 10 MPH",
+      "Snow depth": "-0.7\"",
+      "Humidity": "65 %",
+      "Barometer": "30.34\" Hg",
+      "Rain Gauge": "0.10\""
+    },
     "snow_totals": {
-      "trend": {},
-      "season_total_in": null
+      "trend": {
+        "Max": "0.8\"",
+        "Min": "-3.6\"",
+        "1 Hr": "0.2\"",
+        "3 Hr": "-0.5\"",
+        "6 Hr": "-0.3\"",
+        "12 Hr": "-0.3\"",
+        "24 Hr": "0.0\""
+      },
+      "season_total_in": 158.5
     },
     "webcams": {
       "Base Area": {
