@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T03:05:02.841229+00:00",
+  "generated_at": "2026-08-15T03:15:16.932513+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -7,7 +7,7 @@
         {
           "number": 1,
           "name": "Tonight",
-          "startTime": "2026-08-14T19:00:00-07:00",
+          "startTime": "2026-08-14T20:00:00-07:00",
           "endTime": "2026-08-15T06:00:00-07:00",
           "isDaytime": false,
           "temperature": 47,
@@ -15,15 +15,15 @@
           "temperatureTrend": null,
           "probabilityOfPrecipitation": {
             "unitCode": "wmoUnit:percent",
-            "value": 18
+            "value": 6
           },
           "windSpeed": "3 to 7 mph",
-          "windDirection": "NE",
-          "icon": "https://api.weather.gov/icons/land/night/tsra_sct,20/bkn?size=medium",
-          "shortForecast": "Slight Chance Showers And Thunderstorms then Mostly Cloudy",
-          "detailedForecast": "A slight chance of showers and thunderstorms before 8pm. Mostly cloudy. Low around 47, with temperatures rising to around 49 overnight. Northeast wind 3 to 7 mph. Chance of precipitation is 20%. New rainfall amounts less than a tenth of an inch possible.",
+          "windDirection": "E",
+          "icon": "https://api.weather.gov/icons/land/night/bkn?size=medium",
+          "shortForecast": "Mostly Cloudy",
+          "detailedForecast": "Mostly cloudy. Low around 47, with temperatures rising to around 49 overnight. East wind 3 to 7 mph. New rainfall amounts less than a tenth of an inch possible.",
           "precipitationAmountIn": 0.01,
-          "snowLevelFt": 12030
+          "snowLevelFt": 11959
         },
         {
           "number": 2,
@@ -928,7 +928,7 @@
         {
           "number": 1,
           "name": "Tonight",
-          "startTime": "2026-08-14T19:00:00-07:00",
+          "startTime": "2026-08-14T20:00:00-07:00",
           "endTime": "2026-08-15T06:00:00-07:00",
           "isDaytime": false,
           "temperature": 50,
@@ -936,15 +936,15 @@
           "temperatureTrend": null,
           "probabilityOfPrecipitation": {
             "unitCode": "wmoUnit:percent",
-            "value": 20
+            "value": 7
           },
           "windSpeed": "8 mph",
           "windDirection": "NE",
-          "icon": "https://api.weather.gov/icons/land/night/tsra_sct,20/tsra_sct?size=medium",
+          "icon": "https://api.weather.gov/icons/land/night/smoke?size=medium",
           "shortForecast": "Patchy Smoke",
-          "detailedForecast": "Patchy smoke and a slight chance of showers and thunderstorms. Mostly cloudy, with a low around 50. Northeast wind around 8 mph. Chance of precipitation is 20%.",
+          "detailedForecast": "Patchy smoke after 11pm. Mostly cloudy, with a low around 50. Northeast wind around 8 mph.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 12135
+          "snowLevelFt": 12100
         },
         {
           "number": 2,
@@ -3079,7 +3079,7 @@
       "wind_speed_mph": 7,
       "wind_direction_deg": 300,
       "snow_level_ft": 11959,
-      "precip_chance_today": 18,
+      "precip_chance_today": 6,
       "snowfall_12h_in": null,
       "snowfall_24h_in": 0,
       "snowfall_48h_in": 0
@@ -4232,7 +4232,7 @@
     "weather": {
       "current": {
         "temperature": 59,
-        "weather_icon": "dor-mostlycloudy"
+        "weather_icon": "dor-rain"
       },
       "forecast": [
         {
@@ -4475,17 +4475,17 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-08-14T19:00:00.000Z"
+            "timestamp": "2026-08-14T20:00:00.000Z"
           },
-          "temperature": "51.22",
+          "temperature": "49.77",
           "wind": {
-            "low": "11.57",
-            "high": "18.12",
+            "low": "12.35",
+            "high": "21.7",
             "current": null,
-            "average": "11.57",
+            "average": "12.35",
             "direction": "NNW"
           },
-          "humidity": "76.48",
+          "humidity": "81.3",
           "display_name": "Summit",
           "elevation_ft": 9065
         }
@@ -4712,15 +4712,15 @@
   "satellite": {
     "Pacific Northwest": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/pnw/13/GOES18-PNW-13-600x600.gif",
-      "last_modified": "Sat, 15 Aug 2026 02:42:29 GMT"
+      "last_modified": "Sat, 15 Aug 2026 03:12:27 GMT"
     },
     "North Pacific (macro)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/np/13/GOES18-NP-13-900x540.gif",
-      "last_modified": "Sat, 15 Aug 2026 02:42:38 GMT"
+      "last_modified": "Sat, 15 Aug 2026 03:12:36 GMT"
     },
     "Pacific US (PACUS)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/13/GOES18-CONUS-13-625x375.gif",
-      "last_modified": "Sat, 15 Aug 2026 02:36:23 GMT"
+      "last_modified": "Sat, 15 Aug 2026 03:06:24 GMT"
     }
   },
   "gfs_snowfall": {
