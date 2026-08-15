@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T20:00:54.629410+00:00",
+  "generated_at": "2026-08-15T20:16:14.388690+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -2156,7 +2156,7 @@
         {
           "number": 1,
           "name": "This Afternoon",
-          "startTime": "2026-08-15T13:00:00-07:00",
+          "startTime": "2026-08-15T12:00:00-07:00",
           "endTime": "2026-08-15T18:00:00-07:00",
           "isDaytime": true,
           "temperature": 82,
@@ -3091,8 +3091,8 @@
       "wind_direction_deg": 270,
       "snow_level_ft": 11099,
       "precip_chance_today": 22,
-      "snowfall_12h_in": 0.1,
-      "snowfall_24h_in": 0.1,
+      "snowfall_12h_in": 0.0,
+      "snowfall_24h_in": 0.0,
       "snowfall_48h_in": null
     },
     "Willamette Pass": {
@@ -4134,36 +4134,7 @@
     ]
   },
   "snotel": {
-    "Mt Bachelor area (Irish Taylor)": {
-      "snow_depth_in": 0,
-      "snow_depth_in_date": "2026-08-14",
-      "swe_in": 0.2,
-      "swe_in_date": "2026-08-14",
-      "change_12h_in": 0,
-      "change_24h_in": 0
-    },
-    "Three Creek / Tam McArthur (Three Creeks Meadow)": {
-      "snow_depth_in": 1,
-      "snow_depth_in_date": "2026-08-14",
-      "swe_in": 0.0,
-      "swe_in_date": "2026-08-14",
-      "change_12h_in": 0,
-      "change_24h_in": 0
-    },
-    "Santiam / Hoodoo (Hogg Pass)": {
-      "snow_depth_in": 0,
-      "snow_depth_in_date": "2026-08-14",
-      "swe_in": 0.1,
-      "swe_in_date": "2026-08-14",
-      "change_12h_in": 0,
-      "change_24h_in": 0
-    },
-    "Ochocos (Ochoco Meadows)": {
-      "snow_depth_in": 0,
-      "snow_depth_in_date": "2026-08-14",
-      "change_12h_in": 0,
-      "change_24h_in": 0
-    }
+    "error": "HTTPSConnectionPool(host='wcc.sc.egov.usda.gov', port=443): Max retries exceeded with url: /awdbRestApi/services/v1/data?stationTriplets=545%3AOR%3ASNTL&elements=SNWD%2CWTEQ&duration=DAILY&getFlags=false&beginDate=-1&endDate=-1 (Caused by ConnectTimeoutError(<HTTPSConnection(host='wcc.sc.egov.usda.gov', port=443) at 0x7f0b9926eb70>, 'Connection to wcc.sc.egov.usda.gov timed out. (connect timeout=None)'))"
   },
   "odot_cams": {
     "Century Drive": [
@@ -4281,10 +4252,10 @@
           "weather_icon": "dor-rain",
           "id": 1786824000,
           "day": "Saturday",
-          "temperature_high": 68,
+          "temperature_high": 70,
           "temperature_low": 40,
-          "precipitation_high": 42,
-          "precipitation_low": 42,
+          "precipitation_high": 46,
+          "precipitation_low": 46,
           "wind_speed": 9,
           "wind_direction": "NW"
         },
@@ -4513,17 +4484,17 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-08-15T12:00:00.000Z"
+            "timestamp": "2026-08-15T13:00:00.000Z"
           },
-          "temperature": "52.07",
+          "temperature": "55.93",
           "wind": {
-            "low": "16",
+            "low": "13.07",
             "high": "24.38",
             "current": null,
-            "average": "16",
+            "average": "13.07",
             "direction": "NW"
           },
-          "humidity": "62.37",
+          "humidity": "59.6",
           "display_name": "Summit",
           "elevation_ft": 9065
         }
@@ -4583,10 +4554,10 @@
   },
   "hoodoo": {
     "weather": {
-      "Temperature": "59 &#176F",
+      "Temperature": "60 &#176F",
       "Wind": "West @ 7 MPH",
-      "Snow depth": "0.6\"",
-      "Humidity": "87 %",
+      "Snow depth": "0.0\"",
+      "Humidity": "78 %",
       "Barometer": "30.32\" Hg",
       "Rain Gauge": "0.10\""
     },
@@ -4594,11 +4565,11 @@
       "trend": {
         "Max": "0.8\"",
         "Min": "-3.6\"",
-        "1 Hr": "-0.3\"",
-        "3 Hr": "0.2\"",
-        "6 Hr": "0.3\"",
-        "12 Hr": "0.1\"",
-        "24 Hr": "0.1\""
+        "1 Hr": "-0.2\"",
+        "3 Hr": "0.3\"",
+        "6 Hr": "0.2\"",
+        "12 Hr": "0.0\"",
+        "24 Hr": "0.0\""
       },
       "season_total_in": 158.5
     },
@@ -4750,15 +4721,15 @@
   "satellite": {
     "Pacific Northwest": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/pnw/13/GOES18-PNW-13-600x600.gif",
-      "last_modified": "Sat, 15 Aug 2026 19:44:10 GMT"
+      "last_modified": "Sat, 15 Aug 2026 20:15:02 GMT"
     },
     "North Pacific (macro)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/np/13/GOES18-NP-13-900x540.gif",
-      "last_modified": "Sat, 15 Aug 2026 19:44:20 GMT"
+      "last_modified": "Sat, 15 Aug 2026 20:15:13 GMT"
     },
     "Pacific US (PACUS)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/13/GOES18-CONUS-13-625x375.gif",
-      "last_modified": "Sat, 15 Aug 2026 19:37:04 GMT"
+      "last_modified": "Sat, 15 Aug 2026 20:07:38 GMT"
     }
   },
   "gfs_snowfall": {
