@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T13:01:07.254044+00:00",
+  "generated_at": "2026-08-17T13:15:30.268701+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -914,8 +914,8 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 8.0,
-        "wind_direction_deg": 135,
+        "wind_speed_mph": 5.0,
+        "wind_direction_deg": 112.5,
         "snow_level_ft": 10790,
         "temp_f": 51
       },
@@ -3087,12 +3087,12 @@
     "Hoodoo": {
       "elevation_ft": 4705,
       "temp_f": 51,
-      "wind_speed_mph": 8.0,
-      "wind_direction_deg": 135,
+      "wind_speed_mph": 5.0,
+      "wind_direction_deg": 112.5,
       "snow_level_ft": 10790,
       "precip_chance_today": 3,
-      "snowfall_12h_in": 0.1,
-      "snowfall_24h_in": 0.6,
+      "snowfall_12h_in": 1.3,
+      "snowfall_24h_in": 0.0,
       "snowfall_48h_in": null
     },
     "Willamette Pass": {
@@ -3109,14 +3109,6 @@
   },
   "bachelor_timeseries": {
     "hourly": [
-      {
-        "time": "2026-08-16T06:00:00.000Z",
-        "temp_f": 50.63,
-        "wind_speed_mph": 3.863,
-        "wind_direction_deg": 159.9,
-        "precip_in": null,
-        "period": "historical"
-      },
       {
         "time": "2026-08-16T07:00:00.000Z",
         "temp_f": 50.98,
@@ -3302,12 +3294,12 @@
         "period": "historical"
       },
       {
-        "time": "2026-08-17T06:00:00+00:00",
-        "temp_f": 51.0,
-        "wind_speed_mph": 3.5,
-        "wind_direction_deg": 80,
-        "precip_in": 0.0,
-        "period": "forecast"
+        "time": "2026-08-17T06:00:00.000Z",
+        "temp_f": 54.52,
+        "wind_speed_mph": 4.685,
+        "wind_direction_deg": 163.5,
+        "precip_in": null,
+        "period": "historical"
       },
       {
         "time": "2026-08-17T07:00:00+00:00",
@@ -4573,17 +4565,17 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-08-17T05:00:00.000Z"
+            "timestamp": "2026-08-17T06:00:00.000Z"
           },
-          "temperature": "49.17",
+          "temperature": "49.38",
           "wind": {
-            "low": "6.729",
-            "high": "11.63",
+            "low": "10.2",
+            "high": "14.76",
             "current": null,
-            "average": "6.729",
-            "direction": "S"
+            "average": "10.2",
+            "direction": "SW"
           },
-          "humidity": "72.45",
+          "humidity": "72.58",
           "display_name": "Summit",
           "elevation_ft": 9065
         }
@@ -4644,8 +4636,8 @@
   "hoodoo": {
     "weather": {
       "Temperature": "61 &#176F",
-      "Wind": "SE @ 8 MPH",
-      "Snow depth": "-0.2\"",
+      "Wind": "ESE @ 5 MPH",
+      "Snow depth": "-2.4\"",
       "Humidity": "59 %",
       "Barometer": "30.39\" Hg",
       "Rain Gauge": "0.01\""
@@ -4654,11 +4646,11 @@
       "trend": {
         "Max": "0.8\"",
         "Min": "-3.5\"",
-        "1 Hr": "0.9\"",
-        "3 Hr": "0.4\"",
-        "6 Hr": "1.5\"",
-        "12 Hr": "0.1\"",
-        "24 Hr": "0.6\""
+        "1 Hr": "0.1\"",
+        "3 Hr": "-0.4\"",
+        "6 Hr": "0.3\"",
+        "12 Hr": "1.3\"",
+        "24 Hr": "0.0\""
       },
       "season_total_in": 158.5
     },
@@ -4810,15 +4802,15 @@
   "satellite": {
     "Pacific Northwest": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/pnw/13/GOES18-PNW-13-600x600.gif",
-      "last_modified": "Mon, 17 Aug 2026 12:42:18 GMT"
+      "last_modified": "Mon, 17 Aug 2026 13:13:28 GMT"
     },
     "North Pacific (macro)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/np/13/GOES18-NP-13-900x540.gif",
-      "last_modified": "Mon, 17 Aug 2026 12:42:27 GMT"
+      "last_modified": "Mon, 17 Aug 2026 13:13:37 GMT"
     },
     "Pacific US (PACUS)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/13/GOES18-CONUS-13-625x375.gif",
-      "last_modified": "Mon, 17 Aug 2026 12:36:14 GMT"
+      "last_modified": "Mon, 17 Aug 2026 13:07:39 GMT"
     }
   },
   "gfs_snowfall": {
