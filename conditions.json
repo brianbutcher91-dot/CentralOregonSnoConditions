@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T22:01:08.643247+00:00",
+  "generated_at": "2026-08-17T22:15:25.029807+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -914,8 +914,8 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 7.0,
-        "wind_direction_deg": 292.5,
+        "wind_speed_mph": 9.0,
+        "wind_direction_deg": 315,
         "snow_level_ft": 11698,
         "temp_f": 76
       },
@@ -2156,7 +2156,7 @@
         {
           "number": 1,
           "name": "This Afternoon",
-          "startTime": "2026-08-17T15:00:00-07:00",
+          "startTime": "2026-08-17T14:00:00-07:00",
           "endTime": "2026-08-17T18:00:00-07:00",
           "isDaytime": true,
           "temperature": 86,
@@ -3087,12 +3087,12 @@
     "Hoodoo": {
       "elevation_ft": 4705,
       "temp_f": 76,
-      "wind_speed_mph": 7.0,
-      "wind_direction_deg": 292.5,
+      "wind_speed_mph": 9.0,
+      "wind_direction_deg": 315,
       "snow_level_ft": 11698,
       "precip_chance_today": 3,
-      "snowfall_12h_in": 0.0,
-      "snowfall_24h_in": 0.4,
+      "snowfall_12h_in": -0.7,
+      "snowfall_24h_in": 0.0,
       "snowfall_48h_in": null
     },
     "Willamette Pass": {
@@ -3300,14 +3300,6 @@
         "wind_direction_deg": 89.4,
         "precip_in": null,
         "period": "historical"
-      },
-      {
-        "time": "2026-08-17T15:00:00+00:00",
-        "temp_f": 52.0,
-        "wind_speed_mph": 3.5,
-        "wind_direction_deg": 170,
-        "precip_in": 0.0,
-        "period": "forecast"
       },
       {
         "time": "2026-08-17T16:00:00+00:00",
@@ -4343,10 +4335,10 @@
           "weather_icon": "dor-rain",
           "id": 1786996800,
           "day": "Monday",
-          "temperature_high": 75,
+          "temperature_high": 77,
           "temperature_low": 38,
-          "precipitation_high": 33,
-          "precipitation_low": 33,
+          "precipitation_high": 34,
+          "precipitation_low": 34,
           "wind_speed": 9,
           "wind_direction": "WNW"
         },
@@ -4575,17 +4567,17 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-08-17T14:00:00.000Z"
+            "timestamp": "2026-08-17T15:00:00.000Z"
           },
-          "temperature": "56.78",
+          "temperature": "59.86",
           "wind": {
-            "low": "8.83",
-            "high": "18.57",
+            "low": "5.562",
+            "high": "14.76",
             "current": null,
-            "average": "8.83",
+            "average": "5.562",
             "direction": "SW"
           },
-          "humidity": "51.88",
+          "humidity": "55.14",
           "display_name": "Summit",
           "elevation_ft": 9065
         }
@@ -4646,8 +4638,8 @@
   "hoodoo": {
     "weather": {
       "Temperature": "67 &#176F",
-      "Wind": "WNW @ 7 MPH",
-      "Snow depth": "-1.5\"",
+      "Wind": "NW @ 9 MPH",
+      "Snow depth": "-1.2\"",
       "Humidity": "58 %",
       "Barometer": "30.39\" Hg"
     },
@@ -4655,11 +4647,11 @@
       "trend": {
         "Max": "0.4\"",
         "Min": "-3.5\"",
-        "1 Hr": "0.0\"",
-        "3 Hr": "0.1\"",
-        "6 Hr": "0.6\"",
-        "12 Hr": "0.0\"",
-        "24 Hr": "0.4\""
+        "1 Hr": "-0.5\"",
+        "3 Hr": "-0.7\"",
+        "6 Hr": "-0.3\"",
+        "12 Hr": "-0.7\"",
+        "24 Hr": "0.0\""
       },
       "season_total_in": 158.5
     },
@@ -4811,21 +4803,21 @@
   "satellite": {
     "Pacific Northwest": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/pnw/13/GOES18-PNW-13-600x600.gif",
-      "last_modified": "Mon, 17 Aug 2026 21:42:38 GMT"
+      "last_modified": "Mon, 17 Aug 2026 22:12:20 GMT"
     },
     "North Pacific (macro)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/np/13/GOES18-NP-13-900x540.gif",
-      "last_modified": "Mon, 17 Aug 2026 21:42:47 GMT"
+      "last_modified": "Mon, 17 Aug 2026 22:12:29 GMT"
     },
     "Pacific US (PACUS)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/13/GOES18-CONUS-13-625x375.gif",
-      "last_modified": "Mon, 17 Aug 2026 21:36:39 GMT"
+      "last_modified": "Mon, 17 Aug 2026 22:06:25 GMT"
     }
   },
   "gfs_snowfall": {
     "path": "gfs_snowfall_pnw.gif",
     "legend_path": "gfs_snowfall_legend.png",
-    "cycle_run_at": "2026-08-17T12:00:00+00:00",
+    "cycle_run_at": "2026-08-17T18:00:00+00:00",
     "forecast_hours": [
       3,
       6,
