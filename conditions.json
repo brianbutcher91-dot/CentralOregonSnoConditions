@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T06:30:16.672442+00:00",
+  "generated_at": "2026-08-17T06:45:17.987883+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -364,7 +364,7 @@
           "temperatureTrend": null,
           "probabilityOfPrecipitation": {
             "unitCode": "wmoUnit:percent",
-            "value": 5
+            "value": 6
           },
           "windSpeed": "5 mph",
           "windDirection": "W",
@@ -914,8 +914,8 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 1,
-        "wind_direction_deg": 280,
+        "wind_speed_mph": 9.0,
+        "wind_direction_deg": 270,
         "snow_level_ft": 11611,
         "temp_f": 56
       },
@@ -2647,7 +2647,7 @@
           "shortForecast": "Mostly Cloudy",
           "detailedForecast": "Mostly cloudy, with a low around 52.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 12667
+          "snowLevelFt": 12840
         },
         {
           "number": 10,
@@ -2689,7 +2689,7 @@
           "shortForecast": "Partly Cloudy",
           "detailedForecast": "Partly cloudy, with a low around 46.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 12303
+          "snowLevelFt": 12302
         },
         {
           "number": 12,
@@ -2710,7 +2710,7 @@
           "shortForecast": "Sunny",
           "detailedForecast": "Sunny, with a high near 80.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 11099
+          "snowLevelFt": 11098
         },
         {
           "number": 13,
@@ -2731,7 +2731,7 @@
           "shortForecast": "Mostly Clear",
           "detailedForecast": "Mostly clear, with a low around 43.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 10859
+          "snowLevelFt": 10951
         },
         {
           "number": 14,
@@ -2752,7 +2752,7 @@
           "shortForecast": "Sunny",
           "detailedForecast": "Sunny, with a high near 81.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 9999
+          "snowLevelFt": 9998
         }
       ],
       "current": {
@@ -3087,12 +3087,12 @@
     "Hoodoo": {
       "elevation_ft": 4705,
       "temp_f": 56,
-      "wind_speed_mph": 1,
-      "wind_direction_deg": 280,
+      "wind_speed_mph": 9.0,
+      "wind_direction_deg": 270,
       "snow_level_ft": 11611,
       "precip_chance_today": 1,
-      "snowfall_12h_in": null,
-      "snowfall_24h_in": null,
+      "snowfall_12h_in": 0.4,
+      "snowfall_24h_in": -0.2,
       "snowfall_48h_in": null
     },
     "Willamette Pass": {
@@ -4634,10 +4634,25 @@
     }
   },
   "hoodoo": {
-    "weather": {},
+    "weather": {
+      "Temperature": "60 &#176F",
+      "Wind": "West @ 9 MPH",
+      "Snow depth": "-1.3\"",
+      "Humidity": "45 %",
+      "Barometer": "30.45\" Hg",
+      "Rain Gauge": "0.01\""
+    },
     "snow_totals": {
-      "trend": {},
-      "season_total_in": null
+      "trend": {
+        "Max": "0.8\"",
+        "Min": "-3.5\"",
+        "1 Hr": "0.7\"",
+        "3 Hr": "0.0\"",
+        "6 Hr": "-0.1\"",
+        "12 Hr": "0.4\"",
+        "24 Hr": "-0.2\""
+      },
+      "season_total_in": 158.5
     },
     "webcams": {
       "Base Area": {
@@ -4787,15 +4802,15 @@
   "satellite": {
     "Pacific Northwest": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/pnw/13/GOES18-PNW-13-600x600.gif",
-      "last_modified": "Mon, 17 Aug 2026 06:12:26 GMT"
+      "last_modified": "Mon, 17 Aug 2026 06:42:08 GMT"
     },
     "North Pacific (macro)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/np/13/GOES18-NP-13-900x540.gif",
-      "last_modified": "Mon, 17 Aug 2026 06:12:37 GMT"
+      "last_modified": "Mon, 17 Aug 2026 06:42:17 GMT"
     },
     "Pacific US (PACUS)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/13/GOES18-CONUS-13-625x375.gif",
-      "last_modified": "Mon, 17 Aug 2026 06:06:28 GMT"
+      "last_modified": "Mon, 17 Aug 2026 06:36:10 GMT"
     }
   },
   "gfs_snowfall": {
