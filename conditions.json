@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T10:30:26.528587+00:00",
+  "generated_at": "2026-08-17T10:45:27.859287+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -914,8 +914,8 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 1,
-        "wind_direction_deg": 110,
+        "wind_speed_mph": 16.0,
+        "wind_direction_deg": 135,
         "snow_level_ft": 11306,
         "temp_f": 53
       },
@@ -1235,7 +1235,7 @@
         {
           "number": 1,
           "name": "Overnight",
-          "startTime": "2026-08-17T01:00:00-07:00",
+          "startTime": "2026-08-17T03:00:00-07:00",
           "endTime": "2026-08-17T06:00:00-07:00",
           "isDaytime": false,
           "temperature": 50,
@@ -1249,9 +1249,9 @@
           "windDirection": "ESE",
           "icon": "https://api.weather.gov/icons/land/night/smoke?size=medium",
           "shortForecast": "Patchy Smoke",
-          "detailedForecast": "Patchy smoke after 5am. Cloudy, with a low around 50. East southeast wind around 2 mph.",
+          "detailedForecast": "Patchy smoke after 5am. Mostly cloudy, with a low around 50. East southeast wind around 2 mph.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 11555
+          "snowLevelFt": 11253
         },
         {
           "number": 2,
@@ -2156,7 +2156,7 @@
         {
           "number": 1,
           "name": "Overnight",
-          "startTime": "2026-08-17T00:00:00-07:00",
+          "startTime": "2026-08-17T03:00:00-07:00",
           "endTime": "2026-08-17T06:00:00-07:00",
           "isDaytime": false,
           "temperature": 56,
@@ -2166,13 +2166,13 @@
             "unitCode": "wmoUnit:percent",
             "value": 1
           },
-          "windSpeed": "2 mph",
-          "windDirection": "W",
+          "windSpeed": "0 mph",
+          "windDirection": "",
           "icon": "https://api.weather.gov/icons/land/night/smoke?size=medium",
           "shortForecast": "Patchy Smoke",
-          "detailedForecast": "Patchy smoke. Cloudy, with a low around 56. West wind around 2 mph.",
+          "detailedForecast": "Patchy smoke. Cloudy, with a low around 56. Wind around 0 mph.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 11955
+          "snowLevelFt": 11627
         },
         {
           "number": 2,
@@ -2191,7 +2191,7 @@
           "windDirection": "N",
           "icon": "https://api.weather.gov/icons/land/day/smoke?size=medium",
           "shortForecast": "Patchy Smoke",
-          "detailedForecast": "Patchy smoke before 5pm. Partly sunny. High near 86, with temperatures falling to around 84 in the afternoon. North wind 0 to 6 mph.",
+          "detailedForecast": "Patchy smoke before 5pm. Partly sunny, with a high near 86. North wind 0 to 6 mph.",
           "precipitationAmountIn": 0.0,
           "snowLevelFt": 11323
         },
@@ -3087,12 +3087,12 @@
     "Hoodoo": {
       "elevation_ft": 4705,
       "temp_f": 53,
-      "wind_speed_mph": 1,
-      "wind_direction_deg": 110,
+      "wind_speed_mph": 16.0,
+      "wind_direction_deg": 135,
       "snow_level_ft": 11306,
       "precip_chance_today": 0,
-      "snowfall_12h_in": null,
-      "snowfall_24h_in": null,
+      "snowfall_12h_in": -0.7,
+      "snowfall_24h_in": -0.7,
       "snowfall_48h_in": null
     },
     "Willamette Pass": {
@@ -4178,6 +4178,10 @@
       {
         "time": "2026-08-17T09:45:23.239058+00:00",
         "precip_in": 0
+      },
+      {
+        "time": "2026-08-17T10:45:28.292015+00:00",
+        "precip_in": 0
       }
     ]
   },
@@ -4225,7 +4229,7 @@
         "milepoint": 21.11,
         "cctv-url": "http://www.TripCheck.com/roadcams/cams/Century Dr at MP 21.11 E_pid3545.JPG",
         "cctv-other": "Century Drive at MP 21.11",
-        "last-update-time": "2026-08-16T03:44:36.863-07:00",
+        "last-update-time": "2026-08-17T03:44:37.077-07:00",
         "tripcheck_link": "https://www.tripcheck.com/Pages/View-Custom-Cameras/?CamIds=3545"
       },
       {
@@ -4238,7 +4242,7 @@
         "milepoint": 21.11,
         "cctv-url": "http://www.TripCheck.com/roadcams/cams/Century Dr at MP 21.11 W_pid3557.JPG",
         "cctv-other": "Century Drive at MP 21.11",
-        "last-update-time": "2026-08-16T03:44:36.707-07:00",
+        "last-update-time": "2026-08-17T03:44:36.95-07:00",
         "tripcheck_link": "https://www.tripcheck.com/Pages/View-Custom-Cameras/?CamIds=3557"
       }
     ],
@@ -4253,7 +4257,7 @@
         "milepoint": 80.14,
         "cctv-url": "http://www.TripCheck.com/roadcams/cams/Santiam Pass_pid2728.JPG",
         "cctv-other": "US20 at Santiam Pass",
-        "last-update-time": "2026-08-16T03:44:29.353-07:00",
+        "last-update-time": "2026-08-17T03:44:29.11-07:00",
         "tripcheck_link": "https://www.tripcheck.com/Pages/View-Custom-Cameras/?CamIds=2728"
       },
       {
@@ -4266,7 +4270,7 @@
         "milepoint": 80.14,
         "cctv-url": "http://www.TripCheck.com/roadcams/cams/Santiam Pass WB_pid5258.jpg",
         "cctv-other": "US20 at Santiam Pass",
-        "last-update-time": "2026-08-16T03:44:29.353-07:00",
+        "last-update-time": "2026-08-17T03:44:29.127-07:00",
         "tripcheck_link": "https://www.tripcheck.com/Pages/View-Custom-Cameras/?CamIds=5258"
       }
     ],
@@ -4281,7 +4285,7 @@
         "milepoint": 63.64,
         "cctv-url": "http://www.TripCheck.com/roadcams/cams/US20atTombstone_pid1354.jpg",
         "cctv-other": "US20 at Tombstone",
-        "last-update-time": "2026-08-16T03:44:58.46-07:00",
+        "last-update-time": "2026-08-17T03:44:27.887-07:00",
         "tripcheck_link": "https://www.tripcheck.com/Pages/View-Custom-Cameras/?CamIds=1354"
       }
     ],
@@ -4296,7 +4300,7 @@
         "milepoint": 62.0,
         "cctv-url": "http://www.TripCheck.com/roadcams/cams/WillamettePass_pid658.jpg",
         "cctv-other": "OR58 at Willamette Pass",
-        "last-update-time": "2026-08-16T03:44:35.953-07:00",
+        "last-update-time": "2026-08-17T03:44:36.387-07:00",
         "tripcheck_link": "https://www.tripcheck.com/Pages/View-Custom-Cameras/?CamIds=658"
       },
       {
@@ -4309,7 +4313,7 @@
         "milepoint": 62.0,
         "cctv-url": "http://www.TripCheck.com/roadcams/cams/Willamette Pass_pid3351.JPG",
         "cctv-other": "OR58 at Willamette Pass",
-        "last-update-time": "2026-08-16T03:44:31.957-07:00",
+        "last-update-time": "2026-08-17T03:44:36.37-07:00",
         "tripcheck_link": "https://www.tripcheck.com/Pages/View-Custom-Cameras/?CamIds=3351"
       }
     ]
@@ -4630,10 +4634,25 @@
     }
   },
   "hoodoo": {
-    "weather": {},
+    "weather": {
+      "Temperature": "61 &#176F",
+      "Wind": "SE @ 16 MPH",
+      "Snow depth": "-0.9\"",
+      "Humidity": "60 %",
+      "Barometer": "30.40\" Hg",
+      "Rain Gauge": "0.01\""
+    },
     "snow_totals": {
-      "trend": {},
-      "season_total_in": null
+      "trend": {
+        "Max": "0.8\"",
+        "Min": "-3.5\"",
+        "1 Hr": "-0.4\"",
+        "3 Hr": "-0.2\"",
+        "6 Hr": "1.1\"",
+        "12 Hr": "-0.7\"",
+        "24 Hr": "-0.7\""
+      },
+      "season_total_in": 158.5
     },
     "webcams": {
       "Base Area": {
@@ -4783,15 +4802,15 @@
   "satellite": {
     "Pacific Northwest": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/pnw/13/GOES18-PNW-13-600x600.gif",
-      "last_modified": "Mon, 17 Aug 2026 10:12:11 GMT"
+      "last_modified": "Mon, 17 Aug 2026 10:41:51 GMT"
     },
     "North Pacific (macro)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/np/13/GOES18-NP-13-900x540.gif",
-      "last_modified": "Mon, 17 Aug 2026 10:12:27 GMT"
+      "last_modified": "Mon, 17 Aug 2026 10:42:00 GMT"
     },
     "Pacific US (PACUS)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/13/GOES18-CONUS-13-625x375.gif",
-      "last_modified": "Mon, 17 Aug 2026 10:06:21 GMT"
+      "last_modified": "Mon, 17 Aug 2026 10:36:06 GMT"
     }
   },
   "gfs_snowfall": {
