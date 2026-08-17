@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T15:15:18.181395+00:00",
+  "generated_at": "2026-08-17T15:30:17.108417+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -914,8 +914,8 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 6.0,
-        "wind_direction_deg": 90,
+        "wind_speed_mph": 8.0,
+        "wind_direction_deg": 135,
         "snow_level_ft": 10859,
         "temp_f": 56
       },
@@ -3087,12 +3087,12 @@
     "Hoodoo": {
       "elevation_ft": 4705,
       "temp_f": 56,
-      "wind_speed_mph": 6.0,
-      "wind_direction_deg": 90,
+      "wind_speed_mph": 8.0,
+      "wind_direction_deg": 135,
       "snow_level_ft": 10859,
       "precip_chance_today": 3,
-      "snowfall_12h_in": -0.5,
-      "snowfall_24h_in": -0.9,
+      "snowfall_12h_in": 1.3,
+      "snowfall_24h_in": -0.4,
       "snowfall_48h_in": null
     },
     "Willamette Pass": {
@@ -3109,14 +3109,6 @@
   },
   "bachelor_timeseries": {
     "hourly": [
-      {
-        "time": "2026-08-16T08:00:00.000Z",
-        "temp_f": 53.22,
-        "wind_speed_mph": 4.865,
-        "wind_direction_deg": 94.1,
-        "precip_in": null,
-        "period": "historical"
-      },
       {
         "time": "2026-08-16T09:00:00.000Z",
         "temp_f": 53.67,
@@ -3302,12 +3294,12 @@
         "period": "historical"
       },
       {
-        "time": "2026-08-17T08:00:00+00:00",
-        "temp_f": 51.0,
-        "wind_speed_mph": 2.3,
-        "wind_direction_deg": 60,
-        "precip_in": 0.0,
-        "period": "forecast"
+        "time": "2026-08-17T08:00:00.000Z",
+        "temp_f": 55.39,
+        "wind_speed_mph": 6.441,
+        "wind_direction_deg": 152.5,
+        "precip_in": null,
+        "period": "historical"
       },
       {
         "time": "2026-08-17T09:00:00+00:00",
@@ -4194,44 +4186,113 @@
     ]
   },
   "snotel": {
-    "Mt Bachelor area (Irish Taylor)": {
-      "snow_depth_in": 0,
-      "snow_depth_in_date": "2026-08-16",
-      "swe_in": 0.2,
-      "swe_in_date": "2026-08-16",
-      "change_12h_in": 0,
-      "change_24h_in": 0
-    },
-    "Three Creek / Tam McArthur (Three Creeks Meadow)": {
-      "snow_depth_in": 0,
-      "snow_depth_in_date": "2026-08-16",
-      "swe_in": 0.0,
-      "swe_in_date": "2026-08-16",
-      "change_12h_in": 0,
-      "change_24h_in": 0
-    },
-    "Santiam / Hoodoo (Hogg Pass)": {
-      "snow_depth_in": 0,
-      "snow_depth_in_date": "2026-08-16",
-      "swe_in": 0.0,
-      "swe_in_date": "2026-08-16",
-      "change_12h_in": 0,
-      "change_24h_in": 0
-    },
-    "Ochocos (Ochoco Meadows)": {
-      "snow_depth_in": 0,
-      "snow_depth_in_date": "2026-08-16",
-      "change_12h_in": 0,
-      "change_24h_in": 0
-    }
+    "error": "HTTPSConnectionPool(host='wcc.sc.egov.usda.gov', port=443): Max retries exceeded with url: /awdbRestApi/services/v1/data?stationTriplets=545%3AOR%3ASNTL&elements=SNWD%2CWTEQ&duration=DAILY&getFlags=false&beginDate=-1&endDate=-1 (Caused by ConnectTimeoutError(<HTTPSConnection(host='wcc.sc.egov.usda.gov', port=443) at 0x7f15e64bd880>, 'Connection to wcc.sc.egov.usda.gov timed out. (connect timeout=None)'))"
   },
   "odot_cams": {
-    "error": "HTTPSConnectionPool(host='api.odot.state.or.us', port=443): Max retries exceeded with url: /tripcheck/Cctv/Inventory?DeviceName=Century+Dr (Caused by NameResolutionError(\"HTTPSConnection(host='api.odot.state.or.us', port=443): Failed to resolve 'api.odot.state.or.us' ([Errno -5] No address associated with hostname)\"))"
+    "Century Drive": [
+      {
+        "device-id": 768,
+        "device-name": "Century Dr at MP 21.11 E",
+        "latitude": 43.99178,
+        "longitude": -121.65663,
+        "hwy-id": "",
+        "route-id": "CITY",
+        "milepoint": 21.11,
+        "cctv-url": "http://www.TripCheck.com/roadcams/cams/Century Dr at MP 21.11 E_pid3545.JPG",
+        "cctv-other": "Century Drive at MP 21.11",
+        "last-update-time": "2026-08-17T03:44:37.077-07:00",
+        "tripcheck_link": "https://www.tripcheck.com/Pages/View-Custom-Cameras/?CamIds=3545"
+      },
+      {
+        "device-id": 771,
+        "device-name": "Century Dr at MP 21.11 W",
+        "latitude": 43.99178,
+        "longitude": -121.65663,
+        "hwy-id": "",
+        "route-id": "CITY",
+        "milepoint": 21.11,
+        "cctv-url": "http://www.TripCheck.com/roadcams/cams/Century Dr at MP 21.11 W_pid3557.JPG",
+        "cctv-other": "Century Drive at MP 21.11",
+        "last-update-time": "2026-08-17T03:44:36.95-07:00",
+        "tripcheck_link": "https://www.tripcheck.com/Pages/View-Custom-Cameras/?CamIds=3557"
+      }
+    ],
+    "Santiam Pass": [
+      {
+        "device-id": 567,
+        "device-name": "Santiam Pass EB",
+        "latitude": 44.422,
+        "longitude": -121.85731,
+        "hwy-id": "016",
+        "route-id": "US20",
+        "milepoint": 80.14,
+        "cctv-url": "http://www.TripCheck.com/roadcams/cams/Santiam Pass_pid2728.JPG",
+        "cctv-other": "US20 at Santiam Pass",
+        "last-update-time": "2026-08-17T03:44:29.11-07:00",
+        "tripcheck_link": "https://www.tripcheck.com/Pages/View-Custom-Cameras/?CamIds=2728"
+      },
+      {
+        "device-id": 1443,
+        "device-name": "Santiam Pass WB",
+        "latitude": 44.422,
+        "longitude": -121.8573,
+        "hwy-id": "016",
+        "route-id": "US20",
+        "milepoint": 80.14,
+        "cctv-url": "http://www.TripCheck.com/roadcams/cams/Santiam Pass WB_pid5258.jpg",
+        "cctv-other": "US20 at Santiam Pass",
+        "last-update-time": "2026-08-17T03:44:29.127-07:00",
+        "tripcheck_link": "https://www.tripcheck.com/Pages/View-Custom-Cameras/?CamIds=5258"
+      }
+    ],
+    "Tombstone Pass": [
+      {
+        "device-id": 332,
+        "device-name": "US20 at Tombstone",
+        "latitude": 44.39548,
+        "longitude": -122.14151,
+        "hwy-id": "016",
+        "route-id": "US20",
+        "milepoint": 63.64,
+        "cctv-url": "http://www.TripCheck.com/roadcams/cams/US20atTombstone_pid1354.jpg",
+        "cctv-other": "US20 at Tombstone",
+        "last-update-time": "2026-08-17T03:44:27.887-07:00",
+        "tripcheck_link": "https://www.tripcheck.com/Pages/View-Custom-Cameras/?CamIds=1354"
+      }
+    ],
+    "Willamette Pass": [
+      {
+        "device-id": 207,
+        "device-name": "OR58 at Willamette Pass",
+        "latitude": 43.59702,
+        "longitude": -122.03383,
+        "hwy-id": "018",
+        "route-id": "OR58",
+        "milepoint": 62.0,
+        "cctv-url": "http://www.TripCheck.com/roadcams/cams/WillamettePass_pid658.jpg",
+        "cctv-other": "OR58 at Willamette Pass",
+        "last-update-time": "2026-08-17T03:44:36.387-07:00",
+        "tripcheck_link": "https://www.tripcheck.com/Pages/View-Custom-Cameras/?CamIds=658"
+      },
+      {
+        "device-id": 721,
+        "device-name": "OR58 at Willamette Pass W",
+        "latitude": 43.59702,
+        "longitude": -122.03386,
+        "hwy-id": "018",
+        "route-id": "OR58",
+        "milepoint": 62.0,
+        "cctv-url": "http://www.TripCheck.com/roadcams/cams/Willamette Pass_pid3351.JPG",
+        "cctv-other": "OR58 at Willamette Pass",
+        "last-update-time": "2026-08-17T03:44:36.37-07:00",
+        "tripcheck_link": "https://www.tripcheck.com/Pages/View-Custom-Cameras/?CamIds=3351"
+      }
+    ]
   },
   "mtbachelor": {
     "weather": {
       "current": {
-        "temperature": 48,
+        "temperature": 50,
         "weather_icon": "dor-mostlycloudy"
       },
       "forecast": [
@@ -4245,8 +4306,8 @@
           "day": "Monday",
           "temperature_high": 77,
           "temperature_low": 40,
-          "precipitation_high": 31,
-          "precipitation_low": 31,
+          "precipitation_high": 30,
+          "precipitation_low": 30,
           "wind_speed": 10,
           "wind_direction": "WNW"
         },
@@ -4364,10 +4425,10 @@
           "active": true,
           "primary": true,
           "nonstandardizedDataPoints": {
-            "depth": "-0.582",
-            "timestamp": "2026-08-17T07:00:00.000Z"
+            "depth": "-1.395",
+            "timestamp": "2026-08-17T08:00:00.000Z"
           },
-          "temperature": "47.85",
+          "temperature": "50.42",
           "wind": {
             "low": "0",
             "high": "0",
@@ -4387,14 +4448,14 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-08-17T07:00:00.000Z"
+            "timestamp": "2026-08-17T08:00:00.000Z"
           },
-          "temperature": "55.24",
+          "temperature": "57.43",
           "wind": {
-            "low": "6.271",
-            "high": "8.72",
+            "low": "6.267",
+            "high": "13.2",
             "current": null,
-            "average": "6.271",
+            "average": "6.267",
             "direction": "S"
           },
           "humidity": null,
@@ -4409,17 +4470,17 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-08-17T07:00:00.000Z"
+            "timestamp": "2026-08-17T08:00:00.000Z"
           },
-          "temperature": "54.23",
+          "temperature": "54.61",
           "wind": {
-            "low": "10.55",
-            "high": "14.68",
+            "low": "11",
+            "high": "20.54",
             "current": null,
-            "average": "10.55",
+            "average": "11",
             "direction": "SW"
           },
-          "humidity": "62.22",
+          "humidity": "61.06",
           "display_name": "Pine Marten",
           "elevation_ft": 7800
         },
@@ -4431,14 +4492,14 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-08-17T07:00:00.000Z"
+            "timestamp": "2026-08-17T08:00:00.000Z"
           },
-          "temperature": "54.86",
+          "temperature": "55.39",
           "wind": {
-            "low": "6.541",
-            "high": "10.07",
+            "low": "6.441",
+            "high": "11.41",
             "current": null,
-            "average": "6.541",
+            "average": "6.441",
             "direction": "SSE"
           },
           "humidity": null,
@@ -4492,14 +4553,14 @@
       }
     },
     "latest_report": {
-      "id": "6b5dad30-884e-4838-be0f-83d6e8aef7b1",
-      "name": "Snow Report 2026-08-11 16:40:25",
-      "date": "2026-08-11 16:40:25",
+      "id": "1ceebc9b-c853-4434-8f3a-28769d6ee526",
+      "name": "Snow Report 2026-08-17 08:14:36",
+      "date": "2026-08-17 08:14:36",
       "location": {
         "uuid": "d23b232c-529b-4408-9a10-602ab79c548a",
         "name": "Primary"
       },
-      "report": "<p><strong>August 10 - 16</strong></p><p>The <a href=\"https://forecast.weather.gov/MapClick.php?lon=-121.67019367218019&amp;lat=43.97341445519288#.YYloWmDMI2x\"><strong>forecast </strong></a>this week calls for sunshine and temperatures in the 70's, then a chance of rain and thunderstorms starting Friday. Check the <a href=\"https://www.mtbachelor.com/the-mountain/lift-trail-report/\"><strong>Lift &amp; Trail Status page</strong></a> for the full list of available Bike Park and hiking trails.&nbsp;</p><p><strong>Events</strong></p><p>This week is packed with events, starting with the <a href=\"https://www.mtbachelor.com/events-activities/events/events-calendar/grand-opening-party/\"><strong>Grand Opening Party</strong></a> at the Trailhead Lodge on Wednesday. Thursday brings <a href=\"https://www.mtbachelor.com/events-activities/events/events-calendar/yoga-in-the-wild-4/\"><strong>Yoga in the Wild</strong></a>, <a href=\"https://www.mtbachelor.com/events-activities/events/events-calendar/lady-laps-2/\"><strong>Lady Laps - Redline Takeover</strong></a>, and <a href=\"https://www.mtbachelor.com/events-activities/events/events-calendar/\"><strong>Autocross</strong></a> in the West Village parking lot. <a href=\"https://www.mtbachelor.com/events-activities/events/events-calendar/friday-night-races-4/\"><strong>Friday Night Race #4</strong></a> takes place on Hot Dust, kicking off a great weekend with <a href=\"https://www.mtbachelor.com/events-activities/events/events-calendar/music-series-3/\"><strong>live music by Dry Canyon Stampede</strong></a> on Saturday followed by <a href=\"https://www.mtbachelor.com/events-activities/events/events-calendar/little-rollers-3/\"><strong>Little Rollers </strong></a>on Sunday. Visit the <a href=\"https://www.mtbachelor.com/events-activities/events/events-calendar/\"><strong>Events Page&nbsp;</strong></a>to learn more about upcoming happenings.</p><p><strong>Please Note:</strong></p><ul><li><em>Mt. Bachelor allows&nbsp;</em><a href=\"https://transitbikes.com/blog/class-1-ebike-explained/\"><strong>Class-1 pedal-assist e-mountain bikes</strong></a><strong>&nbsp;</strong>o<em>n its downhill Bike Park trails. Class 2 and 3 e-bikes are prohibited. Mt. Bachelor continues to welcome the use of adaptive e-bikes.</em></li><li><em>Uphill riding is prohibited on all Mt. Bachelor trails and service roads, and all users must have a valid&nbsp;</em><a href=\"https://www.mtbachelor.com/tickets-passes/summer-tickets-passes/#daily\"><em><strong>lift ticket or pass</strong></em></a><em> to enjoy the Bike Park.\u202f</em></li><li><em>Smoking and vaping are not permitted anywhere at Mt. Bachelor, except inside personal vehicles.</em></li></ul><p><a href=\"https://www.mtbachelor.com/events-activities/summer-activities/\"><em><strong>Summer activities</strong></em></a><em><strong> </strong>at Mt. Bachelor include Bike Park, a zipline ZipTour, Sunset Dinners, scenic chairlift rides, camping, hiking, dining, and disc golf. Mt. Bachelor also has a licensed </em><a href=\"https://www.mtbachelor.com/amenities-groups/childcare/\"><em><strong>Childcare Center</strong></em></a><em><strong> </strong>and </em><a href=\"https://www.mtbachelor.com/lessons-rentals/kids-camps/\"><em><strong>Kids Bike Camps</strong></em></a><em>. Plus, Sun Country Tours is in full swing, offering a variety of half and full-day </em><a href=\"https://www.suncountrytours.com/whitewater-rafting/choose-your-trip/compare/\"><em><strong>whitewater rafting adventures</strong></em></a><em><strong> </strong>and </em><a href=\"https://www.suncountrytours.com/tubing-sup/river-tube/\"><em><strong>river tube rentals</strong></em></a><em><strong> </strong>including transportation to and from the water via electric golf cart shuttles.</em></p>",
+      "report": "<p><strong>August 17 - 23</strong></p><p>The <a href=\"https://forecast.weather.gov/MapClick.php?lon=-121.67019367218019&amp;lat=43.97341445519288#.YYloWmDMI2x\"><strong>forecast </strong></a>this week calls for partly cloudy skies and a chance of thunderstorms Monday afternoon, then lows in the 50's and highs in the 70's through Thursday. Starting Friday, we see another chance of rain and thunderstorms with temps dipping into the 40's. Check the <a href=\"https://www.mtbachelor.com/the-mountain/lift-trail-report/\"><strong>Lift &amp; Trail Status page</strong></a> for the full list of available Bike Park and hiking trails.&nbsp;</p><p><strong>Events</strong></p><p>This week is once again packed with events, starting with the <a href=\"https://www.mtbachelor.com/events-activities/events/events-calendar/august-passholder-party/\"><strong>August Passholder Party at Crux</strong></a> on Wednesday followed by <a href=\"https://www.mtbachelor.com/events-activities/events/events-calendar/yoga-in-the-wild-5/\"><strong>Yoga in the Wild</strong></a> on Thursday. <a href=\"https://www.mtbachelor.com/events-activities/events/events-calendar/friday-night-races-5/\"><strong>Friday Night Race #5 </strong></a>takes place on Rattlesnake and Big Wood. The weekend kicks off with <a href=\"https://www.mtbachelor.com/events-activities/events/events-calendar/moon-booter-madness/\"><strong>Moonbooter Madness</strong></a>, a new Bike Park competition where the winners in each category earn an invite to <a href=\"https://www.mtbachelor.com/events-activities/events/events-calendar/redline-rally/\"><strong>Redline Rally</strong></a><strong>. </strong>Also on Saturday, enjoy <a href=\"https://www.mtbachelor.com/events-activities/events/events-calendar/music-series-4/\"><strong>live music by Oregon Fryer</strong></a>. To wrap up the weekend, join us for <a href=\"https://www.mtbachelor.com/events-activities/events/events-calendar/little-rollers-4/\"><strong>Little Rollers </strong></a>on Sunday. Visit the <a href=\"https://www.mtbachelor.com/events-activities/events/events-calendar/\"><strong>Events Page&nbsp;</strong></a>to learn more about upcoming happenings.</p><p><strong>Please Note:</strong></p><ul><li><em>Mt. Bachelor allows&nbsp;</em><a href=\"https://transitbikes.com/blog/class-1-ebike-explained/\"><strong>Class-1 pedal-assist e-mountain bikes</strong></a><strong>&nbsp;</strong>o<em>n its downhill Bike Park trails. Class 2 and 3 e-bikes are prohibited. Mt. Bachelor continues to welcome the use of adaptive e-bikes.</em></li><li><em>Uphill riding is prohibited on all Mt. Bachelor trails and service roads, and all users must have a valid&nbsp;</em><a href=\"https://www.mtbachelor.com/tickets-passes/summer-tickets-passes/#daily\"><em><strong>lift ticket or pass</strong></em></a><em> to enjoy the Bike Park.\u202f</em></li><li><em>Smoking and vaping are not permitted anywhere at Mt. Bachelor, except inside personal vehicles.</em></li></ul><p><a href=\"https://www.mtbachelor.com/events-activities/summer-activities/\"><em><strong>Summer activities</strong></em></a><em><strong> </strong>at Mt. Bachelor include Bike Park, a zipline ZipTour, Sunset Dinners, scenic chairlift rides, camping, hiking, dining, and disc golf. Mt. Bachelor also has a licensed </em><a href=\"https://www.mtbachelor.com/amenities-groups/childcare/\"><em><strong>Childcare Center</strong></em></a><em><strong> </strong>and </em><a href=\"https://www.mtbachelor.com/lessons-rentals/kids-camps/\"><em><strong>Kids Bike Camps</strong></em></a><em>. Plus, Sun Country Tours is in full swing, offering a variety of half and full-day </em><a href=\"https://www.suncountrytours.com/whitewater-rafting/choose-your-trip/compare/\"><em><strong>whitewater rafting adventures</strong></em></a><em><strong> </strong>and </em><a href=\"https://www.suncountrytours.com/tubing-sup/river-tube/\"><em><strong>river tube rentals</strong></em></a><em><strong> </strong>including transportation to and from the water via electric golf cart shuttles.</em></p>",
       "amount": 0,
       "overnight_amount": 0,
       "base_depth": 0,
@@ -4508,8 +4569,8 @@
         "name": "",
         "image": ""
       },
-      "created": 1786664537,
-      "updated": 1786804774,
+      "created": 1786979685,
+      "updated": 1786979781,
       "computed": {
         "24_hour": 0,
         "48_hour": 0,
@@ -4546,9 +4607,9 @@
   "hoodoo": {
     "weather": {
       "Temperature": "62 &#176F",
-      "Wind": "East @ 6 MPH",
-      "Snow depth": "-2.3\"",
-      "Humidity": "57 %",
+      "Wind": "SE @ 8 MPH",
+      "Snow depth": "-1.3\"",
+      "Humidity": "58 %",
       "Barometer": "30.37\" Hg",
       "Rain Gauge": "0.01\""
     },
@@ -4556,11 +4617,11 @@
       "trend": {
         "Max": "0.8\"",
         "Min": "-3.5\"",
-        "1 Hr": "-1.4\"",
-        "3 Hr": "-1.3\"",
-        "6 Hr": "-1.9\"",
-        "12 Hr": "-0.5\"",
-        "24 Hr": "-0.9\""
+        "1 Hr": "1.0\"",
+        "3 Hr": "0.4\"",
+        "6 Hr": "-0.3\"",
+        "12 Hr": "1.3\"",
+        "24 Hr": "-0.4\""
       },
       "season_total_in": 158.5
     },
