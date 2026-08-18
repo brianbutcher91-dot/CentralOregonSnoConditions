@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T18:15:26.710862+00:00",
+  "generated_at": "2026-08-18T18:30:21.383440+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -914,8 +914,8 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 6,
-        "wind_direction_deg": 270,
+        "wind_speed_mph": 7.0,
+        "wind_direction_deg": 292.5,
         "snow_level_ft": 10315,
         "temp_f": 67
       },
@@ -3087,12 +3087,12 @@
     "Hoodoo": {
       "elevation_ft": 4705,
       "temp_f": 67,
-      "wind_speed_mph": 6,
-      "wind_direction_deg": 270,
+      "wind_speed_mph": 7.0,
+      "wind_direction_deg": 292.5,
       "snow_level_ft": 10315,
       "precip_chance_today": 0,
-      "snowfall_12h_in": null,
-      "snowfall_24h_in": null,
+      "snowfall_12h_in": 1.8,
+      "snowfall_24h_in": 1.1,
       "snowfall_48h_in": null
     },
     "Willamette Pass": {
@@ -4186,36 +4186,7 @@
     ]
   },
   "snotel": {
-    "Mt Bachelor area (Irish Taylor)": {
-      "snow_depth_in": 0,
-      "snow_depth_in_date": "2026-08-17",
-      "swe_in": 0.2,
-      "swe_in_date": "2026-08-17",
-      "change_12h_in": 0,
-      "change_24h_in": 0
-    },
-    "Three Creek / Tam McArthur (Three Creeks Meadow)": {
-      "snow_depth_in": 1,
-      "snow_depth_in_date": "2026-08-17",
-      "swe_in": 0.0,
-      "swe_in_date": "2026-08-17",
-      "change_12h_in": 0,
-      "change_24h_in": 0
-    },
-    "Santiam / Hoodoo (Hogg Pass)": {
-      "snow_depth_in": 0,
-      "snow_depth_in_date": "2026-08-17",
-      "swe_in": 0.0,
-      "swe_in_date": "2026-08-17",
-      "change_12h_in": 0,
-      "change_24h_in": 0
-    },
-    "Ochocos (Ochoco Meadows)": {
-      "snow_depth_in": 0,
-      "snow_depth_in_date": "2026-08-17",
-      "change_12h_in": 0,
-      "change_24h_in": 0
-    }
+    "error": "HTTPSConnectionPool(host='wcc.sc.egov.usda.gov', port=443): Max retries exceeded with url: /awdbRestApi/services/v1/data?stationTriplets=545%3AOR%3ASNTL&elements=SNWD%2CWTEQ&duration=DAILY&getFlags=false&beginDate=-1&endDate=-1 (Caused by ConnectTimeoutError(<HTTPSConnection(host='wcc.sc.egov.usda.gov', port=443) at 0x7fbaface0590>, 'Connection to wcc.sc.egov.usda.gov timed out. (connect timeout=None)'))"
   },
   "odot_cams": {
     "Century Drive": [
@@ -4321,7 +4292,7 @@
   "mtbachelor": {
     "weather": {
       "current": {
-        "temperature": 64,
+        "temperature": 72,
         "weather_icon": "dor-sunny"
       },
       "forecast": [
@@ -4342,18 +4313,18 @@
         },
         {
           "date": "2026-08-19",
-          "description_long": "broken clouds",
-          "description_short": "broken clouds",
+          "description_long": "scattered clouds",
+          "description_short": "scattered clouds",
           "details": "Clouds",
-          "weather_icon": "dor-mostlycloudy",
+          "weather_icon": "dor-cloudy",
           "id": 1787169600,
           "day": "Wednesday",
-          "temperature_high": 79,
-          "temperature_low": 40,
-          "precipitation_high": 15,
-          "precipitation_low": 15,
-          "wind_speed": 8,
-          "wind_direction": "WNW"
+          "temperature_high": 78,
+          "temperature_low": 41,
+          "precipitation_high": 16,
+          "precipitation_low": 16,
+          "wind_speed": 9,
+          "wind_direction": "NW"
         },
         {
           "date": "2026-08-20",
@@ -4364,7 +4335,7 @@
           "id": 1787256000,
           "day": "Thursday",
           "temperature_high": 83,
-          "temperature_low": 55,
+          "temperature_low": 44,
           "precipitation_high": 17,
           "precipitation_low": 17,
           "wind_speed": 11,
@@ -4454,10 +4425,10 @@
           "active": true,
           "primary": true,
           "nonstandardizedDataPoints": {
-            "depth": "-0.4",
-            "timestamp": "2026-08-18T10:00:00.000Z"
+            "depth": "-1.249",
+            "timestamp": "2026-08-18T11:00:00.000Z"
           },
-          "temperature": "64.15",
+          "temperature": "71.95",
           "wind": {
             "low": "0",
             "high": "0",
@@ -4477,15 +4448,15 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-08-18T10:00:00.000Z"
+            "timestamp": "2026-08-18T11:00:00.000Z"
           },
-          "temperature": "64.7",
+          "temperature": "65.27",
           "wind": {
-            "low": "4.5",
-            "high": "14.99",
+            "low": "6.673",
+            "high": "16.11",
             "current": null,
-            "average": "4.5",
-            "direction": "NNE"
+            "average": "6.673",
+            "direction": "NW"
           },
           "humidity": null,
           "display_name": "Sunrise",
@@ -4499,17 +4470,17 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-08-18T10:00:00.000Z"
+            "timestamp": "2026-08-18T11:00:00.000Z"
           },
-          "temperature": "60.08",
+          "temperature": "61.7",
           "wind": {
-            "low": "4.203",
-            "high": "9.32",
+            "low": "4.69",
+            "high": "10.8",
             "current": null,
-            "average": "4.203",
-            "direction": "WNW"
+            "average": "4.69",
+            "direction": "NW"
           },
-          "humidity": "21.18",
+          "humidity": "23.35",
           "display_name": "Pine Marten",
           "elevation_ft": 7800
         },
@@ -4521,14 +4492,14 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-08-18T10:00:00.000Z"
+            "timestamp": "2026-08-18T11:00:00.000Z"
           },
-          "temperature": "60.71",
+          "temperature": "61.92",
           "wind": {
-            "low": "5.567",
-            "high": "13.42",
+            "low": "7.598",
+            "high": "17",
             "current": null,
-            "average": "5.567",
+            "average": "7.598",
             "direction": "NE"
           },
           "humidity": null,
@@ -4634,10 +4605,24 @@
     }
   },
   "hoodoo": {
-    "weather": {},
+    "weather": {
+      "Temperature": "66 &#176F",
+      "Wind": "WNW @ 7 MPH",
+      "Snow depth": "-1.3\"",
+      "Humidity": "29 %",
+      "Barometer": "30.40\" Hg"
+    },
     "snow_totals": {
-      "trend": {},
-      "season_total_in": null
+      "trend": {
+        "Max": "0.4\"",
+        "Min": "-3.4\"",
+        "1 Hr": "0.5\"",
+        "3 Hr": "0.6\"",
+        "6 Hr": "0.2\"",
+        "12 Hr": "1.8\"",
+        "24 Hr": "1.1\""
+      },
+      "season_total_in": 158.5
     },
     "webcams": {
       "Base Area": {
