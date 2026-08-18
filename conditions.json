@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T12:00:38.699600+00:00",
+  "generated_at": "2026-08-18T12:15:18.899856+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -914,8 +914,8 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 11.0,
-        "wind_direction_deg": 270,
+        "wind_speed_mph": 8.0,
+        "wind_direction_deg": 247.5,
         "snow_level_ft": 10420,
         "temp_f": 50
       },
@@ -2156,7 +2156,7 @@
         {
           "number": 1,
           "name": "Overnight",
-          "startTime": "2026-08-18T05:00:00-07:00",
+          "startTime": "2026-08-18T04:00:00-07:00",
           "endTime": "2026-08-18T06:00:00-07:00",
           "isDaytime": false,
           "temperature": 56,
@@ -2169,10 +2169,10 @@
           "windSpeed": "3 mph",
           "windDirection": "SW",
           "icon": "https://api.weather.gov/icons/land/night/smoke?size=medium",
-          "shortForecast": "Patchy Smoke",
-          "detailedForecast": "Patchy smoke. Mostly clear, with a low around 56. Southwest wind around 3 mph.",
+          "shortForecast": "Areas Of Smoke",
+          "detailedForecast": "Areas of smoke. Mostly clear, with a low around 56. Southwest wind around 3 mph.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 11266
+          "snowLevelFt": 11804
         },
         {
           "number": 2,
@@ -3087,12 +3087,12 @@
     "Hoodoo": {
       "elevation_ft": 4705,
       "temp_f": 50,
-      "wind_speed_mph": 11.0,
-      "wind_direction_deg": 270,
+      "wind_speed_mph": 8.0,
+      "wind_direction_deg": 247.5,
       "snow_level_ft": 10420,
       "precip_chance_today": 0,
-      "snowfall_12h_in": 1.1,
-      "snowfall_24h_in": 1.0,
+      "snowfall_12h_in": 0.3,
+      "snowfall_24h_in": 0.3,
       "snowfall_48h_in": null
     },
     "Willamette Pass": {
@@ -4338,7 +4338,7 @@
           "id": 1787083200,
           "day": "Tuesday",
           "temperature_high": 76,
-          "temperature_low": 45,
+          "temperature_low": 44,
           "precipitation_high": 18,
           "precipitation_low": 18,
           "wind_speed": 12,
@@ -4569,17 +4569,17 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-08-18T04:00:00.000Z"
+            "timestamp": "2026-08-18T05:00:00.000Z"
           },
-          "temperature": "51.7",
+          "temperature": "51.36",
           "wind": {
-            "low": "25.43",
-            "high": "29.53",
+            "low": "21.37",
+            "high": "26.84",
             "current": null,
-            "average": "25.43",
+            "average": "21.37",
             "direction": "NW"
           },
-          "humidity": "40.18",
+          "humidity": "52.76",
           "display_name": "Summit",
           "elevation_ft": 9065
         }
@@ -4639,21 +4639,21 @@
   },
   "hoodoo": {
     "weather": {
-      "Temperature": "59 &#176F",
-      "Wind": "West @ 11 MPH",
-      "Snow depth": "-0.2\"",
-      "Humidity": "34 %",
+      "Temperature": "57 &#176F",
+      "Wind": "WSW @ 8 MPH",
+      "Snow depth": "-0.7\"",
+      "Humidity": "57 %",
       "Barometer": "30.40\" Hg"
     },
     "snow_totals": {
       "trend": {
         "Max": "0.4\"",
         "Min": "-3.4\"",
-        "1 Hr": "0.2\"",
-        "3 Hr": "0.2\"",
-        "6 Hr": "1.5\"",
-        "12 Hr": "1.1\"",
-        "24 Hr": "1.0\""
+        "1 Hr": "-0.1\"",
+        "3 Hr": "-0.4\"",
+        "6 Hr": "0.7\"",
+        "12 Hr": "0.3\"",
+        "24 Hr": "0.3\""
       },
       "season_total_in": 158.5
     },
