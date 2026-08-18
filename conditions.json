@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T22:45:22.045453+00:00",
+  "generated_at": "2026-08-18T22:56:22.290628+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -914,7 +914,7 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 14.0,
+        "wind_speed_mph": 10.0,
         "wind_direction_deg": 292.5,
         "snow_level_ft": 10495,
         "temp_f": 76
@@ -2156,7 +2156,7 @@
         {
           "number": 1,
           "name": "This Afternoon",
-          "startTime": "2026-08-18T14:00:00-07:00",
+          "startTime": "2026-08-18T15:00:00-07:00",
           "endTime": "2026-08-18T18:00:00-07:00",
           "isDaytime": true,
           "temperature": 89,
@@ -2166,11 +2166,11 @@
             "unitCode": "wmoUnit:percent",
             "value": 0
           },
-          "windSpeed": "6 to 9 mph",
+          "windSpeed": "9 mph",
           "windDirection": "N",
           "icon": "https://api.weather.gov/icons/land/day/skc?size=medium",
           "shortForecast": "Sunny",
-          "detailedForecast": "Sunny, with a high near 89. North wind 6 to 9 mph.",
+          "detailedForecast": "Sunny, with a high near 89. North wind around 9 mph.",
           "precipitationAmountIn": 0.0,
           "snowLevelFt": 11401
         },
@@ -3087,12 +3087,12 @@
     "Hoodoo": {
       "elevation_ft": 4705,
       "temp_f": 76,
-      "wind_speed_mph": 14.0,
+      "wind_speed_mph": 10.0,
       "wind_direction_deg": 292.5,
       "snow_level_ft": 10495,
       "precip_chance_today": 0,
-      "snowfall_12h_in": -0.1,
-      "snowfall_24h_in": 0.1,
+      "snowfall_12h_in": -0.3,
+      "snowfall_24h_in": -0.2,
       "snowfall_48h_in": null
     },
     "Willamette Pass": {
@@ -4178,6 +4178,10 @@
       {
         "time": "2026-08-18T21:45:25.826723+00:00",
         "precip_in": 0
+      },
+      {
+        "time": "2026-08-18T22:56:22.946925+00:00",
+        "precip_in": 0
       }
     ]
   },
@@ -4632,8 +4636,8 @@
   "hoodoo": {
     "weather": {
       "Temperature": "71 &#176F",
-      "Wind": "WNW @ 14 MPH",
-      "Snow depth": "-0.5\"",
+      "Wind": "WNW @ 10 MPH",
+      "Snow depth": "-0.3\"",
       "Humidity": "42 %",
       "Barometer": "30.40\" Hg"
     },
@@ -4641,11 +4645,11 @@
       "trend": {
         "Max": "0.7\"",
         "Min": "-3.4\"",
-        "1 Hr": "-0.1\"",
+        "1 Hr": "0.0\"",
         "3 Hr": "0.2\"",
         "6 Hr": "0.0\"",
-        "12 Hr": "-0.1\"",
-        "24 Hr": "0.1\""
+        "12 Hr": "-0.3\"",
+        "24 Hr": "-0.2\""
       },
       "season_total_in": 158.5
     },
