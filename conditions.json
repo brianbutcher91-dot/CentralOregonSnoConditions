@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T01:30:37.337589+00:00",
+  "generated_at": "2026-08-18T01:45:18.962495+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -914,7 +914,7 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 8.0,
+        "wind_speed_mph": 9.0,
         "wind_direction_deg": 270,
         "snow_level_ft": 11728,
         "temp_f": 71
@@ -2155,6 +2155,27 @@
       "periods": [
         {
           "number": 1,
+          "name": "This Afternoon",
+          "startTime": "2026-08-17T17:00:00-07:00",
+          "endTime": "2026-08-17T18:00:00-07:00",
+          "isDaytime": true,
+          "temperature": 86,
+          "temperatureUnit": "F",
+          "temperatureTrend": null,
+          "probabilityOfPrecipitation": {
+            "unitCode": "wmoUnit:percent",
+            "value": 5
+          },
+          "windSpeed": "6 mph",
+          "windDirection": "N",
+          "icon": "https://api.weather.gov/icons/land/day/sct?size=medium",
+          "shortForecast": "Mostly Sunny",
+          "detailedForecast": "Mostly sunny. High near 86, with temperatures falling to around 84 in the afternoon. North wind around 6 mph.",
+          "precipitationAmountIn": 0.0,
+          "snowLevelFt": 12253
+        },
+        {
+          "number": 2,
           "name": "Tonight",
           "startTime": "2026-08-17T18:00:00-07:00",
           "endTime": "2026-08-18T06:00:00-07:00",
@@ -2175,7 +2196,7 @@
           "snowLevelFt": 12253
         },
         {
-          "number": 2,
+          "number": 3,
           "name": "Tuesday",
           "startTime": "2026-08-18T06:00:00-07:00",
           "endTime": "2026-08-18T18:00:00-07:00",
@@ -2196,7 +2217,7 @@
           "snowLevelFt": 11243
         },
         {
-          "number": 3,
+          "number": 4,
           "name": "Tuesday Night",
           "startTime": "2026-08-18T18:00:00-07:00",
           "endTime": "2026-08-19T06:00:00-07:00",
@@ -2217,7 +2238,7 @@
           "snowLevelFt": 11469
         },
         {
-          "number": 4,
+          "number": 5,
           "name": "Wednesday",
           "startTime": "2026-08-19T06:00:00-07:00",
           "endTime": "2026-08-19T18:00:00-07:00",
@@ -2238,7 +2259,7 @@
           "snowLevelFt": 11577
         },
         {
-          "number": 5,
+          "number": 6,
           "name": "Wednesday Night",
           "startTime": "2026-08-19T18:00:00-07:00",
           "endTime": "2026-08-20T06:00:00-07:00",
@@ -2254,12 +2275,12 @@
           "windDirection": "W",
           "icon": "https://api.weather.gov/icons/land/night/sct?size=medium",
           "shortForecast": "Partly Cloudy",
-          "detailedForecast": "Partly cloudy, with a low around 57. West wind 1 to 8 mph.",
+          "detailedForecast": "Partly cloudy, with a low around 57.",
           "precipitationAmountIn": 0.0,
           "snowLevelFt": 12388
         },
         {
-          "number": 6,
+          "number": 7,
           "name": "Thursday",
           "startTime": "2026-08-20T06:00:00-07:00",
           "endTime": "2026-08-20T18:00:00-07:00",
@@ -2280,7 +2301,7 @@
           "snowLevelFt": 12431
         },
         {
-          "number": 7,
+          "number": 8,
           "name": "Thursday Night",
           "startTime": "2026-08-20T18:00:00-07:00",
           "endTime": "2026-08-21T06:00:00-07:00",
@@ -2301,7 +2322,7 @@
           "snowLevelFt": 12936
         },
         {
-          "number": 8,
+          "number": 9,
           "name": "Friday",
           "startTime": "2026-08-21T06:00:00-07:00",
           "endTime": "2026-08-21T18:00:00-07:00",
@@ -2322,7 +2343,7 @@
           "snowLevelFt": 12513
         },
         {
-          "number": 9,
+          "number": 10,
           "name": "Friday Night",
           "startTime": "2026-08-21T18:00:00-07:00",
           "endTime": "2026-08-22T06:00:00-07:00",
@@ -2343,7 +2364,7 @@
           "snowLevelFt": 12411
         },
         {
-          "number": 10,
+          "number": 11,
           "name": "Saturday",
           "startTime": "2026-08-22T06:00:00-07:00",
           "endTime": "2026-08-22T18:00:00-07:00",
@@ -2364,7 +2385,7 @@
           "snowLevelFt": 11112
         },
         {
-          "number": 11,
+          "number": 12,
           "name": "Saturday Night",
           "startTime": "2026-08-22T18:00:00-07:00",
           "endTime": "2026-08-23T06:00:00-07:00",
@@ -2385,7 +2406,7 @@
           "snowLevelFt": 10953
         },
         {
-          "number": 12,
+          "number": 13,
           "name": "Sunday",
           "startTime": "2026-08-23T06:00:00-07:00",
           "endTime": "2026-08-23T18:00:00-07:00",
@@ -2406,7 +2427,7 @@
           "snowLevelFt": 9987
         },
         {
-          "number": 13,
+          "number": 14,
           "name": "Sunday Night",
           "startTime": "2026-08-23T18:00:00-07:00",
           "endTime": "2026-08-24T06:00:00-07:00",
@@ -2425,27 +2446,6 @@
           "detailedForecast": "Mostly clear, with a low around 52.",
           "precipitationAmountIn": 0.0,
           "snowLevelFt": 11465
-        },
-        {
-          "number": 14,
-          "name": "Monday",
-          "startTime": "2026-08-24T06:00:00-07:00",
-          "endTime": "2026-08-24T18:00:00-07:00",
-          "isDaytime": true,
-          "temperature": 85,
-          "temperatureUnit": "F",
-          "temperatureTrend": null,
-          "probabilityOfPrecipitation": {
-            "unitCode": "wmoUnit:percent",
-            "value": 0
-          },
-          "windSpeed": "0 to 7 mph",
-          "windDirection": "NE",
-          "icon": "https://api.weather.gov/icons/land/day/few?size=medium",
-          "shortForecast": "Sunny",
-          "detailedForecast": "Sunny, with a high near 85.",
-          "precipitationAmountIn": 0.0,
-          "snowLevelFt": 10994
         }
       ],
       "current": {
@@ -3087,12 +3087,12 @@
     "Hoodoo": {
       "elevation_ft": 4705,
       "temp_f": 71,
-      "wind_speed_mph": 8.0,
+      "wind_speed_mph": 9.0,
       "wind_direction_deg": 270,
       "snow_level_ft": 11728,
       "precip_chance_today": 2,
-      "snowfall_12h_in": -0.2,
-      "snowfall_24h_in": 0.3,
+      "snowfall_12h_in": 0.0,
+      "snowfall_24h_in": -0.4,
       "snowfall_48h_in": null
     },
     "Willamette Pass": {
@@ -4335,7 +4335,7 @@
           "weather_icon": "dor-rain",
           "id": 1786996800,
           "day": "Monday",
-          "temperature_high": 73,
+          "temperature_high": 72,
           "temperature_low": 38,
           "precipitation_high": 37,
           "precipitation_low": 37,
@@ -4638,20 +4638,20 @@
   "hoodoo": {
     "weather": {
       "Temperature": "68 &#176F",
-      "Wind": "West @ 8 MPH",
-      "Snow depth": "-1.3\"",
-      "Humidity": "47 %",
+      "Wind": "West @ 9 MPH",
+      "Snow depth": "-1.4\"",
+      "Humidity": "46 %",
       "Barometer": "30.42\" Hg"
     },
     "snow_totals": {
       "trend": {
         "Max": "0.4\"",
         "Min": "-3.5\"",
-        "1 Hr": "0.1\"",
-        "3 Hr": "-0.3\"",
-        "6 Hr": "-0.7\"",
-        "12 Hr": "-0.2\"",
-        "24 Hr": "0.3\""
+        "1 Hr": "-0.4\"",
+        "3 Hr": "-0.7\"",
+        "6 Hr": "-0.5\"",
+        "12 Hr": "0.0\"",
+        "24 Hr": "-0.4\""
       },
       "season_total_in": 158.5
     },
@@ -4803,15 +4803,15 @@
   "satellite": {
     "Pacific Northwest": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/pnw/13/GOES18-PNW-13-600x600.gif",
-      "last_modified": "Tue, 18 Aug 2026 01:12:34 GMT"
+      "last_modified": "Tue, 18 Aug 2026 01:42:12 GMT"
     },
     "North Pacific (macro)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/np/13/GOES18-NP-13-900x540.gif",
-      "last_modified": "Tue, 18 Aug 2026 01:12:43 GMT"
+      "last_modified": "Tue, 18 Aug 2026 01:42:28 GMT"
     },
     "Pacific US (PACUS)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/13/GOES18-CONUS-13-625x375.gif",
-      "last_modified": "Tue, 18 Aug 2026 01:06:28 GMT"
+      "last_modified": "Tue, 18 Aug 2026 01:36:23 GMT"
     }
   },
   "gfs_snowfall": {
