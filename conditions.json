@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T03:15:40.833626+00:00",
+  "generated_at": "2026-08-18T03:30:17.549529+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -314,7 +314,7 @@
         {
           "number": 1,
           "name": "Tonight",
-          "startTime": "2026-08-17T18:00:00-07:00",
+          "startTime": "2026-08-17T20:00:00-07:00",
           "endTime": "2026-08-18T06:00:00-07:00",
           "isDaytime": false,
           "temperature": 54,
@@ -325,12 +325,12 @@
             "value": 6
           },
           "windSpeed": "5 mph",
-          "windDirection": "NW",
+          "windDirection": "W",
           "icon": "https://api.weather.gov/icons/land/night/sct?size=medium",
           "shortForecast": "Partly Cloudy",
-          "detailedForecast": "Partly cloudy, with a low around 54. Northwest wind around 5 mph.",
+          "detailedForecast": "Partly cloudy, with a low around 54. West wind around 5 mph.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 12394
+          "snowLevelFt": 12228
         },
         {
           "number": 2,
@@ -914,8 +914,8 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 12.0,
-        "wind_direction_deg": 270,
+        "wind_speed_mph": 13.0,
+        "wind_direction_deg": 292.5,
         "snow_level_ft": 11728,
         "temp_f": 63
       },
@@ -1235,7 +1235,7 @@
         {
           "number": 1,
           "name": "Tonight",
-          "startTime": "2026-08-17T18:00:00-07:00",
+          "startTime": "2026-08-17T20:00:00-07:00",
           "endTime": "2026-08-18T06:00:00-07:00",
           "isDaytime": false,
           "temperature": 49,
@@ -1243,15 +1243,15 @@
           "temperatureTrend": null,
           "probabilityOfPrecipitation": {
             "unitCode": "wmoUnit:percent",
-            "value": 11
+            "value": 2
           },
-          "windSpeed": "3 to 7 mph",
+          "windSpeed": "5 mph",
           "windDirection": "NNW",
-          "icon": "https://api.weather.gov/icons/land/night/sct?size=medium",
-          "shortForecast": "Partly Cloudy",
-          "detailedForecast": "Partly cloudy, with a low around 49. North northwest wind 3 to 7 mph.",
+          "icon": "https://api.weather.gov/icons/land/night/few?size=medium",
+          "shortForecast": "Mostly Clear",
+          "detailedForecast": "Mostly clear, with a low around 49. North northwest wind around 5 mph.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 12123
+          "snowLevelFt": 12148
         },
         {
           "number": 2,
@@ -3087,12 +3087,12 @@
     "Hoodoo": {
       "elevation_ft": 4705,
       "temp_f": 63,
-      "wind_speed_mph": 12.0,
-      "wind_direction_deg": 270,
+      "wind_speed_mph": 13.0,
+      "wind_direction_deg": 292.5,
       "snow_level_ft": 11728,
       "precip_chance_today": 2,
-      "snowfall_12h_in": -0.8,
-      "snowfall_24h_in": -0.4,
+      "snowfall_12h_in": -1.3,
+      "snowfall_24h_in": 0.0,
       "snowfall_48h_in": null
     },
     "Willamette Pass": {
@@ -3101,7 +3101,7 @@
       "wind_speed_mph": 5,
       "wind_direction_deg": 310,
       "snow_level_ft": 12148,
-      "precip_chance_today": 11,
+      "precip_chance_today": 2,
       "snowfall_12h_in": null,
       "snowfall_24h_in": 0.0,
       "snowfall_48h_in": 0.0
@@ -4182,38 +4182,7 @@
     ]
   },
   "snotel": {
-    "Mt Bachelor area (Irish Taylor)": {
-      "snow_depth_in": 0,
-      "snow_depth_in_date": "2026-08-16",
-      "swe_in": 0.0,
-      "swe_in_date": "2026-08-16",
-      "change_12h_in": 0,
-      "change_24h_in": 0
-    },
-    "Three Creek / Tam McArthur (Three Creeks Meadow)": {
-      "snow_depth_in": 0,
-      "snow_depth_in_date": "2026-08-16",
-      "swe_in": 0.0,
-      "swe_in_date": "2026-08-16",
-      "change_12h_in": 0,
-      "change_24h_in": 0
-    },
-    "Santiam / Hoodoo (Hogg Pass)": {
-      "snow_depth_in": 0,
-      "snow_depth_in_date": "2026-08-16",
-      "swe_in": 0.0,
-      "swe_in_date": "2026-08-16",
-      "change_12h_in": 0,
-      "change_24h_in": 0
-    },
-    "Ochocos (Ochoco Meadows)": {
-      "snow_depth_in": 0,
-      "snow_depth_in_date": "2026-08-16",
-      "swe_in": 0.0,
-      "swe_in_date": "2026-08-16",
-      "change_12h_in": 0,
-      "change_24h_in": 0
-    }
+    "error": "HTTPSConnectionPool(host='wcc.sc.egov.usda.gov', port=443): Max retries exceeded with url: /awdbRestApi/services/v1/data?stationTriplets=545%3AOR%3ASNTL&elements=SNWD%2CWTEQ&duration=DAILY&getFlags=false&beginDate=-1&endDate=-1 (Caused by ConnectTimeoutError(<HTTPSConnection(host='wcc.sc.egov.usda.gov', port=443) at 0x7f6063f58dd0>, 'Connection to wcc.sc.egov.usda.gov timed out. (connect timeout=None)'))"
   },
   "odot_cams": {
     "Century Drive": [
@@ -4319,7 +4288,7 @@
   "mtbachelor": {
     "weather": {
       "current": {
-        "temperature": 66,
+        "temperature": 65,
         "weather_icon": "dor-mostlycloudy"
       },
       "forecast": [
@@ -4452,10 +4421,10 @@
           "active": true,
           "primary": true,
           "nonstandardizedDataPoints": {
-            "depth": "-2.078",
-            "timestamp": "2026-08-17T19:00:00.000Z"
+            "depth": "-0.383",
+            "timestamp": "2026-08-17T20:00:00.000Z"
           },
-          "temperature": "66.13",
+          "temperature": "64.93",
           "wind": {
             "low": "0",
             "high": "0",
@@ -4475,15 +4444,15 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-08-17T19:00:00.000Z"
+            "timestamp": "2026-08-17T20:00:00.000Z"
           },
-          "temperature": "62.83",
+          "temperature": "60.64",
           "wind": {
-            "low": "7.831",
-            "high": "18.79",
+            "low": "2.235",
+            "high": "8.05",
             "current": null,
-            "average": "7.831",
-            "direction": "WSW"
+            "average": "2.235",
+            "direction": "SSW"
           },
           "humidity": null,
           "display_name": "Sunrise",
@@ -4497,17 +4466,17 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-08-17T19:00:00.000Z"
+            "timestamp": "2026-08-17T20:00:00.000Z"
           },
-          "temperature": "59.89",
+          "temperature": "58.31",
           "wind": {
-            "low": "8.84",
-            "high": "14.81",
+            "low": "7.377",
+            "high": "13.14",
             "current": null,
-            "average": "8.84",
+            "average": "7.377",
             "direction": "WNW"
           },
-          "humidity": "54.14",
+          "humidity": "51.58",
           "display_name": "Pine Marten",
           "elevation_ft": 7800
         },
@@ -4519,15 +4488,15 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-08-17T19:00:00.000Z"
+            "timestamp": "2026-08-17T20:00:00.000Z"
           },
-          "temperature": "60.87",
+          "temperature": "59.62",
           "wind": {
-            "low": "2.929",
-            "high": "10.51",
+            "low": "2.794",
+            "high": "6.711",
             "current": null,
-            "average": "2.929",
-            "direction": "WNW"
+            "average": "2.794",
+            "direction": "E"
           },
           "humidity": null,
           "display_name": "Cloud Chaser",
@@ -4633,10 +4602,10 @@
   },
   "hoodoo": {
     "weather": {
-      "Temperature": "63 &#176F",
-      "Wind": "West @ 12 MPH",
-      "Snow depth": "-2.3\"",
-      "Humidity": "65 %",
+      "Temperature": "61 &#176F",
+      "Wind": "WNW @ 13 MPH",
+      "Snow depth": "-2.2\"",
+      "Humidity": "72 %",
       "Barometer": "30.44\" Hg"
     },
     "snow_totals": {
@@ -4644,10 +4613,10 @@
         "Max": "0.4\"",
         "Min": "-3.5\"",
         "1 Hr": "-0.9\"",
-        "3 Hr": "-1.2\"",
-        "6 Hr": "-1.5\"",
-        "12 Hr": "-0.8\"",
-        "24 Hr": "-0.4\""
+        "3 Hr": "-0.8\"",
+        "6 Hr": "-1.2\"",
+        "12 Hr": "-1.3\"",
+        "24 Hr": "0.0\""
       },
       "season_total_in": 158.5
     },
