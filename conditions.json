@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T08:15:21.312986+00:00",
+  "generated_at": "2026-08-18T08:30:25.912432+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -914,8 +914,8 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 12.0,
-        "wind_direction_deg": 270,
+        "wind_speed_mph": 14.0,
+        "wind_direction_deg": 247.5,
         "snow_level_ft": 11124,
         "temp_f": 54
       },
@@ -2156,7 +2156,7 @@
         {
           "number": 1,
           "name": "Overnight",
-          "startTime": "2026-08-18T01:00:00-07:00",
+          "startTime": "2026-08-18T00:00:00-07:00",
           "endTime": "2026-08-18T06:00:00-07:00",
           "isDaytime": false,
           "temperature": 56,
@@ -3087,12 +3087,12 @@
     "Hoodoo": {
       "elevation_ft": 4705,
       "temp_f": 54,
-      "wind_speed_mph": 12.0,
-      "wind_direction_deg": 270,
+      "wind_speed_mph": 14.0,
+      "wind_direction_deg": 247.5,
       "snow_level_ft": 11124,
       "precip_chance_today": 0,
-      "snowfall_12h_in": 0.0,
-      "snowfall_24h_in": 0.9,
+      "snowfall_12h_in": 0.2,
+      "snowfall_24h_in": 0.0,
       "snowfall_48h_in": null
     },
     "Willamette Pass": {
@@ -3109,14 +3109,6 @@
   },
   "bachelor_timeseries": {
     "hourly": [
-      {
-        "time": "2026-08-17T01:00:00.000Z",
-        "temp_f": 54.59,
-        "wind_speed_mph": 5.964,
-        "wind_direction_deg": 251.0,
-        "precip_in": null,
-        "period": "historical"
-      },
       {
         "time": "2026-08-17T02:00:00.000Z",
         "temp_f": 54.89,
@@ -3302,12 +3294,12 @@
         "period": "historical"
       },
       {
-        "time": "2026-08-18T01:00:00+00:00",
-        "temp_f": 63.0,
-        "wind_speed_mph": 5.8,
-        "wind_direction_deg": 310,
-        "precip_in": 0.0,
-        "period": "forecast"
+        "time": "2026-08-18T01:00:00.000Z",
+        "temp_f": 57.61,
+        "wind_speed_mph": 5.618,
+        "wind_direction_deg": 217.3,
+        "precip_in": null,
+        "period": "historical"
       },
       {
         "time": "2026-08-18T02:00:00+00:00",
@@ -3936,10 +3928,6 @@
     ],
     "historical_precip_snapshots": [
       {
-        "time": "2026-08-15T08:15:27.274312+00:00",
-        "precip_in": 0
-      },
-      {
         "time": "2026-08-15T09:30:20.364395+00:00",
         "precip_in": 0
       },
@@ -4186,19 +4174,35 @@
       {
         "time": "2026-08-18T07:30:20.466549+00:00",
         "precip_in": 0
+      },
+      {
+        "time": "2026-08-18T08:30:26.151573+00:00",
+        "precip_in": 0
       }
     ]
   },
   "snotel": {
     "Mt Bachelor area (Irish Taylor)": {
+      "snow_depth_in": 0,
+      "snow_depth_in_date": "2026-08-17",
+      "swe_in": 0.2,
+      "swe_in_date": "2026-08-17",
       "change_12h_in": 0,
       "change_24h_in": 0
     },
     "Three Creek / Tam McArthur (Three Creeks Meadow)": {
-      "change_12h_in": -1,
-      "change_24h_in": 0
+      "snow_depth_in": 1,
+      "snow_depth_in_date": "2026-08-17",
+      "swe_in": 0.0,
+      "swe_in_date": "2026-08-17",
+      "change_12h_in": 1,
+      "change_24h_in": 1
     },
     "Santiam / Hoodoo (Hogg Pass)": {
+      "snow_depth_in": 0,
+      "snow_depth_in_date": "2026-08-17",
+      "swe_in": 0.0,
+      "swe_in_date": "2026-08-17",
       "change_12h_in": 0,
       "change_24h_in": 0
     },
@@ -4625,21 +4629,21 @@
   },
   "hoodoo": {
     "weather": {
-      "Temperature": "57 &#176F",
-      "Wind": "West @ 12 MPH",
-      "Snow depth": "-0.4\"",
+      "Temperature": "56 &#176F",
+      "Wind": "WSW @ 14 MPH",
+      "Snow depth": "-1.6\"",
       "Humidity": "82 %",
-      "Barometer": "30.45\" Hg"
+      "Barometer": "30.44\" Hg"
     },
     "snow_totals": {
       "trend": {
         "Max": "0.4\"",
         "Min": "-3.4\"",
         "1 Hr": "0.4\"",
-        "3 Hr": "1.1\"",
-        "6 Hr": "0.9\"",
-        "12 Hr": "0.0\"",
-        "24 Hr": "0.9\""
+        "3 Hr": "0.6\"",
+        "6 Hr": "0.6\"",
+        "12 Hr": "0.2\"",
+        "24 Hr": "0.0\""
       },
       "season_total_in": 158.5
     },
