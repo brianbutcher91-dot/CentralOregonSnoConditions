@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T11:15:17.525752+00:00",
+  "generated_at": "2026-08-20T11:30:16.470157+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -914,7 +914,7 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 7.0,
+        "wind_speed_mph": 9.0,
         "wind_direction_deg": 157.5,
         "snow_level_ft": 12444,
         "temp_f": 57
@@ -3087,12 +3087,12 @@
     "Hoodoo": {
       "elevation_ft": 4705,
       "temp_f": 57,
-      "wind_speed_mph": 7.0,
+      "wind_speed_mph": 9.0,
       "wind_direction_deg": 157.5,
       "snow_level_ft": 12444,
       "precip_chance_today": 0,
-      "snowfall_12h_in": 0.0,
-      "snowfall_24h_in": -0.1,
+      "snowfall_12h_in": -0.1,
+      "snowfall_24h_in": -0.2,
       "snowfall_48h_in": null
     },
     "Willamette Pass": {
@@ -4652,8 +4652,8 @@
   "hoodoo": {
     "weather": {
       "Temperature": "67 &#176F",
-      "Wind": "SSE @ 7 MPH",
-      "Snow depth": "-1.1\"",
+      "Wind": "SSE @ 9 MPH",
+      "Snow depth": "-0.7\"",
       "Humidity": "38 %",
       "Barometer": "30.35\" Hg"
     },
@@ -4661,11 +4661,11 @@
       "trend": {
         "Max": "0.8\"",
         "Min": "-3.3\"",
-        "1 Hr": "-0.2\"",
-        "3 Hr": "0.4\"",
-        "6 Hr": "0.5\"",
-        "12 Hr": "0.0\"",
-        "24 Hr": "-0.1\""
+        "1 Hr": "0.2\"",
+        "3 Hr": "-0.2\"",
+        "6 Hr": "1.1\"",
+        "12 Hr": "-0.1\"",
+        "24 Hr": "-0.2\""
       },
       "season_total_in": 158.5
     },
@@ -4707,9 +4707,9 @@
   "willamette_pass": {
     "forecast": {
       "weather_provider": "NOAA",
-      "date": "August 20, 2026, 3:59 am",
-      "time": 1787223596000,
-      "current_weather": "Patchy Smoke",
+      "date": "August 20, 2026, 4:12 am",
+      "time": 1787224325000,
+      "current_weather": "Patchy Smoke then Sunny",
       "current_temperature": "60",
       "forecast": [
         {
@@ -4720,11 +4720,11 @@
         {
           "day": "Friday",
           "day_forecast": "A 20 percent chance of showers and thunderstorms after 2pm.  Cloudy, with a high near 79. Light and variable wind becoming west southwest around 6 mph in the afternoon. ",
-          "night_forecast": "A 30 percent chance of showers and thunderstorms before 11pm.  Mostly cloudy, with a low around 50. West wind around 6 mph becoming calm  in the evening. "
+          "night_forecast": "A 30 percent chance of showers and thunderstorms before 11pm.  Cloudy, then gradually becoming partly cloudy, with a low around 50. West wind around 6 mph becoming calm  in the evening. "
         },
         {
           "day": "Saturday",
-          "day_forecast": "Sunny, with a high near 68.",
+          "day_forecast": "Sunny, with a high near 68. Calm wind becoming west 5 to 9 mph in the afternoon. Winds could gust as high as 20 mph. ",
           "night_forecast": "Mostly clear, with a low around 43."
         },
         {
@@ -4739,13 +4739,14 @@
         },
         {
           "day": "Tuesday",
-          "day_forecast": "Sunny, with a high near 73."
+          "day_forecast": "Sunny, with a high near 73.",
+          "night_forecast": "Partly cloudy, with a low around 47."
         }
       ],
       "wind": "NA",
       "icon": "0100-sunny.svg",
       "max_temp": "82",
-      "min_temp": "53",
+      "min_temp": "55",
       "hourly": [
         {
           "time": "4a",
