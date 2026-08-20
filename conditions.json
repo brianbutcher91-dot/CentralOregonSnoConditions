@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T13:00:51.742311+00:00",
+  "generated_at": "2026-08-20T13:15:21.118435+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -3091,7 +3091,7 @@
       "wind_direction_deg": 202.5,
       "snow_level_ft": 12444,
       "precip_chance_today": 1,
-      "snowfall_12h_in": 0.6,
+      "snowfall_12h_in": -0.1,
       "snowfall_24h_in": -0.3,
       "snowfall_48h_in": null
     },
@@ -3944,10 +3944,6 @@
     ],
     "historical_precip_snapshots": [
       {
-        "time": "2026-08-17T13:01:07.480194+00:00",
-        "precip_in": 0
-      },
-      {
         "time": "2026-08-17T14:01:11.385744+00:00",
         "precip_in": 0
       },
@@ -4198,6 +4194,10 @@
       {
         "time": "2026-08-20T12:00:52.396464+00:00",
         "precip_in": 0
+      },
+      {
+        "time": "2026-08-20T13:15:21.547690+00:00",
+        "precip_in": 0
       }
     ]
   },
@@ -4379,10 +4379,10 @@
           "weather_icon": "dor-sunny",
           "id": 1787428800,
           "day": "Saturday",
-          "temperature_high": 69,
-          "temperature_low": 42,
-          "precipitation_high": 25,
-          "precipitation_low": 25,
+          "temperature_high": 68,
+          "temperature_low": 43,
+          "precipitation_high": 29,
+          "precipitation_low": 29,
           "wind_speed": 15,
           "wind_direction": "W"
         },
@@ -4394,12 +4394,12 @@
           "weather_icon": "dor-sunny",
           "id": 1787515200,
           "day": "Sunday",
-          "temperature_high": 71,
-          "temperature_low": 40,
-          "precipitation_high": 22,
-          "precipitation_low": 22,
-          "wind_speed": 5,
-          "wind_direction": "NNW"
+          "temperature_high": 73,
+          "temperature_low": 42,
+          "precipitation_high": 19,
+          "precipitation_low": 19,
+          "wind_speed": 6,
+          "wind_direction": "N"
         },
         {
           "date": "2026-08-24",
@@ -4409,42 +4409,42 @@
           "weather_icon": "dor-mostlycloudy",
           "id": 1787601600,
           "day": "Monday",
-          "temperature_high": 79,
-          "temperature_low": 49,
-          "precipitation_high": 14,
-          "precipitation_low": 14,
-          "wind_speed": 8,
-          "wind_direction": "NW"
+          "temperature_high": 78,
+          "temperature_low": 51,
+          "precipitation_high": 15,
+          "precipitation_low": 15,
+          "wind_speed": 9,
+          "wind_direction": "WNW"
         },
         {
           "date": "2026-08-25",
-          "description_long": "overcast clouds",
-          "description_short": "overcast clouds",
+          "description_long": "few clouds",
+          "description_short": "few clouds",
           "details": "Clouds",
-          "weather_icon": "dor-mostlycloudy",
+          "weather_icon": "dor-mostlysunny",
           "id": 1787688000,
           "day": "Tuesday",
-          "temperature_high": 76,
-          "temperature_low": 51,
-          "precipitation_high": 22,
-          "precipitation_low": 22,
-          "wind_speed": 10,
+          "temperature_high": 78,
+          "temperature_low": 52,
+          "precipitation_high": 21,
+          "precipitation_low": 21,
+          "wind_speed": 12,
           "wind_direction": "WNW"
         },
         {
           "date": "2026-08-26",
-          "description_long": "clear sky",
-          "description_short": "clear sky",
-          "details": "Clear",
-          "weather_icon": "dor-sunny",
+          "description_long": "broken clouds",
+          "description_short": "broken clouds",
+          "details": "Clouds",
+          "weather_icon": "dor-mostlycloudy",
           "id": 1787774400,
           "day": "Wednesday",
-          "temperature_high": 67,
+          "temperature_high": 66,
           "temperature_low": 41,
-          "precipitation_high": 26,
-          "precipitation_low": 26,
-          "wind_speed": 11,
-          "wind_direction": "W"
+          "precipitation_high": 34,
+          "precipitation_low": 34,
+          "wind_speed": 15,
+          "wind_direction": "WNW"
         },
         {
           "date": "2026-08-27",
@@ -4455,11 +4455,11 @@
           "id": 1787860800,
           "day": "Thursday",
           "temperature_high": 67,
-          "temperature_low": 37,
-          "precipitation_high": 19,
-          "precipitation_low": 19,
-          "wind_speed": 8,
-          "wind_direction": "W"
+          "temperature_low": 35,
+          "precipitation_high": 15,
+          "precipitation_low": 15,
+          "wind_speed": 6,
+          "wind_direction": "WNW"
         }
       ],
       "sensors": {
@@ -4653,18 +4653,18 @@
     "weather": {
       "Temperature": "68 &#176F",
       "Wind": "SSW @ 8 MPH",
-      "Snow depth": "-1.1\"",
-      "Humidity": "32 %",
+      "Snow depth": "-0.6\"",
+      "Humidity": "33 %",
       "Barometer": "30.33\" Hg"
     },
     "snow_totals": {
       "trend": {
         "Max": "0.8\"",
         "Min": "-3.3\"",
-        "1 Hr": "0.7\"",
-        "3 Hr": "0.1\"",
-        "6 Hr": "0.3\"",
-        "12 Hr": "0.6\"",
+        "1 Hr": "0.5\"",
+        "3 Hr": "-0.3\"",
+        "6 Hr": "-0.3\"",
+        "12 Hr": "-0.1\"",
         "24 Hr": "-0.3\""
       },
       "season_total_in": 158.5
@@ -4817,15 +4817,15 @@
   "satellite": {
     "Pacific Northwest": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/pnw/13/GOES18-PNW-13-600x600.gif",
-      "last_modified": "Thu, 20 Aug 2026 12:41:06 GMT"
+      "last_modified": "Thu, 20 Aug 2026 13:11:14 GMT"
     },
     "North Pacific (macro)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/np/13/GOES18-NP-13-900x540.gif",
-      "last_modified": "Thu, 20 Aug 2026 12:41:15 GMT"
+      "last_modified": "Thu, 20 Aug 2026 13:11:23 GMT"
     },
     "Pacific US (PACUS)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/13/GOES18-CONUS-13-625x375.gif",
-      "last_modified": "Thu, 20 Aug 2026 12:35:39 GMT"
+      "last_modified": "Thu, 20 Aug 2026 13:05:46 GMT"
     }
   },
   "gfs_snowfall": {
