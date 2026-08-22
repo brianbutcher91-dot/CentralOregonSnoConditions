@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22T07:15:21.721541+00:00",
+  "generated_at": "2026-08-22T07:30:17.642156+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -3091,8 +3091,8 @@
       "wind_direction_deg": 315,
       "snow_level_ft": 12631,
       "precip_chance_today": 5,
-      "snowfall_12h_in": 0.3,
-      "snowfall_24h_in": 0.8,
+      "snowfall_12h_in": 0.9,
+      "snowfall_24h_in": 0.6,
       "snowfall_48h_in": null
     },
     "Willamette Pass": {
@@ -3109,14 +3109,6 @@
   },
   "bachelor_timeseries": {
     "hourly": [
-      {
-        "time": "2026-08-21T00:00:00.000Z",
-        "temp_f": 62.62,
-        "wind_speed_mph": 12.11,
-        "wind_direction_deg": 235.1,
-        "precip_in": null,
-        "period": "historical"
-      },
       {
         "time": "2026-08-21T01:00:00.000Z",
         "temp_f": 62.54,
@@ -3302,12 +3294,12 @@
         "period": "historical"
       },
       {
-        "time": "2026-08-22T00:00:00+00:00",
-        "temp_f": 67.0,
-        "wind_speed_mph": 8.1,
-        "wind_direction_deg": 220,
-        "precip_in": 0.0,
-        "period": "forecast"
+        "time": "2026-08-22T00:00:00.000Z",
+        "temp_f": 59.8,
+        "wind_speed_mph": 12.16,
+        "wind_direction_deg": 110.7,
+        "precip_in": null,
+        "period": "historical"
       },
       {
         "time": "2026-08-22T01:00:00+00:00",
@@ -4203,7 +4195,7 @@
       "snow_depth_in_date": "2026-08-20",
       "swe_in": 0.0,
       "swe_in_date": "2026-08-20",
-      "change_12h_in": 0,
+      "change_12h_in": -1,
       "change_24h_in": 0
     },
     "Santiam / Hoodoo (Hogg Pass)": {
@@ -4325,7 +4317,7 @@
   "mtbachelor": {
     "weather": {
       "current": {
-        "temperature": 60,
+        "temperature": 57,
         "weather_icon": "dor-mostlysunny"
       },
       "forecast": [
@@ -4458,10 +4450,10 @@
           "active": true,
           "primary": true,
           "nonstandardizedDataPoints": {
-            "depth": "-0.654",
-            "timestamp": "2026-08-21T23:00:00.000Z"
+            "depth": "-1.227",
+            "timestamp": "2026-08-22T00:00:00.000Z"
           },
-          "temperature": "59.82",
+          "temperature": "56.92",
           "wind": {
             "low": "0",
             "high": "0",
@@ -4481,14 +4473,14 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-08-21T23:00:00.000Z"
+            "timestamp": "2026-08-22T00:00:00.000Z"
           },
-          "temperature": "61.96",
+          "temperature": "61.82",
           "wind": {
-            "low": "6.791",
-            "high": "14.09",
+            "low": "5.58",
+            "high": "12.3",
             "current": null,
-            "average": "6.791",
+            "average": "5.58",
             "direction": "ESE"
           },
           "humidity": null,
@@ -4503,17 +4495,17 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-08-21T23:00:00.000Z"
+            "timestamp": "2026-08-22T00:00:00.000Z"
           },
-          "temperature": "59.62",
+          "temperature": "59.33",
           "wind": {
-            "low": "17.39",
-            "high": "24.78",
+            "low": "15.22",
+            "high": "27.1",
             "current": null,
-            "average": "17.39",
+            "average": "15.22",
             "direction": "ESE"
           },
-          "humidity": "39.37",
+          "humidity": "40.77",
           "display_name": "Pine Marten",
           "elevation_ft": 7800
         },
@@ -4525,14 +4517,14 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-08-21T23:00:00.000Z"
+            "timestamp": "2026-08-22T00:00:00.000Z"
           },
-          "temperature": "60.27",
+          "temperature": "59.8",
           "wind": {
-            "low": "12.07",
-            "high": "19.24",
+            "low": "12.16",
+            "high": "20.36",
             "current": null,
-            "average": "12.07",
+            "average": "12.16",
             "direction": "ESE"
           },
           "humidity": null,
@@ -4639,21 +4631,21 @@
   },
   "hoodoo": {
     "weather": {
-      "Temperature": "59 &#176F",
+      "Temperature": "58 &#176F",
       "Wind": "NW @ 15 MPH",
-      "Snow depth": "-0.5\"",
-      "Humidity": "57 %",
-      "Barometer": "30.35\" Hg"
+      "Snow depth": "-0.2\"",
+      "Humidity": "70 %",
+      "Barometer": "30.34\" Hg"
     },
     "snow_totals": {
       "trend": {
         "Max": "0.3\"",
         "Min": "-3.2\"",
-        "1 Hr": "0.7\"",
+        "1 Hr": "0.1\"",
         "3 Hr": "0.5\"",
-        "6 Hr": "0.9\"",
-        "12 Hr": "0.3\"",
-        "24 Hr": "0.8\""
+        "6 Hr": "1.2\"",
+        "12 Hr": "0.9\"",
+        "24 Hr": "0.6\""
       },
       "season_total_in": 158.5
     },
