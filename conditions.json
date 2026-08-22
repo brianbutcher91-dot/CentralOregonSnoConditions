@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22T01:15:15.890863+00:00",
+  "generated_at": "2026-08-22T01:30:19.340014+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -7,7 +7,7 @@
         {
           "number": 1,
           "name": "This Afternoon",
-          "startTime": "2026-08-21T17:00:00-07:00",
+          "startTime": "2026-08-21T15:00:00-07:00",
           "endTime": "2026-08-21T18:00:00-07:00",
           "isDaytime": true,
           "temperature": 71,
@@ -21,9 +21,9 @@
           "windDirection": "SW",
           "icon": "https://api.weather.gov/icons/land/day/ovc?size=medium",
           "shortForecast": "Cloudy",
-          "detailedForecast": "Cloudy. High near 71, with temperatures falling to around 67 in the afternoon. Southwest wind around 8 mph.",
+          "detailedForecast": "Cloudy. High near 71, with temperatures falling to around 67 in the afternoon. Southwest wind around 8 mph, with gusts as high as 21 mph.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 12867
+          "snowLevelFt": 12890
         },
         {
           "number": 2,
@@ -314,7 +314,7 @@
         {
           "number": 1,
           "name": "This Afternoon",
-          "startTime": "2026-08-21T17:00:00-07:00",
+          "startTime": "2026-08-21T15:00:00-07:00",
           "endTime": "2026-08-21T18:00:00-07:00",
           "isDaytime": true,
           "temperature": 74,
@@ -324,13 +324,13 @@
             "unitCode": "wmoUnit:percent",
             "value": 9
           },
-          "windSpeed": "3 mph",
+          "windSpeed": "5 mph",
           "windDirection": "S",
           "icon": "https://api.weather.gov/icons/land/day/ovc?size=medium",
           "shortForecast": "Cloudy",
-          "detailedForecast": "Cloudy. High near 74, with temperatures falling to around 72 in the afternoon. South wind around 3 mph.",
+          "detailedForecast": "Cloudy. High near 74, with temperatures falling to around 72 in the afternoon. South wind around 5 mph.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 12894
+          "snowLevelFt": 12972
         },
         {
           "number": 2,
@@ -914,8 +914,8 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 5,
-        "wind_direction_deg": 280,
+        "wind_speed_mph": 9.0,
+        "wind_direction_deg": 292.5,
         "snow_level_ft": 12766,
         "temp_f": 72
       },
@@ -3087,12 +3087,12 @@
     "Hoodoo": {
       "elevation_ft": 4705,
       "temp_f": 72,
-      "wind_speed_mph": 5,
-      "wind_direction_deg": 280,
+      "wind_speed_mph": 9.0,
+      "wind_direction_deg": 292.5,
       "snow_level_ft": 12766,
       "precip_chance_today": 25,
-      "snowfall_12h_in": null,
-      "snowfall_24h_in": null,
+      "snowfall_12h_in": -0.6,
+      "snowfall_24h_in": 0.4,
       "snowfall_48h_in": null
     },
     "Willamette Pass": {
@@ -3109,14 +3109,6 @@
   },
   "bachelor_timeseries": {
     "hourly": [
-      {
-        "time": "2026-08-20T18:00:00.000Z",
-        "temp_f": 69.41,
-        "wind_speed_mph": 7.157,
-        "wind_direction_deg": 190.4,
-        "precip_in": null,
-        "period": "historical"
-      },
       {
         "time": "2026-08-20T19:00:00.000Z",
         "temp_f": 68.75,
@@ -3302,12 +3294,12 @@
         "period": "historical"
       },
       {
-        "time": "2026-08-21T18:00:00+00:00",
-        "temp_f": 68.0,
-        "wind_speed_mph": 5.8,
-        "wind_direction_deg": 190,
-        "precip_in": 0.0,
-        "period": "forecast"
+        "time": "2026-08-21T18:00:00.000Z",
+        "temp_f": 62.89,
+        "wind_speed_mph": 10.19,
+        "wind_direction_deg": 106.1,
+        "precip_in": null,
+        "period": "historical"
       },
       {
         "time": "2026-08-21T19:00:00+00:00",
@@ -4325,7 +4317,7 @@
   "mtbachelor": {
     "weather": {
       "current": {
-        "temperature": 71,
+        "temperature": 70,
         "weather_icon": "dor-mostlycloudy"
       },
       "forecast": [
@@ -4458,10 +4450,10 @@
           "active": true,
           "primary": true,
           "nonstandardizedDataPoints": {
-            "depth": "-1.033",
-            "timestamp": "2026-08-21T17:00:00.000Z"
+            "depth": "-1.219",
+            "timestamp": "2026-08-21T18:00:00.000Z"
           },
-          "temperature": "71.11",
+          "temperature": "69.91",
           "wind": {
             "low": "0",
             "high": "0",
@@ -4481,15 +4473,15 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-08-21T17:00:00.000Z"
+            "timestamp": "2026-08-21T18:00:00.000Z"
           },
-          "temperature": "66.69",
+          "temperature": "65.38",
           "wind": {
-            "low": "4.618",
-            "high": "17",
+            "low": "4.474",
+            "high": "14.76",
             "current": null,
-            "average": "4.618",
-            "direction": "SE"
+            "average": "4.474",
+            "direction": "ESE"
           },
           "humidity": null,
           "display_name": "Sunrise",
@@ -4503,17 +4495,17 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-08-21T17:00:00.000Z"
+            "timestamp": "2026-08-21T18:00:00.000Z"
           },
-          "temperature": "64.51",
+          "temperature": "62.93",
           "wind": {
-            "low": "7.38",
-            "high": "35.64",
+            "low": "9.8",
+            "high": "27.45",
             "current": null,
-            "average": "7.38",
-            "direction": "SSW"
+            "average": "9.8",
+            "direction": "SSE"
           },
-          "humidity": "36.39",
+          "humidity": "30.19",
           "display_name": "Pine Marten",
           "elevation_ft": 7800
         },
@@ -4525,14 +4517,14 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-08-21T17:00:00.000Z"
+            "timestamp": "2026-08-21T18:00:00.000Z"
           },
-          "temperature": "64.08",
+          "temperature": "62.89",
           "wind": {
-            "low": "9.89",
-            "high": "25.5",
+            "low": "10.19",
+            "high": "19.24",
             "current": null,
-            "average": "9.89",
+            "average": "10.19",
             "direction": "ESE"
           },
           "humidity": null,
@@ -4638,10 +4630,24 @@
     }
   },
   "hoodoo": {
-    "weather": {},
+    "weather": {
+      "Temperature": "63 &#176F",
+      "Wind": "WNW @ 9 MPH",
+      "Snow depth": "-0.9\"",
+      "Humidity": "66 %",
+      "Barometer": "30.39\" Hg"
+    },
     "snow_totals": {
-      "trend": {},
-      "season_total_in": null
+      "trend": {
+        "Max": "0.3\"",
+        "Min": "-3.2\"",
+        "1 Hr": "0.2\"",
+        "3 Hr": "0.2\"",
+        "6 Hr": "-0.3\"",
+        "12 Hr": "-0.6\"",
+        "24 Hr": "0.4\""
+      },
+      "season_total_in": 158.5
     },
     "webcams": {
       "Base Area": {
@@ -4681,8 +4687,8 @@
   "willamette_pass": {
     "forecast": {
       "weather_provider": "NOAA",
-      "date": "August 21, 2026, 5:59 pm",
-      "time": 1787360396000,
+      "date": "August 21, 2026, 6:13 pm",
+      "time": 1787361233000,
       "current_weather": "Chance Rain",
       "current_temperature": "75",
       "forecast": [
