@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22T11:30:20.733182+00:00",
+  "generated_at": "2026-08-22T11:45:19.430979+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -314,7 +314,7 @@
         {
           "number": 1,
           "name": "Overnight",
-          "startTime": "2026-08-22T02:00:00-07:00",
+          "startTime": "2026-08-22T04:00:00-07:00",
           "endTime": "2026-08-22T06:00:00-07:00",
           "isDaytime": false,
           "temperature": 54,
@@ -914,8 +914,8 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 3,
-        "wind_direction_deg": 220,
+        "wind_speed_mph": 11.0,
+        "wind_direction_deg": 247.5,
         "snow_level_ft": 12116,
         "temp_f": 53
       },
@@ -928,7 +928,7 @@
         {
           "number": 1,
           "name": "Overnight",
-          "startTime": "2026-08-22T02:00:00-07:00",
+          "startTime": "2026-08-22T04:00:00-07:00",
           "endTime": "2026-08-22T06:00:00-07:00",
           "isDaytime": false,
           "temperature": 53,
@@ -1235,7 +1235,7 @@
         {
           "number": 1,
           "name": "Overnight",
-          "startTime": "2026-08-22T02:00:00-07:00",
+          "startTime": "2026-08-22T04:00:00-07:00",
           "endTime": "2026-08-22T06:00:00-07:00",
           "isDaytime": false,
           "temperature": 48,
@@ -1251,7 +1251,7 @@
           "shortForecast": "Mostly Clear",
           "detailedForecast": "Mostly clear, with a low around 48. West southwest wind around 3 mph.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 12254
+          "snowLevelFt": 11276
         },
         {
           "number": 2,
@@ -1849,7 +1849,7 @@
         {
           "number": 1,
           "name": "Overnight",
-          "startTime": "2026-08-22T02:00:00-07:00",
+          "startTime": "2026-08-22T04:00:00-07:00",
           "endTime": "2026-08-22T06:00:00-07:00",
           "isDaytime": false,
           "temperature": 58,
@@ -2156,7 +2156,7 @@
         {
           "number": 1,
           "name": "Overnight",
-          "startTime": "2026-08-22T02:00:00-07:00",
+          "startTime": "2026-08-22T04:00:00-07:00",
           "endTime": "2026-08-22T06:00:00-07:00",
           "isDaytime": false,
           "temperature": 57,
@@ -2463,7 +2463,7 @@
         {
           "number": 1,
           "name": "Overnight",
-          "startTime": "2026-08-22T02:00:00-07:00",
+          "startTime": "2026-08-22T04:00:00-07:00",
           "endTime": "2026-08-22T06:00:00-07:00",
           "isDaytime": false,
           "temperature": 51,
@@ -2473,11 +2473,11 @@
             "unitCode": "wmoUnit:percent",
             "value": 10
           },
-          "windSpeed": "3 mph",
+          "windSpeed": "2 mph",
           "windDirection": "W",
           "icon": "https://api.weather.gov/icons/land/night/smoke?size=medium",
           "shortForecast": "Patchy Smoke",
-          "detailedForecast": "Patchy smoke. Mostly cloudy. Low around 51, with temperatures rising to around 53 overnight. West wind around 3 mph.",
+          "detailedForecast": "Patchy smoke. Partly cloudy. Low around 51, with temperatures rising to around 53 overnight. West wind around 2 mph.",
           "precipitationAmountIn": 0.0,
           "snowLevelFt": 12700
         },
@@ -2770,7 +2770,7 @@
         {
           "number": 1,
           "name": "Overnight",
-          "startTime": "2026-08-22T02:00:00-07:00",
+          "startTime": "2026-08-22T04:00:00-07:00",
           "endTime": "2026-08-22T06:00:00-07:00",
           "isDaytime": false,
           "temperature": 45,
@@ -2780,11 +2780,11 @@
             "unitCode": "wmoUnit:percent",
             "value": 3
           },
-          "windSpeed": "3 mph",
+          "windSpeed": "2 mph",
           "windDirection": "S",
           "icon": "https://api.weather.gov/icons/land/night/sct?size=medium",
           "shortForecast": "Partly Cloudy",
-          "detailedForecast": "Partly cloudy. Low around 45, with temperatures rising to around 47 overnight. South wind around 3 mph.",
+          "detailedForecast": "Partly cloudy. Low around 45, with temperatures rising to around 47 overnight. South wind around 2 mph.",
           "precipitationAmountIn": 0.0,
           "snowLevelFt": 12726
         },
@@ -3087,12 +3087,12 @@
     "Hoodoo": {
       "elevation_ft": 4705,
       "temp_f": 53,
-      "wind_speed_mph": 3,
-      "wind_direction_deg": 220,
+      "wind_speed_mph": 11.0,
+      "wind_direction_deg": 247.5,
       "snow_level_ft": 12116,
       "precip_chance_today": 4,
-      "snowfall_12h_in": null,
-      "snowfall_24h_in": null,
+      "snowfall_12h_in": 0.6,
+      "snowfall_24h_in": -0.4,
       "snowfall_48h_in": null
     },
     "Willamette Pass": {
@@ -4630,10 +4630,24 @@
     }
   },
   "hoodoo": {
-    "weather": {},
+    "weather": {
+      "Temperature": "54 &#176F",
+      "Wind": "WSW @ 11 MPH",
+      "Snow depth": "-0.2\"",
+      "Humidity": "87 %",
+      "Barometer": "30.30\" Hg"
+    },
     "snow_totals": {
-      "trend": {},
-      "season_total_in": null
+      "trend": {
+        "Max": "0.3\"",
+        "Min": "-3.2\"",
+        "1 Hr": "0.5\"",
+        "3 Hr": "0.2\"",
+        "6 Hr": "-0.4\"",
+        "12 Hr": "0.6\"",
+        "24 Hr": "-0.4\""
+      },
+      "season_total_in": 158.5
     },
     "webcams": {
       "Base Area": {
@@ -4783,15 +4797,15 @@
   "satellite": {
     "Pacific Northwest": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/pnw/13/GOES18-PNW-13-600x600.gif",
-      "last_modified": "Sat, 22 Aug 2026 11:11:01 GMT"
+      "last_modified": "Sat, 22 Aug 2026 11:40:54 GMT"
     },
     "North Pacific (macro)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/np/13/GOES18-NP-13-900x540.gif",
-      "last_modified": "Sat, 22 Aug 2026 11:11:10 GMT"
+      "last_modified": "Sat, 22 Aug 2026 11:41:03 GMT"
     },
     "Pacific US (PACUS)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/13/GOES18-CONUS-13-625x375.gif",
-      "last_modified": "Sat, 22 Aug 2026 11:05:50 GMT"
+      "last_modified": "Sat, 22 Aug 2026 11:35:31 GMT"
     }
   },
   "gfs_snowfall": {
