@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-23T23:15:16.550788+00:00",
+  "generated_at": "2026-08-23T23:30:19.640425+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -914,8 +914,8 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 12.0,
-        "wind_direction_deg": 315,
+        "wind_speed_mph": 7.0,
+        "wind_direction_deg": 270,
         "snow_level_ft": 9481,
         "temp_f": 70
       },
@@ -3087,12 +3087,12 @@
     "Hoodoo": {
       "elevation_ft": 4705,
       "temp_f": 70,
-      "wind_speed_mph": 12.0,
-      "wind_direction_deg": 315,
+      "wind_speed_mph": 7.0,
+      "wind_direction_deg": 270,
       "snow_level_ft": 9481,
       "precip_chance_today": 0,
-      "snowfall_12h_in": -0.5,
-      "snowfall_24h_in": -0.1,
+      "snowfall_12h_in": -0.1,
+      "snowfall_24h_in": 0.1,
       "snowfall_48h_in": null
     },
     "Willamette Pass": {
@@ -3109,14 +3109,6 @@
   },
   "bachelor_timeseries": {
     "hourly": [
-      {
-        "time": "2026-08-22T16:00:00.000Z",
-        "temp_f": 56.15,
-        "wind_speed_mph": 8.92,
-        "wind_direction_deg": 242.5,
-        "precip_in": null,
-        "period": "historical"
-      },
       {
         "time": "2026-08-22T17:00:00.000Z",
         "temp_f": 55.51,
@@ -3302,12 +3294,12 @@
         "period": "historical"
       },
       {
-        "time": "2026-08-23T16:00:00+00:00",
-        "temp_f": 50.0,
-        "wind_speed_mph": 6.9,
-        "wind_direction_deg": 270,
-        "precip_in": 0.0,
-        "period": "forecast"
+        "time": "2026-08-23T16:00:00.000Z",
+        "temp_f": 58.9,
+        "wind_speed_mph": 6.035,
+        "wind_direction_deg": 52.06,
+        "precip_in": null,
+        "period": "historical"
       },
       {
         "time": "2026-08-23T17:00:00+00:00",
@@ -3936,10 +3928,6 @@
     ],
     "historical_precip_snapshots": [
       {
-        "time": "2026-08-20T23:15:18.808439+00:00",
-        "precip_in": 0
-      },
-      {
         "time": "2026-08-21T00:15:26.737881+00:00",
         "precip_in": 0
       },
@@ -4203,7 +4191,7 @@
       "snow_depth_in_date": "2026-08-22",
       "swe_in": 0.0,
       "swe_in_date": "2026-08-22",
-      "change_12h_in": -1,
+      "change_12h_in": 0,
       "change_24h_in": 0
     },
     "Santiam / Hoodoo (Hogg Pass)": {
@@ -4325,7 +4313,7 @@
   "mtbachelor": {
     "weather": {
       "current": {
-        "temperature": 66,
+        "temperature": 68,
         "weather_icon": "dor-sunny"
       },
       "forecast": [
@@ -4458,10 +4446,10 @@
           "active": true,
           "primary": true,
           "nonstandardizedDataPoints": {
-            "depth": "-1.056",
-            "timestamp": "2026-08-23T15:00:00.000Z"
+            "depth": "-1.058",
+            "timestamp": "2026-08-23T16:00:00.000Z"
           },
-          "temperature": "65.82",
+          "temperature": "68.19",
           "wind": {
             "low": "0",
             "high": "0",
@@ -4481,15 +4469,15 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-08-23T15:00:00.000Z"
+            "timestamp": "2026-08-23T16:00:00.000Z"
           },
-          "temperature": "60.33",
+          "temperature": "61.03",
           "wind": {
-            "low": "9.83",
-            "high": "23.04",
+            "low": "8.12",
+            "high": "20.8",
             "current": null,
-            "average": "9.83",
-            "direction": "WNW"
+            "average": "8.12",
+            "direction": "NW"
           },
           "humidity": null,
           "display_name": "Sunrise",
@@ -4503,17 +4491,17 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-08-23T15:00:00.000Z"
+            "timestamp": "2026-08-23T16:00:00.000Z"
           },
-          "temperature": "61.33",
+          "temperature": "61.63",
           "wind": {
-            "low": "5.039",
-            "high": "14.53",
+            "low": "4.473",
+            "high": "13.55",
             "current": null,
-            "average": "5.039",
-            "direction": "WSW"
+            "average": "4.473",
+            "direction": "SW"
           },
-          "humidity": "32.87",
+          "humidity": "34.6",
           "display_name": "Pine Marten",
           "elevation_ft": 7800
         },
@@ -4525,15 +4513,15 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-08-23T15:00:00.000Z"
+            "timestamp": "2026-08-23T16:00:00.000Z"
           },
-          "temperature": "57.87",
+          "temperature": "58.9",
           "wind": {
-            "low": "6.303",
-            "high": "18.57",
+            "low": "6.035",
+            "high": "16.55",
             "current": null,
-            "average": "6.303",
-            "direction": "NW"
+            "average": "6.035",
+            "direction": "NE"
           },
           "humidity": null,
           "display_name": "Cloud Chaser",
@@ -4639,21 +4627,21 @@
   },
   "hoodoo": {
     "weather": {
-      "Temperature": "64 &#176F",
-      "Wind": "NW @ 12 MPH",
-      "Snow depth": "-0.5\"",
-      "Humidity": "52 %",
-      "Barometer": "30.27\" Hg"
+      "Temperature": "66 &#176F",
+      "Wind": "West @ 7 MPH",
+      "Snow depth": "-0.1\"",
+      "Humidity": "49 %",
+      "Barometer": "30.28\" Hg"
     },
     "snow_totals": {
       "trend": {
         "Max": "0.9\"",
         "Min": "-4.4\"",
-        "1 Hr": "0.3\"",
-        "3 Hr": "-0.1\"",
-        "6 Hr": "-0.2\"",
-        "12 Hr": "-0.5\"",
-        "24 Hr": "-0.1\""
+        "1 Hr": "0.0\"",
+        "3 Hr": "0.6\"",
+        "6 Hr": "0.4\"",
+        "12 Hr": "-0.1\"",
+        "24 Hr": "0.1\""
       },
       "season_total_in": 158.5
     },
@@ -4695,8 +4683,8 @@
   "willamette_pass": {
     "forecast": {
       "weather_provider": "NOAA",
-      "date": "August 23, 2026, 4:14 pm",
-      "time": 1787526896000,
+      "date": "August 23, 2026, 4:28 pm",
+      "time": 1787527733000,
       "current_weather": "Mostly Clear",
       "current_temperature": "82",
       "forecast": [
