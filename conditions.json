@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-23T20:32:35.049033+00:00",
+  "generated_at": "2026-08-23T20:45:19.863904+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -914,8 +914,8 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 7,
-        "wind_direction_deg": 270,
+        "wind_speed_mph": 8.0,
+        "wind_direction_deg": 315,
         "snow_level_ft": 9104,
         "temp_f": 67
       },
@@ -1310,9 +1310,9 @@
           },
           "windSpeed": "2 to 10 mph",
           "windDirection": "ENE",
-          "icon": "https://api.weather.gov/icons/land/night/sct/haze?size=medium",
-          "shortForecast": "Partly Cloudy then Haze",
-          "detailedForecast": "Haze after 4am. Partly cloudy, with a low around 51. East northeast wind 2 to 10 mph.",
+          "icon": "https://api.weather.gov/icons/land/night/sct?size=medium",
+          "shortForecast": "Partly Cloudy",
+          "detailedForecast": "Partly cloudy, with a low around 51. East northeast wind 2 to 10 mph.",
           "precipitationAmountIn": 0.0,
           "snowLevelFt": 11824
         },
@@ -2156,7 +2156,7 @@
         {
           "number": 1,
           "name": "This Afternoon",
-          "startTime": "2026-08-23T12:00:00-07:00",
+          "startTime": "2026-08-23T13:00:00-07:00",
           "endTime": "2026-08-23T18:00:00-07:00",
           "isDaytime": true,
           "temperature": 82,
@@ -2166,11 +2166,11 @@
             "unitCode": "wmoUnit:percent",
             "value": 0
           },
-          "windSpeed": "3 to 7 mph",
+          "windSpeed": "7 mph",
           "windDirection": "N",
           "icon": "https://api.weather.gov/icons/land/day/skc?size=medium",
           "shortForecast": "Sunny",
-          "detailedForecast": "Sunny, with a high near 82. North wind 3 to 7 mph.",
+          "detailedForecast": "Sunny, with a high near 82. North wind around 7 mph.",
           "precipitationAmountIn": 0.0,
           "snowLevelFt": 9761
         },
@@ -3087,12 +3087,12 @@
     "Hoodoo": {
       "elevation_ft": 4705,
       "temp_f": 67,
-      "wind_speed_mph": 7,
-      "wind_direction_deg": 270,
+      "wind_speed_mph": 8.0,
+      "wind_direction_deg": 315,
       "snow_level_ft": 9104,
       "precip_chance_today": 0,
-      "snowfall_12h_in": null,
-      "snowfall_24h_in": null,
+      "snowfall_12h_in": -1.0,
+      "snowfall_24h_in": -0.6,
       "snowfall_48h_in": null
     },
     "Willamette Pass": {
@@ -4331,8 +4331,8 @@
           "day": "Sunday",
           "temperature_high": 70,
           "temperature_low": 39,
-          "precipitation_high": 32,
-          "precipitation_low": 32,
+          "precipitation_high": 28,
+          "precipitation_low": 28,
           "wind_speed": 8,
           "wind_direction": "W"
         },
@@ -4630,15 +4630,67 @@
     }
   },
   "hoodoo": {
-    "error": "HTTPSConnectionPool(host='santiampsp.org', port=443): Max retries exceeded with url: /wx/weather.htm (Caused by ConnectTimeoutError(<HTTPSConnection(host='santiampsp.org', port=443) at 0x7fa359473a70>, 'Connection to santiampsp.org timed out. (connect timeout=None)'))"
+    "weather": {
+      "Temperature": "61 &#176F",
+      "Wind": "NW @ 8 MPH",
+      "Snow depth": "0.0\"",
+      "Humidity": "45 %",
+      "Barometer": "30.27\" Hg"
+    },
+    "snow_totals": {
+      "trend": {
+        "Max": "0.9\"",
+        "Min": "-4.4\"",
+        "1 Hr": "-0.8\"",
+        "3 Hr": "-0.8\"",
+        "6 Hr": "-0.4\"",
+        "12 Hr": "-1.0\"",
+        "24 Hr": "-0.6\""
+      },
+      "season_total_in": 158.5
+    },
+    "webcams": {
+      "Base Area": {
+        "src": "https://santiampsp.org/wx/weather16.jpg",
+        "link": "https://hoodoo.com/the-mountain/webcams/"
+      },
+      "Top of Manzanita": {
+        "src": "https://santiampsp.org/wx/weather3.jpg",
+        "link": "https://hoodoo.com/the-mountain/webcams/"
+      },
+      "Top of Ed": {
+        "src": "https://santiampsp.org/wx/weather2.jpg",
+        "link": "https://hoodoo.com/the-mountain/webcams/"
+      },
+      "Top of Easy Rider": {
+        "src": "https://santiampsp.org/wx/weather4.jpg",
+        "link": "https://hoodoo.com/the-mountain/webcams/"
+      },
+      "Hoodoo Parking Lot": {
+        "src": "https://santiampsp.org/wx/weather12.jpg",
+        "link": "https://hoodoo.com/the-mountain/webcams/"
+      },
+      "Hoodoo Summit": {
+        "src": "https://santiampsp.org/wx/weather1.jpg",
+        "link": "https://hoodoo.com/the-mountain/webcams/"
+      },
+      "Hayrick Butte & \"Gripper\" run from top of Ed chair": {
+        "src": "https://santiampsp.org/wx/weather2b.jpg",
+        "link": "https://hoodoo.com/the-mountain/webcams/"
+      },
+      "Hoodoo Parking Lot View #2": {
+        "src": "https://santiampsp.org/wx/weather10.jpg",
+        "link": "https://hoodoo.com/the-mountain/webcams/"
+      }
+    }
   },
   "willamette_pass": {
     "forecast": {
       "weather_provider": "NOAA",
-      "date": "August 23, 2026, 1:31 pm",
-      "time": 1787517101000,
+      "date": "August 23, 2026, 1:43 pm",
+      "time": 1787517825000,
       "current_weather": "Sunny",
-      "current_temperature": "77",
+      "current_temperature": "80",
       "forecast": [
         {
           "day": "Sunday",
@@ -4648,7 +4700,7 @@
         {
           "day": "Monday",
           "day_forecast": "Mostly sunny, with a high near 81. Light and variable wind becoming southwest 6 to 11 mph in the afternoon. Winds could gust as high as 18 mph. ",
-          "night_forecast": "Mostly clear, with a low around 51. West northwest wind 5 to 10 mph becoming light and variable  in the evening. "
+          "night_forecast": "Widespread haze after 4am. Mostly clear, with a low around 51. West northwest wind 5 to 10 mph becoming light and variable  in the evening. "
         },
         {
           "day": "Tuesday",
@@ -4733,7 +4785,10 @@
       "src": "https://api.mtbachelor.com/api/v1/cams/mtn/14",
       "link": "https://www.mtbachelor.com/the-mountain/webcams/live-cam-14/"
     },
-    "Hoodoo (Base Area)": null,
+    "Hoodoo (Base Area)": {
+      "src": "https://santiampsp.org/wx/weather16.jpg",
+      "link": "https://hoodoo.com/the-mountain/webcams/"
+    },
     "Willamette Pass (Base Area)": {
       "src": "https://www.youtube.com/embed/sNVA6oC7vcM",
       "link": "https://www.willamettepass.ski/weather-conditions-webcams/webcams/"
@@ -4742,15 +4797,15 @@
   "satellite": {
     "Pacific Northwest": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/pnw/13/GOES18-PNW-13-600x600.gif",
-      "last_modified": "Sun, 23 Aug 2026 20:13:06 GMT"
+      "last_modified": "Sun, 23 Aug 2026 20:41:04 GMT"
     },
     "North Pacific (macro)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/np/13/GOES18-NP-13-900x540.gif",
-      "last_modified": "Sun, 23 Aug 2026 20:13:16 GMT"
+      "last_modified": "Sun, 23 Aug 2026 20:41:14 GMT"
     },
     "Pacific US (PACUS)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/13/GOES18-CONUS-13-625x375.gif",
-      "last_modified": "Sun, 23 Aug 2026 20:06:46 GMT"
+      "last_modified": "Sun, 23 Aug 2026 20:35:36 GMT"
     }
   },
   "gfs_snowfall": {
