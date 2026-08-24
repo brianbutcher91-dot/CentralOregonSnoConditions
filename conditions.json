@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24T04:15:22.619978+00:00",
+  "generated_at": "2026-08-24T04:30:27.712454+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -914,8 +914,8 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 1,
-        "wind_direction_deg": 80,
+        "wind_speed_mph": 15.0,
+        "wind_direction_deg": 67.5,
         "snow_level_ft": 9769,
         "temp_f": 58
       },
@@ -3087,12 +3087,12 @@
     "Hoodoo": {
       "elevation_ft": 4705,
       "temp_f": 58,
-      "wind_speed_mph": 1,
-      "wind_direction_deg": 80,
+      "wind_speed_mph": 15.0,
+      "wind_direction_deg": 67.5,
       "snow_level_ft": 9769,
       "precip_chance_today": 0,
-      "snowfall_12h_in": null,
-      "snowfall_24h_in": null,
+      "snowfall_12h_in": 1.4,
+      "snowfall_24h_in": 0.4,
       "snowfall_48h_in": null
     },
     "Willamette Pass": {
@@ -3109,14 +3109,6 @@
   },
   "bachelor_timeseries": {
     "hourly": [
-      {
-        "time": "2026-08-22T21:00:00.000Z",
-        "temp_f": 48.25,
-        "wind_speed_mph": 20.5,
-        "wind_direction_deg": 233.9,
-        "precip_in": null,
-        "period": "historical"
-      },
       {
         "time": "2026-08-22T22:00:00.000Z",
         "temp_f": 47.0,
@@ -3302,12 +3294,12 @@
         "period": "historical"
       },
       {
-        "time": "2026-08-23T21:00:00+00:00",
-        "temp_f": 63.0,
-        "wind_speed_mph": 5.8,
-        "wind_direction_deg": 280,
-        "precip_in": 0.0,
-        "period": "forecast"
+        "time": "2026-08-23T21:00:00.000Z",
+        "temp_f": 51.79,
+        "wind_speed_mph": 11.36,
+        "wind_direction_deg": 264.3,
+        "precip_in": null,
+        "period": "historical"
       },
       {
         "time": "2026-08-23T22:00:00+00:00",
@@ -4182,6 +4174,10 @@
       {
         "time": "2026-08-24T03:15:30.610326+00:00",
         "precip_in": 0
+      },
+      {
+        "time": "2026-08-24T04:30:28.209078+00:00",
+        "precip_in": 0
       }
     ]
   },
@@ -4199,8 +4195,8 @@
       "snow_depth_in_date": "2026-08-22",
       "swe_in": 0.0,
       "swe_in_date": "2026-08-22",
-      "change_12h_in": -1,
-      "change_24h_in": -1
+      "change_12h_in": 1,
+      "change_24h_in": 0
     },
     "Santiam / Hoodoo (Hogg Pass)": {
       "snow_depth_in": 0,
@@ -4321,7 +4317,7 @@
   "mtbachelor": {
     "weather": {
       "current": {
-        "temperature": 61,
+        "temperature": 57,
         "weather_icon": "dor-sunny"
       },
       "forecast": [
@@ -4454,10 +4450,10 @@
           "active": true,
           "primary": true,
           "nonstandardizedDataPoints": {
-            "depth": "-1.546",
-            "timestamp": "2026-08-23T20:00:00.000Z"
+            "depth": "-1.13",
+            "timestamp": "2026-08-23T21:00:00.000Z"
           },
-          "temperature": "60.74",
+          "temperature": "56.86",
           "wind": {
             "low": "0",
             "high": "0",
@@ -4477,15 +4473,15 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-08-23T20:00:00.000Z"
+            "timestamp": "2026-08-23T21:00:00.000Z"
           },
-          "temperature": "56.3",
+          "temperature": "53.38",
           "wind": {
-            "low": "6.26",
-            "high": "14.54",
+            "low": "6.61",
+            "high": "14.09",
             "current": null,
-            "average": "6.26",
-            "direction": "NW"
+            "average": "6.61",
+            "direction": "W"
           },
           "humidity": null,
           "display_name": "Sunrise",
@@ -4499,17 +4495,17 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-08-23T20:00:00.000Z"
+            "timestamp": "2026-08-23T21:00:00.000Z"
           },
-          "temperature": "53.91",
+          "temperature": "50.82",
           "wind": {
-            "low": "7.27",
-            "high": "14.97",
+            "low": "10.59",
+            "high": "20.03",
             "current": null,
-            "average": "7.27",
-            "direction": "ENE"
+            "average": "10.59",
+            "direction": "ESE"
           },
-          "humidity": "54.06",
+          "humidity": "56.66",
           "display_name": "Pine Marten",
           "elevation_ft": 7800
         },
@@ -4521,15 +4517,15 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-08-23T20:00:00.000Z"
+            "timestamp": "2026-08-23T21:00:00.000Z"
           },
-          "temperature": "54.39",
+          "temperature": "51.79",
           "wind": {
-            "low": "10.34",
-            "high": "17.45",
+            "low": "11.36",
+            "high": "20.58",
             "current": null,
-            "average": "10.34",
-            "direction": "WNW"
+            "average": "11.36",
+            "direction": "W"
           },
           "humidity": null,
           "display_name": "Cloud Chaser",
@@ -4634,10 +4630,24 @@
     }
   },
   "hoodoo": {
-    "weather": {},
+    "weather": {
+      "Temperature": "59 &#176F",
+      "Wind": "ENE @ 15 MPH",
+      "Snow depth": "0.0\"",
+      "Humidity": "60 %",
+      "Barometer": "30.33\" Hg"
+    },
     "snow_totals": {
-      "trend": {},
-      "season_total_in": null
+      "trend": {
+        "Max": "0.9\"",
+        "Min": "-4.4\"",
+        "1 Hr": "0.2\"",
+        "3 Hr": "0.4\"",
+        "6 Hr": "0.2\"",
+        "12 Hr": "1.4\"",
+        "24 Hr": "0.4\""
+      },
+      "season_total_in": 158.5
     },
     "webcams": {
       "Base Area": {
@@ -4677,8 +4687,8 @@
   "willamette_pass": {
     "forecast": {
       "weather_provider": "NOAA",
-      "date": "August 23, 2026, 8:58 pm",
-      "time": 1787543928000,
+      "date": "August 23, 2026, 9:28 pm",
+      "time": 1787545681000,
       "current_weather": "Mostly Clear",
       "current_temperature": "63",
       "forecast": [
@@ -4688,32 +4698,32 @@
         },
         {
           "day": "Monday",
-          "day_forecast": "Mostly sunny, with a high near 81. East southeast wind 5 to 11 mph becoming west in the afternoon. ",
-          "night_forecast": "Widespread haze after 4am. Mostly clear, with a low around 51. West northwest wind 5 to 9 mph becoming calm  in the evening. "
+          "day_forecast": "Sunny, with a high near 81. East southeast wind 5 to 11 mph becoming west in the afternoon. ",
+          "night_forecast": "Mostly clear, with a low around 51. West northwest wind 5 to 9 mph becoming calm  in the evening. "
         },
         {
           "day": "Tuesday",
-          "day_forecast": "Mostly sunny, with a high near 77. Light and variable wind becoming south southwest around 6 mph in the morning. ",
+          "day_forecast": "Partly sunny, then gradually becoming sunny, with a high near 76. Light and variable wind becoming south southwest around 6 mph in the morning. ",
           "night_forecast": "Mostly clear, with a low around 48. West northwest wind around 6 mph becoming calm  in the evening. "
         },
         {
           "day": "Wednesday",
           "day_forecast": "Sunny, with a high near 73.",
-          "night_forecast": "Mostly clear, with a low around 44."
+          "night_forecast": "Partly cloudy, with a low around 45."
         },
         {
           "day": "Thursday",
-          "day_forecast": "Sunny, with a high near 69.",
-          "night_forecast": "Mostly clear, with a low around 43."
+          "day_forecast": "Sunny, with a high near 67.",
+          "night_forecast": "Mostly clear, with a low around 42."
         },
         {
           "day": "Friday",
-          "day_forecast": "Sunny, with a high near 68.",
+          "day_forecast": "Sunny, with a high near 67.",
           "night_forecast": "Mostly clear, with a low around 41."
         },
         {
           "day": "Saturday",
-          "day_forecast": "Sunny, with a high near 66."
+          "day_forecast": "Sunny, with a high near 63."
         }
       ],
       "wind": "NA",
@@ -4722,18 +4732,13 @@
       "min_temp": "48",
       "hourly": [
         {
-          "time": "8p",
-          "temp": "63",
-          "details": ""
-        },
-        {
           "time": "10p",
-          "temp": "57",
+          "temp": "56",
           "details": ""
         },
         {
           "time": "12a",
-          "temp": "54",
+          "temp": "53",
           "details": ""
         },
         {
@@ -4743,6 +4748,11 @@
         },
         {
           "time": "4a",
+          "temp": "50",
+          "details": ""
+        },
+        {
+          "time": "5a",
           "temp": "50",
           "details": ""
         }
