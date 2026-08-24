@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24T22:45:20.420526+00:00",
+  "generated_at": "2026-08-24T22:58:28.469273+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -914,8 +914,8 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 15.0,
-        "wind_direction_deg": 90,
+        "wind_speed_mph": 13.0,
+        "wind_direction_deg": 67.5,
         "snow_level_ft": 11158,
         "temp_f": 79
       },
@@ -1235,7 +1235,7 @@
         {
           "number": 1,
           "name": "This Afternoon",
-          "startTime": "2026-08-24T15:00:00-07:00",
+          "startTime": "2026-08-24T13:00:00-07:00",
           "endTime": "2026-08-24T18:00:00-07:00",
           "isDaytime": true,
           "temperature": 81,
@@ -1245,13 +1245,13 @@
             "unitCode": "wmoUnit:percent",
             "value": 1
           },
-          "windSpeed": "10 mph",
-          "windDirection": "W",
+          "windSpeed": "5 to 12 mph",
+          "windDirection": "SW",
           "icon": "https://api.weather.gov/icons/land/day/sct?size=medium",
           "shortForecast": "Mostly Sunny",
-          "detailedForecast": "Mostly sunny. High near 81, with temperatures falling to around 78 in the afternoon. West wind around 10 mph.",
+          "detailedForecast": "Mostly sunny. High near 81, with temperatures falling to around 78 in the afternoon. Southwest wind 5 to 12 mph, with gusts as high as 18 mph.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 11473
+          "snowLevelFt": 10915
         },
         {
           "number": 2,
@@ -3087,12 +3087,12 @@
     "Hoodoo": {
       "elevation_ft": 4705,
       "temp_f": 79,
-      "wind_speed_mph": 15.0,
-      "wind_direction_deg": 90,
+      "wind_speed_mph": 13.0,
+      "wind_direction_deg": 67.5,
       "snow_level_ft": 11158,
       "precip_chance_today": 1,
-      "snowfall_12h_in": -0.3,
-      "snowfall_24h_in": 0.0,
+      "snowfall_12h_in": -0.1,
+      "snowfall_24h_in": 0.3,
       "snowfall_48h_in": null
     },
     "Willamette Pass": {
@@ -3928,10 +3928,6 @@
     ],
     "historical_precip_snapshots": [
       {
-        "time": "2026-08-21T22:45:26.631853+00:00",
-        "precip_in": 0
-      },
-      {
         "time": "2026-08-22T00:00:56.712760+00:00",
         "precip_in": 0
       },
@@ -4331,7 +4327,7 @@
           "weather_icon": "dor-mostlycloudy",
           "id": 1787601600,
           "day": "Monday",
-          "temperature_high": 78,
+          "temperature_high": 77,
           "temperature_low": 35,
           "precipitation_high": 25,
           "precipitation_low": 25,
@@ -4634,20 +4630,20 @@
   "hoodoo": {
     "weather": {
       "Temperature": "70 &#176F",
-      "Wind": "East @ 15 MPH",
-      "Snow depth": "-0.4\"",
+      "Wind": "ENE @ 13 MPH",
+      "Snow depth": "-0.7\"",
       "Humidity": "33 %",
-      "Barometer": "30.24\" Hg"
+      "Barometer": "30.23\" Hg"
     },
     "snow_totals": {
       "trend": {
         "Max": "0.7\"",
         "Min": "-3.5\"",
-        "1 Hr": "0.5\"",
-        "3 Hr": "0.0\"",
+        "1 Hr": "0.0\"",
+        "3 Hr": "-0.4\"",
         "6 Hr": "-0.4\"",
-        "12 Hr": "-0.3\"",
-        "24 Hr": "0.0\""
+        "12 Hr": "-0.1\"",
+        "24 Hr": "0.3\""
       },
       "season_total_in": 158.5
     },
@@ -4689,10 +4685,10 @@
   "willamette_pass": {
     "forecast": {
       "weather_provider": "NOAA",
-      "date": "August 24, 2026, 3:43 pm",
-      "time": 1787611432000,
+      "date": "August 24, 2026, 3:57 pm",
+      "time": 1787612223000,
       "current_weather": "Mostly Clear",
-      "current_temperature": "85",
+      "current_temperature": "82",
       "forecast": [
         {
           "day": "Monday",
