@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T08:15:30.441109+00:00",
+  "generated_at": "2026-08-25T08:30:17.485394+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -915,7 +915,7 @@
       ],
       "current": {
         "wind_speed_mph": 19.0,
-        "wind_direction_deg": 67.5,
+        "wind_direction_deg": 90,
         "snow_level_ft": 11243,
         "temp_f": 58
       },
@@ -2156,7 +2156,7 @@
         {
           "number": 1,
           "name": "Overnight",
-          "startTime": "2026-08-25T01:00:00-07:00",
+          "startTime": "2026-08-25T00:00:00-07:00",
           "endTime": "2026-08-25T06:00:00-07:00",
           "isDaytime": false,
           "temperature": 57,
@@ -2166,11 +2166,11 @@
             "unitCode": "wmoUnit:percent",
             "value": 0
           },
-          "windSpeed": "2 mph",
-          "windDirection": "SW",
+          "windSpeed": "3 mph",
+          "windDirection": "W",
           "icon": "https://api.weather.gov/icons/land/night/smoke?size=medium",
           "shortForecast": "Patchy Smoke",
-          "detailedForecast": "Patchy smoke. Mostly clear, with a low around 57. Southwest wind around 2 mph.",
+          "detailedForecast": "Patchy smoke. Mostly clear, with a low around 57. West wind around 3 mph.",
           "precipitationAmountIn": 0.0,
           "snowLevelFt": 11352
         },
@@ -3088,10 +3088,10 @@
       "elevation_ft": 4705,
       "temp_f": 58,
       "wind_speed_mph": 19.0,
-      "wind_direction_deg": 67.5,
+      "wind_direction_deg": 90,
       "snow_level_ft": 11243,
       "precip_chance_today": 0,
-      "snowfall_12h_in": 0.2,
+      "snowfall_12h_in": 0.4,
       "snowfall_24h_in": 0.0,
       "snowfall_48h_in": null
     },
@@ -4179,14 +4179,26 @@
   },
   "snotel": {
     "Mt Bachelor area (Irish Taylor)": {
+      "snow_depth_in": 0,
+      "snow_depth_in_date": "2026-08-24",
+      "swe_in": 0.2,
+      "swe_in_date": "2026-08-24",
       "change_12h_in": 0,
       "change_24h_in": 0
     },
     "Three Creek / Tam McArthur (Three Creeks Meadow)": {
+      "snow_depth_in": 0,
+      "snow_depth_in_date": "2026-08-24",
+      "swe_in": 0.0,
+      "swe_in_date": "2026-08-24",
       "change_12h_in": 0,
       "change_24h_in": 0
     },
     "Santiam / Hoodoo (Hogg Pass)": {
+      "snow_depth_in": 0,
+      "snow_depth_in_date": "2026-08-24",
+      "swe_in": 0.0,
+      "swe_in_date": "2026-08-24",
       "change_12h_in": 0,
       "change_24h_in": 0
     },
@@ -4299,7 +4311,7 @@
   "mtbachelor": {
     "weather": {
       "current": {
-        "temperature": 53,
+        "temperature": 51,
         "weather_icon": "dor-sunny"
       },
       "forecast": [
@@ -4432,10 +4444,10 @@
           "active": true,
           "primary": true,
           "nonstandardizedDataPoints": {
-            "depth": "-1.993",
-            "timestamp": "2026-08-25T00:00:00.000Z"
+            "depth": "-0.703",
+            "timestamp": "2026-08-25T01:00:00.000Z"
           },
-          "temperature": "53.25",
+          "temperature": "51.47",
           "wind": {
             "low": "0",
             "high": "0",
@@ -4455,14 +4467,14 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-08-25T00:00:00.000Z"
+            "timestamp": "2026-08-25T01:00:00.000Z"
           },
-          "temperature": "58.84",
+          "temperature": "58.68",
           "wind": {
-            "low": "5.717",
-            "high": "8.95",
+            "low": "5.705",
+            "high": "10.07",
             "current": null,
-            "average": "5.717",
+            "average": "5.705",
             "direction": "S"
           },
           "humidity": null,
@@ -4477,17 +4489,17 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-08-25T00:00:00.000Z"
+            "timestamp": "2026-08-25T01:00:00.000Z"
           },
-          "temperature": "57.95",
+          "temperature": "57.18",
           "wind": {
-            "low": "9.95",
-            "high": "13.19",
+            "low": "9.82",
+            "high": "13.35",
             "current": null,
-            "average": "9.95",
+            "average": "9.82",
             "direction": "S"
           },
-          "humidity": "38.6",
+          "humidity": "41.06",
           "display_name": "Pine Marten",
           "elevation_ft": 7800
         },
@@ -4499,15 +4511,15 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-08-25T00:00:00.000Z"
+            "timestamp": "2026-08-25T01:00:00.000Z"
           },
-          "temperature": "59.28",
+          "temperature": "58.84",
           "wind": {
-            "low": "4.454",
-            "high": "6.935",
+            "low": "3.542",
+            "high": "6.487",
             "current": null,
-            "average": "4.454",
-            "direction": "SE"
+            "average": "3.542",
+            "direction": "SSE"
           },
           "humidity": null,
           "display_name": "Cloud Chaser",
@@ -4614,19 +4626,19 @@
   "hoodoo": {
     "weather": {
       "Temperature": "62 &#176F",
-      "Wind": "ENE @ 19 MPH",
-      "Snow depth": "-0.2\"",
-      "Humidity": "43 %",
+      "Wind": "East @ 19 MPH",
+      "Snow depth": "-0.3\"",
+      "Humidity": "44 %",
       "Barometer": "30.34\" Hg"
     },
     "snow_totals": {
       "trend": {
         "Max": "0.7\"",
         "Min": "-3.5\"",
-        "1 Hr": "0.2\"",
-        "3 Hr": "0.3\"",
-        "6 Hr": "0.6\"",
-        "12 Hr": "0.2\"",
+        "1 Hr": "0.0\"",
+        "3 Hr": "0.1\"",
+        "6 Hr": "0.5\"",
+        "12 Hr": "0.4\"",
         "24 Hr": "0.0\""
       },
       "season_total_in": 158.5
@@ -4669,20 +4681,20 @@
   "willamette_pass": {
     "forecast": {
       "weather_provider": "NOAA",
-      "date": "August 25, 2026, 1:00 am",
-      "time": 1787644816000,
+      "date": "August 25, 2026, 1:27 am",
+      "time": 1787646436000,
       "current_weather": "Mostly Clear",
       "current_temperature": "58",
       "forecast": [
         {
           "day": "Tuesday",
-          "day_forecast": "Mostly sunny, with a high near 77. Light and variable wind becoming south southwest 5 to 9 mph in the morning. ",
-          "night_forecast": "Mostly clear, with a low around 49. West northwest wind 5 to 8 mph becoming calm  in the evening. "
+          "day_forecast": "Mostly sunny, with a high near 77. East southeast wind 5 to 11 mph becoming west southwest in the afternoon. ",
+          "night_forecast": "Mostly clear, with a low around 49. West northwest wind 5 to 10 mph becoming light and variable  in the evening. "
         },
         {
           "day": "Wednesday",
           "day_forecast": "Mostly sunny, with a high near 73. Light and variable wind becoming west 5 to 10 mph in the afternoon. ",
-          "night_forecast": "Partly cloudy, with a low around 46. West northwest wind 5 to 10 mph becoming light west  in the evening. "
+          "night_forecast": "Partly cloudy, with a low around 46. West wind 5 to 9 mph becoming calm  in the evening. "
         },
         {
           "day": "Thursday",
@@ -4710,11 +4722,6 @@
       "min_temp": "50",
       "hourly": [
         {
-          "time": "12a",
-          "temp": "57",
-          "details": ""
-        },
-        {
           "time": "2a",
           "temp": "53",
           "details": ""
@@ -4732,6 +4739,11 @@
         {
           "time": "8a",
           "temp": "54",
+          "details": ""
+        },
+        {
+          "time": "10a",
+          "temp": "66",
           "details": ""
         }
       ],
