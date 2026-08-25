@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T01:00:45.487613+00:00",
+  "generated_at": "2026-08-25T01:15:21.532903+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -914,7 +914,7 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 14.0,
+        "wind_speed_mph": 13.0,
         "wind_direction_deg": 90,
         "snow_level_ft": 11722,
         "temp_f": 78
@@ -3087,12 +3087,12 @@
     "Hoodoo": {
       "elevation_ft": 4705,
       "temp_f": 78,
-      "wind_speed_mph": 14.0,
+      "wind_speed_mph": 13.0,
       "wind_direction_deg": 90,
       "snow_level_ft": 11722,
       "precip_chance_today": 1,
-      "snowfall_12h_in": -0.4,
-      "snowfall_24h_in": -0.4,
+      "snowfall_12h_in": -0.3,
+      "snowfall_24h_in": -0.3,
       "snowfall_48h_in": null
     },
     "Willamette Pass": {
@@ -3109,14 +3109,6 @@
   },
   "bachelor_timeseries": {
     "hourly": [
-      {
-        "time": "2026-08-23T18:00:00.000Z",
-        "temp_f": 58.56,
-        "wind_speed_mph": 4.903,
-        "wind_direction_deg": 166.4,
-        "precip_in": null,
-        "period": "historical"
-      },
       {
         "time": "2026-08-23T19:00:00.000Z",
         "temp_f": 56.4,
@@ -3302,12 +3294,12 @@
         "period": "historical"
       },
       {
-        "time": "2026-08-24T18:00:00+00:00",
-        "temp_f": 63.0,
-        "wind_speed_mph": 6.9,
-        "wind_direction_deg": 130,
-        "precip_in": 0.0,
-        "period": "forecast"
+        "time": "2026-08-24T18:00:00.000Z",
+        "temp_f": 64.37,
+        "wind_speed_mph": 6.549,
+        "wind_direction_deg": 36.78,
+        "precip_in": null,
+        "period": "historical"
       },
       {
         "time": "2026-08-24T19:00:00+00:00",
@@ -3936,10 +3928,6 @@
     ],
     "historical_precip_snapshots": [
       {
-        "time": "2026-08-22T01:15:16.438466+00:00",
-        "precip_in": 0
-      },
-      {
         "time": "2026-08-22T02:15:21.263728+00:00",
         "precip_in": 0
       },
@@ -4339,7 +4327,7 @@
           "weather_icon": "dor-mostlycloudy",
           "id": 1787601600,
           "day": "Monday",
-          "temperature_high": 75,
+          "temperature_high": 74,
           "temperature_low": 35,
           "precipitation_high": 29,
           "precipitation_low": 29,
@@ -4438,17 +4426,17 @@
         },
         {
           "date": "2026-08-31",
-          "description_long": "overcast clouds",
-          "description_short": "overcast clouds",
-          "details": "Clouds",
-          "weather_icon": "dor-mostlycloudy",
+          "description_long": "light rain",
+          "description_short": "light rain",
+          "details": "Rain",
+          "weather_icon": "dor-rain",
           "id": 1788206400,
           "day": "Monday",
-          "temperature_high": 67,
-          "temperature_low": 38,
-          "precipitation_high": 22,
-          "precipitation_low": 22,
-          "wind_speed": 7,
+          "temperature_high": 63,
+          "temperature_low": 40,
+          "precipitation_high": 23,
+          "precipitation_low": 23,
+          "wind_speed": 11,
           "wind_direction": "W"
         }
       ],
@@ -4571,17 +4559,17 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-08-24T17:00:00.000Z"
+            "timestamp": "2026-08-24T18:00:00.000Z"
           },
-          "temperature": "62.27",
+          "temperature": "61.64",
           "wind": {
-            "low": "12.24",
-            "high": "30.87",
+            "low": "9.26",
+            "high": "22.59",
             "current": null,
-            "average": "12.24",
-            "direction": "SW"
+            "average": "9.26",
+            "direction": "SE"
           },
-          "humidity": "25.16",
+          "humidity": "35.68",
           "display_name": "Summit",
           "elevation_ft": 9065
         }
@@ -4642,7 +4630,7 @@
   "hoodoo": {
     "weather": {
       "Temperature": "71 &#176F",
-      "Wind": "East @ 14 MPH",
+      "Wind": "East @ 13 MPH",
       "Snow depth": "-0.6\"",
       "Humidity": "31 %",
       "Barometer": "30.26\" Hg"
@@ -4652,10 +4640,10 @@
         "Max": "0.7\"",
         "Min": "-3.5\"",
         "1 Hr": "-0.2\"",
-        "3 Hr": "-0.4\"",
-        "6 Hr": "-0.1\"",
-        "12 Hr": "-0.4\"",
-        "24 Hr": "-0.4\""
+        "3 Hr": "0.2\"",
+        "6 Hr": "-0.3\"",
+        "12 Hr": "-0.3\"",
+        "24 Hr": "-0.3\""
       },
       "season_total_in": 158.5
     },
@@ -4697,8 +4685,8 @@
   "willamette_pass": {
     "forecast": {
       "weather_provider": "NOAA",
-      "date": "August 24, 2026, 5:59 pm",
-      "time": 1787619595000,
+      "date": "August 24, 2026, 6:13 pm",
+      "time": 1787620437000,
       "current_weather": "Mostly Clear",
       "current_temperature": "81",
       "forecast": [
@@ -4742,11 +4730,6 @@
       "min_temp": "50",
       "hourly": [
         {
-          "time": "5p",
-          "temp": "78",
-          "details": ""
-        },
-        {
           "time": "8p",
           "temp": "66",
           "details": ""
@@ -4764,6 +4747,11 @@
         {
           "time": "2a",
           "temp": "54",
+          "details": ""
+        },
+        {
+          "time": "4a",
+          "temp": "52",
           "details": ""
         }
       ],
@@ -4798,15 +4786,15 @@
   "satellite": {
     "Pacific Northwest": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/pnw/13/GOES18-PNW-13-600x600.gif",
-      "last_modified": "Tue, 25 Aug 2026 00:41:09 GMT"
+      "last_modified": "Tue, 25 Aug 2026 01:11:26 GMT"
     },
     "North Pacific (macro)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/np/13/GOES18-NP-13-900x540.gif",
-      "last_modified": "Tue, 25 Aug 2026 00:41:18 GMT"
+      "last_modified": "Tue, 25 Aug 2026 01:11:35 GMT"
     },
     "Pacific US (PACUS)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/13/GOES18-CONUS-13-625x375.gif",
-      "last_modified": "Tue, 25 Aug 2026 00:35:38 GMT"
+      "last_modified": "Tue, 25 Aug 2026 01:05:45 GMT"
     }
   },
   "gfs_snowfall": {
