@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-27T04:15:25.152449+00:00",
+  "generated_at": "2026-08-27T04:30:28.910509+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -914,8 +914,8 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 10.0,
-        "wind_direction_deg": 292.5,
+        "wind_speed_mph": 12.0,
+        "wind_direction_deg": 315,
         "snow_level_ft": 10495,
         "temp_f": 56
       },
@@ -3087,12 +3087,12 @@
     "Hoodoo": {
       "elevation_ft": 4705,
       "temp_f": 56,
-      "wind_speed_mph": 10.0,
-      "wind_direction_deg": 292.5,
+      "wind_speed_mph": 12.0,
+      "wind_direction_deg": 315,
       "snow_level_ft": 10495,
       "precip_chance_today": 1,
-      "snowfall_12h_in": 0.0,
-      "snowfall_24h_in": 0.5,
+      "snowfall_12h_in": -0.3,
+      "snowfall_24h_in": 0.1,
       "snowfall_48h_in": null
     },
     "Willamette Pass": {
@@ -3109,14 +3109,6 @@
   },
   "bachelor_timeseries": {
     "hourly": [
-      {
-        "time": "2026-08-25T21:00:00.000Z",
-        "temp_f": 61.0,
-        "wind_speed_mph": 7.684,
-        "wind_direction_deg": 109.3,
-        "precip_in": null,
-        "period": "historical"
-      },
       {
         "time": "2026-08-25T22:00:00.000Z",
         "temp_f": 58.89,
@@ -3302,12 +3294,12 @@
         "period": "historical"
       },
       {
-        "time": "2026-08-26T21:00:00+00:00",
-        "temp_f": 66.0,
-        "wind_speed_mph": 9.2,
-        "wind_direction_deg": 250,
-        "precip_in": 0.0,
-        "period": "forecast"
+        "time": "2026-08-26T21:00:00.000Z",
+        "temp_f": 57.12,
+        "wind_speed_mph": 8.64,
+        "wind_direction_deg": 200.9,
+        "precip_in": null,
+        "period": "historical"
       },
       {
         "time": "2026-08-26T22:00:00+00:00",
@@ -3935,10 +3927,6 @@
       }
     ],
     "historical_precip_snapshots": [
-      {
-        "time": "2026-08-24T04:30:28.209078+00:00",
-        "precip_in": 0
-      },
       {
         "time": "2026-08-24T05:45:20.570247+00:00",
         "precip_in": 0
@@ -4637,21 +4625,21 @@
   },
   "hoodoo": {
     "weather": {
-      "Temperature": "54 &#176F",
-      "Wind": "WNW @ 10 MPH",
-      "Snow depth": "-0.2\"",
-      "Humidity": "79 %",
+      "Temperature": "53 &#176F",
+      "Wind": "NW @ 12 MPH",
+      "Snow depth": "-0.4\"",
+      "Humidity": "84 %",
       "Barometer": "30.34\" Hg"
     },
     "snow_totals": {
       "trend": {
         "Max": "0.8\"",
         "Min": "-2.7\"",
-        "1 Hr": "0.3\"",
-        "3 Hr": "0.4\"",
-        "6 Hr": "0.1\"",
-        "12 Hr": "0.0\"",
-        "24 Hr": "0.5\""
+        "1 Hr": "0.2\"",
+        "3 Hr": "0.0\"",
+        "6 Hr": "-0.1\"",
+        "12 Hr": "-0.3\"",
+        "24 Hr": "0.1\""
       },
       "season_total_in": 158.5
     },
