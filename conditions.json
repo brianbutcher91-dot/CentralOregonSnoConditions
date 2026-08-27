@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-27T12:00:21.710614+00:00",
+  "generated_at": "2026-08-27T12:15:23.246549+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -914,8 +914,8 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 5,
-        "wind_direction_deg": 260,
+        "wind_speed_mph": 8.0,
+        "wind_direction_deg": 247.5,
         "snow_level_ft": 10548,
         "temp_f": 49
       },
@@ -3087,12 +3087,12 @@
     "Hoodoo": {
       "elevation_ft": 4705,
       "temp_f": 49,
-      "wind_speed_mph": 5,
-      "wind_direction_deg": 260,
+      "wind_speed_mph": 8.0,
+      "wind_direction_deg": 247.5,
       "snow_level_ft": 10548,
       "precip_chance_today": 2,
-      "snowfall_12h_in": null,
-      "snowfall_24h_in": null,
+      "snowfall_12h_in": 0.0,
+      "snowfall_24h_in": -0.4,
       "snowfall_48h_in": null
     },
     "Willamette Pass": {
@@ -4334,7 +4334,7 @@
           "id": 1787860800,
           "day": "Thursday",
           "temperature_high": 72,
-          "temperature_low": 43,
+          "temperature_low": 42,
           "precipitation_high": 31,
           "precipitation_low": 31,
           "wind_speed": 12,
@@ -4565,17 +4565,17 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-08-27T04:00:00.000Z"
+            "timestamp": "2026-08-27T05:00:00.000Z"
           },
-          "temperature": "44.9",
+          "temperature": "44.4",
           "wind": {
-            "low": "23.36",
-            "high": "44.96",
+            "low": "22.63",
+            "high": "46.31",
             "current": null,
-            "average": "23.36",
+            "average": "22.63",
             "direction": "W"
           },
-          "humidity": "75.97",
+          "humidity": "78.98",
           "display_name": "Summit",
           "elevation_ft": 9065
         }
@@ -4634,10 +4634,24 @@
     }
   },
   "hoodoo": {
-    "weather": {},
+    "weather": {
+      "Temperature": "49 &#176F",
+      "Wind": "WSW @ 8 MPH",
+      "Snow depth": "-0.4\"",
+      "Humidity": "100 %",
+      "Barometer": "30.25\" Hg"
+    },
     "snow_totals": {
-      "trend": {},
-      "season_total_in": null
+      "trend": {
+        "Max": "0.8\"",
+        "Min": "-2.7\"",
+        "1 Hr": "0.2\"",
+        "3 Hr": "-0.1\"",
+        "6 Hr": "-0.5\"",
+        "12 Hr": "0.0\"",
+        "24 Hr": "-0.4\""
+      },
+      "season_total_in": 158.5
     },
     "webcams": {
       "Base Area": {
@@ -4677,8 +4691,8 @@
   "willamette_pass": {
     "forecast": {
       "weather_provider": "NOAA",
-      "date": "August 27, 2026, 4:59 am",
-      "time": 1787831944000,
+      "date": "August 27, 2026, 5:14 am",
+      "time": 1787832847000,
       "current_weather": "Sunny",
       "current_temperature": "54",
       "forecast": [
@@ -4719,11 +4733,6 @@
       "min_temp": "40",
       "hourly": [
         {
-          "time": "4a",
-          "temp": "47",
-          "details": ""
-        },
-        {
           "time": "5a",
           "temp": "46",
           "details": ""
@@ -4741,6 +4750,11 @@
         {
           "time": "12p",
           "temp": "60",
+          "details": ""
+        },
+        {
+          "time": "2p",
+          "temp": "63",
           "details": ""
         }
       ],
@@ -4775,15 +4789,15 @@
   "satellite": {
     "Pacific Northwest": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/pnw/13/GOES18-PNW-13-600x600.gif",
-      "last_modified": "Thu, 27 Aug 2026 11:40:53 GMT"
+      "last_modified": "Thu, 27 Aug 2026 12:13:25 GMT"
     },
     "North Pacific (macro)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/np/13/GOES18-NP-13-900x540.gif",
-      "last_modified": "Thu, 27 Aug 2026 11:41:02 GMT"
+      "last_modified": "Thu, 27 Aug 2026 12:13:34 GMT"
     },
     "Pacific US (PACUS)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/13/GOES18-CONUS-13-625x375.gif",
-      "last_modified": "Thu, 27 Aug 2026 11:35:33 GMT"
+      "last_modified": "Thu, 27 Aug 2026 12:08:07 GMT"
     }
   },
   "gfs_snowfall": {
