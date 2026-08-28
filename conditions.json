@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-28T15:30:25.857338+00:00",
+  "generated_at": "2026-08-28T15:47:35.799461+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -928,7 +928,7 @@
         {
           "number": 1,
           "name": "Today",
-          "startTime": "2026-08-28T07:00:00-07:00",
+          "startTime": "2026-08-28T08:00:00-07:00",
           "endTime": "2026-08-28T18:00:00-07:00",
           "isDaytime": true,
           "temperature": 65,
@@ -944,7 +944,7 @@
           "shortForecast": "Sunny",
           "detailedForecast": "Sunny. High near 65, with temperatures falling to around 61 in the afternoon. Southwest wind 5 to 10 mph, with gusts as high as 20 mph.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 10127
+          "snowLevelFt": 9721
         },
         {
           "number": 2,
@@ -1235,7 +1235,7 @@
         {
           "number": 1,
           "name": "Today",
-          "startTime": "2026-08-28T07:00:00-07:00",
+          "startTime": "2026-08-28T08:00:00-07:00",
           "endTime": "2026-08-28T18:00:00-07:00",
           "isDaytime": true,
           "temperature": 68,
@@ -1251,7 +1251,7 @@
           "shortForecast": "Sunny",
           "detailedForecast": "Sunny. High near 68, with temperatures falling to around 65 in the afternoon. West southwest wind 2 to 12 mph.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 9016
+          "snowLevelFt": 8933
         },
         {
           "number": 2,
@@ -2156,7 +2156,7 @@
         {
           "number": 1,
           "name": "Today",
-          "startTime": "2026-08-28T07:00:00-07:00",
+          "startTime": "2026-08-28T08:00:00-07:00",
           "endTime": "2026-08-28T18:00:00-07:00",
           "isDaytime": true,
           "temperature": 81,
@@ -2172,7 +2172,7 @@
           "shortForecast": "Patchy Smoke then Sunny",
           "detailedForecast": "Patchy smoke before 11am. Sunny. High near 81, with temperatures falling to around 79 in the afternoon. North wind 1 to 7 mph.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 9471
+          "snowLevelFt": 9196
         },
         {
           "number": 2,
@@ -3091,8 +3091,8 @@
       "wind_direction_deg": 230,
       "snow_level_ft": 8198,
       "precip_chance_today": 0,
-      "snowfall_12h_in": -0.6,
-      "snowfall_24h_in": -0.5,
+      "snowfall_12h_in": null,
+      "snowfall_24h_in": null,
       "snowfall_48h_in": null
     },
     "Willamette Pass": {
@@ -4170,6 +4170,10 @@
       {
         "time": "2026-08-28T14:45:21.153792+00:00",
         "precip_in": 0
+      },
+      {
+        "time": "2026-08-28T15:47:36.432003+00:00",
+        "precip_in": 0
       }
     ]
   },
@@ -4324,9 +4328,9 @@
           "id": 1787947200,
           "day": "Friday",
           "temperature_high": 68,
-          "temperature_low": 36,
-          "precipitation_high": 32,
-          "precipitation_low": 32,
+          "temperature_low": 35,
+          "precipitation_high": 36,
+          "precipitation_low": 36,
           "wind_speed": 13,
           "wind_direction": "W"
         },
@@ -4624,59 +4628,7 @@
     }
   },
   "hoodoo": {
-    "weather": {
-      "Temperature": "52 &#176F",
-      "Wind": "WSW",
-      "Snow depth": "-0.7\"",
-      "Humidity": "49 %",
-      "Barometer": "30.15\" Hg"
-    },
-    "snow_totals": {
-      "trend": {
-        "Max": "1.3\"",
-        "Min": "-2.5\"",
-        "1 Hr": "0.1\"",
-        "3 Hr": "-0.8\"",
-        "6 Hr": "-1.0\"",
-        "12 Hr": "-0.6\"",
-        "24 Hr": "-0.5\""
-      },
-      "season_total_in": 158.5
-    },
-    "webcams": {
-      "Base Area": {
-        "src": "https://santiampsp.org/wx/weather16.jpg",
-        "link": "https://hoodoo.com/the-mountain/webcams/"
-      },
-      "Top of Manzanita": {
-        "src": "https://santiampsp.org/wx/weather3.jpg",
-        "link": "https://hoodoo.com/the-mountain/webcams/"
-      },
-      "Top of Ed": {
-        "src": "https://santiampsp.org/wx/weather2.jpg",
-        "link": "https://hoodoo.com/the-mountain/webcams/"
-      },
-      "Top of Easy Rider": {
-        "src": "https://santiampsp.org/wx/weather4.jpg",
-        "link": "https://hoodoo.com/the-mountain/webcams/"
-      },
-      "Hoodoo Parking Lot": {
-        "src": "https://santiampsp.org/wx/weather12.jpg",
-        "link": "https://hoodoo.com/the-mountain/webcams/"
-      },
-      "Hoodoo Summit": {
-        "src": "https://santiampsp.org/wx/weather1.jpg",
-        "link": "https://hoodoo.com/the-mountain/webcams/"
-      },
-      "Hayrick Butte & \"Gripper\" run from top of Ed chair": {
-        "src": "https://santiampsp.org/wx/weather2b.jpg",
-        "link": "https://hoodoo.com/the-mountain/webcams/"
-      },
-      "Hoodoo Parking Lot View #2": {
-        "src": "https://santiampsp.org/wx/weather10.jpg",
-        "link": "https://hoodoo.com/the-mountain/webcams/"
-      }
-    }
+    "error": "HTTPSConnectionPool(host='santiampsp.org', port=443): Max retries exceeded with url: /wx/weather.htm (Caused by ConnectTimeoutError(<HTTPSConnection(host='santiampsp.org', port=443) at 0x7f50db127c80>, 'Connection to santiampsp.org timed out. (connect timeout=None)'))"
   },
   "willamette_pass": {
     "forecast": {
@@ -4770,24 +4722,21 @@
       "src": "https://api.mtbachelor.com/api/v1/cams/mtn/14",
       "link": "https://www.mtbachelor.com/the-mountain/webcams/live-cam-14/"
     },
-    "Hoodoo (Base Area)": {
-      "src": "https://santiampsp.org/wx/weather16.jpg",
-      "link": "https://hoodoo.com/the-mountain/webcams/"
-    },
+    "Hoodoo (Base Area)": null,
     "Willamette Pass (Base Area)": null
   },
   "satellite": {
     "Pacific Northwest": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/pnw/13/GOES18-PNW-13-600x600.gif",
-      "last_modified": "Fri, 28 Aug 2026 15:11:26 GMT"
+      "last_modified": "Fri, 28 Aug 2026 15:41:01 GMT"
     },
     "North Pacific (macro)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/np/13/GOES18-NP-13-900x540.gif",
-      "last_modified": "Fri, 28 Aug 2026 15:11:36 GMT"
+      "last_modified": "Fri, 28 Aug 2026 15:41:10 GMT"
     },
     "Pacific US (PACUS)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/13/GOES18-CONUS-13-625x375.gif",
-      "last_modified": "Fri, 28 Aug 2026 15:05:50 GMT"
+      "last_modified": "Fri, 28 Aug 2026 15:35:30 GMT"
     }
   },
   "gfs_snowfall": {
