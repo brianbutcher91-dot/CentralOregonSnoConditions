@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-28T15:00:27.352820+00:00",
+  "generated_at": "2026-08-28T15:15:18.352599+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -915,7 +915,7 @@
       ],
       "current": {
         "wind_speed_mph": 2.0,
-        "wind_direction_deg": 247.5,
+        "wind_direction_deg": 270,
         "snow_level_ft": 8198,
         "temp_f": 48
       },
@@ -3088,11 +3088,11 @@
       "elevation_ft": 4705,
       "temp_f": 48,
       "wind_speed_mph": 2.0,
-      "wind_direction_deg": 247.5,
+      "wind_direction_deg": 270,
       "snow_level_ft": 8198,
       "precip_chance_today": 0,
-      "snowfall_12h_in": -0.3,
-      "snowfall_24h_in": -0.6,
+      "snowfall_12h_in": -0.1,
+      "snowfall_24h_in": -0.4,
       "snowfall_48h_in": null
     },
     "Willamette Pass": {
@@ -4189,7 +4189,7 @@
     "Mt Bachelor area (Irish Taylor)": {
       "snow_depth_in": 0,
       "snow_depth_in_date": "2026-08-27",
-      "swe_in": 0.2,
+      "swe_in": 0.0,
       "swe_in_date": "2026-08-27",
       "change_12h_in": 0,
       "change_24h_in": 0
@@ -4213,6 +4213,8 @@
     "Ochocos (Ochoco Meadows)": {
       "snow_depth_in": 0,
       "snow_depth_in_date": "2026-08-27",
+      "swe_in": 0.0,
+      "swe_in_date": "2026-08-27",
       "change_12h_in": 0,
       "change_24h_in": 0
     }
@@ -4335,8 +4337,8 @@
           "day": "Friday",
           "temperature_high": 68,
           "temperature_low": 36,
-          "precipitation_high": 23,
-          "precipitation_low": 23,
+          "precipitation_high": 32,
+          "precipitation_low": 32,
           "wind_speed": 13,
           "wind_direction": "W"
         },
@@ -4565,17 +4567,17 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-08-28T07:00:00.000Z"
+            "timestamp": "2026-08-28T08:00:00.000Z"
           },
-          "temperature": "41.36",
+          "temperature": "41.9",
           "wind": {
-            "low": "12.91",
-            "high": "28.63",
+            "low": "23.26",
+            "high": "33.78",
             "current": null,
-            "average": "12.91",
-            "direction": "W"
+            "average": "23.26",
+            "direction": "WSW"
           },
-          "humidity": "76.81",
+          "humidity": "78.82",
           "display_name": "Summit",
           "elevation_ft": 9065
         }
@@ -4636,9 +4638,9 @@
   "hoodoo": {
     "weather": {
       "Temperature": "51 &#176F",
-      "Wind": "WSW @ 2 MPH",
-      "Snow depth": "-0.9\"",
-      "Humidity": "62 %",
+      "Wind": "West @ 2 MPH",
+      "Snow depth": "-0.7\"",
+      "Humidity": "63 %",
       "Barometer": "30.16\" Hg"
     },
     "snow_totals": {
@@ -4646,10 +4648,10 @@
         "Max": "1.3\"",
         "Min": "-2.5\"",
         "1 Hr": "-0.4\"",
-        "3 Hr": "-0.1\"",
-        "6 Hr": "-0.4\"",
-        "12 Hr": "-0.3\"",
-        "24 Hr": "-0.6\""
+        "3 Hr": "-0.2\"",
+        "6 Hr": "0.0\"",
+        "12 Hr": "-0.1\"",
+        "24 Hr": "-0.4\""
       },
       "season_total_in": 158.5
     },
@@ -4691,10 +4693,10 @@
   "willamette_pass": {
     "forecast": {
       "weather_provider": "NOAA",
-      "date": "August 28, 2026, 7:43 am",
-      "time": 1787928196000,
+      "date": "August 28, 2026, 8:13 am",
+      "time": 1787929996000,
       "current_weather": "Sunny",
-      "current_temperature": "46",
+      "current_temperature": "47",
       "forecast": [
         {
           "day": "Friday",
@@ -4789,15 +4791,15 @@
   "satellite": {
     "Pacific Northwest": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/pnw/13/GOES18-PNW-13-600x600.gif",
-      "last_modified": "Fri, 28 Aug 2026 14:40:43 GMT"
+      "last_modified": "Fri, 28 Aug 2026 15:11:27 GMT"
     },
     "North Pacific (macro)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/np/13/GOES18-NP-13-900x540.gif",
-      "last_modified": "Fri, 28 Aug 2026 14:40:52 GMT"
+      "last_modified": "Fri, 28 Aug 2026 15:11:36 GMT"
     },
     "Pacific US (PACUS)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/13/GOES18-CONUS-13-625x375.gif",
-      "last_modified": "Fri, 28 Aug 2026 14:35:23 GMT"
+      "last_modified": "Fri, 28 Aug 2026 15:05:50 GMT"
     }
   },
   "gfs_snowfall": {
