@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-29T11:15:52.557454+00:00",
+  "generated_at": "2026-08-29T11:30:20.911734+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -914,8 +914,8 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 9,
-        "wind_direction_deg": 260,
+        "wind_speed_mph": 12.0,
+        "wind_direction_deg": 270,
         "snow_level_ft": 7775,
         "temp_f": 44
       },
@@ -1235,7 +1235,7 @@
         {
           "number": 1,
           "name": "Overnight",
-          "startTime": "2026-08-29T03:00:00-07:00",
+          "startTime": "2026-08-29T04:00:00-07:00",
           "endTime": "2026-08-29T06:00:00-07:00",
           "isDaytime": false,
           "temperature": 39,
@@ -1251,7 +1251,7 @@
           "shortForecast": "Mostly Cloudy",
           "detailedForecast": "Mostly cloudy. Low around 39, with temperatures rising to around 41 overnight. West northwest wind around 7 mph.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 8251
+          "snowLevelFt": 8064
         },
         {
           "number": 2,
@@ -3087,12 +3087,12 @@
     "Hoodoo": {
       "elevation_ft": 4705,
       "temp_f": 44,
-      "wind_speed_mph": 9,
-      "wind_direction_deg": 260,
+      "wind_speed_mph": 12.0,
+      "wind_direction_deg": 270,
       "snow_level_ft": 7775,
       "precip_chance_today": 9,
-      "snowfall_12h_in": null,
-      "snowfall_24h_in": null,
+      "snowfall_12h_in": 0.2,
+      "snowfall_24h_in": 0.0,
       "snowfall_48h_in": null
     },
     "Willamette Pass": {
@@ -4191,8 +4191,8 @@
       "snow_depth_in_date": "2026-08-28",
       "swe_in": 0.0,
       "swe_in_date": "2026-08-28",
-      "change_12h_in": 0,
-      "change_24h_in": 1
+      "change_12h_in": 1,
+      "change_24h_in": 0
     },
     "Santiam / Hoodoo (Hogg Pass)": {
       "snow_depth_in": 0,
@@ -4326,7 +4326,7 @@
           "id": 1788033600,
           "day": "Saturday",
           "temperature_high": 58,
-          "temperature_low": 34,
+          "temperature_low": 36,
           "precipitation_high": 28,
           "precipitation_low": 28,
           "wind_speed": 12,
@@ -4626,10 +4626,24 @@
     }
   },
   "hoodoo": {
-    "weather": {},
+    "weather": {
+      "Temperature": "42 &#176F",
+      "Wind": "West @ 12 MPH",
+      "Snow depth": "-0.2\"",
+      "Humidity": "100 %",
+      "Barometer": "30.12\" Hg"
+    },
     "snow_totals": {
-      "trend": {},
-      "season_total_in": null
+      "trend": {
+        "Max": "1.3\"",
+        "Min": "-4.1\"",
+        "1 Hr": "0.4\"",
+        "3 Hr": "1.2\"",
+        "6 Hr": "0.6\"",
+        "12 Hr": "0.2\"",
+        "24 Hr": "0.0\""
+      },
+      "season_total_in": 158.5
     },
     "webcams": {
       "Base Area": {
@@ -4669,9 +4683,9 @@
   "willamette_pass": {
     "forecast": {
       "weather_provider": "NOAA",
-      "date": "August 29, 2026, 3:43 am",
-      "time": 1788000195000,
-      "current_weather": "Mostly Cloudy",
+      "date": "August 29, 2026, 4:28 am",
+      "time": 1788002905000,
+      "current_weather": "Mostly Sunny",
       "current_temperature": "47",
       "forecast": [
         {
@@ -4686,12 +4700,12 @@
         },
         {
           "day": "Monday",
-          "day_forecast": "Sunny, with a high near 74.",
+          "day_forecast": "Sunny, with a high near 74. East southeast wind 5 to 7 mph becoming west in the afternoon. ",
           "night_forecast": "Partly cloudy, with a low around 45."
         },
         {
           "day": "Tuesday",
-          "day_forecast": "A chance of showers and thunderstorms after 11am.  Partly sunny, with a high near 59.",
+          "day_forecast": "A 40 percent chance of showers and thunderstorms after 11am.  Partly sunny, with a high near 59.",
           "night_forecast": "A chance of rain, mainly before 11pm.  Mostly cloudy, with a low around 42."
         },
         {
@@ -4701,13 +4715,14 @@
         },
         {
           "day": "Thursday",
-          "day_forecast": "Rain likely.  Snow level 7900 feet. Mostly cloudy, with a high near 54."
+          "day_forecast": "Rain likely.  Snow level 7900 feet. Mostly cloudy, with a high near 54.",
+          "night_forecast": "A chance of rain.  Snow level 7900 feet. Mostly cloudy, with a low around 38."
         }
       ],
       "wind": "NA",
-      "icon": "0101-cloudy.svg",
+      "icon": "0100-sunny.svg",
       "max_temp": "56",
-      "min_temp": "42",
+      "min_temp": "32",
       "hourly": [
         {
           "time": "4a",
@@ -4770,7 +4785,7 @@
     },
     "North Pacific (macro)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/np/13/GOES18-NP-13-900x540.gif",
-      "last_modified": "Sat, 29 Aug 2026 11:11:03 GMT"
+      "last_modified": "Sat, 29 Aug 2026 11:11:04 GMT"
     },
     "Pacific US (PACUS)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/13/GOES18-CONUS-13-625x375.gif",
