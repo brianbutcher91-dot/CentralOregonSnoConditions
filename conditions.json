@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-29T17:00:31.973169+00:00",
+  "generated_at": "2026-08-29T17:15:21.990190+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -1235,7 +1235,7 @@
         {
           "number": 1,
           "name": "Today",
-          "startTime": "2026-08-29T08:00:00-07:00",
+          "startTime": "2026-08-29T10:00:00-07:00",
           "endTime": "2026-08-29T18:00:00-07:00",
           "isDaytime": true,
           "temperature": 56,
@@ -1243,15 +1243,15 @@
           "temperatureTrend": null,
           "probabilityOfPrecipitation": {
             "unitCode": "wmoUnit:percent",
-            "value": 2
+            "value": 1
           },
-          "windSpeed": "6 to 13 mph",
+          "windSpeed": "8 to 13 mph",
           "windDirection": "WNW",
           "icon": "https://api.weather.gov/icons/land/day/few?size=medium",
           "shortForecast": "Sunny",
-          "detailedForecast": "Sunny. High near 56, with temperatures falling to around 54 in the afternoon. West northwest wind 6 to 13 mph, with gusts as high as 18 mph.",
+          "detailedForecast": "Sunny. High near 56, with temperatures falling to around 54 in the afternoon. West northwest wind 8 to 13 mph, with gusts as high as 18 mph.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 7650
+          "snowLevelFt": 7447
         },
         {
           "number": 2,
@@ -3101,7 +3101,7 @@
       "wind_speed_mph": 8,
       "wind_direction_deg": 280,
       "snow_level_ft": 7447,
-      "precip_chance_today": 2,
+      "precip_chance_today": 1,
       "snowfall_12h_in": null,
       "snowfall_24h_in": 0.0,
       "snowfall_48h_in": 0.0
@@ -3936,10 +3936,6 @@
     ],
     "historical_precip_snapshots": [
       {
-        "time": "2026-08-26T17:06:20.204143+00:00",
-        "precip_in": 0
-      },
-      {
         "time": "2026-08-26T18:15:35.000319+00:00",
         "precip_in": 0
       },
@@ -4337,10 +4333,10 @@
           "weather_icon": "dor-mostlycloudy",
           "id": 1788033600,
           "day": "Saturday",
-          "temperature_high": 58,
+          "temperature_high": 57,
           "temperature_low": 34,
-          "precipitation_high": 43,
-          "precipitation_low": 43,
+          "precipitation_high": 46,
+          "precipitation_low": 46,
           "wind_speed": 12,
           "wind_direction": "W"
         },
@@ -4525,14 +4521,14 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-08-29T09:00:00.000Z"
+            "timestamp": "2026-08-29T10:00:00.000Z"
           },
-          "temperature": "35.91",
+          "temperature": "39.5",
           "wind": {
-            "low": "17.31",
-            "high": "30.2",
+            "low": "16.24",
+            "high": "29.98",
             "current": null,
-            "average": "17.31",
+            "average": "16.24",
             "direction": "SW"
           },
           "humidity": null,
@@ -4569,17 +4565,17 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-08-29T09:00:00.000Z"
+            "timestamp": "2026-08-29T10:00:00.000Z"
           },
-          "temperature": "30.99",
+          "temperature": "33.18",
           "wind": {
-            "low": "45.11",
-            "high": "59.95",
+            "low": "45.18",
+            "high": "59.73",
             "current": null,
-            "average": "45.11",
+            "average": "45.18",
             "direction": "NW"
           },
-          "humidity": "96.6",
+          "humidity": "67.95",
           "display_name": "Summit",
           "elevation_ft": 9065
         }
@@ -4695,8 +4691,8 @@
   "willamette_pass": {
     "forecast": {
       "weather_provider": "NOAA",
-      "date": "August 29, 2026, 9:58 am",
-      "time": 1788022699000,
+      "date": "August 29, 2026, 10:13 am",
+      "time": 1788023596000,
       "current_weather": "Sunny",
       "current_temperature": "56",
       "forecast": [
@@ -4793,15 +4789,15 @@
   "satellite": {
     "Pacific Northwest": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/pnw/13/GOES18-PNW-13-600x600.gif",
-      "last_modified": "Sat, 29 Aug 2026 16:43:51 GMT"
+      "last_modified": "Sat, 29 Aug 2026 17:13:12 GMT"
     },
     "North Pacific (macro)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/np/13/GOES18-NP-13-900x540.gif",
-      "last_modified": "Sat, 29 Aug 2026 16:44:02 GMT"
+      "last_modified": "Sat, 29 Aug 2026 17:13:23 GMT"
     },
     "Pacific US (PACUS)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/13/GOES18-CONUS-13-625x375.gif",
-      "last_modified": "Sat, 29 Aug 2026 16:37:40 GMT"
+      "last_modified": "Sat, 29 Aug 2026 17:06:40 GMT"
     }
   },
   "gfs_snowfall": {
