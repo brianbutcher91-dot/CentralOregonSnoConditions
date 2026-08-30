@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-30T11:32:36.138680+00:00",
+  "generated_at": "2026-08-30T11:45:16.558042+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -7,7 +7,7 @@
         {
           "number": 1,
           "name": "Overnight",
-          "startTime": "2026-08-30T04:00:00-07:00",
+          "startTime": "2026-08-30T03:00:00-07:00",
           "endTime": "2026-08-30T06:00:00-07:00",
           "isDaytime": false,
           "temperature": 32,
@@ -314,7 +314,7 @@
         {
           "number": 1,
           "name": "Overnight",
-          "startTime": "2026-08-30T04:00:00-07:00",
+          "startTime": "2026-08-30T03:00:00-07:00",
           "endTime": "2026-08-30T06:00:00-07:00",
           "isDaytime": false,
           "temperature": 38,
@@ -914,8 +914,8 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 1,
-        "wind_direction_deg": 70,
+        "wind_speed_mph": 12.0,
+        "wind_direction_deg": 315,
         "snow_level_ft": 6539,
         "temp_f": 38
       },
@@ -928,7 +928,7 @@
         {
           "number": 1,
           "name": "Overnight",
-          "startTime": "2026-08-30T04:00:00-07:00",
+          "startTime": "2026-08-30T03:00:00-07:00",
           "endTime": "2026-08-30T06:00:00-07:00",
           "isDaytime": false,
           "temperature": 36,
@@ -1235,7 +1235,7 @@
         {
           "number": 1,
           "name": "Overnight",
-          "startTime": "2026-08-30T04:00:00-07:00",
+          "startTime": "2026-08-30T00:00:00-07:00",
           "endTime": "2026-08-30T06:00:00-07:00",
           "isDaytime": false,
           "temperature": 36,
@@ -1246,12 +1246,12 @@
             "value": 0
           },
           "windSpeed": "3 mph",
-          "windDirection": "ESE",
-          "icon": "https://api.weather.gov/icons/land/night/few?size=medium",
-          "shortForecast": "Mostly Clear",
-          "detailedForecast": "Mostly clear, with a low around 36. East southeast wind around 3 mph.",
+          "windDirection": "E",
+          "icon": "https://api.weather.gov/icons/land/night/skc?size=medium",
+          "shortForecast": "Clear",
+          "detailedForecast": "Clear, with a low around 36. East wind around 3 mph.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 7009
+          "snowLevelFt": 7247
         },
         {
           "number": 2,
@@ -1849,7 +1849,7 @@
         {
           "number": 1,
           "name": "Overnight",
-          "startTime": "2026-08-30T04:00:00-07:00",
+          "startTime": "2026-08-30T03:00:00-07:00",
           "endTime": "2026-08-30T06:00:00-07:00",
           "isDaytime": false,
           "temperature": 37,
@@ -2156,7 +2156,7 @@
         {
           "number": 1,
           "name": "Overnight",
-          "startTime": "2026-08-30T04:00:00-07:00",
+          "startTime": "2026-08-30T03:00:00-07:00",
           "endTime": "2026-08-30T06:00:00-07:00",
           "isDaytime": false,
           "temperature": 41,
@@ -2463,7 +2463,7 @@
         {
           "number": 1,
           "name": "Overnight",
-          "startTime": "2026-08-30T04:00:00-07:00",
+          "startTime": "2026-08-30T03:00:00-07:00",
           "endTime": "2026-08-30T06:00:00-07:00",
           "isDaytime": false,
           "temperature": 35,
@@ -2473,11 +2473,11 @@
             "unitCode": "wmoUnit:percent",
             "value": 0
           },
-          "windSpeed": "0 mph",
-          "windDirection": "",
+          "windSpeed": "1 mph",
+          "windDirection": "W",
           "icon": "https://api.weather.gov/icons/land/night/few?size=medium",
           "shortForecast": "Mostly Clear",
-          "detailedForecast": "Mostly clear. Low around 35, with temperatures rising to around 37 overnight. Wind around 0 mph.",
+          "detailedForecast": "Mostly clear. Low around 35, with temperatures rising to around 37 overnight. West wind around 1 mph.",
           "precipitationAmountIn": 0.0,
           "snowLevelFt": 6899
         },
@@ -2770,7 +2770,7 @@
         {
           "number": 1,
           "name": "Overnight",
-          "startTime": "2026-08-30T04:00:00-07:00",
+          "startTime": "2026-08-30T03:00:00-07:00",
           "endTime": "2026-08-30T06:00:00-07:00",
           "isDaytime": false,
           "temperature": 28,
@@ -3087,12 +3087,12 @@
     "Hoodoo": {
       "elevation_ft": 4705,
       "temp_f": 38,
-      "wind_speed_mph": 1,
-      "wind_direction_deg": 70,
+      "wind_speed_mph": 12.0,
+      "wind_direction_deg": 315,
       "snow_level_ft": 6539,
       "precip_chance_today": 0,
-      "snowfall_12h_in": null,
-      "snowfall_24h_in": null,
+      "snowfall_12h_in": 0.0,
+      "snowfall_24h_in": 0.3,
       "snowfall_48h_in": null
     },
     "Willamette Pass": {
@@ -3311,24 +3311,24 @@
       },
       {
         "time": "2026-08-30T06:00:00+00:00",
-        "temp_f": 35.0,
-        "wind_speed_mph": 3.5,
-        "wind_direction_deg": 220,
+        "temp_f": 38.0,
+        "wind_speed_mph": 4.6,
+        "wind_direction_deg": 280,
         "precip_in": 0.0,
         "period": "forecast"
       },
       {
         "time": "2026-08-30T07:00:00+00:00",
-        "temp_f": 35.0,
+        "temp_f": 37.0,
         "wind_speed_mph": 4.6,
-        "wind_direction_deg": 250,
+        "wind_direction_deg": 270,
         "precip_in": 0.0,
         "period": "forecast"
       },
       {
         "time": "2026-08-30T08:00:00+00:00",
-        "temp_f": 37.0,
-        "wind_speed_mph": 4.6,
+        "temp_f": 36.0,
+        "wind_speed_mph": 5.8,
         "wind_direction_deg": 280,
         "precip_in": 0.0,
         "period": "forecast"
@@ -4630,7 +4630,59 @@
     }
   },
   "hoodoo": {
-    "error": "HTTPSConnectionPool(host='santiampsp.org', port=443): Max retries exceeded with url: /wx/weather.htm (Caused by ConnectTimeoutError(<HTTPSConnection(host='santiampsp.org', port=443) at 0x7f386ab6fce0>, 'Connection to santiampsp.org timed out. (connect timeout=None)'))"
+    "weather": {
+      "Temperature": "41 &#176F",
+      "Wind": "NW @ 12 MPH",
+      "Snow depth": "0.0\"",
+      "Humidity": "84 %",
+      "Barometer": "30.09\" Hg"
+    },
+    "snow_totals": {
+      "trend": {
+        "Max": "0.6\"",
+        "Min": "-4.1\"",
+        "1 Hr": "0.2\"",
+        "3 Hr": "0.6\"",
+        "6 Hr": "0.3\"",
+        "12 Hr": "0.0\"",
+        "24 Hr": "0.3\""
+      },
+      "season_total_in": 158.5
+    },
+    "webcams": {
+      "Base Area": {
+        "src": "https://santiampsp.org/wx/weather16.jpg",
+        "link": "https://hoodoo.com/the-mountain/webcams/"
+      },
+      "Top of Manzanita": {
+        "src": "https://santiampsp.org/wx/weather3.jpg",
+        "link": "https://hoodoo.com/the-mountain/webcams/"
+      },
+      "Top of Ed": {
+        "src": "https://santiampsp.org/wx/weather2.jpg",
+        "link": "https://hoodoo.com/the-mountain/webcams/"
+      },
+      "Top of Easy Rider": {
+        "src": "https://santiampsp.org/wx/weather4.jpg",
+        "link": "https://hoodoo.com/the-mountain/webcams/"
+      },
+      "Hoodoo Parking Lot": {
+        "src": "https://santiampsp.org/wx/weather12.jpg",
+        "link": "https://hoodoo.com/the-mountain/webcams/"
+      },
+      "Hoodoo Summit": {
+        "src": "https://santiampsp.org/wx/weather1.jpg",
+        "link": "https://hoodoo.com/the-mountain/webcams/"
+      },
+      "Hayrick Butte & \"Gripper\" run from top of Ed chair": {
+        "src": "https://santiampsp.org/wx/weather2b.jpg",
+        "link": "https://hoodoo.com/the-mountain/webcams/"
+      },
+      "Hoodoo Parking Lot View #2": {
+        "src": "https://santiampsp.org/wx/weather10.jpg",
+        "link": "https://hoodoo.com/the-mountain/webcams/"
+      }
+    }
   },
   "willamette_pass": {
     "forecast": {
@@ -4724,21 +4776,24 @@
       "src": "https://api.mtbachelor.com/api/v1/cams/mtn/14",
       "link": "https://www.mtbachelor.com/the-mountain/webcams/live-cam-14/"
     },
-    "Hoodoo (Base Area)": null,
+    "Hoodoo (Base Area)": {
+      "src": "https://santiampsp.org/wx/weather16.jpg",
+      "link": "https://hoodoo.com/the-mountain/webcams/"
+    },
     "Willamette Pass (Base Area)": null
   },
   "satellite": {
     "Pacific Northwest": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/pnw/13/GOES18-PNW-13-600x600.gif",
-      "last_modified": "Sun, 30 Aug 2026 11:10:49 GMT"
+      "last_modified": "Sun, 30 Aug 2026 11:40:51 GMT"
     },
     "North Pacific (macro)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/np/13/GOES18-NP-13-900x540.gif",
-      "last_modified": "Sun, 30 Aug 2026 11:10:58 GMT"
+      "last_modified": "Sun, 30 Aug 2026 11:41:00 GMT"
     },
     "Pacific US (PACUS)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/13/GOES18-CONUS-13-625x375.gif",
-      "last_modified": "Sun, 30 Aug 2026 11:05:38 GMT"
+      "last_modified": "Sun, 30 Aug 2026 11:35:33 GMT"
     }
   },
   "gfs_snowfall": {
