@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-30T20:00:33.283691+00:00",
+  "generated_at": "2026-08-30T20:07:12.866082+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -914,7 +914,7 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 4.0,
+        "wind_speed_mph": 7.0,
         "wind_direction_deg": 315,
         "snow_level_ft": 8117,
         "temp_f": 65
@@ -3087,12 +3087,12 @@
     "Hoodoo": {
       "elevation_ft": 4705,
       "temp_f": 65,
-      "wind_speed_mph": 4.0,
+      "wind_speed_mph": 7.0,
       "wind_direction_deg": 315,
       "snow_level_ft": 8117,
       "precip_chance_today": 0,
-      "snowfall_12h_in": 0.6,
-      "snowfall_24h_in": 0.7,
+      "snowfall_12h_in": 1.5,
+      "snowfall_24h_in": 1.4,
       "snowfall_48h_in": null
     },
     "Willamette Pass": {
@@ -3936,10 +3936,6 @@
     ],
     "historical_precip_snapshots": [
       {
-        "time": "2026-08-27T20:00:38.005092+00:00",
-        "precip_in": 0
-      },
-      {
         "time": "2026-08-27T21:15:30.170170+00:00",
         "precip_in": 0
       },
@@ -4341,10 +4337,10 @@
           "weather_icon": "dor-cloudy",
           "id": 1788120000,
           "day": "Sunday",
-          "temperature_high": 63,
+          "temperature_high": 62,
           "temperature_low": 27,
-          "precipitation_high": 25,
-          "precipitation_low": 25,
+          "precipitation_high": 30,
+          "precipitation_low": 30,
           "wind_speed": 5,
           "wind_direction": "N"
         },
@@ -4573,17 +4569,17 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-08-30T12:00:00.000Z"
+            "timestamp": "2026-08-30T13:00:00.000Z"
           },
-          "temperature": "54.45",
+          "temperature": "55.75",
           "wind": {
-            "low": "5.097",
-            "high": "14.32",
+            "low": "5.881",
+            "high": "19.24",
             "current": null,
-            "average": "5.097",
-            "direction": "W"
+            "average": "5.881",
+            "direction": "ESE"
           },
-          "humidity": "38.73",
+          "humidity": "29.73",
           "display_name": "Summit",
           "elevation_ft": 9065
         }
@@ -4643,21 +4639,21 @@
   },
   "hoodoo": {
     "weather": {
-      "Temperature": "56 &#176F",
-      "Wind": "NW @ 4 MPH",
-      "Snow depth": "0.2\"",
-      "Humidity": "33 %",
+      "Temperature": "57 &#176F",
+      "Wind": "NW @ 7 MPH",
+      "Snow depth": "0.9\"",
+      "Humidity": "30 %",
       "Barometer": "30.09\" Hg"
     },
     "snow_totals": {
       "trend": {
-        "Max": "0.7\"",
+        "Max": "0.9\"",
         "Min": "-4.1\"",
-        "1 Hr": "0.6\"",
-        "3 Hr": "0.1\"",
-        "6 Hr": "0.2\"",
-        "12 Hr": "0.6\"",
-        "24 Hr": "0.7\""
+        "1 Hr": "0.7\"",
+        "3 Hr": "0.8\"",
+        "6 Hr": "0.7\"",
+        "12 Hr": "1.5\"",
+        "24 Hr": "1.4\""
       },
       "season_total_in": 158.5
     },
@@ -4699,8 +4695,8 @@
   "willamette_pass": {
     "forecast": {
       "weather_provider": "NOAA",
-      "date": "August 30, 2026, 12:59 pm",
-      "time": 1788119950000,
+      "date": "August 30, 2026, 1:05 pm",
+      "time": 1788120304000,
       "current_weather": "Sunny",
       "current_temperature": "67",
       "forecast": [
@@ -4805,7 +4801,7 @@
     },
     "Pacific US (PACUS)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/13/GOES18-CONUS-13-625x375.gif",
-      "last_modified": "Sun, 30 Aug 2026 19:36:14 GMT"
+      "last_modified": "Sun, 30 Aug 2026 20:06:53 GMT"
     }
   },
   "gfs_snowfall": {
