@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-30T04:15:14.652465+00:00",
+  "generated_at": "2026-08-30T04:30:15.472791+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -914,8 +914,8 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 15.0,
-        "wind_direction_deg": 292.5,
+        "wind_speed_mph": 14.0,
+        "wind_direction_deg": 315,
         "snow_level_ft": 7083,
         "temp_f": 46
       },
@@ -1235,7 +1235,7 @@
         {
           "number": 1,
           "name": "Tonight",
-          "startTime": "2026-08-29T21:00:00-07:00",
+          "startTime": "2026-08-29T19:00:00-07:00",
           "endTime": "2026-08-30T06:00:00-07:00",
           "isDaytime": false,
           "temperature": 34,
@@ -1245,13 +1245,13 @@
             "unitCode": "wmoUnit:percent",
             "value": 0
           },
-          "windSpeed": "3 to 7 mph",
+          "windSpeed": "3 to 10 mph",
           "windDirection": "NE",
           "icon": "https://api.weather.gov/icons/land/night/few?size=medium",
           "shortForecast": "Mostly Clear",
-          "detailedForecast": "Mostly clear, with a low around 34. Northeast wind 3 to 7 mph.",
+          "detailedForecast": "Mostly clear, with a low around 34. Northeast wind 3 to 10 mph.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 7320
+          "snowLevelFt": 7621
         },
         {
           "number": 2,
@@ -2770,7 +2770,7 @@
         {
           "number": 1,
           "name": "Tonight",
-          "startTime": "2026-08-29T21:00:00-07:00",
+          "startTime": "2026-08-29T19:00:00-07:00",
           "endTime": "2026-08-30T06:00:00-07:00",
           "isDaytime": false,
           "temperature": 28,
@@ -2780,13 +2780,13 @@
             "unitCode": "wmoUnit:percent",
             "value": 0
           },
-          "windSpeed": "3 mph",
+          "windSpeed": "1 to 8 mph",
           "windDirection": "W",
           "icon": "https://api.weather.gov/icons/land/night/few?size=medium",
           "shortForecast": "Mostly Clear",
-          "detailedForecast": "Mostly clear. Low around 28, with temperatures rising to around 30 overnight. West wind around 3 mph.",
+          "detailedForecast": "Mostly clear. Low around 28, with temperatures rising to around 30 overnight. West wind 1 to 8 mph, with gusts as high as 18 mph.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 7408
+          "snowLevelFt": 7969
         },
         {
           "number": 2,
@@ -3087,12 +3087,12 @@
     "Hoodoo": {
       "elevation_ft": 4705,
       "temp_f": 46,
-      "wind_speed_mph": 15.0,
-      "wind_direction_deg": 292.5,
+      "wind_speed_mph": 14.0,
+      "wind_direction_deg": 315,
       "snow_level_ft": 7083,
       "precip_chance_today": 0,
-      "snowfall_12h_in": 0.1,
-      "snowfall_24h_in": 1.3,
+      "snowfall_12h_in": -0.3,
+      "snowfall_24h_in": 0.3,
       "snowfall_48h_in": null
     },
     "Willamette Pass": {
@@ -4174,6 +4174,10 @@
       {
         "time": "2026-08-30T03:15:19.606487+00:00",
         "precip_in": 0
+      },
+      {
+        "time": "2026-08-30T04:30:15.921907+00:00",
+        "precip_in": 0
       }
     ]
   },
@@ -4192,7 +4196,7 @@
       "swe_in": 0.0,
       "swe_in_date": "2026-08-28",
       "change_12h_in": 0,
-      "change_24h_in": 0
+      "change_24h_in": 1
     },
     "Santiam / Hoodoo (Hogg Pass)": {
       "snow_depth_in": 0,
@@ -4313,7 +4317,7 @@
   "mtbachelor": {
     "weather": {
       "current": {
-        "temperature": 45,
+        "temperature": 40,
         "weather_icon": "dor-sunny"
       },
       "forecast": [
@@ -4446,10 +4450,10 @@
           "active": true,
           "primary": true,
           "nonstandardizedDataPoints": {
-            "depth": "-1.939",
-            "timestamp": "2026-08-29T20:00:00.000Z"
+            "depth": "-2.106",
+            "timestamp": "2026-08-29T21:00:00.000Z"
           },
-          "temperature": "44.59",
+          "temperature": "40.22",
           "wind": {
             "low": "0",
             "high": "0",
@@ -4491,17 +4495,17 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-08-29T20:00:00.000Z"
+            "timestamp": "2026-08-29T21:00:00.000Z"
           },
-          "temperature": "38.75",
+          "temperature": "39.36",
           "wind": {
-            "low": "14.24",
-            "high": "21.94",
+            "low": "7.828",
+            "high": "18.27",
             "current": null,
-            "average": "14.24",
+            "average": "7.828",
             "direction": "WNW"
           },
-          "humidity": "54.12",
+          "humidity": "46.54",
           "display_name": "Pine Marten",
           "elevation_ft": 7800
         },
@@ -4628,20 +4632,20 @@
   "hoodoo": {
     "weather": {
       "Temperature": "41 &#176F",
-      "Wind": "WNW @ 15 MPH",
-      "Snow depth": "-0.1\"",
-      "Humidity": "93 %",
-      "Barometer": "30.15\" Hg"
+      "Wind": "NW @ 14 MPH",
+      "Snow depth": "-0.5\"",
+      "Humidity": "100 %",
+      "Barometer": "30.16\" Hg"
     },
     "snow_totals": {
       "trend": {
         "Max": "0.6\"",
         "Min": "-4.1\"",
-        "1 Hr": "0.2\"",
-        "3 Hr": "0.5\"",
-        "6 Hr": "0.3\"",
-        "12 Hr": "0.1\"",
-        "24 Hr": "1.3\""
+        "1 Hr": "-0.2\"",
+        "3 Hr": "-0.1\"",
+        "6 Hr": "-0.2\"",
+        "12 Hr": "-0.3\"",
+        "24 Hr": "0.3\""
       },
       "season_total_in": 158.5
     },
