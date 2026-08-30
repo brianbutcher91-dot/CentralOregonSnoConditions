@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-30T22:45:16.418806+00:00",
+  "generated_at": "2026-08-30T23:00:21.799587+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -303,7 +303,7 @@
         "wind_speed_mph": 5,
         "wind_direction_deg": 230,
         "snow_level_ft": 8978,
-        "temp_f": 60
+        "temp_f": 61
       },
       "lat": 43.9792,
       "lon": -121.6886
@@ -916,8 +916,8 @@
       "current": {
         "wind_speed_mph": 8.0,
         "wind_direction_deg": 292.5,
-        "snow_level_ft": 8499,
-        "temp_f": 67
+        "snow_level_ft": 9052,
+        "temp_f": 68
       },
       "lat": 44.409,
       "lon": -121.872
@@ -1222,9 +1222,9 @@
       ],
       "current": {
         "wind_speed_mph": 5,
-        "wind_direction_deg": 270,
+        "wind_direction_deg": 280,
         "snow_level_ft": 9108,
-        "temp_f": 60
+        "temp_f": 61
       },
       "lat": 43.7025,
       "lon": -121.2661
@@ -1528,10 +1528,10 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 7,
-        "wind_direction_deg": 290,
-        "snow_level_ft": 9075,
-        "temp_f": 67
+        "wind_speed_mph": 8,
+        "wind_direction_deg": 300,
+        "snow_level_ft": 9288,
+        "temp_f": 68
       },
       "lat": 43.5975,
       "lon": -122.0339
@@ -1837,7 +1837,7 @@
       "current": {
         "wind_speed_mph": 6,
         "wind_direction_deg": 300,
-        "snow_level_ft": 8551,
+        "snow_level_ft": 8841,
         "temp_f": 65
       },
       "lat": 44.39548,
@@ -2143,7 +2143,7 @@
       ],
       "current": {
         "wind_speed_mph": 2,
-        "wind_direction_deg": 300,
+        "wind_direction_deg": 320,
         "snow_level_ft": 8740,
         "temp_f": 69
       },
@@ -2449,10 +2449,10 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 3,
-        "wind_direction_deg": 30,
+        "wind_speed_mph": 5,
+        "wind_direction_deg": 20,
         "snow_level_ft": 8635,
-        "temp_f": 76
+        "temp_f": 77
       },
       "lat": 44.0582,
       "lon": -121.3153
@@ -3064,7 +3064,7 @@
       ],
       "current": {
         "wind_speed_mph": 0,
-        "wind_direction_deg": 310,
+        "wind_direction_deg": 0,
         "snow_level_ft": 8687,
         "temp_f": 79
       },
@@ -3075,7 +3075,7 @@
   "wind_roses": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
-      "temp_f": 60,
+      "temp_f": 61,
       "wind_speed_mph": 5,
       "wind_direction_deg": 230,
       "snow_level_ft": 8978,
@@ -3086,21 +3086,21 @@
     },
     "Hoodoo": {
       "elevation_ft": 4705,
-      "temp_f": 67,
+      "temp_f": 68,
       "wind_speed_mph": 8.0,
       "wind_direction_deg": 292.5,
-      "snow_level_ft": 8499,
+      "snow_level_ft": 9052,
       "precip_chance_today": 0,
-      "snowfall_12h_in": 0.0,
-      "snowfall_24h_in": 0.1,
+      "snowfall_12h_in": -0.1,
+      "snowfall_24h_in": 0.4,
       "snowfall_48h_in": null
     },
     "Willamette Pass": {
       "elevation_ft": 5538,
-      "temp_f": 67,
-      "wind_speed_mph": 7,
-      "wind_direction_deg": 290,
-      "snow_level_ft": 9075,
+      "temp_f": 68,
+      "wind_speed_mph": 8,
+      "wind_direction_deg": 300,
+      "snow_level_ft": 9288,
       "precip_chance_today": 0,
       "snowfall_12h_in": null,
       "snowfall_24h_in": 0.0,
@@ -3924,13 +3924,17 @@
         "wind_direction_deg": 230,
         "precip_in": 0.03,
         "period": "forecast"
+      },
+      {
+        "time": "2026-09-02T22:00:00+00:00",
+        "temp_f": 41.0,
+        "wind_speed_mph": 15.0,
+        "wind_direction_deg": 230,
+        "precip_in": 0.03,
+        "period": "forecast"
       }
     ],
     "historical_precip_snapshots": [
-      {
-        "time": "2026-08-27T22:45:26.922419+00:00",
-        "precip_in": 0
-      },
       {
         "time": "2026-08-28T00:02:41.584733+00:00",
         "precip_in": 0
@@ -4635,21 +4639,21 @@
   },
   "hoodoo": {
     "weather": {
-      "Temperature": "62 &#176F",
+      "Temperature": "63 &#176F",
       "Wind": "WNW @ 8 MPH",
       "Snow depth": "-0.2\"",
-      "Humidity": "24 %",
+      "Humidity": "28 %",
       "Barometer": "30.10\" Hg"
     },
     "snow_totals": {
       "trend": {
         "Max": "0.9\"",
         "Min": "-4.1\"",
-        "1 Hr": "0.0\"",
-        "3 Hr": "-0.6\"",
+        "1 Hr": "0.5\"",
+        "3 Hr": "-0.1\"",
         "6 Hr": "0.0\"",
-        "12 Hr": "0.0\"",
-        "24 Hr": "0.1\""
+        "12 Hr": "-0.1\"",
+        "24 Hr": "0.4\""
       },
       "season_total_in": 158.5
     },
