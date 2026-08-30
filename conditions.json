@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-30T04:07:09.989729+00:00",
+  "generated_at": "2026-08-30T04:15:14.652465+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -314,7 +314,7 @@
         {
           "number": 1,
           "name": "Tonight",
-          "startTime": "2026-08-29T21:00:00-07:00",
+          "startTime": "2026-08-29T19:00:00-07:00",
           "endTime": "2026-08-30T06:00:00-07:00",
           "isDaytime": false,
           "temperature": 38,
@@ -324,13 +324,13 @@
             "unitCode": "wmoUnit:percent",
             "value": 0
           },
-          "windSpeed": "3 mph",
+          "windSpeed": "2 to 8 mph",
           "windDirection": "W",
           "icon": "https://api.weather.gov/icons/land/night/few?size=medium",
           "shortForecast": "Mostly Clear",
-          "detailedForecast": "Mostly clear, with a low around 38. West wind around 3 mph.",
+          "detailedForecast": "Mostly clear, with a low around 38. West wind 2 to 8 mph.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 7434
+          "snowLevelFt": 7864
         },
         {
           "number": 2,
@@ -928,7 +928,7 @@
         {
           "number": 1,
           "name": "Tonight",
-          "startTime": "2026-08-29T21:00:00-07:00",
+          "startTime": "2026-08-29T19:00:00-07:00",
           "endTime": "2026-08-30T06:00:00-07:00",
           "isDaytime": false,
           "temperature": 36,
@@ -938,13 +938,13 @@
             "unitCode": "wmoUnit:percent",
             "value": 0
           },
-          "windSpeed": "7 mph",
+          "windSpeed": "5 to 9 mph",
           "windDirection": "NW",
           "icon": "https://api.weather.gov/icons/land/night/few?size=medium",
           "shortForecast": "Mostly Clear",
-          "detailedForecast": "Mostly clear, with a low around 36. Northwest wind around 7 mph.",
+          "detailedForecast": "Mostly clear, with a low around 36. Northwest wind 5 to 9 mph.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 7960
+          "snowLevelFt": 8232
         },
         {
           "number": 2,
@@ -3110,14 +3110,6 @@
   "bachelor_timeseries": {
     "hourly": [
       {
-        "time": "2026-08-28T21:00:00.000Z",
-        "temp_f": 45.67,
-        "wind_speed_mph": 18.67,
-        "wind_direction_deg": 239.7,
-        "precip_in": null,
-        "period": "historical"
-      },
-      {
         "time": "2026-08-28T22:00:00.000Z",
         "temp_f": 47.9,
         "wind_speed_mph": 20.9,
@@ -3302,12 +3294,12 @@
         "period": "historical"
       },
       {
-        "time": "2026-08-29T21:00:00+00:00",
-        "temp_f": 50.0,
-        "wind_speed_mph": 9.2,
-        "wind_direction_deg": 290,
-        "precip_in": 0.0,
-        "period": "forecast"
+        "time": "2026-08-29T21:00:00.000Z",
+        "temp_f": 40.78,
+        "wind_speed_mph": 5.968,
+        "wind_direction_deg": 138.7,
+        "precip_in": null,
+        "period": "historical"
       },
       {
         "time": "2026-08-29T22:00:00+00:00",
@@ -4477,15 +4469,15 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-08-29T20:00:00.000Z"
+            "timestamp": "2026-08-29T21:00:00.000Z"
           },
-          "temperature": "42.97",
+          "temperature": "41.12",
           "wind": {
-            "low": "7.533",
-            "high": "18.34",
+            "low": "3.91",
+            "high": "10.07",
             "current": null,
-            "average": "7.533",
-            "direction": "WSW"
+            "average": "3.91",
+            "direction": "SE"
           },
           "humidity": null,
           "display_name": "Sunrise",
@@ -4521,15 +4513,15 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-08-29T20:00:00.000Z"
+            "timestamp": "2026-08-29T21:00:00.000Z"
           },
-          "temperature": "44.29",
+          "temperature": "40.78",
           "wind": {
-            "low": "6.258",
-            "high": "17",
+            "low": "5.968",
+            "high": "14.09",
             "current": null,
-            "average": "6.258",
-            "direction": "S"
+            "average": "5.968",
+            "direction": "SE"
           },
           "humidity": null,
           "display_name": "Cloud Chaser",
@@ -4565,17 +4557,17 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-08-29T20:00:00.000Z"
+            "timestamp": "2026-08-29T21:00:00.000Z"
           },
-          "temperature": "39.36",
+          "temperature": "37.77",
           "wind": {
-            "low": "23.61",
-            "high": "32.44",
+            "low": "19.81",
+            "high": "27.96",
             "current": null,
-            "average": "23.61",
+            "average": "19.81",
             "direction": "NW"
           },
-          "humidity": "28.02",
+          "humidity": "26.83",
           "display_name": "Summit",
           "elevation_ft": 9065
         }
@@ -4691,14 +4683,14 @@
   "willamette_pass": {
     "forecast": {
       "weather_provider": "NOAA",
-      "date": "August 29, 2026, 9:00 pm",
-      "time": 1788062400000,
+      "date": "August 29, 2026, 9:15 pm",
+      "time": 1788063304000,
       "current_weather": "Mostly Clear",
       "current_temperature": "48",
       "forecast": [
         {
           "day": "Saturday",
-          "night_forecast": "Mostly clear, with a low around 34. West northwest wind 5 to 8 mph becoming light and variable. "
+          "night_forecast": "Mostly clear, with a low around 34. West northwest wind 5 to 7 mph becoming light and variable. "
         },
         {
           "day": "Sunday",
@@ -4736,11 +4728,6 @@
       "min_temp": "34",
       "hourly": [
         {
-          "time": "8p",
-          "temp": "48",
-          "details": ""
-        },
-        {
           "time": "10p",
           "temp": "44",
           "details": ""
@@ -4757,6 +4744,11 @@
         },
         {
           "time": "4a",
+          "temp": "35",
+          "details": ""
+        },
+        {
+          "time": "5a",
           "temp": "35",
           "details": ""
         }
@@ -4792,11 +4784,11 @@
   "satellite": {
     "Pacific Northwest": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/pnw/13/GOES18-PNW-13-600x600.gif",
-      "last_modified": "Sun, 30 Aug 2026 03:41:17 GMT"
+      "last_modified": "Sun, 30 Aug 2026 04:11:07 GMT"
     },
     "North Pacific (macro)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/np/13/GOES18-NP-13-900x540.gif",
-      "last_modified": "Sun, 30 Aug 2026 03:41:26 GMT"
+      "last_modified": "Sun, 30 Aug 2026 04:11:17 GMT"
     },
     "Pacific US (PACUS)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/13/GOES18-CONUS-13-625x375.gif",
