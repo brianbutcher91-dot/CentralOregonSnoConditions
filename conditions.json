@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-30T08:15:21.310034+00:00",
+  "generated_at": "2026-08-30T08:30:16.805453+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -914,7 +914,7 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 13.0,
+        "wind_speed_mph": 14.0,
         "wind_direction_deg": 315,
         "snow_level_ft": 6785,
         "temp_f": 41
@@ -3087,12 +3087,12 @@
     "Hoodoo": {
       "elevation_ft": 4705,
       "temp_f": 41,
-      "wind_speed_mph": 13.0,
+      "wind_speed_mph": 14.0,
       "wind_direction_deg": 315,
       "snow_level_ft": 6785,
       "precip_chance_today": 0,
-      "snowfall_12h_in": -0.1,
-      "snowfall_24h_in": 0.8,
+      "snowfall_12h_in": 0.1,
+      "snowfall_24h_in": 1.4,
       "snowfall_48h_in": null
     },
     "Willamette Pass": {
@@ -3109,14 +3109,6 @@
   },
   "bachelor_timeseries": {
     "hourly": [
-      {
-        "time": "2026-08-29T01:00:00.000Z",
-        "temp_f": 41.0,
-        "wind_speed_mph": 23.65,
-        "wind_direction_deg": 238.4,
-        "precip_in": null,
-        "period": "historical"
-      },
       {
         "time": "2026-08-29T02:00:00.000Z",
         "temp_f": 39.44,
@@ -3302,42 +3294,42 @@
         "period": "historical"
       },
       {
-        "time": "2026-08-30T01:00:00+00:00",
-        "temp_f": 48.0,
-        "wind_speed_mph": 10.4,
-        "wind_direction_deg": 290,
-        "precip_in": 0.0,
-        "period": "forecast"
+        "time": "2026-08-30T01:00:00.000Z",
+        "temp_f": 44.82,
+        "wind_speed_mph": 7.997,
+        "wind_direction_deg": 249.8,
+        "precip_in": null,
+        "period": "historical"
       },
       {
         "time": "2026-08-30T02:00:00+00:00",
-        "temp_f": 45.0,
-        "wind_speed_mph": 9.2,
-        "wind_direction_deg": 290,
+        "temp_f": 42.0,
+        "wind_speed_mph": 11.5,
+        "wind_direction_deg": 280,
         "precip_in": 0.0,
         "period": "forecast"
       },
       {
         "time": "2026-08-30T03:00:00+00:00",
-        "temp_f": 45.0,
-        "wind_speed_mph": 6.9,
-        "wind_direction_deg": 280,
+        "temp_f": 41.0,
+        "wind_speed_mph": 9.2,
+        "wind_direction_deg": 270,
         "precip_in": 0.0,
         "period": "forecast"
       },
       {
         "time": "2026-08-30T04:00:00+00:00",
-        "temp_f": 41.0,
-        "wind_speed_mph": 6.9,
-        "wind_direction_deg": 280,
+        "temp_f": 38.0,
+        "wind_speed_mph": 9.2,
+        "wind_direction_deg": 270,
         "precip_in": 0.0,
         "period": "forecast"
       },
       {
         "time": "2026-08-30T05:00:00+00:00",
-        "temp_f": 39.0,
-        "wind_speed_mph": 5.8,
-        "wind_direction_deg": 270,
+        "temp_f": 36.0,
+        "wind_speed_mph": 4.6,
+        "wind_direction_deg": 240,
         "precip_in": 0.0,
         "period": "forecast"
       },
@@ -3936,10 +3928,6 @@
     ],
     "historical_precip_snapshots": [
       {
-        "time": "2026-08-27T08:15:22.054623+00:00",
-        "precip_in": 0
-      },
-      {
         "time": "2026-08-27T09:30:21.702986+00:00",
         "precip_in": 0
       },
@@ -4191,14 +4179,26 @@
   },
   "snotel": {
     "Mt Bachelor area (Irish Taylor)": {
+      "snow_depth_in": 0,
+      "snow_depth_in_date": "2026-08-29",
+      "swe_in": 0.2,
+      "swe_in_date": "2026-08-29",
       "change_12h_in": 0,
       "change_24h_in": 0
     },
     "Three Creek / Tam McArthur (Three Creeks Meadow)": {
-      "change_12h_in": -1,
+      "snow_depth_in": 0,
+      "snow_depth_in_date": "2026-08-29",
+      "swe_in": 0.0,
+      "swe_in_date": "2026-08-29",
+      "change_12h_in": 0,
       "change_24h_in": 0
     },
     "Santiam / Hoodoo (Hogg Pass)": {
+      "snow_depth_in": 0,
+      "snow_depth_in_date": "2026-08-29",
+      "swe_in": 0.0,
+      "swe_in_date": "2026-08-29",
       "change_12h_in": 0,
       "change_24h_in": 0
     },
@@ -4324,7 +4324,7 @@
           "id": 1788120000,
           "day": "Sunday",
           "temperature_high": 63,
-          "temperature_low": 30,
+          "temperature_low": 29,
           "precipitation_high": 13,
           "precipitation_low": 13,
           "wind_speed": 5,
@@ -4444,10 +4444,10 @@
           "active": true,
           "primary": true,
           "nonstandardizedDataPoints": {
-            "depth": "-2.06",
-            "timestamp": "2026-08-30T00:00:00.000Z"
+            "depth": "-1.761",
+            "timestamp": "2026-08-30T01:00:00.000Z"
           },
-          "temperature": "32.21",
+          "temperature": "31.75",
           "wind": {
             "low": "0",
             "high": "0",
@@ -4467,14 +4467,14 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-08-30T00:00:00.000Z"
+            "timestamp": "2026-08-30T01:00:00.000Z"
           },
-          "temperature": "43.2",
+          "temperature": "44.93",
           "wind": {
-            "low": "6.687",
-            "high": "14.99",
+            "low": "5.223",
+            "high": "10.74",
             "current": null,
-            "average": "6.687",
+            "average": "5.223",
             "direction": "WSW"
           },
           "humidity": null,
@@ -4489,17 +4489,17 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-08-30T00:00:00.000Z"
+            "timestamp": "2026-08-30T01:00:00.000Z"
           },
-          "temperature": "40.17",
+          "temperature": "42.28",
           "wind": {
-            "low": "4.398",
-            "high": "12.46",
+            "low": "2.858",
+            "high": "9.01",
             "current": null,
-            "average": "4.398",
+            "average": "2.858",
             "direction": "WNW"
           },
-          "humidity": "32.38",
+          "humidity": "27.02",
           "display_name": "Pine Marten",
           "elevation_ft": 7800
         },
@@ -4511,14 +4511,14 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-08-30T00:00:00.000Z"
+            "timestamp": "2026-08-30T01:00:00.000Z"
           },
-          "temperature": "43.16",
+          "temperature": "44.82",
           "wind": {
-            "low": "9.04",
-            "high": "16.78",
+            "low": "7.997",
+            "high": "15.21",
             "current": null,
-            "average": "9.04",
+            "average": "7.997",
             "direction": "WSW"
           },
           "humidity": null,
@@ -4626,20 +4626,20 @@
   "hoodoo": {
     "weather": {
       "Temperature": "40 &#176F",
-      "Wind": "NW @ 13 MPH",
-      "Snow depth": "-0.7\"",
-      "Humidity": "99 %",
+      "Wind": "NW @ 14 MPH",
+      "Snow depth": "-0.8\"",
+      "Humidity": "100 %",
       "Barometer": "30.13\" Hg"
     },
     "snow_totals": {
       "trend": {
         "Max": "0.6\"",
         "Min": "-4.1\"",
-        "1 Hr": "-0.8\"",
-        "3 Hr": "-0.4\"",
-        "6 Hr": "0.1\"",
-        "12 Hr": "-0.1\"",
-        "24 Hr": "0.8\""
+        "1 Hr": "0.3\"",
+        "3 Hr": "-0.2\"",
+        "6 Hr": "0.3\"",
+        "12 Hr": "0.1\"",
+        "24 Hr": "1.4\""
       },
       "season_total_in": 158.5
     },
@@ -4681,8 +4681,8 @@
   "willamette_pass": {
     "forecast": {
       "weather_provider": "NOAA",
-      "date": "August 30, 2026, 1:14 am",
-      "time": 1788077699000,
+      "date": "August 30, 2026, 1:30 am",
+      "time": 1788078600000,
       "current_weather": "Mostly Clear",
       "current_temperature": "39",
       "forecast": [
@@ -4722,11 +4722,6 @@
       "min_temp": "36",
       "hourly": [
         {
-          "time": "12a",
-          "temp": "41",
-          "details": ""
-        },
-        {
           "time": "2a",
           "temp": "38",
           "details": ""
@@ -4744,6 +4739,11 @@
         {
           "time": "8a",
           "temp": "39",
+          "details": ""
+        },
+        {
+          "time": "10a",
+          "temp": "54",
           "details": ""
         }
       ],
