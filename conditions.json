@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-31T05:30:23.907124+00:00",
+  "generated_at": "2026-08-31T05:45:20.236360+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -914,7 +914,7 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 26.0,
+        "wind_speed_mph": 24.0,
         "wind_direction_deg": 90,
         "snow_level_ft": 8958,
         "temp_f": 50
@@ -2156,7 +2156,7 @@
         {
           "number": 1,
           "name": "Tonight",
-          "startTime": "2026-08-30T19:00:00-07:00",
+          "startTime": "2026-08-30T22:00:00-07:00",
           "endTime": "2026-08-31T06:00:00-07:00",
           "isDaytime": false,
           "temperature": 48,
@@ -2166,13 +2166,13 @@
             "unitCode": "wmoUnit:percent",
             "value": 0
           },
-          "windSpeed": "0 to 3 mph",
-          "windDirection": "NW",
-          "icon": "https://api.weather.gov/icons/land/night/sct?size=medium",
-          "shortForecast": "Partly Cloudy",
-          "detailedForecast": "Partly cloudy, with a low around 48. Northwest wind 0 to 3 mph.",
+          "windSpeed": "2 mph",
+          "windDirection": "W",
+          "icon": "https://api.weather.gov/icons/land/night/few?size=medium",
+          "shortForecast": "Mostly Clear",
+          "detailedForecast": "Mostly clear, with a low around 48. West wind around 2 mph.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 8809
+          "snowLevelFt": 9252
         },
         {
           "number": 2,
@@ -2185,13 +2185,13 @@
           "temperatureTrend": null,
           "probabilityOfPrecipitation": {
             "unitCode": "wmoUnit:percent",
-            "value": 0
+            "value": 3
           },
-          "windSpeed": "0 to 8 mph",
-          "windDirection": "S",
+          "windSpeed": "1 to 7 mph",
+          "windDirection": "NE",
           "icon": "https://api.weather.gov/icons/land/day/few?size=medium",
           "shortForecast": "Sunny",
-          "detailedForecast": "Sunny. High near 85, with temperatures falling to around 83 in the afternoon. South wind 0 to 8 mph, with gusts as high as 18 mph.",
+          "detailedForecast": "Sunny. High near 85, with temperatures falling to around 83 in the afternoon. Northeast wind 1 to 7 mph.",
           "precipitationAmountIn": 0.0,
           "snowLevelFt": 10548
         },
@@ -2206,13 +2206,13 @@
           "temperatureTrend": null,
           "probabilityOfPrecipitation": {
             "unitCode": "wmoUnit:percent",
-            "value": 0
+            "value": 3
           },
-          "windSpeed": "3 to 8 mph",
-          "windDirection": "W",
+          "windSpeed": "2 to 8 mph",
+          "windDirection": "NW",
           "icon": "https://api.weather.gov/icons/land/night/bkn?size=medium",
           "shortForecast": "Mostly Cloudy",
-          "detailedForecast": "Mostly cloudy, with a low around 52. West wind 3 to 8 mph, with gusts as high as 18 mph.",
+          "detailedForecast": "Mostly cloudy, with a low around 52. Northwest wind 2 to 8 mph.",
           "precipitationAmountIn": 0.0,
           "snowLevelFt": 10662
         },
@@ -3087,12 +3087,12 @@
     "Hoodoo": {
       "elevation_ft": 4705,
       "temp_f": 50,
-      "wind_speed_mph": 26.0,
+      "wind_speed_mph": 24.0,
       "wind_direction_deg": 90,
       "snow_level_ft": 8958,
       "precip_chance_today": 0,
-      "snowfall_12h_in": -1.4,
-      "snowfall_24h_in": -0.4,
+      "snowfall_12h_in": -0.9,
+      "snowfall_24h_in": -0.6,
       "snowfall_48h_in": null
     },
     "Willamette Pass": {
@@ -4632,20 +4632,20 @@
   "hoodoo": {
     "weather": {
       "Temperature": "55 &#176F",
-      "Wind": "East @ 26 MPH",
-      "Snow depth": "-0.6\"",
+      "Wind": "East @ 24 MPH",
+      "Snow depth": "-1.0\"",
       "Humidity": "55 %",
-      "Barometer": "30.16\" Hg"
+      "Barometer": "30.15\" Hg"
     },
     "snow_totals": {
       "trend": {
         "Max": "0.9\"",
         "Min": "-4.1\"",
-        "1 Hr": "-0.2\"",
-        "3 Hr": "-0.3\"",
-        "6 Hr": "-0.1\"",
-        "12 Hr": "-1.4\"",
-        "24 Hr": "-0.4\""
+        "1 Hr": "-0.3\"",
+        "3 Hr": "-0.4\"",
+        "6 Hr": "-0.7\"",
+        "12 Hr": "-0.9\"",
+        "24 Hr": "-0.6\""
       },
       "season_total_in": 158.5
     },
@@ -4687,8 +4687,8 @@
   "willamette_pass": {
     "forecast": {
       "weather_provider": "NOAA",
-      "date": "August 30, 2026, 10:28 pm",
-      "time": 1788154080000,
+      "date": "August 30, 2026, 10:44 pm",
+      "time": 1788155089000,
       "current_weather": "Mostly Clear",
       "current_temperature": "55",
       "forecast": [
@@ -4788,15 +4788,15 @@
   "satellite": {
     "Pacific Northwest": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/pnw/13/GOES18-PNW-13-600x600.gif",
-      "last_modified": "Mon, 31 Aug 2026 05:11:42 GMT"
+      "last_modified": "Mon, 31 Aug 2026 05:41:13 GMT"
     },
     "North Pacific (macro)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/np/13/GOES18-NP-13-900x540.gif",
-      "last_modified": "Mon, 31 Aug 2026 05:11:52 GMT"
+      "last_modified": "Mon, 31 Aug 2026 05:41:22 GMT"
     },
     "Pacific US (PACUS)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/13/GOES18-CONUS-13-625x375.gif",
-      "last_modified": "Mon, 31 Aug 2026 05:06:02 GMT"
+      "last_modified": "Mon, 31 Aug 2026 05:35:46 GMT"
     }
   },
   "gfs_snowfall": {
