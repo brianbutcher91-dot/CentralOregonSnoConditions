@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-31T21:45:17.042371+00:00",
+  "generated_at": "2026-08-31T22:00:21.622582+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -303,7 +303,7 @@
         "wind_speed_mph": 7,
         "wind_direction_deg": 200,
         "snow_level_ft": 10611,
-        "temp_f": 67
+        "temp_f": 65
       },
       "lat": 43.9792,
       "lon": -121.6886
@@ -608,7 +608,7 @@
       ],
       "current": {
         "wind_speed_mph": 5,
-        "wind_direction_deg": 170,
+        "wind_direction_deg": 120,
         "snow_level_ft": 10506,
         "temp_f": 68
       },
@@ -914,9 +914,9 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 11.0,
+        "wind_speed_mph": 10.0,
         "wind_direction_deg": 90,
-        "snow_level_ft": 10206,
+        "snow_level_ft": 10390,
         "temp_f": 74
       },
       "lat": 44.409,
@@ -1224,7 +1224,7 @@
         "wind_speed_mph": 6,
         "wind_direction_deg": 210,
         "snow_level_ft": 10479,
-        "temp_f": 64
+        "temp_f": 66
       },
       "lat": 43.7025,
       "lon": -121.2661
@@ -1528,9 +1528,9 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 8,
-        "wind_direction_deg": 270,
-        "snow_level_ft": 10547,
+        "wind_speed_mph": 9,
+        "wind_direction_deg": 280,
+        "snow_level_ft": 10731,
         "temp_f": 72
       },
       "lat": 43.5975,
@@ -1835,9 +1835,9 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 6,
+        "wind_speed_mph": 7,
         "wind_direction_deg": 260,
-        "snow_level_ft": 10023,
+        "snow_level_ft": 10207,
         "temp_f": 72
       },
       "lat": 44.39548,
@@ -2142,8 +2142,8 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 5,
-        "wind_direction_deg": 170,
+        "wind_speed_mph": 3,
+        "wind_direction_deg": 180,
         "snow_level_ft": 10374,
         "temp_f": 78
       },
@@ -2450,9 +2450,9 @@
       ],
       "current": {
         "wind_speed_mph": 5,
-        "wind_direction_deg": 350,
+        "wind_direction_deg": 0,
         "snow_level_ft": 10479,
-        "temp_f": 81
+        "temp_f": 83
       },
       "lat": 44.0582,
       "lon": -121.3153
@@ -2756,10 +2756,10 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 5,
-        "wind_direction_deg": 30,
+        "wind_speed_mph": 6,
+        "wind_direction_deg": 20,
         "snow_level_ft": 10348,
-        "temp_f": 80
+        "temp_f": 81
       },
       "lat": 44.2909,
       "lon": -121.549
@@ -3064,7 +3064,7 @@
       ],
       "current": {
         "wind_speed_mph": 6,
-        "wind_direction_deg": 200,
+        "wind_direction_deg": 210,
         "snow_level_ft": 10427,
         "temp_f": 84
       },
@@ -3075,7 +3075,7 @@
   "wind_roses": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
-      "temp_f": 67,
+      "temp_f": 65,
       "wind_speed_mph": 7,
       "wind_direction_deg": 200,
       "snow_level_ft": 10611,
@@ -3087,20 +3087,20 @@
     "Hoodoo": {
       "elevation_ft": 4705,
       "temp_f": 74,
-      "wind_speed_mph": 11.0,
+      "wind_speed_mph": 10.0,
       "wind_direction_deg": 90,
-      "snow_level_ft": 10206,
+      "snow_level_ft": 10390,
       "precip_chance_today": 1,
-      "snowfall_12h_in": 0.3,
-      "snowfall_24h_in": 0.0,
+      "snowfall_12h_in": -0.3,
+      "snowfall_24h_in": -0.3,
       "snowfall_48h_in": null
     },
     "Willamette Pass": {
       "elevation_ft": 5538,
       "temp_f": 72,
-      "wind_speed_mph": 8,
-      "wind_direction_deg": 270,
-      "snow_level_ft": 10547,
+      "wind_speed_mph": 9,
+      "wind_direction_deg": 280,
+      "snow_level_ft": 10731,
       "precip_chance_today": 2,
       "snowfall_12h_in": null,
       "snowfall_24h_in": 0.0,
@@ -3924,13 +3924,17 @@
         "wind_direction_deg": 240,
         "precip_in": 0.02,
         "period": "forecast"
+      },
+      {
+        "time": "2026-09-03T21:00:00+00:00",
+        "temp_f": 37.0,
+        "wind_speed_mph": 13.8,
+        "wind_direction_deg": 250,
+        "precip_in": 0.02,
+        "period": "forecast"
       }
     ],
     "historical_precip_snapshots": [
-      {
-        "time": "2026-08-28T21:45:19.369674+00:00",
-        "precip_in": 0
-      },
       {
         "time": "2026-08-28T22:45:22.491469+00:00",
         "precip_in": 0
@@ -4220,105 +4224,7 @@
     }
   },
   "odot_cams": {
-    "Century Drive": [
-      {
-        "device-id": 768,
-        "device-name": "Century Dr at MP 21.11 E",
-        "latitude": 43.99178,
-        "longitude": -121.65663,
-        "hwy-id": "",
-        "route-id": "CITY",
-        "milepoint": 21.11,
-        "cctv-url": "http://www.TripCheck.com/roadcams/cams/Century Dr at MP 21.11 E_pid3545.JPG",
-        "cctv-other": "Century Drive at MP 21.11",
-        "last-update-time": "2026-08-31T03:44:28.07-07:00",
-        "tripcheck_link": "https://www.tripcheck.com/Pages/View-Custom-Cameras/?CamIds=3545"
-      },
-      {
-        "device-id": 771,
-        "device-name": "Century Dr at MP 21.11 W",
-        "latitude": 43.99178,
-        "longitude": -121.65663,
-        "hwy-id": "",
-        "route-id": "CITY",
-        "milepoint": 21.11,
-        "cctv-url": "http://www.TripCheck.com/roadcams/cams/Century Dr at MP 21.11 W_pid3557.JPG",
-        "cctv-other": "Century Drive at MP 21.11",
-        "last-update-time": "2026-08-31T03:44:28.273-07:00",
-        "tripcheck_link": "https://www.tripcheck.com/Pages/View-Custom-Cameras/?CamIds=3557"
-      }
-    ],
-    "Santiam Pass": [
-      {
-        "device-id": 567,
-        "device-name": "Santiam Pass EB",
-        "latitude": 44.422,
-        "longitude": -121.85731,
-        "hwy-id": "016",
-        "route-id": "US20",
-        "milepoint": 80.14,
-        "cctv-url": "http://www.TripCheck.com/roadcams/cams/Santiam Pass_pid2728.JPG",
-        "cctv-other": "US20 at Santiam Pass",
-        "last-update-time": "2026-08-31T03:44:23.897-07:00",
-        "tripcheck_link": "https://www.tripcheck.com/Pages/View-Custom-Cameras/?CamIds=2728"
-      },
-      {
-        "device-id": 1443,
-        "device-name": "Santiam Pass WB",
-        "latitude": 44.422,
-        "longitude": -121.8573,
-        "hwy-id": "016",
-        "route-id": "US20",
-        "milepoint": 80.14,
-        "cctv-url": "http://www.TripCheck.com/roadcams/cams/Santiam Pass WB_pid5258.jpg",
-        "cctv-other": "US20 at Santiam Pass",
-        "last-update-time": "2026-08-31T03:44:23.613-07:00",
-        "tripcheck_link": "https://www.tripcheck.com/Pages/View-Custom-Cameras/?CamIds=5258"
-      }
-    ],
-    "Tombstone Pass": [
-      {
-        "device-id": 332,
-        "device-name": "US20 at Tombstone",
-        "latitude": 44.39548,
-        "longitude": -122.14151,
-        "hwy-id": "016",
-        "route-id": "US20",
-        "milepoint": 63.64,
-        "cctv-url": "http://www.TripCheck.com/roadcams/cams/US20atTombstone_pid1354.jpg",
-        "cctv-other": "US20 at Tombstone",
-        "last-update-time": "2026-08-31T03:38:38.82-07:00",
-        "tripcheck_link": "https://www.tripcheck.com/Pages/View-Custom-Cameras/?CamIds=1354"
-      }
-    ],
-    "Willamette Pass": [
-      {
-        "device-id": 207,
-        "device-name": "OR58 at Willamette Pass",
-        "latitude": 43.59702,
-        "longitude": -122.03383,
-        "hwy-id": "018",
-        "route-id": "OR58",
-        "milepoint": 62.0,
-        "cctv-url": "http://www.TripCheck.com/roadcams/cams/WillamettePass_pid658.jpg",
-        "cctv-other": "OR58 at Willamette Pass",
-        "last-update-time": "2026-08-31T03:44:27.913-07:00",
-        "tripcheck_link": "https://www.tripcheck.com/Pages/View-Custom-Cameras/?CamIds=658"
-      },
-      {
-        "device-id": 721,
-        "device-name": "OR58 at Willamette Pass W",
-        "latitude": 43.59702,
-        "longitude": -122.03386,
-        "hwy-id": "018",
-        "route-id": "OR58",
-        "milepoint": 62.0,
-        "cctv-url": "http://www.TripCheck.com/roadcams/cams/Willamette Pass_pid3351.JPG",
-        "cctv-other": "OR58 at Willamette Pass",
-        "last-update-time": "2026-08-31T03:44:26.873-07:00",
-        "tripcheck_link": "https://www.tripcheck.com/Pages/View-Custom-Cameras/?CamIds=3351"
-      }
-    ]
+    "error": "HTTPSConnectionPool(host='api.odot.state.or.us', port=443): Max retries exceeded with url: /tripcheck/Cctv/Inventory?DeviceName=Century+Dr (Caused by NameResolutionError(\"HTTPSConnection(host='api.odot.state.or.us', port=443): Failed to resolve 'api.odot.state.or.us' ([Errno -5] No address associated with hostname)\"))"
   },
   "mtbachelor": {
     "weather": {
@@ -4337,8 +4243,8 @@
           "day": "Monday",
           "temperature_high": 77,
           "temperature_low": 30,
-          "precipitation_high": 22,
-          "precipitation_low": 22,
+          "precipitation_high": 21,
+          "precipitation_low": 21,
           "wind_speed": 7,
           "wind_direction": "SSE"
         },
@@ -4638,20 +4544,20 @@
   "hoodoo": {
     "weather": {
       "Temperature": "67 &#176F",
-      "Wind": "East @ 11 MPH",
-      "Snow depth": "-0.2\"",
-      "Humidity": "31 %",
+      "Wind": "East @ 10 MPH",
+      "Snow depth": "-0.7\"",
+      "Humidity": "30 %",
       "Barometer": "30.01\" Hg"
     },
     "snow_totals": {
       "trend": {
         "Max": "0.9\"",
         "Min": "-2.6\"",
-        "1 Hr": "-0.2\"",
-        "3 Hr": "-0.3\"",
-        "6 Hr": "0.5\"",
-        "12 Hr": "0.3\"",
-        "24 Hr": "0.0\""
+        "1 Hr": "0.2\"",
+        "3 Hr": "-0.8\"",
+        "6 Hr": "0.0\"",
+        "12 Hr": "-0.3\"",
+        "24 Hr": "-0.3\""
       },
       "season_total_in": 158.5
     },
