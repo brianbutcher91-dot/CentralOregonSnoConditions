@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-01T07:15:21.933234+00:00",
+  "generated_at": "2026-09-01T07:30:23.784425+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -914,7 +914,7 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 12.0,
+        "wind_speed_mph": 13.0,
         "wind_direction_deg": 315,
         "snow_level_ft": 10554,
         "temp_f": 51
@@ -3087,12 +3087,12 @@
     "Hoodoo": {
       "elevation_ft": 4705,
       "temp_f": 51,
-      "wind_speed_mph": 12.0,
+      "wind_speed_mph": 13.0,
       "wind_direction_deg": 315,
       "snow_level_ft": 10554,
       "precip_chance_today": 4,
-      "snowfall_12h_in": -0.8,
-      "snowfall_24h_in": -0.6,
+      "snowfall_12h_in": -0.6,
+      "snowfall_24h_in": 0.0,
       "snowfall_48h_in": null
     },
     "Willamette Pass": {
@@ -3109,14 +3109,6 @@
   },
   "bachelor_timeseries": {
     "hourly": [
-      {
-        "time": "2026-08-31T00:00:00.000Z",
-        "temp_f": 51.68,
-        "wind_speed_mph": 6.916,
-        "wind_direction_deg": 138.0,
-        "precip_in": null,
-        "period": "historical"
-      },
       {
         "time": "2026-08-31T01:00:00.000Z",
         "temp_f": 51.26,
@@ -3302,12 +3294,12 @@
         "period": "historical"
       },
       {
-        "time": "2026-09-01T00:00:00+00:00",
-        "temp_f": 67.0,
-        "wind_speed_mph": 6.9,
-        "wind_direction_deg": 270,
-        "precip_in": 0.0,
-        "period": "forecast"
+        "time": "2026-09-01T00:00:00.000Z",
+        "temp_f": 54.07,
+        "wind_speed_mph": 4.164,
+        "wind_direction_deg": 260.2,
+        "precip_in": null,
+        "period": "historical"
       },
       {
         "time": "2026-09-01T01:00:00+00:00",
@@ -4203,7 +4195,7 @@
       "snow_depth_in_date": "2026-08-30",
       "swe_in": 0.0,
       "swe_in_date": "2026-08-30",
-      "change_12h_in": 0,
+      "change_12h_in": -1,
       "change_24h_in": 0
     },
     "Santiam / Hoodoo (Hogg Pass)": {
@@ -4327,7 +4319,7 @@
   "mtbachelor": {
     "weather": {
       "current": {
-        "temperature": 50,
+        "temperature": 51,
         "weather_icon": "dor-mostlycloudy"
       },
       "forecast": [
@@ -4460,10 +4452,10 @@
           "active": true,
           "primary": true,
           "nonstandardizedDataPoints": {
-            "depth": "143.6",
-            "timestamp": "2026-08-31T23:00:00.000Z"
+            "depth": "-1.78",
+            "timestamp": "2026-09-01T00:00:00.000Z"
           },
-          "temperature": "50.44",
+          "temperature": "50.81",
           "wind": {
             "low": "0",
             "high": "0",
@@ -4483,15 +4475,15 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-08-31T23:00:00.000Z"
+            "timestamp": "2026-09-01T00:00:00.000Z"
           },
-          "temperature": "53.7",
+          "temperature": "55.01",
           "wind": {
-            "low": "4.937",
-            "high": "11.41",
+            "low": "3.83",
+            "high": "8.72",
             "current": null,
-            "average": "4.937",
-            "direction": "W"
+            "average": "3.83",
+            "direction": "WSW"
           },
           "humidity": null,
           "display_name": "Sunrise",
@@ -4505,17 +4497,17 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-08-31T23:00:00.000Z"
+            "timestamp": "2026-09-01T00:00:00.000Z"
           },
-          "temperature": "50.59",
+          "temperature": "52.01",
           "wind": {
-            "low": "5.093",
-            "high": "12.3",
+            "low": "3.549",
+            "high": "11.36",
             "current": null,
-            "average": "5.093",
+            "average": "3.549",
             "direction": "ESE"
           },
-          "humidity": "47.55",
+          "humidity": "38.6",
           "display_name": "Pine Marten",
           "elevation_ft": 7800
         },
@@ -4527,14 +4519,14 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-08-31T23:00:00.000Z"
+            "timestamp": "2026-09-01T00:00:00.000Z"
           },
-          "temperature": "52.36",
+          "temperature": "54.07",
           "wind": {
-            "low": "9.2",
-            "high": "15.21",
+            "low": "4.164",
+            "high": "10.74",
             "current": null,
-            "average": "9.2",
+            "average": "4.164",
             "direction": "W"
           },
           "humidity": null,
@@ -4642,20 +4634,20 @@
   "hoodoo": {
     "weather": {
       "Temperature": "53 &#176F",
-      "Wind": "NW @ 12 MPH",
-      "Snow depth": "-1.5\"",
-      "Humidity": "67 %",
-      "Barometer": "30.06\" Hg"
+      "Wind": "NW @ 13 MPH",
+      "Snow depth": "-1.3\"",
+      "Humidity": "69 %",
+      "Barometer": "30.05\" Hg"
     },
     "snow_totals": {
       "trend": {
         "Max": "0.9\"",
         "Min": "-3.5\"",
-        "1 Hr": "-0.2\"",
-        "3 Hr": "-0.3\"",
-        "6 Hr": "-0.6\"",
-        "12 Hr": "-0.8\"",
-        "24 Hr": "-0.6\""
+        "1 Hr": "0.5\"",
+        "3 Hr": "0.1\"",
+        "6 Hr": "0.1\"",
+        "12 Hr": "-0.6\"",
+        "24 Hr": "0.0\""
       },
       "season_total_in": 158.5
     },
@@ -4697,15 +4689,11 @@
   "willamette_pass": {
     "forecast": {
       "weather_provider": "NOAA",
-      "date": "September 1, 2026, 12:15 am",
-      "time": 1788246904000,
+      "date": "September 1, 2026, 12:30 am",
+      "time": 1788247801000,
       "current_weather": "Mostly Cloudy",
       "current_temperature": "54",
       "forecast": [
-        {
-          "day": "Monday",
-          "night_forecast": "Mostly cloudy, with a low around 44. Light north wind. "
-        },
         {
           "day": "Tuesday",
           "day_forecast": "A slight chance of rain between 2pm and 5pm.  Increasing clouds, with a high near 61. Calm wind becoming west 5 to 7 mph in the morning.  Chance of precipitation is 20%.",
