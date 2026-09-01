@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-01T22:15:25.110596+00:00",
+  "generated_at": "2026-09-01T22:30:20.789909+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -914,8 +914,8 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 10,
-        "wind_direction_deg": 260,
+        "wind_speed_mph": 23.0,
+        "wind_direction_deg": 225,
         "snow_level_ft": 9728,
         "temp_f": 60
       },
@@ -1235,7 +1235,7 @@
         {
           "number": 1,
           "name": "This Afternoon",
-          "startTime": "2026-09-01T12:00:00-07:00",
+          "startTime": "2026-09-01T13:00:00-07:00",
           "endTime": "2026-09-01T18:00:00-07:00",
           "isDaytime": true,
           "temperature": 61,
@@ -1245,13 +1245,13 @@
             "unitCode": "wmoUnit:percent",
             "value": 16
           },
-          "windSpeed": "9 to 13 mph",
+          "windSpeed": "13 mph",
           "windDirection": "W",
           "icon": "https://api.weather.gov/icons/land/day/rain,20?size=medium",
           "shortForecast": "Slight Chance Light Rain",
-          "detailedForecast": "A slight chance of rain between 3pm and 4pm. Partly sunny. High near 61, with temperatures falling to around 55 in the afternoon. West wind 9 to 13 mph, with gusts as high as 20 mph. Chance of precipitation is 20%. New rainfall amounts less than a tenth of an inch possible.",
+          "detailedForecast": "A slight chance of rain between 3pm and 4pm. Partly sunny. High near 61, with temperatures falling to around 55 in the afternoon. West wind around 13 mph, with gusts as high as 20 mph. Chance of precipitation is 20%. New rainfall amounts less than a tenth of an inch possible.",
           "precipitationAmountIn": 0.01,
-          "snowLevelFt": 9982
+          "snowLevelFt": 10067
         },
         {
           "number": 2,
@@ -3087,12 +3087,12 @@
     "Hoodoo": {
       "elevation_ft": 4705,
       "temp_f": 60,
-      "wind_speed_mph": 10,
-      "wind_direction_deg": 260,
+      "wind_speed_mph": 23.0,
+      "wind_direction_deg": 225,
       "snow_level_ft": 9728,
       "precip_chance_today": 24,
-      "snowfall_12h_in": null,
-      "snowfall_24h_in": null,
+      "snowfall_12h_in": 0.2,
+      "snowfall_24h_in": 0.2,
       "snowfall_48h_in": null
     },
     "Willamette Pass": {
@@ -4195,8 +4195,8 @@
       "snow_depth_in_date": "2026-08-31",
       "swe_in": 0.0,
       "swe_in_date": "2026-08-31",
-      "change_12h_in": 1,
-      "change_24h_in": 1
+      "change_12h_in": 0,
+      "change_24h_in": -1
     },
     "Santiam / Hoodoo (Hogg Pass)": {
       "snow_depth_in": 0,
@@ -4317,7 +4317,7 @@
   "mtbachelor": {
     "weather": {
       "current": {
-        "temperature": 61,
+        "temperature": 58,
         "weather_icon": "dor-mostlycloudy"
       },
       "forecast": [
@@ -4329,7 +4329,7 @@
           "weather_icon": "dor-rain",
           "id": 1788292800,
           "day": "Tuesday",
-          "temperature_high": 64,
+          "temperature_high": 63,
           "temperature_low": 37,
           "precipitation_high": 36,
           "precipitation_low": 36,
@@ -4450,10 +4450,10 @@
           "active": true,
           "primary": true,
           "nonstandardizedDataPoints": {
-            "depth": "-0.602",
-            "timestamp": "2026-09-01T14:00:00.000Z"
+            "depth": "-1.745",
+            "timestamp": "2026-09-01T15:00:00.000Z"
           },
-          "temperature": "61.23",
+          "temperature": "58.41",
           "wind": {
             "low": "0",
             "high": "0",
@@ -4473,15 +4473,15 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-09-01T14:00:00.000Z"
+            "timestamp": "2026-09-01T15:00:00.000Z"
           },
-          "temperature": "57.49",
+          "temperature": "53.64",
           "wind": {
-            "low": "8.02",
-            "high": "27.29",
+            "low": "14.17",
+            "high": "25.28",
             "current": null,
-            "average": "8.02",
-            "direction": "SW"
+            "average": "14.17",
+            "direction": "W"
           },
           "humidity": null,
           "display_name": "Sunrise",
@@ -4495,17 +4495,17 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-09-01T14:00:00.000Z"
+            "timestamp": "2026-09-01T15:00:00.000Z"
           },
-          "temperature": "54.42",
+          "temperature": "51.76",
           "wind": {
-            "low": "10.54",
-            "high": "19.3",
+            "low": "13.43",
+            "high": "22.4",
             "current": null,
-            "average": "10.54",
+            "average": "13.43",
             "direction": "WNW"
           },
-          "humidity": "50.32",
+          "humidity": "60.35",
           "display_name": "Pine Marten",
           "elevation_ft": 7800
         },
@@ -4517,15 +4517,15 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-09-01T14:00:00.000Z"
+            "timestamp": "2026-09-01T15:00:00.000Z"
           },
-          "temperature": "52.56",
+          "temperature": "51.7",
           "wind": {
-            "low": "8.57",
-            "high": "21.92",
+            "low": "8.65",
+            "high": "19.46",
             "current": null,
-            "average": "8.57",
-            "direction": "ESE"
+            "average": "8.65",
+            "direction": "S"
           },
           "humidity": null,
           "display_name": "Cloud Chaser",
@@ -4630,10 +4630,24 @@
     }
   },
   "hoodoo": {
-    "weather": {},
+    "weather": {
+      "Temperature": "53 &#176F",
+      "Wind": "SW @ 23 MPH",
+      "Snow depth": "-0.2\"",
+      "Humidity": "61 %",
+      "Barometer": "29.96\" Hg"
+    },
     "snow_totals": {
-      "trend": {},
-      "season_total_in": null
+      "trend": {
+        "Max": "0.9\"",
+        "Min": "-4.0\"",
+        "1 Hr": "0.2\"",
+        "3 Hr": "-0.4\"",
+        "6 Hr": "0.1\"",
+        "12 Hr": "0.2\"",
+        "24 Hr": "0.2\""
+      },
+      "season_total_in": 158.5
     },
     "webcams": {
       "Base Area": {
