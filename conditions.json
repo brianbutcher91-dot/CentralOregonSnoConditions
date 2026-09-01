@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-01T23:15:22.731134+00:00",
+  "generated_at": "2026-09-01T23:30:18.334157+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -7,7 +7,7 @@
         {
           "number": 1,
           "name": "This Afternoon",
-          "startTime": "2026-09-01T16:00:00-07:00",
+          "startTime": "2026-09-01T15:00:00-07:00",
           "endTime": "2026-09-01T18:00:00-07:00",
           "isDaytime": true,
           "temperature": 56,
@@ -314,7 +314,7 @@
         {
           "number": 1,
           "name": "This Afternoon",
-          "startTime": "2026-09-01T16:00:00-07:00",
+          "startTime": "2026-09-01T15:00:00-07:00",
           "endTime": "2026-09-01T18:00:00-07:00",
           "isDaytime": true,
           "temperature": 59,
@@ -621,7 +621,7 @@
         {
           "number": 1,
           "name": "This Afternoon",
-          "startTime": "2026-09-01T16:00:00-07:00",
+          "startTime": "2026-09-01T15:00:00-07:00",
           "endTime": "2026-09-01T18:00:00-07:00",
           "isDaytime": true,
           "temperature": 63,
@@ -629,7 +629,7 @@
           "temperatureTrend": null,
           "probabilityOfPrecipitation": {
             "unitCode": "wmoUnit:percent",
-            "value": 22
+            "value": 24
           },
           "windSpeed": "10 mph",
           "windDirection": "W",
@@ -637,7 +637,7 @@
           "shortForecast": "Slight Chance Drizzle",
           "detailedForecast": "A slight chance of drizzle. Partly sunny. High near 63, with temperatures falling to around 57 in the afternoon. West wind around 10 mph, with gusts as high as 21 mph. Chance of precipitation is 20%.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 9822
+          "snowLevelFt": 9728
         },
         {
           "number": 2,
@@ -914,8 +914,8 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 17.0,
-        "wind_direction_deg": 247.5,
+        "wind_speed_mph": 18.0,
+        "wind_direction_deg": 225,
         "snow_level_ft": 9822,
         "temp_f": 61
       },
@@ -928,7 +928,7 @@
         {
           "number": 1,
           "name": "This Afternoon",
-          "startTime": "2026-09-01T16:00:00-07:00",
+          "startTime": "2026-09-01T15:00:00-07:00",
           "endTime": "2026-09-01T18:00:00-07:00",
           "isDaytime": true,
           "temperature": 61,
@@ -1542,7 +1542,7 @@
         {
           "number": 1,
           "name": "This Afternoon",
-          "startTime": "2026-09-01T16:00:00-07:00",
+          "startTime": "2026-09-01T15:00:00-07:00",
           "endTime": "2026-09-01T18:00:00-07:00",
           "isDaytime": true,
           "temperature": 60,
@@ -1558,7 +1558,7 @@
           "shortForecast": "Slight Chance Drizzle",
           "detailedForecast": "A slight chance of drizzle. Partly sunny. High near 60, with temperatures falling to around 55 in the afternoon. West wind around 9 mph. Chance of precipitation is 20%.",
           "precipitationAmountIn": 0.01,
-          "snowLevelFt": 9428
+          "snowLevelFt": 9465
         },
         {
           "number": 2,
@@ -1849,7 +1849,7 @@
         {
           "number": 1,
           "name": "This Afternoon",
-          "startTime": "2026-09-01T16:00:00-07:00",
+          "startTime": "2026-09-01T15:00:00-07:00",
           "endTime": "2026-09-01T18:00:00-07:00",
           "isDaytime": true,
           "temperature": 75,
@@ -2156,7 +2156,7 @@
         {
           "number": 1,
           "name": "This Afternoon",
-          "startTime": "2026-09-01T16:00:00-07:00",
+          "startTime": "2026-09-01T15:00:00-07:00",
           "endTime": "2026-09-01T18:00:00-07:00",
           "isDaytime": true,
           "temperature": 77,
@@ -2463,7 +2463,7 @@
         {
           "number": 1,
           "name": "This Afternoon",
-          "startTime": "2026-09-01T16:00:00-07:00",
+          "startTime": "2026-09-01T15:00:00-07:00",
           "endTime": "2026-09-01T18:00:00-07:00",
           "isDaytime": true,
           "temperature": 76,
@@ -3087,12 +3087,12 @@
     "Hoodoo": {
       "elevation_ft": 4705,
       "temp_f": 61,
-      "wind_speed_mph": 17.0,
-      "wind_direction_deg": 247.5,
+      "wind_speed_mph": 18.0,
+      "wind_direction_deg": 225,
       "snow_level_ft": 9822,
-      "precip_chance_today": 22,
-      "snowfall_12h_in": 0.5,
-      "snowfall_24h_in": 0.0,
+      "precip_chance_today": 24,
+      "snowfall_12h_in": 0.3,
+      "snowfall_24h_in": 0.5,
       "snowfall_48h_in": null
     },
     "Willamette Pass": {
@@ -3109,14 +3109,6 @@
   },
   "bachelor_timeseries": {
     "hourly": [
-      {
-        "time": "2026-08-31T16:00:00.000Z",
-        "temp_f": 62.39,
-        "wind_speed_mph": 13.2,
-        "wind_direction_deg": 76.49,
-        "precip_in": null,
-        "period": "historical"
-      },
       {
         "time": "2026-08-31T17:00:00.000Z",
         "temp_f": 62.65,
@@ -3302,12 +3294,12 @@
         "period": "historical"
       },
       {
-        "time": "2026-09-01T16:00:00+00:00",
-        "temp_f": 49.0,
-        "wind_speed_mph": 5.8,
-        "wind_direction_deg": 250,
-        "precip_in": 0.0,
-        "period": "forecast"
+        "time": "2026-09-01T16:00:00.000Z",
+        "temp_f": 50.79,
+        "wind_speed_mph": 10.27,
+        "wind_direction_deg": 195.9,
+        "precip_in": null,
+        "period": "historical"
       },
       {
         "time": "2026-09-01T17:00:00+00:00",
@@ -4204,7 +4196,7 @@
       "swe_in": 0.0,
       "swe_in_date": "2026-08-31",
       "change_12h_in": 0,
-      "change_24h_in": -1
+      "change_24h_in": 0
     },
     "Santiam / Hoodoo (Hogg Pass)": {
       "snow_depth_in": 0,
@@ -4325,7 +4317,7 @@
   "mtbachelor": {
     "weather": {
       "current": {
-        "temperature": 58,
+        "temperature": 57,
         "weather_icon": "dor-mostlycloudy"
       },
       "forecast": [
@@ -4337,7 +4329,7 @@
           "weather_icon": "dor-rain",
           "id": 1788292800,
           "day": "Tuesday",
-          "temperature_high": 62,
+          "temperature_high": 61,
           "temperature_low": 37,
           "precipitation_high": 37,
           "precipitation_low": 37,
@@ -4458,10 +4450,10 @@
           "active": true,
           "primary": true,
           "nonstandardizedDataPoints": {
-            "depth": "-1.745",
-            "timestamp": "2026-09-01T15:00:00.000Z"
+            "depth": "-1.351",
+            "timestamp": "2026-09-01T16:00:00.000Z"
           },
-          "temperature": "58.41",
+          "temperature": "57.4",
           "wind": {
             "low": "0",
             "high": "0",
@@ -4481,15 +4473,15 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-09-01T15:00:00.000Z"
+            "timestamp": "2026-09-01T16:00:00.000Z"
           },
-          "temperature": "53.64",
+          "temperature": "52.44",
           "wind": {
-            "low": "14.17",
-            "high": "25.28",
+            "low": "15.06",
+            "high": "25.95",
             "current": null,
-            "average": "14.17",
-            "direction": "W"
+            "average": "15.06",
+            "direction": "WSW"
           },
           "humidity": null,
           "display_name": "Sunrise",
@@ -4503,17 +4495,17 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-09-01T15:00:00.000Z"
+            "timestamp": "2026-09-01T16:00:00.000Z"
           },
-          "temperature": "51.76",
+          "temperature": "50.26",
           "wind": {
-            "low": "13.43",
-            "high": "22.4",
+            "low": "15.79",
+            "high": "24.84",
             "current": null,
-            "average": "13.43",
+            "average": "15.79",
             "direction": "WNW"
           },
-          "humidity": "60.35",
+          "humidity": "68.15",
           "display_name": "Pine Marten",
           "elevation_ft": 7800
         },
@@ -4525,15 +4517,15 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-09-01T15:00:00.000Z"
+            "timestamp": "2026-09-01T16:00:00.000Z"
           },
-          "temperature": "51.7",
+          "temperature": "50.79",
           "wind": {
-            "low": "8.65",
-            "high": "19.46",
+            "low": "10.27",
+            "high": "25.5",
             "current": null,
-            "average": "8.65",
-            "direction": "S"
+            "average": "10.27",
+            "direction": "SSW"
           },
           "humidity": null,
           "display_name": "Cloud Chaser",
@@ -4639,21 +4631,21 @@
   },
   "hoodoo": {
     "weather": {
-      "Temperature": "56 &#176F",
-      "Wind": "WSW @ 17 MPH",
-      "Snow depth": "-0.5\"",
-      "Humidity": "59 %",
+      "Temperature": "55 &#176F",
+      "Wind": "SW @ 18 MPH",
+      "Snow depth": "-1.0\"",
+      "Humidity": "62 %",
       "Barometer": "29.95\" Hg"
     },
     "snow_totals": {
       "trend": {
         "Max": "0.9\"",
         "Min": "-4.0\"",
-        "1 Hr": "-0.1\"",
-        "3 Hr": "-0.1\"",
-        "6 Hr": "-0.3\"",
-        "12 Hr": "0.5\"",
-        "24 Hr": "0.0\""
+        "1 Hr": "0.0\"",
+        "3 Hr": "0.6\"",
+        "6 Hr": "0.0\"",
+        "12 Hr": "0.3\"",
+        "24 Hr": "0.5\""
       },
       "season_total_in": 158.5
     },
@@ -4695,15 +4687,14 @@
   "willamette_pass": {
     "forecast": {
       "weather_provider": "NOAA",
-      "date": "September 1, 2026, 3:58 pm",
-      "time": 1788303500000,
-      "current_weather": "Slight Chance Rain",
+      "date": "September 1, 2026, 4:27 pm",
+      "time": 1788305231000,
+      "current_weather": "Chance Rain",
       "current_temperature": "66",
       "forecast": [
         {
           "day": "Tuesday",
-          "day_forecast": "A 20 percent chance of rain before 4pm.  Partly sunny, with a high near 61. West wind 11 to 13 mph, with gusts as high as 20 mph. ",
-          "night_forecast": "A chance of rain and thunderstorms before 1am, then a slight chance of rain between 1am and 2am.  Snow level 9300 feet lowering to 8100 feet after midnight . Mostly cloudy, with a low around 40. West northwest wind 5 to 11 mph becoming south after midnight.  Chance of precipitation is 50%."
+          "night_forecast": "A chance of rain and thunderstorms before 1am, then a slight chance of rain between 1am and 2am.  Snow level 9400 feet lowering to 8100 feet after midnight . Mostly cloudy, with a low around 40. West northwest wind 5 to 11 mph becoming south after midnight.  Chance of precipitation is 50%."
         },
         {
           "day": "Wednesday",
@@ -4713,12 +4704,12 @@
         {
           "day": "Thursday",
           "day_forecast": "Rain likely before 2pm, then showers likely and possibly a thunderstorm after 2pm.  Snow level 6800 feet rising to 7400 feet in the afternoon. Mostly cloudy, with a high near 48. Southwest wind 8 to 11 mph.  Chance of precipitation is 70%. New rainfall amounts between a tenth and quarter of an inch, except higher amounts possible in thunderstorms. ",
-          "night_forecast": "A 50 percent chance of rain.  Snow level 7400 feet lowering to 6900 feet after midnight . Mostly cloudy, with a low around 36."
+          "night_forecast": "A 50 percent chance of rain.  Snow level 7400 feet lowering to 6900 feet after midnight . Mostly cloudy, with a low around 36. West southwest wind 5 to 10 mph becoming light  in the evening. "
         },
         {
           "day": "Friday",
           "day_forecast": "A chance of rain, then showers likely and possibly a thunderstorm after 11am.  Snow level 6800 feet rising to 7600 feet in the afternoon. Mostly cloudy, with a high near 50. Chance of precipitation is 60%. New rainfall amounts between a tenth and quarter of an inch, except higher amounts possible in thunderstorms. ",
-          "night_forecast": "A chance of rain.  Snow level 7800 feet. Mostly cloudy, with a low around 36."
+          "night_forecast": "A 50 percent chance of rain.  Snow level 7800 feet. Mostly cloudy, with a low around 36."
         },
         {
           "day": "Saturday",
@@ -4727,13 +4718,17 @@
         },
         {
           "day": "Sunday",
-          "day_forecast": "A chance of rain.  Partly sunny, with a high near 58.",
+          "day_forecast": "A chance of rain, mainly after 11am.  Partly sunny, with a high near 58.",
           "night_forecast": "Rain likely and possibly a thunderstorm.  Mostly cloudy, with a low around 41."
+        },
+        {
+          "day": "Monday",
+          "day_forecast": "A chance of rain.  Partly sunny, with a high near 56."
         }
       ],
       "wind": "NA",
       "icon": "0399-rain.svg",
-      "max_temp": "61",
+      "max_temp": "48",
       "min_temp": "40",
       "hourly": [
         {
