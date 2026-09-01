@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-01T06:18:05.973027+00:00",
+  "generated_at": "2026-09-01T06:30:19.070567+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -314,7 +314,7 @@
         {
           "number": 1,
           "name": "Tonight",
-          "startTime": "2026-08-31T19:00:00-07:00",
+          "startTime": "2026-08-31T23:00:00-07:00",
           "endTime": "2026-09-01T06:00:00-07:00",
           "isDaytime": false,
           "temperature": 48,
@@ -328,9 +328,9 @@
           "windDirection": "NW",
           "icon": "https://api.weather.gov/icons/land/night/smoke?size=medium",
           "shortForecast": "Areas Of Smoke",
-          "detailedForecast": "Areas of smoke after 11pm. Mostly cloudy, with a low around 48. Northwest wind 2 to 6 mph.",
+          "detailedForecast": "Areas of smoke. Mostly cloudy, with a low around 48. Northwest wind 2 to 6 mph.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 10673
+          "snowLevelFt": 10515
         },
         {
           "number": 2,
@@ -1849,7 +1849,7 @@
         {
           "number": 1,
           "name": "Tonight",
-          "startTime": "2026-08-31T21:00:00-07:00",
+          "startTime": "2026-08-31T23:00:00-07:00",
           "endTime": "2026-09-01T06:00:00-07:00",
           "isDaytime": false,
           "temperature": 48,
@@ -1859,13 +1859,13 @@
             "unitCode": "wmoUnit:percent",
             "value": 0
           },
-          "windSpeed": "3 mph",
-          "windDirection": "NE",
+          "windSpeed": "2 mph",
+          "windDirection": "E",
           "icon": "https://api.weather.gov/icons/land/night/bkn?size=medium",
           "shortForecast": "Mostly Cloudy",
-          "detailedForecast": "Mostly cloudy. Low around 48, with temperatures rising to around 50 overnight. Northeast wind around 3 mph.",
+          "detailedForecast": "Mostly cloudy. Low around 48, with temperatures rising to around 50 overnight. East wind around 2 mph.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 10636
+          "snowLevelFt": 10662
         },
         {
           "number": 2,
@@ -2770,7 +2770,7 @@
         {
           "number": 1,
           "name": "Tonight",
-          "startTime": "2026-08-31T19:00:00-07:00",
+          "startTime": "2026-08-31T21:00:00-07:00",
           "endTime": "2026-09-01T06:00:00-07:00",
           "isDaytime": false,
           "temperature": 37,
@@ -2778,15 +2778,15 @@
           "temperatureTrend": null,
           "probabilityOfPrecipitation": {
             "unitCode": "wmoUnit:percent",
-            "value": 2
+            "value": 1
           },
-          "windSpeed": "1 to 6 mph",
+          "windSpeed": "2 mph",
           "windDirection": "SW",
-          "icon": "https://api.weather.gov/icons/land/night/sct/smoke?size=medium",
-          "shortForecast": "Partly Cloudy then Patchy Smoke",
-          "detailedForecast": "Patchy smoke after 5am. Partly cloudy. Low around 37, with temperatures rising to around 39 overnight. Southwest wind 1 to 6 mph.",
+          "icon": "https://api.weather.gov/icons/land/night/bkn/smoke?size=medium",
+          "shortForecast": "Mostly Cloudy then Patchy Smoke",
+          "detailedForecast": "Patchy smoke after 5am. Mostly cloudy. Low around 37, with temperatures rising to around 39 overnight. Southwest wind around 2 mph.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 10683
+          "snowLevelFt": 10650
         },
         {
           "number": 2,
@@ -4195,7 +4195,7 @@
       "snow_depth_in_date": "2026-08-30",
       "swe_in": 0.0,
       "swe_in_date": "2026-08-30",
-      "change_12h_in": -1,
+      "change_12h_in": 0,
       "change_24h_in": 0
     },
     "Santiam / Hoodoo (Hogg Pass)": {
@@ -4347,10 +4347,10 @@
           "id": 1788292800,
           "day": "Tuesday",
           "temperature_high": 63,
-          "temperature_low": 31,
-          "precipitation_high": 39,
-          "precipitation_low": 39,
-          "wind_speed": 11,
+          "temperature_low": 32,
+          "precipitation_high": 37,
+          "precipitation_low": 37,
+          "wind_speed": 12,
           "wind_direction": "WNW"
         },
         {
@@ -4361,11 +4361,11 @@
           "weather_icon": "dor-rain",
           "id": 1788379200,
           "day": "Wednesday",
-          "temperature_high": 48,
-          "temperature_low": 22,
-          "precipitation_high": 79,
-          "precipitation_low": 79,
-          "wind_speed": 13,
+          "temperature_high": 46,
+          "temperature_low": 26,
+          "precipitation_high": 93,
+          "precipitation_low": 93,
+          "wind_speed": 12,
           "wind_direction": "SW"
         },
         {
@@ -4689,8 +4689,8 @@
   "willamette_pass": {
     "forecast": {
       "weather_provider": "NOAA",
-      "date": "August 31, 2026, 11:13 pm",
-      "time": 1788243188000,
+      "date": "August 31, 2026, 11:30 pm",
+      "time": 1788244208000,
       "current_weather": "Mostly Cloudy",
       "current_temperature": "55",
       "forecast": [
@@ -4734,11 +4734,6 @@
       "min_temp": "44",
       "hourly": [
         {
-          "time": "10p",
-          "temp": "54",
-          "details": ""
-        },
-        {
           "time": "12a",
           "temp": "50",
           "details": ""
@@ -4755,6 +4750,11 @@
         },
         {
           "time": "5a",
+          "temp": "46",
+          "details": ""
+        },
+        {
+          "time": "8a",
           "temp": "46",
           "details": ""
         }
