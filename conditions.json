@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-02T23:15:15.983501+00:00",
+  "generated_at": "2026-09-02T23:30:18.029884+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -1235,7 +1235,7 @@
         {
           "number": 1,
           "name": "This Afternoon",
-          "startTime": "2026-09-02T15:00:00-07:00",
+          "startTime": "2026-09-02T14:00:00-07:00",
           "endTime": "2026-09-02T18:00:00-07:00",
           "isDaytime": true,
           "temperature": 47,
@@ -1245,13 +1245,13 @@
             "unitCode": "wmoUnit:percent",
             "value": 100
           },
-          "windSpeed": "13 mph",
+          "windSpeed": "10 to 14 mph",
           "windDirection": "SSW",
           "icon": "https://api.weather.gov/icons/land/day/tsra,100?size=medium",
           "shortForecast": "Showers And Thunderstorms",
-          "detailedForecast": "Rain before 5pm, then showers and thunderstorms. Cloudy. High near 47, with temperatures falling to around 45 in the afternoon. South southwest wind around 13 mph, with gusts as high as 20 mph. Chance of precipitation is 100%. New rainfall amounts between three quarters and one inch possible.",
-          "precipitationAmountIn": 0.25,
-          "snowLevelFt": 8678
+          "detailedForecast": "Rain before 5pm, then showers and thunderstorms. Cloudy. High near 47, with temperatures falling to around 45 in the afternoon. South southwest wind 10 to 14 mph, with gusts as high as 21 mph. Chance of precipitation is 100%. New rainfall amounts between three quarters and one inch possible.",
+          "precipitationAmountIn": 0.35,
+          "snowLevelFt": 8826
         },
         {
           "number": 2,
@@ -3110,14 +3110,6 @@
   "bachelor_timeseries": {
     "hourly": [
       {
-        "time": "2026-09-01T16:00:00.000Z",
-        "temp_f": 50.79,
-        "wind_speed_mph": 10.27,
-        "wind_direction_deg": 195.9,
-        "precip_in": null,
-        "period": "historical"
-      },
-      {
         "time": "2026-09-01T17:00:00.000Z",
         "temp_f": 47.12,
         "wind_speed_mph": 18.87,
@@ -3302,12 +3294,12 @@
         "period": "historical"
       },
       {
-        "time": "2026-09-02T16:00:00+00:00",
-        "temp_f": 39.0,
-        "wind_speed_mph": 20.7,
-        "wind_direction_deg": 220,
-        "precip_in": 0.02,
-        "period": "forecast"
+        "time": "2026-09-02T16:00:00.000Z",
+        "temp_f": 36.98,
+        "wind_speed_mph": 7.948,
+        "wind_direction_deg": 100.6,
+        "precip_in": null,
+        "period": "historical"
       },
       {
         "time": "2026-09-02T17:00:00+00:00",
@@ -3936,10 +3928,6 @@
     ],
     "historical_precip_snapshots": [
       {
-        "time": "2026-08-30T23:15:21.306885+00:00",
-        "precip_in": 0
-      },
-      {
         "time": "2026-08-31T00:15:21.534810+00:00",
         "precip_in": 0
       },
@@ -4458,10 +4446,10 @@
           "active": true,
           "primary": true,
           "nonstandardizedDataPoints": {
-            "depth": "-1.142",
-            "timestamp": "2026-09-02T15:00:00.000Z"
+            "depth": "-0.255",
+            "timestamp": "2026-09-02T16:00:00.000Z"
           },
-          "temperature": "41.58",
+          "temperature": "42.01",
           "wind": {
             "low": "0",
             "high": "0",
@@ -4481,15 +4469,15 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-09-02T15:00:00.000Z"
+            "timestamp": "2026-09-02T16:00:00.000Z"
           },
-          "temperature": "37.48",
+          "temperature": "38.22",
           "wind": {
-            "low": "8.34",
-            "high": "25.73",
+            "low": "6.495",
+            "high": "23.26",
             "current": null,
-            "average": "8.34",
-            "direction": "E"
+            "average": "6.495",
+            "direction": "ENE"
           },
           "humidity": null,
           "display_name": "Sunrise",
@@ -4503,15 +4491,15 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-09-02T15:00:00.000Z"
+            "timestamp": "2026-09-02T16:00:00.000Z"
           },
-          "temperature": "35.95",
+          "temperature": "36.65",
           "wind": {
-            "low": "30.21",
-            "high": "59.85",
+            "low": "28.38",
+            "high": "54.55",
             "current": null,
-            "average": "30.21",
-            "direction": "SW"
+            "average": "28.38",
+            "direction": "W"
           },
           "humidity": "100",
           "display_name": "Pine Marten",
@@ -4525,15 +4513,15 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-09-02T15:00:00.000Z"
+            "timestamp": "2026-09-02T16:00:00.000Z"
           },
-          "temperature": "36.14",
+          "temperature": "36.98",
           "wind": {
-            "low": "11.56",
-            "high": "27.74",
+            "low": "7.948",
+            "high": "28.86",
             "current": null,
-            "average": "11.56",
-            "direction": "ENE"
+            "average": "7.948",
+            "direction": "E"
           },
           "humidity": null,
           "display_name": "Cloud Chaser",
