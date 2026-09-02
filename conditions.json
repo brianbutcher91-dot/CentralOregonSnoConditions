@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-02T12:15:21.883814+00:00",
+  "generated_at": "2026-09-02T12:18:22.831852+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -314,7 +314,7 @@
         {
           "number": 1,
           "name": "Overnight",
-          "startTime": "2026-09-02T05:00:00-07:00",
+          "startTime": "2026-09-02T04:00:00-07:00",
           "endTime": "2026-09-02T06:00:00-07:00",
           "isDaytime": false,
           "temperature": 39,
@@ -330,7 +330,7 @@
           "shortForecast": "Chance Rain Showers",
           "detailedForecast": "A chance of rain showers. Mostly cloudy. Low around 39, with temperatures rising to around 41 overnight. Southwest wind around 8 mph. Chance of precipitation is 50%. New rainfall amounts less than a tenth of an inch possible.",
           "precipitationAmountIn": 0.01,
-          "snowLevelFt": 7893
+          "snowLevelFt": 8556
         },
         {
           "number": 2,
@@ -914,7 +914,7 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 17.0,
+        "wind_speed_mph": 13.0,
         "wind_direction_deg": 225,
         "snow_level_ft": 7815,
         "temp_f": 42
@@ -2156,7 +2156,7 @@
         {
           "number": 1,
           "name": "Overnight",
-          "startTime": "2026-09-02T05:00:00-07:00",
+          "startTime": "2026-09-02T04:00:00-07:00",
           "endTime": "2026-09-02T06:00:00-07:00",
           "isDaytime": false,
           "temperature": 45,
@@ -2167,12 +2167,12 @@
             "value": 24
           },
           "windSpeed": "5 mph",
-          "windDirection": "S",
+          "windDirection": "SW",
           "icon": "https://api.weather.gov/icons/land/night/rain_showers,20?size=medium",
           "shortForecast": "Slight Chance Rain Showers",
-          "detailedForecast": "A slight chance of rain showers. Mostly cloudy, with a low around 45. South wind around 5 mph. Chance of precipitation is 20%.",
+          "detailedForecast": "A slight chance of rain showers. Mostly cloudy, with a low around 45. Southwest wind around 5 mph. Chance of precipitation is 20%.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 7972
+          "snowLevelFt": 8688
         },
         {
           "number": 2,
@@ -3087,12 +3087,12 @@
     "Hoodoo": {
       "elevation_ft": 4705,
       "temp_f": 42,
-      "wind_speed_mph": 17.0,
+      "wind_speed_mph": 13.0,
       "wind_direction_deg": 225,
       "snow_level_ft": 7815,
       "precip_chance_today": 5,
-      "snowfall_12h_in": 0.1,
-      "snowfall_24h_in": 0.3,
+      "snowfall_12h_in": 0.2,
+      "snowfall_24h_in": 0.5,
       "snowfall_48h_in": null
     },
     "Willamette Pass": {
@@ -3109,14 +3109,6 @@
   },
   "bachelor_timeseries": {
     "hourly": [
-      {
-        "time": "2026-09-01T05:00:00.000Z",
-        "temp_f": 49.86,
-        "wind_speed_mph": 9.02,
-        "wind_direction_deg": 216.7,
-        "precip_in": null,
-        "period": "historical"
-      },
       {
         "time": "2026-09-01T06:00:00.000Z",
         "temp_f": 49.58,
@@ -3302,12 +3294,12 @@
         "period": "historical"
       },
       {
-        "time": "2026-09-02T05:00:00+00:00",
-        "temp_f": 41.0,
-        "wind_speed_mph": 12.7,
-        "wind_direction_deg": 280,
-        "precip_in": 0.0,
-        "period": "forecast"
+        "time": "2026-09-02T05:00:00.000Z",
+        "temp_f": 35.58,
+        "wind_speed_mph": 7.744,
+        "wind_direction_deg": 223.8,
+        "precip_in": null,
+        "period": "historical"
       },
       {
         "time": "2026-09-02T06:00:00+00:00",
@@ -4321,7 +4313,7 @@
   "mtbachelor": {
     "weather": {
       "current": {
-        "temperature": 41,
+        "temperature": 40,
         "weather_icon": "dor-mostlycloudy"
       },
       "forecast": [
@@ -4454,10 +4446,10 @@
           "active": true,
           "primary": true,
           "nonstandardizedDataPoints": {
-            "depth": "160.5",
-            "timestamp": "2026-09-02T04:00:00.000Z"
+            "depth": "-1.628",
+            "timestamp": "2026-09-02T05:00:00.000Z"
           },
-          "temperature": "40.91",
+          "temperature": "40.45",
           "wind": {
             "low": "0",
             "high": "0",
@@ -4477,14 +4469,14 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-09-02T04:00:00.000Z"
+            "timestamp": "2026-09-02T05:00:00.000Z"
           },
-          "temperature": "37.73",
+          "temperature": "37.22",
           "wind": {
-            "low": "11.38",
-            "high": "26.17",
+            "low": "7.687",
+            "high": "22.82",
             "current": null,
-            "average": "11.38",
+            "average": "7.687",
             "direction": "WSW"
           },
           "humidity": null,
@@ -4499,14 +4491,14 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-09-02T04:00:00.000Z"
+            "timestamp": "2026-09-02T05:00:00.000Z"
           },
-          "temperature": "35.69",
+          "temperature": "35.49",
           "wind": {
-            "low": "21.51",
-            "high": "31.83",
+            "low": "17.47",
+            "high": "26.82",
             "current": null,
-            "average": "21.51",
+            "average": "17.47",
             "direction": "WNW"
           },
           "humidity": "100",
@@ -4521,14 +4513,14 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-09-02T04:00:00.000Z"
+            "timestamp": "2026-09-02T05:00:00.000Z"
           },
-          "temperature": "35.76",
+          "temperature": "35.58",
           "wind": {
-            "low": "11.41",
-            "high": "22.15",
+            "low": "7.744",
+            "high": "20.36",
             "current": null,
-            "average": "11.41",
+            "average": "7.744",
             "direction": "SW"
           },
           "humidity": null,
@@ -4635,9 +4627,9 @@
   },
   "hoodoo": {
     "weather": {
-      "Temperature": "42 &#176F",
-      "Wind": "SW @ 17 MPH",
-      "Snow depth": "-0.4\"",
+      "Temperature": "41 &#176F",
+      "Wind": "SW @ 13 MPH",
+      "Snow depth": "-0.3\"",
       "Humidity": "100 %",
       "Barometer": "29.86\" Hg",
       "Rain Gauge": "0.01\""
@@ -4646,11 +4638,11 @@
       "trend": {
         "Max": "0.9\"",
         "Min": "-4.0\"",
-        "1 Hr": "0.0\"",
-        "3 Hr": "-0.4\"",
-        "6 Hr": "-0.3\"",
-        "12 Hr": "0.1\"",
-        "24 Hr": "0.3\""
+        "1 Hr": "0.1\"",
+        "3 Hr": "-0.1\"",
+        "6 Hr": "-0.5\"",
+        "12 Hr": "0.2\"",
+        "24 Hr": "0.5\""
       },
       "season_total_in": 158.5
     },
