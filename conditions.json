@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-02T22:30:24.871147+00:00",
+  "generated_at": "2026-09-02T22:45:19.693526+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -1235,7 +1235,7 @@
         {
           "number": 1,
           "name": "This Afternoon",
-          "startTime": "2026-09-02T14:00:00-07:00",
+          "startTime": "2026-09-02T15:00:00-07:00",
           "endTime": "2026-09-02T18:00:00-07:00",
           "isDaytime": true,
           "temperature": 47,
@@ -1245,13 +1245,13 @@
             "unitCode": "wmoUnit:percent",
             "value": 100
           },
-          "windSpeed": "10 to 14 mph",
+          "windSpeed": "13 mph",
           "windDirection": "SSW",
           "icon": "https://api.weather.gov/icons/land/day/tsra,100?size=medium",
           "shortForecast": "Showers And Thunderstorms",
-          "detailedForecast": "Rain before 5pm, then showers and thunderstorms. Cloudy. High near 47, with temperatures falling to around 45 in the afternoon. South southwest wind 10 to 14 mph, with gusts as high as 21 mph. Chance of precipitation is 100%. New rainfall amounts between three quarters and one inch possible.",
-          "precipitationAmountIn": 0.35,
-          "snowLevelFt": 8826
+          "detailedForecast": "Rain before 5pm, then showers and thunderstorms. Cloudy. High near 47, with temperatures falling to around 45 in the afternoon. South southwest wind around 13 mph, with gusts as high as 20 mph. Chance of precipitation is 100%. New rainfall amounts between three quarters and one inch possible.",
+          "precipitationAmountIn": 0.25,
+          "snowLevelFt": 8678
         },
         {
           "number": 2,
@@ -4327,8 +4327,8 @@
           "day": "Wednesday",
           "temperature_high": 44,
           "temperature_low": 37,
-          "precipitation_high": 85,
-          "precipitation_low": 85,
+          "precipitation_high": 86,
+          "precipitation_low": 86,
           "wind_speed": 10,
           "wind_direction": "SW"
         },
@@ -4370,7 +4370,7 @@
           "weather_icon": "dor-sunny",
           "id": 1788638400,
           "day": "Saturday",
-          "temperature_high": 57,
+          "temperature_high": 58,
           "temperature_low": 33,
           "precipitation_high": 37,
           "precipitation_low": 37,
@@ -4684,14 +4684,14 @@
   "willamette_pass": {
     "forecast": {
       "weather_provider": "NOAA",
-      "date": "September 2, 2026, 3:13 pm",
-      "time": 1788387231000,
+      "date": "September 2, 2026, 3:43 pm",
+      "time": 1788389036000,
       "current_weather": "Showers",
       "current_temperature": "47",
       "forecast": [
         {
           "day": "Wednesday",
-          "day_forecast": "Rain before 5pm, then showers and possibly a thunderstorm after 5pm.  High near 47. South southwest wind 11 to 14 mph, with gusts as high as 21 mph.  Chance of precipitation is 100%. New rainfall amounts between a quarter and half of an inch possible. ",
+          "day_forecast": "Rain before 5pm, then showers and possibly a thunderstorm after 5pm.  High near 47. South southwest wind 11 to 13 mph, with gusts as high as 20 mph.  Chance of precipitation is 100%. New rainfall amounts between a quarter and half of an inch possible. ",
           "night_forecast": "Rain and possibly a thunderstorm before 4am, then a chance of rain after 5am.  Snow level 8200 feet lowering to 6600 feet after midnight . Low around 37. West southwest wind 8 to 13 mph, with gusts as high as 20 mph.  Chance of precipitation is 90%. New precipitation amounts between a quarter and half of an inch possible. "
         },
         {
@@ -4726,11 +4726,6 @@
       "min_temp": "37",
       "hourly": [
         {
-          "time": "2p",
-          "temp": "45",
-          "details": "rain "
-        },
-        {
           "time": "4p",
           "temp": "45",
           "details": "rain "
@@ -4748,6 +4743,11 @@
         {
           "time": "10p",
           "temp": "43",
+          "details": "chance of rain"
+        },
+        {
+          "time": "12a",
+          "temp": "41",
           "details": "chance of rain"
         }
       ],
@@ -4782,15 +4782,15 @@
   "satellite": {
     "Pacific Northwest": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/pnw/13/GOES18-PNW-13-600x600.gif",
-      "last_modified": "Wed, 02 Sep 2026 22:11:49 GMT"
+      "last_modified": "Wed, 02 Sep 2026 22:41:15 GMT"
     },
     "North Pacific (macro)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/np/13/GOES18-NP-13-900x540.gif",
-      "last_modified": "Wed, 02 Sep 2026 22:11:58 GMT"
+      "last_modified": "Wed, 02 Sep 2026 22:41:24 GMT"
     },
     "Pacific US (PACUS)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/13/GOES18-CONUS-13-625x375.gif",
-      "last_modified": "Wed, 02 Sep 2026 22:06:03 GMT"
+      "last_modified": "Wed, 02 Sep 2026 22:35:44 GMT"
     }
   },
   "gfs_snowfall": {
