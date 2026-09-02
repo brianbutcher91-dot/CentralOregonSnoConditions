@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-02T07:15:15.973420+00:00",
+  "generated_at": "2026-09-02T07:30:16.307883+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -2625,7 +2625,7 @@
           "icon": "https://api.weather.gov/icons/land/day/tsra_hi,30/tsra_hi,40?size=medium",
           "shortForecast": "Chance Showers And Thunderstorms",
           "detailedForecast": "A chance of rain showers before 11am, then a chance of showers and thunderstorms. Partly sunny, with a high near 64. Chance of precipitation is 40%.",
-          "precipitationAmountIn": 0.04,
+          "precipitationAmountIn": 0.03,
           "snowLevelFt": 7402
         },
         {
@@ -2646,7 +2646,7 @@
           "icon": "https://api.weather.gov/icons/land/night/rain_showers,40/rain_showers,20?size=medium",
           "shortForecast": "Chance Rain Showers",
           "detailedForecast": "A chance of rain showers. Mostly cloudy, with a low around 39.",
-          "precipitationAmountIn": 0.04,
+          "precipitationAmountIn": 0.02,
           "snowLevelFt": 8730
         },
         {
@@ -2667,8 +2667,8 @@
           "icon": "https://api.weather.gov/icons/land/day/tsra_sct,50/tsra_sct,60?size=medium",
           "shortForecast": "Showers And Thunderstorms Likely",
           "detailedForecast": "A slight chance of rain showers before 11am, then showers and thunderstorms likely. Partly sunny, with a high near 66.",
-          "precipitationAmountIn": 0.07,
-          "snowLevelFt": 8740
+          "precipitationAmountIn": 0.06,
+          "snowLevelFt": 8739
         },
         {
           "number": 11,
@@ -2688,7 +2688,7 @@
           "icon": "https://api.weather.gov/icons/land/night/tsra_sct,60/tsra_sct,40?size=medium",
           "shortForecast": "Showers And Thunderstorms Likely",
           "detailedForecast": "Showers and thunderstorms likely. Mostly cloudy, with a low around 41.",
-          "precipitationAmountIn": 0.1,
+          "precipitationAmountIn": 0.04,
           "snowLevelFt": 9203
         },
         {
@@ -2709,7 +2709,7 @@
           "icon": "https://api.weather.gov/icons/land/day/rain_showers,40/rain_showers,30?size=medium",
           "shortForecast": "Chance Rain Showers",
           "detailedForecast": "A chance of rain showers. Partly sunny, with a high near 68.",
-          "precipitationAmountIn": 0.04,
+          "precipitationAmountIn": 0.01,
           "snowLevelFt": 8796
         },
         {
@@ -3110,14 +3110,6 @@
   "bachelor_timeseries": {
     "hourly": [
       {
-        "time": "2026-09-01T00:00:00.000Z",
-        "temp_f": 54.07,
-        "wind_speed_mph": 4.164,
-        "wind_direction_deg": 260.2,
-        "precip_in": null,
-        "period": "historical"
-      },
-      {
         "time": "2026-09-01T01:00:00.000Z",
         "temp_f": 52.49,
         "wind_speed_mph": 5.72,
@@ -3302,12 +3294,12 @@
         "period": "historical"
       },
       {
-        "time": "2026-09-02T00:00:00+00:00",
-        "temp_f": 48.0,
-        "wind_speed_mph": 6.9,
-        "wind_direction_deg": 280,
-        "precip_in": 0.0,
-        "period": "forecast"
+        "time": "2026-09-02T00:00:00.000Z",
+        "temp_f": 38.68,
+        "wind_speed_mph": 22.43,
+        "wind_direction_deg": 219.7,
+        "precip_in": null,
+        "period": "historical"
       },
       {
         "time": "2026-09-02T01:00:00+00:00",
@@ -4203,7 +4195,7 @@
       "snow_depth_in_date": "2026-08-31",
       "swe_in": 0.0,
       "swe_in_date": "2026-08-31",
-      "change_12h_in": 0,
+      "change_12h_in": 1,
       "change_24h_in": 1
     },
     "Santiam / Hoodoo (Hogg Pass)": {
@@ -4211,7 +4203,7 @@
       "snow_depth_in_date": "2026-08-31",
       "swe_in": 0.0,
       "swe_in_date": "2026-08-31",
-      "change_12h_in": 0,
+      "change_12h_in": -1,
       "change_24h_in": 0
     },
     "Ochocos (Ochoco Meadows)": {
@@ -4458,10 +4450,10 @@
           "active": true,
           "primary": true,
           "nonstandardizedDataPoints": {
-            "depth": "-1.936",
-            "timestamp": "2026-09-01T23:00:00.000Z"
+            "depth": "-1.737",
+            "timestamp": "2026-09-02T00:00:00.000Z"
           },
-          "temperature": "42.9",
+          "temperature": "42.52",
           "wind": {
             "low": "0",
             "high": "0",
@@ -4481,14 +4473,14 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-09-01T23:00:00.000Z"
+            "timestamp": "2026-09-02T00:00:00.000Z"
           },
-          "temperature": "39.51",
+          "temperature": "39.34",
           "wind": {
-            "low": "18.59",
-            "high": "31.32",
+            "low": "19.76",
+            "high": "33.33",
             "current": null,
-            "average": "18.59",
+            "average": "19.76",
             "direction": "WSW"
           },
           "humidity": null,
@@ -4503,14 +4495,14 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-09-01T23:00:00.000Z"
+            "timestamp": "2026-09-02T00:00:00.000Z"
           },
-          "temperature": "37.79",
+          "temperature": "37.44",
           "wind": {
-            "low": "21.85",
-            "high": "30.9",
+            "low": "20.45",
+            "high": "31.19",
             "current": null,
-            "average": "21.85",
+            "average": "20.45",
             "direction": "WNW"
           },
           "humidity": "100",
@@ -4525,14 +4517,14 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-09-01T23:00:00.000Z"
+            "timestamp": "2026-09-02T00:00:00.000Z"
           },
-          "temperature": "38.21",
+          "temperature": "38.68",
           "wind": {
-            "low": "23.1",
-            "high": "31.54",
+            "low": "22.43",
+            "high": "32.44",
             "current": null,
-            "average": "23.1",
+            "average": "22.43",
             "direction": "SW"
           },
           "humidity": null,
