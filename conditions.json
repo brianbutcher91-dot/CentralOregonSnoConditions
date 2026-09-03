@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T07:32:39.217890+00:00",
+  "generated_at": "2026-09-03T07:45:20.486680+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -4178,36 +4178,7 @@
     ]
   },
   "snotel": {
-    "Mt Bachelor area (Irish Taylor)": {
-      "snow_depth_in": 0,
-      "snow_depth_in_date": "2026-09-01",
-      "swe_in": 0.2,
-      "swe_in_date": "2026-09-01",
-      "change_12h_in": 0,
-      "change_24h_in": 0
-    },
-    "Three Creek / Tam McArthur (Three Creeks Meadow)": {
-      "snow_depth_in": 1,
-      "snow_depth_in_date": "2026-09-01",
-      "swe_in": 0.0,
-      "swe_in_date": "2026-09-01",
-      "change_12h_in": 0,
-      "change_24h_in": 0
-    },
-    "Santiam / Hoodoo (Hogg Pass)": {
-      "snow_depth_in": 0,
-      "snow_depth_in_date": "2026-09-01",
-      "swe_in": 0.0,
-      "swe_in_date": "2026-09-01",
-      "change_12h_in": 0,
-      "change_24h_in": 0
-    },
-    "Ochocos (Ochoco Meadows)": {
-      "snow_depth_in": 0,
-      "snow_depth_in_date": "2026-09-01",
-      "change_12h_in": 0,
-      "change_24h_in": 0
-    }
+    "error": "HTTPSConnectionPool(host='wcc.sc.egov.usda.gov', port=443): Max retries exceeded with url: /awdbRestApi/services/v1/data?stationTriplets=545%3AOR%3ASNTL&elements=SNWD%2CWTEQ&duration=DAILY&getFlags=false&beginDate=-1&endDate=-1 (Caused by ConnectTimeoutError(<HTTPSConnection(host='wcc.sc.egov.usda.gov', port=443) at 0x7f72a5d5ba10>, 'Connection to wcc.sc.egov.usda.gov timed out. (connect timeout=None)'))"
   },
   "odot_cams": {
     "Century Drive": [
@@ -4626,13 +4597,51 @@
     }
   },
   "hoodoo": {
-    "error": "HTTPSConnectionPool(host='santiampsp.org', port=443): Max retries exceeded with url: /wx/weather.htm (Caused by ConnectTimeoutError(<HTTPSConnection(host='santiampsp.org', port=443) at 0x7fa7214bbd70>, 'Connection to santiampsp.org timed out. (connect timeout=None)'))"
+    "weather": {},
+    "snow_totals": {
+      "trend": {},
+      "season_total_in": null
+    },
+    "webcams": {
+      "Base Area": {
+        "src": "https://santiampsp.org/wx/weather16.jpg",
+        "link": "https://hoodoo.com/the-mountain/webcams/"
+      },
+      "Top of Manzanita": {
+        "src": "https://santiampsp.org/wx/weather3.jpg",
+        "link": "https://hoodoo.com/the-mountain/webcams/"
+      },
+      "Top of Ed": {
+        "src": "https://santiampsp.org/wx/weather2.jpg",
+        "link": "https://hoodoo.com/the-mountain/webcams/"
+      },
+      "Top of Easy Rider": {
+        "src": "https://santiampsp.org/wx/weather4.jpg",
+        "link": "https://hoodoo.com/the-mountain/webcams/"
+      },
+      "Hoodoo Parking Lot": {
+        "src": "https://santiampsp.org/wx/weather12.jpg",
+        "link": "https://hoodoo.com/the-mountain/webcams/"
+      },
+      "Hoodoo Summit": {
+        "src": "https://santiampsp.org/wx/weather1.jpg",
+        "link": "https://hoodoo.com/the-mountain/webcams/"
+      },
+      "Hayrick Butte & \"Gripper\" run from top of Ed chair": {
+        "src": "https://santiampsp.org/wx/weather2b.jpg",
+        "link": "https://hoodoo.com/the-mountain/webcams/"
+      },
+      "Hoodoo Parking Lot View #2": {
+        "src": "https://santiampsp.org/wx/weather10.jpg",
+        "link": "https://hoodoo.com/the-mountain/webcams/"
+      }
+    }
   },
   "willamette_pass": {
     "forecast": {
       "weather_provider": "NOAA",
-      "date": "September 3, 2026, 12:28 am",
-      "time": 1788420534000,
+      "date": "September 3, 2026, 12:44 am",
+      "time": 1788421482000,
       "current_weather": "Slight Chance Rain",
       "current_temperature": "42",
       "forecast": [
@@ -4719,21 +4728,24 @@
       "src": "https://api.mtbachelor.com/api/v1/cams/mtn/14",
       "link": "https://www.mtbachelor.com/the-mountain/webcams/live-cam-14/"
     },
-    "Hoodoo (Base Area)": null,
+    "Hoodoo (Base Area)": {
+      "src": "https://santiampsp.org/wx/weather16.jpg",
+      "link": "https://hoodoo.com/the-mountain/webcams/"
+    },
     "Willamette Pass (Base Area)": null
   },
   "satellite": {
     "Pacific Northwest": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/pnw/13/GOES18-PNW-13-600x600.gif",
-      "last_modified": "Thu, 03 Sep 2026 07:11:34 GMT"
+      "last_modified": "Thu, 03 Sep 2026 07:41:00 GMT"
     },
     "North Pacific (macro)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/np/13/GOES18-NP-13-900x540.gif",
-      "last_modified": "Thu, 03 Sep 2026 07:11:43 GMT"
+      "last_modified": "Thu, 03 Sep 2026 07:41:09 GMT"
     },
     "Pacific US (PACUS)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/13/GOES18-CONUS-13-625x375.gif",
-      "last_modified": "Thu, 03 Sep 2026 07:05:54 GMT"
+      "last_modified": "Thu, 03 Sep 2026 07:35:41 GMT"
     }
   },
   "gfs_snowfall": {
