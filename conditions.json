@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T22:30:26.277431+00:00",
+  "generated_at": "2026-09-03T22:45:39.658395+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -914,8 +914,8 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 9.0,
-        "wind_direction_deg": 247.5,
+        "wind_speed_mph": 10.0,
+        "wind_direction_deg": 202.5,
         "snow_level_ft": 6801,
         "temp_f": 49
       },
@@ -1235,7 +1235,7 @@
         {
           "number": 1,
           "name": "This Afternoon",
-          "startTime": "2026-09-03T15:00:00-07:00",
+          "startTime": "2026-09-03T14:00:00-07:00",
           "endTime": "2026-09-03T18:00:00-07:00",
           "isDaytime": true,
           "temperature": 48,
@@ -1245,13 +1245,13 @@
             "unitCode": "wmoUnit:percent",
             "value": 74
           },
-          "windSpeed": "12 mph",
+          "windSpeed": "13 mph",
           "windDirection": "WSW",
-          "icon": "https://api.weather.gov/icons/land/day/tsra,70?size=medium",
+          "icon": "https://api.weather.gov/icons/land/day/tsra_sct,70?size=medium",
           "shortForecast": "Showers And Thunderstorms Likely",
-          "detailedForecast": "Showers and thunderstorms likely. Mostly cloudy, with a high near 48. West southwest wind around 12 mph. Chance of precipitation is 70%. New rainfall amounts less than a tenth of an inch possible.",
-          "precipitationAmountIn": 0.02,
-          "snowLevelFt": 7142
+          "detailedForecast": "Showers and thunderstorms likely. Mostly cloudy, with a high near 48. West southwest wind around 13 mph, with gusts as high as 20 mph. Chance of precipitation is 70%. New rainfall amounts less than a tenth of an inch possible.",
+          "precipitationAmountIn": 0.03,
+          "snowLevelFt": 7097
         },
         {
           "number": 2,
@@ -3087,12 +3087,12 @@
     "Hoodoo": {
       "elevation_ft": 4705,
       "temp_f": 49,
-      "wind_speed_mph": 9.0,
-      "wind_direction_deg": 247.5,
+      "wind_speed_mph": 10.0,
+      "wind_direction_deg": 202.5,
       "snow_level_ft": 6801,
       "precip_chance_today": 63,
-      "snowfall_12h_in": -0.4,
-      "snowfall_24h_in": -0.1,
+      "snowfall_12h_in": -0.2,
+      "snowfall_24h_in": 0.0,
       "snowfall_48h_in": null
     },
     "Willamette Pass": {
@@ -3928,10 +3928,6 @@
     ],
     "historical_precip_snapshots": [
       {
-        "time": "2026-08-31T22:45:22.973749+00:00",
-        "precip_in": 0
-      },
-      {
         "time": "2026-08-31T23:45:28.143509+00:00",
         "precip_in": 0
       },
@@ -4329,10 +4325,10 @@
           "weather_icon": "dor-snow",
           "id": 1788465600,
           "day": "Thursday",
-          "temperature_high": 45,
+          "temperature_high": 46,
           "temperature_low": 32,
-          "precipitation_high": 59,
-          "precipitation_low": 59,
+          "precipitation_high": 61,
+          "precipitation_low": 61,
           "wind_speed": 12,
           "wind_direction": "WSW"
         },
@@ -4631,10 +4627,10 @@
   },
   "hoodoo": {
     "weather": {
-      "Temperature": "40 &#176F",
-      "Wind": "WSW @ 9 MPH",
-      "Snow depth": "-0.4\"",
-      "Humidity": "93 %",
+      "Temperature": "41 &#176F",
+      "Wind": "SSW @ 10 MPH",
+      "Snow depth": "-0.3\"",
+      "Humidity": "92 %",
       "Barometer": "29.71\" Hg",
       "Rain Gauge": "0.97\""
     },
@@ -4642,11 +4638,11 @@
       "trend": {
         "Max": "0.6\"",
         "Min": "-1.3\"",
-        "1 Hr": "0.3\"",
+        "1 Hr": "0.2\"",
         "3 Hr": "-0.3\"",
         "6 Hr": "-0.3\"",
-        "12 Hr": "-0.4\"",
-        "24 Hr": "-0.1\""
+        "12 Hr": "-0.2\"",
+        "24 Hr": "0.0\""
       },
       "season_total_in": 158.5
     },
@@ -4688,8 +4684,8 @@
   "willamette_pass": {
     "forecast": {
       "weather_provider": "NOAA",
-      "date": "September 3, 2026, 3:28 pm",
-      "time": 1788474532000,
+      "date": "September 3, 2026, 3:45 pm",
+      "time": 1788475506000,
       "current_weather": "Showers Likely",
       "current_temperature": "46",
       "forecast": [
@@ -4798,15 +4794,15 @@
   "satellite": {
     "Pacific Northwest": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/pnw/13/GOES18-PNW-13-600x600.gif",
-      "last_modified": "Thu, 03 Sep 2026 22:11:50 GMT"
+      "last_modified": "Thu, 03 Sep 2026 22:41:23 GMT"
     },
     "North Pacific (macro)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/np/13/GOES18-NP-13-900x540.gif",
-      "last_modified": "Thu, 03 Sep 2026 22:11:59 GMT"
+      "last_modified": "Thu, 03 Sep 2026 22:41:32 GMT"
     },
     "Pacific US (PACUS)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/13/GOES18-CONUS-13-625x375.gif",
-      "last_modified": "Thu, 03 Sep 2026 22:06:10 GMT"
+      "last_modified": "Thu, 03 Sep 2026 22:35:54 GMT"
     }
   },
   "gfs_snowfall": {
