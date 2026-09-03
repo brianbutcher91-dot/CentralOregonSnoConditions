@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T08:15:22.703405+00:00",
+  "generated_at": "2026-09-03T08:30:19.878858+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -914,7 +914,7 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 21.0,
+        "wind_speed_mph": 23.0,
         "wind_direction_deg": 225,
         "snow_level_ft": 6332,
         "temp_f": 42
@@ -2156,7 +2156,7 @@
         {
           "number": 1,
           "name": "Overnight",
-          "startTime": "2026-09-03T00:00:00-07:00",
+          "startTime": "2026-09-03T01:00:00-07:00",
           "endTime": "2026-09-03T06:00:00-07:00",
           "isDaytime": false,
           "temperature": 42,
@@ -2166,11 +2166,11 @@
             "unitCode": "wmoUnit:percent",
             "value": 26
           },
-          "windSpeed": "5 to 9 mph",
+          "windSpeed": "5 to 8 mph",
           "windDirection": "SW",
           "icon": "https://api.weather.gov/icons/land/night/rain_showers,30?size=medium",
           "shortForecast": "Chance Rain Showers",
-          "detailedForecast": "A chance of rain showers before 2am. Partly cloudy, with a low around 42. Southwest wind 5 to 9 mph, with gusts as high as 22 mph. Chance of precipitation is 30%.",
+          "detailedForecast": "A chance of rain showers before 2am. Partly cloudy, with a low around 42. Southwest wind 5 to 8 mph, with gusts as high as 20 mph. Chance of precipitation is 30%.",
           "precipitationAmountIn": 0.0,
           "snowLevelFt": 7369
         },
@@ -3087,12 +3087,12 @@
     "Hoodoo": {
       "elevation_ft": 4705,
       "temp_f": 42,
-      "wind_speed_mph": 21.0,
+      "wind_speed_mph": 23.0,
       "wind_direction_deg": 225,
       "snow_level_ft": 6332,
       "precip_chance_today": 34,
-      "snowfall_12h_in": 0.0,
-      "snowfall_24h_in": -0.5,
+      "snowfall_12h_in": -0.1,
+      "snowfall_24h_in": -0.4,
       "snowfall_48h_in": null
     },
     "Willamette Pass": {
@@ -3109,14 +3109,6 @@
   },
   "bachelor_timeseries": {
     "hourly": [
-      {
-        "time": "2026-09-02T01:00:00.000Z",
-        "temp_f": 37.54,
-        "wind_speed_mph": 23.16,
-        "wind_direction_deg": 223.7,
-        "precip_in": null,
-        "period": "historical"
-      },
       {
         "time": "2026-09-02T02:00:00.000Z",
         "temp_f": 36.56,
@@ -3302,12 +3294,12 @@
         "period": "historical"
       },
       {
-        "time": "2026-09-03T01:00:00+00:00",
-        "temp_f": 37.0,
-        "wind_speed_mph": 20.7,
-        "wind_direction_deg": 240,
-        "precip_in": 0.07,
-        "period": "forecast"
+        "time": "2026-09-03T01:00:00.000Z",
+        "temp_f": 31.28,
+        "wind_speed_mph": 13.84,
+        "wind_direction_deg": 245.5,
+        "precip_in": null,
+        "period": "historical"
       },
       {
         "time": "2026-09-03T02:00:00+00:00",
@@ -4182,19 +4174,35 @@
       {
         "time": "2026-09-03T07:15:35.452194+00:00",
         "precip_in": 0
+      },
+      {
+        "time": "2026-09-03T08:30:20.287756+00:00",
+        "precip_in": 0
       }
     ]
   },
   "snotel": {
     "Mt Bachelor area (Irish Taylor)": {
+      "snow_depth_in": 0,
+      "snow_depth_in_date": "2026-09-02",
+      "swe_in": 0.3,
+      "swe_in_date": "2026-09-02",
       "change_12h_in": 0,
       "change_24h_in": 0
     },
     "Three Creek / Tam McArthur (Three Creeks Meadow)": {
+      "snow_depth_in": 1,
+      "snow_depth_in_date": "2026-09-02",
+      "swe_in": 0.0,
+      "swe_in_date": "2026-09-02",
       "change_12h_in": 0,
       "change_24h_in": 0
     },
     "Santiam / Hoodoo (Hogg Pass)": {
+      "snow_depth_in": 0,
+      "snow_depth_in_date": "2026-09-02",
+      "swe_in": 0.2,
+      "swe_in_date": "2026-09-02",
       "change_12h_in": 0,
       "change_24h_in": 0
     },
@@ -4307,7 +4315,7 @@
   "mtbachelor": {
     "weather": {
       "current": {
-        "temperature": 37,
+        "temperature": 36,
         "weather_icon": "dor-mostlycloudy"
       },
       "forecast": [
@@ -4441,9 +4449,9 @@
           "primary": true,
           "nonstandardizedDataPoints": {
             "depth": "160.5",
-            "timestamp": "2026-09-03T00:00:00.000Z"
+            "timestamp": "2026-09-03T01:00:00.000Z"
           },
-          "temperature": "36.61",
+          "temperature": "36.03",
           "wind": {
             "low": "0",
             "high": "0",
@@ -4463,14 +4471,14 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-09-03T00:00:00.000Z"
+            "timestamp": "2026-09-03T01:00:00.000Z"
           },
-          "temperature": "33.4",
+          "temperature": "32.8",
           "wind": {
-            "low": "10.41",
-            "high": "27.07",
+            "low": "10.04",
+            "high": "30.2",
             "current": null,
-            "average": "10.41",
+            "average": "10.04",
             "direction": "WSW"
           },
           "humidity": null,
@@ -4485,14 +4493,14 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-09-03T00:00:00.000Z"
+            "timestamp": "2026-09-03T01:00:00.000Z"
           },
-          "temperature": "31.78",
+          "temperature": "31.26",
           "wind": {
-            "low": "23.59",
-            "high": "35.19",
+            "low": "22.43",
+            "high": "39.8",
             "current": null,
-            "average": "23.59",
+            "average": "22.43",
             "direction": "WNW"
           },
           "humidity": "100",
@@ -4507,14 +4515,14 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-09-03T00:00:00.000Z"
+            "timestamp": "2026-09-03T01:00:00.000Z"
           },
-          "temperature": "31.95",
+          "temperature": "31.28",
           "wind": {
-            "low": "10.04",
-            "high": "26.62",
+            "low": "13.84",
+            "high": "43.4",
             "current": null,
-            "average": "10.04",
+            "average": "13.84",
             "direction": "WSW"
           },
           "humidity": null,
@@ -4622,7 +4630,7 @@
   "hoodoo": {
     "weather": {
       "Temperature": "36 &#176F",
-      "Wind": "SW @ 21 MPH",
+      "Wind": "SW @ 23 MPH",
       "Snow depth": "-0.2\"",
       "Humidity": "100 %",
       "Barometer": "29.74\" Hg",
@@ -4632,11 +4640,11 @@
       "trend": {
         "Max": "0.9\"",
         "Min": "-4.0\"",
-        "1 Hr": "-0.2\"",
-        "3 Hr": "-0.4\"",
-        "6 Hr": "-0.3\"",
-        "12 Hr": "0.0\"",
-        "24 Hr": "-0.5\""
+        "1 Hr": "-0.1\"",
+        "3 Hr": "-0.1\"",
+        "6 Hr": "-0.1\"",
+        "12 Hr": "-0.1\"",
+        "24 Hr": "-0.4\""
       },
       "season_total_in": 158.5
     },
@@ -4678,8 +4686,8 @@
   "willamette_pass": {
     "forecast": {
       "weather_provider": "NOAA",
-      "date": "September 3, 2026, 1:14 am",
-      "time": 1788423276000,
+      "date": "September 3, 2026, 1:28 am",
+      "time": 1788424116000,
       "current_weather": "Slight Chance Rain",
       "current_temperature": "42",
       "forecast": [
