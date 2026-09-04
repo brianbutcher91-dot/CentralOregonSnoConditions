@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T01:00:56.501039+00:00",
+  "generated_at": "2026-09-04T01:15:18.275214+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -914,8 +914,8 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 5,
-        "wind_direction_deg": 250,
+        "wind_speed_mph": 7.0,
+        "wind_direction_deg": 270,
         "snow_level_ft": 6743,
         "temp_f": 47
       },
@@ -1848,6 +1848,27 @@
       "periods": [
         {
           "number": 1,
+          "name": "This Afternoon",
+          "startTime": "2026-09-03T17:00:00-07:00",
+          "endTime": "2026-09-03T18:00:00-07:00",
+          "isDaytime": true,
+          "temperature": 54,
+          "temperatureUnit": "F",
+          "temperatureTrend": null,
+          "probabilityOfPrecipitation": {
+            "unitCode": "wmoUnit:percent",
+            "value": 55
+          },
+          "windSpeed": "2 mph",
+          "windDirection": "SW",
+          "icon": "https://api.weather.gov/icons/land/day/rain_showers,60?size=medium",
+          "shortForecast": "Rain Showers Likely",
+          "detailedForecast": "Rain showers likely. Mostly cloudy. High near 54, with temperatures falling to around 50 in the afternoon. Southwest wind around 2 mph. Chance of precipitation is 60%. New rainfall amounts less than a tenth of an inch possible.",
+          "precipitationAmountIn": 0.0,
+          "snowLevelFt": 7499
+        },
+        {
+          "number": 2,
           "name": "Tonight",
           "startTime": "2026-09-03T18:00:00-07:00",
           "endTime": "2026-09-04T06:00:00-07:00",
@@ -1868,7 +1889,7 @@
           "snowLevelFt": 7499
         },
         {
-          "number": 2,
+          "number": 3,
           "name": "Friday",
           "startTime": "2026-09-04T06:00:00-07:00",
           "endTime": "2026-09-04T18:00:00-07:00",
@@ -1889,7 +1910,7 @@
           "snowLevelFt": 6542
         },
         {
-          "number": 3,
+          "number": 4,
           "name": "Friday Night",
           "startTime": "2026-09-04T18:00:00-07:00",
           "endTime": "2026-09-05T06:00:00-07:00",
@@ -1905,12 +1926,12 @@
           "windDirection": "SW",
           "icon": "https://api.weather.gov/icons/land/night/rain_showers,60/rain_showers,40?size=medium",
           "shortForecast": "Rain Showers Likely",
-          "detailedForecast": "Rain showers likely. Mostly cloudy. Low around 37, with temperatures rising to around 39 overnight. Southwest wind around 1 mph. Chance of precipitation is 60%. New rainfall amounts less than a tenth of an inch possible.",
+          "detailedForecast": "Rain showers likely. Mostly cloudy, with a low around 37. Southwest wind around 1 mph. Chance of precipitation is 60%. New rainfall amounts less than a tenth of an inch possible.",
           "precipitationAmountIn": 0.06,
           "snowLevelFt": 7733
         },
         {
-          "number": 4,
+          "number": 5,
           "name": "Saturday",
           "startTime": "2026-09-05T06:00:00-07:00",
           "endTime": "2026-09-05T18:00:00-07:00",
@@ -1931,7 +1952,7 @@
           "snowLevelFt": 7166
         },
         {
-          "number": 5,
+          "number": 6,
           "name": "Saturday Night",
           "startTime": "2026-09-05T18:00:00-07:00",
           "endTime": "2026-09-06T06:00:00-07:00",
@@ -1947,12 +1968,12 @@
           "windDirection": "NE",
           "icon": "https://api.weather.gov/icons/land/night/rain_showers,20/rain_showers,40?size=medium",
           "shortForecast": "Chance Rain Showers",
-          "detailedForecast": "A chance of rain showers. Mostly cloudy, with a low around 39. Northeast wind around 2 mph. Chance of precipitation is 40%. New rainfall amounts less than a tenth of an inch possible.",
+          "detailedForecast": "A chance of rain showers. Mostly cloudy, with a low around 39. Chance of precipitation is 40%.",
           "precipitationAmountIn": 0.01,
           "snowLevelFt": 8586
         },
         {
-          "number": 6,
+          "number": 7,
           "name": "Sunday",
           "startTime": "2026-09-06T06:00:00-07:00",
           "endTime": "2026-09-06T18:00:00-07:00",
@@ -1973,7 +1994,7 @@
           "snowLevelFt": 8645
         },
         {
-          "number": 7,
+          "number": 8,
           "name": "Sunday Night",
           "startTime": "2026-09-06T18:00:00-07:00",
           "endTime": "2026-09-07T06:00:00-07:00",
@@ -1994,7 +2015,7 @@
           "snowLevelFt": 8916
         },
         {
-          "number": 8,
+          "number": 9,
           "name": "Labor Day",
           "startTime": "2026-09-07T06:00:00-07:00",
           "endTime": "2026-09-07T18:00:00-07:00",
@@ -2010,12 +2031,12 @@
           "windDirection": "W",
           "icon": "https://api.weather.gov/icons/land/day/rain_showers,40/rain_showers,30?size=medium",
           "shortForecast": "Chance Rain Showers",
-          "detailedForecast": "A chance of rain showers before 5pm. Partly sunny, with a high near 60. Chance of precipitation is 40%.",
+          "detailedForecast": "A chance of rain showers before 5pm. Partly sunny, with a high near 60.",
           "precipitationAmountIn": 0.05,
           "snowLevelFt": 8266
         },
         {
-          "number": 9,
+          "number": 10,
           "name": "Monday Night",
           "startTime": "2026-09-07T18:00:00-07:00",
           "endTime": "2026-09-08T06:00:00-07:00",
@@ -2036,7 +2057,7 @@
           "snowLevelFt": 8858
         },
         {
-          "number": 10,
+          "number": 11,
           "name": "Tuesday",
           "startTime": "2026-09-08T06:00:00-07:00",
           "endTime": "2026-09-08T18:00:00-07:00",
@@ -2057,7 +2078,7 @@
           "snowLevelFt": 8452
         },
         {
-          "number": 11,
+          "number": 12,
           "name": "Tuesday Night",
           "startTime": "2026-09-08T18:00:00-07:00",
           "endTime": "2026-09-09T06:00:00-07:00",
@@ -2078,7 +2099,7 @@
           "snowLevelFt": 9566
         },
         {
-          "number": 12,
+          "number": 13,
           "name": "Wednesday",
           "startTime": "2026-09-09T06:00:00-07:00",
           "endTime": "2026-09-09T18:00:00-07:00",
@@ -2099,7 +2120,7 @@
           "snowLevelFt": 9473
         },
         {
-          "number": 13,
+          "number": 14,
           "name": "Wednesday Night",
           "startTime": "2026-09-09T18:00:00-07:00",
           "endTime": "2026-09-10T06:00:00-07:00",
@@ -2118,27 +2139,6 @@
           "detailedForecast": "Partly cloudy, with a low around 47.",
           "precipitationAmountIn": 0.0,
           "snowLevelFt": 10164
-        },
-        {
-          "number": 14,
-          "name": "Thursday",
-          "startTime": "2026-09-10T06:00:00-07:00",
-          "endTime": "2026-09-10T18:00:00-07:00",
-          "isDaytime": true,
-          "temperature": 73,
-          "temperatureUnit": "F",
-          "temperatureTrend": null,
-          "probabilityOfPrecipitation": {
-            "unitCode": "wmoUnit:percent",
-            "value": 14
-          },
-          "windSpeed": "2 to 6 mph",
-          "windDirection": "W",
-          "icon": "https://api.weather.gov/icons/land/day/few?size=medium",
-          "shortForecast": "Sunny",
-          "detailedForecast": "Sunny, with a high near 73.",
-          "precipitationAmountIn": 0.0,
-          "snowLevelFt": 9767
         }
       ],
       "current": {
@@ -2155,6 +2155,27 @@
       "periods": [
         {
           "number": 1,
+          "name": "This Afternoon",
+          "startTime": "2026-09-03T15:00:00-07:00",
+          "endTime": "2026-09-03T18:00:00-07:00",
+          "isDaytime": true,
+          "temperature": 61,
+          "temperatureUnit": "F",
+          "temperatureTrend": null,
+          "probabilityOfPrecipitation": {
+            "unitCode": "wmoUnit:percent",
+            "value": 48
+          },
+          "windSpeed": "6 mph",
+          "windDirection": "SW",
+          "icon": "https://api.weather.gov/icons/land/day/rain_showers,50?size=medium",
+          "shortForecast": "Chance Rain Showers",
+          "detailedForecast": "A chance of rain showers. Mostly cloudy. High near 61, with temperatures falling to around 59 in the afternoon. Southwest wind around 6 mph. Chance of precipitation is 50%. New rainfall amounts less than a tenth of an inch possible.",
+          "precipitationAmountIn": 0.0,
+          "snowLevelFt": 7116
+        },
+        {
+          "number": 2,
           "name": "Tonight",
           "startTime": "2026-09-03T18:00:00-07:00",
           "endTime": "2026-09-04T06:00:00-07:00",
@@ -2175,7 +2196,7 @@
           "snowLevelFt": 7054
         },
         {
-          "number": 2,
+          "number": 3,
           "name": "Friday",
           "startTime": "2026-09-04T06:00:00-07:00",
           "endTime": "2026-09-04T18:00:00-07:00",
@@ -2196,7 +2217,7 @@
           "snowLevelFt": 6516
         },
         {
-          "number": 3,
+          "number": 4,
           "name": "Friday Night",
           "startTime": "2026-09-04T18:00:00-07:00",
           "endTime": "2026-09-05T06:00:00-07:00",
@@ -2217,7 +2238,7 @@
           "snowLevelFt": 7575
         },
         {
-          "number": 4,
+          "number": 5,
           "name": "Saturday",
           "startTime": "2026-09-05T06:00:00-07:00",
           "endTime": "2026-09-05T18:00:00-07:00",
@@ -2238,7 +2259,7 @@
           "snowLevelFt": 7139
         },
         {
-          "number": 5,
+          "number": 6,
           "name": "Saturday Night",
           "startTime": "2026-09-05T18:00:00-07:00",
           "endTime": "2026-09-06T06:00:00-07:00",
@@ -2254,12 +2275,12 @@
           "windDirection": "N",
           "icon": "https://api.weather.gov/icons/land/night/rain_showers,40/rain_showers,50?size=medium",
           "shortForecast": "Chance Rain Showers",
-          "detailedForecast": "A chance of rain showers. Mostly cloudy, with a low around 44. North wind around 2 mph. Chance of precipitation is 50%. New rainfall amounts less than a tenth of an inch possible.",
+          "detailedForecast": "A chance of rain showers. Mostly cloudy, with a low around 44. Chance of precipitation is 50%.",
           "precipitationAmountIn": 0.0,
           "snowLevelFt": 8533
         },
         {
-          "number": 6,
+          "number": 7,
           "name": "Sunday",
           "startTime": "2026-09-06T06:00:00-07:00",
           "endTime": "2026-09-06T18:00:00-07:00",
@@ -2280,7 +2301,7 @@
           "snowLevelFt": 8225
         },
         {
-          "number": 7,
+          "number": 8,
           "name": "Sunday Night",
           "startTime": "2026-09-06T18:00:00-07:00",
           "endTime": "2026-09-07T06:00:00-07:00",
@@ -2301,7 +2322,7 @@
           "snowLevelFt": 8627
         },
         {
-          "number": 8,
+          "number": 9,
           "name": "Labor Day",
           "startTime": "2026-09-07T06:00:00-07:00",
           "endTime": "2026-09-07T18:00:00-07:00",
@@ -2317,12 +2338,12 @@
           "windDirection": "W",
           "icon": "https://api.weather.gov/icons/land/day/rain_showers,20?size=medium",
           "shortForecast": "Slight Chance Rain Showers",
-          "detailedForecast": "A slight chance of rain showers before 5pm. Mostly sunny, with a high near 67. Chance of precipitation is 20%.",
+          "detailedForecast": "A slight chance of rain showers before 5pm. Mostly sunny, with a high near 67.",
           "precipitationAmountIn": 0.0,
           "snowLevelFt": 8047
         },
         {
-          "number": 9,
+          "number": 10,
           "name": "Monday Night",
           "startTime": "2026-09-07T18:00:00-07:00",
           "endTime": "2026-09-08T06:00:00-07:00",
@@ -2343,7 +2364,7 @@
           "snowLevelFt": 8897
         },
         {
-          "number": 10,
+          "number": 11,
           "name": "Tuesday",
           "startTime": "2026-09-08T06:00:00-07:00",
           "endTime": "2026-09-08T18:00:00-07:00",
@@ -2364,7 +2385,7 @@
           "snowLevelFt": 8364
         },
         {
-          "number": 11,
+          "number": 12,
           "name": "Tuesday Night",
           "startTime": "2026-09-08T18:00:00-07:00",
           "endTime": "2026-09-09T06:00:00-07:00",
@@ -2385,7 +2406,7 @@
           "snowLevelFt": 9643
         },
         {
-          "number": 12,
+          "number": 13,
           "name": "Wednesday",
           "startTime": "2026-09-09T06:00:00-07:00",
           "endTime": "2026-09-09T18:00:00-07:00",
@@ -2406,7 +2427,7 @@
           "snowLevelFt": 9306
         },
         {
-          "number": 13,
+          "number": 14,
           "name": "Wednesday Night",
           "startTime": "2026-09-09T18:00:00-07:00",
           "endTime": "2026-09-10T06:00:00-07:00",
@@ -2425,27 +2446,6 @@
           "detailedForecast": "Partly cloudy, with a low around 50.",
           "precipitationAmountIn": 0.0,
           "snowLevelFt": 10290
-        },
-        {
-          "number": 14,
-          "name": "Thursday",
-          "startTime": "2026-09-10T06:00:00-07:00",
-          "endTime": "2026-09-10T18:00:00-07:00",
-          "isDaytime": true,
-          "temperature": 79,
-          "temperatureUnit": "F",
-          "temperatureTrend": null,
-          "probabilityOfPrecipitation": {
-            "unitCode": "wmoUnit:percent",
-            "value": 14
-          },
-          "windSpeed": "6 mph",
-          "windDirection": "W",
-          "icon": "https://api.weather.gov/icons/land/day/few?size=medium",
-          "shortForecast": "Sunny",
-          "detailedForecast": "Sunny, with a high near 79.",
-          "precipitationAmountIn": 0.0,
-          "snowLevelFt": 9789
         }
       ],
       "current": {
@@ -2462,6 +2462,27 @@
       "periods": [
         {
           "number": 1,
+          "name": "This Afternoon",
+          "startTime": "2026-09-03T17:00:00-07:00",
+          "endTime": "2026-09-03T18:00:00-07:00",
+          "isDaytime": true,
+          "temperature": 61,
+          "temperatureUnit": "F",
+          "temperatureTrend": null,
+          "probabilityOfPrecipitation": {
+            "unitCode": "wmoUnit:percent",
+            "value": 56
+          },
+          "windSpeed": "5 mph",
+          "windDirection": "W",
+          "icon": "https://api.weather.gov/icons/land/day/rain_showers,60?size=medium",
+          "shortForecast": "Rain Showers Likely",
+          "detailedForecast": "Rain showers likely. Mostly cloudy. High near 61, with temperatures falling to around 59 in the afternoon. West wind around 5 mph. Chance of precipitation is 60%. New rainfall amounts less than a tenth of an inch possible.",
+          "precipitationAmountIn": 0.0,
+          "snowLevelFt": 7027
+        },
+        {
+          "number": 2,
           "name": "Tonight",
           "startTime": "2026-09-03T18:00:00-07:00",
           "endTime": "2026-09-04T06:00:00-07:00",
@@ -2482,7 +2503,7 @@
           "snowLevelFt": 7027
         },
         {
-          "number": 2,
+          "number": 3,
           "name": "Friday",
           "startTime": "2026-09-04T06:00:00-07:00",
           "endTime": "2026-09-04T18:00:00-07:00",
@@ -2503,7 +2524,7 @@
           "snowLevelFt": 6558
         },
         {
-          "number": 3,
+          "number": 4,
           "name": "Friday Night",
           "startTime": "2026-09-04T18:00:00-07:00",
           "endTime": "2026-09-05T06:00:00-07:00",
@@ -2519,12 +2540,12 @@
           "windDirection": "NW",
           "icon": "https://api.weather.gov/icons/land/night/rain_showers,70/rain_showers,30?size=medium",
           "shortForecast": "Rain Showers Likely",
-          "detailedForecast": "Rain showers likely. Mostly cloudy. Low around 34, with temperatures rising to around 37 overnight. Northwest wind around 1 mph. Chance of precipitation is 70%. New rainfall amounts less than a tenth of an inch possible.",
+          "detailedForecast": "Rain showers likely. Mostly cloudy, with a low around 34. Northwest wind around 1 mph. Chance of precipitation is 70%. New rainfall amounts less than a tenth of an inch possible.",
           "precipitationAmountIn": 0.07,
           "snowLevelFt": 7296
         },
         {
-          "number": 4,
+          "number": 5,
           "name": "Saturday",
           "startTime": "2026-09-05T06:00:00-07:00",
           "endTime": "2026-09-05T18:00:00-07:00",
@@ -2545,7 +2566,7 @@
           "snowLevelFt": 7113
         },
         {
-          "number": 5,
+          "number": 6,
           "name": "Saturday Night",
           "startTime": "2026-09-05T18:00:00-07:00",
           "endTime": "2026-09-06T06:00:00-07:00",
@@ -2561,12 +2582,12 @@
           "windDirection": "N",
           "icon": "https://api.weather.gov/icons/land/night/rain_showers,40?size=medium",
           "shortForecast": "Chance Rain Showers",
-          "detailedForecast": "A chance of rain showers. Mostly cloudy, with a low around 38. North wind 0 to 3 mph. Chance of precipitation is 40%. New rainfall amounts less than a tenth of an inch possible.",
+          "detailedForecast": "A chance of rain showers. Mostly cloudy, with a low around 38. Chance of precipitation is 40%.",
           "precipitationAmountIn": 0.01,
           "snowLevelFt": 8454
         },
         {
-          "number": 6,
+          "number": 7,
           "name": "Sunday",
           "startTime": "2026-09-06T06:00:00-07:00",
           "endTime": "2026-09-06T18:00:00-07:00",
@@ -2587,7 +2608,7 @@
           "snowLevelFt": 8173
         },
         {
-          "number": 7,
+          "number": 8,
           "name": "Sunday Night",
           "startTime": "2026-09-06T18:00:00-07:00",
           "endTime": "2026-09-07T06:00:00-07:00",
@@ -2608,7 +2629,7 @@
           "snowLevelFt": 8601
         },
         {
-          "number": 8,
+          "number": 9,
           "name": "Labor Day",
           "startTime": "2026-09-07T06:00:00-07:00",
           "endTime": "2026-09-07T18:00:00-07:00",
@@ -2624,12 +2645,12 @@
           "windDirection": "W",
           "icon": "https://api.weather.gov/icons/land/day/rain_showers,20?size=medium",
           "shortForecast": "Slight Chance Rain Showers",
-          "detailedForecast": "A slight chance of rain showers before 5pm. Mostly sunny, with a high near 68. Chance of precipitation is 20%.",
+          "detailedForecast": "A slight chance of rain showers before 5pm. Mostly sunny, with a high near 68.",
           "precipitationAmountIn": 0.0,
           "snowLevelFt": 8048
         },
         {
-          "number": 9,
+          "number": 10,
           "name": "Monday Night",
           "startTime": "2026-09-07T18:00:00-07:00",
           "endTime": "2026-09-08T06:00:00-07:00",
@@ -2650,7 +2671,7 @@
           "snowLevelFt": 8765
         },
         {
-          "number": 10,
+          "number": 11,
           "name": "Tuesday",
           "startTime": "2026-09-08T06:00:00-07:00",
           "endTime": "2026-09-08T18:00:00-07:00",
@@ -2671,7 +2692,7 @@
           "snowLevelFt": 8295
         },
         {
-          "number": 11,
+          "number": 12,
           "name": "Tuesday Night",
           "startTime": "2026-09-08T18:00:00-07:00",
           "endTime": "2026-09-09T06:00:00-07:00",
@@ -2692,7 +2713,7 @@
           "snowLevelFt": 9577
         },
         {
-          "number": 12,
+          "number": 13,
           "name": "Wednesday",
           "startTime": "2026-09-09T06:00:00-07:00",
           "endTime": "2026-09-09T18:00:00-07:00",
@@ -2713,7 +2734,7 @@
           "snowLevelFt": 9302
         },
         {
-          "number": 13,
+          "number": 14,
           "name": "Wednesday Night",
           "startTime": "2026-09-09T18:00:00-07:00",
           "endTime": "2026-09-10T06:00:00-07:00",
@@ -2732,27 +2753,6 @@
           "detailedForecast": "Partly cloudy, with a low around 44.",
           "precipitationAmountIn": 0.0,
           "snowLevelFt": 10137
-        },
-        {
-          "number": 14,
-          "name": "Thursday",
-          "startTime": "2026-09-10T06:00:00-07:00",
-          "endTime": "2026-09-10T18:00:00-07:00",
-          "isDaytime": true,
-          "temperature": 78,
-          "temperatureUnit": "F",
-          "temperatureTrend": null,
-          "probabilityOfPrecipitation": {
-            "unitCode": "wmoUnit:percent",
-            "value": 12
-          },
-          "windSpeed": "0 to 7 mph",
-          "windDirection": "NW",
-          "icon": "https://api.weather.gov/icons/land/day/few?size=medium",
-          "shortForecast": "Sunny",
-          "detailedForecast": "Sunny, with a high near 78.",
-          "precipitationAmountIn": 0.0,
-          "snowLevelFt": 9740
         }
       ],
       "current": {
@@ -2769,6 +2769,27 @@
       "periods": [
         {
           "number": 1,
+          "name": "This Afternoon",
+          "startTime": "2026-09-03T17:00:00-07:00",
+          "endTime": "2026-09-03T18:00:00-07:00",
+          "isDaytime": true,
+          "temperature": 59,
+          "temperatureUnit": "F",
+          "temperatureTrend": null,
+          "probabilityOfPrecipitation": {
+            "unitCode": "wmoUnit:percent",
+            "value": 30
+          },
+          "windSpeed": "7 mph",
+          "windDirection": "W",
+          "icon": "https://api.weather.gov/icons/land/day/rain_showers,30?size=medium",
+          "shortForecast": "Chance Rain Showers",
+          "detailedForecast": "A chance of rain showers. Partly sunny. High near 59, with temperatures falling to around 57 in the afternoon. West wind around 7 mph. Chance of precipitation is 30%.",
+          "precipitationAmountIn": 0.0,
+          "snowLevelFt": 7106
+        },
+        {
+          "number": 2,
           "name": "Tonight",
           "startTime": "2026-09-03T18:00:00-07:00",
           "endTime": "2026-09-04T06:00:00-07:00",
@@ -2789,7 +2810,7 @@
           "snowLevelFt": 7106
         },
         {
-          "number": 2,
+          "number": 3,
           "name": "Friday",
           "startTime": "2026-09-04T06:00:00-07:00",
           "endTime": "2026-09-04T18:00:00-07:00",
@@ -2810,7 +2831,7 @@
           "snowLevelFt": 6463
         },
         {
-          "number": 3,
+          "number": 4,
           "name": "Friday Night",
           "startTime": "2026-09-04T18:00:00-07:00",
           "endTime": "2026-09-05T06:00:00-07:00",
@@ -2826,12 +2847,12 @@
           "windDirection": "SW",
           "icon": "https://api.weather.gov/icons/land/night/tsra_hi,60/snow,20?size=medium",
           "shortForecast": "Showers And Thunderstorms Likely then Slight Chance Snow Showers",
-          "detailedForecast": "Showers and thunderstorms likely before 5am, then a slight chance of snow showers. Mostly cloudy. Low around 28, with temperatures rising to around 31 overnight. Southwest wind around 1 mph. Chance of precipitation is 60%. New rainfall amounts less than a tenth of an inch possible.",
+          "detailedForecast": "Showers and thunderstorms likely before 5am, then a slight chance of snow showers. Mostly cloudy, with a low around 28. Southwest wind around 1 mph. Chance of precipitation is 60%. New rainfall amounts less than a tenth of an inch possible.",
           "precipitationAmountIn": 0.04,
           "snowLevelFt": 7549
         },
         {
-          "number": 4,
+          "number": 5,
           "name": "Saturday",
           "startTime": "2026-09-05T06:00:00-07:00",
           "endTime": "2026-09-05T18:00:00-07:00",
@@ -2852,7 +2873,7 @@
           "snowLevelFt": 6831
         },
         {
-          "number": 5,
+          "number": 6,
           "name": "Saturday Night",
           "startTime": "2026-09-05T18:00:00-07:00",
           "endTime": "2026-09-06T06:00:00-07:00",
@@ -2868,12 +2889,12 @@
           "windDirection": "N",
           "icon": "https://api.weather.gov/icons/land/night/rain_showers,40/rain_showers,60?size=medium",
           "shortForecast": "Rain Showers Likely",
-          "detailedForecast": "Rain showers likely. Mostly cloudy, with a low around 32. North wind around 2 mph. Chance of precipitation is 60%. New rainfall amounts less than a tenth of an inch possible.",
+          "detailedForecast": "Rain showers likely. Mostly cloudy, with a low around 32. Chance of precipitation is 60%.",
           "precipitationAmountIn": 0.01,
           "snowLevelFt": 8560
         },
         {
-          "number": 6,
+          "number": 7,
           "name": "Sunday",
           "startTime": "2026-09-06T06:00:00-07:00",
           "endTime": "2026-09-06T18:00:00-07:00",
@@ -2894,7 +2915,7 @@
           "snowLevelFt": 8120
         },
         {
-          "number": 7,
+          "number": 8,
           "name": "Sunday Night",
           "startTime": "2026-09-06T18:00:00-07:00",
           "endTime": "2026-09-07T06:00:00-07:00",
@@ -2915,7 +2936,7 @@
           "snowLevelFt": 8562
         },
         {
-          "number": 8,
+          "number": 9,
           "name": "Labor Day",
           "startTime": "2026-09-07T06:00:00-07:00",
           "endTime": "2026-09-07T18:00:00-07:00",
@@ -2931,12 +2952,12 @@
           "windDirection": "W",
           "icon": "https://api.weather.gov/icons/land/day/rain_showers,20/sct?size=medium",
           "shortForecast": "Slight Chance Rain Showers then Mostly Sunny",
-          "detailedForecast": "A slight chance of rain showers before 11am. Mostly sunny, with a high near 68. Chance of precipitation is 20%.",
+          "detailedForecast": "A slight chance of rain showers before 11am. Mostly sunny, with a high near 68.",
           "precipitationAmountIn": 0.0,
           "snowLevelFt": 7818
         },
         {
-          "number": 9,
+          "number": 10,
           "name": "Monday Night",
           "startTime": "2026-09-07T18:00:00-07:00",
           "endTime": "2026-09-08T06:00:00-07:00",
@@ -2957,7 +2978,7 @@
           "snowLevelFt": 8891
         },
         {
-          "number": 10,
+          "number": 11,
           "name": "Tuesday",
           "startTime": "2026-09-08T06:00:00-07:00",
           "endTime": "2026-09-08T18:00:00-07:00",
@@ -2978,7 +2999,7 @@
           "snowLevelFt": 8373
         },
         {
-          "number": 11,
+          "number": 12,
           "name": "Tuesday Night",
           "startTime": "2026-09-08T18:00:00-07:00",
           "endTime": "2026-09-09T06:00:00-07:00",
@@ -2999,7 +3020,7 @@
           "snowLevelFt": 9633
         },
         {
-          "number": 12,
+          "number": 13,
           "name": "Wednesday",
           "startTime": "2026-09-09T06:00:00-07:00",
           "endTime": "2026-09-09T18:00:00-07:00",
@@ -3020,7 +3041,7 @@
           "snowLevelFt": 9315
         },
         {
-          "number": 13,
+          "number": 14,
           "name": "Wednesday Night",
           "startTime": "2026-09-09T18:00:00-07:00",
           "endTime": "2026-09-10T06:00:00-07:00",
@@ -3039,27 +3060,6 @@
           "detailedForecast": "Partly cloudy, with a low around 37.",
           "precipitationAmountIn": 0.0,
           "snowLevelFt": 10387
-        },
-        {
-          "number": 14,
-          "name": "Thursday",
-          "startTime": "2026-09-10T06:00:00-07:00",
-          "endTime": "2026-09-10T18:00:00-07:00",
-          "isDaytime": true,
-          "temperature": 79,
-          "temperatureUnit": "F",
-          "temperatureTrend": null,
-          "probabilityOfPrecipitation": {
-            "unitCode": "wmoUnit:percent",
-            "value": 13
-          },
-          "windSpeed": "1 to 7 mph",
-          "windDirection": "SW",
-          "icon": "https://api.weather.gov/icons/land/day/few?size=medium",
-          "shortForecast": "Sunny",
-          "detailedForecast": "Sunny, with a high near 79.",
-          "precipitationAmountIn": 0.0,
-          "snowLevelFt": 9841
         }
       ],
       "current": {
@@ -3087,12 +3087,12 @@
     "Hoodoo": {
       "elevation_ft": 4705,
       "temp_f": 47,
-      "wind_speed_mph": 5,
-      "wind_direction_deg": 250,
+      "wind_speed_mph": 7.0,
+      "wind_direction_deg": 270,
       "snow_level_ft": 6743,
       "precip_chance_today": 78,
-      "snowfall_12h_in": null,
-      "snowfall_24h_in": null,
+      "snowfall_12h_in": 0.0,
+      "snowfall_24h_in": 0.0,
       "snowfall_48h_in": null
     },
     "Willamette Pass": {
@@ -4565,14 +4565,14 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-09-03T17:00:00.000Z"
+            "timestamp": "2026-09-03T18:00:00.000Z"
           },
-          "temperature": "29.7",
+          "temperature": "29.56",
           "wind": {
-            "low": "12.65",
-            "high": "28.41",
+            "low": "13.26",
+            "high": "28.86",
             "current": null,
-            "average": "12.65",
+            "average": "13.26",
             "direction": "WNW"
           },
           "humidity": "100",
@@ -4634,10 +4634,25 @@
     }
   },
   "hoodoo": {
-    "weather": {},
+    "weather": {
+      "Temperature": "40 &#176F",
+      "Wind": "West @ 7 MPH",
+      "Snow depth": "0.0\"",
+      "Humidity": "100 %",
+      "Barometer": "29.71\" Hg",
+      "Rain Gauge": "0.98\""
+    },
     "snow_totals": {
-      "trend": {},
-      "season_total_in": null
+      "trend": {
+        "Max": "0.6\"",
+        "Min": "-1.1\"",
+        "1 Hr": "0.2\"",
+        "3 Hr": "0.4\"",
+        "6 Hr": "0.2\"",
+        "12 Hr": "0.0\"",
+        "24 Hr": "0.0\""
+      },
+      "season_total_in": 158.5
     },
     "webcams": {
       "Base Area": {
@@ -4677,8 +4692,8 @@
   "willamette_pass": {
     "forecast": {
       "weather_provider": "NOAA",
-      "date": "September 3, 2026, 5:56 pm",
-      "time": 1788483363000,
+      "date": "September 3, 2026, 6:15 pm",
+      "time": 1788484507000,
       "current_weather": "Showers Likely",
       "current_temperature": "51",
       "forecast": [
@@ -4719,11 +4734,6 @@
       "min_temp": "36",
       "hourly": [
         {
-          "time": "5p",
-          "temp": "47",
-          "details": "slight chance of thunderstorms and rain likely"
-        },
-        {
           "time": "8p",
           "temp": "42",
           "details": "rain likely"
@@ -4741,6 +4751,11 @@
         {
           "time": "2a",
           "temp": "38",
+          "details": "chance of rain"
+        },
+        {
+          "time": "4a",
+          "temp": "37",
           "details": "chance of rain"
         }
       ],
@@ -4787,15 +4802,15 @@
   "satellite": {
     "Pacific Northwest": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/pnw/13/GOES18-PNW-13-600x600.gif",
-      "last_modified": "Fri, 04 Sep 2026 00:41:03 GMT"
+      "last_modified": "Fri, 04 Sep 2026 01:11:22 GMT"
     },
     "North Pacific (macro)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/np/13/GOES18-NP-13-900x540.gif",
-      "last_modified": "Fri, 04 Sep 2026 00:41:12 GMT"
+      "last_modified": "Fri, 04 Sep 2026 01:11:31 GMT"
     },
     "Pacific US (PACUS)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/13/GOES18-CONUS-13-625x375.gif",
-      "last_modified": "Fri, 04 Sep 2026 00:35:34 GMT"
+      "last_modified": "Fri, 04 Sep 2026 01:05:45 GMT"
     }
   },
   "gfs_snowfall": {
