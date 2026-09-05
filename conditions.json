@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T12:15:14.600237+00:00",
+  "generated_at": "2026-09-05T12:16:09.945911+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -7,7 +7,7 @@
         {
           "number": 1,
           "name": "Overnight",
-          "startTime": "2026-09-05T04:00:00-07:00",
+          "startTime": "2026-09-05T05:00:00-07:00",
           "endTime": "2026-09-05T06:00:00-07:00",
           "isDaytime": false,
           "temperature": 32,
@@ -15,15 +15,15 @@
           "temperatureTrend": null,
           "probabilityOfPrecipitation": {
             "unitCode": "wmoUnit:percent",
-            "value": 4
+            "value": 3
           },
           "windSpeed": "3 mph",
           "windDirection": "S",
-          "icon": "https://api.weather.gov/icons/land/night/bkn?size=medium",
-          "shortForecast": "Mostly Cloudy",
-          "detailedForecast": "Mostly cloudy, with a low around 32. South wind around 3 mph.",
+          "icon": "https://api.weather.gov/icons/land/night/sct?size=medium",
+          "shortForecast": "Partly Cloudy",
+          "detailedForecast": "Partly cloudy, with a low around 32. South wind around 3 mph.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 7287
+          "snowLevelFt": 7228
         },
         {
           "number": 2,
@@ -621,7 +621,7 @@
         {
           "number": 1,
           "name": "Overnight",
-          "startTime": "2026-09-05T04:00:00-07:00",
+          "startTime": "2026-09-05T05:00:00-07:00",
           "endTime": "2026-09-05T06:00:00-07:00",
           "isDaytime": false,
           "temperature": 36,
@@ -637,7 +637,7 @@
           "shortForecast": "Partly Cloudy",
           "detailedForecast": "Partly cloudy. Low around 36, with temperatures rising to around 38 overnight. East wind around 1 mph.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 7224
+          "snowLevelFt": 7201
         },
         {
           "number": 2,
@@ -914,7 +914,7 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 11.0,
+        "wind_speed_mph": 12.0,
         "wind_direction_deg": 135,
         "snow_level_ft": 7201,
         "temp_f": 38
@@ -1235,7 +1235,7 @@
         {
           "number": 1,
           "name": "Overnight",
-          "startTime": "2026-09-05T04:00:00-07:00",
+          "startTime": "2026-09-05T05:00:00-07:00",
           "endTime": "2026-09-05T06:00:00-07:00",
           "isDaytime": false,
           "temperature": 37,
@@ -1243,15 +1243,15 @@
           "temperatureTrend": null,
           "probabilityOfPrecipitation": {
             "unitCode": "wmoUnit:percent",
-            "value": 3
+            "value": 2
           },
           "windSpeed": "6 mph",
           "windDirection": "ESE",
-          "icon": "https://api.weather.gov/icons/land/night/bkn?size=medium",
-          "shortForecast": "Mostly Cloudy",
-          "detailedForecast": "Mostly cloudy, with a low around 37. East southeast wind around 6 mph.",
+          "icon": "https://api.weather.gov/icons/land/night/sct?size=medium",
+          "shortForecast": "Partly Cloudy",
+          "detailedForecast": "Partly cloudy, with a low around 37. East southeast wind around 6 mph.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 7172
+          "snowLevelFt": 7123
         },
         {
           "number": 2,
@@ -1542,7 +1542,7 @@
         {
           "number": 1,
           "name": "Overnight",
-          "startTime": "2026-09-05T04:00:00-07:00",
+          "startTime": "2026-09-05T05:00:00-07:00",
           "endTime": "2026-09-05T06:00:00-07:00",
           "isDaytime": false,
           "temperature": 40,
@@ -1558,7 +1558,7 @@
           "shortForecast": "Partly Cloudy",
           "detailedForecast": "Partly cloudy, with a low around 40. Southeast wind around 3 mph.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 7198
+          "snowLevelFt": 7149
         },
         {
           "number": 2,
@@ -3079,7 +3079,7 @@
       "wind_speed_mph": 3,
       "wind_direction_deg": 180,
       "snow_level_ft": 7228,
-      "precip_chance_today": 4,
+      "precip_chance_today": 3,
       "snowfall_12h_in": null,
       "snowfall_24h_in": 0,
       "snowfall_48h_in": 0
@@ -3087,12 +3087,12 @@
     "Hoodoo": {
       "elevation_ft": 4705,
       "temp_f": 38,
-      "wind_speed_mph": 11.0,
+      "wind_speed_mph": 12.0,
       "wind_direction_deg": 135,
       "snow_level_ft": 7201,
       "precip_chance_today": 2,
-      "snowfall_12h_in": -0.5,
-      "snowfall_24h_in": -0.4,
+      "snowfall_12h_in": -0.1,
+      "snowfall_24h_in": 0.1,
       "snowfall_48h_in": null
     },
     "Willamette Pass": {
@@ -3101,7 +3101,7 @@
       "wind_speed_mph": 6,
       "wind_direction_deg": 120,
       "snow_level_ft": 7123,
-      "precip_chance_today": 3,
+      "precip_chance_today": 2,
       "snowfall_12h_in": null,
       "snowfall_24h_in": 0.0,
       "snowfall_48h_in": 0.0
@@ -3109,14 +3109,6 @@
   },
   "bachelor_timeseries": {
     "hourly": [
-      {
-        "time": "2026-09-04T05:00:00.000Z",
-        "temp_f": 31.09,
-        "wind_speed_mph": 13.14,
-        "wind_direction_deg": 199.4,
-        "precip_in": null,
-        "period": "historical"
-      },
       {
         "time": "2026-09-04T06:00:00.000Z",
         "temp_f": 30.66,
@@ -3302,12 +3294,12 @@
         "period": "historical"
       },
       {
-        "time": "2026-09-05T05:00:00+00:00",
-        "temp_f": 32.0,
-        "wind_speed_mph": 2.3,
-        "wind_direction_deg": 280,
-        "precip_in": 0.0,
-        "period": "forecast"
+        "time": "2026-09-05T05:00:00.000Z",
+        "temp_f": 31.85,
+        "wind_speed_mph": 2.583,
+        "wind_direction_deg": 118.8,
+        "precip_in": null,
+        "period": "historical"
       },
       {
         "time": "2026-09-05T06:00:00+00:00",
@@ -4642,9 +4634,9 @@
   "hoodoo": {
     "weather": {
       "Temperature": "41 &#176F",
-      "Wind": "SE @ 11 MPH",
-      "Snow depth": "-0.3\"",
-      "Humidity": "83 %",
+      "Wind": "SE @ 12 MPH",
+      "Snow depth": "-0.2\"",
+      "Humidity": "80 %",
       "Barometer": "29.90\" Hg",
       "Rain Gauge": "0.55\""
     },
@@ -4652,11 +4644,11 @@
       "trend": {
         "Max": "0.6\"",
         "Min": "-1.0\"",
-        "1 Hr": "-0.3\"",
-        "3 Hr": "-0.4\"",
-        "6 Hr": "-0.4\"",
-        "12 Hr": "-0.5\"",
-        "24 Hr": "-0.4\""
+        "1 Hr": "0.0\"",
+        "3 Hr": "-0.1\"",
+        "6 Hr": "-0.1\"",
+        "12 Hr": "-0.1\"",
+        "24 Hr": "0.1\""
       },
       "season_total_in": 158.5
     },
