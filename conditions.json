@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T14:30:16.729771+00:00",
+  "generated_at": "2026-09-05T14:45:22.182726+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -621,7 +621,7 @@
         {
           "number": 1,
           "name": "Today",
-          "startTime": "2026-09-05T06:00:00-07:00",
+          "startTime": "2026-09-05T07:00:00-07:00",
           "endTime": "2026-09-05T18:00:00-07:00",
           "isDaytime": true,
           "temperature": 57,
@@ -633,11 +633,11 @@
           },
           "windSpeed": "3 mph",
           "windDirection": "SSE",
-          "icon": "https://api.weather.gov/icons/land/day/fog/tsra_hi,40?size=medium",
-          "shortForecast": "Patchy Fog then Chance Showers And Thunderstorms",
-          "detailedForecast": "Patchy fog before 7am, then a chance of rain showers between noon and 2pm, then a chance of showers and thunderstorms. Partly sunny, with a high near 57. South southeast wind around 3 mph. Chance of precipitation is 40%.",
+          "icon": "https://api.weather.gov/icons/land/day/bkn/tsra_hi,40?size=medium",
+          "shortForecast": "Partly Sunny then Chance Showers And Thunderstorms",
+          "detailedForecast": "A chance of rain showers between noon and 2pm, then a chance of showers and thunderstorms. Partly sunny, with a high near 57. South southeast wind around 3 mph. Chance of precipitation is 40%.",
           "precipitationAmountIn": 0.02,
-          "snowLevelFt": 7172
+          "snowLevelFt": 7201
         },
         {
           "number": 2,
@@ -914,8 +914,8 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 7.0,
-        "wind_direction_deg": 202.5,
+        "wind_speed_mph": 5.0,
+        "wind_direction_deg": 180,
         "snow_level_ft": 7201,
         "temp_f": 36
       },
@@ -1235,7 +1235,7 @@
         {
           "number": 1,
           "name": "Today",
-          "startTime": "2026-09-05T07:00:00-07:00",
+          "startTime": "2026-09-05T06:00:00-07:00",
           "endTime": "2026-09-05T18:00:00-07:00",
           "isDaytime": true,
           "temperature": 56,
@@ -1251,7 +1251,7 @@
           "shortForecast": "Chance Rain Showers",
           "detailedForecast": "A chance of rain showers between 11am and 2pm, then a chance of showers and thunderstorms. Mostly sunny, with a high near 56. South wind 5 to 8 mph. Chance of precipitation is 40%.",
           "precipitationAmountIn": 0.03,
-          "snowLevelFt": 7149
+          "snowLevelFt": 7119
         },
         {
           "number": 2,
@@ -2463,7 +2463,7 @@
         {
           "number": 1,
           "name": "Today",
-          "startTime": "2026-09-05T07:00:00-07:00",
+          "startTime": "2026-09-05T06:00:00-07:00",
           "endTime": "2026-09-05T18:00:00-07:00",
           "isDaytime": true,
           "temperature": 64,
@@ -3087,12 +3087,12 @@
     "Hoodoo": {
       "elevation_ft": 4705,
       "temp_f": 36,
-      "wind_speed_mph": 7.0,
-      "wind_direction_deg": 202.5,
+      "wind_speed_mph": 5.0,
+      "wind_direction_deg": 180,
       "snow_level_ft": 7201,
       "precip_chance_today": 40,
-      "snowfall_12h_in": -0.2,
-      "snowfall_24h_in": 0.2,
+      "snowfall_12h_in": -0.4,
+      "snowfall_24h_in": -0.2,
       "snowfall_48h_in": null
     },
     "Willamette Pass": {
@@ -4332,7 +4332,7 @@
           "id": 1788638400,
           "day": "Saturday",
           "temperature_high": 55,
-          "temperature_low": 30,
+          "temperature_low": 32,
           "precipitation_high": 36,
           "precipitation_low": 36,
           "wind_speed": 7,
@@ -4634,9 +4634,9 @@
   "hoodoo": {
     "weather": {
       "Temperature": "40 &#176F",
-      "Wind": "SSW @ 7 MPH",
-      "Snow depth": "0.0\"",
-      "Humidity": "86 %",
+      "Wind": "South @ 5 MPH",
+      "Snow depth": "-0.2\"",
+      "Humidity": "87 %",
       "Barometer": "29.91\" Hg",
       "Rain Gauge": "0.54\""
     },
@@ -4644,11 +4644,11 @@
       "trend": {
         "Max": "0.6\"",
         "Min": "-1.0\"",
-        "1 Hr": "0.0\"",
-        "3 Hr": "0.2\"",
-        "6 Hr": "0.0\"",
-        "12 Hr": "-0.2\"",
-        "24 Hr": "0.2\""
+        "1 Hr": "-0.2\"",
+        "3 Hr": "0.0\"",
+        "6 Hr": "-0.2\"",
+        "12 Hr": "-0.4\"",
+        "24 Hr": "-0.2\""
       },
       "season_total_in": 158.5
     },
@@ -4690,10 +4690,10 @@
   "willamette_pass": {
     "forecast": {
       "weather_provider": "NOAA",
-      "date": "September 5, 2026, 6:58 am",
-      "time": 1788616729000,
+      "date": "September 5, 2026, 7:44 am",
+      "time": 1788619490000,
       "current_weather": "Chance Showers",
-      "current_temperature": "38",
+      "current_temperature": "37",
       "forecast": [
         {
           "day": "Saturday",
@@ -4800,15 +4800,15 @@
   "satellite": {
     "Pacific Northwest": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/pnw/13/GOES18-PNW-13-600x600.gif",
-      "last_modified": "Sat, 05 Sep 2026 14:11:07 GMT"
+      "last_modified": "Sat, 05 Sep 2026 14:40:45 GMT"
     },
     "North Pacific (macro)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/np/13/GOES18-NP-13-900x540.gif",
-      "last_modified": "Sat, 05 Sep 2026 14:11:16 GMT"
+      "last_modified": "Sat, 05 Sep 2026 14:40:53 GMT"
     },
     "Pacific US (PACUS)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/13/GOES18-CONUS-13-625x375.gif",
-      "last_modified": "Sat, 05 Sep 2026 14:05:44 GMT"
+      "last_modified": "Sat, 05 Sep 2026 14:35:33 GMT"
     }
   },
   "gfs_snowfall": {
