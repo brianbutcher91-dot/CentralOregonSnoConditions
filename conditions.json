@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T20:30:16.282012+00:00",
+  "generated_at": "2026-09-05T20:45:21.457808+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -313,8 +313,8 @@
       "periods": [
         {
           "number": 1,
-          "name": "Today",
-          "startTime": "2026-09-05T11:00:00-07:00",
+          "name": "This Afternoon",
+          "startTime": "2026-09-05T13:00:00-07:00",
           "endTime": "2026-09-05T18:00:00-07:00",
           "isDaytime": true,
           "temperature": 49,
@@ -324,11 +324,11 @@
             "unitCode": "wmoUnit:percent",
             "value": 43
           },
-          "windSpeed": "0 to 3 mph",
+          "windSpeed": "2 mph",
           "windDirection": "SE",
-          "icon": "https://api.weather.gov/icons/land/day/rain_showers,20/tsra_sct,40?size=medium",
+          "icon": "https://api.weather.gov/icons/land/day/tsra_sct,40?size=medium",
           "shortForecast": "Chance Showers And Thunderstorms",
-          "detailedForecast": "A slight chance of rain showers before 2pm, then a chance of showers and thunderstorms. Partly sunny. High near 49, with temperatures falling to around 47 in the afternoon. Southeast wind 0 to 3 mph. Chance of precipitation is 40%. New rainfall amounts between a tenth and quarter of an inch possible.",
+          "detailedForecast": "A slight chance of rain showers before 2pm, then a chance of showers and thunderstorms. Partly sunny. High near 49, with temperatures falling to around 47 in the afternoon. Southeast wind around 2 mph. Chance of precipitation is 40%. New rainfall amounts between a tenth and quarter of an inch possible.",
           "precipitationAmountIn": 0.03,
           "snowLevelFt": 7979
         },
@@ -914,8 +914,8 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 3.0,
-        "wind_direction_deg": 22.5,
+        "wind_speed_mph": 2.0,
+        "wind_direction_deg": 90,
         "snow_level_ft": 7900,
         "temp_f": 52
       },
@@ -2156,7 +2156,7 @@
         {
           "number": 1,
           "name": "This Afternoon",
-          "startTime": "2026-09-05T12:00:00-07:00",
+          "startTime": "2026-09-05T13:00:00-07:00",
           "endTime": "2026-09-05T18:00:00-07:00",
           "isDaytime": true,
           "temperature": 65,
@@ -2770,7 +2770,7 @@
         {
           "number": 1,
           "name": "This Afternoon",
-          "startTime": "2026-09-05T13:00:00-07:00",
+          "startTime": "2026-09-05T12:00:00-07:00",
           "endTime": "2026-09-05T18:00:00-07:00",
           "isDaytime": true,
           "temperature": 66,
@@ -2784,7 +2784,7 @@
           "windDirection": "SW",
           "icon": "https://api.weather.gov/icons/land/day/rain_showers,40?size=medium",
           "shortForecast": "Chance Rain Showers",
-          "detailedForecast": "A chance of rain showers after 5pm. Partly sunny. High near 66, with temperatures falling to around 61 in the afternoon. Southwest wind around 2 mph. Chance of precipitation is 40%. New rainfall amounts less than a tenth of an inch possible.",
+          "detailedForecast": "A chance of rain showers after 5pm. Mostly sunny. High near 66, with temperatures falling to around 61 in the afternoon. Southwest wind around 2 mph. Chance of precipitation is 40%. New rainfall amounts less than a tenth of an inch possible.",
           "precipitationAmountIn": 0.01,
           "snowLevelFt": 8057
         },
@@ -3087,12 +3087,12 @@
     "Hoodoo": {
       "elevation_ft": 4705,
       "temp_f": 52,
-      "wind_speed_mph": 3.0,
-      "wind_direction_deg": 22.5,
+      "wind_speed_mph": 2.0,
+      "wind_direction_deg": 90,
       "snow_level_ft": 7900,
       "precip_chance_today": 53,
       "snowfall_12h_in": -0.7,
-      "snowfall_24h_in": 0.0,
+      "snowfall_24h_in": -0.5,
       "snowfall_48h_in": null
     },
     "Willamette Pass": {
@@ -3928,10 +3928,6 @@
     ],
     "historical_precip_snapshots": [
       {
-        "time": "2026-09-02T20:45:19.933090+00:00",
-        "precip_in": 0
-      },
-      {
         "time": "2026-09-02T22:00:21.733512+00:00",
         "precip_in": 0
       },
@@ -4178,6 +4174,10 @@
       {
         "time": "2026-09-05T19:45:15.146072+00:00",
         "precip_in": 0
+      },
+      {
+        "time": "2026-09-05T20:45:21.838794+00:00",
+        "precip_in": 0
       }
     ]
   },
@@ -4320,7 +4320,7 @@
     "weather": {
       "current": {
         "temperature": 46,
-        "weather_icon": "dor-mostlysunny"
+        "weather_icon": "dor-cloudy"
       },
       "forecast": [
         {
@@ -4333,8 +4333,8 @@
           "day": "Saturday",
           "temperature_high": 54,
           "temperature_low": 31,
-          "precipitation_high": 52,
-          "precipitation_low": 52,
+          "precipitation_high": 45,
+          "precipitation_low": 45,
           "wind_speed": 7,
           "wind_direction": "S"
         },
@@ -4634,8 +4634,8 @@
   "hoodoo": {
     "weather": {
       "Temperature": "46 &#176F",
-      "Wind": "NNE @ 3 MPH",
-      "Snow depth": "-0.9\"",
+      "Wind": "East @ 2 MPH",
+      "Snow depth": "-0.7\"",
       "Humidity": "82 %",
       "Barometer": "29.93\" Hg",
       "Rain Gauge": "0.48\""
@@ -4644,11 +4644,11 @@
       "trend": {
         "Max": "0.6\"",
         "Min": "-1.2\"",
-        "1 Hr": "-0.5\"",
+        "1 Hr": "-0.4\"",
         "3 Hr": "-0.7\"",
-        "6 Hr": "-0.7\"",
+        "6 Hr": "-0.5\"",
         "12 Hr": "-0.7\"",
-        "24 Hr": "0.0\""
+        "24 Hr": "-0.5\""
       },
       "season_total_in": 158.5
     },
@@ -4690,14 +4690,14 @@
   "willamette_pass": {
     "forecast": {
       "weather_provider": "NOAA",
-      "date": "September 5, 2026, 1:11 pm",
-      "time": 1788639112000,
+      "date": "September 5, 2026, 1:45 pm",
+      "time": 1788641107000,
       "current_weather": "Chance Showers",
       "current_temperature": "60",
       "forecast": [
         {
           "day": "Saturday",
-          "day_forecast": "A slight chance of showers and thunderstorms between 2pm and 5pm, then a chance of rain and thunderstorms after 5pm.  Snow level 7900 feet rising to 8600 feet. Partly sunny, with a high near 56. Light and variable wind.  Chance of precipitation is 30%.",
+          "day_forecast": "A slight chance of showers and thunderstorms between 2pm and 5pm, then a chance of rain and thunderstorms after 5pm.  Snow level 8100 feet rising to 8600 feet. Partly sunny, with a high near 56. Light west wind.  Chance of precipitation is 30%.",
           "night_forecast": "Rain likely.  Snow level 8600 feet lowering to 7800 feet after midnight . Mostly cloudy, with a low around 40. Light and variable wind.  Chance of precipitation is 70%. New precipitation amounts between a tenth and quarter of an inch possible. "
         },
         {
@@ -4732,11 +4732,6 @@
       "min_temp": "40",
       "hourly": [
         {
-          "time": "12p",
-          "temp": "51",
-          "details": ""
-        },
-        {
           "time": "2p",
           "temp": "53",
           "details": "slight chance of thunderstorms and slight chance of rain"
@@ -4754,6 +4749,11 @@
         {
           "time": "8p",
           "temp": "48",
+          "details": "chance of rain"
+        },
+        {
+          "time": "10p",
+          "temp": "44",
           "details": "chance of rain"
         }
       ],
@@ -4800,15 +4800,15 @@
   "satellite": {
     "Pacific Northwest": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/pnw/13/GOES18-PNW-13-600x600.gif",
-      "last_modified": "Sat, 05 Sep 2026 18:13:32 GMT"
+      "last_modified": "Sat, 05 Sep 2026 20:41:07 GMT"
     },
     "North Pacific (macro)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/np/13/GOES18-NP-13-900x540.gif",
-      "last_modified": "Sat, 05 Sep 2026 18:13:43 GMT"
+      "last_modified": "Sat, 05 Sep 2026 20:41:16 GMT"
     },
     "Pacific US (PACUS)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/13/GOES18-CONUS-13-625x375.gif",
-      "last_modified": "Sat, 05 Sep 2026 18:06:57 GMT"
+      "last_modified": "Sat, 05 Sep 2026 20:35:45 GMT"
     }
   },
   "gfs_snowfall": {
