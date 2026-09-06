@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T06:30:15.671478+00:00",
+  "generated_at": "2026-09-06T06:45:14.281930+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -914,8 +914,8 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 13.0,
-        "wind_direction_deg": 112.5,
+        "wind_speed_mph": 16.0,
+        "wind_direction_deg": 90,
         "snow_level_ft": 8176,
         "temp_f": 44
       },
@@ -3087,12 +3087,12 @@
     "Hoodoo": {
       "elevation_ft": 4705,
       "temp_f": 44,
-      "wind_speed_mph": 13.0,
-      "wind_direction_deg": 112.5,
+      "wind_speed_mph": 16.0,
+      "wind_direction_deg": 90,
       "snow_level_ft": 8176,
       "precip_chance_today": 46,
-      "snowfall_12h_in": 0.0,
-      "snowfall_24h_in": 0.0,
+      "snowfall_12h_in": 0.3,
+      "snowfall_24h_in": -0.1,
       "snowfall_48h_in": null
     },
     "Willamette Pass": {
@@ -4633,10 +4633,10 @@
   },
   "hoodoo": {
     "weather": {
-      "Temperature": "41 &#176F",
-      "Wind": "ESE @ 13 MPH",
-      "Snow depth": "0.2\"",
-      "Humidity": "95 %",
+      "Temperature": "40 &#176F",
+      "Wind": "East @ 16 MPH",
+      "Snow depth": "0.1\"",
+      "Humidity": "100 %",
       "Barometer": "29.95\" Hg",
       "Rain Gauge": "0.87\""
     },
@@ -4644,11 +4644,11 @@
       "trend": {
         "Max": "0.6\"",
         "Min": "-1.7\"",
-        "1 Hr": "0.0\"",
-        "3 Hr": "0.0\"",
-        "6 Hr": "0.7\"",
-        "12 Hr": "0.0\"",
-        "24 Hr": "0.0\""
+        "1 Hr": "-0.3\"",
+        "3 Hr": "-0.1\"",
+        "6 Hr": "0.6\"",
+        "12 Hr": "0.3\"",
+        "24 Hr": "-0.1\""
       },
       "season_total_in": 158.5
     },
@@ -4690,58 +4690,53 @@
   "willamette_pass": {
     "forecast": {
       "weather_provider": "NOAA",
-      "date": "September 5, 2026, 11:13 pm",
-      "time": 1788675228000,
-      "current_weather": "Showers Likely",
+      "date": "September 5, 2026, 11:29 pm",
+      "time": 1788676191000,
+      "current_weather": "Rain Likely",
       "current_temperature": "45",
       "forecast": [
         {
           "day": "Saturday",
-          "night_forecast": "Showers likely and possibly a thunderstorm.  Snow level 8300 feet lowering to 7800 feet after midnight . Cloudy, with a low around 40. Calm wind becoming east southeast around 6 mph after midnight.  Chance of precipitation is 70%. New precipitation amounts between a tenth and quarter of an inch, except higher amounts possible in thunderstorms. "
+          "night_forecast": "Rain likely.  Snow level 8000 feet. Cloudy, with a low around 40. East southeast wind 3 to 6 mph.  Chance of precipitation is 70%. New precipitation amounts between a tenth and quarter of an inch possible. "
         },
         {
           "day": "Sunday",
-          "day_forecast": "Showers and possibly a thunderstorm, mainly before 5pm, then scattered showers and thunderstorms after 5pm.  Snow level 7900 feet. High near 48. Calm wind becoming west northwest 5 to 9 mph in the afternoon.  Chance of precipitation is 80%. New rainfall amounts between a quarter and half of an inch possible. ",
-          "night_forecast": "Scattered showers, mainly before 8pm.  Snow level 7900 feet. Mostly cloudy, with a low around 41. West northwest wind 3 to 7 mph.  Chance of precipitation is 40%."
+          "day_forecast": "Rain likely and possibly a thunderstorm before 2pm, then showers and possibly a thunderstorm between 2pm and 5pm, then a chance of rain and thunderstorms after 5pm.  Snow level 7900 feet. High near 47. Calm wind becoming west northwest 5 to 9 mph in the afternoon.  Chance of precipitation is 80%. New rainfall amounts between a quarter and half of an inch possible. ",
+          "night_forecast": "A 40 percent chance of rain, mainly before 8pm.  Snow level 7900 feet. Mostly cloudy, with a low around 39. West northwest wind 3 to 7 mph. "
         },
         {
           "day": "Monday",
-          "day_forecast": "Partly sunny, then gradually becoming sunny, with a high near 56. Calm wind becoming west northwest around 6 mph in the afternoon. ",
+          "day_forecast": "Partly sunny, then gradually becoming sunny, with a high near 58. Calm wind becoming west northwest around 6 mph in the afternoon. ",
           "night_forecast": "Mostly clear, with a low around 40. West northwest wind 5 to 8 mph becoming calm. "
         },
         {
           "day": "Tuesday",
-          "day_forecast": "Sunny, with a high near 67.",
+          "day_forecast": "Sunny, with a high near 68.",
           "night_forecast": "Mostly clear, with a low around 46."
         },
         {
           "day": "Wednesday",
-          "day_forecast": "Sunny, with a high near 74.",
+          "day_forecast": "Sunny, with a high near 75.",
           "night_forecast": "Mostly clear, with a low around 51."
         },
         {
           "day": "Thursday",
-          "day_forecast": "Sunny, with a high near 71.",
-          "night_forecast": "A slight chance of rain.  Partly cloudy, with a low around 48."
+          "day_forecast": "Sunny, with a high near 73.",
+          "night_forecast": "Partly cloudy, with a low around 49."
         },
         {
           "day": "Friday",
-          "day_forecast": "A chance of rain.  Mostly sunny, with a high near 63."
+          "day_forecast": "Mostly sunny, with a high near 65."
         }
       ],
       "wind": "NA",
-      "icon": "0100-sunny.svg",
-      "max_temp": "48",
+      "icon": "0399-rain.svg",
+      "max_temp": "47",
       "min_temp": "40",
       "hourly": [
         {
-          "time": "10p",
-          "temp": "44",
-          "details": "slight chance of thunderstorms and rain likely"
-        },
-        {
           "time": "12a",
-          "temp": "42",
+          "temp": "43",
           "details": "rain likely"
         },
         {
@@ -4756,6 +4751,11 @@
         },
         {
           "time": "5a",
+          "temp": "41",
+          "details": "chance of rain"
+        },
+        {
+          "time": "8a",
           "temp": "41",
           "details": "chance of rain"
         }
@@ -4803,15 +4803,15 @@
   "satellite": {
     "Pacific Northwest": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/pnw/13/GOES18-PNW-13-600x600.gif",
-      "last_modified": "Sun, 06 Sep 2026 06:11:09 GMT"
+      "last_modified": "Sun, 06 Sep 2026 06:40:50 GMT"
     },
     "North Pacific (macro)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/np/13/GOES18-NP-13-900x540.gif",
-      "last_modified": "Sun, 06 Sep 2026 06:11:18 GMT"
+      "last_modified": "Sun, 06 Sep 2026 06:40:59 GMT"
     },
     "Pacific US (PACUS)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/13/GOES18-CONUS-13-625x375.gif",
-      "last_modified": "Sun, 06 Sep 2026 06:05:50 GMT"
+      "last_modified": "Sun, 06 Sep 2026 06:35:32 GMT"
     }
   },
   "gfs_snowfall": {
