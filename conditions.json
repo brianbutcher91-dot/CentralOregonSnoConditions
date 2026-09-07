@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-07T02:14:02.877936+00:00",
+  "generated_at": "2026-09-07T02:15:22.940556+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -4182,42 +4182,15 @@
       {
         "time": "2026-09-07T01:15:15.545648+00:00",
         "precip_in": 0
+      },
+      {
+        "time": "2026-09-07T02:15:23.396079+00:00",
+        "precip_in": 0
       }
     ]
   },
   "snotel": {
-    "Mt Bachelor area (Irish Taylor)": {
-      "snow_depth_in": 0,
-      "snow_depth_in_date": "2026-09-05",
-      "swe_in": 0.3,
-      "swe_in_date": "2026-09-05",
-      "change_12h_in": 0,
-      "change_24h_in": 0
-    },
-    "Three Creek / Tam McArthur (Three Creeks Meadow)": {
-      "snow_depth_in": 1,
-      "snow_depth_in_date": "2026-09-05",
-      "swe_in": 0.0,
-      "swe_in_date": "2026-09-05",
-      "change_12h_in": 0,
-      "change_24h_in": -1
-    },
-    "Santiam / Hoodoo (Hogg Pass)": {
-      "snow_depth_in": 0,
-      "snow_depth_in_date": "2026-09-05",
-      "swe_in": 0.2,
-      "swe_in_date": "2026-09-05",
-      "change_12h_in": 0,
-      "change_24h_in": 0
-    },
-    "Ochocos (Ochoco Meadows)": {
-      "snow_depth_in": 0,
-      "snow_depth_in_date": "2026-09-05",
-      "swe_in": 0.0,
-      "swe_in_date": "2026-09-05",
-      "change_12h_in": 0,
-      "change_24h_in": 0
-    }
+    "error": "HTTPSConnectionPool(host='wcc.sc.egov.usda.gov', port=443): Max retries exceeded with url: /awdbRestApi/services/v1/data?stationTriplets=545%3AOR%3ASNTL&elements=SNWD%2CWTEQ&duration=DAILY&getFlags=false&beginDate=-1&endDate=-1 (Caused by ConnectTimeoutError(<HTTPSConnection(host='wcc.sc.egov.usda.gov', port=443) at 0x7f1a3ad13920>, 'Connection to wcc.sc.egov.usda.gov timed out. (connect timeout=None)'))"
   },
   "odot_cams": {
     "Century Drive": [
