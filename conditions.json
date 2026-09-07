@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-07T19:17:30.018514+00:00",
+  "generated_at": "2026-09-07T19:30:20.813278+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -914,8 +914,8 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 3,
-        "wind_direction_deg": 280,
+        "wind_speed_mph": 7.0,
+        "wind_direction_deg": 315,
         "snow_level_ft": 7546,
         "temp_f": 53
       },
@@ -3087,12 +3087,12 @@
     "Hoodoo": {
       "elevation_ft": 4705,
       "temp_f": 53,
-      "wind_speed_mph": 3,
-      "wind_direction_deg": 280,
+      "wind_speed_mph": 7.0,
+      "wind_direction_deg": 315,
       "snow_level_ft": 7546,
       "precip_chance_today": 1,
-      "snowfall_12h_in": null,
-      "snowfall_24h_in": null,
+      "snowfall_12h_in": -0.3,
+      "snowfall_24h_in": -0.1,
       "snowfall_48h_in": null
     },
     "Willamette Pass": {
@@ -4192,7 +4192,7 @@
       "swe_in": 0.0,
       "swe_in_date": "2026-09-06",
       "change_12h_in": 0,
-      "change_24h_in": 1
+      "change_24h_in": 0
     },
     "Santiam / Hoodoo (Hogg Pass)": {
       "snow_depth_in": 0,
@@ -4315,7 +4315,7 @@
   "mtbachelor": {
     "weather": {
       "current": {
-        "temperature": 49,
+        "temperature": 48,
         "weather_icon": "dor-sunny"
       },
       "forecast": [
@@ -4329,8 +4329,8 @@
           "day": "Monday",
           "temperature_high": 56,
           "temperature_low": 31,
-          "precipitation_high": 54,
-          "precipitation_low": 54,
+          "precipitation_high": 53,
+          "precipitation_low": 53,
           "wind_speed": 7,
           "wind_direction": "W"
         },
@@ -4448,10 +4448,10 @@
           "active": true,
           "primary": true,
           "nonstandardizedDataPoints": {
-            "depth": "143.5",
-            "timestamp": "2026-09-07T11:00:00.000Z"
+            "depth": "-1.335",
+            "timestamp": "2026-09-07T12:00:00.000Z"
           },
-          "temperature": "48.61",
+          "temperature": "48.37",
           "wind": {
             "low": "0",
             "high": "0",
@@ -4471,15 +4471,15 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-09-07T11:00:00.000Z"
+            "timestamp": "2026-09-07T12:00:00.000Z"
           },
-          "temperature": "42.66",
+          "temperature": "45.43",
           "wind": {
-            "low": "4.147",
-            "high": "13.87",
+            "low": "5.028",
+            "high": "14.99",
             "current": null,
-            "average": "4.147",
-            "direction": "NNW"
+            "average": "5.028",
+            "direction": "N"
           },
           "humidity": null,
           "display_name": "Sunrise",
@@ -4493,17 +4493,17 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-09-07T11:00:00.000Z"
+            "timestamp": "2026-09-07T12:00:00.000Z"
           },
-          "temperature": "39.74",
+          "temperature": "41.89",
           "wind": {
-            "low": "0.577",
-            "high": "7.928",
+            "low": "3.103",
+            "high": "7.975",
             "current": null,
-            "average": "0.577",
-            "direction": "S"
+            "average": "3.103",
+            "direction": "NW"
           },
-          "humidity": "86.4",
+          "humidity": "81.8",
           "display_name": "Pine Marten",
           "elevation_ft": 7800
         },
@@ -4515,15 +4515,15 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-09-07T11:00:00.000Z"
+            "timestamp": "2026-09-07T12:00:00.000Z"
           },
-          "temperature": "40.15",
+          "temperature": "41.06",
           "wind": {
-            "low": "4.106",
-            "high": "9.62",
+            "low": "4.579",
+            "high": "10.74",
             "current": null,
-            "average": "4.106",
-            "direction": "N"
+            "average": "4.579",
+            "direction": "NNE"
           },
           "humidity": null,
           "display_name": "Cloud Chaser",
@@ -4628,19 +4628,72 @@
     }
   },
   "hoodoo": {
-    "error": "HTTPSConnectionPool(host='santiampsp.org', port=443): Max retries exceeded with url: /wx/weather.htm (Caused by ConnectTimeoutError(<HTTPSConnection(host='santiampsp.org', port=443) at 0x7fb9e6e77ce0>, 'Connection to santiampsp.org timed out. (connect timeout=None)'))"
+    "weather": {
+      "Temperature": "46 &#176F",
+      "Wind": "NW @ 7 MPH",
+      "Snow depth": "-0.6\"",
+      "Humidity": "82 %",
+      "Barometer": "30.08\" Hg",
+      "Rain Gauge": "0.95\""
+    },
+    "snow_totals": {
+      "trend": {
+        "Max": "0.6\"",
+        "Min": "-1.7\"",
+        "1 Hr": "0.2\"",
+        "3 Hr": "0.0\"",
+        "6 Hr": "0.1\"",
+        "12 Hr": "-0.3\"",
+        "24 Hr": "-0.1\""
+      },
+      "season_total_in": 158.5
+    },
+    "webcams": {
+      "Base Area": {
+        "src": "https://santiampsp.org/wx/weather16.jpg",
+        "link": "https://hoodoo.com/the-mountain/webcams/"
+      },
+      "Top of Manzanita": {
+        "src": "https://santiampsp.org/wx/weather3.jpg",
+        "link": "https://hoodoo.com/the-mountain/webcams/"
+      },
+      "Top of Ed": {
+        "src": "https://santiampsp.org/wx/weather2.jpg",
+        "link": "https://hoodoo.com/the-mountain/webcams/"
+      },
+      "Top of Easy Rider": {
+        "src": "https://santiampsp.org/wx/weather4.jpg",
+        "link": "https://hoodoo.com/the-mountain/webcams/"
+      },
+      "Hoodoo Parking Lot": {
+        "src": "https://santiampsp.org/wx/weather12.jpg",
+        "link": "https://hoodoo.com/the-mountain/webcams/"
+      },
+      "Hoodoo Summit": {
+        "src": "https://santiampsp.org/wx/weather1.jpg",
+        "link": "https://hoodoo.com/the-mountain/webcams/"
+      },
+      "Hayrick Butte & \"Gripper\" run from top of Ed chair": {
+        "src": "https://santiampsp.org/wx/weather2b.jpg",
+        "link": "https://hoodoo.com/the-mountain/webcams/"
+      },
+      "Hoodoo Parking Lot View #2": {
+        "src": "https://santiampsp.org/wx/weather10.jpg",
+        "link": "https://hoodoo.com/the-mountain/webcams/"
+      }
+    }
   },
   "willamette_pass": {
     "forecast": {
       "weather_provider": "NOAA",
-      "date": "September 7, 2026, 11:59 am",
-      "time": 1788807547000,
+      "date": "September 7, 2026, 12:29 pm",
+      "time": 1788809343000,
       "current_weather": "Sunny",
       "current_temperature": "56",
       "forecast": [
         {
           "day": "Monday",
-          "day_forecast": "Sunny, with a high near 59. Light west wind becoming west northwest 5 to 9 mph in the afternoon. ",
+          "day_forecast": "Sunny, with a high near 59. West northwest wind 5 to 9 mph. ",
           "night_forecast": "Clear, with a low around 39. West northwest wind 5 to 7 mph becoming light and variable. "
         },
         {
@@ -4715,27 +4768,18 @@
       "Lifts Open": "0/6",
       "Trails Open": "0/30"
     },
-    "webcams": {
-      "Base Area": {
-        "src": "https://www.youtube.com/embed/sNVA6oC7vcM",
-        "link": "https://www.willamettepass.ski/weather-conditions-webcams/webcams/"
-      },
-      "EPA": {
-        "src": "https://www.youtube.com/embed/uav7cBNVv0k",
-        "link": "https://www.willamettepass.ski/weather-conditions-webcams/webcams/"
-      }
-    }
+    "webcams": {}
   },
   "snow_stake_cams": {
     "Mt. Bachelor (Snow Stake)": {
       "src": "https://api.mtbachelor.com/api/v1/cams/mtn/14",
       "link": "https://www.mtbachelor.com/the-mountain/webcams/live-cam-14/"
     },
-    "Hoodoo (Base Area)": null,
-    "Willamette Pass (Base Area)": {
-      "src": "https://www.youtube.com/embed/sNVA6oC7vcM",
-      "link": "https://www.willamettepass.ski/weather-conditions-webcams/webcams/"
-    }
+    "Hoodoo (Base Area)": {
+      "src": "https://santiampsp.org/wx/weather16.jpg",
+      "link": "https://hoodoo.com/the-mountain/webcams/"
+    },
+    "Willamette Pass (Base Area)": null
   },
   "satellite": {
     "Pacific Northwest": {
