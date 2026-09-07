@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-07T19:30:20.813278+00:00",
+  "generated_at": "2026-09-07T19:45:18.086197+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -914,8 +914,8 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 7.0,
-        "wind_direction_deg": 315,
+        "wind_speed_mph": 5.0,
+        "wind_direction_deg": 292.5,
         "snow_level_ft": 7546,
         "temp_f": 53
       },
@@ -3087,12 +3087,12 @@
     "Hoodoo": {
       "elevation_ft": 4705,
       "temp_f": 53,
-      "wind_speed_mph": 7.0,
-      "wind_direction_deg": 315,
+      "wind_speed_mph": 5.0,
+      "wind_direction_deg": 292.5,
       "snow_level_ft": 7546,
       "precip_chance_today": 1,
-      "snowfall_12h_in": -0.3,
-      "snowfall_24h_in": -0.1,
+      "snowfall_12h_in": -0.4,
+      "snowfall_24h_in": -0.7,
       "snowfall_48h_in": null
     },
     "Willamette Pass": {
@@ -3928,10 +3928,6 @@
     ],
     "historical_precip_snapshots": [
       {
-        "time": "2026-09-04T19:30:22.233880+00:00",
-        "precip_in": 0
-      },
-      {
         "time": "2026-09-04T20:45:21.352774+00:00",
         "precip_in": 0
       },
@@ -4174,6 +4170,10 @@
       {
         "time": "2026-09-07T18:45:17.234766+00:00",
         "precip_in": 0
+      },
+      {
+        "time": "2026-09-07T19:45:18.371853+00:00",
+        "precip_in": 0
       }
     ]
   },
@@ -4327,10 +4327,10 @@
           "weather_icon": "dor-sunny",
           "id": 1788811200,
           "day": "Monday",
-          "temperature_high": 56,
+          "temperature_high": 55,
           "temperature_low": 31,
-          "precipitation_high": 53,
-          "precipitation_low": 53,
+          "precipitation_high": 45,
+          "precipitation_low": 45,
           "wind_speed": 7,
           "wind_direction": "W"
         },
@@ -4374,8 +4374,8 @@
           "day": "Thursday",
           "temperature_high": 66,
           "temperature_low": 45,
-          "precipitation_high": 38,
-          "precipitation_low": 38,
+          "precipitation_high": 37,
+          "precipitation_low": 37,
           "wind_speed": 13,
           "wind_direction": "WNW"
         },
@@ -4630,21 +4630,21 @@
   "hoodoo": {
     "weather": {
       "Temperature": "46 &#176F",
-      "Wind": "NW @ 7 MPH",
-      "Snow depth": "-0.6\"",
+      "Wind": "WNW @ 5 MPH",
+      "Snow depth": "-0.7\"",
       "Humidity": "82 %",
-      "Barometer": "30.08\" Hg",
+      "Barometer": "30.07\" Hg",
       "Rain Gauge": "0.95\""
     },
     "snow_totals": {
       "trend": {
         "Max": "0.6\"",
         "Min": "-1.7\"",
-        "1 Hr": "0.2\"",
-        "3 Hr": "0.0\"",
-        "6 Hr": "0.1\"",
-        "12 Hr": "-0.3\"",
-        "24 Hr": "-0.1\""
+        "1 Hr": "-0.2\"",
+        "3 Hr": "-0.3\"",
+        "6 Hr": "-0.4\"",
+        "12 Hr": "-0.4\"",
+        "24 Hr": "-0.7\""
       },
       "season_total_in": 158.5
     },
@@ -4768,7 +4768,16 @@
       "Lifts Open": "0/6",
       "Trails Open": "0/30"
     },
-    "webcams": {}
+    "webcams": {
+      "Base Area": {
+        "src": "https://www.youtube.com/embed/sNVA6oC7vcM",
+        "link": "https://www.willamettepass.ski/weather-conditions-webcams/webcams/"
+      },
+      "EPA": {
+        "src": "https://www.youtube.com/embed/uav7cBNVv0k",
+        "link": "https://www.willamettepass.ski/weather-conditions-webcams/webcams/"
+      }
+    }
   },
   "snow_stake_cams": {
     "Mt. Bachelor (Snow Stake)": {
@@ -4779,20 +4788,23 @@
       "src": "https://santiampsp.org/wx/weather16.jpg",
       "link": "https://hoodoo.com/the-mountain/webcams/"
     },
-    "Willamette Pass (Base Area)": null
+    "Willamette Pass (Base Area)": {
+      "src": "https://www.youtube.com/embed/sNVA6oC7vcM",
+      "link": "https://www.willamettepass.ski/weather-conditions-webcams/webcams/"
+    }
   },
   "satellite": {
     "Pacific Northwest": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/pnw/13/GOES18-PNW-13-600x600.gif",
-      "last_modified": "Mon, 07 Sep 2026 19:13:42 GMT"
+      "last_modified": "Mon, 07 Sep 2026 19:43:17 GMT"
     },
     "North Pacific (macro)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/np/13/GOES18-NP-13-900x540.gif",
-      "last_modified": "Mon, 07 Sep 2026 19:13:54 GMT"
+      "last_modified": "Mon, 07 Sep 2026 19:43:27 GMT"
     },
     "Pacific US (PACUS)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/13/GOES18-CONUS-13-625x375.gif",
-      "last_modified": "Mon, 07 Sep 2026 19:06:48 GMT"
+      "last_modified": "Mon, 07 Sep 2026 19:36:44 GMT"
     }
   },
   "gfs_snowfall": {
