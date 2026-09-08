@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08T04:01:08.359994+00:00",
+  "generated_at": "2026-09-08T04:14:25.934809+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -914,8 +914,8 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 12.0,
-        "wind_direction_deg": 315,
+        "wind_speed_mph": 0,
+        "wind_direction_deg": 0,
         "snow_level_ft": 7929,
         "temp_f": 45
       },
@@ -3081,18 +3081,18 @@
       "snow_level_ft": 8792,
       "precip_chance_today": 1,
       "snowfall_12h_in": null,
-      "snowfall_24h_in": null,
-      "snowfall_48h_in": null
+      "snowfall_24h_in": 0,
+      "snowfall_48h_in": 0
     },
     "Hoodoo": {
       "elevation_ft": 4705,
       "temp_f": 45,
-      "wind_speed_mph": 12.0,
-      "wind_direction_deg": 315,
+      "wind_speed_mph": 0,
+      "wind_direction_deg": 0,
       "snow_level_ft": 7929,
       "precip_chance_today": 0,
-      "snowfall_12h_in": -1.1,
-      "snowfall_24h_in": -1.3,
+      "snowfall_12h_in": null,
+      "snowfall_24h_in": null,
       "snowfall_48h_in": null
     },
     "Willamette Pass": {
@@ -4178,42 +4178,15 @@
       {
         "time": "2026-09-08T02:30:20.221641+00:00",
         "precip_in": 0
+      },
+      {
+        "time": "2026-09-08T04:14:26.384696+00:00",
+        "precip_in": 0
       }
     ]
   },
   "snotel": {
-    "Mt Bachelor area (Irish Taylor)": {
-      "snow_depth_in": 0,
-      "snow_depth_in_date": "2026-09-06",
-      "swe_in": 0.3,
-      "swe_in_date": "2026-09-06",
-      "change_12h_in": 0,
-      "change_24h_in": 0
-    },
-    "Three Creek / Tam McArthur (Three Creeks Meadow)": {
-      "snow_depth_in": 0,
-      "snow_depth_in_date": "2026-09-06",
-      "swe_in": 0.0,
-      "swe_in_date": "2026-09-06",
-      "change_12h_in": 0,
-      "change_24h_in": 0
-    },
-    "Santiam / Hoodoo (Hogg Pass)": {
-      "snow_depth_in": 0,
-      "snow_depth_in_date": "2026-09-06",
-      "swe_in": 0.2,
-      "swe_in_date": "2026-09-06",
-      "change_12h_in": 0,
-      "change_24h_in": 0
-    },
-    "Ochocos (Ochoco Meadows)": {
-      "snow_depth_in": 0,
-      "snow_depth_in_date": "2026-09-06",
-      "swe_in": 0.0,
-      "swe_in_date": "2026-09-06",
-      "change_12h_in": 0,
-      "change_24h_in": 0
-    }
+    "error": "500 Server Error: Internal Server Error for url: https://wcc.sc.egov.usda.gov/awdbRestApi/services/v1/data?stationTriplets=815%3AOR%3ASNTL&elements=SNWD&duration=HOURLY&getFlags=false&beginDate=2026-09-05+16%3A14&endDate=2026-09-08+16%3A14"
   },
   "odot_cams": {
     "Century Drive": [
@@ -4317,28 +4290,325 @@
     ]
   },
   "mtbachelor": {
-    "error": "504 Server Error: Gateway Time-out for url: https://api.mtbachelor.com/api/v1/dor/drupal/snow-reports?sort=date&direction=desc"
+    "weather": {
+      "current": {
+        "temperature": 46,
+        "weather_icon": "dor-sunny"
+      },
+      "forecast": [
+        {
+          "date": "2026-09-07",
+          "description_long": "clear sky",
+          "description_short": "clear sky",
+          "details": "Clear",
+          "weather_icon": "dor-sunny",
+          "id": 1788811200,
+          "day": "Monday",
+          "temperature_high": 53,
+          "temperature_low": 31,
+          "precipitation_high": 48,
+          "precipitation_low": 48,
+          "wind_speed": 7,
+          "wind_direction": "W"
+        },
+        {
+          "date": "2026-09-08",
+          "description_long": "clear sky",
+          "description_short": "clear sky",
+          "details": "Clear",
+          "weather_icon": "dor-sunny",
+          "id": 1788897600,
+          "day": "Tuesday",
+          "temperature_high": 68,
+          "temperature_low": 32,
+          "precipitation_high": 25,
+          "precipitation_low": 25,
+          "wind_speed": 5,
+          "wind_direction": "NNE"
+        },
+        {
+          "date": "2026-09-09",
+          "description_long": "clear sky",
+          "description_short": "clear sky",
+          "details": "Clear",
+          "weather_icon": "dor-sunny",
+          "id": 1788984000,
+          "day": "Wednesday",
+          "temperature_high": 75,
+          "temperature_low": 37,
+          "precipitation_high": 17,
+          "precipitation_low": 17,
+          "wind_speed": 10,
+          "wind_direction": "WNW"
+        },
+        {
+          "date": "2026-09-10",
+          "description_long": "scattered clouds",
+          "description_short": "scattered clouds",
+          "details": "Clouds",
+          "weather_icon": "dor-cloudy",
+          "id": 1789070400,
+          "day": "Thursday",
+          "temperature_high": 67,
+          "temperature_low": 43,
+          "precipitation_high": 28,
+          "precipitation_low": 28,
+          "wind_speed": 14,
+          "wind_direction": "WNW"
+        },
+        {
+          "date": "2026-09-11",
+          "description_long": "clear sky",
+          "description_short": "clear sky",
+          "details": "Clear",
+          "weather_icon": "dor-sunny",
+          "id": 1789156800,
+          "day": "Friday",
+          "temperature_high": 66,
+          "temperature_low": 39,
+          "precipitation_high": 16,
+          "precipitation_low": 16,
+          "wind_speed": 8,
+          "wind_direction": "W"
+        },
+        {
+          "date": "2026-09-12",
+          "description_long": "rain and snow",
+          "description_short": "rain and snow",
+          "details": "Snow",
+          "weather_icon": "dor-snow",
+          "id": 1789243200,
+          "day": "Saturday",
+          "temperature_high": 40,
+          "temperature_low": 34,
+          "precipitation_high": 92,
+          "precipitation_low": 92,
+          "wind_speed": 8,
+          "wind_direction": "W"
+        },
+        {
+          "date": "2026-09-13",
+          "description_long": "clear sky",
+          "description_short": "clear sky",
+          "details": "Clear",
+          "weather_icon": "dor-sunny",
+          "id": 1789329600,
+          "day": "Sunday",
+          "temperature_high": 57,
+          "temperature_low": 34,
+          "precipitation_high": 36,
+          "precipitation_low": 36,
+          "wind_speed": 8,
+          "wind_direction": "E"
+        },
+        {
+          "date": "2026-09-14",
+          "description_long": "broken clouds",
+          "description_short": "broken clouds",
+          "details": "Clouds",
+          "weather_icon": "dor-mostlycloudy",
+          "id": 1789416000,
+          "day": "Monday",
+          "temperature_high": 64,
+          "temperature_low": 40,
+          "precipitation_high": 25,
+          "precipitation_low": 25,
+          "wind_speed": 6,
+          "wind_direction": "N"
+        }
+      ],
+      "sensors": {
+        "snowplot": {
+          "id": "b39f39cc-cd36-40bf-97d1-8ca0d4f53758",
+          "location": null,
+          "source": "sensor",
+          "active": true,
+          "primary": true,
+          "nonstandardizedDataPoints": {
+            "depth": "143.7",
+            "timestamp": "2026-09-07T20:00:00.000Z"
+          },
+          "temperature": "46.46",
+          "wind": {
+            "low": "0",
+            "high": "0",
+            "current": null,
+            "average": "0",
+            "direction": "N"
+          },
+          "humidity": null,
+          "display_name": "West Village",
+          "elevation_ft": 6300
+        },
+        "sunrise": {
+          "id": "b6367a1d-4234-49a7-8d80-0ee27952ab2a",
+          "location": null,
+          "source": "sensor",
+          "active": true,
+          "primary": false,
+          "nonstandardizedDataPoints": {
+            "depth": null,
+            "timestamp": "2026-09-07T20:00:00.000Z"
+          },
+          "temperature": "44.54",
+          "wind": {
+            "low": "6.402",
+            "high": "10.96",
+            "current": null,
+            "average": "6.402",
+            "direction": "SW"
+          },
+          "humidity": null,
+          "display_name": "Sunrise",
+          "elevation_ft": 7300
+        },
+        "pine": {
+          "id": "d4733e20-0560-43c9-96da-67f78798dfb8",
+          "location": null,
+          "source": "sensor",
+          "active": true,
+          "primary": false,
+          "nonstandardizedDataPoints": {
+            "depth": null,
+            "timestamp": "2026-09-07T20:00:00.000Z"
+          },
+          "temperature": "43.17",
+          "wind": {
+            "low": "1.119",
+            "high": "12.09",
+            "current": null,
+            "average": "1.119",
+            "direction": "W"
+          },
+          "humidity": "75.14",
+          "display_name": "Pine Marten",
+          "elevation_ft": 7800
+        },
+        "cloudChaser": {
+          "id": "b7f6c1b8-69e9-4ef8-8f5c-327bb9792b94",
+          "location": null,
+          "source": "sensor",
+          "active": true,
+          "primary": false,
+          "nonstandardizedDataPoints": {
+            "depth": null,
+            "timestamp": "2026-09-07T20:00:00.000Z"
+          },
+          "temperature": "43.57",
+          "wind": {
+            "low": "4.202",
+            "high": "9.84",
+            "current": null,
+            "average": "4.202",
+            "direction": "SSE"
+          },
+          "humidity": null,
+          "display_name": "Cloud Chaser",
+          "elevation_ft": 7700
+        },
+        "northwest": {
+          "id": "dac9eafe-3feb-4563-91cd-be72b81b6bdd",
+          "location": null,
+          "source": "sensor",
+          "active": true,
+          "primary": false,
+          "nonstandardizedDataPoints": {
+            "depth": null,
+            "timestamp": "2026-06-03T06:00:00.000Z"
+          },
+          "temperature": null,
+          "wind": {
+            "low": "14.51",
+            "high": "24.83",
+            "current": null,
+            "average": "14.51",
+            "direction": "SW"
+          },
+          "humidity": null,
+          "display_name": "Northwest",
+          "elevation_ft": 8000
+        },
+        "summit": {
+          "id": "b1c80a87-b68c-444d-b570-750bc1c8775d",
+          "location": null,
+          "source": "sensor",
+          "active": true,
+          "primary": false,
+          "nonstandardizedDataPoints": {
+            "depth": null,
+            "timestamp": "2026-09-07T21:00:00.000Z"
+          },
+          "temperature": "37.4",
+          "wind": {
+            "low": "13.57",
+            "high": "22.15",
+            "current": null,
+            "average": "13.57",
+            "direction": "WSW"
+          },
+          "humidity": "80.2",
+          "display_name": "Summit",
+          "elevation_ft": 9065
+        }
+      }
+    },
+    "latest_report": {
+      "id": "bceda417-338b-4452-b68d-abc59d74708e",
+      "name": "Snow Report 2026-09-07 07:23:25",
+      "date": "2026-09-07 07:23:25",
+      "location": {
+        "uuid": "d23b232c-529b-4408-9a10-602ab79c548a",
+        "name": "Primary"
+      },
+      "report": "<p><strong>Mountain Report Sept 7 - 13&nbsp;</strong></p><p><strong>4:00pm Update: </strong>Last Chance is open.</p><p><strong>3:30pm Update: </strong>Rockfall is open.</p><p><strong>2:15pm Update:</strong> Redline is open.</p><p><strong>11:30am Update: </strong>Bike trails off Pine Marten will open at 12:00pm with the exception of Redline, Rockfall, and Last Chance, due to snow.&nbsp;</p><p><strong>8:45am Update: </strong>Biking off Pine Marten will be delayed until approximately 12:00pm due to snow on trails. Biking off Little Pine will open as usual at 10:00am. Check back here for updates.</p><p><em><strong>Happy Labor Day! Mt. Bachelor will be open today with Pine Marten spinning until 7:00pm and Little Pine spinning until 5:00pm. We will be closed Tuesday and Wednesday as we transition to fall operating hours: Thursday - Sunday, from noon to 6:00pm. Click </strong></em><a href=\"https://www.mtbachelor.com/the-mountain/hours-of-operation/\"><em><strong>here </strong></em></a><em><strong>for additional details.</strong></em></p><p>The <a href=\"https://forecast.weather.gov/MapClick.php?lon=-121.67019367218019&amp;lat=43.97341445519288#.YYloWmDMI2x\"><strong>forecast </strong></a>this week calls for clear skies, lows nearing freezing, and highs reaching 75 degrees by Wednesday. Layer up and be prepared for cold temperatures, especially at mid-mountain. Last week's rain and snow will make for some great trail conditions! Check the <a href=\"https://www.mtbachelor.com/the-mountain/lift-trail-report/\"><strong>Lift &amp; Trail Status page</strong></a> for the full list of available Bike Park and hiking trails.&nbsp;</p><p><strong>Events</strong></p><p>This Saturday, Mt. Bachelor will host the <a href=\"https://www.mtbachelor.com/events-activities/events/events-calendar/bachelor-ascent/\"><strong>Bachelor Ascent Running Race.</strong></a> Stop by Mountain Gateway for the Mt. Bachelor Sports Pro Shop sale, featuring up to<a href=\"https://www.mtbachelor.com/events-activities/events/events-calendar/summer-stoke-sale/\"><strong> 70% off storewide</strong></a>. Visit the <a href=\"https://www.mtbachelor.com/events-activities/events/events-calendar/\"><strong>Events Page&nbsp;</strong></a>to learn more about upcoming happenings.&nbsp;</p><p><strong>Please Note:</strong></p><ul><li><em>Mt. Bachelor allows&nbsp;</em><a href=\"https://transitbikes.com/blog/class-1-ebike-explained/\"><strong>Class-1 pedal-assist e-mountain bikes</strong></a><strong>&nbsp;</strong>o<em>n its downhill Bike Park trails. Class 2 and 3 e-bikes are prohibited. Mt. Bachelor continues to welcome the use of adaptive e-bikes.</em></li><li><em>Uphill riding is prohibited on all Mt. Bachelor trails and service roads, and all users must have a valid&nbsp;</em><a href=\"https://www.mtbachelor.com/tickets-passes/summer-tickets-passes/#daily\"><em><strong>lift ticket or pass</strong></em></a><em> to enjoy the Bike Park.\u202f</em></li><li><em>Smoking and vaping are not permitted anywhere at Mt. Bachelor, except inside personal vehicles.</em></li></ul><p><a href=\"https://www.mtbachelor.com/events-activities/summer-activities/\"><em><strong>Summer activities</strong></em></a><em><strong> </strong>at Mt. Bachelor include Bike Park, a zipline ZipTour, Sunset Dinners, scenic chairlift rides, camping, hiking, dining, and disc golf. Sun Country Tours offers a variety of half and full-day </em><a href=\"https://www.suncountrytours.com/whitewater-rafting/choose-your-trip/compare/\"><em><strong>whitewater rafting adventures</strong></em></a><em><strong> </strong>and </em><a href=\"https://www.suncountrytours.com/tubing-sup/river-tube/\"><em><strong>river tube rentals</strong></em></a><em><strong> </strong>including transportation to and from the water via electric golf cart shuttles.</em></p>",
+      "amount": 0,
+      "overnight_amount": 0,
+      "base_depth": 0,
+      "unit_of_measurement": "in",
+      "author": {
+        "name": "",
+        "image": ""
+      },
+      "created": 1788791530,
+      "updated": 1788821995,
+      "computed": {
+        "24_hour": 0,
+        "48_hour": 0,
+        "72_hour": 0,
+        "7_day": 0,
+        "30_day": 0,
+        "month": 0,
+        "total": 206
+      }
+    },
+    "webcams": {
+      "Base of Pine Marten Lift": {
+        "src": "https://api.mtbachelor.com/api/v1/cams/mtn/1",
+        "link": "https://www.mtbachelor.com/the-mountain/webcams/live-cam-1/"
+      },
+      "Summit": {
+        "src": "https://api.mtbachelor.com/api/v1/cams/mtn/8",
+        "link": "https://www.mtbachelor.com/the-mountain/webcams/live-cam-8/"
+      },
+      "Mid-Mountain": {
+        "src": "https://api.mtbachelor.com/api/v1/cams/mtn/12",
+        "link": "https://www.mtbachelor.com/the-mountain/webcams/live-cam-12/"
+      },
+      "West Village": {
+        "src": "https://api.mtbachelor.com/api/v1/cams/mtn/13",
+        "link": "https://www.mtbachelor.com/the-mountain/webcams/live-cam-13/"
+      },
+      "Snow Stake": {
+        "src": "https://api.mtbachelor.com/api/v1/cams/mtn/14",
+        "link": "https://www.mtbachelor.com/the-mountain/webcams/live-cam-14/"
+      }
+    }
   },
   "hoodoo": {
-    "weather": {
-      "Temperature": "46 &#176F",
-      "Wind": "NW @ 12 MPH",
-      "Snow depth": "-0.3\"",
-      "Humidity": "100 %",
-      "Barometer": "30.17\" Hg",
-      "Rain Gauge": "0.91\""
-    },
+    "weather": {},
     "snow_totals": {
-      "trend": {
-        "Max": "0.6\"",
-        "Min": "-2.8\"",
-        "1 Hr": "-0.8\"",
-        "3 Hr": "-0.3\"",
-        "6 Hr": "-0.5\"",
-        "12 Hr": "-1.1\"",
-        "24 Hr": "-1.3\""
-      },
-      "season_total_in": 158.5
+      "trend": {},
+      "season_total_in": null
     },
     "webcams": {
       "Base Area": {
@@ -4378,48 +4648,48 @@
   "willamette_pass": {
     "forecast": {
       "weather_provider": "NOAA",
-      "date": "September 7, 2026, 8:44 pm",
-      "time": 1788839097000,
+      "date": "September 7, 2026, 8:58 pm",
+      "time": 1788839880000,
       "current_weather": "Clear",
-      "current_temperature": "54",
+      "current_temperature": "49",
       "forecast": [
         {
           "day": "Monday",
-          "night_forecast": "Clear, with a low around 39. Light and variable wind becoming east northeast around 6 mph in the evening. "
+          "night_forecast": "Clear, with a low around 39. Northwest wind 5 to 8 mph becoming east after midnight. "
         },
         {
           "day": "Tuesday",
-          "day_forecast": "Sunny, with a high near 69. East southeast wind 6 to 8 mph. ",
-          "night_forecast": "Mostly clear, with a low around 46. Light east northeast wind becoming east southeast 5 to 10 mph in the evening. "
+          "day_forecast": "Sunny, with a high near 66. East southeast wind 6 to 9 mph. ",
+          "night_forecast": "Mostly clear, with a low around 46. Northeast wind 5 to 10 mph becoming east southeast after midnight. "
         },
         {
           "day": "Wednesday",
-          "day_forecast": "Sunny, with a high near 76. Southeast wind 5 to 8 mph becoming light and variable. ",
-          "night_forecast": "Mostly clear, with a low around 49. West wind 5 to 7 mph becoming calm  in the evening. "
+          "day_forecast": "Sunny, with a high near 75. Southeast wind 5 to 8 mph becoming light and variable. ",
+          "night_forecast": "Mostly clear, with a low around 50. West northwest wind 5 to 9 mph becoming light. "
         },
         {
           "day": "Thursday",
-          "day_forecast": "Sunny, with a high near 68.",
-          "night_forecast": "Partly cloudy, with a low around 43."
-        },
-        {
-          "day": "Friday",
-          "day_forecast": "Mostly sunny, with a high near 61.",
+          "day_forecast": "Sunny, with a high near 69.",
           "night_forecast": "Partly cloudy, with a low around 39."
         },
         {
+          "day": "Friday",
+          "day_forecast": "Sunny, with a high near 61.",
+          "night_forecast": "Partly cloudy, with a low around 38."
+        },
+        {
           "day": "Saturday",
-          "day_forecast": "A slight chance of rain.  Snow level 7100 feet rising to 7700 feet in the afternoon. Mostly sunny, with a high near 52.",
-          "night_forecast": "A slight chance of rain.  Snow level 7600 feet. Partly cloudy, with a low around 39."
+          "day_forecast": "A slight chance of rain, then a chance of showers and thunderstorms after 11am.  Snow level 6900 feet rising to 7500 feet in the afternoon. Partly sunny, with a high near 50.",
+          "night_forecast": "A chance of rain.  Snow level 7600 feet. Mostly cloudy, with a low around 37."
         },
         {
           "day": "Sunday",
-          "day_forecast": "Sunny, with a high near 55."
+          "day_forecast": "A slight chance of rain.  Snow level 7400 feet rising to 8200 feet in the afternoon. Mostly sunny, with a high near 55."
         }
       ],
       "wind": "NA",
       "icon": "0150-clear-night.svg",
-      "max_temp": "69",
+      "max_temp": "66",
       "min_temp": "39",
       "hourly": [
         {
@@ -4475,7 +4745,10 @@
     }
   },
   "snow_stake_cams": {
-    "Mt. Bachelor (Snow Stake)": null,
+    "Mt. Bachelor (Snow Stake)": {
+      "src": "https://api.mtbachelor.com/api/v1/cams/mtn/14",
+      "link": "https://www.mtbachelor.com/the-mountain/webcams/live-cam-14/"
+    },
     "Hoodoo (Base Area)": {
       "src": "https://santiampsp.org/wx/weather16.jpg",
       "link": "https://hoodoo.com/the-mountain/webcams/"
@@ -4488,21 +4761,21 @@
   "satellite": {
     "Pacific Northwest": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/pnw/13/GOES18-PNW-13-600x600.gif",
-      "last_modified": "Tue, 08 Sep 2026 03:41:18 GMT"
+      "last_modified": "Tue, 08 Sep 2026 04:11:34 GMT"
     },
     "North Pacific (macro)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/np/13/GOES18-NP-13-900x540.gif",
-      "last_modified": "Tue, 08 Sep 2026 03:41:27 GMT"
+      "last_modified": "Tue, 08 Sep 2026 04:11:44 GMT"
     },
     "Pacific US (PACUS)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/13/GOES18-CONUS-13-625x375.gif",
-      "last_modified": "Tue, 08 Sep 2026 03:35:48 GMT"
+      "last_modified": "Tue, 08 Sep 2026 04:05:53 GMT"
     }
   },
   "gfs_snowfall": {
     "path": "gfs_snowfall_pnw.gif",
     "legend_path": "gfs_snowfall_legend.png",
-    "cycle_run_at": "2026-09-07T18:00:00+00:00",
+    "cycle_run_at": "2026-09-08T00:00:00+00:00",
     "forecast_hours": [
       3,
       6,
