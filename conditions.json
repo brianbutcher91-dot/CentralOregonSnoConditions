@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08T12:42:49.541298+00:00",
+  "generated_at": "2026-09-08T12:45:18.944470+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -7,7 +7,7 @@
         {
           "number": 1,
           "name": "Overnight",
-          "startTime": "2026-09-08T05:00:00-07:00",
+          "startTime": "2026-09-08T04:00:00-07:00",
           "endTime": "2026-09-08T06:00:00-07:00",
           "isDaytime": false,
           "temperature": 37,
@@ -23,7 +23,7 @@
           "shortForecast": "Mostly Clear",
           "detailedForecast": "Mostly clear, with a low around 37. East wind around 6 mph.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 8228
+          "snowLevelFt": 8234
         },
         {
           "number": 2,
@@ -314,7 +314,7 @@
         {
           "number": 1,
           "name": "Overnight",
-          "startTime": "2026-09-08T05:00:00-07:00",
+          "startTime": "2026-09-08T04:00:00-07:00",
           "endTime": "2026-09-08T06:00:00-07:00",
           "isDaytime": false,
           "temperature": 38,
@@ -330,7 +330,7 @@
           "shortForecast": "Mostly Clear",
           "detailedForecast": "Mostly clear, with a low around 38. South wind around 2 mph.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 8162
+          "snowLevelFt": 8234
         },
         {
           "number": 2,
@@ -914,7 +914,7 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 5,
+        "wind_speed_mph": 15.0,
         "wind_direction_deg": 90,
         "snow_level_ft": 7969,
         "temp_f": 40
@@ -2156,7 +2156,7 @@
         {
           "number": 1,
           "name": "Overnight",
-          "startTime": "2026-09-08T05:00:00-07:00",
+          "startTime": "2026-09-08T04:00:00-07:00",
           "endTime": "2026-09-08T06:00:00-07:00",
           "isDaytime": false,
           "temperature": 43,
@@ -2172,7 +2172,7 @@
           "shortForecast": "Mostly Clear",
           "detailedForecast": "Mostly clear. Low around 43, with temperatures rising to around 45 overnight. Wind around 0 mph.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 8231
+          "snowLevelFt": 8418
         },
         {
           "number": 2,
@@ -2463,7 +2463,7 @@
         {
           "number": 1,
           "name": "Overnight",
-          "startTime": "2026-09-08T05:00:00-07:00",
+          "startTime": "2026-09-08T04:00:00-07:00",
           "endTime": "2026-09-08T06:00:00-07:00",
           "isDaytime": false,
           "temperature": 43,
@@ -2479,7 +2479,7 @@
           "shortForecast": "Mostly Clear",
           "detailedForecast": "Mostly clear, with a low around 43. Wind around 0 mph.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 8031
+          "snowLevelFt": 8051
         },
         {
           "number": 2,
@@ -3087,12 +3087,12 @@
     "Hoodoo": {
       "elevation_ft": 4705,
       "temp_f": 40,
-      "wind_speed_mph": 5,
+      "wind_speed_mph": 15.0,
       "wind_direction_deg": 90,
       "snow_level_ft": 7969,
       "precip_chance_today": 0,
-      "snowfall_12h_in": null,
-      "snowfall_24h_in": null,
+      "snowfall_12h_in": 0.4,
+      "snowfall_24h_in": -0.2,
       "snowfall_48h_in": null
     },
     "Willamette Pass": {
@@ -4351,16 +4351,16 @@
         },
         {
           "date": "2026-09-10",
-          "description_long": "few clouds",
-          "description_short": "few clouds",
-          "details": "Clouds",
-          "weather_icon": "dor-mostlysunny",
+          "description_long": "clear sky",
+          "description_short": "clear sky",
+          "details": "Clear",
+          "weather_icon": "dor-sunny",
           "id": 1789070400,
           "day": "Thursday",
-          "temperature_high": 66,
-          "temperature_low": 43,
-          "precipitation_high": 36,
-          "precipitation_low": 36,
+          "temperature_high": 68,
+          "temperature_low": 46,
+          "precipitation_high": 34,
+          "precipitation_low": 34,
           "wind_speed": 14,
           "wind_direction": "WNW"
         },
@@ -4376,23 +4376,23 @@
           "temperature_low": 38,
           "precipitation_high": 18,
           "precipitation_low": 18,
-          "wind_speed": 7,
+          "wind_speed": 8,
           "wind_direction": "W"
         },
         {
           "date": "2026-09-12",
-          "description_long": "rain and snow",
-          "description_short": "rain and snow",
-          "details": "Snow",
-          "weather_icon": "dor-snow",
+          "description_long": "moderate rain",
+          "description_short": "moderate rain",
+          "details": "Rain",
+          "weather_icon": "dor-rain",
           "id": 1789243200,
           "day": "Saturday",
-          "temperature_high": 46,
-          "temperature_low": 35,
-          "precipitation_high": 61,
-          "precipitation_low": 61,
-          "wind_speed": 10,
-          "wind_direction": "W"
+          "temperature_high": 43,
+          "temperature_low": 36,
+          "precipitation_high": 97,
+          "precipitation_low": 97,
+          "wind_speed": 6,
+          "wind_direction": "WNW"
         },
         {
           "date": "2026-09-13",
@@ -4628,10 +4628,25 @@
     }
   },
   "hoodoo": {
-    "weather": {},
+    "weather": {
+      "Temperature": "44 &#176F",
+      "Wind": "East @ 15 MPH",
+      "Snow depth": "-0.5\"",
+      "Humidity": "93 %",
+      "Barometer": "30.17\" Hg",
+      "Rain Gauge": "0.03\""
+    },
     "snow_totals": {
-      "trend": {},
-      "season_total_in": null
+      "trend": {
+        "Max": "0.5\"",
+        "Min": "-2.8\"",
+        "1 Hr": "-0.2\"",
+        "3 Hr": "-0.2\"",
+        "6 Hr": "-0.3\"",
+        "12 Hr": "0.4\"",
+        "24 Hr": "-0.2\""
+      },
+      "season_total_in": 158.5
     },
     "webcams": {
       "Base Area": {
