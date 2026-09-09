@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09T15:15:26.329919+00:00",
+  "generated_at": "2026-09-09T15:30:21.033741+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -914,8 +914,8 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 4.0,
-        "wind_direction_deg": 135,
+        "wind_speed_mph": 5.0,
+        "wind_direction_deg": 157.5,
         "snow_level_ft": 9281,
         "temp_f": 49
       },
@@ -3087,12 +3087,12 @@
     "Hoodoo": {
       "elevation_ft": 4705,
       "temp_f": 49,
-      "wind_speed_mph": 4.0,
-      "wind_direction_deg": 135,
+      "wind_speed_mph": 5.0,
+      "wind_direction_deg": 157.5,
       "snow_level_ft": 9281,
       "precip_chance_today": 0,
-      "snowfall_12h_in": 0.4,
-      "snowfall_24h_in": -0.2,
+      "snowfall_12h_in": -0.5,
+      "snowfall_24h_in": -0.4,
       "snowfall_48h_in": null
     },
     "Willamette Pass": {
@@ -4207,8 +4207,8 @@
       "snow_depth_in_date": "2026-09-08",
       "swe_in": 0.0,
       "swe_in_date": "2026-09-08",
-      "change_12h_in": -1,
-      "change_24h_in": 0
+      "change_12h_in": 0,
+      "change_24h_in": -1
     },
     "Santiam / Hoodoo (Hogg Pass)": {
       "snow_depth_in": 0,
@@ -4344,9 +4344,9 @@
           "id": 1788984000,
           "day": "Wednesday",
           "temperature_high": 76,
-          "temperature_low": 33,
-          "precipitation_high": 22,
-          "precipitation_low": 22,
+          "temperature_low": 34,
+          "precipitation_high": 23,
+          "precipitation_low": 23,
           "wind_speed": 8,
           "wind_direction": "WNW"
         },
@@ -4646,20 +4646,20 @@
   "hoodoo": {
     "weather": {
       "Temperature": "62 &#176F",
-      "Wind": "SE @ 4 MPH",
-      "Snow depth": "-0.7\"",
-      "Humidity": "32 %",
+      "Wind": "SSE @ 5 MPH",
+      "Snow depth": "-1.0\"",
+      "Humidity": "35 %",
       "Barometer": "30.40\" Hg"
     },
     "snow_totals": {
       "trend": {
         "Max": "0.7\"",
         "Min": "-2.8\"",
-        "1 Hr": "-0.1\"",
-        "3 Hr": "-0.5\"",
-        "6 Hr": "-0.5\"",
-        "12 Hr": "0.4\"",
-        "24 Hr": "-0.2\""
+        "1 Hr": "-0.5\"",
+        "3 Hr": "-0.4\"",
+        "6 Hr": "-0.6\"",
+        "12 Hr": "-0.5\"",
+        "24 Hr": "-0.4\""
       },
       "season_total_in": 158.5
     },
@@ -4701,8 +4701,8 @@
   "willamette_pass": {
     "forecast": {
       "weather_provider": "NOAA",
-      "date": "September 9, 2026, 8:13 am",
-      "time": 1788966832000,
+      "date": "September 9, 2026, 8:29 am",
+      "time": 1788967773000,
       "current_weather": "Sunny",
       "current_temperature": "47",
       "forecast": [
@@ -4783,7 +4783,16 @@
       "Lifts Open": "0/6",
       "Trails Open": "0/30"
     },
-    "webcams": {}
+    "webcams": {
+      "Base Area": {
+        "src": "https://www.youtube.com/embed/sNVA6oC7vcM",
+        "link": "https://www.willamettepass.ski/weather-conditions-webcams/webcams/"
+      },
+      "EPA": {
+        "src": "https://www.youtube.com/embed/uav7cBNVv0k",
+        "link": "https://www.willamettepass.ski/weather-conditions-webcams/webcams/"
+      }
+    }
   },
   "snow_stake_cams": {
     "Mt. Bachelor (Snow Stake)": {
@@ -4794,7 +4803,10 @@
       "src": "https://santiampsp.org/wx/weather16.jpg",
       "link": "https://hoodoo.com/the-mountain/webcams/"
     },
-    "Willamette Pass (Base Area)": null
+    "Willamette Pass (Base Area)": {
+      "src": "https://www.youtube.com/embed/sNVA6oC7vcM",
+      "link": "https://www.willamettepass.ski/weather-conditions-webcams/webcams/"
+    }
   },
   "satellite": {
     "Pacific Northwest": {
