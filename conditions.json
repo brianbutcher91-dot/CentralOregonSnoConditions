@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T03:45:14.621024+00:00",
+  "generated_at": "2026-09-10T03:51:40.664112+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -7,7 +7,7 @@
         {
           "number": 1,
           "name": "Tonight",
-          "startTime": "2026-09-09T20:00:00-07:00",
+          "startTime": "2026-09-09T19:00:00-07:00",
           "endTime": "2026-09-10T06:00:00-07:00",
           "isDaytime": false,
           "temperature": 45,
@@ -23,7 +23,7 @@
           "shortForecast": "Mostly Clear",
           "detailedForecast": "Mostly clear, with a low around 45. West wind 3 to 12 mph.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 10055
+          "snowLevelFt": 10468
         },
         {
           "number": 2,
@@ -1235,7 +1235,7 @@
         {
           "number": 1,
           "name": "Tonight",
-          "startTime": "2026-09-09T18:00:00-07:00",
+          "startTime": "2026-09-09T20:00:00-07:00",
           "endTime": "2026-09-10T06:00:00-07:00",
           "isDaytime": false,
           "temperature": 47,
@@ -1245,13 +1245,13 @@
             "unitCode": "wmoUnit:percent",
             "value": 0
           },
-          "windSpeed": "2 to 7 mph",
+          "windSpeed": "5 mph",
           "windDirection": "NNW",
           "icon": "https://api.weather.gov/icons/land/night/skc?size=medium",
           "shortForecast": "Clear",
-          "detailedForecast": "Clear. Low around 47, with temperatures rising to around 49 overnight. North northwest wind 2 to 7 mph.",
+          "detailedForecast": "Clear. Low around 47, with temperatures rising to around 49 overnight. North northwest wind around 5 mph.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 10212
+          "snowLevelFt": 10003
         },
         {
           "number": 2,
@@ -1849,7 +1849,7 @@
         {
           "number": 1,
           "name": "Tonight",
-          "startTime": "2026-09-09T18:00:00-07:00",
+          "startTime": "2026-09-09T20:00:00-07:00",
           "endTime": "2026-09-10T06:00:00-07:00",
           "isDaytime": false,
           "temperature": 50,
@@ -1865,7 +1865,7 @@
           "shortForecast": "Mostly Clear",
           "detailedForecast": "Mostly clear. Low around 50, with temperatures rising to around 52 overnight. Southwest wind 0 to 3 mph.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 10135
+          "snowLevelFt": 10551
         },
         {
           "number": 2,
@@ -2463,7 +2463,7 @@
         {
           "number": 1,
           "name": "Tonight",
-          "startTime": "2026-09-09T18:00:00-07:00",
+          "startTime": "2026-09-09T20:00:00-07:00",
           "endTime": "2026-09-10T06:00:00-07:00",
           "isDaytime": false,
           "temperature": 46,
@@ -2479,7 +2479,7 @@
           "shortForecast": "Mostly Clear",
           "detailedForecast": "Mostly clear. Low around 46, with temperatures rising to around 48 overnight. West wind 1 to 5 mph.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 10573
+          "snowLevelFt": 10029
         },
         {
           "number": 2,
@@ -2770,7 +2770,7 @@
         {
           "number": 1,
           "name": "Tonight",
-          "startTime": "2026-09-09T20:00:00-07:00",
+          "startTime": "2026-09-09T19:00:00-07:00",
           "endTime": "2026-09-10T06:00:00-07:00",
           "isDaytime": false,
           "temperature": 38,
@@ -2786,7 +2786,7 @@
           "shortForecast": "Mostly Clear",
           "detailedForecast": "Mostly clear. Low around 38, with temperatures rising to around 40 overnight. South wind around 2 mph.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 10843
+          "snowLevelFt": 11079
         },
         {
           "number": 2,
@@ -4178,7 +4178,38 @@
     ]
   },
   "snotel": {
-    "error": "500 Server Error: Internal Server Error for url: https://wcc.sc.egov.usda.gov/awdbRestApi/services/v1/data?stationTriplets=526%3AOR%3ASNTL&elements=SNWD&duration=HOURLY&getFlags=false&beginDate=2026-09-07+15%3A45&endDate=2026-09-10+15%3A45"
+    "Mt Bachelor area (Irish Taylor)": {
+      "snow_depth_in": 0,
+      "snow_depth_in_date": "2026-09-08",
+      "swe_in": 0.0,
+      "swe_in_date": "2026-09-08",
+      "change_12h_in": 0,
+      "change_24h_in": 0
+    },
+    "Three Creek / Tam McArthur (Three Creeks Meadow)": {
+      "snow_depth_in": 0,
+      "snow_depth_in_date": "2026-09-08",
+      "swe_in": 0.0,
+      "swe_in_date": "2026-09-08",
+      "change_12h_in": 0,
+      "change_24h_in": 0
+    },
+    "Santiam / Hoodoo (Hogg Pass)": {
+      "snow_depth_in": 0,
+      "snow_depth_in_date": "2026-09-08",
+      "swe_in": 0.1,
+      "swe_in_date": "2026-09-08",
+      "change_12h_in": 0,
+      "change_24h_in": 0
+    },
+    "Ochocos (Ochoco Meadows)": {
+      "snow_depth_in": 0,
+      "snow_depth_in_date": "2026-09-08",
+      "swe_in": 0.0,
+      "swe_in_date": "2026-09-08",
+      "change_12h_in": 0,
+      "change_24h_in": 0
+    }
   },
   "odot_cams": {
     "Century Drive": [
