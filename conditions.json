@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T22:15:23.200686+00:00",
+  "generated_at": "2026-09-11T22:20:55.185753+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -914,8 +914,8 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 8.0,
-        "wind_direction_deg": 202.5,
+        "wind_speed_mph": 11.0,
+        "wind_direction_deg": 247.5,
         "snow_level_ft": 7566,
         "temp_f": 61
       },
@@ -2156,7 +2156,7 @@
         {
           "number": 1,
           "name": "This Afternoon",
-          "startTime": "2026-09-11T12:00:00-07:00",
+          "startTime": "2026-09-11T15:00:00-07:00",
           "endTime": "2026-09-11T18:00:00-07:00",
           "isDaytime": true,
           "temperature": 74,
@@ -2166,13 +2166,13 @@
             "unitCode": "wmoUnit:percent",
             "value": 0
           },
-          "windSpeed": "2 to 6 mph",
+          "windSpeed": "6 mph",
           "windDirection": "N",
           "icon": "https://api.weather.gov/icons/land/day/sct?size=medium",
           "shortForecast": "Mostly Sunny",
-          "detailedForecast": "Mostly sunny. High near 74, with temperatures falling to around 72 in the afternoon. North wind 2 to 6 mph.",
+          "detailedForecast": "Mostly sunny. High near 74, with temperatures falling to around 72 in the afternoon. North wind around 6 mph.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 8314
+          "snowLevelFt": 9009
         },
         {
           "number": 2,
@@ -3087,12 +3087,12 @@
     "Hoodoo": {
       "elevation_ft": 4705,
       "temp_f": 61,
-      "wind_speed_mph": 8.0,
-      "wind_direction_deg": 202.5,
+      "wind_speed_mph": 11.0,
+      "wind_direction_deg": 247.5,
       "snow_level_ft": 7566,
       "precip_chance_today": 0,
-      "snowfall_12h_in": 0.9,
-      "snowfall_24h_in": 0.1,
+      "snowfall_12h_in": 1.4,
+      "snowfall_24h_in": 0.6,
       "snowfall_48h_in": null
     },
     "Willamette Pass": {
@@ -3109,14 +3109,6 @@
   },
   "bachelor_timeseries": {
     "hourly": [
-      {
-        "time": "2026-09-10T15:00:00.000Z",
-        "temp_f": 57.41,
-        "wind_speed_mph": 13.83,
-        "wind_direction_deg": 245.1,
-        "precip_in": null,
-        "period": "historical"
-      },
       {
         "time": "2026-09-10T16:00:00.000Z",
         "temp_f": 57.06,
@@ -3298,6 +3290,14 @@
         "temp_f": 50.57,
         "wind_speed_mph": 6.542,
         "wind_direction_deg": 343.5,
+        "precip_in": null,
+        "period": "historical"
+      },
+      {
+        "time": "2026-09-11T15:00:00.000Z",
+        "temp_f": 51.66,
+        "wind_speed_mph": 6.694,
+        "wind_direction_deg": 308.6,
         "precip_in": null,
         "period": "historical"
       },
@@ -4315,7 +4315,7 @@
   "mtbachelor": {
     "weather": {
       "current": {
-        "temperature": 58,
+        "temperature": 59,
         "weather_icon": "dor-mostlycloudy"
       },
       "forecast": [
@@ -4448,10 +4448,10 @@
           "active": true,
           "primary": true,
           "nonstandardizedDataPoints": {
-            "depth": "-0.678",
-            "timestamp": "2026-09-11T14:00:00.000Z"
+            "depth": "-0.81",
+            "timestamp": "2026-09-11T15:00:00.000Z"
           },
-          "temperature": "58.05",
+          "temperature": "59.29",
           "wind": {
             "low": "0",
             "high": "0",
@@ -4471,14 +4471,14 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-09-11T14:00:00.000Z"
+            "timestamp": "2026-09-11T15:00:00.000Z"
           },
-          "temperature": "52.84",
+          "temperature": "53.6",
           "wind": {
-            "low": "9.92",
-            "high": "20.58",
+            "low": "10.96",
+            "high": "25.5",
             "current": null,
-            "average": "9.92",
+            "average": "10.96",
             "direction": "WNW"
           },
           "humidity": null,
@@ -4493,17 +4493,17 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-09-11T14:00:00.000Z"
+            "timestamp": "2026-09-11T15:00:00.000Z"
           },
-          "temperature": "51.77",
+          "temperature": "53.49",
           "wind": {
-            "low": "10.65",
-            "high": "23.56",
+            "low": "11.1",
+            "high": "23.05",
             "current": null,
-            "average": "10.65",
-            "direction": "WNW"
+            "average": "11.1",
+            "direction": "W"
           },
-          "humidity": "34.89",
+          "humidity": "40.89",
           "display_name": "Pine Marten",
           "elevation_ft": 7800
         },
@@ -4515,15 +4515,15 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-09-11T14:00:00.000Z"
+            "timestamp": "2026-09-11T15:00:00.000Z"
           },
-          "temperature": "50.57",
+          "temperature": "51.66",
           "wind": {
-            "low": "6.542",
+            "low": "6.694",
             "high": "18.12",
             "current": null,
-            "average": "6.542",
-            "direction": "NNW"
+            "average": "6.694",
+            "direction": "NW"
           },
           "humidity": null,
           "display_name": "Cloud Chaser",
@@ -4629,9 +4629,9 @@
   },
   "hoodoo": {
     "weather": {
-      "Temperature": "57 &#176F",
-      "Wind": "SSW @ 8 MPH",
-      "Snow depth": "-0.4\"",
+      "Temperature": "55 &#176F",
+      "Wind": "WSW @ 11 MPH",
+      "Snow depth": "-0.3\"",
       "Humidity": "44 %",
       "Barometer": "30.01\" Hg"
     },
@@ -4639,11 +4639,11 @@
       "trend": {
         "Max": "0.6\"",
         "Min": "-4.1\"",
-        "1 Hr": "0.1\"",
-        "3 Hr": "-0.4\"",
+        "1 Hr": "0.5\"",
+        "3 Hr": "0.1\"",
         "6 Hr": "0.2\"",
-        "12 Hr": "0.9\"",
-        "24 Hr": "0.1\""
+        "12 Hr": "1.4\"",
+        "24 Hr": "0.6\""
       },
       "season_total_in": 158.5
     },
