@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T11:15:14.344380+00:00",
+  "generated_at": "2026-09-13T11:30:16.892981+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -914,8 +914,8 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 18.0,
-        "wind_direction_deg": 225,
+        "wind_speed_mph": 13,
+        "wind_direction_deg": 240,
         "snow_level_ft": 6018,
         "temp_f": 39
       },
@@ -1235,7 +1235,7 @@
         {
           "number": 1,
           "name": "Overnight",
-          "startTime": "2026-09-13T01:00:00-07:00",
+          "startTime": "2026-09-13T00:00:00-07:00",
           "endTime": "2026-09-13T06:00:00-07:00",
           "isDaytime": false,
           "temperature": 35,
@@ -1249,9 +1249,9 @@
           "windDirection": "W",
           "icon": "https://api.weather.gov/icons/land/night/snow,90?size=medium",
           "shortForecast": "Rain And Snow",
-          "detailedForecast": "Rain and snow. Cloudy. Low around 35, with temperatures rising to around 37 overnight. West wind around 6 mph. Chance of precipitation is 90%. New rainfall amounts between a tenth and quarter of an inch possible.",
-          "precipitationAmountIn": 0.11,
-          "snowLevelFt": 6457
+          "detailedForecast": "Rain before 1am, then rain and snow. Cloudy. Low around 35, with temperatures rising to around 37 overnight. West wind around 6 mph. Chance of precipitation is 90%. New rainfall amounts between a tenth and quarter of an inch possible.",
+          "precipitationAmountIn": 0.14,
+          "snowLevelFt": 6535
         },
         {
           "number": 2,
@@ -2156,7 +2156,7 @@
         {
           "number": 1,
           "name": "Overnight",
-          "startTime": "2026-09-13T02:00:00-07:00",
+          "startTime": "2026-09-13T03:00:00-07:00",
           "endTime": "2026-09-13T06:00:00-07:00",
           "isDaytime": false,
           "temperature": 40,
@@ -2171,7 +2171,7 @@
           "icon": "https://api.weather.gov/icons/land/night/rain_showers,30?size=medium",
           "shortForecast": "Chance Rain Showers",
           "detailedForecast": "A chance of rain showers before 5am. Mostly cloudy. Low around 40, with temperatures rising to around 42 overnight. Southwest wind around 8 mph, with gusts as high as 18 mph. Chance of precipitation is 30%. New rainfall amounts less than a tenth of an inch possible.",
-          "precipitationAmountIn": 0.01,
+          "precipitationAmountIn": 0.0,
           "snowLevelFt": 6296
         },
         {
@@ -2770,7 +2770,7 @@
         {
           "number": 1,
           "name": "Overnight",
-          "startTime": "2026-09-13T04:00:00-07:00",
+          "startTime": "2026-09-13T03:00:00-07:00",
           "endTime": "2026-09-13T06:00:00-07:00",
           "isDaytime": false,
           "temperature": 35,
@@ -2784,7 +2784,7 @@
           "windDirection": "SW",
           "icon": "https://api.weather.gov/icons/land/night/rain_showers,40?size=medium",
           "shortForecast": "Chance Rain Showers",
-          "detailedForecast": "A chance of rain showers. Mostly cloudy. Low around 35, with temperatures rising to around 37 overnight. Southwest wind around 7 mph, with gusts as high as 18 mph. Chance of precipitation is 40%. New rainfall amounts less than a tenth of an inch possible.",
+          "detailedForecast": "A chance of rain showers. Mostly cloudy. Low around 35, with temperatures rising to around 37 overnight. Southwest wind around 7 mph, with gusts as high as 20 mph. Chance of precipitation is 40%. New rainfall amounts less than a tenth of an inch possible.",
           "precipitationAmountIn": 0.01,
           "snowLevelFt": 6453
         },
@@ -3087,12 +3087,12 @@
     "Hoodoo": {
       "elevation_ft": 4705,
       "temp_f": 39,
-      "wind_speed_mph": 18.0,
-      "wind_direction_deg": 225,
+      "wind_speed_mph": 13,
+      "wind_direction_deg": 240,
       "snow_level_ft": 6018,
       "precip_chance_today": 78,
-      "snowfall_12h_in": -0.2,
-      "snowfall_24h_in": -0.1,
+      "snowfall_12h_in": null,
+      "snowfall_24h_in": null,
       "snowfall_48h_in": null
     },
     "Willamette Pass": {
@@ -3109,14 +3109,6 @@
   },
   "bachelor_timeseries": {
     "hourly": [
-      {
-        "time": "2026-09-12T04:00:00.000Z",
-        "temp_f": 43.39,
-        "wind_speed_mph": 14.72,
-        "wind_direction_deg": 216.2,
-        "precip_in": null,
-        "period": "historical"
-      },
       {
         "time": "2026-09-12T05:00:00.000Z",
         "temp_f": 42.68,
@@ -3302,12 +3294,12 @@
         "period": "historical"
       },
       {
-        "time": "2026-09-13T04:00:00+00:00",
-        "temp_f": 35.0,
-        "wind_speed_mph": 11.5,
-        "wind_direction_deg": 270,
-        "precip_in": 0.03,
-        "period": "forecast"
+        "time": "2026-09-13T04:00:00.000Z",
+        "temp_f": 28.58,
+        "wind_speed_mph": 10.88,
+        "wind_direction_deg": 247.2,
+        "precip_in": null,
+        "period": "historical"
       },
       {
         "time": "2026-09-13T05:00:00+00:00",
@@ -4195,8 +4187,8 @@
       "snow_depth_in_date": "2026-09-12",
       "swe_in": 0.0,
       "swe_in_date": "2026-09-12",
-      "change_12h_in": 1,
-      "change_24h_in": 0
+      "change_12h_in": 0,
+      "change_24h_in": 1
     },
     "Santiam / Hoodoo (Hogg Pass)": {
       "snow_depth_in": 0,
@@ -4453,9 +4445,9 @@
           "primary": true,
           "nonstandardizedDataPoints": {
             "depth": "160.5",
-            "timestamp": "2026-09-13T03:00:00.000Z"
+            "timestamp": "2026-09-13T04:00:00.000Z"
           },
-          "temperature": "32.22",
+          "temperature": "32.18",
           "wind": {
             "low": "0",
             "high": "0",
@@ -4475,14 +4467,14 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-09-13T03:00:00.000Z"
+            "timestamp": "2026-09-13T04:00:00.000Z"
           },
-          "temperature": "30.05",
+          "temperature": "30.04",
           "wind": {
-            "low": "6.185",
-            "high": "21.48",
+            "low": "8.3",
+            "high": "26.17",
             "current": null,
-            "average": "6.185",
+            "average": "8.3",
             "direction": "WSW"
           },
           "humidity": null,
@@ -4497,14 +4489,14 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-09-13T03:00:00.000Z"
+            "timestamp": "2026-09-13T04:00:00.000Z"
           },
-          "temperature": "28.26",
+          "temperature": "28.25",
           "wind": {
-            "low": "18.49",
-            "high": "34.12",
+            "low": "20.42",
+            "high": "32.97",
             "current": null,
-            "average": "18.49",
+            "average": "20.42",
             "direction": "WNW"
           },
           "humidity": "100",
@@ -4519,14 +4511,14 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-09-13T03:00:00.000Z"
+            "timestamp": "2026-09-13T04:00:00.000Z"
           },
-          "temperature": "28.67",
+          "temperature": "28.58",
           "wind": {
-            "low": "9.48",
-            "high": "25.28",
+            "low": "10.88",
+            "high": "24.61",
             "current": null,
-            "average": "9.48",
+            "average": "10.88",
             "direction": "WSW"
           },
           "humidity": null,
@@ -4632,25 +4624,10 @@
     }
   },
   "hoodoo": {
-    "weather": {
-      "Temperature": "34 &#176F",
-      "Wind": "SW @ 18 MPH",
-      "Snow depth": "-0.2\"",
-      "Humidity": "100 %",
-      "Barometer": "29.88\" Hg",
-      "Rain Gauge": "0.22\""
-    },
+    "weather": {},
     "snow_totals": {
-      "trend": {
-        "Max": "0.6\"",
-        "Min": "-2.7\"",
-        "1 Hr": "0.0\"",
-        "3 Hr": "-0.4\"",
-        "6 Hr": "-0.6\"",
-        "12 Hr": "-0.2\"",
-        "24 Hr": "-0.1\""
-      },
-      "season_total_in": 158.5
+      "trend": {},
+      "season_total_in": null
     },
     "webcams": {
       "Base Area": {
