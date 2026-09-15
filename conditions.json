@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T03:15:19.460738+00:00",
+  "generated_at": "2026-09-15T03:30:16.068840+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -3110,14 +3110,6 @@
   "bachelor_timeseries": {
     "hourly": [
       {
-        "time": "2026-09-13T20:00:00.000Z",
-        "temp_f": 33.67,
-        "wind_speed_mph": 19.1,
-        "wind_direction_deg": 227.4,
-        "precip_in": null,
-        "period": "historical"
-      },
-      {
         "time": "2026-09-13T21:00:00.000Z",
         "temp_f": 34.42,
         "wind_speed_mph": 19.63,
@@ -3302,12 +3294,12 @@
         "period": "historical"
       },
       {
-        "time": "2026-09-14T20:00:00+00:00",
-        "temp_f": 51.0,
-        "wind_speed_mph": 4.6,
-        "wind_direction_deg": 270,
-        "precip_in": 0.0,
-        "period": "forecast"
+        "time": "2026-09-14T20:00:00.000Z",
+        "temp_f": 45.42,
+        "wind_speed_mph": 5.38,
+        "wind_direction_deg": 189.0,
+        "precip_in": null,
+        "period": "historical"
       },
       {
         "time": "2026-09-14T21:00:00+00:00",
@@ -4174,6 +4166,10 @@
       {
         "time": "2026-09-15T02:15:24.822253+00:00",
         "precip_in": 0
+      },
+      {
+        "time": "2026-09-15T03:30:19.503891+00:00",
+        "precip_in": 0
       }
     ]
   },
@@ -4192,7 +4188,7 @@
       "swe_in": 0.0,
       "swe_in_date": "2026-09-13",
       "change_12h_in": 0,
-      "change_24h_in": 0
+      "change_24h_in": -1
     },
     "Santiam / Hoodoo (Hogg Pass)": {
       "snow_depth_in": 0,
@@ -4315,7 +4311,7 @@
   "mtbachelor": {
     "weather": {
       "current": {
-        "temperature": 50,
+        "temperature": 45,
         "weather_icon": "dor-sunny"
       },
       "forecast": [
@@ -4448,10 +4444,10 @@
           "active": true,
           "primary": true,
           "nonstandardizedDataPoints": {
-            "depth": "144.4",
-            "timestamp": "2026-09-14T19:00:00.000Z"
+            "depth": "-1.247",
+            "timestamp": "2026-09-14T20:00:00.000Z"
           },
-          "temperature": "50.06",
+          "temperature": "44.71",
           "wind": {
             "low": "0",
             "high": "0",
@@ -4471,15 +4467,15 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-09-14T19:00:00.000Z"
+            "timestamp": "2026-09-14T20:00:00.000Z"
           },
-          "temperature": "47.41",
+          "temperature": "45.37",
           "wind": {
-            "low": "3.374",
-            "high": "9.4",
+            "low": "3.423",
+            "high": "6.711",
             "current": null,
-            "average": "3.374",
-            "direction": "SSE"
+            "average": "3.423",
+            "direction": "WSW"
           },
           "humidity": null,
           "display_name": "Sunrise",
@@ -4493,17 +4489,17 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-09-14T19:00:00.000Z"
+            "timestamp": "2026-09-14T20:00:00.000Z"
           },
-          "temperature": "45.51",
+          "temperature": "43.74",
           "wind": {
-            "low": "5.292",
-            "high": "13.84",
+            "low": "1.239",
+            "high": "12.28",
             "current": null,
-            "average": "5.292",
-            "direction": "SE"
+            "average": "1.239",
+            "direction": "SSE"
           },
-          "humidity": "73.8",
+          "humidity": "45.56",
           "display_name": "Pine Marten",
           "elevation_ft": 7800
         },
@@ -4515,15 +4511,15 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-09-14T19:00:00.000Z"
+            "timestamp": "2026-09-14T20:00:00.000Z"
           },
-          "temperature": "45.91",
+          "temperature": "45.42",
           "wind": {
-            "low": "4.018",
-            "high": "9.62",
+            "low": "5.38",
+            "high": "13.65",
             "current": null,
-            "average": "4.018",
-            "direction": "ESE"
+            "average": "5.38",
+            "direction": "S"
           },
           "humidity": null,
           "display_name": "Cloud Chaser",
