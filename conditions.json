@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T21:30:34.817690+00:00",
+  "generated_at": "2026-09-15T21:45:27.659480+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -914,8 +914,8 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 8.0,
-        "wind_direction_deg": 292.5,
+        "wind_speed_mph": 9.0,
+        "wind_direction_deg": 315,
         "snow_level_ft": 8638,
         "temp_f": 54
       },
@@ -2156,7 +2156,7 @@
         {
           "number": 1,
           "name": "This Afternoon",
-          "startTime": "2026-09-15T14:00:00-07:00",
+          "startTime": "2026-09-15T13:00:00-07:00",
           "endTime": "2026-09-15T18:00:00-07:00",
           "isDaytime": true,
           "temperature": 65,
@@ -2172,7 +2172,7 @@
           "shortForecast": "Rain Showers Likely",
           "detailedForecast": "Rain showers likely after 5pm. Partly sunny. High near 65, with temperatures falling to around 63 in the afternoon. North wind around 9 mph, with gusts as high as 18 mph. Chance of precipitation is 60%. New rainfall amounts less than a tenth of an inch possible.",
           "precipitationAmountIn": 0.01,
-          "snowLevelFt": 9160
+          "snowLevelFt": 8760
         },
         {
           "number": 2,
@@ -3087,11 +3087,11 @@
     "Hoodoo": {
       "elevation_ft": 4705,
       "temp_f": 54,
-      "wind_speed_mph": 8.0,
-      "wind_direction_deg": 292.5,
+      "wind_speed_mph": 9.0,
+      "wind_direction_deg": 315,
       "snow_level_ft": 8638,
       "precip_chance_today": 35,
-      "snowfall_12h_in": -0.6,
+      "snowfall_12h_in": 0.2,
       "snowfall_24h_in": 0.3,
       "snowfall_48h_in": null
     },
@@ -4309,14 +4309,14 @@
     ]
   },
   "mtbachelor": {
-    "error": "504 Server Error: Gateway Time-out for url: https://api.mtbachelor.com/api/v1/dor/weather-forecast"
+    "error": "504 Server Error: Gateway Time-out for url: https://api.mtbachelor.com/api/v1/dor/drupal/snow-reports?sort=date&direction=desc"
   },
   "hoodoo": {
     "weather": {
       "Temperature": "50 &#176F",
-      "Wind": "WNW @ 8 MPH",
-      "Snow depth": "-0.5\"",
-      "Humidity": "75 %",
+      "Wind": "NW @ 9 MPH",
+      "Snow depth": "-0.2\"",
+      "Humidity": "76 %",
       "Barometer": "30.01\" Hg",
       "Rain Gauge": "0.10\""
     },
@@ -4324,10 +4324,10 @@
       "trend": {
         "Max": "0.5\"",
         "Min": "-2.0\"",
-        "1 Hr": "-0.2\"",
-        "3 Hr": "-0.4\"",
-        "6 Hr": "-0.2\"",
-        "12 Hr": "-0.6\"",
+        "1 Hr": "0.2\"",
+        "3 Hr": "0.2\"",
+        "6 Hr": "-0.1\"",
+        "12 Hr": "0.2\"",
         "24 Hr": "0.3\""
       },
       "season_total_in": 158.5
@@ -4370,8 +4370,8 @@
   "willamette_pass": {
     "forecast": {
       "weather_provider": "NOAA",
-      "date": "September 15, 2026, 2:28 pm",
-      "time": 1789507709000,
+      "date": "September 15, 2026, 2:44 pm",
+      "time": 1789508675000,
       "current_weather": "Mostly Cloudy",
       "current_temperature": "72",
       "forecast": [
@@ -4477,15 +4477,15 @@
   "satellite": {
     "Pacific Northwest": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/pnw/13/GOES18-PNW-13-600x600.gif",
-      "last_modified": "Tue, 15 Sep 2026 21:11:29 GMT"
+      "last_modified": "Tue, 15 Sep 2026 21:41:25 GMT"
     },
     "North Pacific (macro)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/np/13/GOES18-NP-13-900x540.gif",
-      "last_modified": "Tue, 15 Sep 2026 21:11:38 GMT"
+      "last_modified": "Tue, 15 Sep 2026 21:41:35 GMT"
     },
     "Pacific US (PACUS)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/13/GOES18-CONUS-13-625x375.gif",
-      "last_modified": "Tue, 15 Sep 2026 21:05:49 GMT"
+      "last_modified": "Tue, 15 Sep 2026 21:35:59 GMT"
     }
   },
   "gfs_snowfall": {
