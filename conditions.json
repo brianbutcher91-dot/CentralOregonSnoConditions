@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T07:30:19.180842+00:00",
+  "generated_at": "2026-09-15T07:45:53.326500+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -915,7 +915,7 @@
       ],
       "current": {
         "wind_speed_mph": 11.0,
-        "wind_direction_deg": 292.5,
+        "wind_direction_deg": 315,
         "snow_level_ft": 8083,
         "temp_f": 42
       },
@@ -3088,11 +3088,11 @@
       "elevation_ft": 4705,
       "temp_f": 42,
       "wind_speed_mph": 11.0,
-      "wind_direction_deg": 292.5,
+      "wind_direction_deg": 315,
       "snow_level_ft": 8083,
       "precip_chance_today": 1,
-      "snowfall_12h_in": -0.5,
-      "snowfall_24h_in": -0.2,
+      "snowfall_12h_in": -0.1,
+      "snowfall_24h_in": 0.3,
       "snowfall_48h_in": null
     },
     "Willamette Pass": {
@@ -3928,10 +3928,6 @@
     ],
     "historical_precip_snapshots": [
       {
-        "time": "2026-09-12T07:30:21.501959+00:00",
-        "precip_in": 0
-      },
-      {
         "time": "2026-09-12T08:45:17.333077+00:00",
         "precip_in": 0
       },
@@ -4169,6 +4165,10 @@
       },
       {
         "time": "2026-09-15T06:45:24.436138+00:00",
+        "precip_in": 0
+      },
+      {
+        "time": "2026-09-15T07:45:53.736692+00:00",
         "precip_in": 0
       }
     ]
@@ -4626,9 +4626,9 @@
   "hoodoo": {
     "weather": {
       "Temperature": "50 &#176F",
-      "Wind": "WNW @ 11 MPH",
-      "Snow depth": "-0.4\"",
-      "Humidity": "41 %",
+      "Wind": "NW @ 11 MPH",
+      "Snow depth": "0.1\"",
+      "Humidity": "40 %",
       "Barometer": "30.09\" Hg",
       "Rain Gauge": "0.27\""
     },
@@ -4636,11 +4636,11 @@
       "trend": {
         "Max": "0.5\"",
         "Min": "-2.0\"",
-        "1 Hr": "0.0\"",
+        "1 Hr": "0.3\"",
         "3 Hr": "0.4\"",
-        "6 Hr": "0.3\"",
-        "12 Hr": "-0.5\"",
-        "24 Hr": "-0.2\""
+        "6 Hr": "0.8\"",
+        "12 Hr": "-0.1\"",
+        "24 Hr": "0.3\""
       },
       "season_total_in": 158.5
     },
@@ -4682,8 +4682,8 @@
   "willamette_pass": {
     "forecast": {
       "weather_provider": "NOAA",
-      "date": "September 15, 2026, 12:14 am",
-      "time": 1789456482000,
+      "date": "September 15, 2026, 12:44 am",
+      "time": 1789458269000,
       "current_weather": "Mostly Clear",
       "current_temperature": "45",
       "forecast": [
@@ -4791,15 +4791,15 @@
   "satellite": {
     "Pacific Northwest": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/pnw/13/GOES18-PNW-13-600x600.gif",
-      "last_modified": "Tue, 15 Sep 2026 07:11:15 GMT"
+      "last_modified": "Tue, 15 Sep 2026 07:41:05 GMT"
     },
     "North Pacific (macro)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/np/13/GOES18-NP-13-900x540.gif",
-      "last_modified": "Tue, 15 Sep 2026 07:11:24 GMT"
+      "last_modified": "Tue, 15 Sep 2026 07:41:15 GMT"
     },
     "Pacific US (PACUS)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/13/GOES18-CONUS-13-625x375.gif",
-      "last_modified": "Tue, 15 Sep 2026 07:05:53 GMT"
+      "last_modified": "Tue, 15 Sep 2026 07:35:42 GMT"
     }
   },
   "gfs_snowfall": {
