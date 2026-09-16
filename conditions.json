@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T14:15:21.336074+00:00",
+  "generated_at": "2026-09-16T14:30:25.175055+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -914,8 +914,8 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 46.0,
-        "wind_direction_deg": 67.5,
+        "wind_speed_mph": 44.0,
+        "wind_direction_deg": 90,
         "snow_level_ft": 8829,
         "temp_f": 43
       },
@@ -928,7 +928,7 @@
         {
           "number": 1,
           "name": "Today",
-          "startTime": "2026-09-16T06:00:00-07:00",
+          "startTime": "2026-09-16T07:00:00-07:00",
           "endTime": "2026-09-16T18:00:00-07:00",
           "isDaytime": true,
           "temperature": 51,
@@ -942,7 +942,7 @@
           "windDirection": "NE",
           "icon": "https://api.weather.gov/icons/land/day/sct?size=medium",
           "shortForecast": "Mostly Sunny",
-          "detailedForecast": "Mostly sunny, with a high near 51. Northeast wind 12 to 15 mph, with gusts as high as 26 mph.",
+          "detailedForecast": "Mostly sunny, with a high near 51. Northeast wind 12 to 15 mph, with gusts as high as 25 mph.",
           "precipitationAmountIn": 0.0,
           "snowLevelFt": 8835
         },
@@ -1235,7 +1235,7 @@
         {
           "number": 1,
           "name": "Today",
-          "startTime": "2026-09-16T06:00:00-07:00",
+          "startTime": "2026-09-16T07:00:00-07:00",
           "endTime": "2026-09-16T18:00:00-07:00",
           "isDaytime": true,
           "temperature": 59,
@@ -1251,7 +1251,7 @@
           "shortForecast": "Mostly Sunny then Slight Chance Showers And Thunderstorms",
           "detailedForecast": "A slight chance of showers and thunderstorms between 2pm and 5pm. Mostly sunny, with a high near 59. East wind 7 to 12 mph, with gusts as high as 18 mph. Chance of precipitation is 20%.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 8757
+          "snowLevelFt": 8750
         },
         {
           "number": 2,
@@ -1849,7 +1849,7 @@
         {
           "number": 1,
           "name": "Today",
-          "startTime": "2026-09-16T06:00:00-07:00",
+          "startTime": "2026-09-16T07:00:00-07:00",
           "endTime": "2026-09-16T18:00:00-07:00",
           "isDaytime": true,
           "temperature": 61,
@@ -1861,9 +1861,9 @@
           },
           "windSpeed": "8 mph",
           "windDirection": "NE",
-          "icon": "https://api.weather.gov/icons/land/day/sct?size=medium",
-          "shortForecast": "Mostly Sunny",
-          "detailedForecast": "Mostly sunny, with a high near 61. Northeast wind around 8 mph, with gusts as high as 21 mph.",
+          "icon": "https://api.weather.gov/icons/land/day/few?size=medium",
+          "shortForecast": "Sunny",
+          "detailedForecast": "Sunny, with a high near 61. Northeast wind around 8 mph, with gusts as high as 21 mph.",
           "precipitationAmountIn": 0.0,
           "snowLevelFt": 8921
         },
@@ -3087,11 +3087,11 @@
     "Hoodoo": {
       "elevation_ft": 4705,
       "temp_f": 43,
-      "wind_speed_mph": 46.0,
-      "wind_direction_deg": 67.5,
+      "wind_speed_mph": 44.0,
+      "wind_direction_deg": 90,
       "snow_level_ft": 8829,
       "precip_chance_today": 6,
-      "snowfall_12h_in": 0.4,
+      "snowfall_12h_in": 0.1,
       "snowfall_24h_in": 0.1,
       "snowfall_48h_in": null
     },
@@ -3928,10 +3928,6 @@
     ],
     "historical_precip_snapshots": [
       {
-        "time": "2026-09-13T14:30:24.672888+00:00",
-        "precip_in": 0
-      },
-      {
         "time": "2026-09-13T15:30:30.289868+00:00",
         "precip_in": 0
       },
@@ -4319,7 +4315,7 @@
   "mtbachelor": {
     "weather": {
       "current": {
-        "temperature": 40,
+        "temperature": 39,
         "weather_icon": "dor-mostlycloudy"
       },
       "forecast": [
@@ -4332,7 +4328,7 @@
           "id": 1789588800,
           "day": "Wednesday",
           "temperature_high": 53,
-          "temperature_low": 34,
+          "temperature_low": 33,
           "precipitation_high": 71,
           "precipitation_low": 71,
           "wind_speed": 9,
@@ -4453,9 +4449,9 @@
           "primary": true,
           "nonstandardizedDataPoints": {
             "depth": "160.5",
-            "timestamp": "2026-09-16T06:00:00.000Z"
+            "timestamp": "2026-09-16T07:00:00.000Z"
           },
-          "temperature": "39.83",
+          "temperature": "39.4",
           "wind": {
             "low": "0",
             "high": "0",
@@ -4475,15 +4471,15 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-09-16T06:00:00.000Z"
+            "timestamp": "2026-09-16T07:00:00.000Z"
           },
-          "temperature": "37.52",
+          "temperature": "36.94",
           "wind": {
-            "low": "4.517",
-            "high": "16.11",
+            "low": "7.408",
+            "high": "22.15",
             "current": null,
-            "average": "4.517",
-            "direction": "NW"
+            "average": "7.408",
+            "direction": "NNW"
           },
           "humidity": null,
           "display_name": "Sunrise",
@@ -4497,15 +4493,15 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-09-16T06:00:00.000Z"
+            "timestamp": "2026-09-16T07:00:00.000Z"
           },
-          "temperature": "35.01",
+          "temperature": "34.83",
           "wind": {
-            "low": "24.51",
-            "high": "35.86",
+            "low": "24.81",
+            "high": "38.48",
             "current": null,
-            "average": "24.51",
-            "direction": "NE"
+            "average": "24.81",
+            "direction": "ENE"
           },
           "humidity": "100",
           "display_name": "Pine Marten",
@@ -4519,15 +4515,15 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-09-16T06:00:00.000Z"
+            "timestamp": "2026-09-16T07:00:00.000Z"
           },
-          "temperature": "35.84",
+          "temperature": "35.57",
           "wind": {
-            "low": "10.27",
-            "high": "22.15",
+            "low": "12.79",
+            "high": "24.16",
             "current": null,
-            "average": "10.27",
-            "direction": "NW"
+            "average": "12.79",
+            "direction": "WNW"
           },
           "humidity": null,
           "display_name": "Cloud Chaser",
@@ -4634,10 +4630,10 @@
   "hoodoo": {
     "weather": {
       "Temperature": "42 &#176F",
-      "Wind": "ENE @ 46 MPH",
+      "Wind": "East @ 44 MPH",
       "Snow depth": "-0.2\"",
       "Humidity": "100 %",
-      "Barometer": "30.03\" Hg"
+      "Barometer": "30.04\" Hg"
     },
     "snow_totals": {
       "trend": {
@@ -4645,8 +4641,8 @@
         "Min": "-2.0\"",
         "1 Hr": "0.1\"",
         "3 Hr": "0.0\"",
-        "6 Hr": "-0.3\"",
-        "12 Hr": "0.4\"",
+        "6 Hr": "-0.2\"",
+        "12 Hr": "0.1\"",
         "24 Hr": "0.1\""
       },
       "season_total_in": 158.5
@@ -4689,8 +4685,8 @@
   "willamette_pass": {
     "forecast": {
       "weather_provider": "NOAA",
-      "date": "September 16, 2026, 6:44 am",
-      "time": 1789566261000,
+      "date": "September 16, 2026, 7:28 am",
+      "time": 1789568898000,
       "current_weather": "Mostly Sunny then Slight Chance T-storms",
       "current_temperature": "45",
       "forecast": [
