@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T11:30:22.168265+00:00",
+  "generated_at": "2026-09-16T11:45:31.958004+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -914,8 +914,8 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 34.0,
-        "wind_direction_deg": 67.5,
+        "wind_speed_mph": 40.0,
+        "wind_direction_deg": 90,
         "snow_level_ft": 8829,
         "temp_f": 43
       },
@@ -2156,7 +2156,7 @@
         {
           "number": 1,
           "name": "Overnight",
-          "startTime": "2026-09-16T02:00:00-07:00",
+          "startTime": "2026-09-16T04:00:00-07:00",
           "endTime": "2026-09-16T06:00:00-07:00",
           "isDaytime": false,
           "temperature": 45,
@@ -2170,7 +2170,7 @@
           "windDirection": "NW",
           "icon": "https://api.weather.gov/icons/land/night/rain_showers,40?size=medium",
           "shortForecast": "Chance Rain Showers",
-          "detailedForecast": "A chance of rain showers before 5am. Mostly cloudy, with a low around 45. Northwest wind around 7 mph. Chance of precipitation is 40%.",
+          "detailedForecast": "A chance of rain showers before 5am. Cloudy. Low around 45, with temperatures rising to around 47 overnight. Northwest wind around 7 mph. Chance of precipitation is 40%.",
           "precipitationAmountIn": 0.0,
           "snowLevelFt": 8953
         },
@@ -3087,12 +3087,12 @@
     "Hoodoo": {
       "elevation_ft": 4705,
       "temp_f": 43,
-      "wind_speed_mph": 34.0,
-      "wind_direction_deg": 67.5,
+      "wind_speed_mph": 40.0,
+      "wind_direction_deg": 90,
       "snow_level_ft": 8829,
       "precip_chance_today": 7,
-      "snowfall_12h_in": 0.3,
-      "snowfall_24h_in": -0.1,
+      "snowfall_12h_in": 0.2,
+      "snowfall_24h_in": 0.2,
       "snowfall_48h_in": null
     },
     "Willamette Pass": {
@@ -4174,6 +4174,10 @@
       {
         "time": "2026-09-16T10:30:26.318574+00:00",
         "precip_in": 0
+      },
+      {
+        "time": "2026-09-16T11:45:32.223101+00:00",
+        "precip_in": 0
       }
     ]
   },
@@ -4321,10 +4325,10 @@
       "forecast": [
         {
           "date": "2026-09-16",
-          "description_long": "scattered clouds",
-          "description_short": "scattered clouds",
-          "details": "Clouds",
-          "weather_icon": "dor-cloudy",
+          "description_long": "light rain",
+          "description_short": "light rain",
+          "details": "Rain",
+          "weather_icon": "dor-rain",
           "id": 1789588800,
           "day": "Wednesday",
           "temperature_high": 52,
@@ -4630,20 +4634,20 @@
   "hoodoo": {
     "weather": {
       "Temperature": "41 &#176F",
-      "Wind": "ENE @ 34 MPH",
-      "Snow depth": "-0.2\"",
+      "Wind": "East @ 40 MPH",
+      "Snow depth": "-0.5\"",
       "Humidity": "100 %",
-      "Barometer": "30.04\" Hg"
+      "Barometer": "30.02\" Hg"
     },
     "snow_totals": {
       "trend": {
         "Max": "0.5\"",
         "Min": "-2.0\"",
-        "1 Hr": "0.3\"",
-        "3 Hr": "-0.2\"",
-        "6 Hr": "-0.3\"",
-        "12 Hr": "0.3\"",
-        "24 Hr": "-0.1\""
+        "1 Hr": "0.2\"",
+        "3 Hr": "-0.1\"",
+        "6 Hr": "0.0\"",
+        "12 Hr": "0.2\"",
+        "24 Hr": "0.2\""
       },
       "season_total_in": 158.5
     },
@@ -4685,19 +4689,19 @@
   "willamette_pass": {
     "forecast": {
       "weather_provider": "NOAA",
-      "date": "September 16, 2026, 4:28 am",
-      "time": 1789558106000,
+      "date": "September 16, 2026, 4:44 am",
+      "time": 1789559059000,
       "current_weather": "Slight Chance Showers",
-      "current_temperature": "46",
+      "current_temperature": "45",
       "forecast": [
         {
           "day": "Wednesday",
           "day_forecast": "A slight chance of showers and thunderstorms between 2pm and 5pm.  Mostly sunny, with a high near 59. East wind 8 to 11 mph, with gusts as high as 18 mph.  Chance of precipitation is 20%.",
-          "night_forecast": "A slight chance of showers and thunderstorms between 8pm and 11pm.  Partly cloudy, with a low around 42. East wind 5 to 7 mph.  Chance of precipitation is 20%."
+          "night_forecast": "A slight chance of showers and thunderstorms before 11pm, then a slight chance of showers after 5am.  Partly cloudy, with a low around 42. East wind 5 to 7 mph.  Chance of precipitation is 20%."
         },
         {
           "day": "Thursday",
-          "day_forecast": "A chance of showers, with thunderstorms also possible after 2pm.  Mostly cloudy, with a high near 60. East southeast wind around 5 mph becoming light and variable.  Chance of precipitation is 40%.",
+          "day_forecast": "A 50 percent chance of showers, mainly after 8am.  Mostly cloudy, with a high near 60. East southeast wind around 5 mph becoming light and variable. ",
           "night_forecast": "A 30 percent chance of showers before 11pm.  Mostly cloudy, with a low around 42. West northwest wind around 5 mph becoming calm  in the evening. "
         },
         {
@@ -4794,15 +4798,15 @@
   "satellite": {
     "Pacific Northwest": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/pnw/13/GOES18-PNW-13-600x600.gif",
-      "last_modified": "Wed, 16 Sep 2026 11:11:08 GMT"
+      "last_modified": "Wed, 16 Sep 2026 11:40:30 GMT"
     },
     "North Pacific (macro)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/np/13/GOES18-NP-13-900x540.gif",
-      "last_modified": "Wed, 16 Sep 2026 11:11:17 GMT"
+      "last_modified": "Wed, 16 Sep 2026 11:40:39 GMT"
     },
     "Pacific US (PACUS)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/13/GOES18-CONUS-13-625x375.gif",
-      "last_modified": "Wed, 16 Sep 2026 11:05:53 GMT"
+      "last_modified": "Wed, 16 Sep 2026 11:35:22 GMT"
     }
   },
   "gfs_snowfall": {
