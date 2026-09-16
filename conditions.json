@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T19:15:21.247162+00:00",
+  "generated_at": "2026-09-16T19:30:18.710672+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -914,7 +914,7 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 38.0,
+        "wind_speed_mph": 36.0,
         "wind_direction_deg": 90,
         "snow_level_ft": 9328,
         "temp_f": 51
@@ -3087,12 +3087,12 @@
     "Hoodoo": {
       "elevation_ft": 4705,
       "temp_f": 51,
-      "wind_speed_mph": 38.0,
+      "wind_speed_mph": 36.0,
       "wind_direction_deg": 90,
       "snow_level_ft": 9328,
       "precip_chance_today": 4,
-      "snowfall_12h_in": -0.2,
-      "snowfall_24h_in": 0.1,
+      "snowfall_12h_in": 0.1,
+      "snowfall_24h_in": 0.3,
       "snowfall_48h_in": null
     },
     "Willamette Pass": {
@@ -3109,14 +3109,6 @@
   },
   "bachelor_timeseries": {
     "hourly": [
-      {
-        "time": "2026-09-15T12:00:00.000Z",
-        "temp_f": 47.67,
-        "wind_speed_mph": 3.468,
-        "wind_direction_deg": 39.77,
-        "precip_in": null,
-        "period": "historical"
-      },
       {
         "time": "2026-09-15T13:00:00.000Z",
         "temp_f": 47.91,
@@ -3302,12 +3294,12 @@
         "period": "historical"
       },
       {
-        "time": "2026-09-16T12:00:00+00:00",
-        "temp_f": 38.0,
-        "wind_speed_mph": 21.9,
-        "wind_direction_deg": 60,
-        "precip_in": 0.0,
-        "period": "forecast"
+        "time": "2026-09-16T12:00:00.000Z",
+        "temp_f": 38.1,
+        "wind_speed_mph": 7.311,
+        "wind_direction_deg": 340.0,
+        "precip_in": null,
+        "period": "historical"
       },
       {
         "time": "2026-09-16T13:00:00+00:00",
@@ -4200,7 +4192,7 @@
       "swe_in": 0.0,
       "swe_in_date": "2026-09-15",
       "change_12h_in": -1,
-      "change_24h_in": 0
+      "change_24h_in": -1
     },
     "Santiam / Hoodoo (Hogg Pass)": {
       "snow_depth_in": 0,
@@ -4337,8 +4329,8 @@
           "day": "Wednesday",
           "temperature_high": 51,
           "temperature_low": 32,
-          "precipitation_high": 76,
-          "precipitation_low": 76,
+          "precipitation_high": 75,
+          "precipitation_low": 75,
           "wind_speed": 9,
           "wind_direction": "NE"
         },
@@ -4456,10 +4448,10 @@
           "active": true,
           "primary": true,
           "nonstandardizedDataPoints": {
-            "depth": "144.6",
-            "timestamp": "2026-09-16T11:00:00.000Z"
+            "depth": "144.5",
+            "timestamp": "2026-09-16T12:00:00.000Z"
           },
-          "temperature": "43.91",
+          "temperature": "44.46",
           "wind": {
             "low": "0",
             "high": "0",
@@ -4479,15 +4471,15 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-09-16T11:00:00.000Z"
+            "timestamp": "2026-09-16T12:00:00.000Z"
           },
-          "temperature": "38.61",
+          "temperature": "39.95",
           "wind": {
-            "low": "7.076",
-            "high": "22.15",
+            "low": "4.671",
+            "high": "18.12",
             "current": null,
-            "average": "7.076",
-            "direction": "N"
+            "average": "4.671",
+            "direction": "ESE"
           },
           "humidity": null,
           "display_name": "Sunrise",
@@ -4501,14 +4493,14 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-09-16T11:00:00.000Z"
+            "timestamp": "2026-09-16T12:00:00.000Z"
           },
-          "temperature": "35.95",
+          "temperature": "36.61",
           "wind": {
-            "low": "30.86",
-            "high": "47.83",
+            "low": "27.19",
+            "high": "48.18",
             "current": null,
-            "average": "30.86",
+            "average": "27.19",
             "direction": "ENE"
           },
           "humidity": "100",
@@ -4523,15 +4515,15 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-09-16T11:00:00.000Z"
+            "timestamp": "2026-09-16T12:00:00.000Z"
           },
-          "temperature": "36.67",
+          "temperature": "38.1",
           "wind": {
-            "low": "12.64",
-            "high": "28.63",
+            "low": "7.311",
+            "high": "19.01",
             "current": null,
-            "average": "12.64",
-            "direction": "NW"
+            "average": "7.311",
+            "direction": "NNW"
           },
           "humidity": null,
           "display_name": "Cloud Chaser",
@@ -4637,9 +4629,9 @@
   },
   "hoodoo": {
     "weather": {
-      "Temperature": "44 &#176F",
-      "Wind": "East @ 38 MPH",
-      "Snow depth": "-0.9\"",
+      "Temperature": "45 &#176F",
+      "Wind": "East @ 36 MPH",
+      "Snow depth": "-0.2\"",
       "Humidity": "100 %",
       "Barometer": "30.09\" Hg"
     },
@@ -4647,11 +4639,11 @@
       "trend": {
         "Max": "0.5\"",
         "Min": "-2.0\"",
-        "1 Hr": "-0.1\"",
-        "3 Hr": "-0.3\"",
-        "6 Hr": "-0.3\"",
-        "12 Hr": "-0.2\"",
-        "24 Hr": "0.1\""
+        "1 Hr": "0.2\"",
+        "3 Hr": "0.0\"",
+        "6 Hr": "0.3\"",
+        "12 Hr": "0.1\"",
+        "24 Hr": "0.3\""
       },
       "season_total_in": 158.5
     },
@@ -4693,14 +4685,14 @@
   "willamette_pass": {
     "forecast": {
       "weather_provider": "NOAA",
-      "date": "September 16, 2026, 12:14 pm",
-      "time": 1789586049000,
-      "current_weather": "Mostly Sunny",
+      "date": "September 16, 2026, 12:28 pm",
+      "time": 1789586898000,
+      "current_weather": "Sunny",
       "current_temperature": "53",
       "forecast": [
         {
           "day": "Wednesday",
-          "day_forecast": "Mostly sunny, with a high near 59. East wind around 11 mph. ",
+          "day_forecast": "Sunny, with a high near 59. East wind around 11 mph. ",
           "night_forecast": "A slight chance of rain between 8pm and 9pm.  Partly cloudy, with a low around 42. East wind 5 to 14 mph, with gusts as high as 21 mph.  Chance of precipitation is 20%."
         },
         {
