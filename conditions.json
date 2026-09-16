@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T07:15:19.505007+00:00",
+  "generated_at": "2026-09-16T07:25:55.642097+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -3091,8 +3091,8 @@
       "wind_direction_deg": 90,
       "snow_level_ft": 8747,
       "precip_chance_today": 7,
-      "snowfall_12h_in": 0.3,
-      "snowfall_24h_in": 0.1,
+      "snowfall_12h_in": 0.2,
+      "snowfall_24h_in": 0.0,
       "snowfall_48h_in": null
     },
     "Willamette Pass": {
@@ -3109,14 +3109,6 @@
   },
   "bachelor_timeseries": {
     "hourly": [
-      {
-        "time": "2026-09-15T00:00:00.000Z",
-        "temp_f": 50.25,
-        "wind_speed_mph": 8.65,
-        "wind_direction_deg": 241.6,
-        "precip_in": null,
-        "period": "historical"
-      },
       {
         "time": "2026-09-15T01:00:00.000Z",
         "temp_f": 48.89,
@@ -3302,12 +3294,12 @@
         "period": "historical"
       },
       {
-        "time": "2026-09-16T00:00:00+00:00",
-        "temp_f": 44.0,
-        "wind_speed_mph": 6.9,
-        "wind_direction_deg": 300,
-        "precip_in": 0.01,
-        "period": "forecast"
+        "time": "2026-09-16T00:00:00.000Z",
+        "temp_f": 36.17,
+        "wind_speed_mph": 10.1,
+        "wind_direction_deg": 266.8,
+        "precip_in": null,
+        "period": "historical"
       },
       {
         "time": "2026-09-16T01:00:00+00:00",
@@ -4199,7 +4191,7 @@
       "snow_depth_in_date": "2026-09-14",
       "swe_in": 0.0,
       "swe_in_date": "2026-09-14",
-      "change_12h_in": 1,
+      "change_12h_in": 0,
       "change_24h_in": 1
     },
     "Santiam / Hoodoo (Hogg Pass)": {
@@ -4457,9 +4449,9 @@
           "primary": true,
           "nonstandardizedDataPoints": {
             "depth": "160.5",
-            "timestamp": "2026-09-15T23:00:00.000Z"
+            "timestamp": "2026-09-16T00:00:00.000Z"
           },
-          "temperature": "40.78",
+          "temperature": "40.94",
           "wind": {
             "low": "0",
             "high": "0",
@@ -4479,14 +4471,14 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-09-15T23:00:00.000Z"
+            "timestamp": "2026-09-16T00:00:00.000Z"
           },
-          "temperature": "38.3",
+          "temperature": "38.19",
           "wind": {
-            "low": "7.707",
-            "high": "14.99",
+            "low": "5.715",
+            "high": "14.09",
             "current": null,
-            "average": "7.707",
+            "average": "5.715",
             "direction": "W"
           },
           "humidity": null,
@@ -4501,14 +4493,14 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-09-15T23:00:00.000Z"
+            "timestamp": "2026-09-16T00:00:00.000Z"
           },
-          "temperature": "35.85",
+          "temperature": "35.7",
           "wind": {
-            "low": "7.926",
-            "high": "16.15",
+            "low": "10.94",
+            "high": "18.23",
             "current": null,
-            "average": "7.926",
+            "average": "10.94",
             "direction": "E"
           },
           "humidity": "100",
@@ -4523,14 +4515,14 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-09-15T23:00:00.000Z"
+            "timestamp": "2026-09-16T00:00:00.000Z"
           },
-          "temperature": "36.6",
+          "temperature": "36.17",
           "wind": {
-            "low": "11.23",
-            "high": "17.9",
+            "low": "10.1",
+            "high": "15.21",
             "current": null,
-            "average": "11.23",
+            "average": "10.1",
             "direction": "W"
           },
           "humidity": null,
@@ -4647,11 +4639,11 @@
       "trend": {
         "Max": "0.5\"",
         "Min": "-2.0\"",
-        "1 Hr": "-0.3\"",
-        "3 Hr": "-0.1\"",
-        "6 Hr": "0.1\"",
-        "12 Hr": "0.3\"",
-        "24 Hr": "0.1\""
+        "1 Hr": "-0.2\"",
+        "3 Hr": "0.1\"",
+        "6 Hr": "0.2\"",
+        "12 Hr": "0.2\"",
+        "24 Hr": "0.0\""
       },
       "season_total_in": 158.5
     },
@@ -4693,8 +4685,8 @@
   "willamette_pass": {
     "forecast": {
       "weather_provider": "NOAA",
-      "date": "September 16, 2026, 12:13 am",
-      "time": 1789542805000,
+      "date": "September 16, 2026, 12:25 am",
+      "time": 1789543517000,
       "current_weather": "Slight Chance Showers",
       "current_temperature": "47",
       "forecast": [
