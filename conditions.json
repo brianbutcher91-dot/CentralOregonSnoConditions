@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T17:00:43.873313+00:00",
+  "generated_at": "2026-09-16T17:15:24.969169+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -314,7 +314,7 @@
         {
           "number": 1,
           "name": "Today",
-          "startTime": "2026-09-16T10:00:00-07:00",
+          "startTime": "2026-09-16T07:00:00-07:00",
           "endTime": "2026-09-16T18:00:00-07:00",
           "isDaytime": true,
           "temperature": 51,
@@ -322,15 +322,15 @@
           "temperatureTrend": null,
           "probabilityOfPrecipitation": {
             "unitCode": "wmoUnit:percent",
-            "value": 9
+            "value": 14
           },
-          "windSpeed": "15 mph",
+          "windSpeed": "13 to 16 mph",
           "windDirection": "NE",
           "icon": "https://api.weather.gov/icons/land/day/sct?size=medium",
           "shortForecast": "Mostly Sunny",
-          "detailedForecast": "Mostly sunny, with a high near 51. Northeast wind around 15 mph, with gusts as high as 28 mph. New rainfall amounts less than a tenth of an inch possible.",
-          "precipitationAmountIn": 0.0,
-          "snowLevelFt": 8884
+          "detailedForecast": "Mostly sunny, with a high near 51. Northeast wind 13 to 16 mph, with gusts as high as 32 mph. New rainfall amounts less than a tenth of an inch possible.",
+          "precipitationAmountIn": 0.01,
+          "snowLevelFt": 8723
         },
         {
           "number": 2,
@@ -914,8 +914,8 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 16,
-        "wind_direction_deg": 80,
+        "wind_speed_mph": 50.0,
+        "wind_direction_deg": 90,
         "snow_level_ft": 9200,
         "temp_f": 46
       },
@@ -928,7 +928,7 @@
         {
           "number": 1,
           "name": "Today",
-          "startTime": "2026-09-16T08:00:00-07:00",
+          "startTime": "2026-09-16T10:00:00-07:00",
           "endTime": "2026-09-16T18:00:00-07:00",
           "isDaytime": true,
           "temperature": 51,
@@ -942,7 +942,7 @@
           "windDirection": "NE",
           "icon": "https://api.weather.gov/icons/land/day/sct?size=medium",
           "shortForecast": "Mostly Sunny",
-          "detailedForecast": "Mostly sunny, with a high near 51. Northeast wind around 14 mph, with gusts as high as 25 mph.",
+          "detailedForecast": "Mostly sunny, with a high near 51. Northeast wind around 14 mph, with gusts as high as 24 mph.",
           "precipitationAmountIn": 0.0,
           "snowLevelFt": 8859
         },
@@ -1849,7 +1849,7 @@
         {
           "number": 1,
           "name": "Today",
-          "startTime": "2026-09-16T08:00:00-07:00",
+          "startTime": "2026-09-16T10:00:00-07:00",
           "endTime": "2026-09-16T18:00:00-07:00",
           "isDaytime": true,
           "temperature": 61,
@@ -2156,7 +2156,7 @@
         {
           "number": 1,
           "name": "Today",
-          "startTime": "2026-09-16T10:00:00-07:00",
+          "startTime": "2026-09-16T09:00:00-07:00",
           "endTime": "2026-09-16T18:00:00-07:00",
           "isDaytime": true,
           "temperature": 66,
@@ -2463,7 +2463,7 @@
         {
           "number": 1,
           "name": "Today",
-          "startTime": "2026-09-16T08:00:00-07:00",
+          "startTime": "2026-09-16T07:00:00-07:00",
           "endTime": "2026-09-16T18:00:00-07:00",
           "isDaytime": true,
           "temperature": 66,
@@ -2471,15 +2471,15 @@
           "temperatureTrend": null,
           "probabilityOfPrecipitation": {
             "unitCode": "wmoUnit:percent",
-            "value": 5
+            "value": 9
           },
-          "windSpeed": "7 to 13 mph",
+          "windSpeed": "5 to 13 mph",
           "windDirection": "N",
-          "icon": "https://api.weather.gov/icons/land/day/few?size=medium",
-          "shortForecast": "Sunny",
-          "detailedForecast": "Sunny, with a high near 66. North wind 7 to 13 mph, with gusts as high as 24 mph.",
+          "icon": "https://api.weather.gov/icons/land/day/sct?size=medium",
+          "shortForecast": "Mostly Sunny",
+          "detailedForecast": "Mostly sunny, with a high near 66. North wind 5 to 13 mph, with gusts as high as 24 mph.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 8937
+          "snowLevelFt": 8783
         },
         {
           "number": 2,
@@ -3087,12 +3087,12 @@
     "Hoodoo": {
       "elevation_ft": 4705,
       "temp_f": 46,
-      "wind_speed_mph": 16,
-      "wind_direction_deg": 80,
+      "wind_speed_mph": 50.0,
+      "wind_direction_deg": 90,
       "snow_level_ft": 9200,
       "precip_chance_today": 4,
-      "snowfall_12h_in": null,
-      "snowfall_24h_in": null,
+      "snowfall_12h_in": -0.4,
+      "snowfall_24h_in": -0.2,
       "snowfall_48h_in": null
     },
     "Willamette Pass": {
@@ -4337,8 +4337,8 @@
           "day": "Wednesday",
           "temperature_high": 53,
           "temperature_low": 33,
-          "precipitation_high": 80,
-          "precipitation_low": 80,
+          "precipitation_high": 79,
+          "precipitation_low": 79,
           "wind_speed": 9,
           "wind_direction": "NE"
         },
@@ -4567,17 +4567,17 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-09-16T09:00:00.000Z"
+            "timestamp": "2026-09-16T10:00:00.000Z"
           },
-          "temperature": "32.02",
+          "temperature": "32.52",
           "wind": {
-            "low": "40.65",
-            "high": "62.86",
+            "low": "36.14",
+            "high": "63.08",
             "current": null,
-            "average": "40.65",
-            "direction": "ENE"
+            "average": "36.14",
+            "direction": "E"
           },
-          "humidity": "99.6",
+          "humidity": "99.7",
           "display_name": "Summit",
           "elevation_ft": 9065
         }
@@ -4636,10 +4636,24 @@
     }
   },
   "hoodoo": {
-    "weather": {},
+    "weather": {
+      "Temperature": "42 &#176F",
+      "Wind": "East @ 50 MPH",
+      "Snow depth": "-1.0\"",
+      "Humidity": "100 %",
+      "Barometer": "30.05\" Hg"
+    },
     "snow_totals": {
-      "trend": {},
-      "season_total_in": null
+      "trend": {
+        "Max": "0.5\"",
+        "Min": "-2.0\"",
+        "1 Hr": "-0.2\"",
+        "3 Hr": "-0.3\"",
+        "6 Hr": "-0.3\"",
+        "12 Hr": "-0.4\"",
+        "24 Hr": "-0.2\""
+      },
+      "season_total_in": 158.5
     },
     "webcams": {
       "Base Area": {
@@ -4679,19 +4693,19 @@
   "willamette_pass": {
     "forecast": {
       "weather_provider": "NOAA",
-      "date": "September 16, 2026, 9:59 am",
-      "time": 1789577961000,
-      "current_weather": "Mostly Sunny then Slight Chance T-storms",
+      "date": "September 16, 2026, 10:13 am",
+      "time": 1789578798000,
+      "current_weather": "Mostly Sunny",
       "current_temperature": "48",
       "forecast": [
         {
           "day": "Wednesday",
-          "day_forecast": "A slight chance of showers and thunderstorms between 2pm and 5pm.  Mostly sunny, with a high near 59. East wind 8 to 11 mph, with gusts as high as 18 mph.  Chance of precipitation is 20%.",
-          "night_forecast": "A slight chance of showers and thunderstorms before 11pm, then a slight chance of showers after 5am.  Partly cloudy, with a low around 42. East wind 5 to 7 mph.  Chance of precipitation is 20%."
+          "day_forecast": "Mostly sunny, with a high near 59. East wind around 11 mph, with gusts as high as 21 mph. ",
+          "night_forecast": "A slight chance of rain between 8pm and 9pm.  Partly cloudy, with a low around 42. East wind 5 to 14 mph, with gusts as high as 21 mph.  Chance of precipitation is 20%."
         },
         {
           "day": "Thursday",
-          "day_forecast": "A 50 percent chance of showers, mainly after 8am.  Mostly cloudy, with a high near 60. East southeast wind around 5 mph becoming light and variable. ",
+          "day_forecast": "A 50 percent chance of showers, mainly after 8am.  Mostly cloudy, with a high near 60. Light and variable wind becoming east southeast around 5 mph in the afternoon. ",
           "night_forecast": "A 30 percent chance of showers before 11pm.  Cloudy, then gradually becoming partly cloudy, with a low around 42. West northwest wind around 5 mph becoming calm  in the evening. "
         },
         {
@@ -4722,27 +4736,27 @@
       "hourly": [
         {
           "time": "10a",
-          "temp": "46",
+          "temp": "45",
           "details": ""
         },
         {
           "time": "12p",
-          "temp": "50",
+          "temp": "49",
           "details": ""
         },
         {
           "time": "2p",
-          "temp": "56",
-          "details": "slight chance of thunderstorms and slight chance of rain"
+          "temp": "55",
+          "details": ""
         },
         {
           "time": "4p",
           "temp": "58",
-          "details": "slight chance of thunderstorms and slight chance of rain"
+          "details": ""
         },
         {
           "time": "5p",
-          "temp": "59",
+          "temp": "58",
           "details": ""
         }
       ],
@@ -4789,15 +4803,15 @@
   "satellite": {
     "Pacific Northwest": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/pnw/13/GOES18-PNW-13-600x600.gif",
-      "last_modified": "Wed, 16 Sep 2026 16:40:46 GMT"
+      "last_modified": "Wed, 16 Sep 2026 17:10:46 GMT"
     },
     "North Pacific (macro)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/np/13/GOES18-NP-13-900x540.gif",
-      "last_modified": "Wed, 16 Sep 2026 16:40:55 GMT"
+      "last_modified": "Wed, 16 Sep 2026 17:10:54 GMT"
     },
     "Pacific US (PACUS)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/13/GOES18-CONUS-13-625x375.gif",
-      "last_modified": "Wed, 16 Sep 2026 16:35:34 GMT"
+      "last_modified": "Wed, 16 Sep 2026 17:05:37 GMT"
     }
   },
   "gfs_snowfall": {
