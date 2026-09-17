@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T22:30:15.254576+00:00",
+  "generated_at": "2026-09-17T22:45:16.402797+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -7,7 +7,7 @@
         {
           "number": 1,
           "name": "This Afternoon",
-          "startTime": "2026-09-17T14:00:00-07:00",
+          "startTime": "2026-09-17T15:00:00-07:00",
           "endTime": "2026-09-17T18:00:00-07:00",
           "isDaytime": true,
           "temperature": 49,
@@ -621,7 +621,7 @@
         {
           "number": 1,
           "name": "This Afternoon",
-          "startTime": "2026-09-17T14:00:00-07:00",
+          "startTime": "2026-09-17T15:00:00-07:00",
           "endTime": "2026-09-17T18:00:00-07:00",
           "isDaytime": true,
           "temperature": 64,
@@ -629,15 +629,15 @@
           "temperatureTrend": null,
           "probabilityOfPrecipitation": {
             "unitCode": "wmoUnit:percent",
-            "value": 43
+            "value": 27
           },
           "windSpeed": "7 mph",
-          "windDirection": "NNW",
-          "icon": "https://api.weather.gov/icons/land/day/rain_showers,40?size=medium",
+          "windDirection": "NW",
+          "icon": "https://api.weather.gov/icons/land/day/rain_showers,30?size=medium",
           "shortForecast": "Chance Rain Showers",
-          "detailedForecast": "A chance of rain showers before 5pm. Partly sunny. High near 64, with temperatures falling to around 62 in the afternoon. North northwest wind around 7 mph. Chance of precipitation is 40%.",
+          "detailedForecast": "A chance of rain showers before 5pm. Partly sunny. High near 64, with temperatures falling to around 62 in the afternoon. Northwest wind around 7 mph. Chance of precipitation is 30%.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 10413
+          "snowLevelFt": 10371
         },
         {
           "number": 2,
@@ -914,8 +914,8 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 6,
-        "wind_direction_deg": 340,
+        "wind_speed_mph": 6.0,
+        "wind_direction_deg": 292.5,
         "snow_level_ft": 10371,
         "temp_f": 62
       },
@@ -2156,7 +2156,7 @@
         {
           "number": 1,
           "name": "This Afternoon",
-          "startTime": "2026-09-17T14:00:00-07:00",
+          "startTime": "2026-09-17T15:00:00-07:00",
           "endTime": "2026-09-17T18:00:00-07:00",
           "isDaytime": true,
           "temperature": 64,
@@ -2170,8 +2170,8 @@
           "windDirection": "N",
           "icon": "https://api.weather.gov/icons/land/day/tsra,70?size=medium",
           "shortForecast": "Showers And Thunderstorms Likely",
-          "detailedForecast": "Showers and thunderstorms likely. Cloudy, with a high near 64. North wind around 5 mph. Chance of precipitation is 70%. New rainfall amounts between a tenth and quarter of an inch possible.",
-          "precipitationAmountIn": 0.05,
+          "detailedForecast": "Showers and thunderstorms likely. Mostly cloudy, with a high near 64. North wind around 5 mph. Chance of precipitation is 70%. New rainfall amounts between a tenth and quarter of an inch possible.",
+          "precipitationAmountIn": 0.04,
           "snowLevelFt": 10597
         },
         {
@@ -3087,12 +3087,12 @@
     "Hoodoo": {
       "elevation_ft": 4705,
       "temp_f": 62,
-      "wind_speed_mph": 6,
-      "wind_direction_deg": 340,
+      "wind_speed_mph": 6.0,
+      "wind_direction_deg": 292.5,
       "snow_level_ft": 10371,
-      "precip_chance_today": 43,
-      "snowfall_12h_in": null,
-      "snowfall_24h_in": null,
+      "precip_chance_today": 27,
+      "snowfall_12h_in": -0.1,
+      "snowfall_24h_in": -0.3,
       "snowfall_48h_in": null
     },
     "Willamette Pass": {
@@ -3928,10 +3928,6 @@
     ],
     "historical_precip_snapshots": [
       {
-        "time": "2026-09-14T22:30:40.854645+00:00",
-        "precip_in": 0
-      },
-      {
         "time": "2026-09-14T23:45:26.611425+00:00",
         "precip_in": 0
       },
@@ -4174,6 +4170,10 @@
       {
         "time": "2026-09-17T21:30:24.981567+00:00",
         "precip_in": 0
+      },
+      {
+        "time": "2026-09-17T22:45:16.892962+00:00",
+        "precip_in": 0
       }
     ]
   },
@@ -4327,10 +4327,10 @@
           "weather_icon": "dor-rain",
           "id": 1789675200,
           "day": "Thursday",
-          "temperature_high": 51,
+          "temperature_high": 52,
           "temperature_low": 34,
-          "precipitation_high": 69,
-          "precipitation_low": 69,
+          "precipitation_high": 66,
+          "precipitation_low": 66,
           "wind_speed": 8,
           "wind_direction": "NNW"
         },
@@ -4628,10 +4628,24 @@
     }
   },
   "hoodoo": {
-    "weather": {},
+    "weather": {
+      "Temperature": "57 &#176F",
+      "Wind": "WNW @ 6 MPH",
+      "Snow depth": "-0.6\"",
+      "Humidity": "63 %",
+      "Barometer": "30.17\" Hg"
+    },
     "snow_totals": {
-      "trend": {},
-      "season_total_in": null
+      "trend": {
+        "Max": "0.4\"",
+        "Min": "-3.5\"",
+        "1 Hr": "0.0\"",
+        "3 Hr": "-0.2\"",
+        "6 Hr": "-0.1\"",
+        "12 Hr": "-0.1\"",
+        "24 Hr": "-0.3\""
+      },
+      "season_total_in": 158.5
     },
     "webcams": {
       "Base Area": {
@@ -4781,15 +4795,15 @@
   "satellite": {
     "Pacific Northwest": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/pnw/13/GOES18-PNW-13-600x600.gif",
-      "last_modified": "Thu, 17 Sep 2026 22:11:28 GMT"
+      "last_modified": "Thu, 17 Sep 2026 22:41:02 GMT"
     },
     "North Pacific (macro)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/np/13/GOES18-NP-13-900x540.gif",
-      "last_modified": "Thu, 17 Sep 2026 22:11:37 GMT"
+      "last_modified": "Thu, 17 Sep 2026 22:41:11 GMT"
     },
     "Pacific US (PACUS)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/13/GOES18-CONUS-13-625x375.gif",
-      "last_modified": "Thu, 17 Sep 2026 22:05:51 GMT"
+      "last_modified": "Thu, 17 Sep 2026 22:35:31 GMT"
     }
   },
   "gfs_snowfall": {
