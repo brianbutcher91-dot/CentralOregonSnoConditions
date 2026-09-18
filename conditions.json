@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T20:15:13.782108+00:00",
+  "generated_at": "2026-09-18T20:30:27.959401+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -914,8 +914,8 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 9.0,
-        "wind_direction_deg": 270,
+        "wind_speed_mph": 7.0,
+        "wind_direction_deg": 247.5,
         "snow_level_ft": 8353,
         "temp_f": 58
       },
@@ -1234,8 +1234,8 @@
       "periods": [
         {
           "number": 1,
-          "name": "Today",
-          "startTime": "2026-09-18T11:00:00-07:00",
+          "name": "This Afternoon",
+          "startTime": "2026-09-18T13:00:00-07:00",
           "endTime": "2026-09-18T18:00:00-07:00",
           "isDaytime": true,
           "temperature": 62,
@@ -1251,7 +1251,7 @@
           "shortForecast": "Sunny",
           "detailedForecast": "Sunny. High near 62, with temperatures falling to around 60 in the afternoon. West northwest wind around 10 mph.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 8750
+          "snowLevelFt": 8799
         },
         {
           "number": 2,
@@ -3087,12 +3087,12 @@
     "Hoodoo": {
       "elevation_ft": 4705,
       "temp_f": 58,
-      "wind_speed_mph": 9.0,
-      "wind_direction_deg": 270,
+      "wind_speed_mph": 7.0,
+      "wind_direction_deg": 247.5,
       "snow_level_ft": 8353,
       "precip_chance_today": 0,
-      "snowfall_12h_in": -0.5,
-      "snowfall_24h_in": 0.1,
+      "snowfall_12h_in": -0.7,
+      "snowfall_24h_in": -0.1,
       "snowfall_48h_in": null
     },
     "Willamette Pass": {
@@ -3109,14 +3109,6 @@
   },
   "bachelor_timeseries": {
     "hourly": [
-      {
-        "time": "2026-09-17T13:00:00.000Z",
-        "temp_f": 43.75,
-        "wind_speed_mph": 8.79,
-        "wind_direction_deg": 281.5,
-        "precip_in": null,
-        "period": "historical"
-      },
       {
         "time": "2026-09-17T14:00:00.000Z",
         "temp_f": 47.41,
@@ -3302,12 +3294,12 @@
         "period": "historical"
       },
       {
-        "time": "2026-09-18T13:00:00+00:00",
-        "temp_f": 40.0,
-        "wind_speed_mph": 9.2,
-        "wind_direction_deg": 300,
-        "precip_in": 0.0,
-        "period": "forecast"
+        "time": "2026-09-18T13:00:00.000Z",
+        "temp_f": 49.87,
+        "wind_speed_mph": 6.106,
+        "wind_direction_deg": 345.2,
+        "precip_in": null,
+        "period": "historical"
       },
       {
         "time": "2026-09-18T14:00:00+00:00",
@@ -3936,10 +3928,6 @@
     ],
     "historical_precip_snapshots": [
       {
-        "time": "2026-09-15T20:15:25.823347+00:00",
-        "precip_in": 0
-      },
-      {
         "time": "2026-09-15T22:00:20.762580+00:00",
         "precip_in": 0
       },
@@ -4186,7 +4174,38 @@
     ]
   },
   "snotel": {
-    "error": "500 Server Error: Internal Server Error for url: https://wcc.sc.egov.usda.gov/awdbRestApi/services/v1/data?stationTriplets=671%3AOR%3ASNTL&elements=SNWD&duration=HOURLY&getFlags=false&beginDate=2026-09-16+08%3A15&endDate=2026-09-19+08%3A15"
+    "Mt Bachelor area (Irish Taylor)": {
+      "snow_depth_in": 0,
+      "snow_depth_in_date": "2026-09-17",
+      "swe_in": 0.0,
+      "swe_in_date": "2026-09-17",
+      "change_12h_in": 0,
+      "change_24h_in": 0
+    },
+    "Three Creek / Tam McArthur (Three Creeks Meadow)": {
+      "snow_depth_in": 0,
+      "snow_depth_in_date": "2026-09-17",
+      "swe_in": 0.0,
+      "swe_in_date": "2026-09-17",
+      "change_12h_in": 1,
+      "change_24h_in": 1
+    },
+    "Santiam / Hoodoo (Hogg Pass)": {
+      "snow_depth_in": 0,
+      "snow_depth_in_date": "2026-09-17",
+      "swe_in": 0.1,
+      "swe_in_date": "2026-09-17",
+      "change_12h_in": 0,
+      "change_24h_in": 0
+    },
+    "Ochocos (Ochoco Meadows)": {
+      "snow_depth_in": 0,
+      "snow_depth_in_date": "2026-09-17",
+      "swe_in": 0.0,
+      "swe_in_date": "2026-09-17",
+      "change_12h_in": 0,
+      "change_24h_in": 0
+    }
   },
   "odot_cams": {
     "Century Drive": [
@@ -4292,7 +4311,7 @@
   "mtbachelor": {
     "weather": {
       "current": {
-        "temperature": 53,
+        "temperature": 57,
         "weather_icon": "dor-mostlysunny"
       },
       "forecast": [
@@ -4304,7 +4323,7 @@
           "weather_icon": "dor-mostlysunny",
           "id": 1789761600,
           "day": "Friday",
-          "temperature_high": 61,
+          "temperature_high": 62,
           "temperature_low": 34,
           "precipitation_high": 52,
           "precipitation_low": 52,
@@ -4336,10 +4355,10 @@
           "day": "Sunday",
           "temperature_high": 67,
           "temperature_low": 44,
-          "precipitation_high": 32,
-          "precipitation_low": 32,
-          "wind_speed": 3,
-          "wind_direction": "ESE"
+          "precipitation_high": 31,
+          "precipitation_low": 31,
+          "wind_speed": 4,
+          "wind_direction": "SE"
         },
         {
           "date": "2026-09-21",
@@ -4349,11 +4368,11 @@
           "weather_icon": "dor-rain",
           "id": 1790017200,
           "day": "Monday",
-          "temperature_high": 66,
+          "temperature_high": 67,
           "temperature_low": 49,
-          "precipitation_high": 34,
-          "precipitation_low": 34,
-          "wind_speed": 4,
+          "precipitation_high": 33,
+          "precipitation_low": 33,
+          "wind_speed": 3,
           "wind_direction": "NW"
         },
         {
@@ -4364,27 +4383,27 @@
           "weather_icon": "dor-sunny",
           "id": 1790103600,
           "day": "Tuesday",
-          "temperature_high": 62,
-          "temperature_low": 41,
-          "precipitation_high": 48,
-          "precipitation_low": 48,
-          "wind_speed": 4,
+          "temperature_high": 61,
+          "temperature_low": 43,
+          "precipitation_high": 47,
+          "precipitation_low": 47,
+          "wind_speed": 5,
           "wind_direction": "W"
         },
         {
           "date": "2026-09-23",
-          "description_long": "scattered clouds",
-          "description_short": "scattered clouds",
+          "description_long": "broken clouds",
+          "description_short": "broken clouds",
           "details": "Clouds",
-          "weather_icon": "dor-cloudy",
+          "weather_icon": "dor-mostlycloudy",
           "id": 1790190000,
           "day": "Wednesday",
-          "temperature_high": 61,
-          "temperature_low": 41,
-          "precipitation_high": 34,
-          "precipitation_low": 34,
+          "temperature_high": 59,
+          "temperature_low": 42,
+          "precipitation_high": 35,
+          "precipitation_low": 35,
           "wind_speed": 5,
-          "wind_direction": "WSW"
+          "wind_direction": "W"
         },
         {
           "date": "2026-09-24",
@@ -4394,27 +4413,27 @@
           "weather_icon": "dor-mostlycloudy",
           "id": 1790276400,
           "day": "Thursday",
-          "temperature_high": 60,
-          "temperature_low": 39,
-          "precipitation_high": 34,
-          "precipitation_low": 34,
-          "wind_speed": 5,
+          "temperature_high": 68,
+          "temperature_low": 42,
+          "precipitation_high": 33,
+          "precipitation_low": 33,
+          "wind_speed": 8,
           "wind_direction": "WSW"
         },
         {
           "date": "2026-09-25",
-          "description_long": "light rain",
-          "description_short": "light rain",
-          "details": "Rain",
-          "weather_icon": "dor-rain",
+          "description_long": "broken clouds",
+          "description_short": "broken clouds",
+          "details": "Clouds",
+          "weather_icon": "dor-mostlycloudy",
           "id": 1790362800,
           "day": "Friday",
-          "temperature_high": 49,
-          "temperature_low": 33,
-          "precipitation_high": 52,
-          "precipitation_low": 52,
-          "wind_speed": 4,
-          "wind_direction": "WNW"
+          "temperature_high": 65,
+          "temperature_low": 45,
+          "precipitation_high": 34,
+          "precipitation_low": 34,
+          "wind_speed": 7,
+          "wind_direction": "W"
         }
       ],
       "sensors": {
@@ -4425,10 +4444,10 @@
           "active": true,
           "primary": true,
           "nonstandardizedDataPoints": {
-            "depth": "-1.272",
-            "timestamp": "2026-09-18T12:00:00.000Z"
+            "depth": "-1.879",
+            "timestamp": "2026-09-18T13:00:00.000Z"
           },
-          "temperature": "53.43",
+          "temperature": "56.56",
           "wind": {
             "low": "0",
             "high": "0",
@@ -4448,14 +4467,14 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-09-18T12:00:00.000Z"
+            "timestamp": "2026-09-18T13:00:00.000Z"
           },
-          "temperature": "51.68",
+          "temperature": "54.28",
           "wind": {
-            "low": "5.434",
-            "high": "12.75",
+            "low": "6.474",
+            "high": "18.79",
             "current": null,
-            "average": "5.434",
+            "average": "6.474",
             "direction": "WNW"
           },
           "humidity": null,
@@ -4470,17 +4489,17 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-09-18T12:00:00.000Z"
+            "timestamp": "2026-09-18T13:00:00.000Z"
           },
-          "temperature": "48.08",
+          "temperature": "50.93",
           "wind": {
-            "low": "5.107",
-            "high": "10.65",
+            "low": "5.469",
+            "high": "13.61",
             "current": null,
-            "average": "5.107",
+            "average": "5.469",
             "direction": "WNW"
           },
-          "humidity": "72.12",
+          "humidity": "72.64",
           "display_name": "Pine Marten",
           "elevation_ft": 7800
         },
@@ -4492,15 +4511,15 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-09-18T12:00:00.000Z"
+            "timestamp": "2026-09-18T13:00:00.000Z"
           },
-          "temperature": "48.26",
+          "temperature": "49.87",
           "wind": {
-            "low": "6.159",
-            "high": "12.75",
+            "low": "6.106",
+            "high": "18.34",
             "current": null,
-            "average": "6.159",
-            "direction": "NW"
+            "average": "6.106",
+            "direction": "NNW"
           },
           "humidity": null,
           "display_name": "Cloud Chaser",
@@ -4606,21 +4625,21 @@
   },
   "hoodoo": {
     "weather": {
-      "Temperature": "55 &#176F",
-      "Wind": "West @ 9 MPH",
-      "Snow depth": "-0.7\"",
-      "Humidity": "73 %",
+      "Temperature": "56 &#176F",
+      "Wind": "WSW @ 7 MPH",
+      "Snow depth": "-1.1\"",
+      "Humidity": "72 %",
       "Barometer": "30.28\" Hg"
     },
     "snow_totals": {
       "trend": {
-        "Max": "0.6\"",
+        "Max": "0.8\"",
         "Min": "-3.5\"",
-        "1 Hr": "-0.2\"",
-        "3 Hr": "-0.5\"",
-        "6 Hr": "-0.4\"",
-        "12 Hr": "-0.5\"",
-        "24 Hr": "0.1\""
+        "1 Hr": "-0.3\"",
+        "3 Hr": "-0.7\"",
+        "6 Hr": "-0.8\"",
+        "12 Hr": "-0.7\"",
+        "24 Hr": "-0.1\""
       },
       "season_total_in": 158.5
     },
@@ -4662,14 +4681,14 @@
   "willamette_pass": {
     "forecast": {
       "weather_provider": "NOAA",
-      "date": "September 18, 2026, 12:52 pm",
-      "time": 1789761137000,
+      "date": "September 18, 2026, 1:10 pm",
+      "time": 1789762218000,
       "current_weather": "Sunny",
       "current_temperature": "68",
       "forecast": [
         {
           "day": "Friday",
-          "day_forecast": "Sunny, with a high near 62. West northwest wind 8 to 10 mph. ",
+          "day_forecast": "Sunny, with a high near 62. West northwest wind around 10 mph. ",
           "night_forecast": "Clear, with a low around 41. West northwest wind 5 to 7 mph becoming calm. "
         },
         {
@@ -4704,11 +4723,6 @@
       "min_temp": "41",
       "hourly": [
         {
-          "time": "12p",
-          "temp": "57",
-          "details": ""
-        },
-        {
           "time": "2p",
           "temp": "60",
           "details": ""
@@ -4726,6 +4740,11 @@
         {
           "time": "8p",
           "temp": "50",
+          "details": ""
+        },
+        {
+          "time": "10p",
+          "temp": "46",
           "details": ""
         }
       ],
