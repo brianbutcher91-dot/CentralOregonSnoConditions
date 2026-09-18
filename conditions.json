@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T19:15:27.477118+00:00",
+  "generated_at": "2026-09-18T19:30:25.031392+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -2155,8 +2155,8 @@
       "periods": [
         {
           "number": 1,
-          "name": "Today",
-          "startTime": "2026-09-18T11:00:00-07:00",
+          "name": "This Afternoon",
+          "startTime": "2026-09-18T12:00:00-07:00",
           "endTime": "2026-09-18T18:00:00-07:00",
           "isDaytime": true,
           "temperature": 74,
@@ -3091,8 +3091,8 @@
       "wind_direction_deg": 315,
       "snow_level_ft": 8232,
       "precip_chance_today": 0,
-      "snowfall_12h_in": 0.0,
-      "snowfall_24h_in": 0.3,
+      "snowfall_12h_in": -0.2,
+      "snowfall_24h_in": 0.1,
       "snowfall_48h_in": null
     },
     "Willamette Pass": {
@@ -3109,14 +3109,6 @@
   },
   "bachelor_timeseries": {
     "hourly": [
-      {
-        "time": "2026-09-17T12:00:00.000Z",
-        "temp_f": 43.99,
-        "wind_speed_mph": 9.59,
-        "wind_direction_deg": 323.0,
-        "precip_in": null,
-        "period": "historical"
-      },
       {
         "time": "2026-09-17T13:00:00.000Z",
         "temp_f": 43.75,
@@ -3302,12 +3294,12 @@
         "period": "historical"
       },
       {
-        "time": "2026-09-18T12:00:00+00:00",
-        "temp_f": 40.0,
-        "wind_speed_mph": 10.4,
-        "wind_direction_deg": 320,
-        "precip_in": 0.0,
-        "period": "forecast"
+        "time": "2026-09-18T12:00:00.000Z",
+        "temp_f": 48.26,
+        "wind_speed_mph": 6.159,
+        "wind_direction_deg": 322.3,
+        "precip_in": null,
+        "period": "historical"
       },
       {
         "time": "2026-09-18T13:00:00+00:00",
@@ -4333,8 +4325,8 @@
           "day": "Friday",
           "temperature_high": 58,
           "temperature_low": 34,
-          "precipitation_high": 58,
-          "precipitation_low": 58,
+          "precipitation_high": 55,
+          "precipitation_low": 55,
           "wind_speed": 5,
           "wind_direction": "WNW"
         },
@@ -4452,10 +4444,10 @@
           "active": true,
           "primary": true,
           "nonstandardizedDataPoints": {
-            "depth": "143.3",
-            "timestamp": "2026-09-18T11:00:00.000Z"
+            "depth": "-1.272",
+            "timestamp": "2026-09-18T12:00:00.000Z"
           },
-          "temperature": "52.84",
+          "temperature": "53.43",
           "wind": {
             "low": "0",
             "high": "0",
@@ -4475,15 +4467,15 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-09-18T11:00:00.000Z"
+            "timestamp": "2026-09-18T12:00:00.000Z"
           },
-          "temperature": "50.89",
+          "temperature": "51.68",
           "wind": {
-            "low": "6.202",
-            "high": "11.86",
+            "low": "5.434",
+            "high": "12.75",
             "current": null,
-            "average": "6.202",
-            "direction": "NW"
+            "average": "5.434",
+            "direction": "WNW"
           },
           "humidity": null,
           "display_name": "Sunrise",
@@ -4497,17 +4489,17 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-09-18T11:00:00.000Z"
+            "timestamp": "2026-09-18T12:00:00.000Z"
           },
-          "temperature": "46.68",
+          "temperature": "48.08",
           "wind": {
-            "low": "5.971",
-            "high": "11.14",
+            "low": "5.107",
+            "high": "10.65",
             "current": null,
-            "average": "5.971",
+            "average": "5.107",
             "direction": "WNW"
           },
-          "humidity": "78.15",
+          "humidity": "72.12",
           "display_name": "Pine Marten",
           "elevation_ft": 7800
         },
@@ -4519,15 +4511,15 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-09-18T11:00:00.000Z"
+            "timestamp": "2026-09-18T12:00:00.000Z"
           },
-          "temperature": "48.14",
+          "temperature": "48.26",
           "wind": {
-            "low": "5.377",
-            "high": "12.3",
+            "low": "6.159",
+            "high": "12.75",
             "current": null,
-            "average": "5.377",
-            "direction": "N"
+            "average": "6.159",
+            "direction": "NW"
           },
           "humidity": null,
           "display_name": "Cloud Chaser",
@@ -4633,21 +4625,21 @@
   },
   "hoodoo": {
     "weather": {
-      "Temperature": "53 &#176F",
+      "Temperature": "54 &#176F",
       "Wind": "NW @ 6 MPH",
       "Snow depth": "-0.2\"",
-      "Humidity": "78 %",
+      "Humidity": "76 %",
       "Barometer": "30.28\" Hg"
     },
     "snow_totals": {
       "trend": {
         "Max": "0.6\"",
         "Min": "-3.5\"",
-        "1 Hr": "0.1\"",
-        "3 Hr": "-0.4\"",
-        "6 Hr": "-0.2\"",
-        "12 Hr": "0.0\"",
-        "24 Hr": "0.3\""
+        "1 Hr": "0.3\"",
+        "3 Hr": "-0.5\"",
+        "6 Hr": "-0.4\"",
+        "12 Hr": "-0.2\"",
+        "24 Hr": "0.1\""
       },
       "season_total_in": 158.5
     },
@@ -4689,40 +4681,40 @@
   "willamette_pass": {
     "forecast": {
       "weather_provider": "NOAA",
-      "date": "September 18, 2026, 11:54 am",
-      "time": 1789757655000,
+      "date": "September 18, 2026, 12:10 pm",
+      "time": 1789758618000,
       "current_weather": "Sunny",
-      "current_temperature": "59",
+      "current_temperature": "65",
       "forecast": [
         {
           "day": "Friday",
           "day_forecast": "Sunny, with a high near 62. West northwest wind 8 to 10 mph. ",
-          "night_forecast": "Mostly clear, with a low around 41. West northwest wind 5 to 7 mph becoming calm. "
+          "night_forecast": "Clear, with a low around 41. West northwest wind 5 to 7 mph becoming calm. "
         },
         {
           "day": "Saturday",
           "day_forecast": "Sunny, with a high near 69. East southeast wind 5 to 7 mph becoming light and variable. ",
-          "night_forecast": "Mostly clear, with a low around 45. West northwest wind around 6 mph becoming light and variable. "
+          "night_forecast": "Partly cloudy, with a low around 46. West northwest wind around 6 mph becoming light and variable. "
         },
         {
           "day": "Sunday",
-          "day_forecast": "Sunny, with a high near 73. East southeast wind 5 to 7 mph becoming calm  in the afternoon. ",
+          "day_forecast": "Sunny, with a high near 72. East southeast wind 5 to 7 mph becoming calm  in the afternoon. ",
           "night_forecast": "Mostly clear, with a low around 47."
         },
         {
           "day": "Monday",
-          "day_forecast": "Sunny, with a high near 69.",
-          "night_forecast": "Mostly clear, with a low around 43."
+          "day_forecast": "Sunny, with a high near 70.",
+          "night_forecast": "Partly cloudy, with a low around 44."
         },
         {
           "day": "Tuesday",
-          "day_forecast": "Mostly sunny, with a high near 65.",
-          "night_forecast": "Partly cloudy, with a low around 41."
+          "day_forecast": "Sunny, with a high near 65.",
+          "night_forecast": "Mostly clear, with a low around 41."
         },
         {
           "day": "Wednesday",
-          "day_forecast": "Mostly sunny, with a high near 67.",
-          "night_forecast": "Partly cloudy, with a low around 44."
+          "day_forecast": "Sunny, with a high near 67.",
+          "night_forecast": "Partly cloudy, with a low around 45."
         }
       ],
       "wind": "NA",
@@ -4732,12 +4724,12 @@
       "hourly": [
         {
           "time": "12p",
-          "temp": "58",
+          "temp": "57",
           "details": ""
         },
         {
           "time": "2p",
-          "temp": "61",
+          "temp": "60",
           "details": ""
         },
         {
