@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T07:00:37.790792+00:00",
+  "generated_at": "2026-09-18T07:15:21.883914+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -914,7 +914,7 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 11.0,
+        "wind_speed_mph": 10.0,
         "wind_direction_deg": 247.5,
         "snow_level_ft": 9577,
         "temp_f": 46
@@ -3087,12 +3087,12 @@
     "Hoodoo": {
       "elevation_ft": 4705,
       "temp_f": 46,
-      "wind_speed_mph": 11.0,
+      "wind_speed_mph": 10.0,
       "wind_direction_deg": 247.5,
       "snow_level_ft": 9577,
       "precip_chance_today": 2,
-      "snowfall_12h_in": 0.2,
-      "snowfall_24h_in": 0.3,
+      "snowfall_12h_in": 0.3,
+      "snowfall_24h_in": 0.2,
       "snowfall_48h_in": null
     },
     "Willamette Pass": {
@@ -4321,13 +4321,13 @@
     ]
   },
   "mtbachelor": {
-    "error": "502 Server Error: Bad Gateway for url: https://api.mtbachelor.com/api/v1/dor/weather-forecast"
+    "error": "503 Server Error: Service Temporarily Unavailable for url: https://api.mtbachelor.com/api/v1/dor/weather-forecast"
   },
   "hoodoo": {
     "weather": {
       "Temperature": "48 &#176F",
-      "Wind": "WSW @ 11 MPH",
-      "Snow depth": "-0.2\"",
+      "Wind": "WSW @ 10 MPH",
+      "Snow depth": "0.2\"",
       "Humidity": "100 %",
       "Barometer": "30.26\" Hg"
     },
@@ -4335,11 +4335,11 @@
       "trend": {
         "Max": "0.4\"",
         "Min": "-3.5\"",
-        "1 Hr": "-0.1\"",
-        "3 Hr": "0.0\"",
+        "1 Hr": "0.0\"",
+        "3 Hr": "0.2\"",
         "6 Hr": "0.2\"",
-        "12 Hr": "0.2\"",
-        "24 Hr": "0.3\""
+        "12 Hr": "0.3\"",
+        "24 Hr": "0.2\""
       },
       "season_total_in": 158.5
     },
@@ -4381,24 +4381,20 @@
   "willamette_pass": {
     "forecast": {
       "weather_provider": "NOAA",
-      "date": "September 17, 2026, 11:34 pm",
-      "time": 1789713255000,
+      "date": "September 18, 2026, 12:14 am",
+      "time": 1789715649000,
       "current_weather": "Partly Cloudy",
       "current_temperature": "46",
       "forecast": [
         {
-          "day": "Thursday",
-          "night_forecast": "Partly cloudy, with a low around 42. Calm wind becoming north northwest around 5 mph after midnight. "
-        },
-        {
           "day": "Friday",
           "day_forecast": "Sunny, with a high near 62. West northwest wind 3 to 7 mph. ",
-          "night_forecast": "Mostly clear, with a low around 42. West northwest wind around 5 mph becoming calm  in the evening. "
+          "night_forecast": "Mostly clear, with a low around 41. West northwest wind around 5 mph becoming calm  in the evening. "
         },
         {
           "day": "Saturday",
           "day_forecast": "Sunny, with a high near 69. Light and variable wind. ",
-          "night_forecast": "Mostly clear, with a low around 46. Calm wind becoming east around 5 mph after midnight. "
+          "night_forecast": "Mostly clear, with a low around 45. Calm wind becoming east around 5 mph after midnight. "
         },
         {
           "day": "Sunday",
@@ -4408,16 +4404,16 @@
         {
           "day": "Monday",
           "day_forecast": "Sunny, with a high near 69.",
-          "night_forecast": "Partly cloudy, with a low around 43."
+          "night_forecast": "Mostly clear, with a low around 43."
         },
         {
           "day": "Tuesday",
-          "day_forecast": "Mostly sunny, with a high near 61.",
-          "night_forecast": "Mostly clear, with a low around 40."
+          "day_forecast": "Mostly sunny, with a high near 65.",
+          "night_forecast": "Partly cloudy, with a low around 41."
         },
         {
           "day": "Wednesday",
-          "day_forecast": "Mostly sunny, with a high near 63."
+          "day_forecast": "Mostly sunny, with a high near 67."
         }
       ],
       "wind": "NA",
@@ -4427,7 +4423,7 @@
       "hourly": [
         {
           "time": "12a",
-          "temp": "46",
+          "temp": "45",
           "details": ""
         },
         {
@@ -4442,7 +4438,7 @@
         },
         {
           "time": "5a",
-          "temp": "43",
+          "temp": "42",
           "details": ""
         },
         {
@@ -4491,15 +4487,15 @@
   "satellite": {
     "Pacific Northwest": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/pnw/13/GOES18-PNW-13-600x600.gif",
-      "last_modified": "Fri, 18 Sep 2026 06:40:51 GMT"
+      "last_modified": "Fri, 18 Sep 2026 07:10:57 GMT"
     },
     "North Pacific (macro)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/np/13/GOES18-NP-13-900x540.gif",
-      "last_modified": "Fri, 18 Sep 2026 06:41:00 GMT"
+      "last_modified": "Fri, 18 Sep 2026 07:11:06 GMT"
     },
     "Pacific US (PACUS)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/13/GOES18-CONUS-13-625x375.gif",
-      "last_modified": "Fri, 18 Sep 2026 06:35:30 GMT"
+      "last_modified": "Fri, 18 Sep 2026 07:05:41 GMT"
     }
   },
   "gfs_snowfall": {
