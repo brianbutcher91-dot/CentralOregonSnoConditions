@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T10:15:19.733420+00:00",
+  "generated_at": "2026-09-19T10:30:24.768567+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -3110,14 +3110,6 @@
   "bachelor_timeseries": {
     "hourly": [
       {
-        "time": "2026-09-18T03:00:00.000Z",
-        "temp_f": 46.13,
-        "wind_speed_mph": 8.2,
-        "wind_direction_deg": 275.7,
-        "precip_in": null,
-        "period": "historical"
-      },
-      {
         "time": "2026-09-18T04:00:00.000Z",
         "temp_f": 45.72,
         "wind_speed_mph": 11.63,
@@ -3302,12 +3294,12 @@
         "period": "historical"
       },
       {
-        "time": "2026-09-19T03:00:00+00:00",
-        "temp_f": 45.0,
-        "wind_speed_mph": 3.5,
-        "wind_direction_deg": 300,
-        "precip_in": 0.0,
-        "period": "forecast"
+        "time": "2026-09-19T03:00:00.000Z",
+        "temp_f": 46.18,
+        "wind_speed_mph": 2.533,
+        "wind_direction_deg": 218.4,
+        "precip_in": null,
+        "period": "historical"
       },
       {
         "time": "2026-09-19T04:00:00+00:00",
@@ -4178,6 +4170,10 @@
       {
         "time": "2026-09-19T09:15:21.274120+00:00",
         "precip_in": 0
+      },
+      {
+        "time": "2026-09-19T10:30:25.000156+00:00",
+        "precip_in": 0
       }
     ]
   },
@@ -4319,7 +4315,7 @@
   "mtbachelor": {
     "weather": {
       "current": {
-        "temperature": 39,
+        "temperature": 38,
         "weather_icon": "dor-sunny"
       },
       "forecast": [
@@ -4453,9 +4449,9 @@
           "primary": true,
           "nonstandardizedDataPoints": {
             "depth": "160.5",
-            "timestamp": "2026-09-19T02:00:00.000Z"
+            "timestamp": "2026-09-19T03:00:00.000Z"
           },
-          "temperature": "38.8",
+          "temperature": "37.71",
           "wind": {
             "low": "0",
             "high": "0",
@@ -4475,15 +4471,15 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-09-19T02:00:00.000Z"
+            "timestamp": "2026-09-19T03:00:00.000Z"
           },
-          "temperature": "45.16",
+          "temperature": "45.31",
           "wind": {
-            "low": "5.163",
+            "low": "4.93",
             "high": "9.62",
             "current": null,
-            "average": "5.163",
-            "direction": "S"
+            "average": "4.93",
+            "direction": "SSW"
           },
           "humidity": null,
           "display_name": "Sunrise",
@@ -4497,17 +4493,17 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-09-19T02:00:00.000Z"
+            "timestamp": "2026-09-19T03:00:00.000Z"
           },
-          "temperature": "45.01",
+          "temperature": "44.72",
           "wind": {
-            "low": "3.876",
-            "high": "10.37",
+            "low": "7.147",
+            "high": "11.28",
             "current": null,
-            "average": "3.876",
+            "average": "7.147",
             "direction": "W"
           },
-          "humidity": "63.29",
+          "humidity": "65.78",
           "display_name": "Pine Marten",
           "elevation_ft": 7800
         },
@@ -4519,15 +4515,15 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-09-19T02:00:00.000Z"
+            "timestamp": "2026-09-19T03:00:00.000Z"
           },
-          "temperature": "45.5",
+          "temperature": "46.18",
           "wind": {
-            "low": "3.941",
-            "high": "8.28",
+            "low": "2.533",
+            "high": "7.158",
             "current": null,
-            "average": "3.941",
-            "direction": "SSE"
+            "average": "2.533",
+            "direction": "SW"
           },
           "humidity": null,
           "display_name": "Cloud Chaser",
@@ -4690,8 +4686,8 @@
   "willamette_pass": {
     "forecast": {
       "weather_provider": "NOAA",
-      "date": "September 19, 2026, 2:52 am",
-      "time": 1789811538000,
+      "date": "September 19, 2026, 3:28 am",
+      "time": 1789813698000,
       "current_weather": "Mostly Clear",
       "current_temperature": "46",
       "forecast": [
@@ -4731,11 +4727,6 @@
       "min_temp": "44",
       "hourly": [
         {
-          "time": "2a",
-          "temp": "45",
-          "details": ""
-        },
-        {
           "time": "4a",
           "temp": "43",
           "details": ""
@@ -4753,6 +4744,11 @@
         {
           "time": "10a",
           "temp": "55",
+          "details": ""
+        },
+        {
+          "time": "12p",
+          "temp": "62",
           "details": ""
         }
       ],
