@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T11:32:31.646534+00:00",
+  "generated_at": "2026-09-20T11:47:29.230076+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -4324,7 +4324,7 @@
           "id": 1789934400,
           "day": "Sunday",
           "temperature_high": 63,
-          "temperature_low": 37,
+          "temperature_low": 35,
           "precipitation_high": 32,
           "precipitation_low": 32,
           "wind_speed": 6,
@@ -4624,14 +4624,14 @@
     }
   },
   "hoodoo": {
-    "error": "HTTPSConnectionPool(host='santiampsp.org', port=443): Max retries exceeded with url: /wx/weather.htm (Caused by ConnectTimeoutError(<HTTPSConnection(host='santiampsp.org', port=443) at 0x7f16a6ed7d40>, 'Connection to santiampsp.org timed out. (connect timeout=None)'))"
+    "error": "HTTPSConnectionPool(host='santiampsp.org', port=443): Max retries exceeded with url: /wx/weather.htm (Caused by ConnectTimeoutError(<HTTPSConnection(host='santiampsp.org', port=443) at 0x7fdb3e573020>, 'Connection to santiampsp.org timed out. (connect timeout=None)'))"
   },
   "willamette_pass": {
     "forecast": {
       "weather_provider": "NOAA",
-      "date": "September 20, 2026, 4:13 am",
-      "time": 1789902801000,
-      "current_weather": "Mostly Clear",
+      "date": "September 20, 2026, 4:25 am",
+      "time": 1789903523000,
+      "current_weather": "Sunny",
       "current_temperature": "50",
       "forecast": [
         {
@@ -4646,7 +4646,7 @@
         },
         {
           "day": "Tuesday",
-          "day_forecast": "Mostly sunny, with a high near 63.",
+          "day_forecast": "Mostly sunny, with a high near 63. Calm wind becoming west northwest 5 to 7 mph in the afternoon. ",
           "night_forecast": "Partly cloudy, with a low around 39."
         },
         {
@@ -4657,17 +4657,18 @@
         {
           "day": "Thursday",
           "day_forecast": "Mostly sunny, with a high near 66.",
-          "night_forecast": "A slight chance of rain.  Mostly cloudy, with a low around 42."
+          "night_forecast": "A slight chance of rain after 11pm.  Mostly cloudy, with a low around 42."
         },
         {
           "day": "Friday",
-          "day_forecast": "A chance of rain.  Partly sunny, with a high near 53."
+          "day_forecast": "A chance of rain.  Partly sunny, with a high near 53.",
+          "night_forecast": "A slight chance of rain.  Snow level 8700 feet lowering to 7900 feet after midnight . Mostly cloudy, with a low around 36."
         }
       ],
       "wind": "NA",
-      "icon": "0150-clear-night.svg",
+      "icon": "0100-sunny.svg",
       "max_temp": "72",
-      "min_temp": "46",
+      "min_temp": "48",
       "hourly": [
         {
           "time": "4a",
@@ -4735,15 +4736,15 @@
   "satellite": {
     "Pacific Northwest": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/pnw/13/GOES18-PNW-13-600x600.gif",
-      "last_modified": "Sun, 20 Sep 2026 11:10:59 GMT"
+      "last_modified": "Sun, 20 Sep 2026 11:40:53 GMT"
     },
     "North Pacific (macro)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/np/13/GOES18-NP-13-900x540.gif",
-      "last_modified": "Sun, 20 Sep 2026 11:11:09 GMT"
+      "last_modified": "Sun, 20 Sep 2026 11:41:02 GMT"
     },
     "Pacific US (PACUS)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/13/GOES18-CONUS-13-625x375.gif",
-      "last_modified": "Sun, 20 Sep 2026 11:05:39 GMT"
+      "last_modified": "Sun, 20 Sep 2026 11:35:30 GMT"
     }
   },
   "gfs_snowfall": {
