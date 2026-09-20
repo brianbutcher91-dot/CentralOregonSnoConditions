@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T07:15:18.348168+00:00",
+  "generated_at": "2026-09-20T07:30:20.289539+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -3110,14 +3110,6 @@
   "bachelor_timeseries": {
     "hourly": [
       {
-        "time": "2026-09-19T00:00:00.000Z",
-        "temp_f": 45.63,
-        "wind_speed_mph": 4.781,
-        "wind_direction_deg": 144.4,
-        "precip_in": null,
-        "period": "historical"
-      },
-      {
         "time": "2026-09-19T01:00:00.000Z",
         "temp_f": 45.38,
         "wind_speed_mph": 4.503,
@@ -3302,12 +3294,12 @@
         "period": "historical"
       },
       {
-        "time": "2026-09-20T00:00:00+00:00",
-        "temp_f": 59.0,
-        "wind_speed_mph": 3.5,
-        "wind_direction_deg": 130,
-        "precip_in": 0.0,
-        "period": "forecast"
+        "time": "2026-09-20T00:00:00.000Z",
+        "temp_f": 50.99,
+        "wind_speed_mph": 2.751,
+        "wind_direction_deg": 182.9,
+        "precip_in": null,
+        "period": "historical"
       },
       {
         "time": "2026-09-20T01:00:00+00:00",
@@ -3936,10 +3928,6 @@
     ],
     "historical_precip_snapshots": [
       {
-        "time": "2026-09-17T07:30:17.170221+00:00",
-        "precip_in": 0
-      },
-      {
         "time": "2026-09-17T08:30:19.344597+00:00",
         "precip_in": 0
       },
@@ -4178,6 +4166,10 @@
       {
         "time": "2026-09-20T06:30:15.567215+00:00",
         "precip_in": 0
+      },
+      {
+        "time": "2026-09-20T07:30:20.696977+00:00",
+        "precip_in": 0
       }
     ]
   },
@@ -4195,7 +4187,7 @@
       "snow_depth_in_date": "2026-09-18",
       "swe_in": 0.0,
       "swe_in_date": "2026-09-18",
-      "change_12h_in": 0,
+      "change_12h_in": -1,
       "change_24h_in": 0
     },
     "Santiam / Hoodoo (Hogg Pass)": {
@@ -4452,8 +4444,8 @@
           "active": true,
           "primary": true,
           "nonstandardizedDataPoints": {
-            "depth": "-0.985",
-            "timestamp": "2026-09-19T23:00:00.000Z"
+            "depth": "-1.082",
+            "timestamp": "2026-09-20T00:00:00.000Z"
           },
           "temperature": "49.76",
           "wind": {
@@ -4475,15 +4467,15 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-09-19T23:00:00.000Z"
+            "timestamp": "2026-09-20T00:00:00.000Z"
           },
-          "temperature": "51.52",
+          "temperature": "51.22",
           "wind": {
-            "low": "4.038",
-            "high": "8.72",
+            "low": "4.365",
+            "high": "9.4",
             "current": null,
-            "average": "4.038",
-            "direction": "SSW"
+            "average": "4.365",
+            "direction": "S"
           },
           "humidity": null,
           "display_name": "Sunrise",
@@ -4497,17 +4489,17 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-09-19T23:00:00.000Z"
+            "timestamp": "2026-09-20T00:00:00.000Z"
           },
-          "temperature": "49.43",
+          "temperature": "49.18",
           "wind": {
-            "low": "8.6",
-            "high": "13.01",
+            "low": "9.87",
+            "high": "16.38",
             "current": null,
-            "average": "8.6",
-            "direction": "ESE"
+            "average": "9.87",
+            "direction": "E"
           },
-          "humidity": "55.81",
+          "humidity": "53.6",
           "display_name": "Pine Marten",
           "elevation_ft": 7800
         },
@@ -4519,14 +4511,14 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-09-19T23:00:00.000Z"
+            "timestamp": "2026-09-20T00:00:00.000Z"
           },
-          "temperature": "51.34",
+          "temperature": "50.99",
           "wind": {
-            "low": "2.248",
-            "high": "8.95",
+            "low": "2.751",
+            "high": "7.83",
             "current": null,
-            "average": "2.248",
+            "average": "2.751",
             "direction": "S"
           },
           "humidity": null,
@@ -4690,47 +4682,47 @@
   "willamette_pass": {
     "forecast": {
       "weather_provider": "NOAA",
-      "date": "September 19, 2026, 11:55 pm",
-      "time": 1789887317000,
-      "current_weather": "Partly Cloudy",
+      "date": "September 20, 2026, 12:07 am",
+      "time": 1789888037000,
+      "current_weather": "Mostly Clear",
       "current_temperature": "54",
       "forecast": [
         {
           "day": "Saturday",
-          "night_forecast": "Partly cloudy, with a low around 46. East wind 3 to 5 mph. "
+          "night_forecast": "Mostly clear, with a low around 46. East wind 3 to 5 mph. "
         },
         {
           "day": "Sunday",
-          "day_forecast": "Sunny, with a high near 72. Southeast wind around 6 mph becoming light and variable  in the afternoon. ",
-          "night_forecast": "Partly cloudy, with a low around 48. Calm wind becoming east around 5 mph. "
+          "day_forecast": "Sunny, with a high near 72. Southeast wind 3 to 6 mph. ",
+          "night_forecast": "Mostly clear, with a low around 48. Calm wind becoming east around 5 mph. "
         },
         {
           "day": "Monday",
-          "day_forecast": "Sunny, with a high near 72. Light and variable wind. ",
-          "night_forecast": "Partly cloudy, with a low around 45. Northwest wind around 5 mph becoming calm  in the evening. "
+          "day_forecast": "Partly sunny, with a high near 71. Calm wind becoming northwest around 5 mph in the afternoon. ",
+          "night_forecast": "Partly cloudy, with a low around 44. Northwest wind around 5 mph becoming calm  in the evening. "
         },
         {
           "day": "Tuesday",
-          "day_forecast": "Sunny, with a high near 64.",
+          "day_forecast": "Mostly sunny, with a high near 63.",
           "night_forecast": "Partly cloudy, with a low around 39."
         },
         {
           "day": "Wednesday",
           "day_forecast": "Mostly sunny, with a high near 60.",
-          "night_forecast": "Partly cloudy, with a low around 39."
+          "night_forecast": "Partly cloudy, with a low around 40."
         },
         {
           "day": "Thursday",
-          "day_forecast": "Mostly sunny, with a high near 63.",
-          "night_forecast": "Mostly cloudy, with a low around 41."
+          "day_forecast": "Mostly sunny, with a high near 66.",
+          "night_forecast": "A slight chance of rain.  Mostly cloudy, with a low around 42."
         },
         {
           "day": "Friday",
-          "day_forecast": "Partly sunny, with a high near 56."
+          "day_forecast": "A chance of rain.  Partly sunny, with a high near 53."
         }
       ],
       "wind": "NA",
-      "icon": "0103-partly-cloudy.svg",
+      "icon": "0150-clear-night.svg",
       "max_temp": "72",
       "min_temp": "46",
       "hourly": [
