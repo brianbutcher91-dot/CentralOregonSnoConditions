@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T08:00:21.060983+00:00",
+  "generated_at": "2026-09-20T08:15:17.467691+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -7,7 +7,7 @@
         {
           "number": 1,
           "name": "Overnight",
-          "startTime": "2026-09-20T01:00:00-07:00",
+          "startTime": "2026-09-20T00:00:00-07:00",
           "endTime": "2026-09-20T06:00:00-07:00",
           "isDaytime": false,
           "temperature": 44,
@@ -2463,7 +2463,7 @@
         {
           "number": 1,
           "name": "Overnight",
-          "startTime": "2026-09-20T01:00:00-07:00",
+          "startTime": "2026-09-20T00:00:00-07:00",
           "endTime": "2026-09-20T06:00:00-07:00",
           "isDaytime": false,
           "temperature": 45,
@@ -2473,11 +2473,11 @@
             "unitCode": "wmoUnit:percent",
             "value": 0
           },
-          "windSpeed": "0 mph",
-          "windDirection": "",
+          "windSpeed": "1 mph",
+          "windDirection": "NW",
           "icon": "https://api.weather.gov/icons/land/night/few?size=medium",
           "shortForecast": "Mostly Clear",
-          "detailedForecast": "Mostly clear. Low around 45, with temperatures rising to around 48 overnight. Wind around 0 mph.",
+          "detailedForecast": "Mostly clear. Low around 45, with temperatures rising to around 48 overnight. Northwest wind around 1 mph.",
           "precipitationAmountIn": 0.0,
           "snowLevelFt": 9859
         },
@@ -4315,10 +4315,10 @@
           "weather_icon": "dor-sunny",
           "id": 1789934400,
           "day": "Sunday",
-          "temperature_high": 59,
+          "temperature_high": 63,
           "temperature_low": 33,
-          "precipitation_high": 33,
-          "precipitation_low": 33,
+          "precipitation_high": 32,
+          "precipitation_low": 32,
           "wind_speed": 6,
           "wind_direction": "SSE"
         },
@@ -4330,8 +4330,8 @@
           "weather_icon": "dor-mostlycloudy",
           "id": 1790017200,
           "day": "Monday",
-          "temperature_high": 67,
-          "temperature_low": 36,
+          "temperature_high": 59,
+          "temperature_low": 35,
           "precipitation_high": 32,
           "precipitation_low": 32,
           "wind_speed": 5,
@@ -4547,17 +4547,17 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-09-20T00:00:00.000Z"
+            "timestamp": "2026-09-20T01:00:00.000Z"
           },
-          "temperature": "46.24",
+          "temperature": "45.83",
           "wind": {
-            "low": "10.98",
-            "high": "16.55",
+            "low": "8.99",
+            "high": "13.2",
             "current": null,
-            "average": "10.98",
-            "direction": "SE"
+            "average": "8.99",
+            "direction": "SSE"
           },
-          "humidity": "54.49",
+          "humidity": "55.73",
           "display_name": "Summit",
           "elevation_ft": 9065
         }
@@ -4674,8 +4674,8 @@
   "willamette_pass": {
     "forecast": {
       "weather_provider": "NOAA",
-      "date": "September 20, 2026, 12:40 am",
-      "time": 1789890018000,
+      "date": "September 20, 2026, 12:52 am",
+      "time": 1789890738000,
       "current_weather": "Mostly Clear",
       "current_temperature": "54",
       "forecast": [
@@ -4783,15 +4783,15 @@
   "satellite": {
     "Pacific Northwest": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/pnw/13/GOES18-PNW-13-600x600.gif",
-      "last_modified": "Sun, 20 Sep 2026 07:41:08 GMT"
+      "last_modified": "Sun, 20 Sep 2026 08:11:29 GMT"
     },
     "North Pacific (macro)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/np/13/GOES18-NP-13-900x540.gif",
-      "last_modified": "Sun, 20 Sep 2026 07:41:18 GMT"
+      "last_modified": "Sun, 20 Sep 2026 08:11:38 GMT"
     },
     "Pacific US (PACUS)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/13/GOES18-CONUS-13-625x375.gif",
-      "last_modified": "Sun, 20 Sep 2026 07:35:39 GMT"
+      "last_modified": "Sun, 20 Sep 2026 08:05:57 GMT"
     }
   },
   "gfs_snowfall": {
