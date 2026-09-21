@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T08:15:20.280543+00:00",
+  "generated_at": "2026-09-21T08:30:17.163343+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -621,7 +621,7 @@
         {
           "number": 1,
           "name": "Overnight",
-          "startTime": "2026-09-21T01:00:00-07:00",
+          "startTime": "2026-09-21T00:00:00-07:00",
           "endTime": "2026-09-21T06:00:00-07:00",
           "isDaytime": false,
           "temperature": 49,
@@ -637,7 +637,7 @@
           "shortForecast": "Mostly Clear",
           "detailedForecast": "Mostly clear. Low around 49, with temperatures rising to around 51 overnight. East wind around 3 mph.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 10473
+          "snowLevelFt": 10427
         },
         {
           "number": 2,
@@ -1542,7 +1542,7 @@
         {
           "number": 1,
           "name": "Overnight",
-          "startTime": "2026-09-21T01:00:00-07:00",
+          "startTime": "2026-09-21T00:00:00-07:00",
           "endTime": "2026-09-21T06:00:00-07:00",
           "isDaytime": false,
           "temperature": 51,
@@ -1558,7 +1558,7 @@
           "shortForecast": "Mostly Clear",
           "detailedForecast": "Mostly clear. Low around 51, with temperatures rising to around 53 overnight. East southeast wind 3 to 7 mph.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 10525
+          "snowLevelFt": 10558
         },
         {
           "number": 2,
@@ -4195,14 +4195,26 @@
   },
   "snotel": {
     "Mt Bachelor area (Irish Taylor)": {
+      "snow_depth_in": 0,
+      "snow_depth_in_date": "2026-09-20",
+      "swe_in": 0.2,
+      "swe_in_date": "2026-09-20",
       "change_12h_in": 0,
       "change_24h_in": 0
     },
     "Three Creek / Tam McArthur (Three Creeks Meadow)": {
+      "snow_depth_in": 0,
+      "snow_depth_in_date": "2026-09-20",
+      "swe_in": 0.0,
+      "swe_in_date": "2026-09-20",
       "change_12h_in": 0,
       "change_24h_in": 0
     },
     "Santiam / Hoodoo (Hogg Pass)": {
+      "snow_depth_in": 0,
+      "snow_depth_in_date": "2026-09-20",
+      "swe_in": 0.1,
+      "swe_in_date": "2026-09-20",
       "change_12h_in": 0,
       "change_24h_in": 0
     },
@@ -4351,18 +4363,18 @@
         },
         {
           "date": "2026-09-23",
-          "description_long": "broken clouds",
-          "description_short": "broken clouds",
+          "description_long": "overcast clouds",
+          "description_short": "overcast clouds",
           "details": "Clouds",
           "weather_icon": "dor-mostlycloudy",
           "id": 1790190000,
           "day": "Wednesday",
-          "temperature_high": 61,
-          "temperature_low": 41,
-          "precipitation_high": 35,
-          "precipitation_low": 35,
-          "wind_speed": 5,
-          "wind_direction": "WSW"
+          "temperature_high": 60,
+          "temperature_low": 42,
+          "precipitation_high": 36,
+          "precipitation_low": 36,
+          "wind_speed": 4,
+          "wind_direction": "SW"
         },
         {
           "date": "2026-09-24",
@@ -4372,11 +4384,11 @@
           "weather_icon": "dor-mostlycloudy",
           "id": 1790276400,
           "day": "Thursday",
-          "temperature_high": 64,
-          "temperature_low": 47,
+          "temperature_high": 63,
+          "temperature_low": 45,
           "precipitation_high": 40,
           "precipitation_low": 40,
-          "wind_speed": 10,
+          "wind_speed": 9,
           "wind_direction": "SW"
         },
         {
@@ -4387,27 +4399,27 @@
           "weather_icon": "dor-snow",
           "id": 1790362800,
           "day": "Friday",
-          "temperature_high": 45,
+          "temperature_high": 48,
           "temperature_low": 32,
-          "precipitation_high": 97,
-          "precipitation_low": 97,
-          "wind_speed": 14,
+          "precipitation_high": 68,
+          "precipitation_low": 68,
+          "wind_speed": 13,
           "wind_direction": "SW"
         },
         {
           "date": "2026-09-26",
-          "description_long": "broken clouds",
-          "description_short": "broken clouds",
-          "details": "Clouds",
-          "weather_icon": "dor-mostlycloudy",
+          "description_long": "clear sky",
+          "description_short": "clear sky",
+          "details": "Clear",
+          "weather_icon": "dor-sunny",
           "id": 1790449200,
           "day": "Saturday",
-          "temperature_high": 55,
+          "temperature_high": 53,
           "temperature_low": 29,
-          "precipitation_high": 63,
-          "precipitation_low": 63,
-          "wind_speed": 6,
-          "wind_direction": "WNW"
+          "precipitation_high": 53,
+          "precipitation_low": 53,
+          "wind_speed": 5,
+          "wind_direction": "ESE"
         },
         {
           "date": "2026-09-27",
@@ -4686,10 +4698,10 @@
   "willamette_pass": {
     "forecast": {
       "weather_provider": "NOAA",
-      "date": "September 21, 2026, 12:50 am",
-      "time": 1789977020000,
+      "date": "September 21, 2026, 1:04 am",
+      "time": 1789977857000,
       "current_weather": "Mostly Clear",
-      "current_temperature": "63",
+      "current_temperature": "57",
       "forecast": [
         {
           "day": "Monday",
