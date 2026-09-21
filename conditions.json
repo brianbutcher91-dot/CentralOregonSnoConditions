@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T17:15:21.727572+00:00",
+  "generated_at": "2026-09-21T17:30:18.202863+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -7,7 +7,7 @@
         {
           "number": 1,
           "name": "Today",
-          "startTime": "2026-09-21T10:00:00-07:00",
+          "startTime": "2026-09-21T08:00:00-07:00",
           "endTime": "2026-09-21T18:00:00-07:00",
           "isDaytime": true,
           "temperature": 64,
@@ -19,9 +19,9 @@
           },
           "windSpeed": "6 mph",
           "windDirection": "W",
-          "icon": "https://api.weather.gov/icons/land/day/bkn?size=medium",
-          "shortForecast": "Partly Sunny",
-          "detailedForecast": "Partly sunny. High near 64, with temperatures falling to around 60 in the afternoon. West wind around 6 mph.",
+          "icon": "https://api.weather.gov/icons/land/day/sct?size=medium",
+          "shortForecast": "Mostly Sunny",
+          "detailedForecast": "Mostly sunny. High near 64, with temperatures falling to around 60 in the afternoon. West wind around 6 mph.",
           "precipitationAmountIn": 0.0,
           "snowLevelFt": 10436
         },
@@ -314,7 +314,7 @@
         {
           "number": 1,
           "name": "Today",
-          "startTime": "2026-09-21T10:00:00-07:00",
+          "startTime": "2026-09-21T08:00:00-07:00",
           "endTime": "2026-09-21T18:00:00-07:00",
           "isDaytime": true,
           "temperature": 65,
@@ -324,11 +324,11 @@
             "unitCode": "wmoUnit:percent",
             "value": 1
           },
-          "windSpeed": "3 mph",
+          "windSpeed": "5 mph",
           "windDirection": "NW",
           "icon": "https://api.weather.gov/icons/land/day/bkn?size=medium",
           "shortForecast": "Partly Sunny",
-          "detailedForecast": "Partly sunny. High near 65, with temperatures falling to around 63 in the afternoon. Northwest wind around 3 mph.",
+          "detailedForecast": "Partly sunny. High near 65, with temperatures falling to around 63 in the afternoon. Northwest wind around 5 mph.",
           "precipitationAmountIn": 0.0,
           "snowLevelFt": 10436
         },
@@ -914,8 +914,8 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 4.0,
-        "wind_direction_deg": 225,
+        "wind_speed_mph": 5.0,
+        "wind_direction_deg": 247.5,
         "snow_level_ft": 10279,
         "temp_f": 62
       },
@@ -1235,7 +1235,7 @@
         {
           "number": 1,
           "name": "Today",
-          "startTime": "2026-09-21T10:00:00-07:00",
+          "startTime": "2026-09-21T08:00:00-07:00",
           "endTime": "2026-09-21T18:00:00-07:00",
           "isDaytime": true,
           "temperature": 70,
@@ -1246,12 +1246,12 @@
             "value": 0
           },
           "windSpeed": "2 to 6 mph",
-          "windDirection": "W",
+          "windDirection": "SW",
           "icon": "https://api.weather.gov/icons/land/day/bkn?size=medium",
           "shortForecast": "Partly Sunny",
-          "detailedForecast": "Partly sunny. High near 70, with temperatures falling to around 65 in the afternoon. West wind 2 to 6 mph.",
+          "detailedForecast": "Partly sunny. High near 70, with temperatures falling to around 65 in the afternoon. Southwest wind 2 to 6 mph.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 10384
+          "snowLevelFt": 10423
         },
         {
           "number": 2,
@@ -1849,7 +1849,7 @@
         {
           "number": 1,
           "name": "Today",
-          "startTime": "2026-09-21T10:00:00-07:00",
+          "startTime": "2026-09-21T08:00:00-07:00",
           "endTime": "2026-09-21T18:00:00-07:00",
           "isDaytime": true,
           "temperature": 74,
@@ -2463,7 +2463,7 @@
         {
           "number": 1,
           "name": "Today",
-          "startTime": "2026-09-21T10:00:00-07:00",
+          "startTime": "2026-09-21T08:00:00-07:00",
           "endTime": "2026-09-21T18:00:00-07:00",
           "isDaytime": true,
           "temperature": 81,
@@ -2770,7 +2770,7 @@
         {
           "number": 1,
           "name": "Today",
-          "startTime": "2026-09-21T10:00:00-07:00",
+          "startTime": "2026-09-21T08:00:00-07:00",
           "endTime": "2026-09-21T18:00:00-07:00",
           "isDaytime": true,
           "temperature": 81,
@@ -3087,12 +3087,12 @@
     "Hoodoo": {
       "elevation_ft": 4705,
       "temp_f": 62,
-      "wind_speed_mph": 4.0,
-      "wind_direction_deg": 225,
+      "wind_speed_mph": 5.0,
+      "wind_direction_deg": 247.5,
       "snow_level_ft": 10279,
       "precip_chance_today": 0,
-      "snowfall_12h_in": 0.1,
-      "snowfall_24h_in": 0.3,
+      "snowfall_12h_in": -0.7,
+      "snowfall_24h_in": -0.3,
       "snowfall_48h_in": null
     },
     "Willamette Pass": {
@@ -4222,6 +4222,10 @@
       {
         "time": "2026-09-21T16:15:25.858137+00:00",
         "precip_in": 0
+      },
+      {
+        "time": "2026-09-21T17:30:18.639549+00:00",
+        "precip_in": 0
       }
     ]
   },
@@ -4377,8 +4381,8 @@
           "day": "Monday",
           "temperature_high": 70,
           "temperature_low": 34,
-          "precipitation_high": 53,
-          "precipitation_low": 53,
+          "precipitation_high": 51,
+          "precipitation_low": 51,
           "wind_speed": 5,
           "wind_direction": "WNW"
         },
@@ -4677,9 +4681,9 @@
   },
   "hoodoo": {
     "weather": {
-      "Temperature": "60 &#176F",
-      "Wind": "SW @ 4 MPH",
-      "Snow depth": "-0.3\"",
+      "Temperature": "61 &#176F",
+      "Wind": "WSW @ 5 MPH",
+      "Snow depth": "-1.8\"",
       "Humidity": "50 %",
       "Barometer": "30.25\" Hg"
     },
@@ -4687,11 +4691,11 @@
       "trend": {
         "Max": "0.3\"",
         "Min": "-3.0\"",
-        "1 Hr": "0.8\"",
-        "3 Hr": "0.1\"",
-        "6 Hr": "0.1\"",
-        "12 Hr": "0.1\"",
-        "24 Hr": "0.3\""
+        "1 Hr": "-0.1\"",
+        "3 Hr": "-1.0\"",
+        "6 Hr": "-0.8\"",
+        "12 Hr": "-0.7\"",
+        "24 Hr": "-0.3\""
       },
       "season_total_in": 158.5
     },
@@ -4733,8 +4737,8 @@
   "willamette_pass": {
     "forecast": {
       "weather_provider": "NOAA",
-      "date": "September 21, 2026, 9:50 am",
-      "time": 1790009420000,
+      "date": "September 21, 2026, 10:26 am",
+      "time": 1790011583000,
       "current_weather": "Partly Sunny",
       "current_temperature": "60",
       "forecast": [
@@ -4815,16 +4819,7 @@
       "Lifts Open": "0/6",
       "Trails Open": "0/30"
     },
-    "webcams": {
-      "Base Area": {
-        "src": "https://www.youtube.com/embed/sNVA6oC7vcM",
-        "link": "https://www.willamettepass.ski/weather-conditions-webcams/webcams/"
-      },
-      "EPA": {
-        "src": "https://www.youtube.com/embed/uav7cBNVv0k",
-        "link": "https://www.willamettepass.ski/weather-conditions-webcams/webcams/"
-      }
-    }
+    "webcams": {}
   },
   "snow_stake_cams": {
     "Mt. Bachelor (Snow Stake)": {
@@ -4835,10 +4830,7 @@
       "src": "https://santiampsp.org/wx/weather16.jpg",
       "link": "https://hoodoo.com/the-mountain/webcams/"
     },
-    "Willamette Pass (Base Area)": {
-      "src": "https://www.youtube.com/embed/sNVA6oC7vcM",
-      "link": "https://www.willamettepass.ski/weather-conditions-webcams/webcams/"
-    }
+    "Willamette Pass (Base Area)": null
   },
   "satellite": {
     "Pacific Northwest": {
@@ -4857,7 +4849,7 @@
   "gfs_snowfall": {
     "path": "gfs_snowfall_pnw.gif",
     "legend_path": "gfs_snowfall_legend.png",
-    "cycle_run_at": "2026-09-21T06:00:00+00:00",
+    "cycle_run_at": "2026-09-21T12:00:00+00:00",
     "forecast_hours": [
       3,
       6,
