@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T21:30:17.528056+00:00",
+  "generated_at": "2026-09-22T21:45:26.041665+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -314,7 +314,7 @@
         {
           "number": 1,
           "name": "This Afternoon",
-          "startTime": "2026-09-22T12:00:00-07:00",
+          "startTime": "2026-09-22T13:00:00-07:00",
           "endTime": "2026-09-22T18:00:00-07:00",
           "isDaytime": true,
           "temperature": 59,
@@ -1235,7 +1235,7 @@
         {
           "number": 1,
           "name": "This Afternoon",
-          "startTime": "2026-09-22T14:00:00-07:00",
+          "startTime": "2026-09-22T12:00:00-07:00",
           "endTime": "2026-09-22T18:00:00-07:00",
           "isDaytime": true,
           "temperature": 60,
@@ -1243,15 +1243,15 @@
           "temperatureTrend": null,
           "probabilityOfPrecipitation": {
             "unitCode": "wmoUnit:percent",
-            "value": 1
+            "value": 2
           },
           "windSpeed": "10 mph",
           "windDirection": "WNW",
-          "icon": "https://api.weather.gov/icons/land/day/few?size=medium",
-          "shortForecast": "Sunny",
-          "detailedForecast": "Sunny. High near 60, with temperatures falling to around 57 in the afternoon. West northwest wind around 10 mph.",
+          "icon": "https://api.weather.gov/icons/land/day/sct?size=medium",
+          "shortForecast": "Mostly Sunny",
+          "detailedForecast": "Mostly sunny. High near 60, with temperatures falling to around 57 in the afternoon. West northwest wind around 10 mph.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 8831
+          "snowLevelFt": 8724
         },
         {
           "number": 2,
@@ -2156,7 +2156,7 @@
         {
           "number": 1,
           "name": "This Afternoon",
-          "startTime": "2026-09-22T14:00:00-07:00",
+          "startTime": "2026-09-22T12:00:00-07:00",
           "endTime": "2026-09-22T18:00:00-07:00",
           "isDaytime": true,
           "temperature": 73,
@@ -2166,13 +2166,13 @@
             "unitCode": "wmoUnit:percent",
             "value": 0
           },
-          "windSpeed": "8 mph",
+          "windSpeed": "3 to 8 mph",
           "windDirection": "N",
-          "icon": "https://api.weather.gov/icons/land/day/few?size=medium",
-          "shortForecast": "Sunny",
-          "detailedForecast": "Sunny. High near 73, with temperatures falling to around 71 in the afternoon. North wind around 8 mph, with gusts as high as 18 mph.",
+          "icon": "https://api.weather.gov/icons/land/day/sct?size=medium",
+          "shortForecast": "Mostly Sunny",
+          "detailedForecast": "Mostly sunny. High near 73, with temperatures falling to around 71 in the afternoon. North wind 3 to 8 mph, with gusts as high as 18 mph.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 9702
+          "snowLevelFt": 9073
         },
         {
           "number": 2,
@@ -2463,7 +2463,7 @@
         {
           "number": 1,
           "name": "This Afternoon",
-          "startTime": "2026-09-22T12:00:00-07:00",
+          "startTime": "2026-09-22T13:00:00-07:00",
           "endTime": "2026-09-22T18:00:00-07:00",
           "isDaytime": true,
           "temperature": 72,
@@ -2473,11 +2473,11 @@
             "unitCode": "wmoUnit:percent",
             "value": 0
           },
-          "windSpeed": "5 to 10 mph",
+          "windSpeed": "6 to 10 mph",
           "windDirection": "NW",
           "icon": "https://api.weather.gov/icons/land/day/few?size=medium",
           "shortForecast": "Sunny",
-          "detailedForecast": "Sunny. High near 72, with temperatures falling to around 70 in the afternoon. Northwest wind 5 to 10 mph, with gusts as high as 22 mph.",
+          "detailedForecast": "Sunny. High near 72, with temperatures falling to around 70 in the afternoon. Northwest wind 6 to 10 mph, with gusts as high as 22 mph.",
           "precipitationAmountIn": 0.0,
           "snowLevelFt": 8833
         },
@@ -3101,7 +3101,7 @@
       "wind_speed_mph": 10,
       "wind_direction_deg": 300,
       "snow_level_ft": 8831,
-      "precip_chance_today": 1,
+      "precip_chance_today": 2,
       "snowfall_12h_in": null,
       "snowfall_24h_in": 0.0,
       "snowfall_48h_in": 0.0
@@ -4344,7 +4344,7 @@
     "weather": {
       "current": {
         "temperature": 53,
-        "weather_icon": "dor-cloudy"
+        "weather_icon": "dor-sunny"
       },
       "forecast": [
         {
@@ -4355,10 +4355,10 @@
           "weather_icon": "dor-cloudy",
           "id": 1790103600,
           "day": "Tuesday",
-          "temperature_high": 66,
+          "temperature_high": 65,
           "temperature_low": 35,
-          "precipitation_high": 38,
-          "precipitation_low": 38,
+          "precipitation_high": 40,
+          "precipitation_low": 40,
           "wind_speed": 4,
           "wind_direction": "W"
         },
@@ -4713,8 +4713,8 @@
   "willamette_pass": {
     "forecast": {
       "weather_provider": "NOAA",
-      "date": "September 22, 2026, 2:09 pm",
-      "time": 1790111343000,
+      "date": "September 22, 2026, 2:17 pm",
+      "time": 1790111828000,
       "current_weather": "Sunny",
       "current_temperature": "76",
       "forecast": [
@@ -4823,15 +4823,15 @@
   "satellite": {
     "Pacific Northwest": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/pnw/13/GOES18-PNW-13-600x600.gif",
-      "last_modified": "Tue, 22 Sep 2026 21:11:17 GMT"
+      "last_modified": "Tue, 22 Sep 2026 21:41:14 GMT"
     },
     "North Pacific (macro)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/np/13/GOES18-NP-13-900x540.gif",
-      "last_modified": "Tue, 22 Sep 2026 21:11:27 GMT"
+      "last_modified": "Tue, 22 Sep 2026 21:41:24 GMT"
     },
     "Pacific US (PACUS)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/13/GOES18-CONUS-13-625x375.gif",
-      "last_modified": "Tue, 22 Sep 2026 21:05:46 GMT"
+      "last_modified": "Tue, 22 Sep 2026 21:35:41 GMT"
     }
   },
   "gfs_snowfall": {
