@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T02:15:21.441781+00:00",
+  "generated_at": "2026-09-22T02:30:28.618805+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -914,8 +914,8 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 14.0,
-        "wind_direction_deg": 292.5,
+        "wind_speed_mph": 13.0,
+        "wind_direction_deg": 225,
         "snow_level_ft": 9957,
         "temp_f": 61
       },
@@ -2463,7 +2463,7 @@
         {
           "number": 1,
           "name": "Tonight",
-          "startTime": "2026-09-21T19:00:00-07:00",
+          "startTime": "2026-09-21T18:00:00-07:00",
           "endTime": "2026-09-22T06:00:00-07:00",
           "isDaytime": false,
           "temperature": 43,
@@ -2473,11 +2473,11 @@
             "unitCode": "wmoUnit:percent",
             "value": 1
           },
-          "windSpeed": "1 to 6 mph",
+          "windSpeed": "1 to 7 mph",
           "windDirection": "W",
           "icon": "https://api.weather.gov/icons/land/night/bkn?size=medium",
           "shortForecast": "Mostly Cloudy",
-          "detailedForecast": "Mostly cloudy. Low around 43, with temperatures rising to around 46 overnight. West wind 1 to 6 mph.",
+          "detailedForecast": "Mostly cloudy. Low around 43, with temperatures rising to around 46 overnight. West wind 1 to 7 mph.",
           "precipitationAmountIn": 0.0,
           "snowLevelFt": 11117
         },
@@ -3087,12 +3087,12 @@
     "Hoodoo": {
       "elevation_ft": 4705,
       "temp_f": 61,
-      "wind_speed_mph": 14.0,
-      "wind_direction_deg": 292.5,
+      "wind_speed_mph": 13.0,
+      "wind_direction_deg": 225,
       "snow_level_ft": 9957,
       "precip_chance_today": 7,
-      "snowfall_12h_in": -0.4,
-      "snowfall_24h_in": -0.4,
+      "snowfall_12h_in": -0.6,
+      "snowfall_24h_in": 0.0,
       "snowfall_48h_in": null
     },
     "Willamette Pass": {
@@ -4223,8 +4223,8 @@
       "snow_depth_in_date": "2026-09-20",
       "swe_in": 0.0,
       "swe_in_date": "2026-09-20",
-      "change_12h_in": -1,
-      "change_24h_in": 0
+      "change_12h_in": 0,
+      "change_24h_in": -1
     },
     "Santiam / Hoodoo (Hogg Pass)": {
       "snow_depth_in": 0,
@@ -4359,7 +4359,7 @@
           "weather_icon": "dor-mostlycloudy",
           "id": 1790017200,
           "day": "Monday",
-          "temperature_high": 62,
+          "temperature_high": 61,
           "temperature_low": 33,
           "precipitation_high": 40,
           "precipitation_low": 40,
@@ -4661,21 +4661,21 @@
   },
   "hoodoo": {
     "weather": {
-      "Temperature": "56 &#176F",
-      "Wind": "WNW @ 14 MPH",
-      "Snow depth": "-1.1\"",
+      "Temperature": "53 &#176F",
+      "Wind": "SW @ 13 MPH",
+      "Snow depth": "-1.0\"",
       "Humidity": "100 %",
-      "Barometer": "30.26\" Hg"
+      "Barometer": "30.27\" Hg"
     },
     "snow_totals": {
       "trend": {
         "Max": "0.2\"",
         "Min": "-3.3\"",
-        "1 Hr": "-0.1\"",
+        "1 Hr": "0.2\"",
         "3 Hr": "-0.3\"",
-        "6 Hr": "-0.3\"",
-        "12 Hr": "-0.4\"",
-        "24 Hr": "-0.4\""
+        "6 Hr": "0.0\"",
+        "12 Hr": "-0.6\"",
+        "24 Hr": "0.0\""
       },
       "season_total_in": 158.5
     },
@@ -4717,8 +4717,8 @@
   "willamette_pass": {
     "forecast": {
       "weather_provider": "NOAA",
-      "date": "September 21, 2026, 6:54 pm",
-      "time": 1790042045000,
+      "date": "September 21, 2026, 7:02 pm",
+      "time": 1790042520000,
       "current_weather": "Gradual Clearing",
       "current_temperature": "67",
       "forecast": [
