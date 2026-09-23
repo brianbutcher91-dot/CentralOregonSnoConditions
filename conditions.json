@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T00:15:26.525328+00:00",
+  "generated_at": "2026-09-23T00:30:24.335599+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -914,8 +914,8 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 8.0,
-        "wind_direction_deg": 292.5,
+        "wind_speed_mph": 11.0,
+        "wind_direction_deg": 270,
         "snow_level_ft": 7847,
         "temp_f": 57
       },
@@ -928,7 +928,7 @@
         {
           "number": 1,
           "name": "This Afternoon",
-          "startTime": "2026-09-22T15:00:00-07:00",
+          "startTime": "2026-09-22T17:00:00-07:00",
           "endTime": "2026-09-22T18:00:00-07:00",
           "isDaytime": true,
           "temperature": 59,
@@ -940,11 +940,11 @@
           },
           "windSpeed": "8 mph",
           "windDirection": "W",
-          "icon": "https://api.weather.gov/icons/land/day/few?size=medium",
+          "icon": "https://api.weather.gov/icons/land/day/skc?size=medium",
           "shortForecast": "Sunny",
           "detailedForecast": "Sunny. High near 59, with temperatures falling to around 57 in the afternoon. West wind around 8 mph.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 9491
+          "snowLevelFt": 9449
         },
         {
           "number": 2,
@@ -3087,12 +3087,12 @@
     "Hoodoo": {
       "elevation_ft": 4705,
       "temp_f": 57,
-      "wind_speed_mph": 8.0,
-      "wind_direction_deg": 292.5,
+      "wind_speed_mph": 11.0,
+      "wind_direction_deg": 270,
       "snow_level_ft": 7847,
       "precip_chance_today": 2,
-      "snowfall_12h_in": -0.3,
-      "snowfall_24h_in": 0.3,
+      "snowfall_12h_in": -0.5,
+      "snowfall_24h_in": 0.1,
       "snowfall_48h_in": null
     },
     "Willamette Pass": {
@@ -4347,7 +4347,7 @@
           "weather_icon": "dor-cloudy",
           "id": 1790103600,
           "day": "Tuesday",
-          "temperature_high": 62,
+          "temperature_high": 61,
           "temperature_low": 35,
           "precipitation_high": 41,
           "precipitation_low": 41,
@@ -4649,21 +4649,21 @@
   },
   "hoodoo": {
     "weather": {
-      "Temperature": "53 &#176F",
-      "Wind": "WNW @ 8 MPH",
-      "Snow depth": "-0.5\"",
-      "Humidity": "77 %",
+      "Temperature": "52 &#176F",
+      "Wind": "West @ 11 MPH",
+      "Snow depth": "-0.7\"",
+      "Humidity": "80 %",
       "Barometer": "30.21\" Hg"
     },
     "snow_totals": {
       "trend": {
         "Max": "0.6\"",
         "Min": "-3.3\"",
-        "1 Hr": "0.4\"",
-        "3 Hr": "0.0\"",
-        "6 Hr": "-0.5\"",
-        "12 Hr": "-0.3\"",
-        "24 Hr": "0.3\""
+        "1 Hr": "0.2\"",
+        "3 Hr": "-0.2\"",
+        "6 Hr": "0.2\"",
+        "12 Hr": "-0.5\"",
+        "24 Hr": "0.1\""
       },
       "season_total_in": 158.5
     },
@@ -4705,8 +4705,8 @@
   "willamette_pass": {
     "forecast": {
       "weather_provider": "NOAA",
-      "date": "September 22, 2026, 4:49 pm",
-      "time": 1790120994000,
+      "date": "September 22, 2026, 5:04 pm",
+      "time": 1790121854000,
       "current_weather": "Partly Cloudy",
       "current_temperature": "69",
       "forecast": [
