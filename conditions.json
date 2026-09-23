@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T08:30:21.692495+00:00",
+  "generated_at": "2026-09-23T08:45:16.922711+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -915,7 +915,7 @@
       ],
       "current": {
         "wind_speed_mph": 11.0,
-        "wind_direction_deg": 292.5,
+        "wind_direction_deg": 315,
         "snow_level_ft": 7680,
         "temp_f": 41
       },
@@ -2156,7 +2156,7 @@
         {
           "number": 1,
           "name": "Overnight",
-          "startTime": "2026-09-23T01:00:00-07:00",
+          "startTime": "2026-09-23T00:00:00-07:00",
           "endTime": "2026-09-23T06:00:00-07:00",
           "isDaytime": false,
           "temperature": 44,
@@ -3088,11 +3088,11 @@
       "elevation_ft": 4705,
       "temp_f": 41,
       "wind_speed_mph": 11.0,
-      "wind_direction_deg": 292.5,
+      "wind_direction_deg": 315,
       "snow_level_ft": 7680,
       "precip_chance_today": 0,
-      "snowfall_12h_in": 0.5,
-      "snowfall_24h_in": -0.1,
+      "snowfall_12h_in": -0.2,
+      "snowfall_24h_in": -0.3,
       "snowfall_48h_in": null
     },
     "Willamette Pass": {
@@ -4194,6 +4194,10 @@
       {
         "time": "2026-09-23T07:30:23.612959+00:00",
         "precip_in": 0
+      },
+      {
+        "time": "2026-09-23T08:45:17.751947+00:00",
+        "precip_in": 0
       }
     ]
   },
@@ -4223,6 +4227,10 @@
       "change_24h_in": 0
     },
     "Ochocos (Ochoco Meadows)": {
+      "snow_depth_in": 0,
+      "snow_depth_in_date": "2026-09-22",
+      "swe_in": 0.0,
+      "swe_in_date": "2026-09-22",
       "change_12h_in": 0,
       "change_24h_in": 0
     }
@@ -4645,10 +4653,10 @@
   },
   "hoodoo": {
     "weather": {
-      "Temperature": "49 &#176F",
-      "Wind": "WNW @ 11 MPH",
-      "Snow depth": "0.0\"",
-      "Humidity": "52 %",
+      "Temperature": "50 &#176F",
+      "Wind": "NW @ 11 MPH",
+      "Snow depth": "-0.7\"",
+      "Humidity": "33 %",
       "Barometer": "30.22\" Hg"
     },
     "snow_totals": {
@@ -4656,10 +4664,10 @@
         "Max": "0.6\"",
         "Min": "-3.3\"",
         "1 Hr": "-0.2\"",
-        "3 Hr": "0.1\"",
-        "6 Hr": "-0.1\"",
-        "12 Hr": "0.5\"",
-        "24 Hr": "-0.1\""
+        "3 Hr": "-0.2\"",
+        "6 Hr": "-0.2\"",
+        "12 Hr": "-0.2\"",
+        "24 Hr": "-0.3\""
       },
       "season_total_in": 158.5
     },
@@ -4701,9 +4709,9 @@
   "willamette_pass": {
     "forecast": {
       "weather_provider": "NOAA",
-      "date": "September 23, 2026, 1:04 am",
-      "time": 1790150693000,
-      "current_weather": "Mostly Clear",
+      "date": "September 23, 2026, 1:19 am",
+      "time": 1790151592000,
+      "current_weather": "Partly Cloudy",
       "current_temperature": "42",
       "forecast": [
         {
@@ -4737,7 +4745,7 @@
         }
       ],
       "wind": "NA",
-      "icon": "0150-clear-night.svg",
+      "icon": "0103-partly-cloudy.svg",
       "max_temp": "63",
       "min_temp": "37",
       "hourly": [
@@ -4810,15 +4818,15 @@
   "satellite": {
     "Pacific Northwest": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/pnw/13/GOES18-PNW-13-600x600.gif",
-      "last_modified": "Wed, 23 Sep 2026 08:11:21 GMT"
+      "last_modified": "Wed, 23 Sep 2026 08:40:52 GMT"
     },
     "North Pacific (macro)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/np/13/GOES18-NP-13-900x540.gif",
-      "last_modified": "Wed, 23 Sep 2026 08:11:30 GMT"
+      "last_modified": "Wed, 23 Sep 2026 08:41:01 GMT"
     },
     "Pacific US (PACUS)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/13/GOES18-CONUS-13-625x375.gif",
-      "last_modified": "Wed, 23 Sep 2026 08:05:51 GMT"
+      "last_modified": "Wed, 23 Sep 2026 08:35:30 GMT"
     }
   },
   "gfs_snowfall": {
