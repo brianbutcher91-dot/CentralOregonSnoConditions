@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T09:00:36.578026+00:00",
+  "generated_at": "2026-09-23T09:15:19.001594+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -914,7 +914,7 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 12.0,
+        "wind_speed_mph": 14.0,
         "wind_direction_deg": 315,
         "snow_level_ft": 7549,
         "temp_f": 40
@@ -928,7 +928,7 @@
         {
           "number": 1,
           "name": "Overnight",
-          "startTime": "2026-09-23T02:00:00-07:00",
+          "startTime": "2026-09-23T00:00:00-07:00",
           "endTime": "2026-09-23T06:00:00-07:00",
           "isDaytime": false,
           "temperature": 38,
@@ -944,7 +944,7 @@
           "shortForecast": "Partly Cloudy",
           "detailedForecast": "Partly cloudy. Low around 38, with temperatures rising to around 40 overnight. Southwest wind around 6 mph.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 7994
+          "snowLevelFt": 8459
         },
         {
           "number": 2,
@@ -3087,12 +3087,12 @@
     "Hoodoo": {
       "elevation_ft": 4705,
       "temp_f": 40,
-      "wind_speed_mph": 12.0,
+      "wind_speed_mph": 14.0,
       "wind_direction_deg": 315,
       "snow_level_ft": 7549,
       "precip_chance_today": 0,
-      "snowfall_12h_in": 0.4,
-      "snowfall_24h_in": 0.1,
+      "snowfall_12h_in": 0.5,
+      "snowfall_24h_in": -0.3,
       "snowfall_48h_in": null
     },
     "Willamette Pass": {
@@ -4657,21 +4657,21 @@
   },
   "hoodoo": {
     "weather": {
-      "Temperature": "50 &#176F",
-      "Wind": "NW @ 12 MPH",
-      "Snow depth": "0.0\"",
-      "Humidity": "39 %",
-      "Barometer": "30.22\" Hg"
+      "Temperature": "49 &#176F",
+      "Wind": "NW @ 14 MPH",
+      "Snow depth": "-0.7\"",
+      "Humidity": "47 %",
+      "Barometer": "30.21\" Hg"
     },
     "snow_totals": {
       "trend": {
         "Max": "0.6\"",
         "Min": "-3.3\"",
-        "1 Hr": "0.2\"",
-        "3 Hr": "0.3\"",
-        "6 Hr": "0.2\"",
-        "12 Hr": "0.4\"",
-        "24 Hr": "0.1\""
+        "1 Hr": "0.0\"",
+        "3 Hr": "0.2\"",
+        "6 Hr": "-0.1\"",
+        "12 Hr": "0.5\"",
+        "24 Hr": "-0.3\""
       },
       "season_total_in": 158.5
     },
@@ -4713,8 +4713,8 @@
   "willamette_pass": {
     "forecast": {
       "weather_provider": "NOAA",
-      "date": "September 23, 2026, 1:34 am",
-      "time": 1790152496000,
+      "date": "September 23, 2026, 1:58 am",
+      "time": 1790153933000,
       "current_weather": "Mostly Clear",
       "current_temperature": "42",
       "forecast": [
@@ -4822,15 +4822,15 @@
   "satellite": {
     "Pacific Northwest": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/pnw/13/GOES18-PNW-13-600x600.gif",
-      "last_modified": "Wed, 23 Sep 2026 08:40:52 GMT"
+      "last_modified": "Wed, 23 Sep 2026 09:11:09 GMT"
     },
     "North Pacific (macro)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/np/13/GOES18-NP-13-900x540.gif",
-      "last_modified": "Wed, 23 Sep 2026 08:41:01 GMT"
+      "last_modified": "Wed, 23 Sep 2026 09:11:19 GMT"
     },
     "Pacific US (PACUS)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/13/GOES18-CONUS-13-625x375.gif",
-      "last_modified": "Wed, 23 Sep 2026 08:35:30 GMT"
+      "last_modified": "Wed, 23 Sep 2026 09:05:52 GMT"
     }
   },
   "gfs_snowfall": {
