@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T04:15:15.760952+00:00",
+  "generated_at": "2026-09-24T04:30:21.072862+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -7,7 +7,7 @@
         {
           "number": 1,
           "name": "Tonight",
-          "startTime": "2026-09-23T19:00:00-07:00",
+          "startTime": "2026-09-23T21:00:00-07:00",
           "endTime": "2026-09-24T06:00:00-07:00",
           "isDaytime": false,
           "temperature": 39,
@@ -23,7 +23,7 @@
           "shortForecast": "Mostly Cloudy",
           "detailedForecast": "Mostly cloudy. Low around 39, with temperatures rising to around 43 overnight. South wind 2 to 10 mph.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 9497
+          "snowLevelFt": 9861
         },
         {
           "number": 2,
@@ -914,8 +914,8 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 6.0,
-        "wind_direction_deg": 247.5,
+        "wind_speed_mph": 0,
+        "wind_direction_deg": 0,
         "snow_level_ft": 8608,
         "temp_f": 48
       },
@@ -2770,7 +2770,7 @@
         {
           "number": 1,
           "name": "Tonight",
-          "startTime": "2026-09-23T19:00:00-07:00",
+          "startTime": "2026-09-23T21:00:00-07:00",
           "endTime": "2026-09-24T06:00:00-07:00",
           "isDaytime": false,
           "temperature": 35,
@@ -2781,12 +2781,12 @@
             "value": 1
           },
           "windSpeed": "2 mph",
-          "windDirection": "W",
+          "windDirection": "S",
           "icon": "https://api.weather.gov/icons/land/night/bkn?size=medium",
           "shortForecast": "Mostly Cloudy",
-          "detailedForecast": "Mostly cloudy. Low around 35, with temperatures rising to around 37 overnight. West wind around 2 mph.",
+          "detailedForecast": "Mostly cloudy. Low around 35, with temperatures rising to around 37 overnight. South wind around 2 mph.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 10134
+          "snowLevelFt": 10203
         },
         {
           "number": 2,
@@ -3087,12 +3087,12 @@
     "Hoodoo": {
       "elevation_ft": 4705,
       "temp_f": 48,
-      "wind_speed_mph": 6.0,
-      "wind_direction_deg": 247.5,
+      "wind_speed_mph": 0,
+      "wind_direction_deg": 0,
       "snow_level_ft": 8608,
       "precip_chance_today": 2,
-      "snowfall_12h_in": -0.7,
-      "snowfall_24h_in": -0.7,
+      "snowfall_12h_in": null,
+      "snowfall_24h_in": null,
       "snowfall_48h_in": null
     },
     "Willamette Pass": {
@@ -4230,7 +4230,38 @@
     ]
   },
   "snotel": {
-    "error": "500 Server Error: Internal Server Error for url: https://wcc.sc.egov.usda.gov/awdbRestApi/services/v1/data?stationTriplets=545%3AOR%3ASNTL&elements=SNWD%2CWTEQ&duration=DAILY&getFlags=false&beginDate=-1&endDate=-1"
+    "Mt Bachelor area (Irish Taylor)": {
+      "snow_depth_in": 0,
+      "snow_depth_in_date": "2026-09-22",
+      "swe_in": 0.2,
+      "swe_in_date": "2026-09-22",
+      "change_12h_in": 0,
+      "change_24h_in": 0
+    },
+    "Three Creek / Tam McArthur (Three Creeks Meadow)": {
+      "snow_depth_in": 0,
+      "snow_depth_in_date": "2026-09-22",
+      "swe_in": 0.0,
+      "swe_in_date": "2026-09-22",
+      "change_12h_in": 1,
+      "change_24h_in": 1
+    },
+    "Santiam / Hoodoo (Hogg Pass)": {
+      "snow_depth_in": 0,
+      "snow_depth_in_date": "2026-09-22",
+      "swe_in": 0.0,
+      "swe_in_date": "2026-09-22",
+      "change_12h_in": 0,
+      "change_24h_in": 0
+    },
+    "Ochocos (Ochoco Meadows)": {
+      "snow_depth_in": 0,
+      "snow_depth_in_date": "2026-09-22",
+      "swe_in": 0.0,
+      "swe_in_date": "2026-09-22",
+      "change_12h_in": 0,
+      "change_24h_in": 0
+    }
   },
   "odot_cams": {
     "Century Drive": [
@@ -4649,24 +4680,10 @@
     }
   },
   "hoodoo": {
-    "weather": {
-      "Temperature": "51 &#176F",
-      "Wind": "WSW @ 6 MPH",
-      "Snow depth": "-0.1\"",
-      "Humidity": "72 %",
-      "Barometer": "30.21\" Hg"
-    },
+    "weather": {},
     "snow_totals": {
-      "trend": {
-        "Max": "0.6\"",
-        "Min": "-4.1\"",
-        "1 Hr": "0.7\"",
-        "3 Hr": "0.0\"",
-        "6 Hr": "-0.5\"",
-        "12 Hr": "-0.7\"",
-        "24 Hr": "-0.7\""
-      },
-      "season_total_in": 158.5
+      "trend": {},
+      "season_total_in": null
     },
     "webcams": {
       "Base Area": {
@@ -4706,10 +4723,10 @@
   "willamette_pass": {
     "forecast": {
       "weather_provider": "NOAA",
-      "date": "September 23, 2026, 8:49 pm",
-      "time": 1790221757000,
+      "date": "September 23, 2026, 9:28 pm",
+      "time": 1790224098000,
       "current_weather": "Partly Cloudy",
-      "current_temperature": "54",
+      "current_temperature": "51",
       "forecast": [
         {
           "day": "Wednesday",
@@ -4751,11 +4768,6 @@
       "min_temp": "42",
       "hourly": [
         {
-          "time": "8p",
-          "temp": "50",
-          "details": ""
-        },
-        {
           "time": "10p",
           "temp": "48",
           "details": ""
@@ -4772,6 +4784,11 @@
         },
         {
           "time": "4a",
+          "temp": "44",
+          "details": ""
+        },
+        {
+          "time": "5a",
           "temp": "44",
           "details": ""
         }
