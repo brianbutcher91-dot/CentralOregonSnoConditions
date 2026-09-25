@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T15:30:26.982687+00:00",
+  "generated_at": "2026-09-25T15:45:26.413120+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -914,8 +914,8 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 33.0,
-        "wind_direction_deg": 247.5,
+        "wind_speed_mph": 30.0,
+        "wind_direction_deg": 225,
         "snow_level_ft": 6650,
         "temp_f": 41
       },
@@ -2156,7 +2156,7 @@
         {
           "number": 1,
           "name": "Today",
-          "startTime": "2026-09-25T06:00:00-07:00",
+          "startTime": "2026-09-25T08:00:00-07:00",
           "endTime": "2026-09-25T18:00:00-07:00",
           "isDaytime": true,
           "temperature": 57,
@@ -2170,9 +2170,9 @@
           "windDirection": "W",
           "icon": "https://api.weather.gov/icons/land/day/rain_showers,30/rain_showers,20?size=medium",
           "shortForecast": "Chance Rain Showers",
-          "detailedForecast": "A chance of rain showers between 8am and 5pm. Mostly sunny. High near 57, with temperatures falling to around 55 in the afternoon. West wind 8 to 18 mph, with gusts as high as 33 mph. Chance of precipitation is 30%. New rainfall amounts less than a tenth of an inch possible.",
+          "detailedForecast": "A chance of rain showers before 5pm. Mostly sunny. High near 57, with temperatures falling to around 55 in the afternoon. West wind 8 to 18 mph, with gusts as high as 33 mph. Chance of precipitation is 30%. New rainfall amounts less than a tenth of an inch possible.",
           "precipitationAmountIn": 0.01,
-          "snowLevelFt": 7812
+          "snowLevelFt": 6807
         },
         {
           "number": 2,
@@ -3087,12 +3087,12 @@
     "Hoodoo": {
       "elevation_ft": 4705,
       "temp_f": 41,
-      "wind_speed_mph": 33.0,
-      "wind_direction_deg": 247.5,
+      "wind_speed_mph": 30.0,
+      "wind_direction_deg": 225,
       "snow_level_ft": 6650,
       "precip_chance_today": 95,
-      "snowfall_12h_in": 0.1,
-      "snowfall_24h_in": 0.5,
+      "snowfall_12h_in": 0.0,
+      "snowfall_24h_in": 0.3,
       "snowfall_48h_in": null
     },
     "Willamette Pass": {
@@ -3928,10 +3928,6 @@
     ],
     "historical_precip_snapshots": [
       {
-        "time": "2026-09-22T15:45:17.759130+00:00",
-        "precip_in": 0
-      },
-      {
         "time": "2026-09-22T16:45:26.126037+00:00",
         "precip_in": 0
       },
@@ -4337,8 +4333,8 @@
           "day": "Friday",
           "temperature_high": 40,
           "temperature_low": 29,
-          "precipitation_high": 87,
-          "precipitation_low": 87,
+          "precipitation_high": 88,
+          "precipitation_low": 88,
           "wind_speed": 14,
           "wind_direction": "WSW"
         },
@@ -4638,10 +4634,10 @@
   "hoodoo": {
     "weather": {
       "Temperature": "36 &#176F",
-      "Wind": "WSW @ 33 MPH",
-      "Snow depth": "-0.1\"",
+      "Wind": "SW @ 30 MPH",
+      "Snow depth": "-0.2\"",
       "Humidity": "100 %",
-      "Barometer": "29.92\" Hg",
+      "Barometer": "29.93\" Hg",
       "Rain Gauge": "0.32\""
     },
     "snow_totals": {
@@ -4649,10 +4645,10 @@
         "Max": "0.9\"",
         "Min": "-4.1\"",
         "1 Hr": "-0.2\"",
-        "3 Hr": "-0.3\"",
-        "6 Hr": "-0.3\"",
-        "12 Hr": "0.1\"",
-        "24 Hr": "0.5\""
+        "3 Hr": "-0.4\"",
+        "6 Hr": "-0.4\"",
+        "12 Hr": "0.0\"",
+        "24 Hr": "0.3\""
       },
       "season_total_in": 158.5
     },
@@ -4804,15 +4800,15 @@
   "satellite": {
     "Pacific Northwest": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/pnw/13/GOES18-PNW-13-600x600.gif",
-      "last_modified": "Fri, 25 Sep 2026 15:11:08 GMT"
+      "last_modified": "Fri, 25 Sep 2026 15:41:01 GMT"
     },
     "North Pacific (macro)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/np/13/GOES18-NP-13-900x540.gif",
-      "last_modified": "Fri, 25 Sep 2026 15:11:18 GMT"
+      "last_modified": "Fri, 25 Sep 2026 15:41:11 GMT"
     },
     "Pacific US (PACUS)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/13/GOES18-CONUS-13-625x375.gif",
-      "last_modified": "Fri, 25 Sep 2026 15:05:40 GMT"
+      "last_modified": "Fri, 25 Sep 2026 15:35:35 GMT"
     }
   },
   "gfs_snowfall": {
