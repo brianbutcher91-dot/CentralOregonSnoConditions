@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T14:02:35.931259+00:00",
+  "generated_at": "2026-09-25T14:15:16.846888+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -914,8 +914,8 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 22,
-        "wind_direction_deg": 230,
+        "wind_speed_mph": 30.0,
+        "wind_direction_deg": 225,
         "snow_level_ft": 6831,
         "temp_f": 41
       },
@@ -3087,12 +3087,12 @@
     "Hoodoo": {
       "elevation_ft": 4705,
       "temp_f": 41,
-      "wind_speed_mph": 22,
-      "wind_direction_deg": 230,
+      "wind_speed_mph": 30.0,
+      "wind_direction_deg": 225,
       "snow_level_ft": 6831,
       "precip_chance_today": 95,
-      "snowfall_12h_in": null,
-      "snowfall_24h_in": null,
+      "snowfall_12h_in": 0.3,
+      "snowfall_24h_in": 0.0,
       "snowfall_48h_in": null
     },
     "Willamette Pass": {
@@ -4341,8 +4341,8 @@
           "day": "Friday",
           "temperature_high": 40,
           "temperature_low": 29,
-          "precipitation_high": 91,
-          "precipitation_low": 91,
+          "precipitation_high": 89,
+          "precipitation_low": 89,
           "wind_speed": 14,
           "wind_direction": "WSW"
         },
@@ -4640,7 +4640,60 @@
     }
   },
   "hoodoo": {
-    "error": "HTTPSConnectionPool(host='santiampsp.org', port=443): Max retries exceeded with url: /wx/weather.htm (Caused by ConnectTimeoutError(<HTTPSConnection(host='santiampsp.org', port=443) at 0x7fefefc431d0>, 'Connection to santiampsp.org timed out. (connect timeout=None)'))"
+    "weather": {
+      "Temperature": "40 &#176F",
+      "Wind": "SW @ 30 MPH",
+      "Snow depth": "0.0\"",
+      "Humidity": "100 %",
+      "Barometer": "29.88\" Hg",
+      "Rain Gauge": "0.24\""
+    },
+    "snow_totals": {
+      "trend": {
+        "Max": "0.6\"",
+        "Min": "-4.1\"",
+        "1 Hr": "0.0\"",
+        "3 Hr": "0.0\"",
+        "6 Hr": "-0.1\"",
+        "12 Hr": "0.3\"",
+        "24 Hr": "0.0\""
+      },
+      "season_total_in": 158.5
+    },
+    "webcams": {
+      "Base Area": {
+        "src": "https://santiampsp.org/wx/weather16.jpg",
+        "link": "https://hoodoo.com/the-mountain/webcams/"
+      },
+      "Top of Manzanita": {
+        "src": "https://santiampsp.org/wx/weather3.jpg",
+        "link": "https://hoodoo.com/the-mountain/webcams/"
+      },
+      "Top of Ed": {
+        "src": "https://santiampsp.org/wx/weather2.jpg",
+        "link": "https://hoodoo.com/the-mountain/webcams/"
+      },
+      "Top of Easy Rider": {
+        "src": "https://santiampsp.org/wx/weather4.jpg",
+        "link": "https://hoodoo.com/the-mountain/webcams/"
+      },
+      "Hoodoo Parking Lot": {
+        "src": "https://santiampsp.org/wx/weather12.jpg",
+        "link": "https://hoodoo.com/the-mountain/webcams/"
+      },
+      "Hoodoo Summit": {
+        "src": "https://santiampsp.org/wx/weather1.jpg",
+        "link": "https://hoodoo.com/the-mountain/webcams/"
+      },
+      "Hayrick Butte & \"Gripper\" run from top of Ed chair": {
+        "src": "https://santiampsp.org/wx/weather2b.jpg",
+        "link": "https://hoodoo.com/the-mountain/webcams/"
+      },
+      "Hoodoo Parking Lot View #2": {
+        "src": "https://santiampsp.org/wx/weather10.jpg",
+        "link": "https://hoodoo.com/the-mountain/webcams/"
+      }
+    }
   },
   "willamette_pass": {
     "forecast": {
@@ -4727,28 +4780,43 @@
       "Lifts Open": "0/6",
       "Trails Open": "0/30"
     },
-    "webcams": {}
+    "webcams": {
+      "Base Area": {
+        "src": "https://www.youtube.com/embed/sNVA6oC7vcM",
+        "link": "https://www.willamettepass.ski/weather-conditions-webcams/webcams/"
+      },
+      "EPA": {
+        "src": "https://www.youtube.com/embed/uav7cBNVv0k",
+        "link": "https://www.willamettepass.ski/weather-conditions-webcams/webcams/"
+      }
+    }
   },
   "snow_stake_cams": {
     "Mt. Bachelor (Snow Stake)": {
       "src": "https://api.mtbachelor.com/api/v1/cams/mtn/14",
       "link": "https://www.mtbachelor.com/the-mountain/webcams/live-cam-14/"
     },
-    "Hoodoo (Base Area)": null,
-    "Willamette Pass (Base Area)": null
+    "Hoodoo (Base Area)": {
+      "src": "https://santiampsp.org/wx/weather16.jpg",
+      "link": "https://hoodoo.com/the-mountain/webcams/"
+    },
+    "Willamette Pass (Base Area)": {
+      "src": "https://www.youtube.com/embed/sNVA6oC7vcM",
+      "link": "https://www.willamettepass.ski/weather-conditions-webcams/webcams/"
+    }
   },
   "satellite": {
     "Pacific Northwest": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/pnw/13/GOES18-PNW-13-600x600.gif",
-      "last_modified": "Fri, 25 Sep 2026 13:41:12 GMT"
+      "last_modified": "Fri, 25 Sep 2026 14:11:11 GMT"
     },
     "North Pacific (macro)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/np/13/GOES18-NP-13-900x540.gif",
-      "last_modified": "Fri, 25 Sep 2026 13:41:21 GMT"
+      "last_modified": "Fri, 25 Sep 2026 14:11:20 GMT"
     },
     "Pacific US (PACUS)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/13/GOES18-CONUS-13-625x375.gif",
-      "last_modified": "Fri, 25 Sep 2026 13:35:42 GMT"
+      "last_modified": "Fri, 25 Sep 2026 14:05:40 GMT"
     }
   },
   "gfs_snowfall": {
