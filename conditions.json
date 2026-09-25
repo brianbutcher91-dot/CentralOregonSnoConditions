@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T00:15:14.479771+00:00",
+  "generated_at": "2026-09-25T00:30:19.098782+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -621,7 +621,7 @@
         {
           "number": 1,
           "name": "This Afternoon",
-          "startTime": "2026-09-24T16:00:00-07:00",
+          "startTime": "2026-09-24T17:00:00-07:00",
           "endTime": "2026-09-24T18:00:00-07:00",
           "isDaytime": true,
           "temperature": 68,
@@ -637,7 +637,7 @@
           "shortForecast": "Mostly Cloudy",
           "detailedForecast": "Mostly cloudy. High near 68, with temperatures falling to around 65 in the afternoon. Southwest wind around 7 mph.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 9944
+          "snowLevelFt": 9941
         },
         {
           "number": 2,
@@ -928,7 +928,7 @@
         {
           "number": 1,
           "name": "This Afternoon",
-          "startTime": "2026-09-24T16:00:00-07:00",
+          "startTime": "2026-09-24T15:00:00-07:00",
           "endTime": "2026-09-24T18:00:00-07:00",
           "isDaytime": true,
           "temperature": 63,
@@ -938,11 +938,11 @@
             "unitCode": "wmoUnit:percent",
             "value": 2
           },
-          "windSpeed": "12 mph",
+          "windSpeed": "13 mph",
           "windDirection": "SW",
           "icon": "https://api.weather.gov/icons/land/day/bkn?size=medium",
           "shortForecast": "Mostly Cloudy",
-          "detailedForecast": "Mostly cloudy. High near 63, with temperatures falling to around 61 in the afternoon. Southwest wind around 12 mph, with gusts as high as 25 mph.",
+          "detailedForecast": "Mostly cloudy. High near 63, with temperatures falling to around 61 in the afternoon. Southwest wind around 13 mph, with gusts as high as 28 mph.",
           "precipitationAmountIn": 0.0,
           "snowLevelFt": 10889
         },
@@ -1849,7 +1849,7 @@
         {
           "number": 1,
           "name": "This Afternoon",
-          "startTime": "2026-09-24T16:00:00-07:00",
+          "startTime": "2026-09-24T15:00:00-07:00",
           "endTime": "2026-09-24T18:00:00-07:00",
           "isDaytime": true,
           "temperature": 74,
@@ -1859,11 +1859,11 @@
             "unitCode": "wmoUnit:percent",
             "value": 2
           },
-          "windSpeed": "6 mph",
+          "windSpeed": "7 mph",
           "windDirection": "SW",
           "icon": "https://api.weather.gov/icons/land/day/bkn?size=medium",
           "shortForecast": "Partly Sunny",
-          "detailedForecast": "Partly sunny, with a high near 74. Southwest wind around 6 mph, with gusts as high as 21 mph.",
+          "detailedForecast": "Partly sunny, with a high near 74. Southwest wind around 7 mph, with gusts as high as 21 mph.",
           "precipitationAmountIn": 0.0,
           "snowLevelFt": 10837
         },
@@ -2156,7 +2156,7 @@
         {
           "number": 1,
           "name": "This Afternoon",
-          "startTime": "2026-09-24T16:00:00-07:00",
+          "startTime": "2026-09-24T15:00:00-07:00",
           "endTime": "2026-09-24T18:00:00-07:00",
           "isDaytime": true,
           "temperature": 79,
@@ -2170,7 +2170,7 @@
           "windDirection": "SW",
           "icon": "https://api.weather.gov/icons/land/day/ovc?size=medium",
           "shortForecast": "Cloudy",
-          "detailedForecast": "Cloudy, with a high near 79. Southwest wind around 8 mph, with gusts as high as 20 mph.",
+          "detailedForecast": "Cloudy, with a high near 79. Southwest wind around 8 mph, with gusts as high as 21 mph.",
           "precipitationAmountIn": 0.0,
           "snowLevelFt": 10731
         },
@@ -2770,7 +2770,7 @@
         {
           "number": 1,
           "name": "This Afternoon",
-          "startTime": "2026-09-24T15:00:00-07:00",
+          "startTime": "2026-09-24T16:00:00-07:00",
           "endTime": "2026-09-24T18:00:00-07:00",
           "isDaytime": true,
           "temperature": 79,
@@ -4211,8 +4211,8 @@
       "snow_depth_in_date": "2026-09-23",
       "swe_in": 0.0,
       "swe_in_date": "2026-09-23",
-      "change_12h_in": 0,
-      "change_24h_in": 0
+      "change_12h_in": 1,
+      "change_24h_in": 1
     },
     "Santiam / Hoodoo (Hogg Pass)": {
       "snow_depth_in": 0,
@@ -4705,8 +4705,8 @@
   "willamette_pass": {
     "forecast": {
       "weather_provider": "NOAA",
-      "date": "September 24, 2026, 4:55 pm",
-      "time": 1790294118000,
+      "date": "September 24, 2026, 5:10 pm",
+      "time": 1790295018000,
       "current_weather": "Chance Rain then Rain",
       "current_temperature": "70",
       "forecast": [
@@ -4750,11 +4750,6 @@
       "min_temp": "38",
       "hourly": [
         {
-          "time": "4p",
-          "temp": "67",
-          "details": ""
-        },
-        {
           "time": "5p",
           "temp": "65",
           "details": ""
@@ -4773,6 +4768,11 @@
           "time": "12a",
           "temp": "49",
           "details": "rain likely"
+        },
+        {
+          "time": "2a",
+          "temp": "46",
+          "details": "rain "
         }
       ],
       "attribution": "",
@@ -4826,7 +4826,7 @@
     },
     "Pacific US (PACUS)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/13/GOES18-CONUS-13-625x375.gif",
-      "last_modified": "Fri, 25 Sep 2026 00:06:01 GMT"
+      "last_modified": "Fri, 25 Sep 2026 00:06:02 GMT"
     }
   },
   "gfs_snowfall": {
