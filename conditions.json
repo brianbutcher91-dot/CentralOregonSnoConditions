@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-26T17:40:05.434573+00:00",
+  "generated_at": "2026-09-26T17:47:33.803023+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -914,8 +914,8 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 20.0,
-        "wind_direction_deg": 112.5,
+        "wind_speed_mph": 6,
+        "wind_direction_deg": 90,
         "snow_level_ft": 5518,
         "temp_f": 40
       },
@@ -3087,12 +3087,12 @@
     "Hoodoo": {
       "elevation_ft": 4705,
       "temp_f": 40,
-      "wind_speed_mph": 20.0,
-      "wind_direction_deg": 112.5,
+      "wind_speed_mph": 6,
+      "wind_direction_deg": 90,
       "snow_level_ft": 5518,
       "precip_chance_today": 1,
-      "snowfall_12h_in": -0.2,
-      "snowfall_24h_in": -0.1,
+      "snowfall_12h_in": null,
+      "snowfall_24h_in": null,
       "snowfall_48h_in": null
     },
     "Willamette Pass": {
@@ -4632,60 +4632,7 @@
     }
   },
   "hoodoo": {
-    "weather": {
-      "Temperature": "37 &#176F",
-      "Wind": "ESE @ 20 MPH",
-      "Snow depth": "-0.2\"",
-      "Humidity": "90 %",
-      "Barometer": "29.99\" Hg",
-      "Rain Gauge": "0.52\""
-    },
-    "snow_totals": {
-      "trend": {
-        "Max": "0.9\"",
-        "Min": "-1.5\"",
-        "1 Hr": "-0.2\"",
-        "3 Hr": "0.1\"",
-        "6 Hr": "0.3\"",
-        "12 Hr": "-0.2\"",
-        "24 Hr": "-0.1\""
-      },
-      "season_total_in": 158.5
-    },
-    "webcams": {
-      "Base Area": {
-        "src": "https://santiampsp.org/wx/weather16.jpg",
-        "link": "https://hoodoo.com/the-mountain/webcams/"
-      },
-      "Top of Manzanita": {
-        "src": "https://santiampsp.org/wx/weather3.jpg",
-        "link": "https://hoodoo.com/the-mountain/webcams/"
-      },
-      "Top of Ed": {
-        "src": "https://santiampsp.org/wx/weather2.jpg",
-        "link": "https://hoodoo.com/the-mountain/webcams/"
-      },
-      "Top of Easy Rider": {
-        "src": "https://santiampsp.org/wx/weather4.jpg",
-        "link": "https://hoodoo.com/the-mountain/webcams/"
-      },
-      "Hoodoo Parking Lot": {
-        "src": "https://santiampsp.org/wx/weather12.jpg",
-        "link": "https://hoodoo.com/the-mountain/webcams/"
-      },
-      "Hoodoo Summit": {
-        "src": "https://santiampsp.org/wx/weather1.jpg",
-        "link": "https://hoodoo.com/the-mountain/webcams/"
-      },
-      "Hayrick Butte & \"Gripper\" run from top of Ed chair": {
-        "src": "https://santiampsp.org/wx/weather2b.jpg",
-        "link": "https://hoodoo.com/the-mountain/webcams/"
-      },
-      "Hoodoo Parking Lot View #2": {
-        "src": "https://santiampsp.org/wx/weather10.jpg",
-        "link": "https://hoodoo.com/the-mountain/webcams/"
-      }
-    }
+    "error": "HTTPSConnectionPool(host='santiampsp.org', port=443): Max retries exceeded with url: /wx/weather.htm (Caused by ConnectTimeoutError(<HTTPSConnection(host='santiampsp.org', port=443) at 0x7f3518d6f200>, 'Connection to santiampsp.org timed out. (connect timeout=None)'))"
   },
   "willamette_pass": {
     "forecast": {
@@ -4788,10 +4735,7 @@
       "src": "https://api.mtbachelor.com/api/v1/cams/mtn/14",
       "link": "https://www.mtbachelor.com/the-mountain/webcams/live-cam-14/"
     },
-    "Hoodoo (Base Area)": {
-      "src": "https://santiampsp.org/wx/weather16.jpg",
-      "link": "https://hoodoo.com/the-mountain/webcams/"
-    },
+    "Hoodoo (Base Area)": null,
     "Willamette Pass (Base Area)": {
       "src": "https://www.youtube.com/embed/sNVA6oC7vcM",
       "link": "https://www.willamettepass.ski/weather-conditions-webcams/webcams/"
@@ -4800,11 +4744,11 @@
   "satellite": {
     "Pacific Northwest": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/pnw/13/GOES18-PNW-13-600x600.gif",
-      "last_modified": "Sat, 26 Sep 2026 17:13:25 GMT"
+      "last_modified": "Sat, 26 Sep 2026 17:43:09 GMT"
     },
     "North Pacific (macro)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/np/13/GOES18-NP-13-900x540.gif",
-      "last_modified": "Sat, 26 Sep 2026 17:13:37 GMT"
+      "last_modified": "Sat, 26 Sep 2026 17:43:20 GMT"
     },
     "Pacific US (PACUS)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/13/GOES18-CONUS-13-625x375.gif",
