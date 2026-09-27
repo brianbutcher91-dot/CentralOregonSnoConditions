@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-27T14:00:50.302183+00:00",
+  "generated_at": "2026-09-27T14:15:20.662502+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -914,8 +914,8 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 35.0,
-        "wind_direction_deg": 67.5,
+        "wind_speed_mph": 34.0,
+        "wind_direction_deg": 90,
         "snow_level_ft": 7513,
         "temp_f": 38
       },
@@ -2156,7 +2156,7 @@
         {
           "number": 1,
           "name": "Today",
-          "startTime": "2026-09-27T06:00:00-07:00",
+          "startTime": "2026-09-27T07:00:00-07:00",
           "endTime": "2026-09-27T18:00:00-07:00",
           "isDaytime": true,
           "temperature": 62,
@@ -3087,12 +3087,12 @@
     "Hoodoo": {
       "elevation_ft": 4705,
       "temp_f": 38,
-      "wind_speed_mph": 35.0,
-      "wind_direction_deg": 67.5,
+      "wind_speed_mph": 34.0,
+      "wind_direction_deg": 90,
       "snow_level_ft": 7513,
       "precip_chance_today": 3,
-      "snowfall_12h_in": -0.1,
-      "snowfall_24h_in": -0.1,
+      "snowfall_12h_in": -0.5,
+      "snowfall_24h_in": -0.3,
       "snowfall_48h_in": null
     },
     "Willamette Pass": {
@@ -4333,10 +4333,10 @@
       "forecast": [
         {
           "date": "2026-09-27",
-          "description_long": "few clouds",
-          "description_short": "few clouds",
+          "description_long": "scattered clouds",
+          "description_short": "scattered clouds",
           "details": "Clouds",
-          "weather_icon": "dor-mostlysunny",
+          "weather_icon": "dor-cloudy",
           "id": 1790535600,
           "day": "Sunday",
           "temperature_high": 52,
@@ -4348,17 +4348,17 @@
         },
         {
           "date": "2026-09-28",
-          "description_long": "scattered clouds",
-          "description_short": "scattered clouds",
+          "description_long": "broken clouds",
+          "description_short": "broken clouds",
           "details": "Clouds",
-          "weather_icon": "dor-cloudy",
+          "weather_icon": "dor-mostlycloudy",
           "id": 1790622000,
           "day": "Monday",
-          "temperature_high": 54,
-          "temperature_low": 30,
+          "temperature_high": 53,
+          "temperature_low": 29,
           "precipitation_high": 47,
           "precipitation_low": 47,
-          "wind_speed": 5,
+          "wind_speed": 4,
           "wind_direction": "WNW"
         },
         {
@@ -4571,17 +4571,17 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-09-27T06:00:00.000Z"
+            "timestamp": "2026-09-27T07:00:00.000Z"
           },
-          "temperature": "35.56",
+          "temperature": "35.76",
           "wind": {
-            "low": "12.93",
-            "high": "19.24",
+            "low": "12.05",
+            "high": "16.33",
             "current": null,
-            "average": "12.93",
-            "direction": "S"
+            "average": "12.05",
+            "direction": "SSW"
           },
-          "humidity": "66.61",
+          "humidity": "61.08",
           "display_name": "Summit",
           "elevation_ft": 9065
         }
@@ -4642,21 +4642,21 @@
   "hoodoo": {
     "weather": {
       "Temperature": "37 &#176F",
-      "Wind": "ENE @ 35 MPH",
-      "Snow depth": "-0.4\"",
-      "Humidity": "56 %",
+      "Wind": "East @ 34 MPH",
+      "Snow depth": "-0.5\"",
+      "Humidity": "57 %",
       "Barometer": "29.90\" Hg",
-      "Rain Gauge": "0.28\""
+      "Rain Gauge": "0.20\""
     },
     "snow_totals": {
       "trend": {
-        "Max": "0.9\"",
+        "Max": "0.6\"",
         "Min": "-1.5\"",
-        "1 Hr": "0.0\"",
-        "3 Hr": "-0.1\"",
+        "1 Hr": "-0.2\"",
+        "3 Hr": "-0.3\"",
         "6 Hr": "-0.2\"",
-        "12 Hr": "-0.1\"",
-        "24 Hr": "-0.1\""
+        "12 Hr": "-0.5\"",
+        "24 Hr": "-0.3\""
       },
       "season_total_in": 158.5
     },
@@ -4698,10 +4698,10 @@
   "willamette_pass": {
     "forecast": {
       "weather_provider": "NOAA",
-      "date": "September 27, 2026, 6:40 am",
-      "time": 1790516417000,
+      "date": "September 27, 2026, 6:55 am",
+      "time": 1790517317000,
       "current_weather": "Decreasing Clouds",
-      "current_temperature": "38",
+      "current_temperature": "37",
       "forecast": [
         {
           "day": "Sunday",
@@ -4808,15 +4808,15 @@
   "satellite": {
     "Pacific Northwest": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/pnw/13/GOES18-PNW-13-600x600.gif",
-      "last_modified": "Sun, 27 Sep 2026 13:40:56 GMT"
+      "last_modified": "Sun, 27 Sep 2026 14:11:05 GMT"
     },
     "North Pacific (macro)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/np/13/GOES18-NP-13-900x540.gif",
-      "last_modified": "Sun, 27 Sep 2026 13:41:05 GMT"
+      "last_modified": "Sun, 27 Sep 2026 14:11:15 GMT"
     },
     "Pacific US (PACUS)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/13/GOES18-CONUS-13-625x375.gif",
-      "last_modified": "Sun, 27 Sep 2026 13:35:31 GMT"
+      "last_modified": "Sun, 27 Sep 2026 14:05:41 GMT"
     }
   },
   "gfs_snowfall": {
