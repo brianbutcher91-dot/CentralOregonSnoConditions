@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T14:00:53.128331+00:00",
+  "generated_at": "2026-09-29T14:15:28.159338+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -914,7 +914,7 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 19.0,
+        "wind_speed_mph": 17.0,
         "wind_direction_deg": 247.5,
         "snow_level_ft": 10682,
         "temp_f": 40
@@ -2156,7 +2156,7 @@
         {
           "number": 1,
           "name": "Today",
-          "startTime": "2026-09-29T07:00:00-07:00",
+          "startTime": "2026-09-29T06:00:00-07:00",
           "endTime": "2026-09-29T18:00:00-07:00",
           "isDaytime": true,
           "temperature": 74,
@@ -3087,12 +3087,12 @@
     "Hoodoo": {
       "elevation_ft": 4705,
       "temp_f": 40,
-      "wind_speed_mph": 19.0,
+      "wind_speed_mph": 17.0,
       "wind_direction_deg": 247.5,
       "snow_level_ft": 10682,
       "precip_chance_today": 3,
-      "snowfall_12h_in": -0.4,
-      "snowfall_24h_in": -0.3,
+      "snowfall_12h_in": 0.0,
+      "snowfall_24h_in": -0.1,
       "snowfall_48h_in": null
     },
     "Willamette Pass": {
@@ -3109,14 +3109,6 @@
   },
   "bachelor_timeseries": {
     "hourly": [
-      {
-        "time": "2026-09-28T07:00:00.000Z",
-        "temp_f": 41.89,
-        "wind_speed_mph": 4.465,
-        "wind_direction_deg": 174.8,
-        "precip_in": null,
-        "period": "historical"
-      },
       {
         "time": "2026-09-28T08:00:00.000Z",
         "temp_f": 41.51,
@@ -3302,12 +3294,12 @@
         "period": "historical"
       },
       {
-        "time": "2026-09-29T07:00:00+00:00",
-        "temp_f": 38.0,
-        "wind_speed_mph": 9.2,
-        "wind_direction_deg": 290,
-        "precip_in": 0.0,
-        "period": "forecast"
+        "time": "2026-09-29T07:00:00.000Z",
+        "temp_f": 44.57,
+        "wind_speed_mph": 23.48,
+        "wind_direction_deg": 234.0,
+        "precip_in": null,
+        "period": "historical"
       },
       {
         "time": "2026-09-29T08:00:00+00:00",
@@ -4341,8 +4333,8 @@
           "day": "Tuesday",
           "temperature_high": 60,
           "temperature_low": 33,
-          "precipitation_high": 47,
-          "precipitation_low": 47,
+          "precipitation_high": 50,
+          "precipitation_low": 50,
           "wind_speed": 5,
           "wind_direction": "W"
         },
@@ -4571,17 +4563,17 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-09-29T06:00:00.000Z"
+            "timestamp": "2026-09-29T07:00:00.000Z"
           },
-          "temperature": "39.41",
+          "temperature": "38.78",
           "wind": {
-            "low": "27.87",
-            "high": "37.36",
+            "low": "32.25",
+            "high": "40.04",
             "current": null,
-            "average": "27.87",
+            "average": "32.25",
             "direction": "NNW"
           },
-          "humidity": "79.4",
+          "humidity": "60.09",
           "display_name": "Summit",
           "elevation_ft": 9065
         }
@@ -4642,20 +4634,20 @@
   "hoodoo": {
     "weather": {
       "Temperature": "43 &#176F",
-      "Wind": "WSW @ 19 MPH",
-      "Snow depth": "-0.6\"",
-      "Humidity": "54 %",
+      "Wind": "WSW @ 17 MPH",
+      "Snow depth": "-0.4\"",
+      "Humidity": "56 %",
       "Barometer": "30.05\" Hg"
     },
     "snow_totals": {
       "trend": {
         "Max": "0.6\"",
         "Min": "-1.6\"",
-        "1 Hr": "-0.1\"",
-        "3 Hr": "-0.1\"",
-        "6 Hr": "-0.3\"",
-        "12 Hr": "-0.4\"",
-        "24 Hr": "-0.3\""
+        "1 Hr": "0.0\"",
+        "3 Hr": "-0.5\"",
+        "6 Hr": "-0.2\"",
+        "12 Hr": "0.0\"",
+        "24 Hr": "-0.1\""
       },
       "season_total_in": 158.5
     },
@@ -4697,8 +4689,8 @@
   "willamette_pass": {
     "forecast": {
       "weather_provider": "NOAA",
-      "date": "September 29, 2026, 6:34 am",
-      "time": 1790688856000,
+      "date": "September 29, 2026, 6:49 am",
+      "time": 1790689757000,
       "current_weather": "Sunny",
       "current_temperature": "42",
       "forecast": [
@@ -4807,15 +4799,15 @@
   "satellite": {
     "Pacific Northwest": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/pnw/13/GOES18-PNW-13-600x600.gif",
-      "last_modified": "Tue, 29 Sep 2026 13:41:23 GMT"
+      "last_modified": "Tue, 29 Sep 2026 14:11:14 GMT"
     },
     "North Pacific (macro)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/np/13/GOES18-NP-13-900x540.gif",
-      "last_modified": "Tue, 29 Sep 2026 13:41:33 GMT"
+      "last_modified": "Tue, 29 Sep 2026 14:11:24 GMT"
     },
     "Pacific US (PACUS)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/13/GOES18-CONUS-13-625x375.gif",
-      "last_modified": "Tue, 29 Sep 2026 13:35:56 GMT"
+      "last_modified": "Tue, 29 Sep 2026 14:05:52 GMT"
     }
   },
   "gfs_snowfall": {
