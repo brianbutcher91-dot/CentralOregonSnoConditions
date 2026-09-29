@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T17:15:19.867615+00:00",
+  "generated_at": "2026-09-29T17:30:23.076679+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -7,7 +7,7 @@
         {
           "number": 1,
           "name": "Today",
-          "startTime": "2026-09-29T09:00:00-07:00",
+          "startTime": "2026-09-29T10:00:00-07:00",
           "endTime": "2026-09-29T18:00:00-07:00",
           "isDaytime": true,
           "temperature": 54,
@@ -17,11 +17,11 @@
             "unitCode": "wmoUnit:percent",
             "value": 1
           },
-          "windSpeed": "9 mph",
+          "windSpeed": "8 mph",
           "windDirection": "W",
           "icon": "https://api.weather.gov/icons/land/day/skc?size=medium",
           "shortForecast": "Sunny",
-          "detailedForecast": "Sunny. High near 54, with temperatures falling to around 52 in the afternoon. West wind around 9 mph.",
+          "detailedForecast": "Sunny. High near 54, with temperatures falling to around 52 in the afternoon. West wind around 8 mph.",
           "precipitationAmountIn": 0.0,
           "snowLevelFt": 10591
         },
@@ -914,8 +914,8 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 15.0,
-        "wind_direction_deg": 247.5,
+        "wind_speed_mph": 17.0,
+        "wind_direction_deg": 225,
         "snow_level_ft": 10285,
         "temp_f": 49
       },
@@ -928,7 +928,7 @@
         {
           "number": 1,
           "name": "Today",
-          "startTime": "2026-09-29T09:00:00-07:00",
+          "startTime": "2026-09-29T10:00:00-07:00",
           "endTime": "2026-09-29T18:00:00-07:00",
           "isDaytime": true,
           "temperature": 56,
@@ -940,7 +940,7 @@
           },
           "windSpeed": "8 mph",
           "windDirection": "W",
-          "icon": "https://api.weather.gov/icons/land/day/few?size=medium",
+          "icon": "https://api.weather.gov/icons/land/day/skc?size=medium",
           "shortForecast": "Sunny",
           "detailedForecast": "Sunny. High near 56, with temperatures falling to around 54 in the afternoon. West wind around 8 mph.",
           "precipitationAmountIn": 0.0,
@@ -2156,7 +2156,7 @@
         {
           "number": 1,
           "name": "Today",
-          "startTime": "2026-09-29T09:00:00-07:00",
+          "startTime": "2026-09-29T08:00:00-07:00",
           "endTime": "2026-09-29T18:00:00-07:00",
           "isDaytime": true,
           "temperature": 74,
@@ -2166,11 +2166,11 @@
             "unitCode": "wmoUnit:percent",
             "value": 1
           },
-          "windSpeed": "2 to 6 mph",
+          "windSpeed": "2 to 7 mph",
           "windDirection": "NW",
-          "icon": "https://api.weather.gov/icons/land/day/skc?size=medium",
+          "icon": "https://api.weather.gov/icons/land/day/few?size=medium",
           "shortForecast": "Sunny",
-          "detailedForecast": "Sunny. High near 74, with temperatures falling to around 72 in the afternoon. Northwest wind 2 to 6 mph.",
+          "detailedForecast": "Sunny. High near 74, with temperatures falling to around 72 in the afternoon. Northwest wind 2 to 7 mph.",
           "precipitationAmountIn": 0.0,
           "snowLevelFt": 10541
         },
@@ -2463,7 +2463,7 @@
         {
           "number": 1,
           "name": "Today",
-          "startTime": "2026-09-29T10:00:00-07:00",
+          "startTime": "2026-09-29T09:00:00-07:00",
           "endTime": "2026-09-29T18:00:00-07:00",
           "isDaytime": true,
           "temperature": 72,
@@ -2474,10 +2474,10 @@
             "value": 1
           },
           "windSpeed": "1 to 9 mph",
-          "windDirection": "NW",
+          "windDirection": "W",
           "icon": "https://api.weather.gov/icons/land/day/skc?size=medium",
           "shortForecast": "Sunny",
-          "detailedForecast": "Sunny. High near 72, with temperatures falling to around 70 in the afternoon. Northwest wind 1 to 9 mph, with gusts as high as 21 mph.",
+          "detailedForecast": "Sunny. High near 72, with temperatures falling to around 70 in the afternoon. West wind 1 to 9 mph, with gusts as high as 21 mph.",
           "precipitationAmountIn": 0.0,
           "snowLevelFt": 10538
         },
@@ -3087,11 +3087,11 @@
     "Hoodoo": {
       "elevation_ft": 4705,
       "temp_f": 49,
-      "wind_speed_mph": 15.0,
-      "wind_direction_deg": 247.5,
+      "wind_speed_mph": 17.0,
+      "wind_direction_deg": 225,
       "snow_level_ft": 10285,
       "precip_chance_today": 3,
-      "snowfall_12h_in": -0.5,
+      "snowfall_12h_in": -0.4,
       "snowfall_24h_in": -0.3,
       "snowfall_48h_in": null
     },
@@ -3109,14 +3109,6 @@
   },
   "bachelor_timeseries": {
     "hourly": [
-      {
-        "time": "2026-09-28T10:00:00.000Z",
-        "temp_f": 43.35,
-        "wind_speed_mph": 3.107,
-        "wind_direction_deg": 21.64,
-        "precip_in": null,
-        "period": "historical"
-      },
       {
         "time": "2026-09-28T11:00:00.000Z",
         "temp_f": 44.49,
@@ -3302,12 +3294,12 @@
         "period": "historical"
       },
       {
-        "time": "2026-09-29T10:00:00+00:00",
-        "temp_f": 37.0,
-        "wind_speed_mph": 10.4,
-        "wind_direction_deg": 290,
-        "precip_in": 0.0,
-        "period": "forecast"
+        "time": "2026-09-29T10:00:00.000Z",
+        "temp_f": 49.3,
+        "wind_speed_mph": 16.53,
+        "wind_direction_deg": 236.4,
+        "precip_in": null,
+        "period": "historical"
       },
       {
         "time": "2026-09-29T11:00:00+00:00",
@@ -3936,10 +3928,6 @@
     ],
     "historical_precip_snapshots": [
       {
-        "time": "2026-09-26T17:30:14.881886+00:00",
-        "precip_in": 0
-      },
-      {
         "time": "2026-09-26T18:30:23.519743+00:00",
         "precip_in": 0
       },
@@ -4208,7 +4196,7 @@
       "swe_in": 0.0,
       "swe_in_date": "2026-09-28",
       "change_12h_in": 0,
-      "change_24h_in": 0
+      "change_24h_in": -1
     },
     "Santiam / Hoodoo (Hogg Pass)": {
       "snow_depth_in": 0,
@@ -4331,7 +4319,7 @@
   "mtbachelor": {
     "weather": {
       "current": {
-        "temperature": 47,
+        "temperature": 52,
         "weather_icon": "dor-cloudy"
       },
       "forecast": [
@@ -4345,8 +4333,8 @@
           "day": "Tuesday",
           "temperature_high": 59,
           "temperature_low": 31,
-          "precipitation_high": 48,
-          "precipitation_low": 48,
+          "precipitation_high": 47,
+          "precipitation_low": 47,
           "wind_speed": 5,
           "wind_direction": "W"
         },
@@ -4464,10 +4452,10 @@
           "active": true,
           "primary": true,
           "nonstandardizedDataPoints": {
-            "depth": "144.6",
-            "timestamp": "2026-09-29T09:00:00.000Z"
+            "depth": "144.5",
+            "timestamp": "2026-09-29T10:00:00.000Z"
           },
-          "temperature": "47.07",
+          "temperature": "52.4",
           "wind": {
             "low": "0",
             "high": "0",
@@ -4487,14 +4475,14 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-09-29T09:00:00.000Z"
+            "timestamp": "2026-09-29T10:00:00.000Z"
           },
-          "temperature": "49.15",
+          "temperature": "50.34",
           "wind": {
-            "low": "15.17",
-            "high": "27.29",
+            "low": "14.89",
+            "high": "23.94",
             "current": null,
-            "average": "15.17",
+            "average": "14.89",
             "direction": "WSW"
           },
           "humidity": null,
@@ -4509,17 +4497,17 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-09-29T09:00:00.000Z"
+            "timestamp": "2026-09-29T10:00:00.000Z"
           },
-          "temperature": "44.81",
+          "temperature": "46.62",
           "wind": {
-            "low": "14.98",
-            "high": "22.49",
+            "low": "13.27",
+            "high": "18.76",
             "current": null,
-            "average": "14.98",
-            "direction": "W"
+            "average": "13.27",
+            "direction": "WNW"
           },
-          "humidity": "77.29",
+          "humidity": "73.76",
           "display_name": "Pine Marten",
           "elevation_ft": 7800
         },
@@ -4531,15 +4519,15 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-09-29T09:00:00.000Z"
+            "timestamp": "2026-09-29T10:00:00.000Z"
           },
-          "temperature": "48.41",
+          "temperature": "49.3",
           "wind": {
-            "low": "19.93",
-            "high": "26.84",
+            "low": "16.53",
+            "high": "24.83",
             "current": null,
-            "average": "19.93",
-            "direction": "SW"
+            "average": "16.53",
+            "direction": "WSW"
           },
           "humidity": null,
           "display_name": "Cloud Chaser",
@@ -4646,19 +4634,19 @@
   "hoodoo": {
     "weather": {
       "Temperature": "45 &#176F",
-      "Wind": "WSW @ 15 MPH",
-      "Snow depth": "-0.4\"",
-      "Humidity": "72 %",
+      "Wind": "SW @ 17 MPH",
+      "Snow depth": "-0.7\"",
+      "Humidity": "73 %",
       "Barometer": "30.07\" Hg"
     },
     "snow_totals": {
       "trend": {
         "Max": "0.6\"",
         "Min": "-1.6\"",
-        "1 Hr": "-0.1\"",
-        "3 Hr": "-0.3\"",
-        "6 Hr": "-0.8\"",
-        "12 Hr": "-0.5\"",
+        "1 Hr": "0.0\"",
+        "3 Hr": "-0.2\"",
+        "6 Hr": "-0.3\"",
+        "12 Hr": "-0.4\"",
         "24 Hr": "-0.3\""
       },
       "season_total_in": 158.5
@@ -4701,14 +4689,14 @@
   "willamette_pass": {
     "forecast": {
       "weather_provider": "NOAA",
-      "date": "September 29, 2026, 10:04 am",
-      "time": 1790701459000,
+      "date": "September 29, 2026, 10:19 am",
+      "time": 1790702365000,
       "current_weather": "Sunny",
       "current_temperature": "56",
       "forecast": [
         {
           "day": "Tuesday",
-          "day_forecast": "Sunny, with a high near 60. Light west northwest wind increasing to 5 to 10 mph in the morning. ",
+          "day_forecast": "Sunny, with a high near 60. West northwest wind 7 to 10 mph. ",
           "night_forecast": "Mostly clear, with a low around 40. West northwest wind 5 to 9 mph becoming calm  after midnight. "
         },
         {
