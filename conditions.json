@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T22:30:20.575266+00:00",
+  "generated_at": "2026-10-01T22:45:21.707630+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -914,7 +914,7 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 10.0,
+        "wind_speed_mph": 8.0,
         "wind_direction_deg": 90,
         "snow_level_ft": 10581,
         "temp_f": 69
@@ -1849,7 +1849,7 @@
         {
           "number": 1,
           "name": "This Afternoon",
-          "startTime": "2026-10-01T15:00:00-07:00",
+          "startTime": "2026-10-01T14:00:00-07:00",
           "endTime": "2026-10-01T18:00:00-07:00",
           "isDaytime": true,
           "temperature": 71,
@@ -2156,7 +2156,7 @@
         {
           "number": 1,
           "name": "This Afternoon",
-          "startTime": "2026-10-01T15:00:00-07:00",
+          "startTime": "2026-10-01T14:00:00-07:00",
           "endTime": "2026-10-01T18:00:00-07:00",
           "isDaytime": true,
           "temperature": 76,
@@ -2463,7 +2463,7 @@
         {
           "number": 1,
           "name": "This Afternoon",
-          "startTime": "2026-10-01T15:00:00-07:00",
+          "startTime": "2026-10-01T14:00:00-07:00",
           "endTime": "2026-10-01T18:00:00-07:00",
           "isDaytime": true,
           "temperature": 75,
@@ -3087,12 +3087,12 @@
     "Hoodoo": {
       "elevation_ft": 4705,
       "temp_f": 69,
-      "wind_speed_mph": 10.0,
+      "wind_speed_mph": 8.0,
       "wind_direction_deg": 90,
       "snow_level_ft": 10581,
       "precip_chance_today": 0,
-      "snowfall_12h_in": -0.4,
-      "snowfall_24h_in": 0.5,
+      "snowfall_12h_in": -0.9,
+      "snowfall_24h_in": -0.7,
       "snowfall_48h_in": null
     },
     "Willamette Pass": {
@@ -4216,7 +4216,105 @@
     }
   },
   "odot_cams": {
-    "error": "HTTPSConnectionPool(host='api.odot.state.or.us', port=443): Max retries exceeded with url: /tripcheck/Cctv/Inventory?DeviceName=Century+Dr (Caused by NameResolutionError(\"HTTPSConnection(host='api.odot.state.or.us', port=443): Failed to resolve 'api.odot.state.or.us' ([Errno -5] No address associated with hostname)\"))"
+    "Century Drive": [
+      {
+        "device-id": 768,
+        "device-name": "Century Dr at MP 21.11 E",
+        "latitude": 43.99178,
+        "longitude": -121.65663,
+        "hwy-id": "",
+        "route-id": "CITY",
+        "milepoint": 21.11,
+        "cctv-url": "http://www.TripCheck.com/roadcams/cams/Century Dr at MP 21.11 E_pid3545.JPG",
+        "cctv-other": "Century Drive at MP 21.11",
+        "last-update-time": "2026-10-01T03:43:55.007-07:00",
+        "tripcheck_link": "https://www.tripcheck.com/Pages/View-Custom-Cameras/?CamIds=3545"
+      },
+      {
+        "device-id": 771,
+        "device-name": "Century Dr at MP 21.11 W",
+        "latitude": 43.99178,
+        "longitude": -121.65663,
+        "hwy-id": "",
+        "route-id": "CITY",
+        "milepoint": 21.11,
+        "cctv-url": "http://www.TripCheck.com/roadcams/cams/Century Dr at MP 21.11 W_pid3557.JPG",
+        "cctv-other": "Century Drive at MP 21.11",
+        "last-update-time": "2026-10-01T03:43:54.833-07:00",
+        "tripcheck_link": "https://www.tripcheck.com/Pages/View-Custom-Cameras/?CamIds=3557"
+      }
+    ],
+    "Santiam Pass": [
+      {
+        "device-id": 567,
+        "device-name": "Santiam Pass EB",
+        "latitude": 44.422,
+        "longitude": -121.85731,
+        "hwy-id": "016",
+        "route-id": "US20",
+        "milepoint": 80.14,
+        "cctv-url": "http://www.TripCheck.com/roadcams/cams/Santiam Pass_pid2728.JPG",
+        "cctv-other": "US20 at Santiam Pass",
+        "last-update-time": "2026-10-01T03:44:43.02-07:00",
+        "tripcheck_link": "https://www.tripcheck.com/Pages/View-Custom-Cameras/?CamIds=2728"
+      },
+      {
+        "device-id": 1443,
+        "device-name": "Santiam Pass WB",
+        "latitude": 44.422,
+        "longitude": -121.8573,
+        "hwy-id": "016",
+        "route-id": "US20",
+        "milepoint": 80.14,
+        "cctv-url": "http://www.TripCheck.com/roadcams/cams/Santiam Pass WB_pid5258.jpg",
+        "cctv-other": "US20 at Santiam Pass",
+        "last-update-time": "2026-10-01T03:44:43.02-07:00",
+        "tripcheck_link": "https://www.tripcheck.com/Pages/View-Custom-Cameras/?CamIds=5258"
+      }
+    ],
+    "Tombstone Pass": [
+      {
+        "device-id": 332,
+        "device-name": "US20 at Tombstone",
+        "latitude": 44.39548,
+        "longitude": -122.14151,
+        "hwy-id": "016",
+        "route-id": "US20",
+        "milepoint": 63.64,
+        "cctv-url": "http://www.TripCheck.com/roadcams/cams/US20atTombstone_pid1354.jpg",
+        "cctv-other": "US20 at Tombstone",
+        "last-update-time": "2026-09-23T06:06:28.21-07:00",
+        "tripcheck_link": "https://www.tripcheck.com/Pages/View-Custom-Cameras/?CamIds=1354"
+      }
+    ],
+    "Willamette Pass": [
+      {
+        "device-id": 207,
+        "device-name": "OR58 at Willamette Pass",
+        "latitude": 43.59702,
+        "longitude": -122.03383,
+        "hwy-id": "018",
+        "route-id": "OR58",
+        "milepoint": 62.0,
+        "cctv-url": "http://www.TripCheck.com/roadcams/cams/WillamettePass_pid658.jpg",
+        "cctv-other": "OR58 at Willamette Pass",
+        "last-update-time": "2026-10-01T03:43:54.113-07:00",
+        "tripcheck_link": "https://www.tripcheck.com/Pages/View-Custom-Cameras/?CamIds=658"
+      },
+      {
+        "device-id": 721,
+        "device-name": "OR58 at Willamette Pass W",
+        "latitude": 43.59702,
+        "longitude": -122.03386,
+        "hwy-id": "018",
+        "route-id": "OR58",
+        "milepoint": 62.0,
+        "cctv-url": "http://www.TripCheck.com/roadcams/cams/Willamette Pass_pid3351.JPG",
+        "cctv-other": "OR58 at Willamette Pass",
+        "last-update-time": "2026-10-01T03:43:50.103-07:00",
+        "tripcheck_link": "https://www.tripcheck.com/Pages/View-Custom-Cameras/?CamIds=3351"
+      }
+    ]
   },
   "mtbachelor": {
     "weather": {
@@ -4227,16 +4325,16 @@
       "forecast": [
         {
           "date": "2026-10-01",
-          "description_long": "overcast clouds",
-          "description_short": "overcast clouds",
+          "description_long": "broken clouds",
+          "description_short": "broken clouds",
           "details": "Clouds",
           "weather_icon": "dor-mostlycloudy",
           "id": 1790881200,
           "day": "Thursday",
           "temperature_high": 66,
           "temperature_low": 30,
-          "precipitation_high": 50,
-          "precipitation_low": 50,
+          "precipitation_high": 52,
+          "precipitation_low": 52,
           "wind_speed": 4,
           "wind_direction": "SSE"
         },
@@ -4282,7 +4380,7 @@
           "temperature_low": 57,
           "precipitation_high": 23,
           "precipitation_low": 23,
-          "wind_speed": 8,
+          "wind_speed": 9,
           "wind_direction": "WSW"
         },
         {
@@ -4535,9 +4633,9 @@
   },
   "hoodoo": {
     "weather": {
-      "Temperature": "61 &#176F",
-      "Wind": "East @ 10 MPH",
-      "Snow depth": "-0.8\"",
+      "Temperature": "62 &#176F",
+      "Wind": "East @ 8 MPH",
+      "Snow depth": "-0.7\"",
       "Humidity": "62 %",
       "Barometer": "30.19\" Hg"
     },
@@ -4545,11 +4643,11 @@
       "trend": {
         "Max": "0.5\"",
         "Min": "-2.9\"",
-        "1 Hr": "0.3\"",
-        "3 Hr": "-0.4\"",
-        "6 Hr": "-0.5\"",
-        "12 Hr": "-0.4\"",
-        "24 Hr": "0.5\""
+        "1 Hr": "0.0\"",
+        "3 Hr": "-1.0\"",
+        "6 Hr": "-1.0\"",
+        "12 Hr": "-0.9\"",
+        "24 Hr": "-0.7\""
       },
       "season_total_in": 0.0
     },
@@ -4591,14 +4689,13 @@
   "willamette_pass": {
     "forecast": {
       "weather_provider": "NOAA",
-      "date": "October 1, 2026, 3:10 pm",
-      "time": 1790892620000,
-      "current_weather": "Mostly Sunny",
+      "date": "October 1, 2026, 3:25 pm",
+      "time": 1790893518000,
+      "current_weather": "Partly Cloudy",
       "current_temperature": "77",
       "forecast": [
         {
           "day": "Thursday",
-          "day_forecast": "Mostly sunny, with a high near 72. Light west wind. ",
           "night_forecast": "Partly cloudy, with a low around 45. West northwest wind 5 to 7 mph becoming calm  after midnight. "
         },
         {
@@ -4609,7 +4706,7 @@
         {
           "day": "Saturday",
           "day_forecast": "Sunny, with a high near 75. East southeast wind around 6 mph becoming light and variable  in the afternoon. ",
-          "night_forecast": "Mostly clear, with a low around 49."
+          "night_forecast": "Mostly clear, with a low around 49. Calm wind becoming east southeast 5 to 7 mph after midnight. "
         },
         {
           "day": "Sunday",
@@ -4625,11 +4722,15 @@
           "day": "Tuesday",
           "day_forecast": "Sunny, with a high near 72.",
           "night_forecast": "Mostly clear, with a low around 47."
+        },
+        {
+          "day": "Wednesday",
+          "day_forecast": "Sunny, with a high near 73."
         }
       ],
       "wind": "NA",
-      "icon": "0100-sunny.svg",
-      "max_temp": "72",
+      "icon": "0103-partly-cloudy.svg",
+      "max_temp": "69",
       "min_temp": "45",
       "hourly": [
         {
@@ -4701,15 +4802,15 @@
   "satellite": {
     "Pacific Northwest": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/pnw/13/GOES18-PNW-13-600x600.gif",
-      "last_modified": "Thu, 01 Oct 2026 22:12:27 GMT"
+      "last_modified": "Thu, 01 Oct 2026 22:41:27 GMT"
     },
     "North Pacific (macro)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/np/13/GOES18-NP-13-900x540.gif",
-      "last_modified": "Thu, 01 Oct 2026 22:12:37 GMT"
+      "last_modified": "Thu, 01 Oct 2026 22:41:37 GMT"
     },
     "Pacific US (PACUS)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/13/GOES18-CONUS-13-625x375.gif",
-      "last_modified": "Thu, 01 Oct 2026 22:06:38 GMT"
+      "last_modified": "Thu, 01 Oct 2026 22:35:53 GMT"
     }
   },
   "gfs_snowfall": {
