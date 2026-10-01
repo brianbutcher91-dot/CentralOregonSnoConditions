@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T11:15:40.832141+00:00",
+  "generated_at": "2026-10-01T11:30:24.204629+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -2156,7 +2156,7 @@
         {
           "number": 1,
           "name": "Overnight",
-          "startTime": "2026-10-01T01:00:00-07:00",
+          "startTime": "2026-10-01T04:00:00-07:00",
           "endTime": "2026-10-01T06:00:00-07:00",
           "isDaytime": false,
           "temperature": 47,
@@ -2172,7 +2172,7 @@
           "shortForecast": "Patchy Fog",
           "detailedForecast": "Patchy fog after 5am. Partly cloudy, with a low around 47. Wind around 0 mph.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 10538
+          "snowLevelFt": 10499
         },
         {
           "number": 2,
@@ -3110,14 +3110,6 @@
   "bachelor_timeseries": {
     "hourly": [
       {
-        "time": "2026-09-30T04:00:00.000Z",
-        "temp_f": 45.74,
-        "wind_speed_mph": 19.68,
-        "wind_direction_deg": 233.4,
-        "precip_in": null,
-        "period": "historical"
-      },
-      {
         "time": "2026-09-30T05:00:00.000Z",
         "temp_f": 45.54,
         "wind_speed_mph": 16.8,
@@ -3298,6 +3290,14 @@
         "temp_f": 50.51,
         "wind_speed_mph": 2.323,
         "wind_direction_deg": 156.7,
+        "precip_in": null,
+        "period": "historical"
+      },
+      {
+        "time": "2026-10-01T04:00:00.000Z",
+        "temp_f": 50.5,
+        "wind_speed_mph": 5.246,
+        "wind_direction_deg": 175.2,
         "precip_in": null,
         "period": "historical"
       },
@@ -4199,8 +4199,8 @@
       "snow_depth_in_date": "2026-09-30",
       "swe_in": 0.0,
       "swe_in_date": "2026-09-30",
-      "change_12h_in": 1,
-      "change_24h_in": 1
+      "change_12h_in": 0,
+      "change_24h_in": 0
     },
     "Santiam / Hoodoo (Hogg Pass)": {
       "snow_depth_in": 0,
@@ -4693,8 +4693,8 @@
   "willamette_pass": {
     "forecast": {
       "weather_provider": "NOAA",
-      "date": "October 1, 2026, 3:55 am",
-      "time": 1790852118000,
+      "date": "October 1, 2026, 4:10 am",
+      "time": 1790853021000,
       "current_weather": "Partly Cloudy",
       "current_temperature": "47",
       "forecast": [
