@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T12:30:35.751301+00:00",
+  "generated_at": "2026-10-01T12:44:57.239651+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -914,7 +914,7 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 17.0,
+        "wind_speed_mph": 21.0,
         "wind_direction_deg": 90,
         "snow_level_ft": 10880,
         "temp_f": 46
@@ -1849,7 +1849,7 @@
         {
           "number": 1,
           "name": "Overnight",
-          "startTime": "2026-10-01T05:00:00-07:00",
+          "startTime": "2026-10-01T04:00:00-07:00",
           "endTime": "2026-10-01T06:00:00-07:00",
           "isDaytime": false,
           "temperature": 45,
@@ -1865,7 +1865,7 @@
           "shortForecast": "Partly Cloudy",
           "detailedForecast": "Partly cloudy, with a low around 45. Southeast wind around 1 mph.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 10797
+          "snowLevelFt": 10807
         },
         {
           "number": 2,
@@ -2463,7 +2463,7 @@
         {
           "number": 1,
           "name": "Overnight",
-          "startTime": "2026-10-01T05:00:00-07:00",
+          "startTime": "2026-10-01T04:00:00-07:00",
           "endTime": "2026-10-01T06:00:00-07:00",
           "isDaytime": false,
           "temperature": 42,
@@ -2477,9 +2477,9 @@
           "windDirection": "",
           "icon": "https://api.weather.gov/icons/land/night/fog?size=medium",
           "shortForecast": "Patchy Fog",
-          "detailedForecast": "Patchy fog. Partly cloudy. Low around 42, with temperatures rising to around 44 overnight. Wind around 0 mph.",
+          "detailedForecast": "Patchy fog after 5am. Partly cloudy. Low around 42, with temperatures rising to around 44 overnight. Wind around 0 mph.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 10801
+          "snowLevelFt": 10834
         },
         {
           "number": 2,
@@ -2770,7 +2770,7 @@
         {
           "number": 1,
           "name": "Overnight",
-          "startTime": "2026-10-01T05:00:00-07:00",
+          "startTime": "2026-10-01T04:00:00-07:00",
           "endTime": "2026-10-01T06:00:00-07:00",
           "isDaytime": false,
           "temperature": 37,
@@ -2786,7 +2786,7 @@
           "shortForecast": "Areas Of Fog",
           "detailedForecast": "Areas of fog. Partly cloudy, with a low around 37. South wind around 1 mph.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 10040
+          "snowLevelFt": 10027
         },
         {
           "number": 2,
@@ -3087,12 +3087,12 @@
     "Hoodoo": {
       "elevation_ft": 4705,
       "temp_f": 46,
-      "wind_speed_mph": 17.0,
+      "wind_speed_mph": 21.0,
       "wind_direction_deg": 90,
       "snow_level_ft": 10880,
       "precip_chance_today": 1,
-      "snowfall_12h_in": 0.0,
-      "snowfall_24h_in": 0.2,
+      "snowfall_12h_in": -0.2,
+      "snowfall_24h_in": 0.1,
       "snowfall_48h_in": null
     },
     "Willamette Pass": {
@@ -4638,7 +4638,7 @@
   "hoodoo": {
     "weather": {
       "Temperature": "48 &#176F",
-      "Wind": "East @ 17 MPH",
+      "Wind": "East @ 21 MPH",
       "Snow depth": "-0.3\"",
       "Humidity": "100 %",
       "Barometer": "30.19\" Hg"
@@ -4647,11 +4647,11 @@
       "trend": {
         "Max": "0.4\"",
         "Min": "-2.9\"",
-        "1 Hr": "0.1\"",
-        "3 Hr": "0.0\"",
-        "6 Hr": "0.0\"",
-        "12 Hr": "0.0\"",
-        "24 Hr": "0.2\""
+        "1 Hr": "-0.1\"",
+        "3 Hr": "0.1\"",
+        "6 Hr": "-0.3\"",
+        "12 Hr": "-0.2\"",
+        "24 Hr": "0.1\""
       },
       "season_total_in": 0.0
     },
@@ -4693,8 +4693,8 @@
   "willamette_pass": {
     "forecast": {
       "weather_provider": "NOAA",
-      "date": "October 1, 2026, 5:10 am",
-      "time": 1790856616000,
+      "date": "October 1, 2026, 5:25 am",
+      "time": 1790857519000,
       "current_weather": "Mostly Sunny",
       "current_temperature": "46",
       "forecast": [
