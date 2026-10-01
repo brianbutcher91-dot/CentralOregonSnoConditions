@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T07:15:24.987273+00:00",
+  "generated_at": "2026-10-01T07:30:25.937622+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -2155,8 +2155,8 @@
       "periods": [
         {
           "number": 1,
-          "name": "Overnight",
-          "startTime": "2026-10-01T00:00:00-07:00",
+          "name": "Tonight",
+          "startTime": "2026-09-30T23:00:00-07:00",
           "endTime": "2026-10-01T06:00:00-07:00",
           "isDaytime": false,
           "temperature": 47,
@@ -2166,11 +2166,11 @@
             "unitCode": "wmoUnit:percent",
             "value": 0
           },
-          "windSpeed": "1 mph",
+          "windSpeed": "2 mph",
           "windDirection": "W",
-          "icon": "https://api.weather.gov/icons/land/night/fog?size=medium",
-          "shortForecast": "Patchy Fog",
-          "detailedForecast": "Patchy fog after 5am. Partly cloudy, with a low around 47. West wind around 1 mph.",
+          "icon": "https://api.weather.gov/icons/land/night/sct/fog?size=medium",
+          "shortForecast": "Partly Cloudy then Patchy Fog",
+          "detailedForecast": "Patchy fog after 5am. Partly cloudy, with a low around 47. West wind around 2 mph.",
           "precipitationAmountIn": 0.0,
           "snowLevelFt": 10538
         },
@@ -3103,8 +3103,8 @@
       "snow_level_ft": 9987,
       "precip_chance_today": 0,
       "snowfall_12h_in": null,
-      "snowfall_24h_in": null,
-      "snowfall_48h_in": null
+      "snowfall_24h_in": 0.0,
+      "snowfall_48h_in": 0.0
     }
   },
   "bachelor_timeseries": {
@@ -4195,8 +4195,8 @@
       "snow_depth_in_date": "2026-09-29",
       "swe_in": 0.0,
       "swe_in_date": "2026-09-29",
-      "change_12h_in": 1,
-      "change_24h_in": 1
+      "change_12h_in": 0,
+      "change_24h_in": 0
     },
     "Santiam / Hoodoo (Hogg Pass)": {
       "snow_depth_in": 0,
@@ -4687,7 +4687,103 @@
     }
   },
   "willamette_pass": {
-    "error": "504 Server Error: Gateway Timeout for url: https://www.willamettepass.ski/weather-conditions-webcams/webcams/"
+    "forecast": {
+      "weather_provider": "NOAA",
+      "date": "October 1, 2026, 12:04 am",
+      "time": 1790838260000,
+      "current_weather": "Partly Cloudy",
+      "current_temperature": "51",
+      "forecast": [
+        {
+          "day": "Wednesday",
+          "night_forecast": "Partly cloudy, with a low around 44. East wind 3 to 5 mph. "
+        },
+        {
+          "day": "Thursday",
+          "day_forecast": "Mostly sunny, with a high near 72. East southeast wind 5 to 7 mph becoming calm. ",
+          "night_forecast": "Mostly clear, with a low around 46. Light and variable wind. "
+        },
+        {
+          "day": "Friday",
+          "day_forecast": "Mostly sunny, with a high near 70. Calm wind becoming west northwest 5 to 7 mph in the afternoon. ",
+          "night_forecast": "Partly cloudy, with a low around 45. Light and variable wind. "
+        },
+        {
+          "day": "Saturday",
+          "day_forecast": "Sunny, with a high near 75.",
+          "night_forecast": "Mostly clear, with a low around 48."
+        },
+        {
+          "day": "Sunday",
+          "day_forecast": "Sunny, with a high near 77.",
+          "night_forecast": "Partly cloudy, with a low around 48."
+        },
+        {
+          "day": "Monday",
+          "day_forecast": "Sunny, with a high near 70.",
+          "night_forecast": "Mostly clear, with a low around 45."
+        },
+        {
+          "day": "Tuesday",
+          "day_forecast": "Sunny, with a high near 71."
+        }
+      ],
+      "wind": "NA",
+      "icon": "0103-partly-cloudy.svg",
+      "max_temp": "72",
+      "min_temp": "44",
+      "hourly": [
+        {
+          "time": "12a",
+          "temp": "48",
+          "details": ""
+        },
+        {
+          "time": "2a",
+          "temp": "46",
+          "details": ""
+        },
+        {
+          "time": "4a",
+          "temp": "44",
+          "details": ""
+        },
+        {
+          "time": "5a",
+          "temp": "44",
+          "details": ""
+        },
+        {
+          "time": "8a",
+          "temp": "44",
+          "details": ""
+        }
+      ],
+      "attribution": "",
+      "trails_updated": "April 24, 2026 1:06 pm",
+      "lifts_trails_page_updated": "",
+      "conditions_table_updated": "April 24, 2026 1:06 pm",
+      "todays_report_updated": ""
+    },
+    "snow_totals": {
+      "24 Hr": "0\u201d",
+      "48 Hr": "0\u201d",
+      "7 Day": "0\u201d",
+      "Base Depth": "0\u201d",
+      "Season Total": "47\u201d",
+      "Lifts Open": "0/6",
+      "Trails Open": "0/30"
+    },
+    "webcams": {
+      "Base Area": {
+        "src": "https://www.youtube.com/embed/sNVA6oC7vcM",
+        "link": "https://www.willamettepass.ski/weather-conditions-webcams/webcams/"
+      },
+      "EPA": {
+        "src": "https://www.youtube.com/embed/uav7cBNVv0k",
+        "link": "https://www.willamettepass.ski/weather-conditions-webcams/webcams/"
+      }
+    }
   },
   "snow_stake_cams": {
     "Mt. Bachelor (Snow Stake)": {
@@ -4698,7 +4794,10 @@
       "src": "https://santiampsp.org/wx/weather16.jpg",
       "link": "https://hoodoo.com/the-mountain/webcams/"
     },
-    "Willamette Pass (Base Area)": null
+    "Willamette Pass (Base Area)": {
+      "src": "https://www.youtube.com/embed/sNVA6oC7vcM",
+      "link": "https://www.willamettepass.ski/weather-conditions-webcams/webcams/"
+    }
   },
   "satellite": {
     "Pacific Northwest": {
