@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T19:15:22.549004+00:00",
+  "generated_at": "2026-10-01T19:20:20.677727+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -914,7 +914,7 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 16.0,
+        "wind_speed_mph": 5,
         "wind_direction_deg": 90,
         "snow_level_ft": 10758,
         "temp_f": 62
@@ -3087,12 +3087,12 @@
     "Hoodoo": {
       "elevation_ft": 4705,
       "temp_f": 62,
-      "wind_speed_mph": 16.0,
+      "wind_speed_mph": 5,
       "wind_direction_deg": 90,
       "snow_level_ft": 10758,
       "precip_chance_today": 0,
-      "snowfall_12h_in": 0.0,
-      "snowfall_24h_in": 0.0,
+      "snowfall_12h_in": null,
+      "snowfall_24h_in": null,
       "snowfall_48h_in": null
     },
     "Willamette Pass": {
@@ -3109,14 +3109,6 @@
   },
   "bachelor_timeseries": {
     "hourly": [
-      {
-        "time": "2026-09-30T12:00:00.000Z",
-        "temp_f": 49.95,
-        "wind_speed_mph": 4.978,
-        "wind_direction_deg": 25.53,
-        "precip_in": null,
-        "period": "historical"
-      },
       {
         "time": "2026-09-30T13:00:00.000Z",
         "temp_f": 51.6,
@@ -3302,12 +3294,12 @@
         "period": "historical"
       },
       {
-        "time": "2026-10-01T12:00:00+00:00",
-        "temp_f": 43.0,
-        "wind_speed_mph": 4.6,
-        "wind_direction_deg": 150,
-        "precip_in": 0.0,
-        "period": "forecast"
+        "time": "2026-10-01T12:00:00.000Z",
+        "temp_f": 52.64,
+        "wind_speed_mph": 9.42,
+        "wind_direction_deg": 107.1,
+        "precip_in": null,
+        "period": "historical"
       },
       {
         "time": "2026-10-01T13:00:00+00:00",
@@ -4331,7 +4323,7 @@
   "mtbachelor": {
     "weather": {
       "current": {
-        "temperature": 58,
+        "temperature": 60,
         "weather_icon": "dor-mostlycloudy"
       },
       "forecast": [
@@ -4345,8 +4337,8 @@
           "day": "Thursday",
           "temperature_high": 62,
           "temperature_low": 30,
-          "precipitation_high": 58,
-          "precipitation_low": 58,
+          "precipitation_high": 57,
+          "precipitation_low": 57,
           "wind_speed": 4,
           "wind_direction": "SSE"
         },
@@ -4464,10 +4456,10 @@
           "active": true,
           "primary": true,
           "nonstandardizedDataPoints": {
-            "depth": "-1.793",
-            "timestamp": "2026-10-01T11:00:00.000Z"
+            "depth": "-2.998",
+            "timestamp": "2026-10-01T12:00:00.000Z"
           },
-          "temperature": "57.69",
+          "temperature": "60.41",
           "wind": {
             "low": "0",
             "high": "0",
@@ -4487,14 +4479,14 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-10-01T11:00:00.000Z"
+            "timestamp": "2026-10-01T12:00:00.000Z"
           },
-          "temperature": "56.41",
+          "temperature": "57.79",
           "wind": {
-            "low": "8.83",
-            "high": "19.46",
+            "low": "7.861",
+            "high": "17",
             "current": null,
-            "average": "8.83",
+            "average": "7.861",
             "direction": "ESE"
           },
           "humidity": null,
@@ -4509,17 +4501,17 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-10-01T11:00:00.000Z"
+            "timestamp": "2026-10-01T12:00:00.000Z"
           },
-          "temperature": "54.48",
+          "temperature": "54.66",
           "wind": {
-            "low": "6.324",
-            "high": "21.96",
+            "low": "0.36",
+            "high": "7.205",
             "current": null,
-            "average": "6.324",
+            "average": "0.36",
             "direction": "SSE"
           },
-          "humidity": "48.94",
+          "humidity": "59.26",
           "display_name": "Pine Marten",
           "elevation_ft": 7800
         },
@@ -4531,14 +4523,14 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-10-01T11:00:00.000Z"
+            "timestamp": "2026-10-01T12:00:00.000Z"
           },
-          "temperature": "51.82",
+          "temperature": "52.64",
           "wind": {
-            "low": "10.84",
-            "high": "18.12",
+            "low": "9.42",
+            "high": "17",
             "current": null,
-            "average": "10.84",
+            "average": "9.42",
             "direction": "ESE"
           },
           "humidity": null,
@@ -4644,24 +4636,10 @@
     }
   },
   "hoodoo": {
-    "weather": {
-      "Temperature": "55 &#176F",
-      "Wind": "East @ 16 MPH",
-      "Snow depth": "0.4\"",
-      "Humidity": "81 %",
-      "Barometer": "30.20\" Hg"
-    },
+    "weather": {},
     "snow_totals": {
-      "trend": {
-        "Max": "0.4\"",
-        "Min": "-2.9\"",
-        "1 Hr": "0.0\"",
-        "3 Hr": "-0.1\"",
-        "6 Hr": "0.1\"",
-        "12 Hr": "0.0\"",
-        "24 Hr": "0.0\""
-      },
-      "season_total_in": 0.0
+      "trend": {},
+      "season_total_in": null
     },
     "webcams": {
       "Base Area": {
@@ -4701,14 +4679,14 @@
   "willamette_pass": {
     "forecast": {
       "weather_provider": "NOAA",
-      "date": "October 1, 2026, 11:49 am",
-      "time": 1790880557000,
+      "date": "October 1, 2026, 12:04 pm",
+      "time": 1790881458000,
       "current_weather": "Mostly Sunny",
       "current_temperature": "66",
       "forecast": [
         {
           "day": "Thursday",
-          "day_forecast": "Mostly sunny, with a high near 72. South southeast wind 5 to 7 mph becoming light and variable  in the afternoon. ",
+          "day_forecast": "Mostly sunny, with a high near 72. South southeast wind 5 to 7 mph becoming light and variable. ",
           "night_forecast": "Partly cloudy, with a low around 45. West northwest wind 5 to 7 mph becoming calm  after midnight. "
         },
         {
