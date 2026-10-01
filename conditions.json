@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T07:00:38.902719+00:00",
+  "generated_at": "2026-10-01T07:15:24.987273+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -914,8 +914,8 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 8.0,
-        "wind_direction_deg": 67.5,
+        "wind_speed_mph": 7.0,
+        "wind_direction_deg": 90,
         "snow_level_ft": 11011,
         "temp_f": 48
       },
@@ -3087,12 +3087,12 @@
     "Hoodoo": {
       "elevation_ft": 4705,
       "temp_f": 48,
-      "wind_speed_mph": 8.0,
-      "wind_direction_deg": 67.5,
+      "wind_speed_mph": 7.0,
+      "wind_direction_deg": 90,
       "snow_level_ft": 11011,
       "precip_chance_today": 1,
-      "snowfall_12h_in": 0.0,
-      "snowfall_24h_in": -0.1,
+      "snowfall_12h_in": -0.6,
+      "snowfall_24h_in": 0.1,
       "snowfall_48h_in": null
     },
     "Willamette Pass": {
@@ -3103,20 +3103,12 @@
       "snow_level_ft": 9987,
       "precip_chance_today": 0,
       "snowfall_12h_in": null,
-      "snowfall_24h_in": 0.0,
-      "snowfall_48h_in": 0.0
+      "snowfall_24h_in": null,
+      "snowfall_48h_in": null
     }
   },
   "bachelor_timeseries": {
     "hourly": [
-      {
-        "time": "2026-09-30T00:00:00.000Z",
-        "temp_f": 47.23,
-        "wind_speed_mph": 17.55,
-        "wind_direction_deg": 224.8,
-        "precip_in": null,
-        "period": "historical"
-      },
       {
         "time": "2026-09-30T01:00:00.000Z",
         "temp_f": 47.08,
@@ -3302,12 +3294,12 @@
         "period": "historical"
       },
       {
-        "time": "2026-10-01T00:00:00+00:00",
-        "temp_f": 57.0,
-        "wind_speed_mph": 5.8,
-        "wind_direction_deg": 340,
-        "precip_in": 0.0,
-        "period": "forecast"
+        "time": "2026-10-01T00:00:00.000Z",
+        "temp_f": 53.93,
+        "wind_speed_mph": 10.48,
+        "wind_direction_deg": 188.2,
+        "precip_in": null,
+        "period": "historical"
       },
       {
         "time": "2026-10-01T01:00:00+00:00",
@@ -3935,10 +3927,6 @@
       }
     ],
     "historical_precip_snapshots": [
-      {
-        "time": "2026-09-28T07:15:20.161040+00:00",
-        "precip_in": 0
-      },
       {
         "time": "2026-09-28T08:30:16.425091+00:00",
         "precip_in": 0
@@ -4646,22 +4634,22 @@
   "hoodoo": {
     "weather": {
       "Temperature": "52 &#176F",
-      "Wind": "ENE @ 8 MPH",
-      "Snow depth": "-0.2\"",
-      "Humidity": "91 %",
+      "Wind": "East @ 7 MPH",
+      "Snow depth": "-0.3\"",
+      "Humidity": "92 %",
       "Barometer": "30.23\" Hg"
     },
     "snow_totals": {
       "trend": {
         "Max": "0.4\"",
         "Min": "-2.9\"",
-        "1 Hr": "0.0\"",
-        "3 Hr": "0.3\"",
-        "6 Hr": "0.5\"",
-        "12 Hr": "0.0\"",
-        "24 Hr": "-0.1\""
+        "1 Hr": "-0.1\"",
+        "3 Hr": "0.2\"",
+        "6 Hr": "0.3\"",
+        "12 Hr": "-0.6\"",
+        "24 Hr": "0.1\""
       },
-      "season_total_in": 158.5
+      "season_total_in": 0.0
     },
     "webcams": {
       "Base Area": {
@@ -4699,103 +4687,7 @@
     }
   },
   "willamette_pass": {
-    "forecast": {
-      "weather_provider": "NOAA",
-      "date": "September 30, 2026, 11:40 pm",
-      "time": 1790836819000,
-      "current_weather": "Partly Cloudy",
-      "current_temperature": "52",
-      "forecast": [
-        {
-          "day": "Wednesday",
-          "night_forecast": "Partly cloudy, with a low around 44. East southeast wind around 6 mph. "
-        },
-        {
-          "day": "Thursday",
-          "day_forecast": "Mostly sunny, with a high near 71. Southeast wind 5 to 7 mph becoming light and variable  in the afternoon. ",
-          "night_forecast": "Partly cloudy, with a low around 47. Northwest wind around 6 mph becoming light and variable. "
-        },
-        {
-          "day": "Friday",
-          "day_forecast": "Partly sunny, with a high near 71. Calm wind becoming west northwest around 6 mph in the afternoon. ",
-          "night_forecast": "Partly cloudy, with a low around 47. Northwest wind 5 to 8 mph becoming calm. "
-        },
-        {
-          "day": "Saturday",
-          "day_forecast": "Sunny, with a high near 75.",
-          "night_forecast": "Mostly clear, with a low around 49."
-        },
-        {
-          "day": "Sunday",
-          "day_forecast": "Sunny, with a high near 78.",
-          "night_forecast": "Partly cloudy, with a low around 50."
-        },
-        {
-          "day": "Monday",
-          "day_forecast": "Mostly sunny, with a high near 71.",
-          "night_forecast": "Mostly clear, with a low around 46."
-        },
-        {
-          "day": "Tuesday",
-          "day_forecast": "Sunny, with a high near 70."
-        }
-      ],
-      "wind": "NA",
-      "icon": "0103-partly-cloudy.svg",
-      "max_temp": "71",
-      "min_temp": "44",
-      "hourly": [
-        {
-          "time": "12a",
-          "temp": "48",
-          "details": ""
-        },
-        {
-          "time": "2a",
-          "temp": "46",
-          "details": ""
-        },
-        {
-          "time": "4a",
-          "temp": "45",
-          "details": ""
-        },
-        {
-          "time": "5a",
-          "temp": "45",
-          "details": ""
-        },
-        {
-          "time": "8a",
-          "temp": "45",
-          "details": ""
-        }
-      ],
-      "attribution": "",
-      "trails_updated": "April 24, 2026 1:06 pm",
-      "lifts_trails_page_updated": "",
-      "conditions_table_updated": "April 24, 2026 1:06 pm",
-      "todays_report_updated": ""
-    },
-    "snow_totals": {
-      "24 Hr": "0\u201d",
-      "48 Hr": "0\u201d",
-      "7 Day": "0\u201d",
-      "Base Depth": "0\u201d",
-      "Season Total": "47\u201d",
-      "Lifts Open": "0/6",
-      "Trails Open": "0/30"
-    },
-    "webcams": {
-      "Base Area": {
-        "src": "https://www.youtube.com/embed/sNVA6oC7vcM",
-        "link": "https://www.willamettepass.ski/weather-conditions-webcams/webcams/"
-      },
-      "EPA": {
-        "src": "https://www.youtube.com/embed/uav7cBNVv0k",
-        "link": "https://www.willamettepass.ski/weather-conditions-webcams/webcams/"
-      }
-    }
+    "error": "504 Server Error: Gateway Timeout for url: https://www.willamettepass.ski/weather-conditions-webcams/webcams/"
   },
   "snow_stake_cams": {
     "Mt. Bachelor (Snow Stake)": {
@@ -4806,10 +4698,7 @@
       "src": "https://santiampsp.org/wx/weather16.jpg",
       "link": "https://hoodoo.com/the-mountain/webcams/"
     },
-    "Willamette Pass (Base Area)": {
-      "src": "https://www.youtube.com/embed/sNVA6oC7vcM",
-      "link": "https://www.willamettepass.ski/weather-conditions-webcams/webcams/"
-    }
+    "Willamette Pass (Base Area)": null
   },
   "satellite": {
     "Pacific Northwest": {
