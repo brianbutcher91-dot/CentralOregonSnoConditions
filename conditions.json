@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T11:30:24.204629+00:00",
+  "generated_at": "2026-10-01T11:45:22.904490+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -914,8 +914,8 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 8.0,
-        "wind_direction_deg": 90,
+        "wind_speed_mph": 11.0,
+        "wind_direction_deg": 67.5,
         "snow_level_ft": 10919,
         "temp_f": 46
       },
@@ -2770,7 +2770,7 @@
         {
           "number": 1,
           "name": "Overnight",
-          "startTime": "2026-10-01T04:00:00-07:00",
+          "startTime": "2026-10-01T02:00:00-07:00",
           "endTime": "2026-10-01T06:00:00-07:00",
           "isDaytime": false,
           "temperature": 37,
@@ -2781,10 +2781,10 @@
             "value": 0
           },
           "windSpeed": "1 mph",
-          "windDirection": "S",
+          "windDirection": "SE",
           "icon": "https://api.weather.gov/icons/land/night/fog?size=medium",
           "shortForecast": "Areas Of Fog",
-          "detailedForecast": "Areas of fog. Partly cloudy, with a low around 37. South wind around 1 mph.",
+          "detailedForecast": "Areas of fog. Partly cloudy, with a low around 37. Southeast wind around 1 mph.",
           "precipitationAmountIn": 0.0,
           "snowLevelFt": 10027
         },
@@ -3087,11 +3087,11 @@
     "Hoodoo": {
       "elevation_ft": 4705,
       "temp_f": 46,
-      "wind_speed_mph": 8.0,
-      "wind_direction_deg": 90,
+      "wind_speed_mph": 11.0,
+      "wind_direction_deg": 67.5,
       "snow_level_ft": 10919,
       "precip_chance_today": 1,
-      "snowfall_12h_in": 0.2,
+      "snowfall_12h_in": 0.3,
       "snowfall_24h_in": 0.1,
       "snowfall_48h_in": null
     },
@@ -4637,20 +4637,20 @@
   },
   "hoodoo": {
     "weather": {
-      "Temperature": "50 &#176F",
-      "Wind": "East @ 8 MPH",
+      "Temperature": "48 &#176F",
+      "Wind": "ENE @ 11 MPH",
       "Snow depth": "-0.3\"",
-      "Humidity": "94 %",
-      "Barometer": "30.22\" Hg"
+      "Humidity": "100 %",
+      "Barometer": "30.20\" Hg"
     },
     "snow_totals": {
       "trend": {
         "Max": "0.4\"",
         "Min": "-2.9\"",
-        "1 Hr": "0.2\"",
-        "3 Hr": "-0.1\"",
-        "6 Hr": "-0.1\"",
-        "12 Hr": "0.2\"",
+        "1 Hr": "-0.1\"",
+        "3 Hr": "0.0\"",
+        "6 Hr": "0.0\"",
+        "12 Hr": "0.3\"",
         "24 Hr": "0.1\""
       },
       "season_total_in": 0.0
@@ -4693,9 +4693,9 @@
   "willamette_pass": {
     "forecast": {
       "weather_provider": "NOAA",
-      "date": "October 1, 2026, 4:10 am",
-      "time": 1790853021000,
-      "current_weather": "Partly Cloudy",
+      "date": "October 1, 2026, 4:25 am",
+      "time": 1790853927000,
+      "current_weather": "Mostly Sunny",
       "current_temperature": "47",
       "forecast": [
         {
@@ -4710,7 +4710,7 @@
         },
         {
           "day": "Saturday",
-          "day_forecast": "Sunny, with a high near 75.",
+          "day_forecast": "Sunny, with a high near 75. East southeast wind 3 to 6 mph. ",
           "night_forecast": "Mostly clear, with a low around 48."
         },
         {
@@ -4725,13 +4725,14 @@
         },
         {
           "day": "Tuesday",
-          "day_forecast": "Sunny, with a high near 71."
+          "day_forecast": "Sunny, with a high near 71.",
+          "night_forecast": "Mostly clear, with a low around 46."
         }
       ],
       "wind": "NA",
-      "icon": "0103-partly-cloudy.svg",
+      "icon": "0100-sunny.svg",
       "max_temp": "72",
-      "min_temp": "44",
+      "min_temp": "46",
       "hourly": [
         {
           "time": "4a",
