@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T23:00:48.777702+00:00",
+  "generated_at": "2026-10-01T23:15:18.371649+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -914,7 +914,7 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 8.0,
+        "wind_speed_mph": 7.0,
         "wind_direction_deg": 90,
         "snow_level_ft": 10555,
         "temp_f": 70
@@ -1235,7 +1235,7 @@
         {
           "number": 1,
           "name": "This Afternoon",
-          "startTime": "2026-10-01T16:00:00-07:00",
+          "startTime": "2026-10-01T13:00:00-07:00",
           "endTime": "2026-10-01T18:00:00-07:00",
           "isDaytime": true,
           "temperature": 72,
@@ -1246,12 +1246,12 @@
             "value": 0
           },
           "windSpeed": "3 to 7 mph",
-          "windDirection": "W",
+          "windDirection": "WSW",
           "icon": "https://api.weather.gov/icons/land/day/sct?size=medium",
           "shortForecast": "Mostly Sunny",
-          "detailedForecast": "Mostly sunny. High near 72, with temperatures falling to around 69 in the afternoon. West wind 3 to 7 mph.",
+          "detailedForecast": "Mostly sunny. High near 72, with temperatures falling to around 69 in the afternoon. West southwest wind 3 to 7 mph.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 10659
+          "snowLevelFt": 10059
         },
         {
           "number": 2,
@@ -3087,7 +3087,7 @@
     "Hoodoo": {
       "elevation_ft": 4705,
       "temp_f": 70,
-      "wind_speed_mph": 8.0,
+      "wind_speed_mph": 7.0,
       "wind_direction_deg": 90,
       "snow_level_ft": 10555,
       "precip_chance_today": 0,
@@ -3936,10 +3936,6 @@
     ],
     "historical_precip_snapshots": [
       {
-        "time": "2026-09-28T23:15:16.718451+00:00",
-        "precip_in": 0
-      },
-      {
         "time": "2026-09-29T00:15:17.187639+00:00",
         "precip_in": 0
       },
@@ -4194,7 +4190,38 @@
     ]
   },
   "snotel": {
-    "error": "504 Server Error: Gateway Time-out for url: https://wcc.sc.egov.usda.gov/awdbRestApi/services/v1/data?stationTriplets=545%3AOR%3ASNTL&elements=SNWD%2CWTEQ&duration=DAILY&getFlags=false&beginDate=-1&endDate=-1"
+    "Mt Bachelor area (Irish Taylor)": {
+      "snow_depth_in": 0,
+      "snow_depth_in_date": "2026-09-30",
+      "swe_in": 0.0,
+      "swe_in_date": "2026-09-30",
+      "change_12h_in": 0,
+      "change_24h_in": 0
+    },
+    "Three Creek / Tam McArthur (Three Creeks Meadow)": {
+      "snow_depth_in": 0,
+      "snow_depth_in_date": "2026-09-30",
+      "swe_in": 0.0,
+      "swe_in_date": "2026-09-30",
+      "change_12h_in": -1,
+      "change_24h_in": 0
+    },
+    "Santiam / Hoodoo (Hogg Pass)": {
+      "snow_depth_in": 0,
+      "snow_depth_in_date": "2026-09-30",
+      "swe_in": 0.1,
+      "swe_in_date": "2026-09-30",
+      "change_12h_in": 0,
+      "change_24h_in": 0
+    },
+    "Ochocos (Ochoco Meadows)": {
+      "snow_depth_in": 0,
+      "snow_depth_in_date": "2026-09-30",
+      "swe_in": 0.0,
+      "swe_in_date": "2026-09-30",
+      "change_12h_in": 0,
+      "change_24h_in": 0
+    }
   },
   "odot_cams": {
     "Century Drive": [
@@ -4544,17 +4571,17 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-10-01T15:00:00.000Z"
+            "timestamp": "2026-10-01T16:00:00.000Z"
           },
-          "temperature": "54.9",
+          "temperature": "55.84",
           "wind": {
-            "low": "8.11",
-            "high": "17.9",
+            "low": "9.09",
+            "high": "20.8",
             "current": null,
-            "average": "8.11",
-            "direction": "SW"
+            "average": "9.09",
+            "direction": "WSW"
           },
-          "humidity": "49.53",
+          "humidity": "44.17",
           "display_name": "Summit",
           "elevation_ft": 9065
         }
@@ -4615,17 +4642,17 @@
   "hoodoo": {
     "weather": {
       "Temperature": "61 &#176F",
-      "Wind": "East @ 8 MPH",
-      "Snow depth": "-0.9\"",
-      "Humidity": "62 %",
-      "Barometer": "30.19\" Hg"
+      "Wind": "East @ 7 MPH",
+      "Snow depth": "-1.1\"",
+      "Humidity": "60 %",
+      "Barometer": "30.20\" Hg"
     },
     "snow_totals": {
       "trend": {
         "Max": "0.5\"",
         "Min": "-2.9\"",
-        "1 Hr": "0.5\"",
-        "3 Hr": "-0.4\"",
+        "1 Hr": "-0.1\"",
+        "3 Hr": "-0.3\"",
         "6 Hr": "-0.7\"",
         "12 Hr": "-0.3\"",
         "24 Hr": "-0.1\""
@@ -4670,10 +4697,10 @@
   "willamette_pass": {
     "forecast": {
       "weather_provider": "NOAA",
-      "date": "October 1, 2026, 3:40 pm",
-      "time": 1790894419000,
+      "date": "October 1, 2026, 3:55 pm",
+      "time": 1790895317000,
       "current_weather": "Partly Cloudy",
-      "current_temperature": "77",
+      "current_temperature": "80",
       "forecast": [
         {
           "day": "Thursday",
@@ -4783,15 +4810,15 @@
   "satellite": {
     "Pacific Northwest": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/pnw/13/GOES18-PNW-13-600x600.gif",
-      "last_modified": "Thu, 01 Oct 2026 22:41:27 GMT"
+      "last_modified": "Thu, 01 Oct 2026 23:11:41 GMT"
     },
     "North Pacific (macro)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/np/13/GOES18-NP-13-900x540.gif",
-      "last_modified": "Thu, 01 Oct 2026 22:41:37 GMT"
+      "last_modified": "Thu, 01 Oct 2026 23:11:50 GMT"
     },
     "Pacific US (PACUS)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/13/GOES18-CONUS-13-625x375.gif",
-      "last_modified": "Thu, 01 Oct 2026 22:35:53 GMT"
+      "last_modified": "Thu, 01 Oct 2026 23:06:10 GMT"
     }
   },
   "gfs_snowfall": {
