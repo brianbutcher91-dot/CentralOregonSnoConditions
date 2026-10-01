@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T06:15:14.675691+00:00",
+  "generated_at": "2026-10-01T06:30:18.947688+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -914,7 +914,7 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 6.0,
+        "wind_speed_mph": 9.0,
         "wind_direction_deg": 67.5,
         "snow_level_ft": 10761,
         "temp_f": 49
@@ -928,7 +928,7 @@
         {
           "number": 1,
           "name": "Tonight",
-          "startTime": "2026-09-30T18:00:00-07:00",
+          "startTime": "2026-09-30T19:00:00-07:00",
           "endTime": "2026-10-01T06:00:00-07:00",
           "isDaytime": false,
           "temperature": 44,
@@ -939,10 +939,10 @@
             "value": 0
           },
           "windSpeed": "6 mph",
-          "windDirection": "E",
+          "windDirection": "SE",
           "icon": "https://api.weather.gov/icons/land/night/sct?size=medium",
           "shortForecast": "Partly Cloudy",
-          "detailedForecast": "Partly cloudy. Low around 44, with temperatures rising to around 46 overnight. East wind around 6 mph.",
+          "detailedForecast": "Partly cloudy. Low around 44, with temperatures rising to around 46 overnight. Southeast wind around 6 mph.",
           "precipitationAmountIn": 0.0,
           "snowLevelFt": 10612
         },
@@ -2156,7 +2156,7 @@
         {
           "number": 1,
           "name": "Tonight",
-          "startTime": "2026-09-30T18:00:00-07:00",
+          "startTime": "2026-09-30T21:00:00-07:00",
           "endTime": "2026-10-01T06:00:00-07:00",
           "isDaytime": false,
           "temperature": 47,
@@ -2166,13 +2166,13 @@
             "unitCode": "wmoUnit:percent",
             "value": 0
           },
-          "windSpeed": "0 to 5 mph",
+          "windSpeed": "2 mph",
           "windDirection": "NW",
-          "icon": "https://api.weather.gov/icons/land/night/sct/fog?size=medium",
-          "shortForecast": "Partly Cloudy then Patchy Fog",
-          "detailedForecast": "Patchy fog after 5am. Partly cloudy. Low around 47, with temperatures rising to around 49 overnight. Northwest wind 0 to 5 mph.",
+          "icon": "https://api.weather.gov/icons/land/night/bkn/fog?size=medium",
+          "shortForecast": "Mostly Cloudy then Patchy Fog",
+          "detailedForecast": "Patchy fog after 5am. Mostly cloudy. Low around 47, with temperatures rising to around 49 overnight. Northwest wind around 2 mph.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 10744
+          "snowLevelFt": 10285
         },
         {
           "number": 2,
@@ -2463,7 +2463,7 @@
         {
           "number": 1,
           "name": "Tonight",
-          "startTime": "2026-09-30T18:00:00-07:00",
+          "startTime": "2026-09-30T21:00:00-07:00",
           "endTime": "2026-10-01T06:00:00-07:00",
           "isDaytime": false,
           "temperature": 42,
@@ -2473,13 +2473,13 @@
             "unitCode": "wmoUnit:percent",
             "value": 1
           },
-          "windSpeed": "0 to 3 mph",
-          "windDirection": "N",
-          "icon": "https://api.weather.gov/icons/land/night/sct/fog?size=medium",
-          "shortForecast": "Partly Cloudy then Patchy Fog",
-          "detailedForecast": "Patchy fog after 5am. Partly cloudy. Low around 42, with temperatures rising to around 44 overnight. North wind 0 to 3 mph.",
+          "windSpeed": "0 mph",
+          "windDirection": "",
+          "icon": "https://api.weather.gov/icons/land/night/bkn/fog?size=medium",
+          "shortForecast": "Mostly Cloudy then Patchy Fog",
+          "detailedForecast": "Patchy fog after 5am. Mostly cloudy. Low around 42, with temperatures rising to around 44 overnight. Wind around 0 mph.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 10324
+          "snowLevelFt": 10584
         },
         {
           "number": 2,
@@ -3087,12 +3087,12 @@
     "Hoodoo": {
       "elevation_ft": 4705,
       "temp_f": 49,
-      "wind_speed_mph": 6.0,
+      "wind_speed_mph": 9.0,
       "wind_direction_deg": 67.5,
       "snow_level_ft": 10761,
       "precip_chance_today": 1,
-      "snowfall_12h_in": 0.3,
-      "snowfall_24h_in": -0.2,
+      "snowfall_12h_in": -0.4,
+      "snowfall_24h_in": -0.3,
       "snowfall_48h_in": null
     },
     "Willamette Pass": {
@@ -3109,14 +3109,6 @@
   },
   "bachelor_timeseries": {
     "hourly": [
-      {
-        "time": "2026-09-29T23:00:00.000Z",
-        "temp_f": 47.47,
-        "wind_speed_mph": 19.37,
-        "wind_direction_deg": 230.3,
-        "precip_in": null,
-        "period": "historical"
-      },
       {
         "time": "2026-09-30T00:00:00.000Z",
         "temp_f": 47.23,
@@ -3302,12 +3294,12 @@
         "period": "historical"
       },
       {
-        "time": "2026-09-30T23:00:00+00:00",
-        "temp_f": 59.0,
-        "wind_speed_mph": 5.8,
-        "wind_direction_deg": 290,
-        "precip_in": 0.0,
-        "period": "forecast"
+        "time": "2026-09-30T23:00:00.000Z",
+        "temp_f": 52.06,
+        "wind_speed_mph": 9.36,
+        "wind_direction_deg": 183.1,
+        "precip_in": null,
+        "period": "historical"
       },
       {
         "time": "2026-10-01T00:00:00+00:00",
@@ -3936,10 +3928,6 @@
     ],
     "historical_precip_snapshots": [
       {
-        "time": "2026-09-28T06:15:15.460985+00:00",
-        "precip_in": 0
-      },
-      {
         "time": "2026-09-28T07:15:20.161040+00:00",
         "precip_in": 0
       },
@@ -4207,8 +4195,8 @@
       "snow_depth_in_date": "2026-09-29",
       "swe_in": 0.0,
       "swe_in_date": "2026-09-29",
-      "change_12h_in": 0,
-      "change_24h_in": 0
+      "change_12h_in": 1,
+      "change_24h_in": 1
     },
     "Santiam / Hoodoo (Hogg Pass)": {
       "snow_depth_in": 0,
@@ -4646,20 +4634,20 @@
   "hoodoo": {
     "weather": {
       "Temperature": "52 &#176F",
-      "Wind": "ENE @ 6 MPH",
-      "Snow depth": "0.0\"",
-      "Humidity": "90 %",
+      "Wind": "ENE @ 9 MPH",
+      "Snow depth": "-0.4\"",
+      "Humidity": "91 %",
       "Barometer": "30.23\" Hg"
     },
     "snow_totals": {
       "trend": {
         "Max": "0.4\"",
         "Min": "-2.9\"",
-        "1 Hr": "-0.1\"",
+        "1 Hr": "-0.2\"",
         "3 Hr": "-0.1\"",
-        "6 Hr": "0.3\"",
-        "12 Hr": "0.3\"",
-        "24 Hr": "-0.2\""
+        "6 Hr": "0.0\"",
+        "12 Hr": "-0.4\"",
+        "24 Hr": "-0.3\""
       },
       "season_total_in": 158.5
     },
@@ -4701,8 +4689,8 @@
   "willamette_pass": {
     "forecast": {
       "weather_provider": "NOAA",
-      "date": "September 30, 2026, 10:49 pm",
-      "time": 1790833760000,
+      "date": "September 30, 2026, 11:04 pm",
+      "time": 1790834658000,
       "current_weather": "Partly Cloudy",
       "current_temperature": "52",
       "forecast": [
