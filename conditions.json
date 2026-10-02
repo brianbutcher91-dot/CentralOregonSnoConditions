@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T21:15:15.250281+00:00",
+  "generated_at": "2026-10-02T21:30:20.601664+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -914,8 +914,8 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 12.0,
-        "wind_direction_deg": 225,
+        "wind_speed_mph": 11.0,
+        "wind_direction_deg": 270,
         "snow_level_ft": 9117,
         "temp_f": 67
       },
@@ -928,7 +928,7 @@
         {
           "number": 1,
           "name": "This Afternoon",
-          "startTime": "2026-10-02T14:00:00-07:00",
+          "startTime": "2026-10-02T13:00:00-07:00",
           "endTime": "2026-10-02T18:00:00-07:00",
           "isDaytime": true,
           "temperature": 62,
@@ -944,7 +944,7 @@
           "shortForecast": "Sunny",
           "detailedForecast": "Sunny. High near 62, with temperatures falling to around 60 in the afternoon. West wind around 6 mph.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 10128
+          "snowLevelFt": 9606
         },
         {
           "number": 2,
@@ -1542,7 +1542,7 @@
         {
           "number": 1,
           "name": "This Afternoon",
-          "startTime": "2026-10-02T14:00:00-07:00",
+          "startTime": "2026-10-02T13:00:00-07:00",
           "endTime": "2026-10-02T18:00:00-07:00",
           "isDaytime": true,
           "temperature": 66,
@@ -1558,7 +1558,7 @@
           "shortForecast": "Sunny",
           "detailedForecast": "Sunny. High near 66, with temperatures falling to around 63 in the afternoon. West wind around 6 mph.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 8933
+          "snowLevelFt": 8963
         },
         {
           "number": 2,
@@ -1849,7 +1849,7 @@
         {
           "number": 1,
           "name": "This Afternoon",
-          "startTime": "2026-10-02T14:00:00-07:00",
+          "startTime": "2026-10-02T13:00:00-07:00",
           "endTime": "2026-10-02T18:00:00-07:00",
           "isDaytime": true,
           "temperature": 72,
@@ -1865,7 +1865,7 @@
           "shortForecast": "Sunny",
           "detailedForecast": "Sunny. High near 72, with temperatures falling to around 70 in the afternoon. Northwest wind around 3 mph.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 9708
+          "snowLevelFt": 9537
         },
         {
           "number": 2,
@@ -2156,7 +2156,7 @@
         {
           "number": 1,
           "name": "This Afternoon",
-          "startTime": "2026-10-02T14:00:00-07:00",
+          "startTime": "2026-10-02T12:00:00-07:00",
           "endTime": "2026-10-02T18:00:00-07:00",
           "isDaytime": true,
           "temperature": 80,
@@ -2166,13 +2166,13 @@
             "unitCode": "wmoUnit:percent",
             "value": 0
           },
-          "windSpeed": "5 mph",
-          "windDirection": "N",
+          "windSpeed": "1 to 5 mph",
+          "windDirection": "NE",
           "icon": "https://api.weather.gov/icons/land/day/few?size=medium",
           "shortForecast": "Sunny",
-          "detailedForecast": "Sunny, with a high near 80. North wind around 5 mph.",
+          "detailedForecast": "Sunny, with a high near 80. Northeast wind 1 to 5 mph.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 10233
+          "snowLevelFt": 9695
         },
         {
           "number": 2,
@@ -2463,7 +2463,7 @@
         {
           "number": 1,
           "name": "This Afternoon",
-          "startTime": "2026-10-02T14:00:00-07:00",
+          "startTime": "2026-10-02T13:00:00-07:00",
           "endTime": "2026-10-02T18:00:00-07:00",
           "isDaytime": true,
           "temperature": 80,
@@ -2473,13 +2473,13 @@
             "unitCode": "wmoUnit:percent",
             "value": 0
           },
-          "windSpeed": "2 to 6 mph",
+          "windSpeed": "1 to 6 mph",
           "windDirection": "N",
           "icon": "https://api.weather.gov/icons/land/day/skc?size=medium",
           "shortForecast": "Sunny",
-          "detailedForecast": "Sunny, with a high near 80. North wind 2 to 6 mph.",
+          "detailedForecast": "Sunny, with a high near 80. North wind 1 to 6 mph.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 9785
+          "snowLevelFt": 9458
         },
         {
           "number": 2,
@@ -3087,12 +3087,12 @@
     "Hoodoo": {
       "elevation_ft": 4705,
       "temp_f": 67,
-      "wind_speed_mph": 12.0,
-      "wind_direction_deg": 225,
+      "wind_speed_mph": 11.0,
+      "wind_direction_deg": 270,
       "snow_level_ft": 9117,
       "precip_chance_today": 0,
-      "snowfall_12h_in": -0.4,
-      "snowfall_24h_in": 0.2,
+      "snowfall_12h_in": -0.2,
+      "snowfall_24h_in": 0.1,
       "snowfall_48h_in": null
     },
     "Willamette Pass": {
@@ -3109,14 +3109,6 @@
   },
   "bachelor_timeseries": {
     "hourly": [
-      {
-        "time": "2026-10-01T14:00:00.000Z",
-        "temp_f": 54.67,
-        "wind_speed_mph": 8.46,
-        "wind_direction_deg": 82.1,
-        "precip_in": null,
-        "period": "historical"
-      },
       {
         "time": "2026-10-01T15:00:00.000Z",
         "temp_f": 56.31,
@@ -3302,12 +3294,12 @@
         "period": "historical"
       },
       {
-        "time": "2026-10-02T14:00:00+00:00",
-        "temp_f": 45.0,
-        "wind_speed_mph": 5.8,
-        "wind_direction_deg": 290,
-        "precip_in": 0.0,
-        "period": "forecast"
+        "time": "2026-10-02T14:00:00.000Z",
+        "temp_f": 57.89,
+        "wind_speed_mph": 7.975,
+        "wind_direction_deg": 242.2,
+        "precip_in": null,
+        "period": "historical"
       },
       {
         "time": "2026-10-02T15:00:00+00:00",
@@ -4186,6 +4178,10 @@
       {
         "time": "2026-10-02T20:15:20.972690+00:00",
         "precip_in": 0
+      },
+      {
+        "time": "2026-10-02T21:30:21.072608+00:00",
+        "precip_in": 0
       }
     ]
   },
@@ -4204,7 +4200,7 @@
       "swe_in": 0.0,
       "swe_in_date": "2026-10-01",
       "change_12h_in": 0,
-      "change_24h_in": -1
+      "change_24h_in": 0
     },
     "Santiam / Hoodoo (Hogg Pass)": {
       "snow_depth_in": 0,
@@ -4327,7 +4323,7 @@
   "mtbachelor": {
     "weather": {
       "current": {
-        "temperature": 64,
+        "temperature": 65,
         "weather_icon": "dor-sunny"
       },
       "forecast": [
@@ -4460,10 +4456,10 @@
           "active": true,
           "primary": true,
           "nonstandardizedDataPoints": {
-            "depth": "-2.426",
-            "timestamp": "2026-10-02T13:00:00.000Z"
+            "depth": "-1.685",
+            "timestamp": "2026-10-02T14:00:00.000Z"
           },
-          "temperature": "64.34",
+          "temperature": "64.57",
           "wind": {
             "low": "0",
             "high": "0",
@@ -4483,14 +4479,14 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-10-02T13:00:00.000Z"
+            "timestamp": "2026-10-02T14:00:00.000Z"
           },
-          "temperature": "61.65",
+          "temperature": "61.46",
           "wind": {
-            "low": "6.082",
-            "high": "14.76",
+            "low": "8.2",
+            "high": "18.12",
             "current": null,
-            "average": "6.082",
+            "average": "8.2",
             "direction": "W"
           },
           "humidity": null,
@@ -4505,17 +4501,17 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-10-02T13:00:00.000Z"
+            "timestamp": "2026-10-02T14:00:00.000Z"
           },
-          "temperature": "57.69",
+          "temperature": "59.34",
           "wind": {
-            "low": "1.723",
-            "high": "7.43",
+            "low": "6.295",
+            "high": "17.75",
             "current": null,
-            "average": "1.723",
+            "average": "6.295",
             "direction": "WNW"
           },
-          "humidity": "27.01",
+          "humidity": "36.05",
           "display_name": "Pine Marten",
           "elevation_ft": 7800
         },
@@ -4527,15 +4523,15 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-10-02T13:00:00.000Z"
+            "timestamp": "2026-10-02T14:00:00.000Z"
           },
-          "temperature": "57.35",
+          "temperature": "57.89",
           "wind": {
-            "low": "7.726",
-            "high": "25.5",
+            "low": "7.975",
+            "high": "19.91",
             "current": null,
-            "average": "7.726",
-            "direction": "W"
+            "average": "7.975",
+            "direction": "WSW"
           },
           "humidity": null,
           "display_name": "Cloud Chaser",
@@ -4641,21 +4637,21 @@
   },
   "hoodoo": {
     "weather": {
-      "Temperature": "62 &#176F",
-      "Wind": "SW @ 12 MPH",
+      "Temperature": "63 &#176F",
+      "Wind": "West @ 11 MPH",
       "Snow depth": "-0.8\"",
-      "Humidity": "47 %",
+      "Humidity": "48 %",
       "Barometer": "30.28\" Hg"
     },
     "snow_totals": {
       "trend": {
         "Max": "0.5\"",
         "Min": "-2.8\"",
-        "1 Hr": "-0.7\"",
-        "3 Hr": "-0.1\"",
+        "1 Hr": "0.2\"",
+        "3 Hr": "-0.7\"",
         "6 Hr": "-0.6\"",
-        "12 Hr": "-0.4\"",
-        "24 Hr": "0.2\""
+        "12 Hr": "-0.2\"",
+        "24 Hr": "0.1\""
       },
       "season_total_in": 0.0
     },
@@ -4697,8 +4693,8 @@
   "willamette_pass": {
     "forecast": {
       "weather_provider": "NOAA",
-      "date": "October 2, 2026, 1:58 pm",
-      "time": 1790974697000,
+      "date": "October 2, 2026, 2:10 pm",
+      "time": 1790975416000,
       "current_weather": "Sunny",
       "current_temperature": "79",
       "forecast": [
@@ -4815,7 +4811,7 @@
     },
     "Pacific US (PACUS)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/13/GOES18-CONUS-13-625x375.gif",
-      "last_modified": "Fri, 02 Oct 2026 21:06:25 GMT"
+      "last_modified": "Fri, 02 Oct 2026 21:06:26 GMT"
     }
   },
   "gfs_snowfall": {
