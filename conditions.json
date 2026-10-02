@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T11:15:19.941213+00:00",
+  "generated_at": "2026-10-02T11:30:43.832077+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -915,7 +915,7 @@
       ],
       "current": {
         "wind_speed_mph": 10.0,
-        "wind_direction_deg": 247.5,
+        "wind_direction_deg": 270,
         "snow_level_ft": 9652,
         "temp_f": 48
       },
@@ -1235,7 +1235,7 @@
         {
           "number": 1,
           "name": "Overnight",
-          "startTime": "2026-10-02T04:00:00-07:00",
+          "startTime": "2026-10-02T01:00:00-07:00",
           "endTime": "2026-10-02T06:00:00-07:00",
           "isDaytime": false,
           "temperature": 45,
@@ -1245,13 +1245,13 @@
             "unitCode": "wmoUnit:percent",
             "value": 1
           },
-          "windSpeed": "2 mph",
-          "windDirection": "ENE",
-          "icon": "https://api.weather.gov/icons/land/night/bkn?size=medium",
-          "shortForecast": "Mostly Cloudy",
-          "detailedForecast": "Mostly cloudy, with a low around 45. East northeast wind around 2 mph.",
+          "windSpeed": "2 to 6 mph",
+          "windDirection": "ESE",
+          "icon": "https://api.weather.gov/icons/land/night/sct?size=medium",
+          "shortForecast": "Partly Cloudy",
+          "detailedForecast": "Partly cloudy, with a low around 45. East southeast wind 2 to 6 mph.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 9836
+          "snowLevelFt": 9902
         },
         {
           "number": 2,
@@ -3088,11 +3088,11 @@
       "elevation_ft": 4705,
       "temp_f": 48,
       "wind_speed_mph": 10.0,
-      "wind_direction_deg": 247.5,
+      "wind_direction_deg": 270,
       "snow_level_ft": 9652,
       "precip_chance_today": 1,
-      "snowfall_12h_in": 0.3,
-      "snowfall_24h_in": 0.0,
+      "snowfall_12h_in": 0.2,
+      "snowfall_24h_in": -0.1,
       "snowfall_48h_in": null
     },
     "Willamette Pass": {
@@ -3109,14 +3109,6 @@
   },
   "bachelor_timeseries": {
     "hourly": [
-      {
-        "time": "2026-10-01T04:00:00.000Z",
-        "temp_f": 50.5,
-        "wind_speed_mph": 5.246,
-        "wind_direction_deg": 175.2,
-        "precip_in": null,
-        "period": "historical"
-      },
       {
         "time": "2026-10-01T05:00:00.000Z",
         "temp_f": 50.3,
@@ -3298,6 +3290,14 @@
         "temp_f": 53.9,
         "wind_speed_mph": 17.35,
         "wind_direction_deg": 220.9,
+        "precip_in": null,
+        "period": "historical"
+      },
+      {
+        "time": "2026-10-02T04:00:00.000Z",
+        "temp_f": 54.41,
+        "wind_speed_mph": 13.21,
+        "wind_direction_deg": 227.4,
         "precip_in": null,
         "period": "historical"
       },
@@ -3928,10 +3928,6 @@
     ],
     "historical_precip_snapshots": [
       {
-        "time": "2026-09-29T11:15:20.556639+00:00",
-        "precip_in": 0
-      },
-      {
         "time": "2026-09-29T12:15:21.129643+00:00",
         "precip_in": 0
       },
@@ -4199,7 +4195,7 @@
       "snow_depth_in_date": "2026-10-01",
       "swe_in": 0.0,
       "swe_in_date": "2026-10-01",
-      "change_12h_in": 1,
+      "change_12h_in": 0,
       "change_24h_in": 0
     },
     "Santiam / Hoodoo (Hogg Pass)": {
@@ -4336,7 +4332,7 @@
           "id": 1790967600,
           "day": "Friday",
           "temperature_high": 69,
-          "temperature_low": 36,
+          "temperature_low": 38,
           "precipitation_high": 30,
           "precipitation_low": 30,
           "wind_speed": 5,
@@ -4456,10 +4452,10 @@
           "active": true,
           "primary": true,
           "nonstandardizedDataPoints": {
-            "depth": "142.9",
-            "timestamp": "2026-10-02T03:00:00.000Z"
+            "depth": "144",
+            "timestamp": "2026-10-02T04:00:00.000Z"
           },
-          "temperature": "43.7",
+          "temperature": "44.12",
           "wind": {
             "low": "0",
             "high": "0",
@@ -4479,14 +4475,14 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-10-02T03:00:00.000Z"
+            "timestamp": "2026-10-02T04:00:00.000Z"
           },
-          "temperature": "53.04",
+          "temperature": "53.32",
           "wind": {
-            "low": "14.08",
-            "high": "22.37",
+            "low": "10.71",
+            "high": "20.58",
             "current": null,
-            "average": "14.08",
+            "average": "10.71",
             "direction": "WSW"
           },
           "humidity": null,
@@ -4501,17 +4497,17 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-10-02T03:00:00.000Z"
+            "timestamp": "2026-10-02T04:00:00.000Z"
           },
-          "temperature": "48.53",
+          "temperature": "48.44",
           "wind": {
-            "low": "13.25",
-            "high": "19.59",
+            "low": "11.61",
+            "high": "16.01",
             "current": null,
-            "average": "13.25",
-            "direction": "W"
+            "average": "11.61",
+            "direction": "WNW"
           },
-          "humidity": "62.24",
+          "humidity": "50.82",
           "display_name": "Pine Marten",
           "elevation_ft": 7800
         },
@@ -4523,14 +4519,14 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-10-02T03:00:00.000Z"
+            "timestamp": "2026-10-02T04:00:00.000Z"
           },
-          "temperature": "53.9",
+          "temperature": "54.41",
           "wind": {
-            "low": "17.35",
-            "high": "22.37",
+            "low": "13.21",
+            "high": "21.03",
             "current": null,
-            "average": "17.35",
+            "average": "13.21",
             "direction": "SW"
           },
           "humidity": null,
@@ -4638,20 +4634,20 @@
   "hoodoo": {
     "weather": {
       "Temperature": "53 &#176F",
-      "Wind": "WSW @ 10 MPH",
-      "Snow depth": "-0.5\"",
-      "Humidity": "100 %",
+      "Wind": "West @ 10 MPH",
+      "Snow depth": "-0.8\"",
+      "Humidity": "96 %",
       "Barometer": "30.22\" Hg"
     },
     "snow_totals": {
       "trend": {
         "Max": "0.5\"",
         "Min": "-2.9\"",
-        "1 Hr": "0.2\"",
-        "3 Hr": "-0.4\"",
-        "6 Hr": "0.3\"",
-        "12 Hr": "0.3\"",
-        "24 Hr": "0.0\""
+        "1 Hr": "-0.2\"",
+        "3 Hr": "-0.2\"",
+        "6 Hr": "0.0\"",
+        "12 Hr": "0.2\"",
+        "24 Hr": "-0.1\""
       },
       "season_total_in": 0.0
     },
@@ -4693,8 +4689,8 @@
   "willamette_pass": {
     "forecast": {
       "weather_provider": "NOAA",
-      "date": "October 2, 2026, 3:55 am",
-      "time": 1790938519000,
+      "date": "October 2, 2026, 4:04 am",
+      "time": 1790939058000,
       "current_weather": "Mostly Cloudy",
       "current_temperature": "48",
       "forecast": [
