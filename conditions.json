@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T04:30:20.650822+00:00",
+  "generated_at": "2026-10-03T04:32:09.535482+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -7,7 +7,7 @@
         {
           "number": 1,
           "name": "Tonight",
-          "startTime": "2026-10-02T21:00:00-07:00",
+          "startTime": "2026-10-02T18:00:00-07:00",
           "endTime": "2026-10-03T06:00:00-07:00",
           "isDaytime": false,
           "temperature": 43,
@@ -23,7 +23,7 @@
           "shortForecast": "Mostly Clear",
           "detailedForecast": "Mostly clear. Low around 43, with temperatures rising to around 46 overnight. Southwest wind 2 to 6 mph.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 9366
+          "snowLevelFt": 9484
         },
         {
           "number": 2,
@@ -314,7 +314,7 @@
         {
           "number": 1,
           "name": "Tonight",
-          "startTime": "2026-10-02T21:00:00-07:00",
+          "startTime": "2026-10-02T18:00:00-07:00",
           "endTime": "2026-10-03T06:00:00-07:00",
           "isDaytime": false,
           "temperature": 48,
@@ -330,7 +330,7 @@
           "shortForecast": "Mostly Clear",
           "detailedForecast": "Mostly clear. Low around 48, with temperatures rising to around 50 overnight. Southwest wind around 2 mph.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 9392
+          "snowLevelFt": 9747
         },
         {
           "number": 2,
@@ -2770,7 +2770,7 @@
         {
           "number": 1,
           "name": "Tonight",
-          "startTime": "2026-10-02T21:00:00-07:00",
+          "startTime": "2026-10-02T18:00:00-07:00",
           "endTime": "2026-10-03T06:00:00-07:00",
           "isDaytime": false,
           "temperature": 37,
@@ -2780,13 +2780,13 @@
             "unitCode": "wmoUnit:percent",
             "value": 0
           },
-          "windSpeed": "1 mph",
-          "windDirection": "SW",
+          "windSpeed": "0 to 5 mph",
+          "windDirection": "W",
           "icon": "https://api.weather.gov/icons/land/night/few?size=medium",
           "shortForecast": "Mostly Clear",
-          "detailedForecast": "Mostly clear. Low around 37, with temperatures rising to around 39 overnight. Southwest wind around 1 mph.",
+          "detailedForecast": "Mostly clear. Low around 37, with temperatures rising to around 39 overnight. West wind 0 to 5 mph.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 10049
+          "snowLevelFt": 10298
         },
         {
           "number": 2,
@@ -3928,10 +3928,6 @@
     ],
     "historical_precip_snapshots": [
       {
-        "time": "2026-09-30T04:30:23.700678+00:00",
-        "precip_in": 0
-      },
-      {
         "time": "2026-09-30T05:30:27.469694+00:00",
         "precip_in": 0
       },
@@ -4186,38 +4182,7 @@
     ]
   },
   "snotel": {
-    "Mt Bachelor area (Irish Taylor)": {
-      "snow_depth_in": 0,
-      "snow_depth_in_date": "2026-10-01",
-      "swe_in": 0.0,
-      "swe_in_date": "2026-10-01",
-      "change_12h_in": 0,
-      "change_24h_in": 0
-    },
-    "Three Creek / Tam McArthur (Three Creeks Meadow)": {
-      "snow_depth_in": 0,
-      "snow_depth_in_date": "2026-10-01",
-      "swe_in": 0.0,
-      "swe_in_date": "2026-10-01",
-      "change_12h_in": 0,
-      "change_24h_in": 0
-    },
-    "Santiam / Hoodoo (Hogg Pass)": {
-      "snow_depth_in": 0,
-      "snow_depth_in_date": "2026-10-01",
-      "swe_in": 0.0,
-      "swe_in_date": "2026-10-01",
-      "change_12h_in": 0,
-      "change_24h_in": 0
-    },
-    "Ochocos (Ochoco Meadows)": {
-      "snow_depth_in": 0,
-      "snow_depth_in_date": "2026-10-01",
-      "swe_in": 0.0,
-      "swe_in_date": "2026-10-01",
-      "change_12h_in": 0,
-      "change_24h_in": 0
-    }
+    "error": "500 Server Error: Internal Server Error for url: https://wcc.sc.egov.usda.gov/awdbRestApi/services/v1/data?stationTriplets=671%3AOR%3ASNTL&elements=SNWD%2CWTEQ&duration=DAILY&getFlags=false&beginDate=-1&endDate=-1"
   },
   "odot_cams": {
     "Century Drive": [
@@ -4693,8 +4658,8 @@
   "willamette_pass": {
     "forecast": {
       "weather_provider": "NOAA",
-      "date": "October 2, 2026, 9:04 pm",
-      "time": 1791000260000,
+      "date": "October 2, 2026, 9:31 pm",
+      "time": 1791001877000,
       "current_weather": "Mostly Clear",
       "current_temperature": "56",
       "forecast": [
@@ -4738,11 +4703,6 @@
       "min_temp": "45",
       "hourly": [
         {
-          "time": "8p",
-          "temp": "54",
-          "details": ""
-        },
-        {
           "time": "10p",
           "temp": "51",
           "details": ""
@@ -4759,6 +4719,11 @@
         },
         {
           "time": "4a",
+          "temp": "46",
+          "details": ""
+        },
+        {
+          "time": "5a",
           "temp": "46",
           "details": ""
         }
