@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T09:02:38.143646+00:00",
+  "generated_at": "2026-10-03T09:15:18.808435+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -2156,7 +2156,7 @@
         {
           "number": 1,
           "name": "Overnight",
-          "startTime": "2026-10-03T02:00:00-07:00",
+          "startTime": "2026-10-03T01:00:00-07:00",
           "endTime": "2026-10-03T06:00:00-07:00",
           "isDaytime": false,
           "temperature": 48,
@@ -2172,7 +2172,7 @@
           "shortForecast": "Mostly Clear",
           "detailedForecast": "Mostly clear. Low around 48, with temperatures rising to around 50 overnight. Southwest wind around 1 mph.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 9675
+          "snowLevelFt": 9629
         },
         {
           "number": 2,
@@ -2770,7 +2770,7 @@
         {
           "number": 1,
           "name": "Overnight",
-          "startTime": "2026-10-03T01:00:00-07:00",
+          "startTime": "2026-10-03T00:00:00-07:00",
           "endTime": "2026-10-03T06:00:00-07:00",
           "isDaytime": false,
           "temperature": 36,
@@ -4571,17 +4571,17 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-10-03T01:00:00.000Z"
+            "timestamp": "2026-10-03T02:00:00.000Z"
           },
-          "temperature": "48.9",
+          "temperature": "48.31",
           "wind": {
-            "low": "13.24",
-            "high": "25.5",
+            "low": "14.02",
+            "high": "27.74",
             "current": null,
-            "average": "13.24",
+            "average": "14.02",
             "direction": "W"
           },
-          "humidity": "29.21",
+          "humidity": "41.55",
           "display_name": "Summit",
           "elevation_ft": 9065
         }
@@ -4640,15 +4640,53 @@
     }
   },
   "hoodoo": {
-    "error": "HTTPSConnectionPool(host='santiampsp.org', port=443): Max retries exceeded with url: /wx/weather.htm (Caused by ConnectTimeoutError(<HTTPSConnection(host='santiampsp.org', port=443) at 0x7f90c1953d70>, 'Connection to santiampsp.org timed out. (connect timeout=None)'))"
+    "weather": {},
+    "snow_totals": {
+      "trend": {},
+      "season_total_in": null
+    },
+    "webcams": {
+      "Base Area": {
+        "src": "https://santiampsp.org/wx/weather16.jpg",
+        "link": "https://hoodoo.com/the-mountain/webcams/"
+      },
+      "Top of Manzanita": {
+        "src": "https://santiampsp.org/wx/weather3.jpg",
+        "link": "https://hoodoo.com/the-mountain/webcams/"
+      },
+      "Top of Ed": {
+        "src": "https://santiampsp.org/wx/weather2.jpg",
+        "link": "https://hoodoo.com/the-mountain/webcams/"
+      },
+      "Top of Easy Rider": {
+        "src": "https://santiampsp.org/wx/weather4.jpg",
+        "link": "https://hoodoo.com/the-mountain/webcams/"
+      },
+      "Hoodoo Parking Lot": {
+        "src": "https://santiampsp.org/wx/weather12.jpg",
+        "link": "https://hoodoo.com/the-mountain/webcams/"
+      },
+      "Hoodoo Summit": {
+        "src": "https://santiampsp.org/wx/weather1.jpg",
+        "link": "https://hoodoo.com/the-mountain/webcams/"
+      },
+      "Hayrick Butte & \"Gripper\" run from top of Ed chair": {
+        "src": "https://santiampsp.org/wx/weather2b.jpg",
+        "link": "https://hoodoo.com/the-mountain/webcams/"
+      },
+      "Hoodoo Parking Lot View #2": {
+        "src": "https://santiampsp.org/wx/weather10.jpg",
+        "link": "https://hoodoo.com/the-mountain/webcams/"
+      }
+    }
   },
   "willamette_pass": {
     "forecast": {
       "weather_provider": "NOAA",
-      "date": "October 3, 2026, 1:40 am",
-      "time": 1791016818000,
+      "date": "October 3, 2026, 1:55 am",
+      "time": 1791017731000,
       "current_weather": "Mostly Clear",
-      "current_temperature": "52",
+      "current_temperature": "51",
       "forecast": [
         {
           "day": "Saturday",
@@ -4742,7 +4780,10 @@
       "src": "https://api.mtbachelor.com/api/v1/cams/mtn/14",
       "link": "https://www.mtbachelor.com/the-mountain/webcams/live-cam-14/"
     },
-    "Hoodoo (Base Area)": null,
+    "Hoodoo (Base Area)": {
+      "src": "https://santiampsp.org/wx/weather16.jpg",
+      "link": "https://hoodoo.com/the-mountain/webcams/"
+    },
     "Willamette Pass (Base Area)": {
       "src": "https://www.youtube.com/embed/sNVA6oC7vcM",
       "link": "https://www.willamettepass.ski/weather-conditions-webcams/webcams/"
@@ -4751,15 +4792,15 @@
   "satellite": {
     "Pacific Northwest": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/pnw/13/GOES18-PNW-13-600x600.gif",
-      "last_modified": "Sat, 03 Oct 2026 08:41:05 GMT"
+      "last_modified": "Sat, 03 Oct 2026 09:11:35 GMT"
     },
     "North Pacific (macro)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/np/13/GOES18-NP-13-900x540.gif",
-      "last_modified": "Sat, 03 Oct 2026 08:41:14 GMT"
+      "last_modified": "Sat, 03 Oct 2026 09:11:49 GMT"
     },
     "Pacific US (PACUS)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/13/GOES18-CONUS-13-625x375.gif",
-      "last_modified": "Sat, 03 Oct 2026 08:35:42 GMT"
+      "last_modified": "Sat, 03 Oct 2026 09:06:05 GMT"
     }
   },
   "gfs_snowfall": {
