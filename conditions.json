@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T00:00:19.704093+00:00",
+  "generated_at": "2026-10-03T00:15:14.378754+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -314,7 +314,7 @@
         {
           "number": 1,
           "name": "This Afternoon",
-          "startTime": "2026-10-02T16:00:00-07:00",
+          "startTime": "2026-10-02T15:00:00-07:00",
           "endTime": "2026-10-02T18:00:00-07:00",
           "isDaytime": true,
           "temperature": 65,
@@ -325,10 +325,10 @@
             "value": 0
           },
           "windSpeed": "1 mph",
-          "windDirection": "W",
+          "windDirection": "NW",
           "icon": "https://api.weather.gov/icons/land/day/few?size=medium",
           "shortForecast": "Sunny",
-          "detailedForecast": "Sunny. High near 65, with temperatures falling to around 63 in the afternoon. West wind around 1 mph.",
+          "detailedForecast": "Sunny. High near 65, with temperatures falling to around 63 in the afternoon. Northwest wind around 1 mph.",
           "precipitationAmountIn": 0.0,
           "snowLevelFt": 10049
         },
@@ -914,8 +914,8 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 7.0,
-        "wind_direction_deg": 292.5,
+        "wind_speed_mph": 8.0,
+        "wind_direction_deg": 270,
         "snow_level_ft": 9012,
         "temp_f": 67
       },
@@ -1235,7 +1235,7 @@
         {
           "number": 1,
           "name": "This Afternoon",
-          "startTime": "2026-10-02T16:00:00-07:00",
+          "startTime": "2026-10-02T15:00:00-07:00",
           "endTime": "2026-10-02T18:00:00-07:00",
           "isDaytime": true,
           "temperature": 69,
@@ -1251,7 +1251,7 @@
           "shortForecast": "Sunny",
           "detailedForecast": "Sunny. High near 69, with temperatures falling to around 67 in the afternoon. West northwest wind around 5 mph.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 9560
+          "snowLevelFt": 9579
         },
         {
           "number": 2,
@@ -2770,7 +2770,7 @@
         {
           "number": 1,
           "name": "This Afternoon",
-          "startTime": "2026-10-02T16:00:00-07:00",
+          "startTime": "2026-10-02T15:00:00-07:00",
           "endTime": "2026-10-02T18:00:00-07:00",
           "isDaytime": true,
           "temperature": 80,
@@ -3087,11 +3087,11 @@
     "Hoodoo": {
       "elevation_ft": 4705,
       "temp_f": 67,
-      "wind_speed_mph": 7.0,
-      "wind_direction_deg": 292.5,
+      "wind_speed_mph": 8.0,
+      "wind_direction_deg": 270,
       "snow_level_ft": 9012,
       "precip_chance_today": 0,
-      "snowfall_12h_in": -0.2,
+      "snowfall_12h_in": -0.5,
       "snowfall_24h_in": -0.2,
       "snowfall_48h_in": null
     },
@@ -4343,7 +4343,7 @@
           "weather_icon": "dor-sunny",
           "id": 1790967600,
           "day": "Friday",
-          "temperature_high": 69,
+          "temperature_high": 68,
           "temperature_low": 31,
           "precipitation_high": 43,
           "precipitation_low": 43,
@@ -4575,17 +4575,17 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-10-02T16:00:00.000Z"
+            "timestamp": "2026-10-02T17:00:00.000Z"
           },
-          "temperature": "58.87",
+          "temperature": "56.76",
           "wind": {
-            "low": "16.65",
-            "high": "31.99",
+            "low": "15.44",
+            "high": "28.86",
             "current": null,
-            "average": "16.65",
+            "average": "15.44",
             "direction": "NW"
           },
-          "humidity": "42.33",
+          "humidity": "41.64",
           "display_name": "Summit",
           "elevation_ft": 9065
         }
@@ -4646,19 +4646,19 @@
   "hoodoo": {
     "weather": {
       "Temperature": "63 &#176F",
-      "Wind": "WNW @ 7 MPH",
+      "Wind": "West @ 8 MPH",
       "Snow depth": "-0.7\"",
-      "Humidity": "61 %",
+      "Humidity": "53 %",
       "Barometer": "30.30\" Hg"
     },
     "snow_totals": {
       "trend": {
         "Max": "0.5\"",
         "Min": "-2.7\"",
-        "1 Hr": "-0.2\"",
-        "3 Hr": "0.4\"",
+        "1 Hr": "0.0\"",
+        "3 Hr": "0.1\"",
         "6 Hr": "0.0\"",
-        "12 Hr": "-0.2\"",
+        "12 Hr": "-0.5\"",
         "24 Hr": "-0.2\""
       },
       "season_total_in": 0.0
@@ -4701,10 +4701,10 @@
   "willamette_pass": {
     "forecast": {
       "weather_provider": "NOAA",
-      "date": "October 2, 2026, 4:37 pm",
-      "time": 1790984238000,
+      "date": "October 2, 2026, 4:49 pm",
+      "time": 1790984958000,
       "current_weather": "Mostly Clear",
-      "current_temperature": "81",
+      "current_temperature": "80",
       "forecast": [
         {
           "day": "Friday",
@@ -4814,15 +4814,15 @@
   "satellite": {
     "Pacific Northwest": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/pnw/13/GOES18-PNW-13-600x600.gif",
-      "last_modified": "Fri, 02 Oct 2026 23:41:44 GMT"
+      "last_modified": "Sat, 03 Oct 2026 00:11:58 GMT"
     },
     "North Pacific (macro)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/np/13/GOES18-NP-13-900x540.gif",
-      "last_modified": "Fri, 02 Oct 2026 23:41:54 GMT"
+      "last_modified": "Sat, 03 Oct 2026 00:12:07 GMT"
     },
     "Pacific US (PACUS)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/13/GOES18-CONUS-13-625x375.gif",
-      "last_modified": "Fri, 02 Oct 2026 23:36:08 GMT"
+      "last_modified": "Sat, 03 Oct 2026 00:06:23 GMT"
     }
   },
   "gfs_snowfall": {
