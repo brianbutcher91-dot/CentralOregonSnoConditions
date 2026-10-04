@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T07:30:23.255207+00:00",
+  "generated_at": "2026-10-04T07:45:14.941677+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -914,7 +914,7 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 7.0,
+        "wind_speed_mph": 8.0,
         "wind_direction_deg": 180,
         "snow_level_ft": 10121,
         "temp_f": 52
@@ -2155,8 +2155,8 @@
       "periods": [
         {
           "number": 1,
-          "name": "Overnight",
-          "startTime": "2026-10-04T00:00:00-07:00",
+          "name": "Tonight",
+          "startTime": "2026-10-03T23:00:00-07:00",
           "endTime": "2026-10-04T06:00:00-07:00",
           "isDaytime": false,
           "temperature": 49,
@@ -3087,12 +3087,12 @@
     "Hoodoo": {
       "elevation_ft": 4705,
       "temp_f": 52,
-      "wind_speed_mph": 7.0,
+      "wind_speed_mph": 8.0,
       "wind_direction_deg": 180,
       "snow_level_ft": 10121,
       "precip_chance_today": 1,
-      "snowfall_12h_in": -0.8,
-      "snowfall_24h_in": -0.5,
+      "snowfall_12h_in": -0.5,
+      "snowfall_24h_in": -0.7,
       "snowfall_48h_in": null
     },
     "Willamette Pass": {
@@ -4638,20 +4638,20 @@
   "hoodoo": {
     "weather": {
       "Temperature": "64 &#176F",
-      "Wind": "South @ 7 MPH",
-      "Snow depth": "-0.6\"",
-      "Humidity": "45 %",
+      "Wind": "South @ 8 MPH",
+      "Snow depth": "-1.4\"",
+      "Humidity": "43 %",
       "Barometer": "30.35\" Hg"
     },
     "snow_totals": {
       "trend": {
         "Max": "0.6\"",
         "Min": "-4.1\"",
-        "1 Hr": "0.0\"",
-        "3 Hr": "-0.1\"",
-        "6 Hr": "0.0\"",
-        "12 Hr": "-0.8\"",
-        "24 Hr": "-0.5\""
+        "1 Hr": "-0.6\"",
+        "3 Hr": "0.0\"",
+        "6 Hr": "-0.5\"",
+        "12 Hr": "-0.5\"",
+        "24 Hr": "-0.7\""
       },
       "season_total_in": 0.0
     },
@@ -4693,15 +4693,11 @@
   "willamette_pass": {
     "forecast": {
       "weather_provider": "NOAA",
-      "date": "October 4, 2026, 12:04 am",
-      "time": 1791097460000,
+      "date": "October 4, 2026, 12:19 am",
+      "time": 1791098356000,
       "current_weather": "Clear",
       "current_temperature": "55",
       "forecast": [
-        {
-          "day": "Saturday",
-          "night_forecast": "Clear, with a low around 50. Southeast wind around 8 mph. "
-        },
         {
           "day": "Sunday",
           "day_forecast": "Mostly sunny, with a high near 77. Calm wind becoming west 5 to 9 mph in the afternoon. ",
@@ -4806,15 +4802,15 @@
   "satellite": {
     "Pacific Northwest": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/pnw/13/GOES18-PNW-13-600x600.gif",
-      "last_modified": "Sun, 04 Oct 2026 07:11:11 GMT"
+      "last_modified": "Sun, 04 Oct 2026 07:40:54 GMT"
     },
     "North Pacific (macro)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/np/13/GOES18-NP-13-900x540.gif",
-      "last_modified": "Sun, 04 Oct 2026 07:11:20 GMT"
+      "last_modified": "Sun, 04 Oct 2026 07:41:03 GMT"
     },
     "Pacific US (PACUS)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/13/GOES18-CONUS-13-625x375.gif",
-      "last_modified": "Sun, 04 Oct 2026 07:05:52 GMT"
+      "last_modified": "Sun, 04 Oct 2026 07:35:34 GMT"
     }
   },
   "gfs_snowfall": {
