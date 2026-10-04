@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T07:45:14.941677+00:00",
+  "generated_at": "2026-10-04T08:00:16.109563+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -303,7 +303,7 @@
         "wind_speed_mph": 5,
         "wind_direction_deg": 220,
         "snow_level_ft": 10528,
-        "temp_f": 53
+        "temp_f": 52
       },
       "lat": 43.9792,
       "lon": -121.6886
@@ -607,8 +607,8 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 0,
-        "wind_direction_deg": 210,
+        "wind_speed_mph": 1,
+        "wind_direction_deg": 220,
         "snow_level_ft": 10554,
         "temp_f": 56
       },
@@ -914,9 +914,9 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 8.0,
+        "wind_speed_mph": 9.0,
         "wind_direction_deg": 180,
-        "snow_level_ft": 10121,
+        "snow_level_ft": 10137,
         "temp_f": 52
       },
       "lat": 44.409,
@@ -1221,10 +1221,10 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 3,
+        "wind_speed_mph": 5,
         "wind_direction_deg": 180,
         "snow_level_ft": 10738,
-        "temp_f": 56
+        "temp_f": 57
       },
       "lat": 43.7025,
       "lon": -121.2661
@@ -1528,10 +1528,10 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 7,
+        "wind_speed_mph": 8,
         "wind_direction_deg": 120,
-        "snow_level_ft": 10331,
-        "temp_f": 55
+        "snow_level_ft": 10347,
+        "temp_f": 53
       },
       "lat": 43.5975,
       "lon": -122.0339
@@ -1836,9 +1836,9 @@
       ],
       "current": {
         "wind_speed_mph": 10,
-        "wind_direction_deg": 120,
-        "snow_level_ft": 10042,
-        "temp_f": 55
+        "wind_direction_deg": 130,
+        "snow_level_ft": 10059,
+        "temp_f": 54
       },
       "lat": 44.39548,
       "lon": -122.14151
@@ -2145,7 +2145,7 @@
         "wind_speed_mph": 1,
         "wind_direction_deg": 140,
         "snow_level_ft": 10896,
-        "temp_f": 55
+        "temp_f": 54
       },
       "lat": 44.4333,
       "lon": -120.3333
@@ -2155,8 +2155,8 @@
       "periods": [
         {
           "number": 1,
-          "name": "Tonight",
-          "startTime": "2026-10-03T23:00:00-07:00",
+          "name": "Overnight",
+          "startTime": "2026-10-04T00:00:00-07:00",
           "endTime": "2026-10-04T06:00:00-07:00",
           "isDaytime": false,
           "temperature": 49,
@@ -2450,9 +2450,9 @@
       ],
       "current": {
         "wind_speed_mph": 0,
-        "wind_direction_deg": 0,
+        "wind_direction_deg": 220,
         "snow_level_ft": 10712,
-        "temp_f": 55
+        "temp_f": 53
       },
       "lat": 44.0582,
       "lon": -121.3153
@@ -2759,7 +2759,7 @@
         "wind_speed_mph": 0,
         "wind_direction_deg": 0,
         "snow_level_ft": 10528,
-        "temp_f": 53
+        "temp_f": 51
       },
       "lat": 44.2909,
       "lon": -121.549
@@ -3066,7 +3066,7 @@
         "wind_speed_mph": 0,
         "wind_direction_deg": 0,
         "snow_level_ft": 10659,
-        "temp_f": 48
+        "temp_f": 46
       },
       "lat": 43.6716,
       "lon": -121.504
@@ -3075,7 +3075,7 @@
   "wind_roses": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
-      "temp_f": 53,
+      "temp_f": 52,
       "wind_speed_mph": 5,
       "wind_direction_deg": 220,
       "snow_level_ft": 10528,
@@ -3087,20 +3087,20 @@
     "Hoodoo": {
       "elevation_ft": 4705,
       "temp_f": 52,
-      "wind_speed_mph": 8.0,
+      "wind_speed_mph": 9.0,
       "wind_direction_deg": 180,
-      "snow_level_ft": 10121,
+      "snow_level_ft": 10137,
       "precip_chance_today": 1,
-      "snowfall_12h_in": -0.5,
-      "snowfall_24h_in": -0.7,
+      "snowfall_12h_in": 0.1,
+      "snowfall_24h_in": -0.4,
       "snowfall_48h_in": null
     },
     "Willamette Pass": {
       "elevation_ft": 5538,
-      "temp_f": 55,
-      "wind_speed_mph": 7,
+      "temp_f": 53,
+      "wind_speed_mph": 8,
       "wind_direction_deg": 120,
-      "snow_level_ft": 10331,
+      "snow_level_ft": 10347,
       "precip_chance_today": 1,
       "snowfall_12h_in": null,
       "snowfall_24h_in": 0.0,
@@ -3924,6 +3924,14 @@
         "wind_direction_deg": 290,
         "precip_in": 0.0,
         "period": "forecast"
+      },
+      {
+        "time": "2026-10-07T07:00:00+00:00",
+        "temp_f": 51.0,
+        "wind_speed_mph": 2.3,
+        "wind_direction_deg": 290,
+        "precip_in": 0.0,
+        "period": "forecast"
       }
     ],
     "historical_precip_snapshots": [
@@ -4187,34 +4195,18 @@
   },
   "snotel": {
     "Mt Bachelor area (Irish Taylor)": {
-      "snow_depth_in": 0,
-      "snow_depth_in_date": "2026-10-02",
-      "swe_in": 0.2,
-      "swe_in_date": "2026-10-02",
       "change_12h_in": 0,
       "change_24h_in": 0
     },
     "Three Creek / Tam McArthur (Three Creeks Meadow)": {
-      "snow_depth_in": 0,
-      "snow_depth_in_date": "2026-10-02",
-      "swe_in": 0.0,
-      "swe_in_date": "2026-10-02",
       "change_12h_in": 0,
       "change_24h_in": 0
     },
     "Santiam / Hoodoo (Hogg Pass)": {
-      "snow_depth_in": 0,
-      "snow_depth_in_date": "2026-10-02",
-      "swe_in": 0.1,
-      "swe_in_date": "2026-10-02",
       "change_12h_in": 0,
       "change_24h_in": 0
     },
     "Ochocos (Ochoco Meadows)": {
-      "snow_depth_in": 0,
-      "snow_depth_in_date": "2026-10-02",
-      "swe_in": 0.0,
-      "swe_in_date": "2026-10-02",
       "change_12h_in": 0,
       "change_24h_in": 0
     }
@@ -4638,20 +4630,20 @@
   "hoodoo": {
     "weather": {
       "Temperature": "64 &#176F",
-      "Wind": "South @ 8 MPH",
-      "Snow depth": "-1.4\"",
-      "Humidity": "43 %",
+      "Wind": "South @ 9 MPH",
+      "Snow depth": "-0.5\"",
+      "Humidity": "44 %",
       "Barometer": "30.35\" Hg"
     },
     "snow_totals": {
       "trend": {
         "Max": "0.6\"",
         "Min": "-4.1\"",
-        "1 Hr": "-0.6\"",
-        "3 Hr": "0.0\"",
-        "6 Hr": "-0.5\"",
-        "12 Hr": "-0.5\"",
-        "24 Hr": "-0.7\""
+        "1 Hr": "0.0\"",
+        "3 Hr": "0.1\"",
+        "6 Hr": "0.7\"",
+        "12 Hr": "0.1\"",
+        "24 Hr": "-0.4\""
       },
       "season_total_in": 0.0
     },
@@ -4693,10 +4685,10 @@
   "willamette_pass": {
     "forecast": {
       "weather_provider": "NOAA",
-      "date": "October 4, 2026, 12:19 am",
-      "time": 1791098356000,
+      "date": "October 4, 2026, 12:58 am",
+      "time": 1791100699000,
       "current_weather": "Clear",
-      "current_temperature": "55",
+      "current_temperature": "54",
       "forecast": [
         {
           "day": "Sunday",
