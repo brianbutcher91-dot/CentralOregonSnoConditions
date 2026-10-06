@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T01:45:19.859586+00:00",
+  "generated_at": "2026-10-06T02:00:21.001287+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -303,7 +303,7 @@
         "wind_speed_mph": 3,
         "wind_direction_deg": 290,
         "snow_level_ft": 10325,
-        "temp_f": 59
+        "temp_f": 53
       },
       "lat": 43.9792,
       "lon": -121.6886
@@ -608,9 +608,9 @@
       ],
       "current": {
         "wind_speed_mph": 2,
-        "wind_direction_deg": 260,
+        "wind_direction_deg": 240,
         "snow_level_ft": 10482,
-        "temp_f": 63
+        "temp_f": 57
       },
       "lat": 44.1017,
       "lon": -121.6224
@@ -914,10 +914,10 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 3,
-        "wind_direction_deg": 290,
-        "snow_level_ft": 9471,
-        "temp_f": 67
+        "wind_speed_mph": 15.0,
+        "wind_direction_deg": 315,
+        "snow_level_ft": 9432,
+        "temp_f": 62
       },
       "lat": 44.409,
       "lon": -121.872
@@ -1221,10 +1221,10 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 6,
-        "wind_direction_deg": 300,
+        "wind_speed_mph": 5,
+        "wind_direction_deg": 320,
         "snow_level_ft": 11243,
-        "temp_f": 63
+        "temp_f": 61
       },
       "lat": 43.7025,
       "lon": -121.2661
@@ -1528,10 +1528,10 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 3,
-        "wind_direction_deg": 300,
-        "snow_level_ft": 10442,
-        "temp_f": 66
+        "wind_speed_mph": 2,
+        "wind_direction_deg": 310,
+        "snow_level_ft": 10403,
+        "temp_f": 63
       },
       "lat": 43.5975,
       "lon": -122.0339
@@ -1836,9 +1836,9 @@
       ],
       "current": {
         "wind_speed_mph": 2,
-        "wind_direction_deg": 280,
-        "snow_level_ft": 9288,
-        "temp_f": 63
+        "wind_direction_deg": 290,
+        "snow_level_ft": 9249,
+        "temp_f": 60
       },
       "lat": 44.39548,
       "lon": -122.14151
@@ -2143,9 +2143,9 @@
       ],
       "current": {
         "wind_speed_mph": 2,
-        "wind_direction_deg": 350,
+        "wind_direction_deg": 0,
         "snow_level_ft": 10639,
-        "temp_f": 69
+        "temp_f": 60
       },
       "lat": 44.4333,
       "lon": -120.3333
@@ -2449,10 +2449,10 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 3,
+        "wind_speed_mph": 2,
         "wind_direction_deg": 350,
         "snow_level_ft": 10824,
-        "temp_f": 79
+        "temp_f": 75
       },
       "lat": 44.0582,
       "lon": -121.3153
@@ -2756,10 +2756,10 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 5,
-        "wind_direction_deg": 320,
+        "wind_speed_mph": 3,
+        "wind_direction_deg": 330,
         "snow_level_ft": 10323,
-        "temp_f": 79
+        "temp_f": 74
       },
       "lat": 44.2909,
       "lon": -121.549
@@ -3063,10 +3063,10 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 5,
-        "wind_direction_deg": 310,
+        "wind_speed_mph": 2,
+        "wind_direction_deg": 320,
         "snow_level_ft": 11032,
-        "temp_f": 76
+        "temp_f": 68
       },
       "lat": 43.6716,
       "lon": -121.504
@@ -3075,7 +3075,7 @@
   "wind_roses": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
-      "temp_f": 59,
+      "temp_f": 53,
       "wind_speed_mph": 3,
       "wind_direction_deg": 290,
       "snow_level_ft": 10325,
@@ -3086,21 +3086,21 @@
     },
     "Hoodoo": {
       "elevation_ft": 4705,
-      "temp_f": 67,
-      "wind_speed_mph": 3,
-      "wind_direction_deg": 290,
-      "snow_level_ft": 9471,
+      "temp_f": 62,
+      "wind_speed_mph": 15.0,
+      "wind_direction_deg": 315,
+      "snow_level_ft": 9432,
       "precip_chance_today": 0,
-      "snowfall_12h_in": null,
-      "snowfall_24h_in": null,
+      "snowfall_12h_in": 0.4,
+      "snowfall_24h_in": 0.6,
       "snowfall_48h_in": null
     },
     "Willamette Pass": {
       "elevation_ft": 5538,
-      "temp_f": 66,
-      "wind_speed_mph": 3,
-      "wind_direction_deg": 300,
-      "snow_level_ft": 10442,
+      "temp_f": 63,
+      "wind_speed_mph": 2,
+      "wind_direction_deg": 310,
+      "snow_level_ft": 10403,
       "precip_chance_today": 0,
       "snowfall_12h_in": null,
       "snowfall_24h_in": 0.0,
@@ -3924,13 +3924,17 @@
         "wind_direction_deg": 10,
         "precip_in": 0.0,
         "period": "forecast"
+      },
+      {
+        "time": "2026-10-09T01:00:00+00:00",
+        "temp_f": 61.0,
+        "wind_speed_mph": 4.6,
+        "wind_direction_deg": 10,
+        "precip_in": 0.0,
+        "period": "forecast"
       }
     ],
     "historical_precip_snapshots": [
-      {
-        "time": "2026-10-03T01:45:25.351687+00:00",
-        "precip_in": 0
-      },
       {
         "time": "2026-10-03T03:00:17.767749+00:00",
         "precip_in": 0
@@ -4335,7 +4339,7 @@
           "weather_icon": "dor-sunny",
           "id": 1791226800,
           "day": "Monday",
-          "temperature_high": 66,
+          "temperature_high": 62,
           "temperature_low": 32,
           "precipitation_high": 33,
           "precipitation_low": 33,
@@ -4636,10 +4640,24 @@
     }
   },
   "hoodoo": {
-    "weather": {},
+    "weather": {
+      "Temperature": "59 &#176F",
+      "Wind": "NW @ 15 MPH",
+      "Snow depth": "-0.9\"",
+      "Humidity": "61 %",
+      "Barometer": "30.43\" Hg"
+    },
     "snow_totals": {
-      "trend": {},
-      "season_total_in": null
+      "trend": {
+        "Max": "0.2\"",
+        "Min": "-3.4\"",
+        "1 Hr": "0.4\"",
+        "3 Hr": "0.6\"",
+        "6 Hr": "0.5\"",
+        "12 Hr": "0.4\"",
+        "24 Hr": "0.6\""
+      },
+      "season_total_in": 0.0
     },
     "webcams": {
       "Base Area": {
@@ -4679,8 +4697,8 @@
   "willamette_pass": {
     "forecast": {
       "weather_provider": "NOAA",
-      "date": "October 5, 2026, 6:25 pm",
-      "time": 1791249923000,
+      "date": "October 5, 2026, 6:40 pm",
+      "time": 1791250820000,
       "current_weather": "Clear",
       "current_temperature": "74",
       "forecast": [
