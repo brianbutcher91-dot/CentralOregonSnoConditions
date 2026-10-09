@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T02:15:25.545910+00:00",
+  "generated_at": "2026-10-09T02:30:23.449915+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -2156,7 +2156,7 @@
         {
           "number": 1,
           "name": "Tonight",
-          "startTime": "2026-10-08T19:00:00-07:00",
+          "startTime": "2026-10-08T18:00:00-07:00",
           "endTime": "2026-10-09T06:00:00-07:00",
           "isDaytime": false,
           "temperature": 47,
@@ -3091,8 +3091,8 @@
       "wind_direction_deg": 315,
       "snow_level_ft": 9551,
       "precip_chance_today": 0,
-      "snowfall_12h_in": -0.8,
-      "snowfall_24h_in": -0.5,
+      "snowfall_12h_in": -0.4,
+      "snowfall_24h_in": 0.3,
       "snowfall_48h_in": null
     },
     "Willamette Pass": {
@@ -3109,14 +3109,6 @@
   },
   "bachelor_timeseries": {
     "hourly": [
-      {
-        "time": "2026-10-07T19:00:00.000Z",
-        "temp_f": 60.23,
-        "wind_speed_mph": 10.55,
-        "wind_direction_deg": 250.3,
-        "precip_in": null,
-        "period": "historical"
-      },
       {
         "time": "2026-10-07T20:00:00.000Z",
         "temp_f": 59.74,
@@ -3302,12 +3294,12 @@
         "period": "historical"
       },
       {
-        "time": "2026-10-08T19:00:00+00:00",
-        "temp_f": 65.0,
-        "wind_speed_mph": 4.6,
-        "wind_direction_deg": 250,
-        "precip_in": 0.0,
-        "period": "forecast"
+        "time": "2026-10-08T19:00:00.000Z",
+        "temp_f": 57.26,
+        "wind_speed_mph": 8.9,
+        "wind_direction_deg": 249.3,
+        "precip_in": null,
+        "period": "historical"
       },
       {
         "time": "2026-10-08T20:00:00+00:00",
@@ -3936,10 +3928,6 @@
     ],
     "historical_precip_snapshots": [
       {
-        "time": "2026-10-06T02:30:21.078646+00:00",
-        "precip_in": 0
-      },
-      {
         "time": "2026-10-06T03:45:20.615484+00:00",
         "precip_in": 0
       },
@@ -4329,7 +4317,7 @@
   "mtbachelor": {
     "weather": {
       "current": {
-        "temperature": 67,
+        "temperature": 59,
         "weather_icon": "dor-sunny"
       },
       "forecast": [
@@ -4462,10 +4450,10 @@
           "active": true,
           "primary": true,
           "nonstandardizedDataPoints": {
-            "depth": "-0.586",
-            "timestamp": "2026-10-08T18:00:00.000Z"
+            "depth": "-0.444",
+            "timestamp": "2026-10-08T19:00:00.000Z"
           },
-          "temperature": "66.91",
+          "temperature": "58.54",
           "wind": {
             "low": "0",
             "high": "0",
@@ -4485,14 +4473,14 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-10-08T18:00:00.000Z"
+            "timestamp": "2026-10-08T19:00:00.000Z"
           },
-          "temperature": "60.45",
+          "temperature": "57.94",
           "wind": {
-            "low": "6.032",
-            "high": "15.44",
+            "low": "6.621",
+            "high": "12.08",
             "current": null,
-            "average": "6.032",
+            "average": "6.621",
             "direction": "W"
           },
           "humidity": null,
@@ -4507,17 +4495,17 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-10-08T18:00:00.000Z"
+            "timestamp": "2026-10-08T19:00:00.000Z"
           },
-          "temperature": "60.56",
+          "temperature": "57.11",
           "wind": {
-            "low": "9.3",
-            "high": "16.31",
+            "low": "7.828",
+            "high": "13.31",
             "current": null,
-            "average": "9.3",
+            "average": "7.828",
             "direction": "WNW"
           },
-          "humidity": "35.9",
+          "humidity": "36.37",
           "display_name": "Pine Marten",
           "elevation_ft": 7800
         },
@@ -4529,14 +4517,14 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-10-08T18:00:00.000Z"
+            "timestamp": "2026-10-08T19:00:00.000Z"
           },
-          "temperature": "59.23",
+          "temperature": "57.26",
           "wind": {
-            "low": "4.301",
-            "high": "13.87",
+            "low": "8.9",
+            "high": "14.32",
             "current": null,
-            "average": "4.301",
+            "average": "8.9",
             "direction": "WSW"
           },
           "humidity": null,
@@ -4645,8 +4633,8 @@
     "weather": {
       "Temperature": "62 &#176F",
       "Wind": "NW @ 13 MPH",
-      "Snow depth": "-1.2\"",
-      "Humidity": "48 %",
+      "Snow depth": "-2.5\"",
+      "Humidity": "46 %",
       "Barometer": "30.29\" Hg"
     },
     "snow_totals": {
@@ -4654,10 +4642,10 @@
         "Max": "0.4\"",
         "Min": "-3.9\"",
         "1 Hr": "-0.3\"",
-        "3 Hr": "-0.5\"",
-        "6 Hr": "-0.5\"",
-        "12 Hr": "-0.8\"",
-        "24 Hr": "-0.5\""
+        "3 Hr": "0.3\"",
+        "6 Hr": "0.6\"",
+        "12 Hr": "-0.4\"",
+        "24 Hr": "0.3\""
       },
       "season_total_in": 0.0
     },
@@ -4699,10 +4687,10 @@
   "willamette_pass": {
     "forecast": {
       "weather_provider": "NOAA",
-      "date": "October 8, 2026, 6:58 pm",
-      "time": 1791511102000,
+      "date": "October 8, 2026, 7:10 pm",
+      "time": 1791511828000,
       "current_weather": "Clear",
-      "current_temperature": "76",
+      "current_temperature": "68",
       "forecast": [
         {
           "day": "Thursday",
