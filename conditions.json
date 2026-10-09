@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T23:45:19.849424+00:00",
+  "generated_at": "2026-10-09T23:53:26.947045+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -7,7 +7,7 @@
         {
           "number": 1,
           "name": "This Afternoon",
-          "startTime": "2026-10-09T15:00:00-07:00",
+          "startTime": "2026-10-09T16:00:00-07:00",
           "endTime": "2026-10-09T18:00:00-07:00",
           "isDaytime": true,
           "temperature": 50,
@@ -314,7 +314,7 @@
         {
           "number": 1,
           "name": "This Afternoon",
-          "startTime": "2026-10-09T15:00:00-07:00",
+          "startTime": "2026-10-09T16:00:00-07:00",
           "endTime": "2026-10-09T18:00:00-07:00",
           "isDaytime": true,
           "temperature": 56,
@@ -324,11 +324,11 @@
             "unitCode": "wmoUnit:percent",
             "value": 25
           },
-          "windSpeed": "12 mph",
+          "windSpeed": "10 mph",
           "windDirection": "W",
           "icon": "https://api.weather.gov/icons/land/day/rain_showers,30?size=medium",
           "shortForecast": "Chance Rain Showers",
-          "detailedForecast": "A chance of rain showers after 5pm. Mostly cloudy. High near 56, with temperatures falling to around 47 in the afternoon. West wind around 12 mph, with gusts as high as 23 mph. Chance of precipitation is 30%.",
+          "detailedForecast": "A chance of rain showers after 5pm. Cloudy. High near 56, with temperatures falling to around 47 in the afternoon. West wind around 10 mph, with gusts as high as 22 mph. Chance of precipitation is 30%.",
           "precipitationAmountIn": 0.0,
           "snowLevelFt": 9429
         },
@@ -914,8 +914,8 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 13.0,
-        "wind_direction_deg": 225,
+        "wind_speed_mph": 15.0,
+        "wind_direction_deg": 247.5,
         "snow_level_ft": 9218,
         "temp_f": 48
       },
@@ -3087,12 +3087,12 @@
     "Hoodoo": {
       "elevation_ft": 4705,
       "temp_f": 48,
-      "wind_speed_mph": 13.0,
-      "wind_direction_deg": 225,
+      "wind_speed_mph": 15.0,
+      "wind_direction_deg": 247.5,
       "snow_level_ft": 9218,
       "precip_chance_today": 43,
-      "snowfall_12h_in": 0.3,
-      "snowfall_24h_in": 2.0,
+      "snowfall_12h_in": 0.2,
+      "snowfall_24h_in": 1.7,
       "snowfall_48h_in": null
     },
     "Willamette Pass": {
@@ -4331,7 +4331,7 @@
           "weather_icon": "dor-rain",
           "id": 1791572400,
           "day": "Friday",
-          "temperature_high": 55,
+          "temperature_high": 54,
           "temperature_low": 31,
           "precipitation_high": 40,
           "precipitation_low": 40,
@@ -4634,8 +4634,8 @@
   "hoodoo": {
     "weather": {
       "Temperature": "42 &#176F",
-      "Wind": "SW @ 13 MPH",
-      "Snow depth": "-0.4\"",
+      "Wind": "WSW @ 15 MPH",
+      "Snow depth": "-0.1\"",
       "Humidity": "100 %",
       "Barometer": "29.91\" Hg"
     },
@@ -4643,10 +4643,10 @@
       "trend": {
         "Max": "0.6\"",
         "Min": "-3.9\"",
-        "1 Hr": "-0.1\"",
-        "6 Hr": "0.4\"",
-        "12 Hr": "0.3\"",
-        "24 Hr": "2.0\""
+        "1 Hr": "0.2\"",
+        "6 Hr": "0.6\"",
+        "12 Hr": "0.2\"",
+        "24 Hr": "1.7\""
       },
       "season_total_in": 0.0
     },
@@ -4688,8 +4688,8 @@
   "willamette_pass": {
     "forecast": {
       "weather_provider": "NOAA",
-      "date": "October 9, 2026, 4:25 pm",
-      "time": 1791588332000,
+      "date": "October 9, 2026, 4:52 pm",
+      "time": 1791589938000,
       "current_weather": "Mostly Cloudy",
       "current_temperature": "73",
       "forecast": [
