@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T00:15:36.635716+00:00",
+  "generated_at": "2026-10-10T00:30:27.542730+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -7,7 +7,7 @@
         {
           "number": 1,
           "name": "This Afternoon",
-          "startTime": "2026-10-09T17:00:00-07:00",
+          "startTime": "2026-10-09T16:00:00-07:00",
           "endTime": "2026-10-09T18:00:00-07:00",
           "isDaytime": true,
           "temperature": 50,
@@ -21,9 +21,9 @@
           "windDirection": "W",
           "icon": "https://api.weather.gov/icons/land/day/rain_showers,30?size=medium",
           "shortForecast": "Chance Rain Showers",
-          "detailedForecast": "A chance of rain showers. Mostly cloudy. High near 50, with temperatures falling to around 43 in the afternoon. West wind around 12 mph, with gusts as high as 23 mph. Chance of precipitation is 30%.",
+          "detailedForecast": "A chance of rain showers after 5pm. Mostly cloudy. High near 50, with temperatures falling to around 43 in the afternoon. West wind around 12 mph, with gusts as high as 24 mph. Chance of precipitation is 30%.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 9669
+          "snowLevelFt": 8985
         },
         {
           "number": 2,
@@ -914,8 +914,8 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 15.0,
-        "wind_direction_deg": 270,
+        "wind_speed_mph": 16.0,
+        "wind_direction_deg": 247.5,
         "snow_level_ft": 8591,
         "temp_f": 47
       },
@@ -2156,7 +2156,7 @@
         {
           "number": 1,
           "name": "This Afternoon",
-          "startTime": "2026-10-09T17:00:00-07:00",
+          "startTime": "2026-10-09T15:00:00-07:00",
           "endTime": "2026-10-09T18:00:00-07:00",
           "isDaytime": true,
           "temperature": 71,
@@ -2166,13 +2166,13 @@
             "unitCode": "wmoUnit:percent",
             "value": 7
           },
-          "windSpeed": "8 mph",
+          "windSpeed": "9 mph",
           "windDirection": "W",
           "icon": "https://api.weather.gov/icons/land/day/bkn?size=medium",
           "shortForecast": "Mostly Cloudy",
-          "detailedForecast": "Mostly cloudy. High near 71, with temperatures falling to around 64 in the afternoon. West wind around 8 mph, with gusts as high as 18 mph.",
+          "detailedForecast": "Mostly cloudy. High near 71, with temperatures falling to around 64 in the afternoon. West wind around 9 mph, with gusts as high as 20 mph.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 9465
+          "snowLevelFt": 8669
         },
         {
           "number": 2,
@@ -2770,7 +2770,7 @@
         {
           "number": 1,
           "name": "This Afternoon",
-          "startTime": "2026-10-09T16:00:00-07:00",
+          "startTime": "2026-10-09T17:00:00-07:00",
           "endTime": "2026-10-09T18:00:00-07:00",
           "isDaytime": true,
           "temperature": 70,
@@ -2780,13 +2780,13 @@
             "unitCode": "wmoUnit:percent",
             "value": 5
           },
-          "windSpeed": "12 mph",
+          "windSpeed": "10 mph",
           "windDirection": "NW",
           "icon": "https://api.weather.gov/icons/land/day/bkn?size=medium",
-          "shortForecast": "Partly Sunny",
-          "detailedForecast": "Partly sunny. High near 70, with temperatures falling to around 63 in the afternoon. Northwest wind around 12 mph, with gusts as high as 22 mph.",
+          "shortForecast": "Mostly Cloudy",
+          "detailedForecast": "Mostly cloudy. High near 70, with temperatures falling to around 63 in the afternoon. Northwest wind around 10 mph, with gusts as high as 21 mph.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 8589
+          "snowLevelFt": 9413
         },
         {
           "number": 2,
@@ -3087,12 +3087,12 @@
     "Hoodoo": {
       "elevation_ft": 4705,
       "temp_f": 47,
-      "wind_speed_mph": 15.0,
-      "wind_direction_deg": 270,
+      "wind_speed_mph": 16.0,
+      "wind_direction_deg": 247.5,
       "snow_level_ft": 8591,
       "precip_chance_today": 43,
-      "snowfall_12h_in": 0.5,
-      "snowfall_24h_in": 1.4,
+      "snowfall_12h_in": 0.3,
+      "snowfall_24h_in": 2.2,
       "snowfall_48h_in": null
     },
     "Willamette Pass": {
@@ -3109,14 +3109,6 @@
   },
   "bachelor_timeseries": {
     "hourly": [
-      {
-        "time": "2026-10-08T17:00:00.000Z",
-        "temp_f": 60.92,
-        "wind_speed_mph": 5.483,
-        "wind_direction_deg": 234.2,
-        "precip_in": null,
-        "period": "historical"
-      },
       {
         "time": "2026-10-08T18:00:00.000Z",
         "temp_f": 59.23,
@@ -3302,12 +3294,12 @@
         "period": "historical"
       },
       {
-        "time": "2026-10-09T17:00:00+00:00",
-        "temp_f": 49.0,
-        "wind_speed_mph": 18.4,
-        "wind_direction_deg": 270,
-        "precip_in": 0.0,
-        "period": "forecast"
+        "time": "2026-10-09T17:00:00.000Z",
+        "temp_f": 41.43,
+        "wind_speed_mph": 17.14,
+        "wind_direction_deg": 245.3,
+        "precip_in": null,
+        "period": "historical"
       },
       {
         "time": "2026-10-09T18:00:00+00:00",
@@ -4195,8 +4187,8 @@
       "snow_depth_in_date": "2026-10-08",
       "swe_in": 0.0,
       "swe_in_date": "2026-10-08",
-      "change_12h_in": 1,
-      "change_24h_in": 1
+      "change_12h_in": 0,
+      "change_24h_in": 0
     },
     "Three Creek / Tam McArthur (Three Creeks Meadow)": {
       "snow_depth_in": 0,
@@ -4327,7 +4319,7 @@
   "mtbachelor": {
     "weather": {
       "current": {
-        "temperature": 51,
+        "temperature": 49,
         "weather_icon": "dor-mostlycloudy"
       },
       "forecast": [
@@ -4339,7 +4331,7 @@
           "weather_icon": "dor-rain",
           "id": 1791572400,
           "day": "Friday",
-          "temperature_high": 54,
+          "temperature_high": 53,
           "temperature_low": 31,
           "precipitation_high": 40,
           "precipitation_low": 40,
@@ -4460,10 +4452,10 @@
           "active": true,
           "primary": true,
           "nonstandardizedDataPoints": {
-            "depth": "-1.117",
-            "timestamp": "2026-10-09T16:00:00.000Z"
+            "depth": "144.7",
+            "timestamp": "2026-10-09T17:00:00.000Z"
           },
-          "temperature": "51",
+          "temperature": "48.95",
           "wind": {
             "low": "0",
             "high": "0",
@@ -4483,14 +4475,14 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-10-09T16:00:00.000Z"
+            "timestamp": "2026-10-09T17:00:00.000Z"
           },
-          "temperature": "46.41",
+          "temperature": "43.56",
           "wind": {
-            "low": "11.56",
-            "high": "25.5",
+            "low": "11.69",
+            "high": "28.86",
             "current": null,
-            "average": "11.56",
+            "average": "11.69",
             "direction": "W"
           },
           "humidity": null,
@@ -4505,17 +4497,17 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-10-09T16:00:00.000Z"
+            "timestamp": "2026-10-09T17:00:00.000Z"
           },
-          "temperature": "43.35",
+          "temperature": "41",
           "wind": {
-            "low": "26.07",
-            "high": "36.66",
+            "low": "27.06",
+            "high": "40.44",
             "current": null,
-            "average": "26.07",
+            "average": "27.06",
             "direction": "WNW"
           },
-          "humidity": "82.3",
+          "humidity": "84.6",
           "display_name": "Pine Marten",
           "elevation_ft": 7800
         },
@@ -4527,14 +4519,14 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-10-09T16:00:00.000Z"
+            "timestamp": "2026-10-09T17:00:00.000Z"
           },
-          "temperature": "43.83",
+          "temperature": "41.43",
           "wind": {
-            "low": "12.17",
-            "high": "31.32",
+            "low": "17.14",
+            "high": "36.46",
             "current": null,
-            "average": "12.17",
+            "average": "17.14",
             "direction": "WSW"
           },
           "humidity": null,
@@ -4642,19 +4634,18 @@
   "hoodoo": {
     "weather": {
       "Temperature": "42 &#176F",
-      "Wind": "West @ 15 MPH",
-      "Snow depth": "0.0\"",
+      "Wind": "WSW @ 16 MPH",
+      "Snow depth": "-0.2\"",
       "Humidity": "100 %",
-      "Barometer": "29.91\" Hg"
+      "Barometer": "29.90\" Hg"
     },
     "snow_totals": {
       "trend": {
         "Max": "0.6\"",
         "Min": "-3.9\"",
-        "1 Hr": "0.1\"",
-        "6 Hr": "0.3\"",
-        "12 Hr": "0.5\"",
-        "24 Hr": "1.4\""
+        "1 Hr": "0.0\"",
+        "12 Hr": "0.3\"",
+        "24 Hr": "2.2\""
       },
       "season_total_in": 0.0
     },
