@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T09:00:32.906620+00:00",
+  "generated_at": "2026-10-10T09:15:18.695776+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -7,7 +7,7 @@
         {
           "number": 1,
           "name": "Overnight",
-          "startTime": "2026-10-10T02:00:00-07:00",
+          "startTime": "2026-10-10T00:00:00-07:00",
           "endTime": "2026-10-10T06:00:00-07:00",
           "isDaytime": false,
           "temperature": 25,
@@ -15,15 +15,15 @@
           "temperatureTrend": null,
           "probabilityOfPrecipitation": {
             "unitCode": "wmoUnit:percent",
-            "value": 0
+            "value": 3
           },
-          "windSpeed": "12 mph",
+          "windSpeed": "10 to 14 mph",
           "windDirection": "NW",
-          "icon": "https://api.weather.gov/icons/land/night/sct?size=medium",
-          "shortForecast": "Partly Cloudy",
-          "detailedForecast": "Partly cloudy. Low around 25, with temperatures rising to around 27 overnight. Northwest wind around 12 mph.",
+          "icon": "https://api.weather.gov/icons/land/night/bkn?size=medium",
+          "shortForecast": "Mostly Cloudy",
+          "detailedForecast": "Mostly cloudy. Low around 25, with temperatures rising to around 27 overnight. Northwest wind 10 to 14 mph.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 4654
+          "snowLevelFt": 6089
         },
         {
           "number": 2,
@@ -914,8 +914,8 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 9,
-        "wind_direction_deg": 290,
+        "wind_speed_mph": 12.0,
+        "wind_direction_deg": 292.5,
         "snow_level_ft": 4051,
         "temp_f": 34
       },
@@ -1849,7 +1849,7 @@
         {
           "number": 1,
           "name": "Overnight",
-          "startTime": "2026-10-10T02:00:00-07:00",
+          "startTime": "2026-10-10T00:00:00-07:00",
           "endTime": "2026-10-10T06:00:00-07:00",
           "isDaytime": false,
           "temperature": 28,
@@ -1857,15 +1857,15 @@
           "temperatureTrend": null,
           "probabilityOfPrecipitation": {
             "unitCode": "wmoUnit:percent",
-            "value": 0
+            "value": 2
           },
-          "windSpeed": "5 mph",
+          "windSpeed": "6 mph",
           "windDirection": "NW",
           "icon": "https://api.weather.gov/icons/land/night/sct?size=medium",
           "shortForecast": "Partly Cloudy",
-          "detailedForecast": "Partly cloudy. Low around 28, with temperatures rising to around 30 overnight. Northwest wind around 5 mph.",
+          "detailedForecast": "Partly cloudy. Low around 28, with temperatures rising to around 30 overnight. Northwest wind around 6 mph.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 3999
+          "snowLevelFt": 6114
         },
         {
           "number": 2,
@@ -2463,7 +2463,7 @@
         {
           "number": 1,
           "name": "Overnight",
-          "startTime": "2026-10-10T00:00:00-07:00",
+          "startTime": "2026-10-10T02:00:00-07:00",
           "endTime": "2026-10-10T06:00:00-07:00",
           "isDaytime": false,
           "temperature": 26,
@@ -2471,15 +2471,15 @@
           "temperatureTrend": null,
           "probabilityOfPrecipitation": {
             "unitCode": "wmoUnit:percent",
-            "value": 1
+            "value": 0
           },
-          "windSpeed": "3 to 10 mph",
-          "windDirection": "NW",
+          "windSpeed": "3 to 7 mph",
+          "windDirection": "W",
           "icon": "https://api.weather.gov/icons/land/night/sct?size=medium",
           "shortForecast": "Partly Cloudy",
-          "detailedForecast": "Partly cloudy. Low around 26, with temperatures rising to around 28 overnight. Northwest wind 3 to 10 mph, with gusts as high as 18 mph.",
+          "detailedForecast": "Partly cloudy. Low around 26, with temperatures rising to around 28 overnight. West wind 3 to 7 mph.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 5248
+          "snowLevelFt": 4182
         },
         {
           "number": 2,
@@ -3079,7 +3079,7 @@
       "wind_speed_mph": 12,
       "wind_direction_deg": 300,
       "snow_level_ft": 4654,
-      "precip_chance_today": 0,
+      "precip_chance_today": 3,
       "snowfall_12h_in": null,
       "snowfall_24h_in": 0,
       "snowfall_48h_in": 0
@@ -3087,12 +3087,12 @@
     "Hoodoo": {
       "elevation_ft": 4705,
       "temp_f": 34,
-      "wind_speed_mph": 9,
-      "wind_direction_deg": 290,
+      "wind_speed_mph": 12.0,
+      "wind_direction_deg": 292.5,
       "snow_level_ft": 4051,
       "precip_chance_today": 4,
       "snowfall_12h_in": null,
-      "snowfall_24h_in": null,
+      "snowfall_24h_in": 1.2,
       "snowfall_48h_in": null
     },
     "Willamette Pass": {
@@ -4571,17 +4571,17 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-10-10T01:00:00.000Z"
+            "timestamp": "2026-10-10T02:00:00.000Z"
           },
-          "temperature": "23.11",
+          "temperature": "23.07",
           "wind": {
-            "low": null,
-            "high": null,
+            "low": "24.49",
+            "high": "128.6",
             "current": null,
-            "average": null,
-            "direction": "N"
+            "average": "24.49",
+            "direction": "NNW"
           },
-          "humidity": "52.53",
+          "humidity": "36.64",
           "display_name": "Summit",
           "elevation_ft": 9065
         }
@@ -4640,10 +4640,24 @@
     }
   },
   "hoodoo": {
-    "weather": {},
+    "weather": {
+      "Temperature": "28 &#176F",
+      "Wind": "WNW @ 12 MPH",
+      "Snow depth": "0.4\"",
+      "Humidity": "100 %",
+      "Barometer": "29.78\" Hg",
+      "Rain Gauge": "0.04\""
+    },
     "snow_totals": {
-      "trend": {},
-      "season_total_in": null
+      "trend": {
+        "Max": "0.9\"",
+        "Min": "-3.9\"",
+        "1 Hr": "0.0\"",
+        "3 Hr": "0.2\"",
+        "6 Hr": "-0.2\"",
+        "24 Hr": "1.2\""
+      },
+      "season_total_in": 1.0
     },
     "webcams": {
       "Base Area": {
@@ -4683,8 +4697,8 @@
   "willamette_pass": {
     "forecast": {
       "weather_provider": "NOAA",
-      "date": "October 10, 2026, 1:40 am",
-      "time": 1791621618000,
+      "date": "October 10, 2026, 1:49 am",
+      "time": 1791622161000,
       "current_weather": "Frost",
       "current_temperature": "41",
       "forecast": [
@@ -4792,15 +4806,15 @@
   "satellite": {
     "Pacific Northwest": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/pnw/13/GOES18-PNW-13-600x600.gif",
-      "last_modified": "Sat, 10 Oct 2026 08:40:53 GMT"
+      "last_modified": "Sat, 10 Oct 2026 09:11:06 GMT"
     },
     "North Pacific (macro)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/np/13/GOES18-NP-13-900x540.gif",
-      "last_modified": "Sat, 10 Oct 2026 08:41:02 GMT"
+      "last_modified": "Sat, 10 Oct 2026 09:11:15 GMT"
     },
     "Pacific US (PACUS)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/13/GOES18-CONUS-13-625x375.gif",
-      "last_modified": "Sat, 10 Oct 2026 08:35:32 GMT"
+      "last_modified": "Sat, 10 Oct 2026 09:05:45 GMT"
     }
   },
   "gfs_snowfall": {
