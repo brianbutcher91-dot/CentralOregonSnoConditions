@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T07:30:14.733799+00:00",
+  "generated_at": "2026-10-11T07:45:14.270730+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -914,7 +914,7 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 14.0,
+        "wind_speed_mph": 16.0,
         "wind_direction_deg": 90,
         "snow_level_ft": 3833,
         "temp_f": 31
@@ -3087,12 +3087,12 @@
     "Hoodoo": {
       "elevation_ft": 4705,
       "temp_f": 31,
-      "wind_speed_mph": 14.0,
+      "wind_speed_mph": 16.0,
       "wind_direction_deg": 90,
       "snow_level_ft": 3833,
       "precip_chance_today": 6,
-      "snowfall_12h_in": -0.3,
-      "snowfall_24h_in": 0.2,
+      "snowfall_12h_in": 0.4,
+      "snowfall_24h_in": 0.3,
       "snowfall_48h_in": null
     },
     "Willamette Pass": {
@@ -4186,7 +4186,38 @@
     ]
   },
   "snotel": {
-    "error": "HTTPSConnectionPool(host='wcc.sc.egov.usda.gov', port=443): Max retries exceeded with url: /awdbRestApi/services/v1/data?stationTriplets=545%3AOR%3ASNTL&elements=SNWD%2CWTEQ&duration=DAILY&getFlags=false&beginDate=-1&endDate=-1 (Caused by NameResolutionError(\"HTTPSConnection(host='wcc.sc.egov.usda.gov', port=443): Failed to resolve 'wcc.sc.egov.usda.gov' ([Errno -3] Temporary failure in name resolution)\"))"
+    "Mt Bachelor area (Irish Taylor)": {
+      "snow_depth_in": 0,
+      "snow_depth_in_date": "2026-10-09",
+      "swe_in": 0.1,
+      "swe_in_date": "2026-10-09",
+      "change_12h_in": 0,
+      "change_24h_in": 0
+    },
+    "Three Creek / Tam McArthur (Three Creeks Meadow)": {
+      "snow_depth_in": 0,
+      "snow_depth_in_date": "2026-10-09",
+      "swe_in": 0.0,
+      "swe_in_date": "2026-10-09",
+      "change_12h_in": 0,
+      "change_24h_in": 0
+    },
+    "Santiam / Hoodoo (Hogg Pass)": {
+      "snow_depth_in": 0,
+      "snow_depth_in_date": "2026-10-09",
+      "swe_in": 0.0,
+      "swe_in_date": "2026-10-09",
+      "change_12h_in": 0,
+      "change_24h_in": 0
+    },
+    "Ochocos (Ochoco Meadows)": {
+      "snow_depth_in": 0,
+      "snow_depth_in_date": "2026-10-09",
+      "swe_in": 0.0,
+      "swe_in_date": "2026-10-09",
+      "change_12h_in": 0,
+      "change_24h_in": 0
+    }
   },
   "odot_cams": {
     "Century Drive": [
@@ -4305,7 +4336,7 @@
           "id": 1791745200,
           "day": "Sunday",
           "temperature_high": 38,
-          "temperature_low": 19,
+          "temperature_low": 21,
           "precipitation_high": 98,
           "precipitation_low": 98,
           "wind_speed": 10,
@@ -4607,9 +4638,9 @@
   "hoodoo": {
     "weather": {
       "Temperature": "29 &#176F",
-      "Wind": "East @ 14 MPH",
-      "Snow depth": "0.6\"",
-      "Humidity": "100 %",
+      "Wind": "East @ 16 MPH",
+      "Snow depth": "0.1\"",
+      "Humidity": "98 %",
       "Barometer": "29.62\" Hg",
       "Rain Gauge": "0.09\""
     },
@@ -4617,11 +4648,11 @@
       "trend": {
         "Max": "0.9\"",
         "Min": "-3.3\"",
-        "1 Hr": "-0.4\"",
-        "3 Hr": "-0.1\"",
-        "6 Hr": "-0.1\"",
-        "12 Hr": "-0.3\"",
-        "24 Hr": "0.2\""
+        "1 Hr": "0.0\"",
+        "3 Hr": "0.2\"",
+        "6 Hr": "0.4\"",
+        "12 Hr": "0.4\"",
+        "24 Hr": "0.3\""
       },
       "season_total_in": 1.0
     },
@@ -4663,8 +4694,8 @@
   "willamette_pass": {
     "forecast": {
       "weather_provider": "NOAA",
-      "date": "October 11, 2026, 12:04 am",
-      "time": 1791702260000,
+      "date": "October 11, 2026, 12:19 am",
+      "time": 1791703160000,
       "current_weather": "Mostly Clear",
       "current_temperature": "29",
       "forecast": [
@@ -4776,15 +4807,15 @@
   "satellite": {
     "Pacific Northwest": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/pnw/13/GOES18-PNW-13-600x600.gif",
-      "last_modified": "Sun, 11 Oct 2026 07:11:15 GMT"
+      "last_modified": "Sun, 11 Oct 2026 07:41:07 GMT"
     },
     "North Pacific (macro)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/np/13/GOES18-NP-13-900x540.gif",
-      "last_modified": "Sun, 11 Oct 2026 07:11:24 GMT"
+      "last_modified": "Sun, 11 Oct 2026 07:41:16 GMT"
     },
     "Pacific US (PACUS)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/13/GOES18-CONUS-13-625x375.gif",
-      "last_modified": "Sun, 11 Oct 2026 07:05:50 GMT"
+      "last_modified": "Sun, 11 Oct 2026 07:35:40 GMT"
     }
   },
   "gfs_snowfall": {
