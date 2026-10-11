@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T12:22:53.824010+00:00",
+  "generated_at": "2026-10-11T12:30:17.206137+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -914,7 +914,7 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 25.0,
+        "wind_speed_mph": 24.0,
         "wind_direction_deg": 67.5,
         "snow_level_ft": 4016,
         "temp_f": 29
@@ -3087,12 +3087,12 @@
     "Hoodoo": {
       "elevation_ft": 4705,
       "temp_f": 29,
-      "wind_speed_mph": 25.0,
+      "wind_speed_mph": 24.0,
       "wind_direction_deg": 67.5,
       "snow_level_ft": 4016,
       "precip_chance_today": 6,
-      "snowfall_12h_in": 0.3,
-      "snowfall_24h_in": 0.5,
+      "snowfall_12h_in": 0.1,
+      "snowfall_24h_in": 0.3,
       "snowfall_48h_in": null
     },
     "Willamette Pass": {
@@ -4182,38 +4182,7 @@
     ]
   },
   "snotel": {
-    "Mt Bachelor area (Irish Taylor)": {
-      "snow_depth_in": 0,
-      "snow_depth_in_date": "2026-10-10",
-      "swe_in": 0.0,
-      "swe_in_date": "2026-10-10",
-      "change_12h_in": 0,
-      "change_24h_in": -1
-    },
-    "Three Creek / Tam McArthur (Three Creeks Meadow)": {
-      "snow_depth_in": 0,
-      "snow_depth_in_date": "2026-10-10",
-      "swe_in": 0.0,
-      "swe_in_date": "2026-10-10",
-      "change_12h_in": 0,
-      "change_24h_in": 0
-    },
-    "Santiam / Hoodoo (Hogg Pass)": {
-      "snow_depth_in": 0,
-      "snow_depth_in_date": "2026-10-10",
-      "swe_in": 0.0,
-      "swe_in_date": "2026-10-10",
-      "change_12h_in": 0,
-      "change_24h_in": 0
-    },
-    "Ochocos (Ochoco Meadows)": {
-      "snow_depth_in": 0,
-      "snow_depth_in_date": "2026-10-10",
-      "swe_in": 0.0,
-      "swe_in_date": "2026-10-10",
-      "change_12h_in": 0,
-      "change_24h_in": 0
-    }
+    "error": "HTTPSConnectionPool(host='wcc.sc.egov.usda.gov', port=443): Max retries exceeded with url: /awdbRestApi/services/v1/data?stationTriplets=545%3AOR%3ASNTL&elements=SNWD%2CWTEQ&duration=DAILY&getFlags=false&beginDate=-1&endDate=-1 (Caused by NameResolutionError(\"HTTPSConnection(host='wcc.sc.egov.usda.gov', port=443): Failed to resolve 'wcc.sc.egov.usda.gov' ([Errno -3] Temporary failure in name resolution)\"))"
   },
   "odot_cams": {
     "Century Drive": [
@@ -4634,8 +4603,8 @@
   "hoodoo": {
     "weather": {
       "Temperature": "28 &#176F",
-      "Wind": "ENE @ 25 MPH",
-      "Snow depth": "0.5\"",
+      "Wind": "ENE @ 24 MPH",
+      "Snow depth": "-0.1\"",
       "Humidity": "100 %",
       "Barometer": "29.60\" Hg",
       "Rain Gauge": "0.09\""
@@ -4644,11 +4613,11 @@
       "trend": {
         "Max": "0.9\"",
         "Min": "-1.7\"",
-        "1 Hr": "0.0\"",
+        "1 Hr": "-0.1\"",
         "3 Hr": "0.0\"",
-        "6 Hr": "0.1\"",
-        "12 Hr": "0.3\"",
-        "24 Hr": "0.5\""
+        "6 Hr": "-0.2\"",
+        "12 Hr": "0.1\"",
+        "24 Hr": "0.3\""
       },
       "season_total_in": 1.7
     },
