@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T08:15:18.059310+00:00",
+  "generated_at": "2026-10-13T08:30:20.264595+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -914,8 +914,8 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 4.0,
-        "wind_direction_deg": 112.5,
+        "wind_speed_mph": 5.0,
+        "wind_direction_deg": 90,
         "snow_level_ft": 5119,
         "temp_f": 32
       },
@@ -3087,12 +3087,12 @@
     "Hoodoo": {
       "elevation_ft": 4705,
       "temp_f": 32,
-      "wind_speed_mph": 4.0,
-      "wind_direction_deg": 112.5,
+      "wind_speed_mph": 5.0,
+      "wind_direction_deg": 90,
       "snow_level_ft": 5119,
       "precip_chance_today": 0,
-      "snowfall_12h_in": -0.8,
-      "snowfall_24h_in": -1.0,
+      "snowfall_12h_in": 0.1,
+      "snowfall_24h_in": -0.7,
       "snowfall_48h_in": null
     },
     "Willamette Pass": {
@@ -3206,12 +3206,12 @@
         "period": "historical"
       },
       {
-        "time": "2026-10-13T01:00:00+00:00",
-        "temp_f": 34.0,
-        "wind_speed_mph": 5.8,
-        "wind_direction_deg": 350,
-        "precip_in": 0.0,
-        "period": "forecast"
+        "time": "2026-10-13T01:00:00.000Z",
+        "temp_f": 29.49,
+        "wind_speed_mph": 8.71,
+        "wind_direction_deg": 289.9,
+        "precip_in": null,
+        "period": "historical"
       },
       {
         "time": "2026-10-13T02:00:00+00:00",
@@ -4094,22 +4094,7 @@
     ]
   },
   "snotel": {
-    "Mt Bachelor area (Irish Taylor)": {
-      "change_12h_in": 0,
-      "change_24h_in": 0
-    },
-    "Three Creek / Tam McArthur (Three Creeks Meadow)": {
-      "change_12h_in": 0,
-      "change_24h_in": 0
-    },
-    "Santiam / Hoodoo (Hogg Pass)": {
-      "change_12h_in": 0,
-      "change_24h_in": 0
-    },
-    "Ochocos (Ochoco Meadows)": {
-      "change_12h_in": 0,
-      "change_24h_in": 0
-    }
+    "error": "HTTPSConnectionPool(host='wcc.sc.egov.usda.gov', port=443): Max retries exceeded with url: /awdbRestApi/services/v1/data?stationTriplets=545%3AOR%3ASNTL&elements=SNWD%2CWTEQ&duration=DAILY&getFlags=false&beginDate=-1&endDate=-1 (Caused by NameResolutionError(\"HTTPSConnection(host='wcc.sc.egov.usda.gov', port=443): Failed to resolve 'wcc.sc.egov.usda.gov' ([Errno -3] Temporary failure in name resolution)\"))"
   },
   "odot_cams": {
     "Century Drive": [
@@ -4215,7 +4200,7 @@
   "mtbachelor": {
     "weather": {
       "current": {
-        "temperature": 29,
+        "temperature": 27,
         "weather_icon": "dor-sunny"
       },
       "forecast": [
@@ -4259,8 +4244,8 @@
           "day": "Thursday",
           "temperature_high": 60,
           "temperature_low": 39,
-          "precipitation_high": 37,
-          "precipitation_low": 37,
+          "precipitation_high": 38,
+          "precipitation_low": 38,
           "wind_speed": 10,
           "wind_direction": "SE"
         },
@@ -4272,12 +4257,12 @@
           "weather_icon": "dor-sunny",
           "id": 1792177200,
           "day": "Friday",
-          "temperature_high": 65,
+          "temperature_high": 64,
           "temperature_low": 44,
-          "precipitation_high": 33,
-          "precipitation_low": 33,
+          "precipitation_high": 34,
+          "precipitation_low": 34,
           "wind_speed": 6,
-          "wind_direction": "SSE"
+          "wind_direction": "S"
         },
         {
           "date": "2026-10-17",
@@ -4287,10 +4272,10 @@
           "weather_icon": "dor-mostlycloudy",
           "id": 1792263600,
           "day": "Saturday",
-          "temperature_high": 54,
+          "temperature_high": 53,
           "temperature_low": 39,
-          "precipitation_high": 49,
-          "precipitation_low": 49,
+          "precipitation_high": 48,
+          "precipitation_low": 48,
           "wind_speed": 4,
           "wind_direction": "W"
         },
@@ -4303,9 +4288,9 @@
           "id": 1792350000,
           "day": "Sunday",
           "temperature_high": 59,
-          "temperature_low": 39,
-          "precipitation_high": 43,
-          "precipitation_low": 43,
+          "temperature_low": 38,
+          "precipitation_high": 48,
+          "precipitation_low": 48,
           "wind_speed": 7,
           "wind_direction": "WSW"
         },
@@ -4348,10 +4333,10 @@
           "active": true,
           "primary": true,
           "nonstandardizedDataPoints": {
-            "depth": "144.9",
-            "timestamp": "2026-10-13T00:00:00.000Z"
+            "depth": "144.8",
+            "timestamp": "2026-10-13T01:00:00.000Z"
           },
-          "temperature": "28.89",
+          "temperature": "27.03",
           "wind": {
             "low": "0",
             "high": "0",
@@ -4371,14 +4356,14 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-10-13T00:00:00.000Z"
+            "timestamp": "2026-10-13T01:00:00.000Z"
           },
-          "temperature": "30.83",
+          "temperature": "31.4",
           "wind": {
-            "low": "5.426",
-            "high": "10.96",
+            "low": "4.422",
+            "high": "10.51",
             "current": null,
-            "average": "5.426",
+            "average": "4.422",
             "direction": "W"
           },
           "humidity": null,
@@ -4393,17 +4378,17 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-10-13T00:00:00.000Z"
+            "timestamp": "2026-10-13T01:00:00.000Z"
           },
-          "temperature": "27.6",
+          "temperature": "26.93",
           "wind": {
-            "low": "2.864",
-            "high": "9.8",
+            "low": "6.894",
+            "high": "13.19",
             "current": null,
-            "average": "2.864",
+            "average": "6.894",
             "direction": "ENE"
           },
-          "humidity": "84.1",
+          "humidity": "76.89",
           "display_name": "Pine Marten",
           "elevation_ft": 7800
         },
@@ -4415,14 +4400,14 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-10-13T00:00:00.000Z"
+            "timestamp": "2026-10-13T01:00:00.000Z"
           },
-          "temperature": "29.45",
+          "temperature": "29.49",
           "wind": {
-            "low": "9.89",
-            "high": "14.32",
+            "low": "8.71",
+            "high": "14.54",
             "current": null,
-            "average": "9.89",
+            "average": "8.71",
             "direction": "WNW"
           },
           "humidity": null,
@@ -4507,10 +4492,10 @@
   },
   "hoodoo": {
     "weather": {
-      "Temperature": "35 &#176F",
-      "Wind": "ESE @ 4 MPH",
-      "Snow depth": "-0.3\"",
-      "Humidity": "67 %",
+      "Temperature": "36 &#176F",
+      "Wind": "East @ 5 MPH",
+      "Snow depth": "-0.4\"",
+      "Humidity": "64 %",
       "Barometer": "29.97\" Hg",
       "Rain Gauge": "0.01\""
     },
@@ -4518,11 +4503,11 @@
       "trend": {
         "Max": "1.1\"",
         "Min": "-1.2\"",
-        "1 Hr": "-0.2\"",
-        "3 Hr": "-0.5\"",
-        "6 Hr": "-0.4\"",
-        "12 Hr": "-0.8\"",
-        "24 Hr": "-1.0\""
+        "1 Hr": "0.0\"",
+        "3 Hr": "-0.3\"",
+        "6 Hr": "-0.2\"",
+        "12 Hr": "0.1\"",
+        "24 Hr": "-0.7\""
       },
       "season_total_in": 1.7
     },
@@ -4564,10 +4549,10 @@
   "willamette_pass": {
     "forecast": {
       "weather_provider": "NOAA",
-      "date": "October 13, 2026, 12:55 am",
-      "time": 1791878126000,
+      "date": "October 13, 2026, 1:10 am",
+      "time": 1791879016000,
       "current_weather": "Clear",
-      "current_temperature": "33",
+      "current_temperature": "32",
       "forecast": [
         {
           "day": "Tuesday",
