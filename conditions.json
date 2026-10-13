@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T03:15:16.599962+00:00",
+  "generated_at": "2026-10-13T03:30:17.882978+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -7,7 +7,7 @@
         {
           "number": 1,
           "name": "Tonight",
-          "startTime": "2026-10-12T18:00:00-07:00",
+          "startTime": "2026-10-12T19:00:00-07:00",
           "endTime": "2026-10-13T06:00:00-07:00",
           "isDaytime": false,
           "temperature": 26,
@@ -914,7 +914,7 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 12.0,
+        "wind_speed_mph": 7.0,
         "wind_direction_deg": 337.5,
         "snow_level_ft": 5565,
         "temp_f": 36
@@ -3087,12 +3087,12 @@
     "Hoodoo": {
       "elevation_ft": 4705,
       "temp_f": 36,
-      "wind_speed_mph": 12.0,
+      "wind_speed_mph": 7.0,
       "wind_direction_deg": 337.5,
       "snow_level_ft": 5565,
       "precip_chance_today": 0,
-      "snowfall_12h_in": -0.1,
-      "snowfall_24h_in": -0.4,
+      "snowfall_12h_in": -0.3,
+      "snowfall_24h_in": -0.5,
       "snowfall_48h_in": null
     },
     "Willamette Pass": {
@@ -3166,12 +3166,12 @@
         "period": "historical"
       },
       {
-        "time": "2026-10-12T20:00:00+00:00",
-        "temp_f": 35.0,
-        "wind_speed_mph": 8.1,
-        "wind_direction_deg": 20,
-        "precip_in": 0.0,
-        "period": "forecast"
+        "time": "2026-10-12T20:00:00.000Z",
+        "temp_f": 27.59,
+        "wind_speed_mph": 8.47,
+        "wind_direction_deg": 276.7,
+        "precip_in": null,
+        "period": "historical"
       },
       {
         "time": "2026-10-12T21:00:00+00:00",
@@ -3800,10 +3800,6 @@
     ],
     "historical_precip_snapshots": [
       {
-        "time": "2026-10-10T03:15:20.627677+00:00",
-        "precip_in": 0
-      },
-      {
         "time": "2026-10-10T04:15:28.330400+00:00",
         "precip_in": 0
       },
@@ -4195,7 +4191,7 @@
   "mtbachelor": {
     "weather": {
       "current": {
-        "temperature": 35,
+        "temperature": 31,
         "weather_icon": "dor-sunny"
       },
       "forecast": [
@@ -4328,10 +4324,10 @@
           "active": true,
           "primary": true,
           "nonstandardizedDataPoints": {
-            "depth": "144.2",
-            "timestamp": "2026-10-12T19:00:00.000Z"
+            "depth": "144.8",
+            "timestamp": "2026-10-12T20:00:00.000Z"
           },
-          "temperature": "35.09",
+          "temperature": "30.78",
           "wind": {
             "low": "0",
             "high": "0",
@@ -4351,15 +4347,15 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-10-12T19:00:00.000Z"
+            "timestamp": "2026-10-12T20:00:00.000Z"
           },
-          "temperature": "30.14",
+          "temperature": "29.09",
           "wind": {
-            "low": "8.96",
-            "high": "15.21",
+            "low": "6.841",
+            "high": "12.75",
             "current": null,
-            "average": "8.96",
-            "direction": "W"
+            "average": "6.841",
+            "direction": "WNW"
           },
           "humidity": null,
           "display_name": "Sunrise",
@@ -4373,17 +4369,17 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-10-12T19:00:00.000Z"
+            "timestamp": "2026-10-12T20:00:00.000Z"
           },
-          "temperature": "28.9",
+          "temperature": "27.9",
           "wind": {
-            "low": "5.456",
-            "high": "12.22",
+            "low": "1.977",
+            "high": "10.04",
             "current": null,
-            "average": "5.456",
+            "average": "1.977",
             "direction": "WNW"
           },
-          "humidity": "93",
+          "humidity": "89.6",
           "display_name": "Pine Marten",
           "elevation_ft": 7800
         },
@@ -4395,15 +4391,15 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-10-12T19:00:00.000Z"
+            "timestamp": "2026-10-12T20:00:00.000Z"
           },
-          "temperature": "28.28",
+          "temperature": "27.59",
           "wind": {
-            "low": "10.26",
-            "high": "16.55",
+            "low": "8.47",
+            "high": "16.11",
             "current": null,
-            "average": "10.26",
-            "direction": "WSW"
+            "average": "8.47",
+            "direction": "W"
           },
           "humidity": null,
           "display_name": "Cloud Chaser",
@@ -4487,11 +4483,11 @@
   },
   "hoodoo": {
     "weather": {
-      "Temperature": "35 &#176F",
-      "Wind": "NNW @ 12 MPH",
-      "Snow depth": "0.0\"",
-      "Humidity": "94 %",
-      "Barometer": "29.91\" Hg",
+      "Temperature": "36 &#176F",
+      "Wind": "NNW @ 7 MPH",
+      "Snow depth": "-0.2\"",
+      "Humidity": "91 %",
+      "Barometer": "29.92\" Hg",
       "Rain Gauge": "0.01\""
     },
     "snow_totals": {
@@ -4499,10 +4495,10 @@
         "Max": "1.1\"",
         "Min": "-1.2\"",
         "1 Hr": "0.0\"",
-        "3 Hr": "0.4\"",
-        "6 Hr": "0.7\"",
-        "12 Hr": "-0.1\"",
-        "24 Hr": "-0.4\""
+        "3 Hr": "0.1\"",
+        "6 Hr": "0.3\"",
+        "12 Hr": "-0.3\"",
+        "24 Hr": "-0.5\""
       },
       "season_total_in": 1.7
     },
@@ -4544,14 +4540,14 @@
   "willamette_pass": {
     "forecast": {
       "weather_provider": "NOAA",
-      "date": "October 12, 2026, 8:04 pm",
-      "time": 1791860655000,
+      "date": "October 12, 2026, 8:19 pm",
+      "time": 1791861557000,
       "current_weather": "Mostly Clear",
       "current_temperature": "40",
       "forecast": [
         {
           "day": "Monday",
-          "night_forecast": "Mostly clear, with a low around 28. Northwest wind around 6 mph becoming light and variable. "
+          "night_forecast": "Mostly clear, with a low around 28. Light and variable wind becoming northeast around 5 mph after midnight. "
         },
         {
           "day": "Tuesday",
