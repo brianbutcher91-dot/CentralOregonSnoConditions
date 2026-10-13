@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T08:30:20.264595+00:00",
+  "generated_at": "2026-10-13T08:45:21.254823+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -7,7 +7,7 @@
         {
           "number": 1,
           "name": "Overnight",
-          "startTime": "2026-10-13T00:00:00-07:00",
+          "startTime": "2026-10-13T01:00:00-07:00",
           "endTime": "2026-10-13T06:00:00-07:00",
           "isDaytime": false,
           "temperature": 26,
@@ -314,7 +314,7 @@
         {
           "number": 1,
           "name": "Overnight",
-          "startTime": "2026-10-13T00:00:00-07:00",
+          "startTime": "2026-10-13T01:00:00-07:00",
           "endTime": "2026-10-13T06:00:00-07:00",
           "isDaytime": false,
           "temperature": 29,
@@ -621,7 +621,7 @@
         {
           "number": 1,
           "name": "Overnight",
-          "startTime": "2026-10-13T00:00:00-07:00",
+          "startTime": "2026-10-13T01:00:00-07:00",
           "endTime": "2026-10-13T06:00:00-07:00",
           "isDaytime": false,
           "temperature": 30,
@@ -637,7 +637,7 @@
           "shortForecast": "Widespread Frost",
           "detailedForecast": "Widespread frost. Mostly clear, with a low around 30. East northeast wind around 1 mph.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 5146
+          "snowLevelFt": 5119
         },
         {
           "number": 2,
@@ -914,8 +914,8 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 5.0,
-        "wind_direction_deg": 90,
+        "wind_speed_mph": 1,
+        "wind_direction_deg": 80,
         "snow_level_ft": 5119,
         "temp_f": 32
       },
@@ -928,7 +928,7 @@
         {
           "number": 1,
           "name": "Overnight",
-          "startTime": "2026-10-13T00:00:00-07:00",
+          "startTime": "2026-10-13T01:00:00-07:00",
           "endTime": "2026-10-13T06:00:00-07:00",
           "isDaytime": false,
           "temperature": 25,
@@ -1235,7 +1235,7 @@
         {
           "number": 1,
           "name": "Overnight",
-          "startTime": "2026-10-13T00:00:00-07:00",
+          "startTime": "2026-10-13T01:00:00-07:00",
           "endTime": "2026-10-13T06:00:00-07:00",
           "isDaytime": false,
           "temperature": 29,
@@ -1246,12 +1246,12 @@
             "value": 0
           },
           "windSpeed": "3 mph",
-          "windDirection": "E",
+          "windDirection": "ESE",
           "icon": "https://api.weather.gov/icons/land/night/few?size=medium",
           "shortForecast": "Mostly Clear",
-          "detailedForecast": "Mostly clear, with a low around 29. East wind around 3 mph.",
+          "detailedForecast": "Mostly clear, with a low around 29. East southeast wind around 3 mph.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 5092
+          "snowLevelFt": 4909
         },
         {
           "number": 2,
@@ -1542,7 +1542,7 @@
         {
           "number": 1,
           "name": "Overnight",
-          "startTime": "2026-10-13T00:00:00-07:00",
+          "startTime": "2026-10-13T01:00:00-07:00",
           "endTime": "2026-10-13T06:00:00-07:00",
           "isDaytime": false,
           "temperature": 33,
@@ -1558,7 +1558,7 @@
           "shortForecast": "Widespread Frost",
           "detailedForecast": "Widespread frost. Mostly clear, with a low around 33. East northeast wind around 6 mph.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 5564
+          "snowLevelFt": 5512
         },
         {
           "number": 2,
@@ -1849,7 +1849,7 @@
         {
           "number": 1,
           "name": "Overnight",
-          "startTime": "2026-10-13T00:00:00-07:00",
+          "startTime": "2026-10-13T01:00:00-07:00",
           "endTime": "2026-10-13T06:00:00-07:00",
           "isDaytime": false,
           "temperature": 27,
@@ -2770,7 +2770,7 @@
         {
           "number": 1,
           "name": "Overnight",
-          "startTime": "2026-10-13T00:00:00-07:00",
+          "startTime": "2026-10-13T01:00:00-07:00",
           "endTime": "2026-10-13T06:00:00-07:00",
           "isDaytime": false,
           "temperature": 15,
@@ -3087,12 +3087,12 @@
     "Hoodoo": {
       "elevation_ft": 4705,
       "temp_f": 32,
-      "wind_speed_mph": 5.0,
-      "wind_direction_deg": 90,
+      "wind_speed_mph": 1,
+      "wind_direction_deg": 80,
       "snow_level_ft": 5119,
       "precip_chance_today": 0,
-      "snowfall_12h_in": 0.1,
-      "snowfall_24h_in": -0.7,
+      "snowfall_12h_in": 0.2,
+      "snowfall_24h_in": -0.8,
       "snowfall_48h_in": null
     },
     "Willamette Pass": {
@@ -4090,11 +4090,46 @@
       {
         "time": "2026-10-13T07:30:22.656554+00:00",
         "precip_in": 0
+      },
+      {
+        "time": "2026-10-13T08:45:21.463674+00:00",
+        "precip_in": 0
       }
     ]
   },
   "snotel": {
-    "error": "HTTPSConnectionPool(host='wcc.sc.egov.usda.gov', port=443): Max retries exceeded with url: /awdbRestApi/services/v1/data?stationTriplets=545%3AOR%3ASNTL&elements=SNWD%2CWTEQ&duration=DAILY&getFlags=false&beginDate=-1&endDate=-1 (Caused by NameResolutionError(\"HTTPSConnection(host='wcc.sc.egov.usda.gov', port=443): Failed to resolve 'wcc.sc.egov.usda.gov' ([Errno -3] Temporary failure in name resolution)\"))"
+    "Mt Bachelor area (Irish Taylor)": {
+      "snow_depth_in": 0,
+      "snow_depth_in_date": "2026-10-12",
+      "swe_in": 0.0,
+      "swe_in_date": "2026-10-12",
+      "change_12h_in": 0,
+      "change_24h_in": -1
+    },
+    "Three Creek / Tam McArthur (Three Creeks Meadow)": {
+      "snow_depth_in": 0,
+      "snow_depth_in_date": "2026-10-12",
+      "swe_in": 0.0,
+      "swe_in_date": "2026-10-12",
+      "change_12h_in": 0,
+      "change_24h_in": 0
+    },
+    "Santiam / Hoodoo (Hogg Pass)": {
+      "snow_depth_in": 0,
+      "snow_depth_in_date": "2026-10-12",
+      "swe_in": 0.0,
+      "swe_in_date": "2026-10-12",
+      "change_12h_in": 0,
+      "change_24h_in": 0
+    },
+    "Ochocos (Ochoco Meadows)": {
+      "snow_depth_in": 0,
+      "snow_depth_in_date": "2026-10-12",
+      "swe_in": 0.0,
+      "swe_in_date": "2026-10-12",
+      "change_12h_in": 0,
+      "change_24h_in": 0
+    }
   },
   "odot_cams": {
     "Century Drive": [
@@ -4287,42 +4322,42 @@
           "weather_icon": "dor-sunny",
           "id": 1792350000,
           "day": "Sunday",
-          "temperature_high": 59,
+          "temperature_high": 53,
           "temperature_low": 38,
           "precipitation_high": 48,
           "precipitation_low": 48,
-          "wind_speed": 7,
-          "wind_direction": "WSW"
-        },
-        {
-          "date": "2026-10-19",
-          "description_long": "rain and snow",
-          "description_short": "rain and snow",
-          "details": "Snow",
-          "weather_icon": "dor-snow",
-          "id": 1792436400,
-          "day": "Monday",
-          "temperature_high": 35,
-          "temperature_low": 28,
-          "precipitation_high": 99,
-          "precipitation_low": 99,
           "wind_speed": 8,
           "wind_direction": "WSW"
         },
         {
+          "date": "2026-10-19",
+          "description_long": "snow",
+          "description_short": "snow",
+          "details": "Snow",
+          "weather_icon": "dor-snow",
+          "id": 1792436400,
+          "day": "Monday",
+          "temperature_high": 36,
+          "temperature_low": 29,
+          "precipitation_high": 98,
+          "precipitation_low": 98,
+          "wind_speed": 6,
+          "wind_direction": "W"
+        },
+        {
           "date": "2026-10-20",
-          "description_long": "light snow",
-          "description_short": "light snow",
+          "description_long": "snow",
+          "description_short": "snow",
           "details": "Snow",
           "weather_icon": "dor-snow",
           "id": 1792522800,
           "day": "Tuesday",
-          "temperature_high": 31,
-          "temperature_low": 27,
-          "precipitation_high": 92,
-          "precipitation_low": 92,
-          "wind_speed": 5,
-          "wind_direction": "WNW"
+          "temperature_high": 30,
+          "temperature_low": 26,
+          "precipitation_high": 94,
+          "precipitation_low": 94,
+          "wind_speed": 7,
+          "wind_direction": "W"
         }
       ],
       "sensors": {
@@ -4493,9 +4528,9 @@
   "hoodoo": {
     "weather": {
       "Temperature": "36 &#176F",
-      "Wind": "East @ 5 MPH",
-      "Snow depth": "-0.4\"",
-      "Humidity": "64 %",
+      "Wind": "4 MPH",
+      "Snow depth": "-0.5\"",
+      "Humidity": "65 %",
       "Barometer": "29.97\" Hg",
       "Rain Gauge": "0.01\""
     },
@@ -4503,11 +4538,11 @@
       "trend": {
         "Max": "1.1\"",
         "Min": "-1.2\"",
-        "1 Hr": "0.0\"",
+        "1 Hr": "0.1\"",
         "3 Hr": "-0.3\"",
-        "6 Hr": "-0.2\"",
-        "12 Hr": "0.1\"",
-        "24 Hr": "-0.7\""
+        "6 Hr": "-0.4\"",
+        "12 Hr": "0.2\"",
+        "24 Hr": "-0.8\""
       },
       "season_total_in": 1.7
     },
@@ -4549,8 +4584,8 @@
   "willamette_pass": {
     "forecast": {
       "weather_provider": "NOAA",
-      "date": "October 13, 2026, 1:10 am",
-      "time": 1791879016000,
+      "date": "October 13, 2026, 1:19 am",
+      "time": 1791879552000,
       "current_weather": "Clear",
       "current_temperature": "32",
       "forecast": [
@@ -4658,15 +4693,15 @@
   "satellite": {
     "Pacific Northwest": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/pnw/13/GOES18-PNW-13-600x600.gif",
-      "last_modified": "Tue, 13 Oct 2026 08:11:00 GMT"
+      "last_modified": "Tue, 13 Oct 2026 08:40:47 GMT"
     },
     "North Pacific (macro)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/np/13/GOES18-NP-13-900x540.gif",
-      "last_modified": "Tue, 13 Oct 2026 08:11:09 GMT"
+      "last_modified": "Tue, 13 Oct 2026 08:40:56 GMT"
     },
     "Pacific US (PACUS)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/13/GOES18-CONUS-13-625x375.gif",
-      "last_modified": "Tue, 13 Oct 2026 08:05:40 GMT"
+      "last_modified": "Tue, 13 Oct 2026 08:35:28 GMT"
     }
   },
   "gfs_snowfall": {
