@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T12:15:19.213866+00:00",
+  "generated_at": "2026-10-14T12:30:16.157546+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -2156,7 +2156,7 @@
         {
           "number": 1,
           "name": "Overnight",
-          "startTime": "2026-10-14T04:00:00-07:00",
+          "startTime": "2026-10-14T05:00:00-07:00",
           "endTime": "2026-10-14T06:00:00-07:00",
           "isDaytime": false,
           "temperature": 39,
@@ -2172,7 +2172,7 @@
           "shortForecast": "Mostly Clear",
           "detailedForecast": "Mostly clear, with a low around 39. Southwest wind around 3 mph.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 8793
+          "snowLevelFt": 8399
         },
         {
           "number": 2,
@@ -3110,14 +3110,6 @@
   "bachelor_timeseries": {
     "hourly": [
       {
-        "time": "2026-10-13T05:00:00.000Z",
-        "temp_f": 34.83,
-        "wind_speed_mph": 11.75,
-        "wind_direction_deg": 284.1,
-        "precip_in": null,
-        "period": "historical"
-      },
-      {
         "time": "2026-10-13T06:00:00.000Z",
         "temp_f": 35.86,
         "wind_speed_mph": 13.36,
@@ -3302,12 +3294,12 @@
         "period": "historical"
       },
       {
-        "time": "2026-10-14T05:00:00+00:00",
-        "temp_f": 35.0,
-        "wind_speed_mph": 3.5,
-        "wind_direction_deg": 320,
-        "precip_in": 0.0,
-        "period": "forecast"
+        "time": "2026-10-14T05:00:00.000Z",
+        "temp_f": 44.06,
+        "wind_speed_mph": 8.91,
+        "wind_direction_deg": 250.2,
+        "precip_in": null,
+        "period": "historical"
       },
       {
         "time": "2026-10-14T06:00:00+00:00",
@@ -4327,7 +4319,7 @@
   "mtbachelor": {
     "weather": {
       "current": {
-        "temperature": 36,
+        "temperature": 35,
         "weather_icon": "dor-mostlysunny"
       },
       "forecast": [
@@ -4461,9 +4453,9 @@
           "primary": true,
           "nonstandardizedDataPoints": {
             "depth": "160.5",
-            "timestamp": "2026-10-14T04:00:00.000Z"
+            "timestamp": "2026-10-14T05:00:00.000Z"
           },
-          "temperature": "36.08",
+          "temperature": "35.19",
           "wind": {
             "low": "0",
             "high": "0",
@@ -4483,14 +4475,14 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-10-14T04:00:00.000Z"
+            "timestamp": "2026-10-14T05:00:00.000Z"
           },
-          "temperature": "45.25",
+          "temperature": "45.15",
           "wind": {
-            "low": "6.262",
-            "high": "11.63",
+            "low": "8.34",
+            "high": "12.53",
             "current": null,
-            "average": "6.262",
+            "average": "8.34",
             "direction": "WSW"
           },
           "humidity": null,
@@ -4527,15 +4519,15 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-10-14T04:00:00.000Z"
+            "timestamp": "2026-10-14T05:00:00.000Z"
           },
-          "temperature": "43.99",
+          "temperature": "44.06",
           "wind": {
-            "low": "7.416",
-            "high": "11.63",
+            "low": "8.91",
+            "high": "13.87",
             "current": null,
-            "average": "7.416",
-            "direction": "W"
+            "average": "8.91",
+            "direction": "WSW"
           },
           "humidity": null,
           "display_name": "Cloud Chaser",
@@ -4675,8 +4667,8 @@
   "willamette_pass": {
     "forecast": {
       "weather_provider": "NOAA",
-      "date": "October 14, 2026, 4:55 am",
-      "time": 1791978918000,
+      "date": "October 14, 2026, 5:04 am",
+      "time": 1791979457000,
       "current_weather": "Sunny",
       "current_temperature": "40",
       "forecast": [
