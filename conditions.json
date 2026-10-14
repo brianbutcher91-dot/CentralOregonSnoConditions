@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T08:00:31.574451+00:00",
+  "generated_at": "2026-10-14T08:15:20.462996+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -7,7 +7,7 @@
         {
           "number": 1,
           "name": "Overnight",
-          "startTime": "2026-10-14T00:00:00-07:00",
+          "startTime": "2026-10-14T01:00:00-07:00",
           "endTime": "2026-10-14T06:00:00-07:00",
           "isDaytime": false,
           "temperature": 34,
@@ -314,7 +314,7 @@
         {
           "number": 1,
           "name": "Overnight",
-          "startTime": "2026-10-14T01:00:00-07:00",
+          "startTime": "2026-10-14T00:00:00-07:00",
           "endTime": "2026-10-14T06:00:00-07:00",
           "isDaytime": false,
           "temperature": 38,
@@ -928,7 +928,7 @@
         {
           "number": 1,
           "name": "Overnight",
-          "startTime": "2026-10-14T01:00:00-07:00",
+          "startTime": "2026-10-14T00:00:00-07:00",
           "endTime": "2026-10-14T06:00:00-07:00",
           "isDaytime": false,
           "temperature": 34,
@@ -1235,7 +1235,7 @@
         {
           "number": 1,
           "name": "Overnight",
-          "startTime": "2026-10-14T01:00:00-07:00",
+          "startTime": "2026-10-14T00:00:00-07:00",
           "endTime": "2026-10-14T06:00:00-07:00",
           "isDaytime": false,
           "temperature": 36,
@@ -1247,11 +1247,11 @@
           },
           "windSpeed": "5 mph",
           "windDirection": "NW",
-          "icon": "https://api.weather.gov/icons/land/night/few?size=medium",
-          "shortForecast": "Mostly Clear",
-          "detailedForecast": "Mostly clear, with a low around 36. Northwest wind around 5 mph.",
+          "icon": "https://api.weather.gov/icons/land/night/sct?size=medium",
+          "shortForecast": "Partly Cloudy",
+          "detailedForecast": "Partly cloudy, with a low around 36. Northwest wind around 5 mph.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 8872
+          "snowLevelFt": 9029
         },
         {
           "number": 2,
@@ -1849,7 +1849,7 @@
         {
           "number": 1,
           "name": "Overnight",
-          "startTime": "2026-10-14T01:00:00-07:00",
+          "startTime": "2026-10-14T00:00:00-07:00",
           "endTime": "2026-10-14T06:00:00-07:00",
           "isDaytime": false,
           "temperature": 36,
@@ -2156,7 +2156,7 @@
         {
           "number": 1,
           "name": "Overnight",
-          "startTime": "2026-10-14T00:00:00-07:00",
+          "startTime": "2026-10-14T01:00:00-07:00",
           "endTime": "2026-10-14T06:00:00-07:00",
           "isDaytime": false,
           "temperature": 39,
@@ -2463,7 +2463,7 @@
         {
           "number": 1,
           "name": "Overnight",
-          "startTime": "2026-10-14T01:00:00-07:00",
+          "startTime": "2026-10-14T00:00:00-07:00",
           "endTime": "2026-10-14T06:00:00-07:00",
           "isDaytime": false,
           "temperature": 33,
@@ -4186,6 +4186,10 @@
       {
         "time": "2026-10-14T07:00:32.078271+00:00",
         "precip_in": 0
+      },
+      {
+        "time": "2026-10-14T08:15:20.686729+00:00",
+        "precip_in": 0
       }
     ]
   },
@@ -4317,16 +4321,16 @@
       "forecast": [
         {
           "date": "2026-10-14",
-          "description_long": "broken clouds",
-          "description_short": "broken clouds",
+          "description_long": "overcast clouds",
+          "description_short": "overcast clouds",
           "details": "Clouds",
           "weather_icon": "dor-mostlycloudy",
           "id": 1792004400,
           "day": "Wednesday",
-          "temperature_high": 56,
-          "temperature_low": 23,
-          "precipitation_high": 46,
-          "precipitation_low": 46,
+          "temperature_high": 57,
+          "temperature_low": 24,
+          "precipitation_high": 49,
+          "precipitation_low": 49,
           "wind_speed": 3,
           "wind_direction": "N"
         },
@@ -4338,10 +4342,10 @@
           "weather_icon": "dor-sunny",
           "id": 1792090800,
           "day": "Thursday",
-          "temperature_high": 60,
-          "temperature_low": 23,
-          "precipitation_high": 38,
-          "precipitation_low": 38,
+          "temperature_high": 64,
+          "temperature_low": 24,
+          "precipitation_high": 35,
+          "precipitation_low": 35,
           "wind_speed": 10,
           "wind_direction": "SE"
         },
@@ -4659,8 +4663,8 @@
   "willamette_pass": {
     "forecast": {
       "weather_provider": "NOAA",
-      "date": "October 14, 2026, 12:52 am",
-      "time": 1791964347000,
+      "date": "October 14, 2026, 1:07 am",
+      "time": 1791965247000,
       "current_weather": "Decreasing Clouds",
       "current_temperature": "42",
       "forecast": [
@@ -4700,11 +4704,6 @@
       "min_temp": "36",
       "hourly": [
         {
-          "time": "12a",
-          "temp": "39",
-          "details": ""
-        },
-        {
           "time": "2a",
           "temp": "38",
           "details": ""
@@ -4722,6 +4721,11 @@
         {
           "time": "8a",
           "temp": "37",
+          "details": ""
+        },
+        {
+          "time": "10a",
+          "temp": "48",
           "details": ""
         }
       ],
@@ -4768,15 +4772,15 @@
   "satellite": {
     "Pacific Northwest": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/pnw/13/GOES18-PNW-13-600x600.gif",
-      "last_modified": "Wed, 14 Oct 2026 07:40:53 GMT"
+      "last_modified": "Wed, 14 Oct 2026 08:10:49 GMT"
     },
     "North Pacific (macro)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/np/13/GOES18-NP-13-900x540.gif",
-      "last_modified": "Wed, 14 Oct 2026 07:41:02 GMT"
+      "last_modified": "Wed, 14 Oct 2026 08:10:58 GMT"
     },
     "Pacific US (PACUS)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/13/GOES18-CONUS-13-625x375.gif",
-      "last_modified": "Wed, 14 Oct 2026 07:35:30 GMT"
+      "last_modified": "Wed, 14 Oct 2026 08:05:28 GMT"
     }
   },
   "gfs_snowfall": {
