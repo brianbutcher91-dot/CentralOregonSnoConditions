@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T01:00:36.909270+00:00",
+  "generated_at": "2026-10-14T01:15:23.117864+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -914,8 +914,8 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 2,
-        "wind_direction_deg": 300,
+        "wind_speed_mph": 8.0,
+        "wind_direction_deg": 292.5,
         "snow_level_ft": 9581,
         "temp_f": 49
       },
@@ -3087,12 +3087,12 @@
     "Hoodoo": {
       "elevation_ft": 4705,
       "temp_f": 49,
-      "wind_speed_mph": 2,
-      "wind_direction_deg": 300,
+      "wind_speed_mph": 8.0,
+      "wind_direction_deg": 292.5,
       "snow_level_ft": 9581,
       "precip_chance_today": 3,
-      "snowfall_12h_in": null,
-      "snowfall_24h_in": null,
+      "snowfall_12h_in": -0.4,
+      "snowfall_24h_in": -0.6,
       "snowfall_48h_in": null
     },
     "Willamette Pass": {
@@ -4186,6 +4186,10 @@
       {
         "time": "2026-10-14T00:15:20.591355+00:00",
         "precip_in": 0
+      },
+      {
+        "time": "2026-10-14T01:15:23.550693+00:00",
+        "precip_in": 0
       }
     ]
   },
@@ -4339,7 +4343,7 @@
           "weather_icon": "dor-sunny",
           "id": 1791918000,
           "day": "Tuesday",
-          "temperature_high": 49,
+          "temperature_high": 48,
           "temperature_low": 18,
           "precipitation_high": 41,
           "precipitation_low": 41,
@@ -4618,10 +4622,24 @@
     }
   },
   "hoodoo": {
-    "weather": {},
+    "weather": {
+      "Temperature": "48 &#176F",
+      "Wind": "WNW @ 8 MPH",
+      "Snow depth": "-0.4\"",
+      "Humidity": "61 %",
+      "Barometer": "30.17\" Hg"
+    },
     "snow_totals": {
-      "trend": {},
-      "season_total_in": null
+      "trend": {
+        "Max": "1.1\"",
+        "Min": "-1.6\"",
+        "1 Hr": "0.2\"",
+        "3 Hr": "0.3\"",
+        "6 Hr": "-0.5\"",
+        "12 Hr": "-0.4\"",
+        "24 Hr": "-0.6\""
+      },
+      "season_total_in": 1.7
     },
     "webcams": {
       "Base Area": {
@@ -4661,8 +4679,8 @@
   "willamette_pass": {
     "forecast": {
       "weather_provider": "NOAA",
-      "date": "October 13, 2026, 5:55 pm",
-      "time": 1791939324000,
+      "date": "October 13, 2026, 6:07 pm",
+      "time": 1791940041000,
       "current_weather": "Partly Cloudy",
       "current_temperature": "59",
       "forecast": [
@@ -4774,15 +4792,15 @@
   "satellite": {
     "Pacific Northwest": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/pnw/13/GOES18-PNW-13-600x600.gif",
-      "last_modified": "Wed, 14 Oct 2026 00:41:06 GMT"
+      "last_modified": "Wed, 14 Oct 2026 01:11:36 GMT"
     },
     "North Pacific (macro)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/np/13/GOES18-NP-13-900x540.gif",
-      "last_modified": "Wed, 14 Oct 2026 00:41:15 GMT"
+      "last_modified": "Wed, 14 Oct 2026 01:11:45 GMT"
     },
     "Pacific US (PACUS)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/13/GOES18-CONUS-13-625x375.gif",
-      "last_modified": "Wed, 14 Oct 2026 00:35:42 GMT"
+      "last_modified": "Wed, 14 Oct 2026 01:05:57 GMT"
     }
   },
   "gfs_snowfall": {
