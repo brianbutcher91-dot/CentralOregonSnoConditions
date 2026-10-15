@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T03:45:19.159445+00:00",
+  "generated_at": "2026-10-15T03:53:17.508714+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -928,7 +928,7 @@
         {
           "number": 1,
           "name": "Tonight",
-          "startTime": "2026-10-14T20:00:00-07:00",
+          "startTime": "2026-10-14T18:00:00-07:00",
           "endTime": "2026-10-15T06:00:00-07:00",
           "isDaytime": false,
           "temperature": 36,
@@ -936,7 +936,7 @@
           "temperatureTrend": null,
           "probabilityOfPrecipitation": {
             "unitCode": "wmoUnit:percent",
-            "value": 0
+            "value": 1
           },
           "windSpeed": "5 to 8 mph",
           "windDirection": "E",
@@ -944,7 +944,7 @@
           "shortForecast": "Mostly Clear",
           "detailedForecast": "Mostly clear, with a low around 36. East wind 5 to 8 mph.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 9869
+          "snowLevelFt": 9446
         },
         {
           "number": 2,
@@ -2770,7 +2770,7 @@
         {
           "number": 1,
           "name": "Tonight",
-          "startTime": "2026-10-14T18:00:00-07:00",
+          "startTime": "2026-10-14T20:00:00-07:00",
           "endTime": "2026-10-15T06:00:00-07:00",
           "isDaytime": false,
           "temperature": 27,
@@ -2778,15 +2778,15 @@
           "temperatureTrend": null,
           "probabilityOfPrecipitation": {
             "unitCode": "wmoUnit:percent",
-            "value": 1
+            "value": 0
           },
-          "windSpeed": "1 to 5 mph",
+          "windSpeed": "2 mph",
           "windDirection": "E",
           "icon": "https://api.weather.gov/icons/land/night/few?size=medium",
           "shortForecast": "Widespread Frost",
-          "detailedForecast": "Widespread frost after 11pm. Mostly clear. Low around 27, with temperatures rising to around 29 overnight. East wind 1 to 5 mph.",
+          "detailedForecast": "Widespread frost after 11pm. Mostly clear. Low around 27, with temperatures rising to around 29 overnight. East wind around 2 mph.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 9344
+          "snowLevelFt": 9974
         },
         {
           "number": 2,
@@ -3091,8 +3091,8 @@
       "wind_direction_deg": 90,
       "snow_level_ft": 9580,
       "precip_chance_today": 0,
-      "snowfall_12h_in": -0.5,
-      "snowfall_24h_in": 0.0,
+      "snowfall_12h_in": 0.0,
+      "snowfall_24h_in": 0.3,
       "snowfall_48h_in": null
     },
     "Willamette Pass": {
@@ -3928,10 +3928,6 @@
     ],
     "historical_precip_snapshots": [
       {
-        "time": "2026-10-12T03:45:56.276505+00:00",
-        "precip_in": 0
-      },
-      {
         "time": "2026-10-12T05:00:34.153530+00:00",
         "precip_in": 0
       },
@@ -4619,9 +4615,9 @@
   },
   "hoodoo": {
     "weather": {
-      "Temperature": "50 &#176F",
+      "Temperature": "49 &#176F",
       "Wind": "East @ 27 MPH",
-      "Snow depth": "-0.6\"",
+      "Snow depth": "0.0\"",
       "Humidity": "70 %",
       "Barometer": "30.41\" Hg"
     },
@@ -4629,11 +4625,11 @@
       "trend": {
         "Max": "0.7\"",
         "Min": "-2.5\"",
-        "1 Hr": "-0.2\"",
-        "3 Hr": "0.1\"",
-        "6 Hr": "0.4\"",
-        "12 Hr": "-0.5\"",
-        "24 Hr": "0.0\""
+        "1 Hr": "0.2\"",
+        "3 Hr": "0.5\"",
+        "6 Hr": "1.2\"",
+        "12 Hr": "0.0\"",
+        "24 Hr": "0.3\""
       },
       "season_total_in": 1.7
     },
@@ -4675,14 +4671,14 @@
   "willamette_pass": {
     "forecast": {
       "weather_provider": "NOAA",
-      "date": "October 14, 2026, 8:22 pm",
-      "time": 1792034537000,
+      "date": "October 14, 2026, 8:52 pm",
+      "time": 1792036341000,
       "current_weather": "Clear",
-      "current_temperature": "56",
+      "current_temperature": "54",
       "forecast": [
         {
           "day": "Wednesday",
-          "night_forecast": "Clear, with a low around 38. Calm wind becoming east 5 to 9 mph in the evening. "
+          "night_forecast": "Clear, with a low around 38. Light east northeast wind becoming east 5 to 9 mph in the evening. "
         },
         {
           "day": "Thursday",
