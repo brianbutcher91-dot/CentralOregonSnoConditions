@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T12:00:55.713079+00:00",
+  "generated_at": "2026-10-16T12:15:19.824271+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -914,8 +914,8 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 8.0,
-        "wind_direction_deg": 67.5,
+        "wind_speed_mph": 10.0,
+        "wind_direction_deg": 157.5,
         "snow_level_ft": 9003,
         "temp_f": 41
       },
@@ -3087,12 +3087,12 @@
     "Hoodoo": {
       "elevation_ft": 4705,
       "temp_f": 41,
-      "wind_speed_mph": 8.0,
-      "wind_direction_deg": 67.5,
+      "wind_speed_mph": 10.0,
+      "wind_direction_deg": 157.5,
       "snow_level_ft": 9003,
       "precip_chance_today": 0,
-      "snowfall_12h_in": 1.5,
-      "snowfall_24h_in": 0.5,
+      "snowfall_12h_in": 1.2,
+      "snowfall_24h_in": 0.8,
       "snowfall_48h_in": null
     },
     "Willamette Pass": {
@@ -3936,10 +3936,6 @@
     ],
     "historical_precip_snapshots": [
       {
-        "time": "2026-10-13T12:15:18.065321+00:00",
-        "precip_in": 0
-      },
-      {
         "time": "2026-10-13T13:15:24.416885+00:00",
         "precip_in": 0
       },
@@ -4190,42 +4186,15 @@
       {
         "time": "2026-10-16T11:15:19.383730+00:00",
         "precip_in": 0
+      },
+      {
+        "time": "2026-10-16T12:15:20.227828+00:00",
+        "precip_in": 0
       }
     ]
   },
   "snotel": {
-    "Mt Bachelor area (Irish Taylor)": {
-      "snow_depth_in": 0,
-      "snow_depth_in_date": "2026-10-15",
-      "swe_in": 0.1,
-      "swe_in_date": "2026-10-15",
-      "change_12h_in": 0,
-      "change_24h_in": 0
-    },
-    "Three Creek / Tam McArthur (Three Creeks Meadow)": {
-      "snow_depth_in": 0,
-      "snow_depth_in_date": "2026-10-15",
-      "swe_in": 0.0,
-      "swe_in_date": "2026-10-15",
-      "change_12h_in": 0,
-      "change_24h_in": 0
-    },
-    "Santiam / Hoodoo (Hogg Pass)": {
-      "snow_depth_in": 0,
-      "snow_depth_in_date": "2026-10-15",
-      "swe_in": 0.1,
-      "swe_in_date": "2026-10-15",
-      "change_12h_in": 0,
-      "change_24h_in": 0
-    },
-    "Ochocos (Ochoco Meadows)": {
-      "snow_depth_in": 0,
-      "snow_depth_in_date": "2026-10-15",
-      "swe_in": 0.0,
-      "swe_in_date": "2026-10-15",
-      "change_12h_in": 0,
-      "change_24h_in": 0
-    }
+    "error": "502 Server Error: Bad Gateway for url: https://wcc.sc.egov.usda.gov/awdbRestApi/services/v1/data?stationTriplets=545%3AOR%3ASNTL&elements=SNWD%2CWTEQ&duration=DAILY&getFlags=false&beginDate=-1&endDate=-1"
   },
   "odot_cams": {
     "Century Drive": [
@@ -4623,21 +4592,21 @@
   },
   "hoodoo": {
     "weather": {
-      "Temperature": "53 &#176F",
-      "Wind": "ENE @ 8 MPH",
-      "Snow depth": "-0.1\"",
-      "Humidity": "35 %",
+      "Temperature": "59 &#176F",
+      "Wind": "SSE @ 10 MPH",
+      "Snow depth": "0.1\"",
+      "Humidity": "21 %",
       "Barometer": "30.41\" Hg"
     },
     "snow_totals": {
       "trend": {
         "Max": "0.6\"",
         "Min": "-2.7\"",
-        "1 Hr": "0.5\"",
+        "1 Hr": "0.0\"",
         "3 Hr": "0.1\"",
-        "6 Hr": "0.7\"",
-        "12 Hr": "1.5\"",
-        "24 Hr": "0.5\""
+        "6 Hr": "0.5\"",
+        "12 Hr": "1.2\"",
+        "24 Hr": "0.8\""
       },
       "season_total_in": 1.7
     },
@@ -4785,15 +4754,15 @@
   "satellite": {
     "Pacific Northwest": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/pnw/13/GOES18-PNW-13-600x600.gif",
-      "last_modified": "Fri, 16 Oct 2026 11:41:22 GMT"
+      "last_modified": "Fri, 16 Oct 2026 12:11:32 GMT"
     },
     "North Pacific (macro)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/np/13/GOES18-NP-13-900x540.gif",
-      "last_modified": "Fri, 16 Oct 2026 11:41:31 GMT"
+      "last_modified": "Fri, 16 Oct 2026 12:11:42 GMT"
     },
     "Pacific US (PACUS)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/13/GOES18-CONUS-13-625x375.gif",
-      "last_modified": "Fri, 16 Oct 2026 11:35:58 GMT"
+      "last_modified": "Fri, 16 Oct 2026 12:06:03 GMT"
     }
   },
   "gfs_snowfall": {
