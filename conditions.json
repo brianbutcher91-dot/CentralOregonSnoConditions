@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T13:16:12.286946+00:00",
+  "generated_at": "2026-10-16T13:30:18.862250+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -914,7 +914,7 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 12.0,
+        "wind_speed_mph": 13.0,
         "wind_direction_deg": 180,
         "snow_level_ft": 8976,
         "temp_f": 41
@@ -3087,12 +3087,12 @@
     "Hoodoo": {
       "elevation_ft": 4705,
       "temp_f": 41,
-      "wind_speed_mph": 12.0,
+      "wind_speed_mph": 13.0,
       "wind_direction_deg": 180,
       "snow_level_ft": 8976,
       "precip_chance_today": 0,
-      "snowfall_12h_in": null,
-      "snowfall_24h_in": null,
+      "snowfall_12h_in": 0.3,
+      "snowfall_24h_in": 0.0,
       "snowfall_48h_in": null
     },
     "Willamette Pass": {
@@ -4220,7 +4220,105 @@
     }
   },
   "odot_cams": {
-    "error": "HTTPSConnectionPool(host='api.odot.state.or.us', port=443): Max retries exceeded with url: /tripcheck/Cctv/Inventory?DeviceName=Century+Dr (Caused by NameResolutionError(\"HTTPSConnection(host='api.odot.state.or.us', port=443): Failed to resolve 'api.odot.state.or.us' ([Errno -5] No address associated with hostname)\"))"
+    "Century Drive": [
+      {
+        "device-id": 768,
+        "device-name": "Century Dr at MP 21.11 E",
+        "latitude": 43.99178,
+        "longitude": -121.65663,
+        "hwy-id": "",
+        "route-id": "CITY",
+        "milepoint": 21.11,
+        "cctv-url": "http://www.TripCheck.com/roadcams/cams/Century Dr at MP 21.11 E_pid3545.JPG",
+        "cctv-other": "Century Drive at MP 21.11",
+        "last-update-time": "2026-10-16T03:44:58.853-07:00",
+        "tripcheck_link": "https://www.tripcheck.com/Pages/View-Custom-Cameras/?CamIds=3545"
+      },
+      {
+        "device-id": 771,
+        "device-name": "Century Dr at MP 21.11 W",
+        "latitude": 43.99178,
+        "longitude": -121.65663,
+        "hwy-id": "",
+        "route-id": "CITY",
+        "milepoint": 21.11,
+        "cctv-url": "http://www.TripCheck.com/roadcams/cams/Century Dr at MP 21.11 W_pid3557.JPG",
+        "cctv-other": "Century Drive at MP 21.11",
+        "last-update-time": "2026-10-16T03:44:59.103-07:00",
+        "tripcheck_link": "https://www.tripcheck.com/Pages/View-Custom-Cameras/?CamIds=3557"
+      }
+    ],
+    "Santiam Pass": [
+      {
+        "device-id": 567,
+        "device-name": "Santiam Pass EB",
+        "latitude": 44.422,
+        "longitude": -121.85731,
+        "hwy-id": "016",
+        "route-id": "US20",
+        "milepoint": 80.14,
+        "cctv-url": "http://www.TripCheck.com/roadcams/cams/Santiam Pass_pid2728.JPG",
+        "cctv-other": "US20 at Santiam Pass",
+        "last-update-time": "2026-10-16T03:44:50.587-07:00",
+        "tripcheck_link": "https://www.tripcheck.com/Pages/View-Custom-Cameras/?CamIds=2728"
+      },
+      {
+        "device-id": 1443,
+        "device-name": "Santiam Pass WB",
+        "latitude": 44.422,
+        "longitude": -121.8573,
+        "hwy-id": "016",
+        "route-id": "US20",
+        "milepoint": 80.14,
+        "cctv-url": "http://www.TripCheck.com/roadcams/cams/Santiam Pass WB_pid5258.jpg",
+        "cctv-other": "US20 at Santiam Pass",
+        "last-update-time": "2026-10-16T03:44:50.573-07:00",
+        "tripcheck_link": "https://www.tripcheck.com/Pages/View-Custom-Cameras/?CamIds=5258"
+      }
+    ],
+    "Tombstone Pass": [
+      {
+        "device-id": 332,
+        "device-name": "US20 at Tombstone",
+        "latitude": 44.39548,
+        "longitude": -122.14151,
+        "hwy-id": "016",
+        "route-id": "US20",
+        "milepoint": 63.64,
+        "cctv-url": "http://www.TripCheck.com/roadcams/cams/US20atTombstone_pid1354.jpg",
+        "cctv-other": "US20 at Tombstone",
+        "last-update-time": "2026-10-13T17:46:58.37-07:00",
+        "tripcheck_link": "https://www.tripcheck.com/Pages/View-Custom-Cameras/?CamIds=1354"
+      }
+    ],
+    "Willamette Pass": [
+      {
+        "device-id": 207,
+        "device-name": "OR58 at Willamette Pass",
+        "latitude": 43.59702,
+        "longitude": -122.03383,
+        "hwy-id": "018",
+        "route-id": "OR58",
+        "milepoint": 62.0,
+        "cctv-url": "http://www.TripCheck.com/roadcams/cams/WillamettePass_pid658.jpg",
+        "cctv-other": "OR58 at Willamette Pass",
+        "last-update-time": "2026-10-16T03:44:58.68-07:00",
+        "tripcheck_link": "https://www.tripcheck.com/Pages/View-Custom-Cameras/?CamIds=658"
+      },
+      {
+        "device-id": 721,
+        "device-name": "OR58 at Willamette Pass W",
+        "latitude": 43.59702,
+        "longitude": -122.03386,
+        "hwy-id": "018",
+        "route-id": "OR58",
+        "milepoint": 62.0,
+        "cctv-url": "http://www.TripCheck.com/roadcams/cams/Willamette Pass_pid3351.JPG",
+        "cctv-other": "OR58 at Willamette Pass",
+        "last-update-time": "2026-10-16T03:44:57.273-07:00",
+        "tripcheck_link": "https://www.tripcheck.com/Pages/View-Custom-Cameras/?CamIds=3351"
+      }
+    ]
   },
   "mtbachelor": {
     "weather": {
@@ -4261,48 +4359,48 @@
         },
         {
           "date": "2026-10-18",
-          "description_long": "few clouds",
-          "description_short": "few clouds",
+          "description_long": "scattered clouds",
+          "description_short": "scattered clouds",
           "details": "Clouds",
-          "weather_icon": "dor-mostlysunny",
+          "weather_icon": "dor-cloudy",
           "id": 1792350000,
           "day": "Sunday",
           "temperature_high": 56,
-          "temperature_low": 34,
-          "precipitation_high": 45,
-          "precipitation_low": 45,
-          "wind_speed": 8,
+          "temperature_low": 37,
+          "precipitation_high": 44,
+          "precipitation_low": 44,
+          "wind_speed": 7,
           "wind_direction": "SSW"
         },
         {
           "date": "2026-10-19",
-          "description_long": "rain and snow",
-          "description_short": "rain and snow",
-          "details": "Snow",
-          "weather_icon": "dor-snow",
+          "description_long": "overcast clouds",
+          "description_short": "overcast clouds",
+          "details": "Clouds",
+          "weather_icon": "dor-mostlycloudy",
           "id": 1792436400,
           "day": "Monday",
-          "temperature_high": 47,
-          "temperature_low": 31,
-          "precipitation_high": 61,
-          "precipitation_low": 61,
-          "wind_speed": 4,
+          "temperature_high": 46,
+          "temperature_low": 32,
+          "precipitation_high": 72,
+          "precipitation_low": 72,
+          "wind_speed": 6,
           "wind_direction": "SSW"
         },
         {
           "date": "2026-10-20",
-          "description_long": "rain and snow",
-          "description_short": "rain and snow",
-          "details": "Snow",
-          "weather_icon": "dor-snow",
+          "description_long": "scattered clouds",
+          "description_short": "scattered clouds",
+          "details": "Clouds",
+          "weather_icon": "dor-cloudy",
           "id": 1792522800,
           "day": "Tuesday",
-          "temperature_high": 45,
-          "temperature_low": 31,
-          "precipitation_high": 69,
-          "precipitation_low": 69,
-          "wind_speed": 5,
-          "wind_direction": "ENE"
+          "temperature_high": 50,
+          "temperature_low": 32,
+          "precipitation_high": 59,
+          "precipitation_low": 59,
+          "wind_speed": 4,
+          "wind_direction": "E"
         },
         {
           "date": "2026-10-21",
@@ -4312,41 +4410,41 @@
           "weather_icon": "dor-rain",
           "id": 1792609200,
           "day": "Wednesday",
-          "temperature_high": 50,
-          "temperature_low": 34,
-          "precipitation_high": 53,
-          "precipitation_low": 53,
-          "wind_speed": 4,
+          "temperature_high": 56,
+          "temperature_low": 38,
+          "precipitation_high": 47,
+          "precipitation_low": 47,
+          "wind_speed": 3,
           "wind_direction": "NNE"
         },
         {
           "date": "2026-10-22",
-          "description_long": "scattered clouds",
-          "description_short": "scattered clouds",
+          "description_long": "broken clouds",
+          "description_short": "broken clouds",
           "details": "Clouds",
-          "weather_icon": "dor-cloudy",
+          "weather_icon": "dor-mostlycloudy",
           "id": 1792695600,
           "day": "Thursday",
-          "temperature_high": 56,
+          "temperature_high": 53,
           "temperature_low": 32,
-          "precipitation_high": 26,
-          "precipitation_low": 26,
-          "wind_speed": 7,
+          "precipitation_high": 32,
+          "precipitation_low": 32,
+          "wind_speed": 8,
           "wind_direction": "WNW"
         },
         {
           "date": "2026-10-23",
-          "description_long": "few clouds",
-          "description_short": "few clouds",
-          "details": "Clouds",
-          "weather_icon": "dor-mostlysunny",
+          "description_long": "light snow",
+          "description_short": "light snow",
+          "details": "Snow",
+          "weather_icon": "dor-snow",
           "id": 1792782000,
           "day": "Friday",
-          "temperature_high": 44,
-          "temperature_low": 22,
-          "precipitation_high": 20,
-          "precipitation_low": 20,
-          "wind_speed": 8,
+          "temperature_high": 41,
+          "temperature_low": 27,
+          "precipitation_high": 77,
+          "precipitation_low": 77,
+          "wind_speed": 6,
           "wind_direction": "WNW"
         }
       ],
@@ -4518,14 +4616,22 @@
   "hoodoo": {
     "weather": {
       "Temperature": "61 &#176F",
-      "Wind": "South @ 12 MPH",
-      "Snow depth": "-0.2\"",
-      "Humidity": "16 %",
-      "Barometer": "30.40\" Hg"
+      "Wind": "South @ 13 MPH",
+      "Snow depth": "-0.6\"",
+      "Humidity": "17 %",
+      "Barometer": "30.39\" Hg"
     },
     "snow_totals": {
-      "trend": {},
-      "season_total_in": null
+      "trend": {
+        "Max": "0.6\"",
+        "Min": "-2.7\"",
+        "1 Hr": "-0.3\"",
+        "3 Hr": "-0.5\"",
+        "6 Hr": "-0.4\"",
+        "12 Hr": "0.3\"",
+        "24 Hr": "0.0\""
+      },
+      "season_total_in": 1.7
     },
     "webcams": {
       "Base Area": {
@@ -4565,8 +4671,8 @@
   "willamette_pass": {
     "forecast": {
       "weather_provider": "NOAA",
-      "date": "October 16, 2026, 5:58 am",
-      "time": 1792155495000,
+      "date": "October 16, 2026, 6:28 am",
+      "time": 1792157297000,
       "current_weather": "Sunny",
       "current_temperature": "49",
       "forecast": [
@@ -4607,11 +4713,6 @@
       "min_temp": "39",
       "hourly": [
         {
-          "time": "5a",
-          "temp": "41",
-          "details": ""
-        },
-        {
           "time": "8a",
           "temp": "40",
           "details": ""
@@ -4629,6 +4730,11 @@
         {
           "time": "2p",
           "temp": "67",
+          "details": ""
+        },
+        {
+          "time": "4p",
+          "temp": "69",
           "details": ""
         }
       ],
