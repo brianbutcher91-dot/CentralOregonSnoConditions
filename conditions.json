@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T11:15:21.313302+00:00",
+  "generated_at": "2026-10-17T11:30:18.525964+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -7,23 +7,23 @@
         {
           "number": 1,
           "name": "Overnight",
-          "startTime": "2026-10-17T04:00:00-07:00",
+          "startTime": "2026-10-17T00:00:00-07:00",
           "endTime": "2026-10-17T06:00:00-07:00",
           "isDaytime": false,
-          "temperature": 37,
+          "temperature": 38,
           "temperatureUnit": "F",
           "temperatureTrend": null,
           "probabilityOfPrecipitation": {
             "unitCode": "wmoUnit:percent",
             "value": 0
           },
-          "windSpeed": "16 mph",
+          "windSpeed": "13 to 16 mph",
           "windDirection": "W",
           "icon": "https://api.weather.gov/icons/land/night/bkn?size=medium",
           "shortForecast": "Mostly Cloudy",
-          "detailedForecast": "Mostly cloudy. Low around 37, with temperatures rising to around 41 overnight. West wind around 16 mph.",
+          "detailedForecast": "Mostly cloudy. Low around 38, with temperatures rising to around 41 overnight. West wind 13 to 16 mph.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 9055
+          "snowLevelFt": 8872
         },
         {
           "number": 2,
@@ -914,7 +914,7 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 19.0,
+        "wind_speed_mph": 15.0,
         "wind_direction_deg": 247.5,
         "snow_level_ft": 9055,
         "temp_f": 44
@@ -1235,7 +1235,7 @@
         {
           "number": 1,
           "name": "Overnight",
-          "startTime": "2026-10-17T04:00:00-07:00",
+          "startTime": "2026-10-17T03:00:00-07:00",
           "endTime": "2026-10-17T06:00:00-07:00",
           "isDaytime": false,
           "temperature": 39,
@@ -1251,7 +1251,7 @@
           "shortForecast": "Mostly Cloudy",
           "detailedForecast": "Mostly cloudy. Low around 39, with temperatures rising to around 41 overnight. West northwest wind around 7 mph.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 8976
+          "snowLevelFt": 9003
         },
         {
           "number": 2,
@@ -2156,23 +2156,23 @@
         {
           "number": 1,
           "name": "Overnight",
-          "startTime": "2026-10-17T04:00:00-07:00",
+          "startTime": "2026-10-17T00:00:00-07:00",
           "endTime": "2026-10-17T06:00:00-07:00",
           "isDaytime": false,
-          "temperature": 43,
+          "temperature": 44,
           "temperatureUnit": "F",
           "temperatureTrend": null,
           "probabilityOfPrecipitation": {
             "unitCode": "wmoUnit:percent",
             "value": 0
           },
-          "windSpeed": "7 mph",
+          "windSpeed": "7 to 12 mph",
           "windDirection": "SW",
           "icon": "https://api.weather.gov/icons/land/night/bkn?size=medium",
           "shortForecast": "Mostly Cloudy",
-          "detailedForecast": "Mostly cloudy. Low around 43, with temperatures rising to around 47 overnight. Southwest wind around 7 mph.",
+          "detailedForecast": "Mostly cloudy. Low around 44, with temperatures rising to around 47 overnight. Southwest wind 7 to 12 mph, with gusts as high as 24 mph.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 9134
+          "snowLevelFt": 8819
         },
         {
           "number": 2,
@@ -3087,12 +3087,12 @@
     "Hoodoo": {
       "elevation_ft": 4705,
       "temp_f": 44,
-      "wind_speed_mph": 19.0,
+      "wind_speed_mph": 15.0,
       "wind_direction_deg": 247.5,
       "snow_level_ft": 9055,
       "precip_chance_today": 2,
-      "snowfall_12h_in": 1.4,
-      "snowfall_24h_in": 0.0,
+      "snowfall_12h_in": 1.2,
+      "snowfall_24h_in": 0.4,
       "snowfall_48h_in": null
     },
     "Willamette Pass": {
@@ -3109,14 +3109,6 @@
   },
   "bachelor_timeseries": {
     "hourly": [
-      {
-        "time": "2026-10-16T04:00:00.000Z",
-        "temp_f": 49.15,
-        "wind_speed_mph": 17.18,
-        "wind_direction_deg": 151.0,
-        "precip_in": null,
-        "period": "historical"
-      },
       {
         "time": "2026-10-16T05:00:00.000Z",
         "temp_f": 48.67,
@@ -3298,6 +3290,14 @@
         "temp_f": 48.22,
         "wind_speed_mph": 20.88,
         "wind_direction_deg": 230.5,
+        "precip_in": null,
+        "period": "historical"
+      },
+      {
+        "time": "2026-10-17T04:00:00.000Z",
+        "temp_f": 47.22,
+        "wind_speed_mph": 18.83,
+        "wind_direction_deg": 230.9,
         "precip_in": null,
         "period": "historical"
       },
@@ -4319,7 +4319,7 @@
   "mtbachelor": {
     "weather": {
       "current": {
-        "temperature": 51,
+        "temperature": 50,
         "weather_icon": "dor-mostlycloudy"
       },
       "forecast": [
@@ -4453,9 +4453,9 @@
           "primary": true,
           "nonstandardizedDataPoints": {
             "depth": "142.3",
-            "timestamp": "2026-10-17T03:00:00.000Z"
+            "timestamp": "2026-10-17T04:00:00.000Z"
           },
-          "temperature": "51.36",
+          "temperature": "50.45",
           "wind": {
             "low": "0",
             "high": "0",
@@ -4475,14 +4475,14 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-10-17T03:00:00.000Z"
+            "timestamp": "2026-10-17T04:00:00.000Z"
           },
-          "temperature": "49.52",
+          "temperature": "48.71",
           "wind": {
-            "low": "16.1",
-            "high": "29.53",
+            "low": "16.47",
+            "high": "32.88",
             "current": null,
-            "average": "16.1",
+            "average": "16.47",
             "direction": "WSW"
           },
           "humidity": null,
@@ -4519,14 +4519,14 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-10-17T03:00:00.000Z"
+            "timestamp": "2026-10-17T04:00:00.000Z"
           },
-          "temperature": "48.22",
+          "temperature": "47.22",
           "wind": {
-            "low": "20.88",
-            "high": "32.66",
+            "low": "18.83",
+            "high": "31.54",
             "current": null,
-            "average": "20.88",
+            "average": "18.83",
             "direction": "SW"
           },
           "humidity": null,
@@ -4611,21 +4611,21 @@
   },
   "hoodoo": {
     "weather": {
-      "Temperature": "48 &#176F",
-      "Wind": "WSW @ 19 MPH",
-      "Snow depth": "0.1\"",
-      "Humidity": "62 %",
+      "Temperature": "47 &#176F",
+      "Wind": "WSW @ 15 MPH",
+      "Snow depth": "-0.1\"",
+      "Humidity": "67 %",
       "Barometer": "30.28\" Hg"
     },
     "snow_totals": {
       "trend": {
         "Max": "0.6\"",
         "Min": "-3.4\"",
-        "1 Hr": "0.1\"",
-        "3 Hr": "0.3\"",
-        "6 Hr": "0.2\"",
-        "12 Hr": "1.4\"",
-        "24 Hr": "0.0\""
+        "1 Hr": "0.0\"",
+        "3 Hr": "0.2\"",
+        "6 Hr": "0.3\"",
+        "12 Hr": "1.2\"",
+        "24 Hr": "0.4\""
       },
       "season_total_in": 1.7
     },
