@@ -1,19 +1,11 @@
 {
-  "generated_at": "2026-10-17T20:15:14.783534+00:00",
+  "generated_at": "2026-10-17T20:19:37.133903+00:00",
   "forecast": {
-    "error": "500 Server Error: Internal Server Error for url: https://api.weather.gov/gridpoints/PDT/34,24/forecast"
+    "error": "500 Server Error: Internal Server Error for url: https://api.weather.gov/gridpoints/PDT/71,52/forecast"
   },
   "wind_roses": {},
   "bachelor_timeseries": {
     "hourly": [
-      {
-        "time": "2026-10-16T13:00:00.000Z",
-        "temp_f": 57.44,
-        "wind_speed_mph": 12.8,
-        "wind_direction_deg": 107.8,
-        "precip_in": null,
-        "period": "historical"
-      },
       {
         "time": "2026-10-16T14:00:00.000Z",
         "temp_f": 58.19,
@@ -199,12 +191,12 @@
         "period": "historical"
       },
       {
-        "time": "2026-10-17T13:00:00+00:00",
-        "temp_f": 42.0,
-        "wind_speed_mph": 17.3,
-        "wind_direction_deg": 270,
-        "precip_in": 0.0,
-        "period": "forecast"
+        "time": "2026-10-17T13:00:00.000Z",
+        "temp_f": 47.95,
+        "wind_speed_mph": 7.556,
+        "wind_direction_deg": 259.6,
+        "precip_in": null,
+        "period": "historical"
       },
       {
         "time": "2026-10-17T14:00:00+00:00",
@@ -1224,7 +1216,7 @@
   "mtbachelor": {
     "weather": {
       "current": {
-        "temperature": 52,
+        "temperature": 54,
         "weather_icon": "dor-mostlycloudy"
       },
       "forecast": [
@@ -1357,10 +1349,10 @@
           "active": true,
           "primary": true,
           "nonstandardizedDataPoints": {
-            "depth": "142.4",
-            "timestamp": "2026-10-17T12:00:00.000Z"
+            "depth": "143",
+            "timestamp": "2026-10-17T13:00:00.000Z"
           },
-          "temperature": "51.71",
+          "temperature": "54.08",
           "wind": {
             "low": "0",
             "high": "0",
@@ -1380,15 +1372,15 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-10-17T12:00:00.000Z"
+            "timestamp": "2026-10-17T13:00:00.000Z"
           },
-          "temperature": "50.27",
+          "temperature": "50.42",
           "wind": {
-            "low": "7.996",
-            "high": "24.16",
+            "low": "9.97",
+            "high": "23.49",
             "current": null,
-            "average": "7.996",
-            "direction": "WSW"
+            "average": "9.97",
+            "direction": "W"
           },
           "humidity": null,
           "display_name": "Sunrise",
@@ -1424,14 +1416,14 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-10-17T12:00:00.000Z"
+            "timestamp": "2026-10-17T13:00:00.000Z"
           },
-          "temperature": "48.57",
+          "temperature": "47.95",
           "wind": {
-            "low": "6.076",
-            "high": "18.12",
+            "low": "7.556",
+            "high": "21.48",
             "current": null,
-            "average": "6.076",
+            "average": "7.556",
             "direction": "W"
           },
           "humidity": null,
@@ -1517,19 +1509,19 @@
   "hoodoo": {
     "weather": {
       "Temperature": "49 &#176F",
-      "Wind": "SW @ 11 MPH",
-      "Snow depth": "-0.3\"",
-      "Humidity": "68 %",
+      "Wind": "SW @ 9 MPH",
+      "Snow depth": "-0.9\"",
+      "Humidity": "69 %",
       "Barometer": "30.27\" Hg"
     },
     "snow_totals": {
       "trend": {
         "Max": "0.6\"",
         "Min": "-3.4\"",
-        "1 Hr": "-0.1\"",
-        "3 Hr": "0.1\"",
-        "6 Hr": "-0.3\"",
-        "12 Hr": "-0.3\""
+        "1 Hr": "0.3\"",
+        "3 Hr": "-0.1\"",
+        "6 Hr": "-0.8\"",
+        "12 Hr": "-0.7\""
       },
       "season_total_in": 1.7
     },
