@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T12:15:22.750550+00:00",
+  "generated_at": "2026-10-17T12:30:30.100303+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -3091,8 +3091,8 @@
       "wind_direction_deg": 225,
       "snow_level_ft": 8923,
       "precip_chance_today": 2,
-      "snowfall_12h_in": 1.2,
-      "snowfall_24h_in": -0.4,
+      "snowfall_12h_in": 1.0,
+      "snowfall_24h_in": -0.1,
       "snowfall_48h_in": null
     },
     "Willamette Pass": {
@@ -3109,14 +3109,6 @@
   },
   "bachelor_timeseries": {
     "hourly": [
-      {
-        "time": "2026-10-16T05:00:00.000Z",
-        "temp_f": 48.67,
-        "wind_speed_mph": 17.29,
-        "wind_direction_deg": 149.5,
-        "precip_in": null,
-        "period": "historical"
-      },
       {
         "time": "2026-10-16T06:00:00.000Z",
         "temp_f": 48.52,
@@ -3302,12 +3294,12 @@
         "period": "historical"
       },
       {
-        "time": "2026-10-17T05:00:00+00:00",
-        "temp_f": 45.0,
-        "wind_speed_mph": 8.1,
-        "wind_direction_deg": 260,
-        "precip_in": 0.0,
-        "period": "forecast"
+        "time": "2026-10-17T05:00:00.000Z",
+        "temp_f": 46.71,
+        "wind_speed_mph": 19.47,
+        "wind_direction_deg": 234.9,
+        "precip_in": null,
+        "period": "historical"
       },
       {
         "time": "2026-10-17T06:00:00+00:00",
@@ -4190,7 +4182,38 @@
     ]
   },
   "snotel": {
-    "error": "500 Server Error: Internal Server Error for url: https://wcc.sc.egov.usda.gov/awdbRestApi/services/v1/data?stationTriplets=671%3AOR%3ASNTL&elements=SNWD%2CWTEQ&duration=DAILY&getFlags=false&beginDate=-1&endDate=-1"
+    "Mt Bachelor area (Irish Taylor)": {
+      "snow_depth_in": 0,
+      "snow_depth_in_date": "2026-10-16",
+      "swe_in": 0.1,
+      "swe_in_date": "2026-10-16",
+      "change_12h_in": 0,
+      "change_24h_in": 0
+    },
+    "Three Creek / Tam McArthur (Three Creeks Meadow)": {
+      "snow_depth_in": 0,
+      "snow_depth_in_date": "2026-10-16",
+      "swe_in": 0.0,
+      "swe_in_date": "2026-10-16",
+      "change_12h_in": 0,
+      "change_24h_in": 0
+    },
+    "Santiam / Hoodoo (Hogg Pass)": {
+      "snow_depth_in": 0,
+      "snow_depth_in_date": "2026-10-16",
+      "swe_in": 0.0,
+      "swe_in_date": "2026-10-16",
+      "change_12h_in": 0,
+      "change_24h_in": 0
+    },
+    "Ochocos (Ochoco Meadows)": {
+      "snow_depth_in": 0,
+      "snow_depth_in_date": "2026-10-16",
+      "swe_in": 0.0,
+      "swe_in_date": "2026-10-16",
+      "change_12h_in": 0,
+      "change_24h_in": 0
+    }
   },
   "odot_cams": {
     "Century Drive": [
@@ -4296,7 +4319,7 @@
   "mtbachelor": {
     "weather": {
       "current": {
-        "temperature": 50,
+        "temperature": 49,
         "weather_icon": "dor-mostlycloudy"
       },
       "forecast": [
@@ -4430,9 +4453,9 @@
           "primary": true,
           "nonstandardizedDataPoints": {
             "depth": "142.3",
-            "timestamp": "2026-10-17T04:00:00.000Z"
+            "timestamp": "2026-10-17T05:00:00.000Z"
           },
-          "temperature": "50.45",
+          "temperature": "49.03",
           "wind": {
             "low": "0",
             "high": "0",
@@ -4452,14 +4475,14 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-10-17T04:00:00.000Z"
+            "timestamp": "2026-10-17T05:00:00.000Z"
           },
-          "temperature": "48.71",
+          "temperature": "47.28",
           "wind": {
-            "low": "16.47",
-            "high": "32.88",
+            "low": "15.54",
+            "high": "29.3",
             "current": null,
-            "average": "16.47",
+            "average": "15.54",
             "direction": "WSW"
           },
           "humidity": null,
@@ -4496,14 +4519,14 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-10-17T04:00:00.000Z"
+            "timestamp": "2026-10-17T05:00:00.000Z"
           },
-          "temperature": "47.22",
+          "temperature": "46.71",
           "wind": {
-            "low": "18.83",
-            "high": "31.54",
+            "low": "19.47",
+            "high": "35.79",
             "current": null,
-            "average": "18.83",
+            "average": "19.47",
             "direction": "SW"
           },
           "humidity": null,
@@ -4590,19 +4613,19 @@
     "weather": {
       "Temperature": "45 &#176F",
       "Wind": "SW @ 17 MPH",
-      "Snow depth": "-0.3\"",
-      "Humidity": "70 %",
+      "Snow depth": "-0.2\"",
+      "Humidity": "73 %",
       "Barometer": "30.27\" Hg"
     },
     "snow_totals": {
       "trend": {
         "Max": "0.6\"",
         "Min": "-3.4\"",
-        "1 Hr": "-0.4\"",
-        "3 Hr": "-0.3\"",
-        "6 Hr": "-0.3\"",
-        "12 Hr": "1.2\"",
-        "24 Hr": "-0.4\""
+        "1 Hr": "-0.3\"",
+        "3 Hr": "-0.2\"",
+        "6 Hr": "0.2\"",
+        "12 Hr": "1.0\"",
+        "24 Hr": "-0.1\""
       },
       "season_total_in": 1.7
     },
@@ -4644,8 +4667,8 @@
   "willamette_pass": {
     "forecast": {
       "weather_provider": "NOAA",
-      "date": "October 17, 2026, 4:49 am",
-      "time": 1792237765000,
+      "date": "October 17, 2026, 5:04 am",
+      "time": 1792238656000,
       "current_weather": "Partly Sunny",
       "current_temperature": "50",
       "forecast": [
