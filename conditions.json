@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T08:00:17.022524+00:00",
+  "generated_at": "2026-10-17T08:15:17.364182+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -314,7 +314,7 @@
         {
           "number": 1,
           "name": "Overnight",
-          "startTime": "2026-10-17T00:00:00-07:00",
+          "startTime": "2026-10-17T01:00:00-07:00",
           "endTime": "2026-10-17T06:00:00-07:00",
           "isDaytime": false,
           "temperature": 43,
@@ -621,7 +621,7 @@
         {
           "number": 1,
           "name": "Overnight",
-          "startTime": "2026-10-17T00:00:00-07:00",
+          "startTime": "2026-10-17T01:00:00-07:00",
           "endTime": "2026-10-17T06:00:00-07:00",
           "isDaytime": false,
           "temperature": 42,
@@ -637,7 +637,7 @@
           "shortForecast": "Mostly Cloudy",
           "detailedForecast": "Mostly cloudy. Low around 42, with temperatures rising to around 44 overnight. West southwest wind around 8 mph.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 9055
+          "snowLevelFt": 9108
         },
         {
           "number": 2,
@@ -928,7 +928,7 @@
         {
           "number": 1,
           "name": "Overnight",
-          "startTime": "2026-10-17T00:00:00-07:00",
+          "startTime": "2026-10-17T01:00:00-07:00",
           "endTime": "2026-10-17T06:00:00-07:00",
           "isDaytime": false,
           "temperature": 41,
@@ -1235,7 +1235,7 @@
         {
           "number": 1,
           "name": "Overnight",
-          "startTime": "2026-10-17T00:00:00-07:00",
+          "startTime": "2026-10-17T01:00:00-07:00",
           "endTime": "2026-10-17T06:00:00-07:00",
           "isDaytime": false,
           "temperature": 39,
@@ -1251,7 +1251,7 @@
           "shortForecast": "Mostly Cloudy",
           "detailedForecast": "Mostly cloudy. Low around 39, with temperatures rising to around 41 overnight. West wind around 7 mph.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 8845
+          "snowLevelFt": 8898
         },
         {
           "number": 2,
@@ -1542,7 +1542,7 @@
         {
           "number": 1,
           "name": "Overnight",
-          "startTime": "2026-10-17T00:00:00-07:00",
+          "startTime": "2026-10-17T01:00:00-07:00",
           "endTime": "2026-10-17T06:00:00-07:00",
           "isDaytime": false,
           "temperature": 44,
@@ -4208,7 +4208,105 @@
     }
   },
   "odot_cams": {
-    "error": "HTTPSConnectionPool(host='api.odot.state.or.us', port=443): Max retries exceeded with url: /tripcheck/Cctv/Inventory?DeviceName=Century+Dr (Caused by NameResolutionError(\"HTTPSConnection(host='api.odot.state.or.us', port=443): Failed to resolve 'api.odot.state.or.us' ([Errno -3] Temporary failure in name resolution)\"))"
+    "Century Drive": [
+      {
+        "device-id": 768,
+        "device-name": "Century Dr at MP 21.11 E",
+        "latitude": 43.99178,
+        "longitude": -121.65663,
+        "hwy-id": "",
+        "route-id": "CITY",
+        "milepoint": 21.11,
+        "cctv-url": "http://www.TripCheck.com/roadcams/cams/Century Dr at MP 21.11 E_pid3545.JPG",
+        "cctv-other": "Century Drive at MP 21.11",
+        "last-update-time": "2026-10-16T03:44:58.853-07:00",
+        "tripcheck_link": "https://www.tripcheck.com/Pages/View-Custom-Cameras/?CamIds=3545"
+      },
+      {
+        "device-id": 771,
+        "device-name": "Century Dr at MP 21.11 W",
+        "latitude": 43.99178,
+        "longitude": -121.65663,
+        "hwy-id": "",
+        "route-id": "CITY",
+        "milepoint": 21.11,
+        "cctv-url": "http://www.TripCheck.com/roadcams/cams/Century Dr at MP 21.11 W_pid3557.JPG",
+        "cctv-other": "Century Drive at MP 21.11",
+        "last-update-time": "2026-10-16T03:44:59.103-07:00",
+        "tripcheck_link": "https://www.tripcheck.com/Pages/View-Custom-Cameras/?CamIds=3557"
+      }
+    ],
+    "Santiam Pass": [
+      {
+        "device-id": 567,
+        "device-name": "Santiam Pass EB",
+        "latitude": 44.422,
+        "longitude": -121.85731,
+        "hwy-id": "016",
+        "route-id": "US20",
+        "milepoint": 80.14,
+        "cctv-url": "http://www.TripCheck.com/roadcams/cams/Santiam Pass_pid2728.JPG",
+        "cctv-other": "US20 at Santiam Pass",
+        "last-update-time": "2026-10-16T03:44:50.587-07:00",
+        "tripcheck_link": "https://www.tripcheck.com/Pages/View-Custom-Cameras/?CamIds=2728"
+      },
+      {
+        "device-id": 1443,
+        "device-name": "Santiam Pass WB",
+        "latitude": 44.422,
+        "longitude": -121.8573,
+        "hwy-id": "016",
+        "route-id": "US20",
+        "milepoint": 80.14,
+        "cctv-url": "http://www.TripCheck.com/roadcams/cams/Santiam Pass WB_pid5258.jpg",
+        "cctv-other": "US20 at Santiam Pass",
+        "last-update-time": "2026-10-16T03:44:50.573-07:00",
+        "tripcheck_link": "https://www.tripcheck.com/Pages/View-Custom-Cameras/?CamIds=5258"
+      }
+    ],
+    "Tombstone Pass": [
+      {
+        "device-id": 332,
+        "device-name": "US20 at Tombstone",
+        "latitude": 44.39548,
+        "longitude": -122.14151,
+        "hwy-id": "016",
+        "route-id": "US20",
+        "milepoint": 63.64,
+        "cctv-url": "http://www.TripCheck.com/roadcams/cams/US20atTombstone_pid1354.jpg",
+        "cctv-other": "US20 at Tombstone",
+        "last-update-time": "2026-10-13T17:46:58.37-07:00",
+        "tripcheck_link": "https://www.tripcheck.com/Pages/View-Custom-Cameras/?CamIds=1354"
+      }
+    ],
+    "Willamette Pass": [
+      {
+        "device-id": 207,
+        "device-name": "OR58 at Willamette Pass",
+        "latitude": 43.59702,
+        "longitude": -122.03383,
+        "hwy-id": "018",
+        "route-id": "OR58",
+        "milepoint": 62.0,
+        "cctv-url": "http://www.TripCheck.com/roadcams/cams/WillamettePass_pid658.jpg",
+        "cctv-other": "OR58 at Willamette Pass",
+        "last-update-time": "2026-10-16T03:44:58.68-07:00",
+        "tripcheck_link": "https://www.tripcheck.com/Pages/View-Custom-Cameras/?CamIds=658"
+      },
+      {
+        "device-id": 721,
+        "device-name": "OR58 at Willamette Pass W",
+        "latitude": 43.59702,
+        "longitude": -122.03386,
+        "hwy-id": "018",
+        "route-id": "OR58",
+        "milepoint": 62.0,
+        "cctv-url": "http://www.TripCheck.com/roadcams/cams/Willamette Pass_pid3351.JPG",
+        "cctv-other": "OR58 at Willamette Pass",
+        "last-update-time": "2026-10-16T03:44:57.273-07:00",
+        "tripcheck_link": "https://www.tripcheck.com/Pages/View-Custom-Cameras/?CamIds=3351"
+      }
+    ]
   },
   "mtbachelor": {
     "weather": {
@@ -4225,25 +4323,25 @@
           "weather_icon": "dor-mostlycloudy",
           "id": 1792263600,
           "day": "Saturday",
-          "temperature_high": 54,
-          "temperature_low": 24,
-          "precipitation_high": 44,
-          "precipitation_low": 44,
+          "temperature_high": 58,
+          "temperature_low": 21,
+          "precipitation_high": 45,
+          "precipitation_low": 45,
           "wind_speed": 5,
           "wind_direction": "WSW"
         },
         {
           "date": "2026-10-18",
-          "description_long": "few clouds",
-          "description_short": "few clouds",
-          "details": "Clouds",
-          "weather_icon": "dor-mostlysunny",
+          "description_long": "clear sky",
+          "description_short": "clear sky",
+          "details": "Clear",
+          "weather_icon": "dor-sunny",
           "id": 1792350000,
           "day": "Sunday",
-          "temperature_high": 56,
-          "temperature_low": 16,
-          "precipitation_high": 44,
-          "precipitation_low": 44,
+          "temperature_high": 57,
+          "temperature_low": 17,
+          "precipitation_high": 45,
+          "precipitation_low": 45,
           "wind_speed": 7,
           "wind_direction": "SSW"
         },
@@ -4560,8 +4658,8 @@
   "willamette_pass": {
     "forecast": {
       "weather_provider": "NOAA",
-      "date": "October 17, 2026, 12:40 am",
-      "time": 1792222821000,
+      "date": "October 17, 2026, 12:49 am",
+      "time": 1792223373000,
       "current_weather": "Mostly Cloudy",
       "current_temperature": "51",
       "forecast": [
@@ -4665,15 +4763,15 @@
   "satellite": {
     "Pacific Northwest": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/pnw/13/GOES18-PNW-13-600x600.gif",
-      "last_modified": "Sat, 17 Oct 2026 07:41:24 GMT"
+      "last_modified": "Sat, 17 Oct 2026 08:11:14 GMT"
     },
     "North Pacific (macro)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/np/13/GOES18-NP-13-900x540.gif",
-      "last_modified": "Sat, 17 Oct 2026 07:41:34 GMT"
+      "last_modified": "Sat, 17 Oct 2026 08:11:24 GMT"
     },
     "Pacific US (PACUS)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/13/GOES18-CONUS-13-625x375.gif",
-      "last_modified": "Sat, 17 Oct 2026 07:35:58 GMT"
+      "last_modified": "Sat, 17 Oct 2026 08:05:50 GMT"
     }
   },
   "gfs_snowfall": {
