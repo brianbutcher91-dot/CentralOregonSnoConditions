@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T21:15:15.037453+00:00",
+  "generated_at": "2026-10-19T21:30:20.364516+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -3091,8 +3091,8 @@
       "wind_direction_deg": 90,
       "snow_level_ft": 7437,
       "precip_chance_today": 17,
-      "snowfall_12h_in": -0.3,
-      "snowfall_24h_in": 0.3,
+      "snowfall_12h_in": -0.4,
+      "snowfall_24h_in": 0.2,
       "snowfall_48h_in": null
     },
     "Willamette Pass": {
@@ -3109,14 +3109,6 @@
   },
   "bachelor_timeseries": {
     "hourly": [
-      {
-        "time": "2026-10-18T14:00:00.000Z",
-        "temp_f": 47.86,
-        "wind_speed_mph": 9.04,
-        "wind_direction_deg": 92.4,
-        "precip_in": null,
-        "period": "historical"
-      },
       {
         "time": "2026-10-18T15:00:00.000Z",
         "temp_f": 48.59,
@@ -3302,12 +3294,12 @@
         "period": "historical"
       },
       {
-        "time": "2026-10-19T14:00:00+00:00",
-        "temp_f": 34.0,
-        "wind_speed_mph": 5.8,
-        "wind_direction_deg": 240,
-        "precip_in": 0.0,
-        "period": "forecast"
+        "time": "2026-10-19T14:00:00.000Z",
+        "temp_f": 36.07,
+        "wind_speed_mph": 14.36,
+        "wind_direction_deg": 112.1,
+        "precip_in": null,
+        "period": "historical"
       },
       {
         "time": "2026-10-19T15:00:00+00:00",
@@ -4190,7 +4182,38 @@
     ]
   },
   "snotel": {
-    "error": "403 Client Error: Forbidden for url: https://wcc.sc.egov.usda.gov/awdbRestApi/services/v1/data?stationTriplets=545%3AOR%3ASNTL&elements=SNWD%2CWTEQ&duration=DAILY&getFlags=false&beginDate=-1&endDate=-1"
+    "Mt Bachelor area (Irish Taylor)": {
+      "snow_depth_in": 0,
+      "snow_depth_in_date": "2026-10-18",
+      "swe_in": 0.1,
+      "swe_in_date": "2026-10-18",
+      "change_12h_in": 0,
+      "change_24h_in": 0
+    },
+    "Three Creek / Tam McArthur (Three Creeks Meadow)": {
+      "snow_depth_in": 0,
+      "snow_depth_in_date": "2026-10-18",
+      "swe_in": 0.0,
+      "swe_in_date": "2026-10-18",
+      "change_12h_in": 0,
+      "change_24h_in": 0
+    },
+    "Santiam / Hoodoo (Hogg Pass)": {
+      "snow_depth_in": 0,
+      "snow_depth_in_date": "2026-10-18",
+      "swe_in": 0.0,
+      "swe_in_date": "2026-10-18",
+      "change_12h_in": 0,
+      "change_24h_in": 0
+    },
+    "Ochocos (Ochoco Meadows)": {
+      "snow_depth_in": 0,
+      "snow_depth_in_date": "2026-10-18",
+      "swe_in": 0.0,
+      "swe_in_date": "2026-10-18",
+      "change_12h_in": 0,
+      "change_24h_in": 0
+    }
   },
   "odot_cams": {
     "Century Drive": [
@@ -4296,7 +4319,7 @@
   "mtbachelor": {
     "weather": {
       "current": {
-        "temperature": 43,
+        "temperature": 44,
         "weather_icon": "dor-mostlycloudy"
       },
       "forecast": [
@@ -4430,9 +4453,9 @@
           "primary": true,
           "nonstandardizedDataPoints": {
             "depth": "144.7",
-            "timestamp": "2026-10-19T13:00:00.000Z"
+            "timestamp": "2026-10-19T14:00:00.000Z"
           },
-          "temperature": "43.36",
+          "temperature": "44.36",
           "wind": {
             "low": "0",
             "high": "0",
@@ -4452,14 +4475,14 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-10-19T13:00:00.000Z"
+            "timestamp": "2026-10-19T14:00:00.000Z"
           },
-          "temperature": "38.09",
+          "temperature": "38.78",
           "wind": {
-            "low": "9.97",
-            "high": "20.58",
+            "low": "10.81",
+            "high": "23.49",
             "current": null,
-            "average": "9.97",
+            "average": "10.81",
             "direction": "SE"
           },
           "humidity": null,
@@ -4496,14 +4519,14 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-10-19T13:00:00.000Z"
+            "timestamp": "2026-10-19T14:00:00.000Z"
           },
-          "temperature": "35.35",
+          "temperature": "36.07",
           "wind": {
-            "low": "13.86",
-            "high": "24.16",
+            "low": "14.36",
+            "high": "23.94",
             "current": null,
-            "average": "13.86",
+            "average": "14.36",
             "direction": "ESE"
           },
           "humidity": null,
@@ -4590,19 +4613,19 @@
     "weather": {
       "Temperature": "43 &#176F",
       "Wind": "East @ 9 MPH",
-      "Snow depth": "-0.4\"",
-      "Humidity": "84 %",
-      "Barometer": "29.89\" Hg"
+      "Snow depth": "-0.5\"",
+      "Humidity": "83 %",
+      "Barometer": "29.88\" Hg"
     },
     "snow_totals": {
       "trend": {
         "Max": "0.7\"",
         "Min": "-2.8\"",
-        "1 Hr": "-0.3\"",
-        "3 Hr": "-0.4\"",
-        "6 Hr": "-0.7\"",
-        "12 Hr": "-0.3\"",
-        "24 Hr": "0.3\""
+        "1 Hr": "-0.1\"",
+        "3 Hr": "0.2\"",
+        "6 Hr": "-0.3\"",
+        "12 Hr": "-0.4\"",
+        "24 Hr": "0.2\""
       },
       "season_total_in": 1.7
     },
