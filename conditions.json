@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T06:15:20.872579+00:00",
+  "generated_at": "2026-10-19T06:30:23.649098+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -1390,11 +1390,11 @@
           "temperatureTrend": null,
           "probabilityOfPrecipitation": {
             "unitCode": "wmoUnit:percent",
-            "value": 52
+            "value": 44
           },
           "windSpeed": "3 to 9 mph",
           "windDirection": "WNW",
-          "icon": "https://api.weather.gov/icons/land/day/rain,20/rain,50?size=medium",
+          "icon": "https://api.weather.gov/icons/land/day/rain,20/rain,40?size=medium",
           "shortForecast": "Chance Light Rain",
           "detailedForecast": "A chance of rain. Partly sunny, with a high near 48.",
           "precipitationAmountIn": 0.01,
@@ -1411,14 +1411,14 @@
           "temperatureTrend": null,
           "probabilityOfPrecipitation": {
             "unitCode": "wmoUnit:percent",
-            "value": 52
+            "value": 44
           },
-          "windSpeed": "7 to 12 mph",
+          "windSpeed": "8 to 13 mph",
           "windDirection": "WNW",
-          "icon": "https://api.weather.gov/icons/land/night/snow,50/snow,40?size=medium",
+          "icon": "https://api.weather.gov/icons/land/night/snow,40?size=medium",
           "shortForecast": "Chance Rain And Snow",
-          "detailedForecast": "A chance of rain before 8pm, then a chance of rain and snow between 8pm and 5am. Mostly cloudy, with a low around 27.",
-          "precipitationAmountIn": 0.02,
+          "detailedForecast": "A chance of rain before 11pm, then a chance of rain and snow between 11pm and 5am. Mostly cloudy, with a low around 27.",
+          "precipitationAmountIn": 0.01,
           "snowLevelFt": 6820
         },
         {
@@ -1434,7 +1434,7 @@
             "unitCode": "wmoUnit:percent",
             "value": 7
           },
-          "windSpeed": "3 to 8 mph",
+          "windSpeed": "3 to 9 mph",
           "windDirection": "WNW",
           "icon": "https://api.weather.gov/icons/land/day/sct?size=medium",
           "shortForecast": "Mostly Sunny",
@@ -1478,11 +1478,11 @@
           },
           "windSpeed": "7 mph",
           "windDirection": "S",
-          "icon": "https://api.weather.gov/icons/land/day/snow,40/snow,50?size=medium",
-          "shortForecast": "Chance Rain And Snow",
-          "detailedForecast": "A slight chance of snow before 11am, then a chance of rain and snow. Partly sunny, with a high near 47. New snow accumulation of less than half an inch possible.",
+          "icon": "https://api.weather.gov/icons/land/day/snow,40/rain,50?size=medium",
+          "shortForecast": "Slight Chance Light Snow then Chance Light Rain",
+          "detailedForecast": "A slight chance of snow before 11am, then a chance of rain. Partly sunny, with a high near 47. New snow accumulation of less than half an inch possible.",
           "precipitationAmountIn": 0.15,
-          "snowLevelFt": 4975
+          "snowLevelFt": 4976
         },
         {
           "number": 13,
@@ -1497,11 +1497,11 @@
             "unitCode": "wmoUnit:percent",
             "value": 51
           },
-          "windSpeed": "5 to 12 mph",
+          "windSpeed": "5 to 13 mph",
           "windDirection": "WSW",
           "icon": "https://api.weather.gov/icons/land/night/snow,50?size=medium",
           "shortForecast": "Chance Rain And Snow",
-          "detailedForecast": "A chance of rain and snow. Mostly cloudy, with a low around 31. New snow accumulation of less than half an inch possible.",
+          "detailedForecast": "A chance of rain before 8pm, then a chance of rain and snow. Mostly cloudy, with a low around 31. New snow accumulation of less than half an inch possible.",
           "precipitationAmountIn": 0.08,
           "snowLevelFt": 6916
         },
@@ -1521,8 +1521,8 @@
           "windSpeed": "3 to 10 mph",
           "windDirection": "WSW",
           "icon": "https://api.weather.gov/icons/land/day/snow,40/snow,30?size=medium",
-          "shortForecast": "Chance Rain And Snow",
-          "detailedForecast": "A chance of rain and snow. Partly sunny, with a high near 45. Little or no snow accumulation expected.",
+          "shortForecast": "Chance Light Snow",
+          "detailedForecast": "A chance of snow before 11am, then a chance of rain and snow. Partly sunny, with a high near 45. Little or no snow accumulation expected.",
           "precipitationAmountIn": 0.06,
           "snowLevelFt": 5601
         }
@@ -3091,8 +3091,8 @@
       "wind_direction_deg": 225,
       "snow_level_ft": 7375,
       "precip_chance_today": 5,
-      "snowfall_12h_in": 0.1,
-      "snowfall_24h_in": -0.1,
+      "snowfall_12h_in": -0.7,
+      "snowfall_24h_in": -0.5,
       "snowfall_48h_in": null
     },
     "Willamette Pass": {
@@ -3109,14 +3109,6 @@
   },
   "bachelor_timeseries": {
     "hourly": [
-      {
-        "time": "2026-10-17T23:00:00.000Z",
-        "temp_f": 42.16,
-        "wind_speed_mph": 3.611,
-        "wind_direction_deg": 153.7,
-        "precip_in": null,
-        "period": "historical"
-      },
       {
         "time": "2026-10-18T00:00:00.000Z",
         "temp_f": 42.0,
@@ -3302,12 +3294,12 @@
         "period": "historical"
       },
       {
-        "time": "2026-10-18T23:00:00+00:00",
-        "temp_f": 51.0,
-        "wind_speed_mph": 4.6,
-        "wind_direction_deg": 230,
-        "precip_in": 0.0,
-        "period": "forecast"
+        "time": "2026-10-18T23:00:00.000Z",
+        "temp_f": 43.39,
+        "wind_speed_mph": 8.14,
+        "wind_direction_deg": 223.7,
+        "precip_in": null,
+        "period": "historical"
       },
       {
         "time": "2026-10-19T00:00:00+00:00",
@@ -4182,6 +4174,10 @@
       {
         "time": "2026-10-19T05:30:16.472677+00:00",
         "precip_in": 0
+      },
+      {
+        "time": "2026-10-19T06:30:24.049043+00:00",
+        "precip_in": 0
       }
     ]
   },
@@ -4323,7 +4319,7 @@
   "mtbachelor": {
     "weather": {
       "current": {
-        "temperature": 43,
+        "temperature": 44,
         "weather_icon": "dor-sunny"
       },
       "forecast": [
@@ -4457,9 +4453,9 @@
           "primary": true,
           "nonstandardizedDataPoints": {
             "depth": "144.7",
-            "timestamp": "2026-10-18T22:00:00.000Z"
+            "timestamp": "2026-10-18T23:00:00.000Z"
           },
-          "temperature": "42.61",
+          "temperature": "44.22",
           "wind": {
             "low": "0",
             "high": "0",
@@ -4479,14 +4475,14 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-10-18T22:00:00.000Z"
+            "timestamp": "2026-10-18T23:00:00.000Z"
           },
-          "temperature": "47.09",
+          "temperature": "45.39",
           "wind": {
-            "low": "8.75",
-            "high": "22.59",
+            "low": "12.53",
+            "high": "25.73",
             "current": null,
-            "average": "8.75",
+            "average": "12.53",
             "direction": "WSW"
           },
           "humidity": null,
@@ -4523,15 +4519,15 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-10-18T22:00:00.000Z"
+            "timestamp": "2026-10-18T23:00:00.000Z"
           },
-          "temperature": "44.23",
+          "temperature": "43.39",
           "wind": {
-            "low": "8.85",
-            "high": "21.25",
+            "low": "8.14",
+            "high": "24.61",
             "current": null,
-            "average": "8.85",
-            "direction": "SSW"
+            "average": "8.14",
+            "direction": "SW"
           },
           "humidity": null,
           "display_name": "Cloud Chaser",
@@ -4617,19 +4613,19 @@
     "weather": {
       "Temperature": "43 &#176F",
       "Wind": "SW @ 12 MPH",
-      "Snow depth": "-0.2\"",
-      "Humidity": "91 %",
-      "Barometer": "29.97\" Hg"
+      "Snow depth": "-0.4\"",
+      "Humidity": "94 %",
+      "Barometer": "29.96\" Hg"
     },
     "snow_totals": {
       "trend": {
         "Max": "0.7\"",
         "Min": "-2.8\"",
-        "1 Hr": "0.3\"",
-        "3 Hr": "0.4\"",
-        "6 Hr": "0.6\"",
-        "12 Hr": "0.1\"",
-        "24 Hr": "-0.1\""
+        "1 Hr": "-0.2\"",
+        "3 Hr": "0.0\"",
+        "6 Hr": "0.2\"",
+        "12 Hr": "-0.7\"",
+        "24 Hr": "-0.5\""
       },
       "season_total_in": 1.7
     },
