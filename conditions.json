@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T21:45:21.727790+00:00",
+  "generated_at": "2026-10-19T22:00:17.907529+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -303,7 +303,7 @@
         "wind_speed_mph": 6,
         "wind_direction_deg": 210,
         "snow_level_ft": 7727,
-        "temp_f": 43
+        "temp_f": 41
       },
       "lat": 43.9792,
       "lon": -121.6886
@@ -608,7 +608,7 @@
       ],
       "current": {
         "wind_speed_mph": 3,
-        "wind_direction_deg": 200,
+        "wind_direction_deg": 190,
         "snow_level_ft": 7806,
         "temp_f": 44
       },
@@ -915,8 +915,8 @@
       ],
       "current": {
         "wind_speed_mph": 7.0,
-        "wind_direction_deg": 90,
-        "snow_level_ft": 7437,
+        "wind_direction_deg": 135,
+        "snow_level_ft": 7663,
         "temp_f": 50
       },
       "lat": 44.409,
@@ -1529,8 +1529,8 @@
       ],
       "current": {
         "wind_speed_mph": 3,
-        "wind_direction_deg": 190,
-        "snow_level_ft": 7727,
+        "wind_direction_deg": 210,
+        "snow_level_ft": 7795,
         "temp_f": 49
       },
       "lat": 43.5975,
@@ -1836,8 +1836,8 @@
       ],
       "current": {
         "wind_speed_mph": 2,
-        "wind_direction_deg": 200,
-        "snow_level_ft": 7148,
+        "wind_direction_deg": 210,
+        "snow_level_ft": 7374,
         "temp_f": 48
       },
       "lat": 44.39548,
@@ -2143,9 +2143,9 @@
       ],
       "current": {
         "wind_speed_mph": 2,
-        "wind_direction_deg": 240,
+        "wind_direction_deg": 340,
         "snow_level_ft": 8084,
-        "temp_f": 54
+        "temp_f": 52
       },
       "lat": 44.4333,
       "lon": -120.3333
@@ -2450,7 +2450,7 @@
       ],
       "current": {
         "wind_speed_mph": 3,
-        "wind_direction_deg": 10,
+        "wind_direction_deg": 0,
         "snow_level_ft": 7716,
         "temp_f": 57
       },
@@ -3064,7 +3064,7 @@
       ],
       "current": {
         "wind_speed_mph": 2,
-        "wind_direction_deg": 250,
+        "wind_direction_deg": 270,
         "snow_level_ft": 7795,
         "temp_f": 57
       },
@@ -3075,7 +3075,7 @@
   "wind_roses": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
-      "temp_f": 43,
+      "temp_f": 41,
       "wind_speed_mph": 6,
       "wind_direction_deg": 210,
       "snow_level_ft": 7727,
@@ -3088,19 +3088,19 @@
       "elevation_ft": 4705,
       "temp_f": 50,
       "wind_speed_mph": 7.0,
-      "wind_direction_deg": 90,
-      "snow_level_ft": 7437,
+      "wind_direction_deg": 135,
+      "snow_level_ft": 7663,
       "precip_chance_today": 17,
-      "snowfall_12h_in": -0.1,
-      "snowfall_24h_in": 0.5,
+      "snowfall_12h_in": -0.7,
+      "snowfall_24h_in": 0.1,
       "snowfall_48h_in": null
     },
     "Willamette Pass": {
       "elevation_ft": 5538,
       "temp_f": 49,
       "wind_speed_mph": 3,
-      "wind_direction_deg": 190,
-      "snow_level_ft": 7727,
+      "wind_direction_deg": 210,
+      "snow_level_ft": 7795,
       "precip_chance_today": 28,
       "snowfall_12h_in": null,
       "snowfall_24h_in": 0.0,
@@ -3924,6 +3924,14 @@
         "wind_direction_deg": 290,
         "precip_in": 0.01,
         "period": "forecast"
+      },
+      {
+        "time": "2026-10-22T21:00:00+00:00",
+        "temp_f": 43.0,
+        "wind_speed_mph": 8.1,
+        "wind_direction_deg": 300,
+        "precip_in": 0.01,
+        "period": "forecast"
       }
     ],
     "historical_precip_snapshots": [
@@ -4611,21 +4619,21 @@
   },
   "hoodoo": {
     "weather": {
-      "Temperature": "43 &#176F",
-      "Wind": "East @ 7 MPH",
-      "Snow depth": "-0.5\"",
-      "Humidity": "82 %",
+      "Temperature": "47 &#176F",
+      "Wind": "SE @ 7 MPH",
+      "Snow depth": "-0.7\"",
+      "Humidity": "72 %",
       "Barometer": "29.89\" Hg"
     },
     "snow_totals": {
       "trend": {
         "Max": "0.7\"",
         "Min": "-2.8\"",
-        "1 Hr": "0.2\"",
-        "3 Hr": "0.4\"",
-        "6 Hr": "0.2\"",
-        "12 Hr": "-0.1\"",
-        "24 Hr": "0.5\""
+        "1 Hr": "-0.2\"",
+        "3 Hr": "-0.3\"",
+        "6 Hr": "-0.3\"",
+        "12 Hr": "-0.7\"",
+        "24 Hr": "0.1\""
       },
       "season_total_in": 1.7
     },
@@ -4761,7 +4769,7 @@
   "gfs_snowfall": {
     "path": "gfs_snowfall_pnw.gif",
     "legend_path": "gfs_snowfall_legend.png",
-    "cycle_run_at": "2026-10-19T12:00:00+00:00",
+    "cycle_run_at": "2026-10-19T18:00:00+00:00",
     "forecast_hours": [
       3,
       6,
