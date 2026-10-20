@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T21:30:24.416767+00:00",
+  "generated_at": "2026-10-20T21:45:21.950994+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -1849,7 +1849,7 @@
         {
           "number": 1,
           "name": "This Afternoon",
-          "startTime": "2026-10-20T12:00:00-07:00",
+          "startTime": "2026-10-20T14:00:00-07:00",
           "endTime": "2026-10-20T18:00:00-07:00",
           "isDaytime": true,
           "temperature": 61,
@@ -1859,13 +1859,13 @@
             "unitCode": "wmoUnit:percent",
             "value": 1
           },
-          "windSpeed": "2 mph",
-          "windDirection": "E",
+          "windSpeed": "1 mph",
+          "windDirection": "NE",
           "icon": "https://api.weather.gov/icons/land/day/bkn?size=medium",
           "shortForecast": "Partly Sunny",
-          "detailedForecast": "Partly sunny. High near 61, with temperatures falling to around 57 in the afternoon. East wind around 2 mph.",
+          "detailedForecast": "Partly sunny. High near 61, with temperatures falling to around 57 in the afternoon. Northeast wind around 1 mph.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 8189
+          "snowLevelFt": 8425
         },
         {
           "number": 2,
@@ -2463,7 +2463,7 @@
         {
           "number": 1,
           "name": "This Afternoon",
-          "startTime": "2026-10-20T12:00:00-07:00",
+          "startTime": "2026-10-20T14:00:00-07:00",
           "endTime": "2026-10-20T18:00:00-07:00",
           "isDaytime": true,
           "temperature": 61,
@@ -2479,7 +2479,7 @@
           "shortForecast": "Partly Sunny",
           "detailedForecast": "Partly sunny. High near 61, with temperatures falling to around 58 in the afternoon. Northeast wind around 3 mph.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 7533
+          "snowLevelFt": 8005
         },
         {
           "number": 2,
@@ -2770,7 +2770,7 @@
         {
           "number": 1,
           "name": "This Afternoon",
-          "startTime": "2026-10-20T12:00:00-07:00",
+          "startTime": "2026-10-20T14:00:00-07:00",
           "endTime": "2026-10-20T18:00:00-07:00",
           "isDaytime": true,
           "temperature": 68,
@@ -2786,7 +2786,7 @@
           "shortForecast": "Mostly Sunny",
           "detailedForecast": "Mostly sunny. High near 68, with temperatures falling to around 65 in the afternoon. Northeast wind around 5 mph.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 7979
+          "snowLevelFt": 8608
         },
         {
           "number": 2,
@@ -4325,16 +4325,16 @@
       "forecast": [
         {
           "date": "2026-10-20",
-          "description_long": "overcast clouds",
-          "description_short": "overcast clouds",
+          "description_long": "broken clouds",
+          "description_short": "broken clouds",
           "details": "Clouds",
           "weather_icon": "dor-mostlycloudy",
           "id": 1792522800,
           "day": "Tuesday",
           "temperature_high": 47,
           "temperature_low": 23,
-          "precipitation_high": 52,
-          "precipitation_low": 52,
+          "precipitation_high": 50,
+          "precipitation_low": 50,
           "wind_speed": 8,
           "wind_direction": "SSE"
         },
@@ -4749,7 +4749,12 @@
       "Lifts Open": "0/6",
       "Trails Open": "0/30"
     },
-    "webcams": {}
+    "webcams": {
+      "Base Area": {
+        "src": "https://www.youtube.com/embed/sNVA6oC7vcM",
+        "link": "https://www.willamettepass.ski/weather-conditions-webcams/webcams/"
+      }
+    }
   },
   "snow_stake_cams": {
     "Mt. Bachelor (Snow Stake)": {
@@ -4760,10 +4765,13 @@
       "src": "https://santiampsp.org/wx/weather16.jpg",
       "link": "https://hoodoo.com/the-mountain/webcams/"
     },
-    "Willamette Pass (Base Area)": null
+    "Willamette Pass (Base Area)": {
+      "src": "https://www.youtube.com/embed/sNVA6oC7vcM",
+      "link": "https://www.willamettepass.ski/weather-conditions-webcams/webcams/"
+    }
   },
   "satellite": {
-    "error": "502 Server Error: Bad Gateway for url: https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/13/GOES18-CONUS-13-625x375.gif"
+    "error": "502 Server Error: Bad Gateway for url: https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/pnw/13/GOES18-PNW-13-600x600.gif"
   },
   "gfs_snowfall": {
     "path": "gfs_snowfall_pnw.gif",
