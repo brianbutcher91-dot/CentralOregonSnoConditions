@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T20:15:22.628553+00:00",
+  "generated_at": "2026-10-21T20:30:20.236182+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -914,8 +914,8 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 11.0,
-        "wind_direction_deg": 112.5,
+        "wind_speed_mph": 3,
+        "wind_direction_deg": 100,
         "snow_level_ft": 8802,
         "temp_f": 63
       },
@@ -3087,12 +3087,12 @@
     "Hoodoo": {
       "elevation_ft": 4705,
       "temp_f": 63,
-      "wind_speed_mph": 11.0,
-      "wind_direction_deg": 112.5,
+      "wind_speed_mph": 3,
+      "wind_direction_deg": 100,
       "snow_level_ft": 8802,
       "precip_chance_today": 1,
-      "snowfall_12h_in": 0.0,
-      "snowfall_24h_in": 0.1,
+      "snowfall_12h_in": null,
+      "snowfall_24h_in": null,
       "snowfall_48h_in": null
     },
     "Willamette Pass": {
@@ -4202,7 +4202,38 @@
     ]
   },
   "snotel": {
-    "error": "500 Server Error: Internal Server Error for url: https://wcc.sc.egov.usda.gov/awdbRestApi/services/v1/data?stationTriplets=671%3AOR%3ASNTL&elements=SNWD%2CWTEQ&duration=DAILY&getFlags=false&beginDate=-1&endDate=-1"
+    "Mt Bachelor area (Irish Taylor)": {
+      "snow_depth_in": 0,
+      "snow_depth_in_date": "2026-10-20",
+      "swe_in": 0.1,
+      "swe_in_date": "2026-10-20",
+      "change_12h_in": 0,
+      "change_24h_in": 0
+    },
+    "Three Creek / Tam McArthur (Three Creeks Meadow)": {
+      "snow_depth_in": 0,
+      "snow_depth_in_date": "2026-10-20",
+      "swe_in": 0.0,
+      "swe_in_date": "2026-10-20",
+      "change_12h_in": 0,
+      "change_24h_in": 0
+    },
+    "Santiam / Hoodoo (Hogg Pass)": {
+      "snow_depth_in": 0,
+      "snow_depth_in_date": "2026-10-20",
+      "swe_in": 0.0,
+      "swe_in_date": "2026-10-20",
+      "change_12h_in": 0,
+      "change_24h_in": 0
+    },
+    "Ochocos (Ochoco Meadows)": {
+      "snow_depth_in": 0,
+      "snow_depth_in_date": "2026-10-20",
+      "swe_in": 0.0,
+      "swe_in_date": "2026-10-20",
+      "change_12h_in": 0,
+      "change_24h_in": 0
+    }
   },
   "odot_cams": {
     "Century Drive": [
@@ -4308,7 +4339,7 @@
   "mtbachelor": {
     "weather": {
       "current": {
-        "temperature": 55,
+        "temperature": 57,
         "weather_icon": "dor-mostlysunny"
       },
       "forecast": [
@@ -4320,7 +4351,7 @@
           "weather_icon": "dor-mostlysunny",
           "id": 1792609200,
           "day": "Wednesday",
-          "temperature_high": 48,
+          "temperature_high": 56,
           "temperature_low": 21,
           "precipitation_high": 48,
           "precipitation_low": 48,
@@ -4441,10 +4472,10 @@
           "active": true,
           "primary": true,
           "nonstandardizedDataPoints": {
-            "depth": "-0.656",
-            "timestamp": "2026-10-21T12:00:00.000Z"
+            "depth": "-1.071",
+            "timestamp": "2026-10-21T13:00:00.000Z"
           },
-          "temperature": "55.21",
+          "temperature": "57.34",
           "wind": {
             "low": "0",
             "high": "0",
@@ -4599,24 +4630,10 @@
     }
   },
   "hoodoo": {
-    "weather": {
-      "Temperature": "58 &#176F",
-      "Wind": "ESE @ 11 MPH",
-      "Snow depth": "0.0\"",
-      "Humidity": "37 %",
-      "Barometer": "29.99\" Hg"
-    },
+    "weather": {},
     "snow_totals": {
-      "trend": {
-        "Max": "0.6\"",
-        "Min": "-2.7\"",
-        "1 Hr": "0.8\"",
-        "3 Hr": "0.8\"",
-        "6 Hr": "0.1\"",
-        "12 Hr": "0.0\"",
-        "24 Hr": "0.1\""
-      },
-      "season_total_in": 1.7
+      "trend": {},
+      "season_total_in": null
     },
     "webcams": {
       "Base Area": {
