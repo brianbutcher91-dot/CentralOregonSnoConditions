@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T13:35:25.666648+00:00",
+  "generated_at": "2026-10-21T13:45:18.716159+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -914,7 +914,7 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 17.0,
+        "wind_speed_mph": 18.0,
         "wind_direction_deg": 112.5,
         "snow_level_ft": 8688,
         "temp_f": 40
@@ -3087,12 +3087,12 @@
     "Hoodoo": {
       "elevation_ft": 4705,
       "temp_f": 40,
-      "wind_speed_mph": 17.0,
+      "wind_speed_mph": 18.0,
       "wind_direction_deg": 112.5,
       "snow_level_ft": 8688,
       "precip_chance_today": 2,
-      "snowfall_12h_in": -0.1,
-      "snowfall_24h_in": 0.1,
+      "snowfall_12h_in": -0.2,
+      "snowfall_24h_in": 0.0,
       "snowfall_48h_in": null
     },
     "Willamette Pass": {
@@ -4186,7 +4186,7 @@
     ]
   },
   "snotel": {
-    "error": "500 Server Error: Internal Server Error for url: https://wcc.sc.egov.usda.gov/awdbRestApi/services/v1/data?stationTriplets=545%3AOR%3ASNTL&elements=SNWD&duration=HOURLY&getFlags=false&beginDate=2026-10-19+01%3A35&endDate=2026-10-22+01%3A35"
+    "error": "500 Server Error: Internal Server Error for url: https://wcc.sc.egov.usda.gov/awdbRestApi/services/v1/data?stationTriplets=545%3AOR%3ASNTL&elements=SNWD%2CWTEQ&duration=DAILY&getFlags=false&beginDate=-1&endDate=-1"
   },
   "odot_cams": {
     "Century Drive": [
@@ -4585,9 +4585,9 @@
   "hoodoo": {
     "weather": {
       "Temperature": "54 &#176F",
-      "Wind": "ESE @ 17 MPH",
-      "Snow depth": "0.1\"",
-      "Humidity": "36 %",
+      "Wind": "ESE @ 18 MPH",
+      "Snow depth": "0.0\"",
+      "Humidity": "35 %",
       "Barometer": "29.99\" Hg"
     },
     "snow_totals": {
@@ -4595,10 +4595,10 @@
         "Max": "0.6\"",
         "Min": "-2.8\"",
         "1 Hr": "0.0\"",
-        "3 Hr": "0.1\"",
+        "3 Hr": "-0.2\"",
         "6 Hr": "0.1\"",
-        "12 Hr": "-0.1\"",
-        "24 Hr": "0.1\""
+        "12 Hr": "-0.2\"",
+        "24 Hr": "0.0\""
       },
       "season_total_in": 1.7
     },
@@ -4640,8 +4640,8 @@
   "willamette_pass": {
     "forecast": {
       "weather_provider": "NOAA",
-      "date": "October 21, 2026, 6:19 am",
-      "time": 1792588757000,
+      "date": "October 21, 2026, 6:28 am",
+      "time": 1792589297000,
       "current_weather": "Mostly Sunny",
       "current_temperature": "39",
       "forecast": [
@@ -4682,11 +4682,6 @@
       "min_temp": "40",
       "hourly": [
         {
-          "time": "5a",
-          "temp": "41",
-          "details": ""
-        },
-        {
           "time": "8a",
           "temp": "41",
           "details": ""
@@ -4704,6 +4699,11 @@
         {
           "time": "2p",
           "temp": "62",
+          "details": ""
+        },
+        {
+          "time": "4p",
+          "temp": "64",
           "details": ""
         }
       ],
