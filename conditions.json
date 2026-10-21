@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T04:15:16.686134+00:00",
+  "generated_at": "2026-10-21T04:30:22.197419+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -7,7 +7,7 @@
         {
           "number": 1,
           "name": "Tonight",
-          "startTime": "2026-10-20T21:00:00-07:00",
+          "startTime": "2026-10-20T18:00:00-07:00",
           "endTime": "2026-10-21T06:00:00-07:00",
           "isDaytime": false,
           "temperature": 37,
@@ -17,13 +17,13 @@
             "unitCode": "wmoUnit:percent",
             "value": 1
           },
-          "windSpeed": "7 mph",
+          "windSpeed": "3 to 7 mph",
           "windDirection": "E",
           "icon": "https://api.weather.gov/icons/land/night/bkn?size=medium",
           "shortForecast": "Mostly Cloudy",
-          "detailedForecast": "Mostly cloudy. Low around 37, with temperatures rising to around 40 overnight. East wind around 7 mph.",
+          "detailedForecast": "Mostly cloudy. Low around 37, with temperatures rising to around 40 overnight. East wind 3 to 7 mph.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 8609
+          "snowLevelFt": 8582
         },
         {
           "number": 2,
@@ -314,7 +314,7 @@
         {
           "number": 1,
           "name": "Tonight",
-          "startTime": "2026-10-20T18:00:00-07:00",
+          "startTime": "2026-10-20T19:00:00-07:00",
           "endTime": "2026-10-21T06:00:00-07:00",
           "isDaytime": false,
           "temperature": 40,
@@ -914,8 +914,8 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 16.0,
-        "wind_direction_deg": 112.5,
+        "wind_speed_mph": 12.0,
+        "wind_direction_deg": 90,
         "snow_level_ft": 8478,
         "temp_f": 43
       },
@@ -928,7 +928,7 @@
         {
           "number": 1,
           "name": "Tonight",
-          "startTime": "2026-10-20T18:00:00-07:00",
+          "startTime": "2026-10-20T19:00:00-07:00",
           "endTime": "2026-10-21T06:00:00-07:00",
           "isDaytime": false,
           "temperature": 40,
@@ -1849,7 +1849,7 @@
         {
           "number": 1,
           "name": "Tonight",
-          "startTime": "2026-10-20T18:00:00-07:00",
+          "startTime": "2026-10-20T19:00:00-07:00",
           "endTime": "2026-10-21T06:00:00-07:00",
           "isDaytime": false,
           "temperature": 41,
@@ -2463,7 +2463,7 @@
         {
           "number": 1,
           "name": "Tonight",
-          "startTime": "2026-10-20T18:00:00-07:00",
+          "startTime": "2026-10-20T19:00:00-07:00",
           "endTime": "2026-10-21T06:00:00-07:00",
           "isDaytime": false,
           "temperature": 29,
@@ -2770,7 +2770,7 @@
         {
           "number": 1,
           "name": "Tonight",
-          "startTime": "2026-10-20T18:00:00-07:00",
+          "startTime": "2026-10-20T20:00:00-07:00",
           "endTime": "2026-10-21T06:00:00-07:00",
           "isDaytime": false,
           "temperature": 24,
@@ -2780,13 +2780,13 @@
             "unitCode": "wmoUnit:percent",
             "value": 1
           },
-          "windSpeed": "3 mph",
+          "windSpeed": "2 mph",
           "windDirection": "S",
           "icon": "https://api.weather.gov/icons/land/night/bkn?size=medium",
           "shortForecast": "Mostly Cloudy",
-          "detailedForecast": "Mostly cloudy. Low around 24, with temperatures rising to around 27 overnight. South wind around 3 mph.",
+          "detailedForecast": "Mostly cloudy. Low around 24, with temperatures rising to around 27 overnight. South wind around 2 mph.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 8688
+          "snowLevelFt": 8714
         },
         {
           "number": 2,
@@ -3087,11 +3087,11 @@
     "Hoodoo": {
       "elevation_ft": 4705,
       "temp_f": 43,
-      "wind_speed_mph": 16.0,
-      "wind_direction_deg": 112.5,
+      "wind_speed_mph": 12.0,
+      "wind_direction_deg": 90,
       "snow_level_ft": 8478,
       "precip_chance_today": 2,
-      "snowfall_12h_in": 0.1,
+      "snowfall_12h_in": 0.2,
       "snowfall_24h_in": 0.0,
       "snowfall_48h_in": null
     },
@@ -3109,14 +3109,6 @@
   },
   "bachelor_timeseries": {
     "hourly": [
-      {
-        "time": "2026-10-19T21:00:00.000Z",
-        "temp_f": 35.53,
-        "wind_speed_mph": 11.93,
-        "wind_direction_deg": 120.5,
-        "precip_in": null,
-        "period": "historical"
-      },
       {
         "time": "2026-10-19T22:00:00.000Z",
         "temp_f": 37.06,
@@ -3302,12 +3294,12 @@
         "period": "historical"
       },
       {
-        "time": "2026-10-20T21:00:00+00:00",
-        "temp_f": 50.0,
-        "wind_speed_mph": 6.9,
-        "wind_direction_deg": 150,
-        "precip_in": 0.0,
-        "period": "forecast"
+        "time": "2026-10-20T21:00:00.000Z",
+        "temp_f": 43.78,
+        "wind_speed_mph": 4.913,
+        "wind_direction_deg": 124.7,
+        "precip_in": null,
+        "period": "historical"
       },
       {
         "time": "2026-10-20T22:00:00+00:00",
@@ -3936,10 +3928,6 @@
     ],
     "historical_precip_snapshots": [
       {
-        "time": "2026-10-18T04:15:21.844372+00:00",
-        "precip_in": 0
-      },
-      {
         "time": "2026-10-18T05:30:19.762950+00:00",
         "precip_in": 0
       },
@@ -4194,7 +4182,38 @@
     ]
   },
   "snotel": {
-    "error": "500 Server Error: Internal Server Error for url: https://wcc.sc.egov.usda.gov/awdbRestApi/services/v1/data?stationTriplets=526%3AOR%3ASNTL&elements=SNWD%2CWTEQ&duration=DAILY&getFlags=false&beginDate=-1&endDate=-1"
+    "Mt Bachelor area (Irish Taylor)": {
+      "snow_depth_in": 0,
+      "snow_depth_in_date": "2026-10-19",
+      "swe_in": 0.1,
+      "swe_in_date": "2026-10-19",
+      "change_12h_in": 0,
+      "change_24h_in": 0
+    },
+    "Three Creek / Tam McArthur (Three Creeks Meadow)": {
+      "snow_depth_in": 0,
+      "snow_depth_in_date": "2026-10-19",
+      "swe_in": 0.0,
+      "swe_in_date": "2026-10-19",
+      "change_12h_in": 0,
+      "change_24h_in": 0
+    },
+    "Santiam / Hoodoo (Hogg Pass)": {
+      "snow_depth_in": 0,
+      "snow_depth_in_date": "2026-10-19",
+      "swe_in": 0.1,
+      "swe_in_date": "2026-10-19",
+      "change_12h_in": 0,
+      "change_24h_in": 0
+    },
+    "Ochocos (Ochoco Meadows)": {
+      "snow_depth_in": 0,
+      "snow_depth_in_date": "2026-10-19",
+      "swe_in": 0.0,
+      "swe_in_date": "2026-10-19",
+      "change_12h_in": 0,
+      "change_24h_in": 0
+    }
   },
   "odot_cams": {
     "Century Drive": [
@@ -4300,7 +4319,7 @@
   "mtbachelor": {
     "weather": {
       "current": {
-        "temperature": 42,
+        "temperature": 40,
         "weather_icon": "dor-mostlycloudy"
       },
       "forecast": [
@@ -4433,10 +4452,10 @@
           "active": true,
           "primary": true,
           "nonstandardizedDataPoints": {
-            "depth": "-0.445",
-            "timestamp": "2026-10-20T20:00:00.000Z"
+            "depth": "144.6",
+            "timestamp": "2026-10-20T21:00:00.000Z"
           },
-          "temperature": "41.72",
+          "temperature": "40.08",
           "wind": {
             "low": "0",
             "high": "0",
@@ -4456,15 +4475,15 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-10-20T20:00:00.000Z"
+            "timestamp": "2026-10-20T21:00:00.000Z"
           },
-          "temperature": "44.32",
+          "temperature": "44.43",
           "wind": {
-            "low": "4.411",
-            "high": "7.382",
+            "low": "5.244",
+            "high": "9.17",
             "current": null,
-            "average": "4.411",
-            "direction": "SSE"
+            "average": "5.244",
+            "direction": "S"
           },
           "humidity": null,
           "display_name": "Sunrise",
@@ -4500,15 +4519,15 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-10-20T20:00:00.000Z"
+            "timestamp": "2026-10-20T21:00:00.000Z"
           },
-          "temperature": "43.77",
+          "temperature": "43.78",
           "wind": {
-            "low": "5.055",
-            "high": "8.28",
+            "low": "4.913",
+            "high": "7.83",
             "current": null,
-            "average": "5.055",
-            "direction": "ESE"
+            "average": "4.913",
+            "direction": "SE"
           },
           "humidity": null,
           "display_name": "Cloud Chaser",
@@ -4592,20 +4611,20 @@
   },
   "hoodoo": {
     "weather": {
-      "Temperature": "49 &#176F",
-      "Wind": "ESE @ 16 MPH",
-      "Snow depth": "0.1\"",
-      "Humidity": "49 %",
-      "Barometer": "30.05\" Hg"
+      "Temperature": "47 &#176F",
+      "Wind": "East @ 12 MPH",
+      "Snow depth": "0.2\"",
+      "Humidity": "55 %",
+      "Barometer": "30.06\" Hg"
     },
     "snow_totals": {
       "trend": {
         "Max": "0.6\"",
         "Min": "-2.8\"",
-        "1 Hr": "0.0\"",
-        "3 Hr": "-0.1\"",
-        "6 Hr": "0.7\"",
-        "12 Hr": "0.1\"",
+        "1 Hr": "-0.2\"",
+        "3 Hr": "-0.2\"",
+        "6 Hr": "0.5\"",
+        "12 Hr": "0.2\"",
         "24 Hr": "0.0\""
       },
       "season_total_in": 1.7
@@ -4648,8 +4667,8 @@
   "willamette_pass": {
     "forecast": {
       "weather_provider": "NOAA",
-      "date": "October 20, 2026, 8:58 pm",
-      "time": 1792555100000,
+      "date": "October 20, 2026, 9:10 pm",
+      "time": 1792555833000,
       "current_weather": "Mostly Cloudy",
       "current_temperature": "44",
       "forecast": [
@@ -4693,11 +4712,6 @@
       "min_temp": "39",
       "hourly": [
         {
-          "time": "8p",
-          "temp": "47",
-          "details": ""
-        },
-        {
           "time": "10p",
           "temp": "44",
           "details": ""
@@ -4714,6 +4728,11 @@
         },
         {
           "time": "4a",
+          "temp": "41",
+          "details": ""
+        },
+        {
+          "time": "5a",
           "temp": "41",
           "details": ""
         }
