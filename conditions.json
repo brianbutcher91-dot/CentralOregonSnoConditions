@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T15:15:17.620408+00:00",
+  "generated_at": "2026-10-21T15:30:22.339539+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -7,7 +7,7 @@
         {
           "number": 1,
           "name": "Today",
-          "startTime": "2026-10-21T07:00:00-07:00",
+          "startTime": "2026-10-21T06:00:00-07:00",
           "endTime": "2026-10-21T18:00:00-07:00",
           "isDaytime": true,
           "temperature": 56,
@@ -314,7 +314,7 @@
         {
           "number": 1,
           "name": "Today",
-          "startTime": "2026-10-21T06:00:00-07:00",
+          "startTime": "2026-10-21T07:00:00-07:00",
           "endTime": "2026-10-21T18:00:00-07:00",
           "isDaytime": true,
           "temperature": 58,
@@ -621,7 +621,7 @@
         {
           "number": 1,
           "name": "Today",
-          "startTime": "2026-10-21T07:00:00-07:00",
+          "startTime": "2026-10-21T08:00:00-07:00",
           "endTime": "2026-10-21T18:00:00-07:00",
           "isDaytime": true,
           "temperature": 66,
@@ -637,7 +637,7 @@
           "shortForecast": "Mostly Sunny",
           "detailedForecast": "Mostly sunny. High near 66, with temperatures falling to around 62 in the afternoon. East wind 2 to 6 mph.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 8662
+          "snowLevelFt": 8688
         },
         {
           "number": 2,
@@ -914,7 +914,7 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 22.0,
+        "wind_speed_mph": 21.0,
         "wind_direction_deg": 112.5,
         "snow_level_ft": 8688,
         "temp_f": 41
@@ -928,7 +928,7 @@
         {
           "number": 1,
           "name": "Today",
-          "startTime": "2026-10-21T06:00:00-07:00",
+          "startTime": "2026-10-21T07:00:00-07:00",
           "endTime": "2026-10-21T18:00:00-07:00",
           "isDaytime": true,
           "temperature": 54,
@@ -1849,7 +1849,7 @@
         {
           "number": 1,
           "name": "Today",
-          "startTime": "2026-10-21T07:00:00-07:00",
+          "startTime": "2026-10-21T06:00:00-07:00",
           "endTime": "2026-10-21T18:00:00-07:00",
           "isDaytime": true,
           "temperature": 66,
@@ -2770,7 +2770,7 @@
         {
           "number": 1,
           "name": "Today",
-          "startTime": "2026-10-21T08:00:00-07:00",
+          "startTime": "2026-10-21T07:00:00-07:00",
           "endTime": "2026-10-21T18:00:00-07:00",
           "isDaytime": true,
           "temperature": 71,
@@ -2786,7 +2786,7 @@
           "shortForecast": "Widespread Frost then Mostly Sunny",
           "detailedForecast": "Widespread frost before 11am. Mostly sunny. High near 71, with temperatures falling to around 69 in the afternoon. Southeast wind around 2 mph.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 8570
+          "snowLevelFt": 8530
         },
         {
           "number": 2,
@@ -3087,12 +3087,12 @@
     "Hoodoo": {
       "elevation_ft": 4705,
       "temp_f": 41,
-      "wind_speed_mph": 22.0,
+      "wind_speed_mph": 21.0,
       "wind_direction_deg": 112.5,
       "snow_level_ft": 8688,
       "precip_chance_today": 2,
-      "snowfall_12h_in": 0.0,
-      "snowfall_24h_in": 0.1,
+      "snowfall_12h_in": -0.2,
+      "snowfall_24h_in": 0.0,
       "snowfall_48h_in": null
     },
     "Willamette Pass": {
@@ -3109,14 +3109,6 @@
   },
   "bachelor_timeseries": {
     "hourly": [
-      {
-        "time": "2026-10-20T08:00:00.000Z",
-        "temp_f": 38.22,
-        "wind_speed_mph": 7.294,
-        "wind_direction_deg": 105.7,
-        "precip_in": null,
-        "period": "historical"
-      },
       {
         "time": "2026-10-20T09:00:00.000Z",
         "temp_f": 38.48,
@@ -3302,12 +3294,12 @@
         "period": "historical"
       },
       {
-        "time": "2026-10-21T08:00:00+00:00",
-        "temp_f": 40.0,
-        "wind_speed_mph": 5.8,
-        "wind_direction_deg": 100,
-        "precip_in": 0.0,
-        "period": "forecast"
+        "time": "2026-10-21T08:00:00.000Z",
+        "temp_f": 44.97,
+        "wind_speed_mph": 5.183,
+        "wind_direction_deg": 122.4,
+        "precip_in": null,
+        "period": "historical"
       },
       {
         "time": "2026-10-21T09:00:00+00:00",
@@ -4194,7 +4186,38 @@
     ]
   },
   "snotel": {
-    "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+    "Mt Bachelor area (Irish Taylor)": {
+      "snow_depth_in": 0,
+      "snow_depth_in_date": "2026-10-20",
+      "swe_in": 0.1,
+      "swe_in_date": "2026-10-20",
+      "change_12h_in": 0,
+      "change_24h_in": -1
+    },
+    "Three Creek / Tam McArthur (Three Creeks Meadow)": {
+      "snow_depth_in": 0,
+      "snow_depth_in_date": "2026-10-20",
+      "swe_in": 0.0,
+      "swe_in_date": "2026-10-20",
+      "change_12h_in": 0,
+      "change_24h_in": 0
+    },
+    "Santiam / Hoodoo (Hogg Pass)": {
+      "snow_depth_in": 0,
+      "snow_depth_in_date": "2026-10-20",
+      "swe_in": 0.0,
+      "swe_in_date": "2026-10-20",
+      "change_12h_in": 0,
+      "change_24h_in": 0
+    },
+    "Ochocos (Ochoco Meadows)": {
+      "snow_depth_in": 0,
+      "snow_depth_in_date": "2026-10-20",
+      "swe_in": 0.0,
+      "swe_in_date": "2026-10-20",
+      "change_12h_in": 0,
+      "change_24h_in": 0
+    }
   },
   "odot_cams": {
     "Century Drive": [
@@ -4456,14 +4479,14 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-10-21T07:00:00.000Z"
+            "timestamp": "2026-10-21T08:00:00.000Z"
           },
-          "temperature": "45.59",
+          "temperature": "45.69",
           "wind": {
-            "low": "7.101",
-            "high": "11.19",
+            "low": "6.476",
+            "high": "10.07",
             "current": null,
-            "average": "7.101",
+            "average": "6.476",
             "direction": "SSE"
           },
           "humidity": null,
@@ -4500,15 +4523,15 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-10-21T07:00:00.000Z"
+            "timestamp": "2026-10-21T08:00:00.000Z"
           },
-          "temperature": "45.07",
+          "temperature": "44.97",
           "wind": {
-            "low": "4.364",
-            "high": "7.382",
+            "low": "5.183",
+            "high": "8.05",
             "current": null,
-            "average": "4.364",
-            "direction": "SE"
+            "average": "5.183",
+            "direction": "ESE"
           },
           "humidity": null,
           "display_name": "Cloud Chaser",
@@ -4593,20 +4616,20 @@
   "hoodoo": {
     "weather": {
       "Temperature": "54 &#176F",
-      "Wind": "ESE @ 22 MPH",
-      "Snow depth": "0.2\"",
-      "Humidity": "34 %",
-      "Barometer": "29.98\" Hg"
+      "Wind": "ESE @ 21 MPH",
+      "Snow depth": "0.0\"",
+      "Humidity": "33 %",
+      "Barometer": "29.99\" Hg"
     },
     "snow_totals": {
       "trend": {
         "Max": "0.6\"",
         "Min": "-2.8\"",
         "1 Hr": "0.0\"",
-        "3 Hr": "0.2\"",
-        "6 Hr": "-0.2\"",
-        "12 Hr": "0.0\"",
-        "24 Hr": "0.1\""
+        "3 Hr": "-0.1\"",
+        "6 Hr": "-0.4\"",
+        "12 Hr": "-0.2\"",
+        "24 Hr": "0.0\""
       },
       "season_total_in": 1.7
     },
@@ -4648,8 +4671,8 @@
   "willamette_pass": {
     "forecast": {
       "weather_provider": "NOAA",
-      "date": "October 21, 2026, 7:55 am",
-      "time": 1792594519000,
+      "date": "October 21, 2026, 8:10 am",
+      "time": 1792595418000,
       "current_weather": "Mostly Sunny",
       "current_temperature": "39",
       "forecast": [
