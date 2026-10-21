@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T06:30:22.767282+00:00",
+  "generated_at": "2026-10-21T06:45:15.353177+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -914,7 +914,7 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 23.0,
+        "wind_speed_mph": 17.0,
         "wind_direction_deg": 112.5,
         "snow_level_ft": 8556,
         "temp_f": 42
@@ -3087,12 +3087,12 @@
     "Hoodoo": {
       "elevation_ft": 4705,
       "temp_f": 42,
-      "wind_speed_mph": 23.0,
+      "wind_speed_mph": 17.0,
       "wind_direction_deg": 112.5,
       "snow_level_ft": 8556,
       "precip_chance_today": 2,
-      "snowfall_12h_in": 0.1,
-      "snowfall_24h_in": 0.2,
+      "snowfall_12h_in": -0.1,
+      "snowfall_24h_in": 0.1,
       "snowfall_48h_in": null
     },
     "Willamette Pass": {
@@ -4615,10 +4615,10 @@
   },
   "hoodoo": {
     "weather": {
-      "Temperature": "52 &#176F",
-      "Wind": "ESE @ 23 MPH",
+      "Temperature": "50 &#176F",
+      "Wind": "ESE @ 17 MPH",
       "Snow depth": "-0.1\"",
-      "Humidity": "40 %",
+      "Humidity": "43 %",
       "Barometer": "30.05\" Hg"
     },
     "snow_totals": {
@@ -4626,10 +4626,10 @@
         "Max": "0.6\"",
         "Min": "-2.8\"",
         "1 Hr": "0.0\"",
-        "3 Hr": "-0.2\"",
+        "3 Hr": "-0.3\"",
         "6 Hr": "0.0\"",
-        "12 Hr": "0.1\"",
-        "24 Hr": "0.2\""
+        "12 Hr": "-0.1\"",
+        "24 Hr": "0.1\""
       },
       "season_total_in": 1.7
     },
@@ -4671,8 +4671,8 @@
   "willamette_pass": {
     "forecast": {
       "weather_provider": "NOAA",
-      "date": "October 20, 2026, 11:04 pm",
-      "time": 1792562662000,
+      "date": "October 20, 2026, 11:28 pm",
+      "time": 1792564095000,
       "current_weather": "Mostly Cloudy",
       "current_temperature": "41",
       "forecast": [
@@ -4716,11 +4716,6 @@
       "min_temp": "39",
       "hourly": [
         {
-          "time": "10p",
-          "temp": "44",
-          "details": ""
-        },
-        {
           "time": "12a",
           "temp": "43",
           "details": ""
@@ -4737,6 +4732,11 @@
         },
         {
           "time": "5a",
+          "temp": "41",
+          "details": ""
+        },
+        {
+          "time": "8a",
           "temp": "41",
           "details": ""
         }
