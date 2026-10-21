@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T03:00:22.901048+00:00",
+  "generated_at": "2026-10-21T03:15:17.323653+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -7,7 +7,7 @@
         {
           "number": 1,
           "name": "Tonight",
-          "startTime": "2026-10-20T20:00:00-07:00",
+          "startTime": "2026-10-20T19:00:00-07:00",
           "endTime": "2026-10-21T06:00:00-07:00",
           "isDaytime": false,
           "temperature": 37,
@@ -17,13 +17,13 @@
             "unitCode": "wmoUnit:percent",
             "value": 1
           },
-          "windSpeed": "7 mph",
+          "windSpeed": "3 to 7 mph",
           "windDirection": "E",
           "icon": "https://api.weather.gov/icons/land/night/bkn?size=medium",
           "shortForecast": "Mostly Cloudy",
-          "detailedForecast": "Mostly cloudy. Low around 37, with temperatures rising to around 40 overnight. East wind around 7 mph.",
+          "detailedForecast": "Mostly cloudy. Low around 37, with temperatures rising to around 40 overnight. East wind 3 to 7 mph.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 8609
+          "snowLevelFt": 8582
         },
         {
           "number": 2,
@@ -314,7 +314,7 @@
         {
           "number": 1,
           "name": "Tonight",
-          "startTime": "2026-10-20T20:00:00-07:00",
+          "startTime": "2026-10-20T19:00:00-07:00",
           "endTime": "2026-10-21T06:00:00-07:00",
           "isDaytime": false,
           "temperature": 40,
@@ -330,7 +330,7 @@
           "shortForecast": "Mostly Cloudy",
           "detailedForecast": "Mostly cloudy. Low around 40, with temperatures rising to around 42 overnight. South wind around 2 mph.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 8609
+          "snowLevelFt": 8478
         },
         {
           "number": 2,
@@ -914,7 +914,7 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 24.0,
+        "wind_speed_mph": 20.0,
         "wind_direction_deg": 112.5,
         "snow_level_ft": 8425,
         "temp_f": 44
@@ -3087,12 +3087,12 @@
     "Hoodoo": {
       "elevation_ft": 4705,
       "temp_f": 44,
-      "wind_speed_mph": 24.0,
+      "wind_speed_mph": 20.0,
       "wind_direction_deg": 112.5,
       "snow_level_ft": 8425,
       "precip_chance_today": 2,
-      "snowfall_12h_in": 0.0,
-      "snowfall_24h_in": 0.1,
+      "snowfall_12h_in": 0.1,
+      "snowfall_24h_in": 0.0,
       "snowfall_48h_in": null
     },
     "Willamette Pass": {
@@ -4624,8 +4624,8 @@
   "hoodoo": {
     "weather": {
       "Temperature": "48 &#176F",
-      "Wind": "ESE @ 24 MPH",
-      "Snow depth": "0.0\"",
+      "Wind": "ESE @ 20 MPH",
+      "Snow depth": "0.1\"",
       "Humidity": "51 %",
       "Barometer": "30.05\" Hg"
     },
@@ -4633,11 +4633,11 @@
       "trend": {
         "Max": "0.6\"",
         "Min": "-2.8\"",
-        "1 Hr": "-0.4\"",
+        "1 Hr": "0.0\"",
         "3 Hr": "0.1\"",
         "6 Hr": "0.5\"",
-        "12 Hr": "0.0\"",
-        "24 Hr": "0.1\""
+        "12 Hr": "0.1\"",
+        "24 Hr": "0.0\""
       },
       "season_total_in": 1.7
     },
@@ -4679,8 +4679,8 @@
   "willamette_pass": {
     "forecast": {
       "weather_provider": "NOAA",
-      "date": "October 20, 2026, 7:40 pm",
-      "time": 1792550416000,
+      "date": "October 20, 2026, 8:13 pm",
+      "time": 1792552402000,
       "current_weather": "Mostly Cloudy",
       "current_temperature": "46",
       "forecast": [
