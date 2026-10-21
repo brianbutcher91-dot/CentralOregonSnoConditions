@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T16:15:20.351540+00:00",
+  "generated_at": "2026-10-21T16:30:25.836777+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -914,8 +914,8 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 25.0,
-        "wind_direction_deg": 112.5,
+        "wind_speed_mph": 26.0,
+        "wind_direction_deg": 135,
         "snow_level_ft": 8691,
         "temp_f": 44
       },
@@ -1235,7 +1235,7 @@
         {
           "number": 1,
           "name": "Today",
-          "startTime": "2026-10-21T09:00:00-07:00",
+          "startTime": "2026-10-21T06:00:00-07:00",
           "endTime": "2026-10-21T18:00:00-07:00",
           "isDaytime": true,
           "temperature": 64,
@@ -1251,7 +1251,7 @@
           "shortForecast": "Mostly Sunny",
           "detailedForecast": "Mostly sunny. High near 64, with temperatures falling to around 61 in the afternoon. Southeast wind 2 to 8 mph.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 8586
+          "snowLevelFt": 8609
         },
         {
           "number": 2,
@@ -1849,7 +1849,7 @@
         {
           "number": 1,
           "name": "Today",
-          "startTime": "2026-10-21T09:00:00-07:00",
+          "startTime": "2026-10-21T07:00:00-07:00",
           "endTime": "2026-10-21T18:00:00-07:00",
           "isDaytime": true,
           "temperature": 66,
@@ -1865,7 +1865,7 @@
           "shortForecast": "Mostly Sunny",
           "detailedForecast": "Mostly sunny. High near 66, with temperatures falling to around 63 in the afternoon. East wind around 2 mph.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 9225
+          "snowLevelFt": 8846
         },
         {
           "number": 2,
@@ -2770,7 +2770,7 @@
         {
           "number": 1,
           "name": "Today",
-          "startTime": "2026-10-21T09:00:00-07:00",
+          "startTime": "2026-10-21T07:00:00-07:00",
           "endTime": "2026-10-21T18:00:00-07:00",
           "isDaytime": true,
           "temperature": 71,
@@ -2781,12 +2781,12 @@
             "value": 0
           },
           "windSpeed": "2 mph",
-          "windDirection": "E",
+          "windDirection": "SE",
           "icon": "https://api.weather.gov/icons/land/day/sct?size=medium",
           "shortForecast": "Widespread Frost then Mostly Sunny",
-          "detailedForecast": "Widespread frost before 11am. Mostly sunny. High near 71, with temperatures falling to around 69 in the afternoon. East wind around 2 mph.",
+          "detailedForecast": "Widespread frost before 11am. Mostly sunny. High near 71, with temperatures falling to around 69 in the afternoon. Southeast wind around 2 mph.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 8570
+          "snowLevelFt": 8530
         },
         {
           "number": 2,
@@ -3087,12 +3087,12 @@
     "Hoodoo": {
       "elevation_ft": 4705,
       "temp_f": 44,
-      "wind_speed_mph": 25.0,
-      "wind_direction_deg": 112.5,
+      "wind_speed_mph": 26.0,
+      "wind_direction_deg": 135,
       "snow_level_ft": 8691,
       "precip_chance_today": 2,
-      "snowfall_12h_in": 0.0,
-      "snowfall_24h_in": 0.1,
+      "snowfall_12h_in": -0.2,
+      "snowfall_24h_in": 0.0,
       "snowfall_48h_in": null
     },
     "Willamette Pass": {
@@ -4200,7 +4200,7 @@
       "swe_in": 0.1,
       "swe_in_date": "2026-10-20",
       "change_12h_in": 0,
-      "change_24h_in": -1
+      "change_24h_in": 0
     },
     "Three Creek / Tam McArthur (Three Creeks Meadow)": {
       "snow_depth_in": 0,
@@ -4344,9 +4344,9 @@
           "id": 1792609200,
           "day": "Wednesday",
           "temperature_high": 50,
-          "temperature_low": 23,
-          "precipitation_high": 60,
-          "precipitation_low": 60,
+          "temperature_low": 24,
+          "precipitation_high": 59,
+          "precipitation_low": 59,
           "wind_speed": 5,
           "wind_direction": "SSE"
         },
@@ -4623,21 +4623,21 @@
   },
   "hoodoo": {
     "weather": {
-      "Temperature": "54 &#176F",
-      "Wind": "ESE @ 25 MPH",
-      "Snow depth": "0.1\"",
-      "Humidity": "31 %",
-      "Barometer": "29.99\" Hg"
+      "Temperature": "55 &#176F",
+      "Wind": "SE @ 26 MPH",
+      "Snow depth": "-0.2\"",
+      "Humidity": "29 %",
+      "Barometer": "30.00\" Hg"
     },
     "snow_totals": {
       "trend": {
         "Max": "0.6\"",
         "Min": "-2.8\"",
-        "1 Hr": "0.0\"",
-        "3 Hr": "-0.1\"",
+        "1 Hr": "-0.2\"",
+        "3 Hr": "-0.3\"",
         "6 Hr": "-0.2\"",
-        "12 Hr": "0.0\"",
-        "24 Hr": "0.1\""
+        "12 Hr": "-0.2\"",
+        "24 Hr": "0.0\""
       },
       "season_total_in": 1.7
     },
@@ -4679,8 +4679,8 @@
   "willamette_pass": {
     "forecast": {
       "weather_provider": "NOAA",
-      "date": "October 21, 2026, 8:58 am",
-      "time": 1792598297000,
+      "date": "October 21, 2026, 9:10 am",
+      "time": 1792599016000,
       "current_weather": "Mostly Sunny",
       "current_temperature": "42",
       "forecast": [
@@ -4793,7 +4793,7 @@
     },
     "Pacific US (PACUS)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/13/GOES18-CONUS-13-625x375.gif",
-      "last_modified": "Wed, 21 Oct 2026 16:09:41 GMT"
+      "last_modified": "Wed, 21 Oct 2026 16:20:15 GMT"
     }
   },
   "gfs_snowfall": {
