@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T13:30:23.080075+00:00",
+  "generated_at": "2026-10-21T13:35:25.666648+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -4186,38 +4186,7 @@
     ]
   },
   "snotel": {
-    "Mt Bachelor area (Irish Taylor)": {
-      "snow_depth_in": 0,
-      "snow_depth_in_date": "2026-10-20",
-      "swe_in": 0.1,
-      "swe_in_date": "2026-10-20",
-      "change_12h_in": 0,
-      "change_24h_in": 0
-    },
-    "Three Creek / Tam McArthur (Three Creeks Meadow)": {
-      "snow_depth_in": 0,
-      "snow_depth_in_date": "2026-10-20",
-      "swe_in": 0.0,
-      "swe_in_date": "2026-10-20",
-      "change_12h_in": 0,
-      "change_24h_in": 0
-    },
-    "Santiam / Hoodoo (Hogg Pass)": {
-      "snow_depth_in": 0,
-      "snow_depth_in_date": "2026-10-20",
-      "swe_in": 0.0,
-      "swe_in_date": "2026-10-20",
-      "change_12h_in": 0,
-      "change_24h_in": 0
-    },
-    "Ochocos (Ochoco Meadows)": {
-      "snow_depth_in": 0,
-      "snow_depth_in_date": "2026-10-20",
-      "swe_in": 0.0,
-      "swe_in_date": "2026-10-20",
-      "change_12h_in": 0,
-      "change_24h_in": 0
-    }
+    "error": "500 Server Error: Internal Server Error for url: https://wcc.sc.egov.usda.gov/awdbRestApi/services/v1/data?stationTriplets=545%3AOR%3ASNTL&elements=SNWD&duration=HOURLY&getFlags=false&beginDate=2026-10-19+01%3A35&endDate=2026-10-22+01%3A35"
   },
   "odot_cams": {
     "Century Drive": [
@@ -4336,7 +4305,7 @@
           "id": 1792609200,
           "day": "Wednesday",
           "temperature_high": 50,
-          "temperature_low": 27,
+          "temperature_low": 26,
           "precipitation_high": 35,
           "precipitation_low": 35,
           "wind_speed": 5,
@@ -4395,57 +4364,57 @@
           "weather_icon": "dor-mostlycloudy",
           "id": 1792954800,
           "day": "Sunday",
-          "temperature_high": 50,
+          "temperature_high": 52,
           "temperature_low": 39,
-          "precipitation_high": 54,
-          "precipitation_low": 54,
-          "wind_speed": 7,
-          "wind_direction": "SE"
+          "precipitation_high": 44,
+          "precipitation_low": 44,
+          "wind_speed": 6,
+          "wind_direction": "S"
         },
         {
           "date": "2026-10-26",
-          "description_long": "light rain",
-          "description_short": "light rain",
-          "details": "Rain",
-          "weather_icon": "dor-rain",
+          "description_long": "rain and snow",
+          "description_short": "rain and snow",
+          "details": "Snow",
+          "weather_icon": "dor-snow",
           "id": 1793041200,
           "day": "Monday",
-          "temperature_high": 40,
-          "temperature_low": 25,
-          "precipitation_high": 74,
-          "precipitation_low": 74,
+          "temperature_high": 49,
+          "temperature_low": 33,
+          "precipitation_high": 58,
+          "precipitation_low": 58,
           "wind_speed": 9,
-          "wind_direction": "SSW"
+          "wind_direction": "S"
         },
         {
           "date": "2026-10-27",
-          "description_long": "clear sky",
-          "description_short": "clear sky",
-          "details": "Clear",
-          "weather_icon": "dor-sunny",
+          "description_long": "light snow",
+          "description_short": "light snow",
+          "details": "Snow",
+          "weather_icon": "dor-snow",
           "id": 1793127600,
           "day": "Tuesday",
-          "temperature_high": 52,
-          "temperature_low": 26,
-          "precipitation_high": 30,
-          "precipitation_low": 30,
+          "temperature_high": 39,
+          "temperature_low": 29,
+          "precipitation_high": 76,
+          "precipitation_low": 76,
           "wind_speed": 5,
-          "wind_direction": "SSE"
+          "wind_direction": "W"
         },
         {
           "date": "2026-10-28",
-          "description_long": "overcast clouds",
-          "description_short": "overcast clouds",
+          "description_long": "few clouds",
+          "description_short": "few clouds",
           "details": "Clouds",
-          "weather_icon": "dor-mostlycloudy",
+          "weather_icon": "dor-mostlysunny",
           "id": 1793214000,
           "day": "Wednesday",
-          "temperature_high": 47,
-          "temperature_low": 32,
-          "precipitation_high": 41,
-          "precipitation_low": 41,
-          "wind_speed": 6,
-          "wind_direction": "ESE"
+          "temperature_high": 43,
+          "temperature_low": 27,
+          "precipitation_high": 52,
+          "precipitation_low": 52,
+          "wind_speed": 8,
+          "wind_direction": "E"
         }
       ],
       "sensors": {
@@ -4671,8 +4640,8 @@
   "willamette_pass": {
     "forecast": {
       "weather_provider": "NOAA",
-      "date": "October 21, 2026, 6:10 am",
-      "time": 1792588215000,
+      "date": "October 21, 2026, 6:19 am",
+      "time": 1792588757000,
       "current_weather": "Mostly Sunny",
       "current_temperature": "39",
       "forecast": [
