@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T01:00:18.782706+00:00",
+  "generated_at": "2026-10-21T01:15:15.542817+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -7,7 +7,7 @@
         {
           "number": 1,
           "name": "This Afternoon",
-          "startTime": "2026-10-20T17:00:00-07:00",
+          "startTime": "2026-10-20T16:00:00-07:00",
           "endTime": "2026-10-20T18:00:00-07:00",
           "isDaytime": true,
           "temperature": 51,
@@ -17,13 +17,13 @@
             "unitCode": "wmoUnit:percent",
             "value": 1
           },
-          "windSpeed": "5 mph",
+          "windSpeed": "6 mph",
           "windDirection": "SE",
           "icon": "https://api.weather.gov/icons/land/day/bkn?size=medium",
           "shortForecast": "Partly Sunny",
-          "detailedForecast": "Partly sunny. High near 51, with temperatures falling to around 48 in the afternoon. Southeast wind around 5 mph.",
+          "detailedForecast": "Partly sunny. High near 51, with temperatures falling to around 48 in the afternoon. Southeast wind around 6 mph.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 8582
+          "snowLevelFt": 8398
         },
         {
           "number": 2,
@@ -915,7 +915,7 @@
       ],
       "current": {
         "wind_speed_mph": 20.0,
-        "wind_direction_deg": 112.5,
+        "wind_direction_deg": 90,
         "snow_level_ft": 8267,
         "temp_f": 50
       },
@@ -1849,7 +1849,7 @@
         {
           "number": 1,
           "name": "This Afternoon",
-          "startTime": "2026-10-20T17:00:00-07:00",
+          "startTime": "2026-10-20T16:00:00-07:00",
           "endTime": "2026-10-20T18:00:00-07:00",
           "isDaytime": true,
           "temperature": 61,
@@ -1865,7 +1865,7 @@
           "shortForecast": "Partly Sunny",
           "detailedForecast": "Partly sunny. High near 61, with temperatures falling to around 57 in the afternoon. Northeast wind around 1 mph.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 8504
+          "snowLevelFt": 8425
         },
         {
           "number": 2,
@@ -2156,7 +2156,7 @@
         {
           "number": 1,
           "name": "This Afternoon",
-          "startTime": "2026-10-20T15:00:00-07:00",
+          "startTime": "2026-10-20T17:00:00-07:00",
           "endTime": "2026-10-20T18:00:00-07:00",
           "isDaytime": true,
           "temperature": 61,
@@ -2172,7 +2172,7 @@
           "shortForecast": "Mostly Sunny",
           "detailedForecast": "Mostly sunny. High near 61, with temperatures falling to around 59 in the afternoon. North wind around 5 mph.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 8241
+          "snowLevelFt": 8451
         },
         {
           "number": 2,
@@ -3088,7 +3088,7 @@
       "elevation_ft": 4705,
       "temp_f": 50,
       "wind_speed_mph": 20.0,
-      "wind_direction_deg": 112.5,
+      "wind_direction_deg": 90,
       "snow_level_ft": 8267,
       "precip_chance_today": 1,
       "snowfall_12h_in": 0.2,
@@ -4190,38 +4190,7 @@
     ]
   },
   "snotel": {
-    "Mt Bachelor area (Irish Taylor)": {
-      "snow_depth_in": 0,
-      "snow_depth_in_date": "2026-10-19",
-      "swe_in": 0.1,
-      "swe_in_date": "2026-10-19",
-      "change_12h_in": 0,
-      "change_24h_in": 0
-    },
-    "Three Creek / Tam McArthur (Three Creeks Meadow)": {
-      "snow_depth_in": 0,
-      "snow_depth_in_date": "2026-10-19",
-      "swe_in": 0.0,
-      "swe_in_date": "2026-10-19",
-      "change_12h_in": 0,
-      "change_24h_in": 0
-    },
-    "Santiam / Hoodoo (Hogg Pass)": {
-      "snow_depth_in": 0,
-      "snow_depth_in_date": "2026-10-19",
-      "swe_in": 0.1,
-      "swe_in_date": "2026-10-19",
-      "change_12h_in": 0,
-      "change_24h_in": 0
-    },
-    "Ochocos (Ochoco Meadows)": {
-      "snow_depth_in": 0,
-      "snow_depth_in_date": "2026-10-19",
-      "swe_in": 0.0,
-      "swe_in_date": "2026-10-19",
-      "change_12h_in": 0,
-      "change_24h_in": 0
-    }
+    "error": "403 Client Error: Forbidden for url: https://wcc.sc.egov.usda.gov/awdbRestApi/services/v1/data?stationTriplets=815%3AOR%3ASNTL&elements=SNWD&duration=HOURLY&getFlags=false&beginDate=2026-10-18+13%3A19&endDate=2026-10-21+13%3A19"
   },
   "odot_cams": {
     "Century Drive": [
@@ -4348,10 +4317,10 @@
         },
         {
           "date": "2026-10-21",
-          "description_long": "clear sky",
-          "description_short": "clear sky",
-          "details": "Clear",
-          "weather_icon": "dor-sunny",
+          "description_long": "scattered clouds",
+          "description_short": "scattered clouds",
+          "details": "Clouds",
+          "weather_icon": "dor-cloudy",
           "id": 1792609200,
           "day": "Wednesday",
           "temperature_high": 51,
@@ -4359,7 +4328,7 @@
           "precipitation_high": 35,
           "precipitation_low": 35,
           "wind_speed": 5,
-          "wind_direction": "SE"
+          "wind_direction": "SSE"
         },
         {
           "date": "2026-10-22",
@@ -4620,7 +4589,7 @@
   "hoodoo": {
     "weather": {
       "Temperature": "43 &#176F",
-      "Wind": "ESE @ 20 MPH",
+      "Wind": "East @ 20 MPH",
       "Snow depth": "0.2\"",
       "Humidity": "67 %",
       "Barometer": "30.03\" Hg"
@@ -4629,9 +4598,9 @@
       "trend": {
         "Max": "0.6\"",
         "Min": "-2.8\"",
-        "1 Hr": "0.3\"",
-        "3 Hr": "0.7\"",
-        "6 Hr": "0.2\"",
+        "1 Hr": "0.2\"",
+        "3 Hr": "0.8\"",
+        "6 Hr": "0.0\"",
         "12 Hr": "0.2\"",
         "24 Hr": "0.4\""
       },
@@ -4675,8 +4644,8 @@
   "willamette_pass": {
     "forecast": {
       "weather_provider": "NOAA",
-      "date": "October 20, 2026, 5:43 pm",
-      "time": 1792543397000,
+      "date": "October 20, 2026, 5:55 pm",
+      "time": 1792544118000,
       "current_weather": "Mostly Cloudy",
       "current_temperature": "55",
       "forecast": [
