@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T00:00:32.407736+00:00",
+  "generated_at": "2026-10-21T00:15:24.087839+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -914,7 +914,7 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 25.0,
+        "wind_speed_mph": 27.0,
         "wind_direction_deg": 90,
         "snow_level_ft": 8163,
         "temp_f": 52
@@ -2156,7 +2156,7 @@
         {
           "number": 1,
           "name": "This Afternoon",
-          "startTime": "2026-10-20T15:00:00-07:00",
+          "startTime": "2026-10-20T17:00:00-07:00",
           "endTime": "2026-10-20T18:00:00-07:00",
           "isDaytime": true,
           "temperature": 61,
@@ -2172,7 +2172,7 @@
           "shortForecast": "Mostly Sunny",
           "detailedForecast": "Mostly sunny. High near 61, with temperatures falling to around 59 in the afternoon. North wind around 5 mph.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 8241
+          "snowLevelFt": 8451
         },
         {
           "number": 2,
@@ -3087,12 +3087,12 @@
     "Hoodoo": {
       "elevation_ft": 4705,
       "temp_f": 52,
-      "wind_speed_mph": 25.0,
+      "wind_speed_mph": 27.0,
       "wind_direction_deg": 90,
       "snow_level_ft": 8163,
       "precip_chance_today": 1,
       "snowfall_12h_in": 0.1,
-      "snowfall_24h_in": 0.4,
+      "snowfall_24h_in": 0.2,
       "snowfall_48h_in": null
     },
     "Willamette Pass": {
@@ -4190,38 +4190,7 @@
     ]
   },
   "snotel": {
-    "Mt Bachelor area (Irish Taylor)": {
-      "snow_depth_in": 0,
-      "snow_depth_in_date": "2026-10-19",
-      "swe_in": 0.1,
-      "swe_in_date": "2026-10-19",
-      "change_12h_in": 0,
-      "change_24h_in": 0
-    },
-    "Three Creek / Tam McArthur (Three Creeks Meadow)": {
-      "snow_depth_in": 0,
-      "snow_depth_in_date": "2026-10-19",
-      "swe_in": 0.0,
-      "swe_in_date": "2026-10-19",
-      "change_12h_in": 0,
-      "change_24h_in": 0
-    },
-    "Santiam / Hoodoo (Hogg Pass)": {
-      "snow_depth_in": 0,
-      "snow_depth_in_date": "2026-10-19",
-      "swe_in": 0.1,
-      "swe_in_date": "2026-10-19",
-      "change_12h_in": 0,
-      "change_24h_in": 0
-    },
-    "Ochocos (Ochoco Meadows)": {
-      "snow_depth_in": 0,
-      "snow_depth_in_date": "2026-10-19",
-      "swe_in": 0.0,
-      "swe_in_date": "2026-10-19",
-      "change_12h_in": 0,
-      "change_24h_in": 0
-    }
+    "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
   },
   "odot_cams": {
     "Century Drive": [
@@ -4620,8 +4589,8 @@
   "hoodoo": {
     "weather": {
       "Temperature": "44 &#176F",
-      "Wind": "East @ 25 MPH",
-      "Snow depth": "-0.1\"",
+      "Wind": "East @ 27 MPH",
+      "Snow depth": "0.0\"",
       "Humidity": "65 %",
       "Barometer": "30.03\" Hg"
     },
@@ -4629,11 +4598,11 @@
       "trend": {
         "Max": "0.6\"",
         "Min": "-2.8\"",
-        "1 Hr": "0.3\"",
+        "1 Hr": "0.0\"",
         "3 Hr": "0.4\"",
-        "6 Hr": "-0.1\"",
+        "6 Hr": "0.0\"",
         "12 Hr": "0.1\"",
-        "24 Hr": "0.4\""
+        "24 Hr": "0.2\""
       },
       "season_total_in": 1.7
     },
