@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T11:30:20.619303+00:00",
+  "generated_at": "2026-10-23T11:45:20.137279+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -7,7 +7,7 @@
         {
           "number": 1,
           "name": "Overnight",
-          "startTime": "2026-10-23T00:00:00-07:00",
+          "startTime": "2026-10-23T04:00:00-07:00",
           "endTime": "2026-10-23T06:00:00-07:00",
           "isDaytime": false,
           "temperature": 26,
@@ -15,15 +15,15 @@
           "temperatureTrend": null,
           "probabilityOfPrecipitation": {
             "unitCode": "wmoUnit:percent",
-            "value": 2
+            "value": 0
           },
-          "windSpeed": "22 to 25 mph",
+          "windSpeed": "24 mph",
           "windDirection": "NW",
-          "icon": "https://api.weather.gov/icons/land/night/wind_sct?size=medium",
-          "shortForecast": "Partly Cloudy",
-          "detailedForecast": "Partly cloudy, with a low around 26. Northwest wind 22 to 25 mph, with gusts as high as 31 mph.",
+          "icon": "https://api.weather.gov/icons/land/night/wind_few?size=medium",
+          "shortForecast": "Mostly Clear",
+          "detailedForecast": "Mostly clear, with a low around 26. Northwest wind around 24 mph, with gusts as high as 29 mph.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 5879
+          "snowLevelFt": 3490
         },
         {
           "number": 2,
@@ -914,8 +914,8 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 17.0,
-        "wind_direction_deg": 270,
+        "wind_speed_mph": 14.0,
+        "wind_direction_deg": 292.5,
         "snow_level_ft": 3596,
         "temp_f": 30
       },
@@ -1235,7 +1235,7 @@
         {
           "number": 1,
           "name": "Overnight",
-          "startTime": "2026-10-23T02:00:00-07:00",
+          "startTime": "2026-10-23T00:00:00-07:00",
           "endTime": "2026-10-23T06:00:00-07:00",
           "isDaytime": false,
           "temperature": 27,
@@ -1243,15 +1243,15 @@
           "temperatureTrend": null,
           "probabilityOfPrecipitation": {
             "unitCode": "wmoUnit:percent",
-            "value": 2
+            "value": 4
           },
-          "windSpeed": "12 mph",
+          "windSpeed": "13 mph",
           "windDirection": "NW",
-          "icon": "https://api.weather.gov/icons/land/night/sct?size=medium",
-          "shortForecast": "Partly Cloudy",
-          "detailedForecast": "Partly cloudy, with a low around 27. Northwest wind around 12 mph, with gusts as high as 26 mph.",
+          "icon": "https://api.weather.gov/icons/land/night/bkn?size=medium",
+          "shortForecast": "Mostly Cloudy",
+          "detailedForecast": "Mostly cloudy, with a low around 27. Northwest wind around 13 mph, with gusts as high as 29 mph.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 4016
+          "snowLevelFt": 5170
         },
         {
           "number": 2,
@@ -2156,7 +2156,7 @@
         {
           "number": 1,
           "name": "Overnight",
-          "startTime": "2026-10-23T00:00:00-07:00",
+          "startTime": "2026-10-23T04:00:00-07:00",
           "endTime": "2026-10-23T06:00:00-07:00",
           "isDaytime": false,
           "temperature": 30,
@@ -2166,13 +2166,13 @@
             "unitCode": "wmoUnit:percent",
             "value": 0
           },
-          "windSpeed": "7 mph",
+          "windSpeed": "6 mph",
           "windDirection": "W",
           "icon": "https://api.weather.gov/icons/land/night/few?size=medium",
           "shortForecast": "Widespread Frost",
-          "detailedForecast": "Widespread frost. Mostly clear, with a low around 30. West wind around 7 mph.",
+          "detailedForecast": "Widespread frost. Mostly clear, with a low around 30. West wind around 6 mph.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 6115
+          "snowLevelFt": 4040
         },
         {
           "number": 2,
@@ -3079,7 +3079,7 @@
       "wind_speed_mph": 24,
       "wind_direction_deg": 320,
       "snow_level_ft": 3490,
-      "precip_chance_today": 2,
+      "precip_chance_today": 0,
       "snowfall_12h_in": null,
       "snowfall_24h_in": 0,
       "snowfall_48h_in": 0
@@ -3087,11 +3087,11 @@
     "Hoodoo": {
       "elevation_ft": 4705,
       "temp_f": 30,
-      "wind_speed_mph": 17.0,
-      "wind_direction_deg": 270,
+      "wind_speed_mph": 14.0,
+      "wind_direction_deg": 292.5,
       "snow_level_ft": 3596,
       "precip_chance_today": 5,
-      "snowfall_12h_in": 1.0,
+      "snowfall_12h_in": 0.9,
       "snowfall_24h_in": null,
       "snowfall_48h_in": null
     },
@@ -3101,7 +3101,7 @@
       "wind_speed_mph": 10,
       "wind_direction_deg": 310,
       "snow_level_ft": 3413,
-      "precip_chance_today": 2,
+      "precip_chance_today": 4,
       "snowfall_12h_in": null,
       "snowfall_24h_in": 0.0,
       "snowfall_48h_in": 0.0
@@ -4616,8 +4616,8 @@
   "hoodoo": {
     "weather": {
       "Temperature": "26 &#176F",
-      "Wind": "West @ 17 MPH",
-      "Snow depth": "0.6\"",
+      "Wind": "WNW @ 14 MPH",
+      "Snow depth": "0.5\"",
       "Humidity": "100 %",
       "Barometer": "29.96\" Hg",
       "Rain Gauge": "0.01\""
@@ -4626,10 +4626,10 @@
       "trend": {
         "Max": "0.8\"",
         "Min": "-3.1\"",
-        "1 Hr": "0.1\"",
+        "1 Hr": "0.2\"",
         "3 Hr": "0.0\"",
-        "6 Hr": "0.7\"",
-        "12 Hr": "1.0\""
+        "6 Hr": "0.6\"",
+        "12 Hr": "0.9\""
       },
       "season_total_in": 1.7
     },
@@ -4671,8 +4671,8 @@
   "willamette_pass": {
     "forecast": {
       "weather_provider": "NOAA",
-      "date": "October 23, 2026, 4:13 am",
-      "time": 1792754027000,
+      "date": "October 23, 2026, 4:22 am",
+      "time": 1792754560000,
       "current_weather": "Sunny",
       "current_temperature": "31",
       "forecast": [
@@ -4777,15 +4777,15 @@
   "satellite": {
     "Pacific Northwest": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/pnw/13/GOES18-PNW-13-600x600.gif",
-      "last_modified": "Fri, 23 Oct 2026 11:09:34 GMT"
+      "last_modified": "Fri, 23 Oct 2026 11:41:18 GMT"
     },
     "North Pacific (macro)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/np/13/GOES18-NP-13-900x540.gif",
-      "last_modified": "Fri, 23 Oct 2026 11:09:44 GMT"
+      "last_modified": "Fri, 23 Oct 2026 11:41:28 GMT"
     },
     "Pacific US (PACUS)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/13/GOES18-CONUS-13-625x375.gif",
-      "last_modified": "Fri, 23 Oct 2026 11:04:59 GMT"
+      "last_modified": "Fri, 23 Oct 2026 11:35:48 GMT"
     }
   },
   "gfs_snowfall": {
