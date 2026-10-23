@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T17:00:32.034963+00:00",
+  "generated_at": "2026-10-23T17:15:15.009418+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -914,8 +914,8 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 9,
-        "wind_direction_deg": 300,
+        "wind_speed_mph": 13.0,
+        "wind_direction_deg": 315,
         "snow_level_ft": 3884,
         "temp_f": 32
       },
@@ -3087,12 +3087,12 @@
     "Hoodoo": {
       "elevation_ft": 4705,
       "temp_f": 32,
-      "wind_speed_mph": 9,
-      "wind_direction_deg": 300,
+      "wind_speed_mph": 13.0,
+      "wind_direction_deg": 315,
       "snow_level_ft": 3884,
       "precip_chance_today": 3,
-      "snowfall_12h_in": null,
-      "snowfall_24h_in": null,
+      "snowfall_12h_in": 0.5,
+      "snowfall_24h_in": 1.5,
       "snowfall_48h_in": null
     },
     "Willamette Pass": {
@@ -4186,11 +4186,46 @@
       {
         "time": "2026-10-23T16:00:44.979351+00:00",
         "precip_in": 0
+      },
+      {
+        "time": "2026-10-23T17:15:15.246224+00:00",
+        "precip_in": 0
       }
     ]
   },
   "snotel": {
-    "error": "HTTPSConnectionPool(host='wcc.sc.egov.usda.gov', port=443): Max retries exceeded with url: /awdbRestApi/services/v1/data?stationTriplets=545%3AOR%3ASNTL&elements=SNWD%2CWTEQ&duration=DAILY&getFlags=false&beginDate=-1&endDate=-1 (Caused by ConnectTimeoutError(<HTTPSConnection(host='wcc.sc.egov.usda.gov', port=443) at 0x7fa9aad96840>, 'Connection to wcc.sc.egov.usda.gov timed out. (connect timeout=None)'))"
+    "Mt Bachelor area (Irish Taylor)": {
+      "snow_depth_in": 0,
+      "snow_depth_in_date": "2026-10-22",
+      "swe_in": 0.0,
+      "swe_in_date": "2026-10-22",
+      "change_12h_in": 0,
+      "change_24h_in": 0
+    },
+    "Three Creek / Tam McArthur (Three Creeks Meadow)": {
+      "snow_depth_in": 0,
+      "snow_depth_in_date": "2026-10-22",
+      "swe_in": 0.0,
+      "swe_in_date": "2026-10-22",
+      "change_12h_in": 0,
+      "change_24h_in": 0
+    },
+    "Santiam / Hoodoo (Hogg Pass)": {
+      "snow_depth_in": 0,
+      "snow_depth_in_date": "2026-10-22",
+      "swe_in": 0.0,
+      "swe_in_date": "2026-10-22",
+      "change_12h_in": 0,
+      "change_24h_in": 0
+    },
+    "Ochocos (Ochoco Meadows)": {
+      "snow_depth_in": 0,
+      "snow_depth_in_date": "2026-10-22",
+      "swe_in": 0.0,
+      "swe_in_date": "2026-10-22",
+      "change_12h_in": 0,
+      "change_24h_in": 0
+    }
   },
   "odot_cams": {
     "Century Drive": [
@@ -4310,8 +4345,8 @@
           "day": "Friday",
           "temperature_high": 38,
           "temperature_low": 20,
-          "precipitation_high": 68,
-          "precipitation_low": 68,
+          "precipitation_high": 63,
+          "precipitation_low": 63,
           "wind_speed": 9,
           "wind_direction": "WNW"
         },
@@ -4587,10 +4622,25 @@
     }
   },
   "hoodoo": {
-    "weather": {},
+    "weather": {
+      "Temperature": "26 &#176F",
+      "Wind": "NW @ 13 MPH",
+      "Snow depth": "0.5\"",
+      "Humidity": "100 %",
+      "Barometer": "30.03\" Hg",
+      "Rain Gauge": "0.01\""
+    },
     "snow_totals": {
-      "trend": {},
-      "season_total_in": null
+      "trend": {
+        "Max": "0.8\"",
+        "Min": "-3.1\"",
+        "1 Hr": "0.0\"",
+        "3 Hr": "0.1\"",
+        "6 Hr": "0.2\"",
+        "12 Hr": "0.5\"",
+        "24 Hr": "1.5\""
+      },
+      "season_total_in": 1.7
     },
     "webcams": {
       "Base Area": {
@@ -4630,10 +4680,10 @@
   "willamette_pass": {
     "forecast": {
       "weather_provider": "NOAA",
-      "date": "October 23, 2026, 9:43 am",
-      "time": 1792773826000,
+      "date": "October 23, 2026, 9:52 am",
+      "time": 1792774361000,
       "current_weather": "Sunny",
-      "current_temperature": "32",
+      "current_temperature": "39",
       "forecast": [
         {
           "day": "Friday",
@@ -4736,15 +4786,15 @@
   "satellite": {
     "Pacific Northwest": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/pnw/13/GOES18-PNW-13-600x600.gif",
-      "last_modified": "Fri, 23 Oct 2026 16:38:19 GMT"
+      "last_modified": "Fri, 23 Oct 2026 17:13:39 GMT"
     },
     "North Pacific (macro)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/np/13/GOES18-NP-13-900x540.gif",
-      "last_modified": "Fri, 23 Oct 2026 16:38:29 GMT"
+      "last_modified": "Fri, 23 Oct 2026 17:13:51 GMT"
     },
     "Pacific US (PACUS)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/13/GOES18-CONUS-13-625x375.gif",
-      "last_modified": "Fri, 23 Oct 2026 16:34:35 GMT"
+      "last_modified": "Fri, 23 Oct 2026 17:07:08 GMT"
     }
   },
   "gfs_snowfall": {
