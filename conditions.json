@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T22:17:40.713494+00:00",
+  "generated_at": "2026-10-23T22:30:30.903761+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -914,8 +914,8 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 6,
-        "wind_direction_deg": 300,
+        "wind_speed_mph": 10.0,
+        "wind_direction_deg": 292.5,
         "snow_level_ft": 5328,
         "temp_f": 41
       },
@@ -2156,7 +2156,7 @@
         {
           "number": 1,
           "name": "This Afternoon",
-          "startTime": "2026-10-23T12:00:00-07:00",
+          "startTime": "2026-10-23T15:00:00-07:00",
           "endTime": "2026-10-23T18:00:00-07:00",
           "isDaytime": true,
           "temperature": 51,
@@ -2172,7 +2172,7 @@
           "shortForecast": "Sunny",
           "detailedForecast": "Sunny. High near 51, with temperatures falling to around 49 in the afternoon. North wind around 6 mph.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 4620
+          "snowLevelFt": 5249
         },
         {
           "number": 2,
@@ -3087,12 +3087,12 @@
     "Hoodoo": {
       "elevation_ft": 4705,
       "temp_f": 41,
-      "wind_speed_mph": 6,
-      "wind_direction_deg": 300,
+      "wind_speed_mph": 10.0,
+      "wind_direction_deg": 292.5,
       "snow_level_ft": 5328,
       "precip_chance_today": 0,
-      "snowfall_12h_in": null,
-      "snowfall_24h_in": null,
+      "snowfall_12h_in": -1.1,
+      "snowfall_24h_in": 0.0,
       "snowfall_48h_in": null
     },
     "Willamette Pass": {
@@ -3928,10 +3928,6 @@
     ],
     "historical_precip_snapshots": [
       {
-        "time": "2026-10-20T22:30:24.906365+00:00",
-        "precip_in": 0
-      },
-      {
         "time": "2026-10-20T23:45:21.046962+00:00",
         "precip_in": 0
       },
@@ -4335,7 +4331,7 @@
           "weather_icon": "dor-sunny",
           "id": 1792782000,
           "day": "Friday",
-          "temperature_high": 42,
+          "temperature_high": 41,
           "temperature_low": 20,
           "precipitation_high": 44,
           "precipitation_low": 44,
@@ -4457,9 +4453,9 @@
           "primary": true,
           "nonstandardizedDataPoints": {
             "depth": "144.7",
-            "timestamp": "2026-10-23T14:00:00.000Z"
+            "timestamp": "2026-10-23T15:00:00.000Z"
           },
-          "temperature": "39.02",
+          "temperature": "39.44",
           "wind": {
             "low": "0",
             "high": "0",
@@ -4501,17 +4497,17 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-10-23T14:00:00.000Z"
+            "timestamp": "2026-10-23T15:00:00.000Z"
           },
-          "temperature": "33.96",
+          "temperature": "34.5",
           "wind": {
-            "low": "7.303",
-            "high": "16.74",
+            "low": "7.765",
+            "high": "14.12",
             "current": null,
-            "average": "7.303",
+            "average": "7.765",
             "direction": "E"
           },
-          "humidity": "57",
+          "humidity": "49.8",
           "display_name": "Pine Marten",
           "elevation_ft": 7800
         },
@@ -4614,20 +4610,72 @@
     }
   },
   "hoodoo": {
-    "error": "HTTPSConnectionPool(host='santiampsp.org', port=443): Max retries exceeded with url: /wx/weather.htm (Caused by ConnectTimeoutError(<HTTPSConnection(host='santiampsp.org', port=443) at 0x7f317760f7a0>, 'Connection to santiampsp.org timed out. (connect timeout=None)'))"
+    "weather": {
+      "Temperature": "34 &#176F",
+      "Wind": "WNW @ 10 MPH",
+      "Snow depth": "-0.5\"",
+      "Humidity": "84 %",
+      "Barometer": "30.10\" Hg",
+      "Rain Gauge": "0.01\""
+    },
+    "snow_totals": {
+      "trend": {
+        "Max": "0.9\"",
+        "Min": "-3.1\"",
+        "1 Hr": "-0.1\"",
+        "3 Hr": "-0.8\"",
+        "6 Hr": "-1.1\"",
+        "12 Hr": "-1.1\"",
+        "24 Hr": "0.0\""
+      },
+      "season_total_in": 1.7
+    },
+    "webcams": {
+      "Base Area": {
+        "src": "https://santiampsp.org/wx/weather16.jpg",
+        "link": "https://hoodoo.com/the-mountain/webcams/"
+      },
+      "Top of Manzanita": {
+        "src": "https://santiampsp.org/wx/weather3.jpg",
+        "link": "https://hoodoo.com/the-mountain/webcams/"
+      },
+      "Top of Ed": {
+        "src": "https://santiampsp.org/wx/weather2.jpg",
+        "link": "https://hoodoo.com/the-mountain/webcams/"
+      },
+      "Top of Easy Rider": {
+        "src": "https://santiampsp.org/wx/weather4.jpg",
+        "link": "https://hoodoo.com/the-mountain/webcams/"
+      },
+      "Hoodoo Parking Lot": {
+        "src": "https://santiampsp.org/wx/weather12.jpg",
+        "link": "https://hoodoo.com/the-mountain/webcams/"
+      },
+      "Hoodoo Summit": {
+        "src": "https://santiampsp.org/wx/weather1.jpg",
+        "link": "https://hoodoo.com/the-mountain/webcams/"
+      },
+      "Hayrick Butte & \"Gripper\" run from top of Ed chair": {
+        "src": "https://santiampsp.org/wx/weather2b.jpg",
+        "link": "https://hoodoo.com/the-mountain/webcams/"
+      },
+      "Hoodoo Parking Lot View #2": {
+        "src": "https://santiampsp.org/wx/weather10.jpg",
+        "link": "https://hoodoo.com/the-mountain/webcams/"
+      }
+    }
   },
   "willamette_pass": {
     "forecast": {
       "weather_provider": "NOAA",
-      "date": "October 23, 2026, 3:16 pm",
-      "time": 1792793778000,
-      "current_weather": "Sunny",
+      "date": "October 23, 2026, 3:28 pm",
+      "time": 1792794501000,
+      "current_weather": "Mostly Clear",
       "current_temperature": "55",
       "forecast": [
         {
           "day": "Friday",
-          "day_forecast": "Sunny, with a high near 42. West northwest wind around 8 mph. ",
-          "night_forecast": "Mostly clear, with a low around 28. North wind 5 to 8 mph becoming east southeast after midnight. "
+          "night_forecast": "Mostly clear, with a low around 28. Northwest wind 5 to 8 mph becoming east southeast after midnight. "
         },
         {
           "day": "Saturday",
@@ -4637,12 +4685,12 @@
         {
           "day": "Sunday",
           "day_forecast": "A 20 percent chance of rain after 11am.  Snow level 6100 feet rising to 7100 feet in the afternoon. Partly sunny, with a high near 55. Light and variable wind becoming south southwest around 6 mph in the morning. ",
-          "night_forecast": "A 50 percent chance of rain, mainly before 5am.  Snow level 7000 feet lowering to 6100 feet after midnight . Mostly cloudy, with a low around 35."
+          "night_forecast": "A 50 percent chance of rain, mainly before 5am.  Snow level 7000 feet lowering to 6100 feet after midnight . Mostly cloudy, with a low around 35. Calm wind becoming south southwest around 6 mph after midnight. "
         },
         {
           "day": "Monday",
           "day_forecast": "Rain likely, possibly mixed with snow, mainly after 11am.  Snow level rising to 6300 feet in the afternoon. Mostly cloudy, with a high near 43. Chance of precipitation is 70%. Little or no snow accumulation expected. ",
-          "night_forecast": "Rain and snow likely before 2am, then a chance of snow.  Snow level 6300 feet lowering to 5500 feet after midnight . Mostly cloudy, with a low around 31."
+          "night_forecast": "Rain and snow likely before 2am, then a chance of snow.  Snow level 6300 feet lowering to 5500 feet after midnight . Mostly cloudy, with a low around 31. Chance of precipitation is 60%. New snow accumulation of less than a half inch possible. "
         },
         {
           "day": "Tuesday",
@@ -4651,13 +4699,17 @@
         },
         {
           "day": "Wednesday",
-          "day_forecast": "A chance of rain and snow.  Snow level rising to 6400 feet in the afternoon. Partly sunny, with a high near 45.",
+          "day_forecast": "A chance of snow before 2pm, then a chance of rain.  Snow level rising to 6400 feet in the afternoon. Partly sunny, with a high near 45.",
           "night_forecast": "A slight chance of rain and snow.  Snow level 6500 feet lowering to 5700 feet after midnight . Partly cloudy, with a low around 30."
+        },
+        {
+          "day": "Thursday",
+          "day_forecast": "A slight chance of rain and snow.  Snow level rising to 6300 feet in the afternoon. Partly sunny, with a high near 47."
         }
       ],
       "wind": "NA",
-      "icon": "0100-sunny.svg",
-      "max_temp": "42",
+      "icon": "0150-clear-night.svg",
+      "max_temp": "53",
       "min_temp": "28",
       "hourly": [
         {
@@ -4713,7 +4765,10 @@
       "src": "https://api.mtbachelor.com/api/v1/cams/mtn/14",
       "link": "https://www.mtbachelor.com/the-mountain/webcams/live-cam-14/"
     },
-    "Hoodoo (Base Area)": null,
+    "Hoodoo (Base Area)": {
+      "src": "https://santiampsp.org/wx/weather16.jpg",
+      "link": "https://hoodoo.com/the-mountain/webcams/"
+    },
     "Willamette Pass (Base Area)": {
       "src": "https://www.youtube.com/embed/sNVA6oC7vcM",
       "link": "https://www.willamettepass.ski/weather-conditions-webcams/webcams/"
