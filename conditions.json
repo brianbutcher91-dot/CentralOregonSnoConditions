@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T20:15:18.821599+00:00",
+  "generated_at": "2026-10-24T20:27:38.018610+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -914,8 +914,8 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 7.0,
-        "wind_direction_deg": 247.5,
+        "wind_speed_mph": 8.0,
+        "wind_direction_deg": 225,
         "snow_level_ft": 5827,
         "temp_f": 52
       },
@@ -3087,12 +3087,12 @@
     "Hoodoo": {
       "elevation_ft": 4705,
       "temp_f": 52,
-      "wind_speed_mph": 7.0,
-      "wind_direction_deg": 247.5,
+      "wind_speed_mph": 8.0,
+      "wind_direction_deg": 225,
       "snow_level_ft": 5827,
       "precip_chance_today": 0,
-      "snowfall_12h_in": 0.0,
-      "snowfall_24h_in": -0.4,
+      "snowfall_12h_in": 0.1,
+      "snowfall_24h_in": -0.1,
       "snowfall_48h_in": null
     },
     "Willamette Pass": {
@@ -4204,7 +4204,7 @@
       "swe_in": 0.0,
       "swe_in_date": "2026-10-23",
       "change_12h_in": 0,
-      "change_24h_in": -1
+      "change_24h_in": 0
     },
     "Three Creek / Tam McArthur (Three Creeks Meadow)": {
       "snow_depth_in": 0,
@@ -4335,7 +4335,7 @@
   "mtbachelor": {
     "weather": {
       "current": {
-        "temperature": 46,
+        "temperature": 49,
         "weather_icon": "dor-cloudy"
       },
       "forecast": [
@@ -4468,10 +4468,10 @@
           "active": true,
           "primary": true,
           "nonstandardizedDataPoints": {
-            "depth": "142.5",
-            "timestamp": "2026-10-24T12:00:00.000Z"
+            "depth": "142.4",
+            "timestamp": "2026-10-24T13:00:00.000Z"
           },
-          "temperature": "46.46",
+          "temperature": "49.3",
           "wind": {
             "low": "0",
             "high": "0",
@@ -4513,17 +4513,17 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-10-24T12:00:00.000Z"
+            "timestamp": "2026-10-24T13:00:00.000Z"
           },
-          "temperature": "45.28",
+          "temperature": "44.17",
           "wind": {
-            "low": "0.666",
-            "high": "7.464",
+            "low": "1.298",
+            "high": "5.358",
             "current": null,
-            "average": "0.666",
-            "direction": "SSW"
+            "average": "1.298",
+            "direction": "SSE"
           },
-          "humidity": "22.23",
+          "humidity": "31.69",
           "display_name": "Pine Marten",
           "elevation_ft": 7800
         },
@@ -4627,8 +4627,8 @@
   },
   "hoodoo": {
     "weather": {
-      "Temperature": "51 &#176F",
-      "Wind": "WSW @ 7 MPH",
+      "Temperature": "52 &#176F",
+      "Wind": "SW @ 8 MPH",
       "Snow depth": "-0.2\"",
       "Humidity": "11 %",
       "Barometer": "30.01\" Hg",
@@ -4638,11 +4638,11 @@
       "trend": {
         "Max": "0.9\"",
         "Min": "-2.7\"",
-        "1 Hr": "0.2\"",
-        "3 Hr": "0.0\"",
-        "6 Hr": "0.5\"",
-        "12 Hr": "0.0\"",
-        "24 Hr": "-0.4\""
+        "1 Hr": "0.4\"",
+        "3 Hr": "0.5\"",
+        "6 Hr": "0.6\"",
+        "12 Hr": "0.1\"",
+        "24 Hr": "-0.1\""
       },
       "season_total_in": 2.2
     },
@@ -4684,14 +4684,14 @@
   "willamette_pass": {
     "forecast": {
       "weather_provider": "NOAA",
-      "date": "October 24, 2026, 12:55 pm",
-      "time": 1792871733000,
+      "date": "October 24, 2026, 1:25 pm",
+      "time": 1792873515000,
       "current_weather": "Mostly Sunny",
       "current_temperature": "53",
       "forecast": [
         {
           "day": "Saturday",
-          "day_forecast": "Mostly sunny, with a high near 55. Southeast wind around 6 mph becoming light and variable. ",
+          "day_forecast": "Mostly sunny, with a high near 55. South southeast wind around 6 mph becoming light and variable. ",
           "night_forecast": "Mostly cloudy, with a low around 37. Light and variable wind becoming south southeast around 6 mph after midnight. "
         },
         {
@@ -4726,11 +4726,6 @@
       "min_temp": "37",
       "hourly": [
         {
-          "time": "12p",
-          "temp": "49",
-          "details": ""
-        },
-        {
           "time": "2p",
           "temp": "54",
           "details": ""
@@ -4748,6 +4743,11 @@
         {
           "time": "8p",
           "temp": "45",
+          "details": ""
+        },
+        {
+          "time": "10p",
+          "temp": "41",
           "details": ""
         }
       ],
