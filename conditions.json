@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T22:30:22.130394+00:00",
+  "generated_at": "2026-10-24T22:45:20.924873+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -914,8 +914,8 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 8.0,
-        "wind_direction_deg": 202.5,
+        "wind_speed_mph": 7.0,
+        "wind_direction_deg": 225,
         "snow_level_ft": 6193,
         "temp_f": 54
       },
@@ -3087,12 +3087,12 @@
     "Hoodoo": {
       "elevation_ft": 4705,
       "temp_f": 54,
-      "wind_speed_mph": 8.0,
-      "wind_direction_deg": 202.5,
+      "wind_speed_mph": 7.0,
+      "wind_direction_deg": 225,
       "snow_level_ft": 6193,
       "precip_chance_today": 0,
-      "snowfall_12h_in": 0.1,
-      "snowfall_24h_in": 0.6,
+      "snowfall_12h_in": -0.2,
+      "snowfall_24h_in": 0.0,
       "snowfall_48h_in": null
     },
     "Willamette Pass": {
@@ -4331,10 +4331,10 @@
           "weather_icon": "dor-mostlycloudy",
           "id": 1792868400,
           "day": "Saturday",
-          "temperature_high": 50,
+          "temperature_high": 49,
           "temperature_low": 14,
-          "precipitation_high": 41,
-          "precipitation_low": 41,
+          "precipitation_high": 44,
+          "precipitation_low": 44,
           "wind_speed": 5,
           "wind_direction": "W"
         },
@@ -4612,9 +4612,9 @@
   "hoodoo": {
     "weather": {
       "Temperature": "52 &#176F",
-      "Wind": "SSW @ 8 MPH",
-      "Snow depth": "-0.5\"",
-      "Humidity": "20 %",
+      "Wind": "SW @ 7 MPH",
+      "Snow depth": "-0.3\"",
+      "Humidity": "19 %",
       "Barometer": "30.00\" Hg",
       "Rain Gauge": "0.01\""
     },
@@ -4622,11 +4622,11 @@
       "trend": {
         "Max": "0.9\"",
         "Min": "-1.7\"",
-        "1 Hr": "0.8\"",
-        "3 Hr": "0.0\"",
-        "6 Hr": "0.3\"",
-        "12 Hr": "0.1\"",
-        "24 Hr": "0.6\""
+        "1 Hr": "0.2\"",
+        "3 Hr": "-0.2\"",
+        "6 Hr": "-0.1\"",
+        "12 Hr": "-0.2\"",
+        "24 Hr": "0.0\""
       },
       "season_total_in": 2.2
     },
@@ -4668,14 +4668,13 @@
   "willamette_pass": {
     "forecast": {
       "weather_provider": "NOAA",
-      "date": "October 24, 2026, 3:04 pm",
-      "time": 1792879459000,
-      "current_weather": "Mostly Sunny",
-      "current_temperature": "61",
+      "date": "October 24, 2026, 3:43 pm",
+      "time": 1792881805000,
+      "current_weather": "Mostly Cloudy",
+      "current_temperature": "62",
       "forecast": [
         {
           "day": "Saturday",
-          "day_forecast": "Mostly sunny, with a high near 55. South wind around 5 mph becoming light and variable. ",
           "night_forecast": "Mostly cloudy, with a low around 37. Light and variable wind becoming south southeast around 6 mph after midnight. "
         },
         {
@@ -4686,7 +4685,7 @@
         {
           "day": "Monday",
           "day_forecast": "Snow likely before 11am, then snow, possibly mixed with rain.  High near 38. South wind 6 to 8 mph.  Chance of precipitation is 90%. New snow accumulation of less than a half inch possible. ",
-          "night_forecast": "Rain and snow before 2am, then a chance of snow.  Snow level 5700 feet. Low around 33. Chance of precipitation is 80%. Little or no snow accumulation expected. "
+          "night_forecast": "Rain and snow before 2am, then a chance of snow.  Snow level 5700 feet. Low around 33. West southwest wind around 8 mph.  Chance of precipitation is 80%. Little or no snow accumulation expected. "
         },
         {
           "day": "Tuesday",
@@ -4702,18 +4701,17 @@
           "day": "Thursday",
           "day_forecast": "A chance of snow.  Partly sunny, with a high near 37.",
           "night_forecast": "A chance of snow.  Mostly cloudy, with a low around 25."
+        },
+        {
+          "day": "Friday",
+          "day_forecast": "A chance of snow.  Partly sunny, with a high near 39."
         }
       ],
       "wind": "NA",
-      "icon": "0100-sunny.svg",
-      "max_temp": "55",
+      "icon": "0101-cloudy.svg",
+      "max_temp": "53",
       "min_temp": "37",
       "hourly": [
-        {
-          "time": "2p",
-          "temp": "54",
-          "details": ""
-        },
         {
           "time": "4p",
           "temp": "54",
@@ -4731,6 +4729,11 @@
         },
         {
           "time": "10p",
+          "temp": "41",
+          "details": ""
+        },
+        {
+          "time": "12a",
           "temp": "41",
           "details": ""
         }
@@ -4774,15 +4777,15 @@
   "satellite": {
     "Pacific Northwest": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/pnw/13/GOES18-PNW-13-600x600.gif",
-      "last_modified": "Sat, 24 Oct 2026 22:11:43 GMT"
+      "last_modified": "Sat, 24 Oct 2026 22:41:39 GMT"
     },
     "North Pacific (macro)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/np/13/GOES18-NP-13-900x540.gif",
-      "last_modified": "Sat, 24 Oct 2026 22:11:53 GMT"
+      "last_modified": "Sat, 24 Oct 2026 22:41:49 GMT"
     },
     "Pacific US (PACUS)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/13/GOES18-CONUS-13-625x375.gif",
-      "last_modified": "Sat, 24 Oct 2026 22:06:03 GMT"
+      "last_modified": "Sat, 24 Oct 2026 22:35:54 GMT"
     }
   },
   "gfs_snowfall": {
