@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T00:15:22.724391+00:00",
+  "generated_at": "2026-10-24T00:30:17.480250+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -3091,8 +3091,8 @@
       "wind_direction_deg": 292.5,
       "snow_level_ft": 5537,
       "precip_chance_today": 0,
-      "snowfall_12h_in": -1.2,
-      "snowfall_24h_in": -0.2,
+      "snowfall_12h_in": -1.0,
+      "snowfall_24h_in": -0.4,
       "snowfall_48h_in": null
     },
     "Willamette Pass": {
@@ -4207,7 +4207,7 @@
       "snow_depth_in_date": "2026-10-22",
       "swe_in": 0.0,
       "swe_in_date": "2026-10-22",
-      "change_12h_in": -1,
+      "change_12h_in": 0,
       "change_24h_in": 0
     },
     "Three Creek / Tam McArthur (Three Creeks Meadow)": {
@@ -4215,8 +4215,8 @@
       "snow_depth_in_date": "2026-10-22",
       "swe_in": 0.0,
       "swe_in_date": "2026-10-22",
-      "change_12h_in": 0,
-      "change_24h_in": 0
+      "change_12h_in": 1,
+      "change_24h_in": 1
     },
     "Santiam / Hoodoo (Hogg Pass)": {
       "snow_depth_in": 0,
@@ -4339,7 +4339,7 @@
   "mtbachelor": {
     "weather": {
       "current": {
-        "temperature": 40,
+        "temperature": 41,
         "weather_icon": "dor-sunny"
       },
       "forecast": [
@@ -4351,7 +4351,7 @@
           "weather_icon": "dor-sunny",
           "id": 1792782000,
           "day": "Friday",
-          "temperature_high": 40,
+          "temperature_high": 39,
           "temperature_low": 20,
           "precipitation_high": 45,
           "precipitation_low": 45,
@@ -4472,10 +4472,10 @@
           "active": true,
           "primary": true,
           "nonstandardizedDataPoints": {
-            "depth": "144.7",
-            "timestamp": "2026-10-23T16:00:00.000Z"
+            "depth": "144.8",
+            "timestamp": "2026-10-23T17:00:00.000Z"
           },
-          "temperature": "39.64",
+          "temperature": "40.66",
           "wind": {
             "low": "0",
             "high": "0",
@@ -4517,17 +4517,17 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-10-23T16:00:00.000Z"
+            "timestamp": "2026-10-23T17:00:00.000Z"
           },
-          "temperature": "35.01",
+          "temperature": "35.34",
           "wind": {
-            "low": "8.84",
-            "high": "15.15",
+            "low": "5.401",
+            "high": "15.94",
             "current": null,
-            "average": "8.84",
-            "direction": "E"
+            "average": "5.401",
+            "direction": "ESE"
           },
-          "humidity": "39.34",
+          "humidity": "46.12",
           "display_name": "Pine Marten",
           "elevation_ft": 7800
         },
@@ -4631,11 +4631,11 @@
   },
   "hoodoo": {
     "weather": {
-      "Temperature": "36 &#176F",
+      "Temperature": "35 &#176F",
       "Wind": "WNW @ 8 MPH",
-      "Snow depth": "-0.3\"",
+      "Snow depth": "-0.6\"",
       "Humidity": "79 %",
-      "Barometer": "30.12\" Hg",
+      "Barometer": "30.13\" Hg",
       "Rain Gauge": "0.01\""
     },
     "snow_totals": {
@@ -4644,9 +4644,9 @@
         "Min": "-2.7\"",
         "1 Hr": "0.0\"",
         "3 Hr": "0.0\"",
-        "6 Hr": "-1.1\"",
-        "12 Hr": "-1.2\"",
-        "24 Hr": "-0.2\""
+        "6 Hr": "-1.0\"",
+        "12 Hr": "-1.0\"",
+        "24 Hr": "-0.4\""
       },
       "season_total_in": 1.7
     },
@@ -4688,8 +4688,8 @@
   "willamette_pass": {
     "forecast": {
       "weather_provider": "NOAA",
-      "date": "October 23, 2026, 4:55 pm",
-      "time": 1792799716000,
+      "date": "October 23, 2026, 5:10 pm",
+      "time": 1792800631000,
       "current_weather": "Mostly Clear",
       "current_temperature": "52",
       "forecast": [
@@ -4805,7 +4805,7 @@
     },
     "Pacific US (PACUS)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/13/GOES18-CONUS-13-625x375.gif",
-      "last_modified": "Sat, 24 Oct 2026 00:06:18 GMT"
+      "last_modified": "Sat, 24 Oct 2026 00:06:19 GMT"
     }
   },
   "gfs_snowfall": {
