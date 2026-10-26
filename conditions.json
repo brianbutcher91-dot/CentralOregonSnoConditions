@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T12:15:21.210700+00:00",
+  "generated_at": "2026-10-26T12:30:22.205434+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -914,7 +914,7 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 12.0,
+        "wind_speed_mph": 16.0,
         "wind_direction_deg": 225,
         "snow_level_ft": 5039,
         "temp_f": 35
@@ -3087,12 +3087,12 @@
     "Hoodoo": {
       "elevation_ft": 4705,
       "temp_f": 35,
-      "wind_speed_mph": 12.0,
+      "wind_speed_mph": 16.0,
       "wind_direction_deg": 225,
       "snow_level_ft": 5039,
       "precip_chance_today": 60,
       "snowfall_12h_in": -0.2,
-      "snowfall_24h_in": -0.2,
+      "snowfall_24h_in": -0.3,
       "snowfall_48h_in": null
     },
     "Willamette Pass": {
@@ -3928,10 +3928,6 @@
     ],
     "historical_precip_snapshots": [
       {
-        "time": "2026-10-23T12:30:21.760335+00:00",
-        "precip_in": 0
-      },
-      {
         "time": "2026-10-23T13:45:18.124539+00:00",
         "precip_in": 0
       },
@@ -4191,8 +4187,8 @@
       "snow_depth_in_date": "2026-10-25",
       "swe_in": 0.2,
       "swe_in_date": "2026-10-25",
-      "change_12h_in": 1,
-      "change_24h_in": 1
+      "change_12h_in": 0,
+      "change_24h_in": 0
     },
     "Three Creek / Tam McArthur (Three Creeks Meadow)": {
       "snow_depth_in": 0,
@@ -4323,7 +4319,7 @@
   "mtbachelor": {
     "weather": {
       "current": {
-        "temperature": 31,
+        "temperature": 30,
         "weather_icon": "dor-snow"
       },
       "forecast": [
@@ -4457,9 +4453,9 @@
           "primary": true,
           "nonstandardizedDataPoints": {
             "depth": "144.8",
-            "timestamp": "2026-10-26T04:00:00.000Z"
+            "timestamp": "2026-10-26T05:00:00.000Z"
           },
-          "temperature": "30.51",
+          "temperature": "30.43",
           "wind": {
             "low": "0",
             "high": "0",
@@ -4479,15 +4475,15 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-10-26T04:00:00.000Z"
+            "timestamp": "2026-10-26T05:00:00.000Z"
           },
-          "temperature": "27.61",
+          "temperature": "28.13",
           "wind": {
-            "low": "11.02",
-            "high": "24.61",
+            "low": "12.69",
+            "high": "30.42",
             "current": null,
-            "average": "11.02",
-            "direction": "SSW"
+            "average": "12.69",
+            "direction": "SW"
           },
           "humidity": null,
           "display_name": "Sunrise",
@@ -4501,17 +4497,17 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-10-26T04:00:00.000Z"
+            "timestamp": "2026-10-26T05:00:00.000Z"
           },
-          "temperature": "25.23",
+          "temperature": "25.21",
           "wind": {
-            "low": "23.01",
-            "high": "38.54",
+            "low": "24.45",
+            "high": "39.03",
             "current": null,
-            "average": "23.01",
+            "average": "24.45",
             "direction": "SW"
           },
-          "humidity": "98.2",
+          "humidity": "98",
           "display_name": "Pine Marten",
           "elevation_ft": 7800
         },
@@ -4616,10 +4612,10 @@
   "hoodoo": {
     "weather": {
       "Temperature": "30 &#176F",
-      "Wind": "SW @ 12 MPH",
-      "Snow depth": "0.0\"",
+      "Wind": "SW @ 16 MPH",
+      "Snow depth": "0.1\"",
       "Humidity": "100 %",
-      "Barometer": "29.84\" Hg",
+      "Barometer": "29.83\" Hg",
       "Rain Gauge": "0.23\""
     },
     "snow_totals": {
@@ -4627,10 +4623,10 @@
         "Max": "1.0\"",
         "Min": "-1.5\"",
         "1 Hr": "0.5\"",
-        "3 Hr": "0.2\"",
-        "6 Hr": "0.3\"",
+        "3 Hr": "0.3\"",
+        "6 Hr": "-0.1\"",
         "12 Hr": "-0.2\"",
-        "24 Hr": "-0.2\""
+        "24 Hr": "-0.3\""
       },
       "season_total_in": 2.2
     },
@@ -4672,10 +4668,10 @@
   "willamette_pass": {
     "forecast": {
       "weather_provider": "NOAA",
-      "date": "October 26, 2026, 4:55 am",
-      "time": 1793015718000,
+      "date": "October 26, 2026, 5:04 am",
+      "time": 1793016257000,
       "current_weather": "Snow",
-      "current_temperature": "34",
+      "current_temperature": "33",
       "forecast": [
         {
           "day": "Monday",
