@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T02:15:18.596100+00:00",
+  "generated_at": "2026-10-26T02:30:16.846669+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -621,7 +621,7 @@
         {
           "number": 1,
           "name": "Tonight",
-          "startTime": "2026-10-25T19:00:00-07:00",
+          "startTime": "2026-10-25T18:00:00-07:00",
           "endTime": "2026-10-26T06:00:00-07:00",
           "isDaytime": false,
           "temperature": 33,
@@ -636,8 +636,8 @@
           "icon": "https://api.weather.gov/icons/land/night/snow,60/snow,90?size=medium",
           "shortForecast": "Rain And Snow",
           "detailedForecast": "A chance of rain before 9pm, then rain and snow. Mostly cloudy. Low around 33, with temperatures rising to around 35 overnight. Southwest wind 2 to 8 mph, with gusts as high as 20 mph. Chance of precipitation is 90%. New rainfall amounts between a quarter and half of an inch possible.",
-          "precipitationAmountIn": 0.16,
-          "snowLevelFt": 6404
+          "precipitationAmountIn": 0.17,
+          "snowLevelFt": 6457
         },
         {
           "number": 2,
@@ -914,7 +914,7 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 14.0,
+        "wind_speed_mph": 9.0,
         "wind_direction_deg": 270,
         "snow_level_ft": 6404,
         "temp_f": 42
@@ -1542,7 +1542,7 @@
         {
           "number": 1,
           "name": "Tonight",
-          "startTime": "2026-10-25T19:00:00-07:00",
+          "startTime": "2026-10-25T18:00:00-07:00",
           "endTime": "2026-10-26T06:00:00-07:00",
           "isDaytime": false,
           "temperature": 35,
@@ -1557,8 +1557,8 @@
           "icon": "https://api.weather.gov/icons/land/night/snow,80/snow,90?size=medium",
           "shortForecast": "Rain And Snow",
           "detailedForecast": "Rain before 9pm, then rain and snow. Mostly cloudy. Low around 35, with temperatures rising to around 38 overnight. South southwest wind 3 to 9 mph. Chance of precipitation is 90%. New rainfall amounts between a half and three quarters of an inch possible.",
-          "precipitationAmountIn": 0.29,
-          "snowLevelFt": 6247
+          "precipitationAmountIn": 0.32,
+          "snowLevelFt": 6378
         },
         {
           "number": 2,
@@ -1849,7 +1849,7 @@
         {
           "number": 1,
           "name": "Tonight",
-          "startTime": "2026-10-25T19:00:00-07:00",
+          "startTime": "2026-10-25T18:00:00-07:00",
           "endTime": "2026-10-26T06:00:00-07:00",
           "isDaytime": false,
           "temperature": 33,
@@ -2463,7 +2463,7 @@
         {
           "number": 1,
           "name": "Tonight",
-          "startTime": "2026-10-25T19:00:00-07:00",
+          "startTime": "2026-10-25T18:00:00-07:00",
           "endTime": "2026-10-26T06:00:00-07:00",
           "isDaytime": false,
           "temperature": 29,
@@ -2770,7 +2770,7 @@
         {
           "number": 1,
           "name": "Tonight",
-          "startTime": "2026-10-25T18:00:00-07:00",
+          "startTime": "2026-10-25T19:00:00-07:00",
           "endTime": "2026-10-26T06:00:00-07:00",
           "isDaytime": false,
           "temperature": 22,
@@ -3087,12 +3087,12 @@
     "Hoodoo": {
       "elevation_ft": 4705,
       "temp_f": 42,
-      "wind_speed_mph": 14.0,
+      "wind_speed_mph": 9.0,
       "wind_direction_deg": 270,
       "snow_level_ft": 6404,
       "precip_chance_today": 92,
-      "snowfall_12h_in": 0.8,
-      "snowfall_24h_in": 0.6,
+      "snowfall_12h_in": 0.2,
+      "snowfall_24h_in": 0.1,
       "snowfall_48h_in": null
     },
     "Willamette Pass": {
@@ -3109,14 +3109,6 @@
   },
   "bachelor_timeseries": {
     "hourly": [
-      {
-        "time": "2026-10-24T19:00:00.000Z",
-        "temp_f": 41.59,
-        "wind_speed_mph": 6.393,
-        "wind_direction_deg": 194.1,
-        "precip_in": null,
-        "period": "historical"
-      },
       {
         "time": "2026-10-24T20:00:00.000Z",
         "temp_f": 40.82,
@@ -3302,12 +3294,12 @@
         "period": "historical"
       },
       {
-        "time": "2026-10-25T19:00:00+00:00",
-        "temp_f": 41.0,
-        "wind_speed_mph": 12.7,
-        "wind_direction_deg": 230,
-        "precip_in": 0.0,
-        "period": "forecast"
+        "time": "2026-10-25T19:00:00.000Z",
+        "temp_f": 34.48,
+        "wind_speed_mph": 7.119,
+        "wind_direction_deg": 80.3,
+        "precip_in": null,
+        "period": "historical"
       },
       {
         "time": "2026-10-25T20:00:00+00:00",
@@ -4331,7 +4323,7 @@
   "mtbachelor": {
     "weather": {
       "current": {
-        "temperature": 42,
+        "temperature": 41,
         "weather_icon": "dor-mostlysunny"
       },
       "forecast": [
@@ -4343,7 +4335,7 @@
           "weather_icon": "dor-snow",
           "id": 1792954800,
           "day": "Sunday",
-          "temperature_high": 43,
+          "temperature_high": 42,
           "temperature_low": 23,
           "precipitation_high": 50,
           "precipitation_low": 50,
@@ -4464,10 +4456,10 @@
           "active": true,
           "primary": true,
           "nonstandardizedDataPoints": {
-            "depth": "144.8",
-            "timestamp": "2026-10-25T18:00:00.000Z"
+            "depth": "144.6",
+            "timestamp": "2026-10-25T19:00:00.000Z"
           },
-          "temperature": "42.26",
+          "temperature": "41.41",
           "wind": {
             "low": "0",
             "high": "0",
@@ -4487,15 +4479,15 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-10-25T18:00:00.000Z"
+            "timestamp": "2026-10-25T19:00:00.000Z"
           },
-          "temperature": "38.28",
+          "temperature": "36.6",
           "wind": {
-            "low": "5.648",
-            "high": "21.48",
+            "low": "6.959",
+            "high": "25.5",
             "current": null,
-            "average": "5.648",
-            "direction": "ESE"
+            "average": "6.959",
+            "direction": "E"
           },
           "humidity": null,
           "display_name": "Sunrise",
@@ -4509,17 +4501,17 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-10-25T18:00:00.000Z"
+            "timestamp": "2026-10-25T19:00:00.000Z"
           },
-          "temperature": "35.9",
+          "temperature": "34.76",
           "wind": {
-            "low": "17.1",
-            "high": "41.29",
+            "low": "16.74",
+            "high": "38.48",
             "current": null,
-            "average": "17.1",
+            "average": "16.74",
             "direction": "SW"
           },
-          "humidity": "50.41",
+          "humidity": "59.88",
           "display_name": "Pine Marten",
           "elevation_ft": 7800
         },
@@ -4531,15 +4523,15 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-10-25T18:00:00.000Z"
+            "timestamp": "2026-10-25T19:00:00.000Z"
           },
-          "temperature": "36.11",
+          "temperature": "34.48",
           "wind": {
-            "low": "5.12",
-            "high": "15.66",
+            "low": "7.119",
+            "high": "20.36",
             "current": null,
-            "average": "5.12",
-            "direction": "NE"
+            "average": "7.119",
+            "direction": "E"
           },
           "humidity": null,
           "display_name": "Cloud Chaser",
@@ -4623,21 +4615,21 @@
   },
   "hoodoo": {
     "weather": {
-      "Temperature": "36 &#176F",
-      "Wind": "West @ 14 MPH",
-      "Snow depth": "0.4\"",
-      "Humidity": "93 %",
-      "Barometer": "29.91\" Hg"
+      "Temperature": "35 &#176F",
+      "Wind": "West @ 9 MPH",
+      "Snow depth": "0.2\"",
+      "Humidity": "100 %",
+      "Barometer": "29.92\" Hg"
     },
     "snow_totals": {
       "trend": {
         "Max": "1.0\"",
         "Min": "-1.5\"",
-        "1 Hr": "0.6\"",
-        "3 Hr": "0.4\"",
-        "6 Hr": "1.0\"",
-        "12 Hr": "0.8\"",
-        "24 Hr": "0.6\""
+        "1 Hr": "0.1\"",
+        "3 Hr": "0.0\"",
+        "6 Hr": "0.4\"",
+        "12 Hr": "0.2\"",
+        "24 Hr": "0.1\""
       },
       "season_total_in": 2.2
     },
