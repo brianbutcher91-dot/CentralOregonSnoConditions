@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T12:30:22.205434+00:00",
+  "generated_at": "2026-10-26T12:31:35.064313+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -2156,7 +2156,7 @@
         {
           "number": 1,
           "name": "Overnight",
-          "startTime": "2026-10-26T05:00:00-07:00",
+          "startTime": "2026-10-26T04:00:00-07:00",
           "endTime": "2026-10-26T06:00:00-07:00",
           "isDaytime": false,
           "temperature": 35,
@@ -2172,7 +2172,7 @@
           "shortForecast": "Rain Showers Likely",
           "detailedForecast": "Rain showers likely. Mostly cloudy, with a low around 35. South wind around 7 mph. Chance of precipitation is 60%. New rainfall amounts less than a tenth of an inch possible.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 5145
+          "snowLevelFt": 5328
         },
         {
           "number": 2,
@@ -2463,7 +2463,7 @@
         {
           "number": 1,
           "name": "Overnight",
-          "startTime": "2026-10-26T05:00:00-07:00",
+          "startTime": "2026-10-26T04:00:00-07:00",
           "endTime": "2026-10-26T06:00:00-07:00",
           "isDaytime": false,
           "temperature": 30,
@@ -2473,13 +2473,13 @@
             "unitCode": "wmoUnit:percent",
             "value": 62
           },
-          "windSpeed": "0 mph",
-          "windDirection": "",
+          "windSpeed": "1 mph",
+          "windDirection": "NW",
           "icon": "https://api.weather.gov/icons/land/night/rain_showers,60?size=medium",
-          "shortForecast": "Rain Showers Likely",
-          "detailedForecast": "Rain showers likely and patchy fog. Mostly cloudy. Low around 30, with temperatures rising to around 32 overnight. Wind around 0 mph. Chance of precipitation is 60%. New rainfall amounts less than a tenth of an inch possible.",
-          "precipitationAmountIn": 0.0,
-          "snowLevelFt": 5171
+          "shortForecast": "Chance Rain Showers",
+          "detailedForecast": "A chance of rain showers before 5am, then rain showers likely and patchy fog. Mostly cloudy. Low around 30, with temperatures rising to around 32 overnight. Northwest wind around 1 mph. Chance of precipitation is 60%. New rainfall amounts less than a tenth of an inch possible.",
+          "precipitationAmountIn": 0.01,
+          "snowLevelFt": 5329
         },
         {
           "number": 2,
@@ -4668,8 +4668,8 @@
   "willamette_pass": {
     "forecast": {
       "weather_provider": "NOAA",
-      "date": "October 26, 2026, 5:04 am",
-      "time": 1793016257000,
+      "date": "October 26, 2026, 5:28 am",
+      "time": 1793017706000,
       "current_weather": "Snow",
       "current_temperature": "33",
       "forecast": [
@@ -4709,11 +4709,6 @@
       "min_temp": "33",
       "hourly": [
         {
-          "time": "4a",
-          "temp": "33",
-          "details": "snow "
-        },
-        {
           "time": "5a",
           "temp": "33",
           "details": "snow "
@@ -4732,6 +4727,11 @@
           "time": "12p",
           "temp": "33",
           "details": "snow likely"
+        },
+        {
+          "time": "2p",
+          "temp": "34",
+          "details": "snow "
         }
       ],
       "attribution": "",
