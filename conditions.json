@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T20:15:24.561149+00:00",
+  "generated_at": "2026-10-26T20:30:24.699875+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -914,8 +914,8 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 18.0,
-        "wind_direction_deg": 247.5,
+        "wind_speed_mph": 19.0,
+        "wind_direction_deg": 225,
         "snow_level_ft": 5118,
         "temp_f": 38
       },
@@ -1235,7 +1235,7 @@
         {
           "number": 1,
           "name": "This Afternoon",
-          "startTime": "2026-10-26T12:00:00-07:00",
+          "startTime": "2026-10-26T13:00:00-07:00",
           "endTime": "2026-10-26T18:00:00-07:00",
           "isDaytime": true,
           "temperature": 35,
@@ -1250,8 +1250,8 @@
           "icon": "https://api.weather.gov/icons/land/day/snow,70?size=medium",
           "shortForecast": "Rain And Snow Likely",
           "detailedForecast": "Rain and snow likely. Mostly cloudy, with a high near 35. West southwest wind around 13 mph, with gusts as high as 20 mph. Chance of precipitation is 70%. New rainfall amounts between a tenth and quarter of an inch possible.",
-          "precipitationAmountIn": 0.08,
-          "snowLevelFt": 5606
+          "precipitationAmountIn": 0.07,
+          "snowLevelFt": 5649
         },
         {
           "number": 2,
@@ -3087,12 +3087,12 @@
     "Hoodoo": {
       "elevation_ft": 4705,
       "temp_f": 38,
-      "wind_speed_mph": 18.0,
-      "wind_direction_deg": 247.5,
+      "wind_speed_mph": 19.0,
+      "wind_direction_deg": 225,
       "snow_level_ft": 5118,
       "precip_chance_today": 90,
-      "snowfall_12h_in": -0.3,
-      "snowfall_24h_in": 0.1,
+      "snowfall_12h_in": 0.1,
+      "snowfall_24h_in": 0.0,
       "snowfall_48h_in": null
     },
     "Willamette Pass": {
@@ -3928,10 +3928,6 @@
     ],
     "historical_precip_snapshots": [
       {
-        "time": "2026-10-23T20:30:23.397039+00:00",
-        "precip_in": 0
-      },
-      {
         "time": "2026-10-23T21:45:22.774034+00:00",
         "precip_in": 0
       },
@@ -4191,8 +4187,8 @@
       "snow_depth_in_date": "2026-10-25",
       "swe_in": 0.0,
       "swe_in_date": "2026-10-25",
-      "change_12h_in": 1,
-      "change_24h_in": 1
+      "change_12h_in": 0,
+      "change_24h_in": 0
     },
     "Three Creek / Tam McArthur (Three Creeks Meadow)": {
       "snow_depth_in": 0,
@@ -4457,9 +4453,9 @@
           "primary": true,
           "nonstandardizedDataPoints": {
             "depth": "145.1",
-            "timestamp": "2026-10-26T12:00:00.000Z"
+            "timestamp": "2026-10-26T13:00:00.000Z"
           },
-          "temperature": "31.62",
+          "temperature": "31.79",
           "wind": {
             "low": "0",
             "high": "0",
@@ -4479,14 +4475,14 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-10-26T12:00:00.000Z"
+            "timestamp": "2026-10-26T13:00:00.000Z"
           },
-          "temperature": "26.95",
+          "temperature": "27.63",
           "wind": {
-            "low": "9.71",
-            "high": "25.05",
+            "low": "8.69",
+            "high": "23.49",
             "current": null,
-            "average": "9.71",
+            "average": "8.69",
             "direction": "W"
           },
           "humidity": null,
@@ -4501,17 +4497,17 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-10-26T12:00:00.000Z"
+            "timestamp": "2026-10-26T13:00:00.000Z"
           },
-          "temperature": "25.79",
+          "temperature": "26.29",
           "wind": {
-            "low": "26.29",
-            "high": "41.42",
+            "low": "25.61",
+            "high": "39.82",
             "current": null,
-            "average": "26.29",
+            "average": "25.61",
             "direction": "WSW"
           },
-          "humidity": "98.4",
+          "humidity": "98.6",
           "display_name": "Pine Marten",
           "elevation_ft": 7800
         },
@@ -4616,21 +4612,21 @@
   "hoodoo": {
     "weather": {
       "Temperature": "32 &#176F",
-      "Wind": "WSW @ 18 MPH",
-      "Snow depth": "-0.3\"",
+      "Wind": "SW @ 19 MPH",
+      "Snow depth": "-0.4\"",
       "Humidity": "100 %",
-      "Barometer": "29.86\" Hg",
+      "Barometer": "29.85\" Hg",
       "Rain Gauge": "0.36\""
     },
     "snow_totals": {
       "trend": {
         "Max": "1.0\"",
         "Min": "-1.5\"",
-        "1 Hr": "-0.2\"",
-        "3 Hr": "-0.7\"",
-        "6 Hr": "-0.9\"",
-        "12 Hr": "-0.3\"",
-        "24 Hr": "0.1\""
+        "1 Hr": "-0.3\"",
+        "3 Hr": "-0.6\"",
+        "6 Hr": "-0.8\"",
+        "12 Hr": "0.1\"",
+        "24 Hr": "0.0\""
       },
       "season_total_in": 2.2
     },
