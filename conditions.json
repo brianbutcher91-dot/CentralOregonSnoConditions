@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T02:30:22.193576+00:00",
+  "generated_at": "2026-10-27T02:45:19.134981+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -914,8 +914,8 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 20.0,
-        "wind_direction_deg": 247.5,
+        "wind_speed_mph": 21.0,
+        "wind_direction_deg": 225,
         "snow_level_ft": 5670,
         "temp_f": 37
       },
@@ -3087,12 +3087,12 @@
     "Hoodoo": {
       "elevation_ft": 4705,
       "temp_f": 37,
-      "wind_speed_mph": 20.0,
-      "wind_direction_deg": 247.5,
+      "wind_speed_mph": 21.0,
+      "wind_direction_deg": 225,
       "snow_level_ft": 5670,
       "precip_chance_today": 94,
       "snowfall_12h_in": -0.5,
-      "snowfall_24h_in": -0.1,
+      "snowfall_24h_in": -0.3,
       "snowfall_48h_in": null
     },
     "Willamette Pass": {
@@ -4182,7 +4182,38 @@
     ]
   },
   "snotel": {
-    "error": "500 Server Error: Internal Server Error for url: https://wcc.sc.egov.usda.gov/awdbRestApi/services/v1/data?stationTriplets=545%3AOR%3ASNTL&elements=SNWD&duration=HOURLY&getFlags=false&beginDate=2026-10-24+14%3A30&endDate=2026-10-27+14%3A30"
+    "Mt Bachelor area (Irish Taylor)": {
+      "snow_depth_in": 0,
+      "snow_depth_in_date": "2026-10-25",
+      "swe_in": 0.0,
+      "swe_in_date": "2026-10-25",
+      "change_12h_in": -1,
+      "change_24h_in": 0
+    },
+    "Three Creek / Tam McArthur (Three Creeks Meadow)": {
+      "snow_depth_in": 0,
+      "snow_depth_in_date": "2026-10-25",
+      "swe_in": 0.0,
+      "swe_in_date": "2026-10-25",
+      "change_12h_in": 0,
+      "change_24h_in": 0
+    },
+    "Santiam / Hoodoo (Hogg Pass)": {
+      "snow_depth_in": 0,
+      "snow_depth_in_date": "2026-10-25",
+      "swe_in": 0.2,
+      "swe_in_date": "2026-10-25",
+      "change_12h_in": 0,
+      "change_24h_in": 0
+    },
+    "Ochocos (Ochoco Meadows)": {
+      "snow_depth_in": 0,
+      "snow_depth_in_date": "2026-10-25",
+      "swe_in": 0.1,
+      "swe_in_date": "2026-10-25",
+      "change_12h_in": 0,
+      "change_24h_in": 0
+    }
   },
   "odot_cams": {
     "Century Drive": [
@@ -4581,8 +4612,8 @@
   "hoodoo": {
     "weather": {
       "Temperature": "33 &#176F",
-      "Wind": "WSW @ 20 MPH",
-      "Snow depth": "0.1\"",
+      "Wind": "SW @ 21 MPH",
+      "Snow depth": "0.0\"",
       "Humidity": "100 %",
       "Barometer": "29.84\" Hg",
       "Rain Gauge": "0.55\""
@@ -4591,11 +4622,11 @@
       "trend": {
         "Max": "1.0\"",
         "Min": "-1.2\"",
-        "1 Hr": "0.1\"",
+        "1 Hr": "0.0\"",
         "3 Hr": "0.1\"",
-        "6 Hr": "0.3\"",
+        "6 Hr": "0.4\"",
         "12 Hr": "-0.5\"",
-        "24 Hr": "-0.1\""
+        "24 Hr": "-0.3\""
       },
       "season_total_in": 2.2
     },
@@ -4637,14 +4668,14 @@
   "willamette_pass": {
     "forecast": {
       "weather_provider": "NOAA",
-      "date": "October 26, 2026, 7:10 pm",
-      "time": 1793067022000,
+      "date": "October 26, 2026, 7:40 pm",
+      "time": 1793068820000,
       "current_weather": "Rain/Snow Likely",
-      "current_temperature": "38",
+      "current_temperature": "37",
       "forecast": [
         {
           "day": "Monday",
-          "night_forecast": "Snow likely, possibly mixed with rain, becoming all snow after 3am.  Snow level 5700 feet. Mostly cloudy, with a low around 31. West southwest wind around 9 mph.  Chance of precipitation is 70%. Total nighttime snow accumulation of less than one inch possible. "
+          "night_forecast": "Snow likely, possibly mixed with rain, becoming all snow after 3am.  Snow level 5700 feet. Cloudy, with a low around 31. West southwest wind around 9 mph.  Chance of precipitation is 70%. Total nighttime snow accumulation of less than one inch possible. "
         },
         {
           "day": "Tuesday",
@@ -4722,16 +4753,7 @@
       "Lifts Open": "0/6",
       "Trails Open": "0/30"
     },
-    "webcams": {
-      "Base Area": {
-        "src": "https://www.youtube.com/embed/sNVA6oC7vcM",
-        "link": "https://www.willamettepass.ski/weather-conditions-webcams/webcams/"
-      },
-      "EPA": {
-        "src": "https://www.youtube.com/embed/uav7cBNVv0k",
-        "link": "https://www.willamettepass.ski/weather-conditions-webcams/webcams/"
-      }
-    }
+    "webcams": {}
   },
   "snow_stake_cams": {
     "Mt. Bachelor (Snow Stake)": {
@@ -4742,10 +4764,7 @@
       "src": "https://santiampsp.org/wx/weather16.jpg",
       "link": "https://hoodoo.com/the-mountain/webcams/"
     },
-    "Willamette Pass (Base Area)": {
-      "src": "https://www.youtube.com/embed/sNVA6oC7vcM",
-      "link": "https://www.willamettepass.ski/weather-conditions-webcams/webcams/"
-    }
+    "Willamette Pass (Base Area)": null
   },
   "satellite": {
     "Pacific Northwest": {
@@ -4758,7 +4777,7 @@
     },
     "Pacific US (PACUS)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/13/GOES18-CONUS-13-625x375.gif",
-      "last_modified": "Tue, 27 Oct 2026 01:57:16 GMT"
+      "last_modified": "Tue, 27 Oct 2026 01:57:17 GMT"
     }
   },
   "gfs_snowfall": {
