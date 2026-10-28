@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T04:15:16.786871+00:00",
+  "generated_at": "2026-10-28T04:30:20.131249+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -621,7 +621,7 @@
         {
           "number": 1,
           "name": "Tonight",
-          "startTime": "2026-10-27T20:00:00-07:00",
+          "startTime": "2026-10-27T21:00:00-07:00",
           "endTime": "2026-10-28T06:00:00-07:00",
           "isDaytime": false,
           "temperature": 30,
@@ -631,13 +631,13 @@
             "unitCode": "wmoUnit:percent",
             "value": 93
           },
-          "windSpeed": "12 to 18 mph",
+          "windSpeed": "18 mph",
           "windDirection": "WSW",
-          "icon": "https://api.weather.gov/icons/land/night/snow,40/snow,90?size=medium",
-          "shortForecast": "Rain And Snow",
-          "detailedForecast": "Rain and snow. Mostly cloudy. Low around 30, with temperatures rising to around 33 overnight. West southwest wind 12 to 18 mph, with gusts as high as 33 mph. Chance of precipitation is 90%. New snow accumulation of 1 to 2 inches possible.",
-          "precipitationAmountIn": 0.11,
-          "snowLevelFt": 4751
+          "icon": "https://api.weather.gov/icons/land/night/snow,30/snow,90?size=medium",
+          "shortForecast": "Light Snow",
+          "detailedForecast": "Snow. Mostly cloudy. Low around 30, with temperatures rising to around 33 overnight. West southwest wind around 18 mph, with gusts as high as 33 mph. Chance of precipitation is 90%. New snow accumulation of 1 to 2 inches possible.",
+          "precipitationAmountIn": 0.1,
+          "snowLevelFt": 4541
         },
         {
           "number": 2,
@@ -914,8 +914,8 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 14.0,
-        "wind_direction_deg": 270,
+        "wind_speed_mph": 13.0,
+        "wind_direction_deg": 247.5,
         "snow_level_ft": 4541,
         "temp_f": 35
       },
@@ -1542,7 +1542,7 @@
         {
           "number": 1,
           "name": "Tonight",
-          "startTime": "2026-10-27T20:00:00-07:00",
+          "startTime": "2026-10-27T21:00:00-07:00",
           "endTime": "2026-10-28T06:00:00-07:00",
           "isDaytime": false,
           "temperature": 34,
@@ -1552,13 +1552,13 @@
             "unitCode": "wmoUnit:percent",
             "value": 93
           },
-          "windSpeed": "10 to 17 mph",
+          "windSpeed": "13 to 17 mph",
           "windDirection": "SW",
           "icon": "https://api.weather.gov/icons/land/night/snow,30/snow,90?size=medium",
-          "shortForecast": "Rain And Snow",
-          "detailedForecast": "Rain and snow. Cloudy. Low around 34, with temperatures rising to around 36 overnight. Southwest wind 10 to 17 mph, with gusts as high as 24 mph. Chance of precipitation is 90%. New rainfall amounts between a tenth and quarter of an inch possible.",
-          "precipitationAmountIn": 0.11,
-          "snowLevelFt": 4698
+          "shortForecast": "Light Snow",
+          "detailedForecast": "Snow. Cloudy. Low around 34, with temperatures rising to around 36 overnight. Southwest wind 13 to 17 mph, with gusts as high as 24 mph. Chance of precipitation is 90%. New rainfall amounts between a tenth and quarter of an inch possible.",
+          "precipitationAmountIn": 0.1,
+          "snowLevelFt": 4488
         },
         {
           "number": 2,
@@ -2156,7 +2156,7 @@
         {
           "number": 1,
           "name": "Tonight",
-          "startTime": "2026-10-27T19:00:00-07:00",
+          "startTime": "2026-10-27T20:00:00-07:00",
           "endTime": "2026-10-28T06:00:00-07:00",
           "isDaytime": false,
           "temperature": 33,
@@ -2172,7 +2172,7 @@
           "shortForecast": "Mostly Clear then Slight Chance Rain And Snow Showers",
           "detailedForecast": "A slight chance of rain and snow showers after 5am. Mostly clear, with a low around 33. Southwest wind 6 to 13 mph, with gusts as high as 24 mph. Chance of precipitation is 20%.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 5433
+          "snowLevelFt": 4882
         },
         {
           "number": 2,
@@ -3087,12 +3087,12 @@
     "Hoodoo": {
       "elevation_ft": 4705,
       "temp_f": 35,
-      "wind_speed_mph": 14.0,
-      "wind_direction_deg": 270,
+      "wind_speed_mph": 13.0,
+      "wind_direction_deg": 247.5,
       "snow_level_ft": 4541,
       "precip_chance_today": 93,
-      "snowfall_12h_in": 0.1,
-      "snowfall_24h_in": -0.7,
+      "snowfall_12h_in": 0.6,
+      "snowfall_24h_in": -0.1,
       "snowfall_48h_in": null
     },
     "Willamette Pass": {
@@ -3109,14 +3109,6 @@
   },
   "bachelor_timeseries": {
     "hourly": [
-      {
-        "time": "2026-10-26T21:00:00.000Z",
-        "temp_f": 26.68,
-        "wind_speed_mph": 6.926,
-        "wind_direction_deg": 22.79,
-        "precip_in": null,
-        "period": "historical"
-      },
       {
         "time": "2026-10-26T22:00:00.000Z",
         "temp_f": 26.66,
@@ -3302,12 +3294,12 @@
         "period": "historical"
       },
       {
-        "time": "2026-10-27T21:00:00+00:00",
-        "temp_f": 30.0,
-        "wind_speed_mph": 9.2,
-        "wind_direction_deg": 280,
-        "precip_in": 0.0,
-        "period": "forecast"
+        "time": "2026-10-27T21:00:00.000Z",
+        "temp_f": 23.89,
+        "wind_speed_mph": 31.6,
+        "wind_direction_deg": 223.3,
+        "precip_in": null,
+        "period": "historical"
       },
       {
         "time": "2026-10-27T22:00:00+00:00",
@@ -4194,7 +4186,38 @@
     ]
   },
   "snotel": {
-    "error": "500 Server Error: Internal Server Error for url: https://wcc.sc.egov.usda.gov/awdbRestApi/services/v1/data?stationTriplets=526%3AOR%3ASNTL&elements=SNWD&duration=HOURLY&getFlags=false&beginDate=2026-10-25+16%3A17&endDate=2026-10-28+16%3A17"
+    "Mt Bachelor area (Irish Taylor)": {
+      "snow_depth_in": 0,
+      "snow_depth_in_date": "2026-10-26",
+      "swe_in": 0.3,
+      "swe_in_date": "2026-10-26",
+      "change_12h_in": -1,
+      "change_24h_in": 0
+    },
+    "Three Creek / Tam McArthur (Three Creeks Meadow)": {
+      "snow_depth_in": 0,
+      "snow_depth_in_date": "2026-10-26",
+      "swe_in": 0.0,
+      "swe_in_date": "2026-10-26",
+      "change_12h_in": 0,
+      "change_24h_in": 0
+    },
+    "Santiam / Hoodoo (Hogg Pass)": {
+      "snow_depth_in": 0,
+      "snow_depth_in_date": "2026-10-26",
+      "swe_in": 0.2,
+      "swe_in_date": "2026-10-26",
+      "change_12h_in": 0,
+      "change_24h_in": 0
+    },
+    "Ochocos (Ochoco Meadows)": {
+      "snow_depth_in": 0,
+      "snow_depth_in_date": "2026-10-26",
+      "swe_in": 0.1,
+      "swe_in_date": "2026-10-26",
+      "change_12h_in": 0,
+      "change_24h_in": 0
+    }
   },
   "odot_cams": {
     "Century Drive": [
@@ -4300,7 +4323,7 @@
   "mtbachelor": {
     "weather": {
       "current": {
-        "temperature": 28,
+        "temperature": 29,
         "weather_icon": "dor-mostlycloudy"
       },
       "forecast": [
@@ -4433,10 +4456,10 @@
           "active": true,
           "primary": true,
           "nonstandardizedDataPoints": {
-            "depth": "143.3",
-            "timestamp": "2026-10-27T20:00:00.000Z"
+            "depth": "6.592",
+            "timestamp": "2026-10-27T21:00:00.000Z"
           },
-          "temperature": "28.32",
+          "temperature": "28.61",
           "wind": {
             "low": "0",
             "high": "0",
@@ -4456,14 +4479,14 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-10-27T20:00:00.000Z"
+            "timestamp": "2026-10-27T21:00:00.000Z"
           },
-          "temperature": "25.21",
+          "temperature": "25.38",
           "wind": {
-            "low": "24.05",
-            "high": "42.5",
+            "low": "18.45",
+            "high": "38.48",
             "current": null,
-            "average": "24.05",
+            "average": "18.45",
             "direction": "W"
           },
           "humidity": null,
@@ -4478,14 +4501,14 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-10-27T20:00:00.000Z"
+            "timestamp": "2026-10-27T21:00:00.000Z"
           },
-          "temperature": "23.59",
+          "temperature": "23.76",
           "wind": {
-            "low": "28.72",
-            "high": "41.72",
+            "low": "34.47",
+            "high": "44.72",
             "current": null,
-            "average": "28.72",
+            "average": "34.47",
             "direction": "W"
           },
           "humidity": "98.9",
@@ -4500,14 +4523,14 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-10-27T20:00:00.000Z"
+            "timestamp": "2026-10-27T21:00:00.000Z"
           },
-          "temperature": "23.74",
+          "temperature": "23.89",
           "wind": {
-            "low": "34.26",
-            "high": "44.52",
+            "low": "31.6",
+            "high": "44.29",
             "current": null,
-            "average": "34.26",
+            "average": "31.6",
             "direction": "SW"
           },
           "humidity": null,
@@ -4592,9 +4615,9 @@
   },
   "hoodoo": {
     "weather": {
-      "Temperature": "30 &#176F",
-      "Wind": "West @ 14 MPH",
-      "Snow depth": "-0.1\"",
+      "Temperature": "29 &#176F",
+      "Wind": "WSW @ 13 MPH",
+      "Snow depth": "0.3\"",
       "Humidity": "100 %",
       "Barometer": "29.80\" Hg",
       "Rain Gauge": "1.29\""
@@ -4603,11 +4626,11 @@
       "trend": {
         "Max": "1.3\"",
         "Min": "-2.4\"",
-        "1 Hr": "-0.3\"",
-        "3 Hr": "-1.3\"",
-        "6 Hr": "-1.5\"",
-        "12 Hr": "0.1\"",
-        "24 Hr": "-0.7\""
+        "1 Hr": "0.3\"",
+        "3 Hr": "-0.6\"",
+        "6 Hr": "-0.3\"",
+        "12 Hr": "0.6\"",
+        "24 Hr": "-0.1\""
       },
       "season_total_in": 2.7
     },
@@ -4649,8 +4672,8 @@
   "willamette_pass": {
     "forecast": {
       "weather_provider": "NOAA",
-      "date": "October 27, 2026, 8:55 pm",
-      "time": 1793159722000,
+      "date": "October 27, 2026, 9:10 pm",
+      "time": 1793160621000,
       "current_weather": "Mostly Cloudy then Chance Snow",
       "current_temperature": "32",
       "forecast": [
@@ -4770,7 +4793,7 @@
     },
     "Pacific US (PACUS)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/13/GOES18-CONUS-13-625x375.gif",
-      "last_modified": "Wed, 28 Oct 2026 02:14:57 GMT"
+      "last_modified": "Wed, 28 Oct 2026 04:18:26 GMT"
     }
   },
   "gfs_snowfall": {
