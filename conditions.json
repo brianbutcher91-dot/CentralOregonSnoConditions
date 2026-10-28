@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T01:08:32.234302+00:00",
+  "generated_at": "2026-10-28T01:15:27.766609+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -3936,10 +3936,6 @@
     ],
     "historical_precip_snapshots": [
       {
-        "time": "2026-10-25T01:15:21.980658+00:00",
-        "precip_in": 0
-      },
-      {
         "time": "2026-10-25T02:30:24.844424+00:00",
         "precip_in": 0
       },
@@ -4680,15 +4676,14 @@
   "willamette_pass": {
     "forecast": {
       "weather_provider": "NOAA",
-      "date": "October 27, 2026, 5:58 pm",
-      "time": 1793149119000,
-      "current_weather": "Slight Chance Snow",
+      "date": "October 27, 2026, 6:13 pm",
+      "time": 1793150000000,
+      "current_weather": "Chance Snow",
       "current_temperature": "37",
       "forecast": [
         {
           "day": "Tuesday",
-          "day_forecast": "A 20 percent chance of snow.  Mostly cloudy, with a high near 34. West northwest wind around 9 mph. ",
-          "night_forecast": "A chance of snow before 8pm, then a chance of snow after 5am.  Mostly cloudy, with a low around 29. West northwest wind 7 to 10 mph.  Chance of precipitation is 30%. New snow accumulation of less than a half inch possible. "
+          "night_forecast": "A chance of snow before 8pm, then a chance of snow after 5am.  Mostly cloudy, with a low around 29. West northwest wind 7 to 10 mph.  Chance of precipitation is 30%. Total nighttime snow accumulation of less than a half inch possible. "
         },
         {
           "day": "Wednesday",
@@ -4698,7 +4693,7 @@
         {
           "day": "Thursday",
           "day_forecast": "Partly sunny, with a high near 41. Calm wind becoming west southwest around 5 mph in the afternoon. ",
-          "night_forecast": "A 30 percent chance of snow after 11pm.  Mostly cloudy, with a low around 27. Little or no snow accumulation expected. "
+          "night_forecast": "A 30 percent chance of snow after 11pm.  Mostly cloudy, with a low around 27. Light west wind.  Little or no snow accumulation expected. "
         },
         {
           "day": "Friday",
@@ -4712,20 +4707,19 @@
         },
         {
           "day": "Sunday",
-          "day_forecast": "A slight chance of snow.  Mostly sunny, with a high near 41.",
+          "day_forecast": "A slight chance of snow before 11am.  Mostly sunny, with a high near 41.",
           "night_forecast": "Partly cloudy, with a low around 28."
+        },
+        {
+          "day": "Monday",
+          "day_forecast": "Mostly sunny, with a high near 48."
         }
       ],
       "wind": "NA",
       "icon": "0499-snow.svg",
-      "max_temp": "34",
+      "max_temp": "37",
       "min_temp": "29",
       "hourly": [
-        {
-          "time": "5p",
-          "temp": "34",
-          "details": "slight chance of snow"
-        },
         {
           "time": "8p",
           "temp": "32",
@@ -4743,6 +4737,11 @@
         },
         {
           "time": "2a",
+          "temp": "29",
+          "details": ""
+        },
+        {
+          "time": "4a",
           "temp": "29",
           "details": ""
         }
