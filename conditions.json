@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T09:30:22.555063+00:00",
+  "generated_at": "2026-10-28T09:45:21.326625+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -314,7 +314,7 @@
         {
           "number": 1,
           "name": "Overnight",
-          "startTime": "2026-10-28T00:00:00-07:00",
+          "startTime": "2026-10-28T02:00:00-07:00",
           "endTime": "2026-10-28T06:00:00-07:00",
           "isDaytime": false,
           "temperature": 30,
@@ -324,13 +324,13 @@
             "unitCode": "wmoUnit:percent",
             "value": 64
           },
-          "windSpeed": "18 mph",
+          "windSpeed": "17 mph",
           "windDirection": "W",
           "icon": "https://api.weather.gov/icons/land/night/snow,60?size=medium",
           "shortForecast": "Snow Showers Likely",
-          "detailedForecast": "Snow showers likely after 2am. Partly cloudy, with a low around 30. West wind around 18 mph, with gusts as high as 38 mph. Chance of precipitation is 60%. New snow accumulation of less than one inch possible.",
-          "precipitationAmountIn": 0.02,
-          "snowLevelFt": 4278
+          "detailedForecast": "Snow showers likely. Mostly cloudy, with a low around 30. West wind around 17 mph, with gusts as high as 36 mph. Chance of precipitation is 60%. New snow accumulation of less than one inch possible.",
+          "precipitationAmountIn": 0.01,
+          "snowLevelFt": 4121
         },
         {
           "number": 2,
@@ -914,7 +914,7 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 18.0,
+        "wind_speed_mph": 17.0,
         "wind_direction_deg": 225,
         "snow_level_ft": 4226,
         "temp_f": 32
@@ -1849,7 +1849,7 @@
         {
           "number": 1,
           "name": "Overnight",
-          "startTime": "2026-10-28T00:00:00-07:00",
+          "startTime": "2026-10-28T02:00:00-07:00",
           "endTime": "2026-10-28T06:00:00-07:00",
           "isDaytime": false,
           "temperature": 30,
@@ -1865,7 +1865,7 @@
           "shortForecast": "Partly Cloudy",
           "detailedForecast": "Partly cloudy, with a low around 30. South wind around 7 mph, with gusts as high as 22 mph.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 4514
+          "snowLevelFt": 3963
         },
         {
           "number": 2,
@@ -3087,12 +3087,12 @@
     "Hoodoo": {
       "elevation_ft": 4705,
       "temp_f": 32,
-      "wind_speed_mph": 18.0,
+      "wind_speed_mph": 17.0,
       "wind_direction_deg": 225,
       "snow_level_ft": 4226,
       "precip_chance_today": 92,
-      "snowfall_12h_in": -0.7,
-      "snowfall_24h_in": 0.0,
+      "snowfall_12h_in": -0.9,
+      "snowfall_24h_in": -0.2,
       "snowfall_48h_in": null
     },
     "Willamette Pass": {
@@ -4178,6 +4178,10 @@
       {
         "time": "2026-10-28T08:32:31.600616+00:00",
         "precip_in": 3
+      },
+      {
+        "time": "2026-10-28T09:45:21.746865+00:00",
+        "precip_in": 3
       }
     ]
   },
@@ -4612,21 +4616,21 @@
   "hoodoo": {
     "weather": {
       "Temperature": "28 &#176F",
-      "Wind": "SW @ 18 MPH",
-      "Snow depth": "-0.4\"",
+      "Wind": "SW @ 17 MPH",
+      "Snow depth": "0.2\"",
       "Humidity": "100 %",
-      "Barometer": "29.75\" Hg",
+      "Barometer": "29.76\" Hg",
       "Rain Gauge": "1.14\""
     },
     "snow_totals": {
       "trend": {
         "Max": "1.3\"",
         "Min": "-2.5\"",
-        "1 Hr": "0.6\"",
-        "3 Hr": "0.5\"",
-        "6 Hr": "0.2\"",
-        "12 Hr": "-0.7\"",
-        "24 Hr": "0.0\""
+        "1 Hr": "0.1\"",
+        "3 Hr": "0.4\"",
+        "6 Hr": "0.1\"",
+        "12 Hr": "-0.9\"",
+        "24 Hr": "-0.2\""
       },
       "season_total_in": 3.5
     },
@@ -4668,8 +4672,8 @@
   "willamette_pass": {
     "forecast": {
       "weather_provider": "NOAA",
-      "date": "October 28, 2026, 2:13 am",
-      "time": 1793178803000,
+      "date": "October 28, 2026, 2:25 am",
+      "time": 1793179523000,
       "current_weather": "Slight Chance Snow Showers",
       "current_temperature": "30",
       "forecast": [
