@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T16:30:25.547211+00:00",
+  "generated_at": "2026-10-28T16:45:22.826641+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -928,7 +928,7 @@
         {
           "number": 1,
           "name": "Today",
-          "startTime": "2026-10-28T09:00:00-07:00",
+          "startTime": "2026-10-28T08:00:00-07:00",
           "endTime": "2026-10-28T18:00:00-07:00",
           "isDaytime": true,
           "temperature": 32,
@@ -2156,7 +2156,7 @@
         {
           "number": 1,
           "name": "Today",
-          "startTime": "2026-10-28T07:00:00-07:00",
+          "startTime": "2026-10-28T09:00:00-07:00",
           "endTime": "2026-10-28T18:00:00-07:00",
           "isDaytime": true,
           "temperature": 47,
@@ -2170,9 +2170,9 @@
           "windDirection": "SW",
           "icon": "https://api.weather.gov/icons/land/day/snow,20?size=medium",
           "shortForecast": "Slight Chance Rain And Snow Showers",
-          "detailedForecast": "A slight chance of rain and snow showers before 2pm. Mostly sunny. High near 47, with temperatures falling to around 45 in the afternoon. Southwest wind 7 to 14 mph, with gusts as high as 24 mph. Chance of precipitation is 20%.",
+          "detailedForecast": "A slight chance of rain and snow showers before 2pm. Partly sunny. High near 47, with temperatures falling to around 45 in the afternoon. Southwest wind 7 to 14 mph, with gusts as high as 24 mph. Chance of precipitation is 20%.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 3912
+          "snowLevelFt": 4673
         },
         {
           "number": 2,
@@ -3091,8 +3091,8 @@
       "wind_direction_deg": 180,
       "snow_level_ft": 4514,
       "precip_chance_today": 85,
-      "snowfall_12h_in": 1.5,
-      "snowfall_24h_in": 2.1,
+      "snowfall_12h_in": 2.0,
+      "snowfall_24h_in": 2.0,
       "snowfall_48h_in": null
     },
     "Willamette Pass": {
@@ -4178,6 +4178,10 @@
       {
         "time": "2026-10-28T15:30:37.604976+00:00",
         "precip_in": 0
+      },
+      {
+        "time": "2026-10-28T16:45:23.365366+00:00",
+        "precip_in": 3
       }
     ]
   },
@@ -4201,7 +4205,7 @@
     "Santiam / Hoodoo (Hogg Pass)": {
       "snow_depth_in": 0,
       "snow_depth_in_date": "2026-10-27",
-      "swe_in": 0.2,
+      "swe_in": 0.0,
       "swe_in_date": "2026-10-27",
       "change_12h_in": 0,
       "change_24h_in": 0
@@ -4333,8 +4337,8 @@
           "day": "Wednesday",
           "temperature_high": 34,
           "temperature_low": 25,
-          "precipitation_high": 89,
-          "precipitation_low": 89,
+          "precipitation_high": 90,
+          "precipitation_low": 90,
           "wind_speed": 9,
           "wind_direction": "WSW"
         },
@@ -4611,7 +4615,7 @@
   },
   "hoodoo": {
     "weather": {
-      "Temperature": "29 &#176F",
+      "Temperature": "30 &#176F",
       "Wind": "South @ 13 MPH",
       "Snow depth": "1.8\"",
       "Humidity": "100 %",
@@ -4620,13 +4624,13 @@
     },
     "snow_totals": {
       "trend": {
-        "Max": "1.9\"",
+        "Max": "2.0\"",
         "Min": "-2.5\"",
-        "1 Hr": "0.4\"",
-        "3 Hr": "0.1\"",
-        "6 Hr": "1.8\"",
-        "12 Hr": "1.5\"",
-        "24 Hr": "2.1\""
+        "1 Hr": "0.3\"",
+        "3 Hr": "0.2\"",
+        "6 Hr": "1.9\"",
+        "12 Hr": "2.0\"",
+        "24 Hr": "2.0\""
       },
       "season_total_in": 3.5
     },
@@ -4668,8 +4672,8 @@
   "willamette_pass": {
     "forecast": {
       "weather_provider": "NOAA",
-      "date": "October 28, 2026, 9:19 am",
-      "time": 1793204361000,
+      "date": "October 28, 2026, 9:43 am",
+      "time": 1793205800000,
       "current_weather": "Chance Snow Showers",
       "current_temperature": "29",
       "forecast": [
@@ -4778,11 +4782,11 @@
   "satellite": {
     "Pacific Northwest": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/pnw/13/GOES18-PNW-13-600x600.gif",
-      "last_modified": "Wed, 28 Oct 2026 16:15:53 GMT"
+      "last_modified": "Wed, 28 Oct 2026 16:31:22 GMT"
     },
     "North Pacific (macro)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/np/13/GOES18-NP-13-900x540.gif",
-      "last_modified": "Wed, 28 Oct 2026 15:50:30 GMT"
+      "last_modified": "Wed, 28 Oct 2026 16:41:27 GMT"
     },
     "Pacific US (PACUS)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/13/GOES18-CONUS-13-625x375.gif",
