@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T17:30:26.378490+00:00",
+  "generated_at": "2026-10-28T17:45:19.140117+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -914,8 +914,8 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 11.0,
-        "wind_direction_deg": 180,
+        "wind_speed_mph": 10.0,
+        "wind_direction_deg": 202.5,
         "snow_level_ft": 4566,
         "temp_f": 33
       },
@@ -3087,11 +3087,11 @@
     "Hoodoo": {
       "elevation_ft": 4705,
       "temp_f": 33,
-      "wind_speed_mph": 11.0,
-      "wind_direction_deg": 180,
+      "wind_speed_mph": 10.0,
+      "wind_direction_deg": 202.5,
       "snow_level_ft": 4566,
       "precip_chance_today": 85,
-      "snowfall_12h_in": null,
+      "snowfall_12h_in": 0.8,
       "snowfall_24h_in": null,
       "snowfall_48h_in": null
     },
@@ -4331,10 +4331,10 @@
           "weather_icon": "dor-snow",
           "id": 1793214000,
           "day": "Wednesday",
-          "temperature_high": 33,
+          "temperature_high": 34,
           "temperature_low": 25,
-          "precipitation_high": 82,
-          "precipitation_low": 82,
+          "precipitation_high": 85,
+          "precipitation_low": 85,
           "wind_speed": 9,
           "wind_direction": "WSW"
         },
@@ -4612,8 +4612,8 @@
   "hoodoo": {
     "weather": {
       "Temperature": "30 &#176F",
-      "Wind": "South @ 11 MPH",
-      "Snow depth": "1.0\"",
+      "Wind": "SSW @ 10 MPH",
+      "Snow depth": "-0.3\"",
       "Humidity": "100 %",
       "Barometer": "29.74\" Hg",
       "Rain Gauge": "1.03\""
@@ -4621,7 +4621,11 @@
     "snow_totals": {
       "trend": {
         "Max": "2.0\"",
-        "Min": "-2.5\""
+        "Min": "-2.5\"",
+        "1 Hr": "-1.0\"",
+        "3 Hr": "-1.0\"",
+        "6 Hr": "0.4\"",
+        "12 Hr": "0.8\""
       },
       "season_total_in": 3.5
     },
@@ -4663,14 +4667,14 @@
   "willamette_pass": {
     "forecast": {
       "weather_provider": "NOAA",
-      "date": "October 28, 2026, 10:10 am",
-      "time": 1793207421000,
+      "date": "October 28, 2026, 10:43 am",
+      "time": 1793209403000,
       "current_weather": "Chance Snow Showers",
       "current_temperature": "37",
       "forecast": [
         {
           "day": "Wednesday",
-          "day_forecast": "A 40 percent chance of snow showers, mainly between 4pm and 5pm.  Mostly cloudy, with a high near 37. West wind 9 to 11 mph.  Total daytime snow accumulation of less than a half inch possible. ",
+          "day_forecast": "A 30 percent chance of snow showers, mainly between 4pm and 5pm.  Mostly cloudy, with a high near 37. West wind 9 to 11 mph.  Total daytime snow accumulation of less than a half inch possible. ",
           "night_forecast": "A 10 percent chance of snow showers before 7pm.  Mostly cloudy, with a low around 26. West wind 5 to 9 mph becoming light  in the evening. "
         },
         {
