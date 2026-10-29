@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T12:30:33.844532+00:00",
+  "generated_at": "2026-10-29T12:33:34.834758+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -2156,7 +2156,7 @@
         {
           "number": 1,
           "name": "Overnight",
-          "startTime": "2026-10-29T05:00:00-07:00",
+          "startTime": "2026-10-29T04:00:00-07:00",
           "endTime": "2026-10-29T06:00:00-07:00",
           "isDaytime": false,
           "temperature": 30,
@@ -2164,7 +2164,7 @@
           "temperatureTrend": null,
           "probabilityOfPrecipitation": {
             "unitCode": "wmoUnit:percent",
-            "value": 0
+            "value": 2
           },
           "windSpeed": "3 mph",
           "windDirection": "SW",
@@ -2172,7 +2172,7 @@
           "shortForecast": "Mostly Cloudy",
           "detailedForecast": "Mostly cloudy. Low around 30, with temperatures rising to around 32 overnight. Southwest wind around 3 mph.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 3911
+          "snowLevelFt": 4303
         },
         {
           "number": 2,
@@ -3091,8 +3091,8 @@
       "wind_direction_deg": 230,
       "snow_level_ft": 4146,
       "precip_chance_today": 3,
-      "snowfall_12h_in": -0.6,
-      "snowfall_24h_in": 1.1,
+      "snowfall_12h_in": null,
+      "snowfall_24h_in": null,
       "snowfall_48h_in": null
     },
     "Willamette Pass": {
@@ -4610,22 +4610,10 @@
     }
   },
   "hoodoo": {
-    "weather": {
-      "Temperature": "29 &#176F",
-      "Wind": "WSW",
-      "Snow depth": "1.5\"",
-      "Humidity": "100 %",
-      "Barometer": "29.74\" Hg",
-      "Rain Gauge": "0.65\""
-    },
+    "weather": {},
     "snow_totals": {
-      "trend": {
-        "Max": "2.7\"",
-        "Min": "-2.5\"",
-        "12 Hr": "-0.6\"",
-        "24 Hr": "1.1\""
-      },
-      "season_total_in": 6.5
+      "trend": {},
+      "season_total_in": null
     },
     "webcams": {
       "Base Area": {
@@ -4665,8 +4653,8 @@
   "willamette_pass": {
     "forecast": {
       "weather_provider": "NOAA",
-      "date": "October 29, 2026, 5:04 am",
-      "time": 1793275459000,
+      "date": "October 29, 2026, 5:28 am",
+      "time": 1793276900000,
       "current_weather": "Partly Sunny",
       "current_temperature": "29",
       "forecast": [
@@ -4775,7 +4763,7 @@
   "satellite": {
     "Pacific Northwest": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/pnw/13/GOES18-PNW-13-600x600.gif",
-      "last_modified": "Thu, 29 Oct 2026 11:58:47 GMT"
+      "last_modified": "Thu, 29 Oct 2026 11:58:48 GMT"
     },
     "North Pacific (macro)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/np/13/GOES18-NP-13-900x540.gif",
