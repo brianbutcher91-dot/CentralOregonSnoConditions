@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T18:15:25.404248+00:00",
+  "generated_at": "2026-10-29T18:30:21.552135+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -3092,7 +3092,7 @@
       "snow_level_ft": 4646,
       "precip_chance_today": 4,
       "snowfall_12h_in": null,
-      "snowfall_24h_in": null,
+      "snowfall_24h_in": 0.0,
       "snowfall_48h_in": null
     },
     "Willamette Pass": {
@@ -4187,8 +4187,8 @@
       "snow_depth_in_date": "2026-10-28",
       "swe_in": 0.6,
       "swe_in_date": "2026-10-28",
-      "change_12h_in": 0,
-      "change_24h_in": 0
+      "change_12h_in": -1,
+      "change_24h_in": -1
     },
     "Three Creek / Tam McArthur (Three Creeks Meadow)": {
       "snow_depth_in": 0,
@@ -4204,7 +4204,7 @@
       "swe_in": 0.2,
       "swe_in_date": "2026-10-28",
       "change_12h_in": 0,
-      "change_24h_in": -1
+      "change_24h_in": 0
     },
     "Ochocos (Ochoco Meadows)": {
       "snow_depth_in": 0,
@@ -4333,8 +4333,8 @@
           "day": "Thursday",
           "temperature_high": 39,
           "temperature_low": 22,
-          "precipitation_high": 75,
-          "precipitation_low": 75,
+          "precipitation_high": 72,
+          "precipitation_low": 72,
           "wind_speed": 6,
           "wind_direction": "WSW"
         },
@@ -4453,9 +4453,9 @@
           "primary": true,
           "nonstandardizedDataPoints": {
             "depth": "145.1",
-            "timestamp": "2026-10-29T10:00:00.000Z"
+            "timestamp": "2026-10-29T11:00:00.000Z"
           },
-          "temperature": "29.12",
+          "temperature": "29.1",
           "wind": {
             "low": "0",
             "high": "0",
@@ -4497,17 +4497,17 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-10-29T10:00:00.000Z"
+            "timestamp": "2026-10-29T11:00:00.000Z"
           },
-          "temperature": "24.68",
+          "temperature": "24.2",
           "wind": {
-            "low": "14.96",
-            "high": "24.88",
+            "low": "18.43",
+            "high": "29.98",
             "current": null,
-            "average": "14.96",
+            "average": "18.43",
             "direction": "W"
           },
-          "humidity": "99",
+          "humidity": "98.7",
           "display_name": "Pine Marten",
           "elevation_ft": 7800
         },
@@ -4610,10 +4610,24 @@
     }
   },
   "hoodoo": {
-    "weather": {},
+    "weather": {
+      "Temperature": "31 &#176F",
+      "Wind": "SSE",
+      "Snow depth": "1.4\"",
+      "Humidity": "100 %",
+      "Barometer": "29.72\" Hg",
+      "Rain Gauge": "0.53\""
+    },
     "snow_totals": {
-      "trend": {},
-      "season_total_in": null
+      "trend": {
+        "Max": "2.7\"",
+        "Min": "-2.5\"",
+        "1 Hr": "0.2\"",
+        "3 Hr": "-0.5\"",
+        "6 Hr": "-0.1\"",
+        "24 Hr": "0.0\""
+      },
+      "season_total_in": 6.5
     },
     "webcams": {
       "Base Area": {
@@ -4653,14 +4667,14 @@
   "willamette_pass": {
     "forecast": {
       "weather_provider": "NOAA",
-      "date": "October 29, 2026, 10:52 am",
-      "time": 1793296367000,
+      "date": "October 29, 2026, 11:04 am",
+      "time": 1793297093000,
       "current_weather": "Partly Sunny",
-      "current_temperature": "36",
+      "current_temperature": "40",
       "forecast": [
         {
           "day": "Thursday",
-          "day_forecast": "Partly sunny, with a high near 44. Calm wind becoming west around 5 mph. ",
+          "day_forecast": "Partly sunny, with a high near 44. West wind 3 to 5 mph. ",
           "night_forecast": "Mostly cloudy, with a low around 28. Calm wind. "
         },
         {
@@ -4695,11 +4709,6 @@
       "min_temp": "28",
       "hourly": [
         {
-          "time": "10a",
-          "temp": "34",
-          "details": ""
-        },
-        {
           "time": "12p",
           "temp": "39",
           "details": ""
@@ -4717,6 +4726,11 @@
         {
           "time": "5p",
           "temp": "41",
+          "details": ""
+        },
+        {
+          "time": "8p",
+          "temp": "32",
           "details": ""
         }
       ],
