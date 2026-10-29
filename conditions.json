@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T22:15:24.209581+00:00",
+  "generated_at": "2026-10-29T22:30:17.810736+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -914,8 +914,8 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 11.0,
-        "wind_direction_deg": 225,
+        "wind_speed_mph": 9.0,
+        "wind_direction_deg": 247.5,
         "snow_level_ft": 5196,
         "temp_f": 41
       },
@@ -3087,12 +3087,12 @@
     "Hoodoo": {
       "elevation_ft": 4705,
       "temp_f": 41,
-      "wind_speed_mph": 11.0,
-      "wind_direction_deg": 225,
+      "wind_speed_mph": 9.0,
+      "wind_direction_deg": 247.5,
       "snow_level_ft": 5196,
       "precip_chance_today": 4,
       "snowfall_12h_in": null,
-      "snowfall_24h_in": -0.8,
+      "snowfall_24h_in": -0.7,
       "snowfall_48h_in": null
     },
     "Willamette Pass": {
@@ -3109,14 +3109,6 @@
   },
   "bachelor_timeseries": {
     "hourly": [
-      {
-        "time": "2026-10-28T15:00:00.000Z",
-        "temp_f": 25.52,
-        "wind_speed_mph": 10.12,
-        "wind_direction_deg": 228.4,
-        "precip_in": null,
-        "period": "historical"
-      },
       {
         "time": "2026-10-28T16:00:00.000Z",
         "temp_f": 25.06,
@@ -3298,6 +3290,14 @@
         "temp_f": 23.39,
         "wind_speed_mph": 13.75,
         "wind_direction_deg": 219.9,
+        "precip_in": null,
+        "period": "historical"
+      },
+      {
+        "time": "2026-10-29T15:00:00.000Z",
+        "temp_f": 24.72,
+        "wind_speed_mph": 7.234,
+        "wind_direction_deg": 221.9,
         "precip_in": null,
         "period": "historical"
       },
@@ -3928,10 +3928,6 @@
     ],
     "historical_precip_snapshots": [
       {
-        "time": "2026-10-26T22:15:31.301809+00:00",
-        "precip_in": 0
-      },
-      {
         "time": "2026-10-26T23:30:21.628871+00:00",
         "precip_in": 0
       },
@@ -4191,8 +4187,8 @@
       "snow_depth_in_date": "2026-10-28",
       "swe_in": 0.6,
       "swe_in_date": "2026-10-28",
-      "change_12h_in": -2,
-      "change_24h_in": -1
+      "change_12h_in": 0,
+      "change_24h_in": 0
     },
     "Three Creek / Tam McArthur (Three Creeks Meadow)": {
       "snow_depth_in": 0,
@@ -4208,7 +4204,7 @@
       "swe_in": 0.2,
       "swe_in_date": "2026-10-28",
       "change_12h_in": 0,
-      "change_24h_in": -1
+      "change_24h_in": 0
     },
     "Ochocos (Ochoco Meadows)": {
       "snow_depth_in": 0,
@@ -4335,7 +4331,7 @@
           "weather_icon": "dor-mostlycloudy",
           "id": 1793300400,
           "day": "Thursday",
-          "temperature_high": 41,
+          "temperature_high": 40,
           "temperature_low": 21,
           "precipitation_high": 59,
           "precipitation_low": 59,
@@ -4457,9 +4453,9 @@
           "primary": true,
           "nonstandardizedDataPoints": {
             "depth": "145",
-            "timestamp": "2026-10-29T14:00:00.000Z"
+            "timestamp": "2026-10-29T15:00:00.000Z"
           },
-          "temperature": "33.66",
+          "temperature": "33.62",
           "wind": {
             "low": "0",
             "high": "0",
@@ -4479,14 +4475,14 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-10-29T14:00:00.000Z"
+            "timestamp": "2026-10-29T15:00:00.000Z"
           },
-          "temperature": "26.23",
+          "temperature": "28.24",
           "wind": {
-            "low": "14.83",
-            "high": "29.3",
+            "low": "9.4",
+            "high": "22.59",
             "current": null,
-            "average": "14.83",
+            "average": "9.4",
             "direction": "WSW"
           },
           "humidity": null,
@@ -4501,14 +4497,14 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-10-29T14:00:00.000Z"
+            "timestamp": "2026-10-29T15:00:00.000Z"
           },
-          "temperature": "26.47",
+          "temperature": "27.73",
           "wind": {
-            "low": "13.18",
-            "high": "22.67",
+            "low": "9.72",
+            "high": "19.49",
             "current": null,
-            "average": "13.18",
+            "average": "9.72",
             "direction": "WNW"
           },
           "humidity": "100",
@@ -4523,14 +4519,14 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-10-29T14:00:00.000Z"
+            "timestamp": "2026-10-29T15:00:00.000Z"
           },
-          "temperature": "23.39",
+          "temperature": "24.72",
           "wind": {
-            "low": "13.75",
-            "high": "24.16",
+            "low": "7.234",
+            "high": "20.58",
             "current": null,
-            "average": "13.75",
+            "average": "7.234",
             "direction": "SW"
           },
           "humidity": null,
@@ -4616,8 +4612,8 @@
   "hoodoo": {
     "weather": {
       "Temperature": "31 &#176F",
-      "Wind": "SW @ 11 MPH",
-      "Snow depth": "2.0\"",
+      "Wind": "WSW @ 9 MPH",
+      "Snow depth": "1.9\"",
       "Humidity": "100 %",
       "Barometer": "29.70\" Hg",
       "Rain Gauge": "0.51\""
@@ -4629,7 +4625,7 @@
         "1 Hr": "0.1\"",
         "3 Hr": "0.1\"",
         "6 Hr": "0.1\"",
-        "24 Hr": "-0.8\""
+        "24 Hr": "-0.7\""
       },
       "season_total_in": 6.5
     },
@@ -4671,8 +4667,8 @@
   "willamette_pass": {
     "forecast": {
       "weather_provider": "NOAA",
-      "date": "October 29, 2026, 2:52 pm",
-      "time": 1793310757000,
+      "date": "October 29, 2026, 3:07 pm",
+      "time": 1793311671000,
       "current_weather": "Partly Sunny",
       "current_temperature": "55",
       "forecast": [
