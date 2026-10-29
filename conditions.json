@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T13:15:18.355320+00:00",
+  "generated_at": "2026-10-29T13:30:19.719969+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -928,7 +928,7 @@
         {
           "number": 1,
           "name": "Overnight",
-          "startTime": "2026-10-29T05:00:00-07:00",
+          "startTime": "2026-10-29T04:00:00-07:00",
           "endTime": "2026-10-29T06:00:00-07:00",
           "isDaytime": false,
           "temperature": 23,
@@ -936,7 +936,7 @@
           "temperatureTrend": null,
           "probabilityOfPrecipitation": {
             "unitCode": "wmoUnit:percent",
-            "value": 0
+            "value": 1
           },
           "windSpeed": "7 mph",
           "windDirection": "SW",
@@ -944,7 +944,7 @@
           "shortForecast": "Mostly Cloudy",
           "detailedForecast": "Mostly cloudy. Low around 23, with temperatures rising to around 26 overnight. Southwest wind around 7 mph.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 4330
+          "snowLevelFt": 4593
         },
         {
           "number": 2,
@@ -3092,7 +3092,7 @@
       "snow_level_ft": 4042,
       "precip_chance_today": 3,
       "snowfall_12h_in": -0.7,
-      "snowfall_24h_in": 0.0,
+      "snowfall_24h_in": -0.3,
       "snowfall_48h_in": null
     },
     "Willamette Pass": {
@@ -4174,11 +4174,46 @@
       {
         "time": "2026-10-29T12:15:27.455714+00:00",
         "precip_in": 3
+      },
+      {
+        "time": "2026-10-29T13:30:20.176723+00:00",
+        "precip_in": 3
       }
     ]
   },
   "snotel": {
-    "error": "403 Client Error: Forbidden for url: https://wcc.sc.egov.usda.gov/awdbRestApi/services/v1/data?stationTriplets=545%3AOR%3ASNTL&elements=SNWD&duration=HOURLY&getFlags=false&beginDate=2026-10-27+01%3A15&endDate=2026-10-30+01%3A15"
+    "Mt Bachelor area (Irish Taylor)": {
+      "snow_depth_in": 0,
+      "snow_depth_in_date": "2026-10-28",
+      "swe_in": 0.6,
+      "swe_in_date": "2026-10-28",
+      "change_12h_in": 0,
+      "change_24h_in": 0
+    },
+    "Three Creek / Tam McArthur (Three Creeks Meadow)": {
+      "snow_depth_in": 0,
+      "snow_depth_in_date": "2026-10-28",
+      "swe_in": 0.1,
+      "swe_in_date": "2026-10-28",
+      "change_12h_in": 0,
+      "change_24h_in": 0
+    },
+    "Santiam / Hoodoo (Hogg Pass)": {
+      "snow_depth_in": 0,
+      "snow_depth_in_date": "2026-10-28",
+      "swe_in": 0.2,
+      "swe_in_date": "2026-10-28",
+      "change_12h_in": 0,
+      "change_24h_in": 0
+    },
+    "Ochocos (Ochoco Meadows)": {
+      "snow_depth_in": 0,
+      "snow_depth_in_date": "2026-10-28",
+      "swe_in": 0.1,
+      "swe_in_date": "2026-10-28",
+      "change_12h_in": 0,
+      "change_24h_in": 0
+    }
   },
   "odot_cams": {
     "Century Drive": [
@@ -4418,9 +4453,9 @@
           "primary": true,
           "nonstandardizedDataPoints": {
             "depth": "144.3",
-            "timestamp": "2026-10-29T05:00:00.000Z"
+            "timestamp": "2026-10-29T06:00:00.000Z"
           },
-          "temperature": "27.86",
+          "temperature": "27.53",
           "wind": {
             "low": "0",
             "high": "0",
@@ -4440,14 +4475,14 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-10-29T05:00:00.000Z"
+            "timestamp": "2026-10-29T06:00:00.000Z"
           },
-          "temperature": "23.72",
+          "temperature": "23.43",
           "wind": {
-            "low": "13.79",
+            "low": "15.52",
             "high": "26.62",
             "current": null,
-            "average": "13.79",
+            "average": "15.52",
             "direction": "WSW"
           },
           "humidity": null,
@@ -4462,14 +4497,14 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-10-29T05:00:00.000Z"
+            "timestamp": "2026-10-29T06:00:00.000Z"
           },
-          "temperature": "22.51",
+          "temperature": "22.25",
           "wind": {
-            "low": "22.44",
-            "high": "29.11",
+            "low": "20.87",
+            "high": "30.03",
             "current": null,
-            "average": "22.44",
+            "average": "20.87",
             "direction": "WNW"
           },
           "humidity": "98.7",
@@ -4577,8 +4612,8 @@
   "hoodoo": {
     "weather": {
       "Temperature": "29 &#176F",
-      "Wind": "WSW",
-      "Snow depth": "1.1\"",
+      "Wind": "SSW",
+      "Snow depth": "1.3\"",
       "Humidity": "100 %",
       "Barometer": "29.73\" Hg",
       "Rain Gauge": "0.60\""
@@ -4587,10 +4622,9 @@
       "trend": {
         "Max": "2.7\"",
         "Min": "-2.5\"",
-        "1 Hr": "0.0\"",
-        "6 Hr": "-0.4\"",
+        "1 Hr": "-0.1\"",
         "12 Hr": "-0.7\"",
-        "24 Hr": "0.0\""
+        "24 Hr": "-0.3\""
       },
       "season_total_in": 6.5
     },
@@ -4632,8 +4666,8 @@
   "willamette_pass": {
     "forecast": {
       "weather_provider": "NOAA",
-      "date": "October 29, 2026, 5:55 am",
-      "time": 1793278519000,
+      "date": "October 29, 2026, 6:04 am",
+      "time": 1793279072000,
       "current_weather": "Partly Sunny",
       "current_temperature": "29",
       "forecast": [
@@ -4674,11 +4708,6 @@
       "min_temp": "28",
       "hourly": [
         {
-          "time": "5a",
-          "temp": "28",
-          "details": ""
-        },
-        {
           "time": "8a",
           "temp": "28",
           "details": ""
@@ -4696,6 +4725,11 @@
         {
           "time": "2p",
           "temp": "42",
+          "details": ""
+        },
+        {
+          "time": "4p",
+          "temp": "41",
           "details": ""
         }
       ],
@@ -4750,7 +4784,7 @@
     },
     "Pacific US (PACUS)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/13/GOES18-CONUS-13-625x375.gif",
-      "last_modified": "Thu, 29 Oct 2026 12:10:54 GMT"
+      "last_modified": "Thu, 29 Oct 2026 12:10:53 GMT"
     }
   },
   "gfs_snowfall": {
