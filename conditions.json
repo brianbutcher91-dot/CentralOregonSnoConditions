@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T10:30:20.231117+00:00",
+  "generated_at": "2026-10-29T10:45:22.364188+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -2156,7 +2156,7 @@
         {
           "number": 1,
           "name": "Overnight",
-          "startTime": "2026-10-29T02:00:00-07:00",
+          "startTime": "2026-10-29T03:00:00-07:00",
           "endTime": "2026-10-29T06:00:00-07:00",
           "isDaytime": false,
           "temperature": 30,
@@ -4182,7 +4182,38 @@
     ]
   },
   "snotel": {
-    "error": "HTTPSConnectionPool(host='wcc.sc.egov.usda.gov', port=443): Max retries exceeded with url: /awdbRestApi/services/v1/data?stationTriplets=545%3AOR%3ASNTL&elements=SNWD%2CWTEQ&duration=DAILY&getFlags=false&beginDate=-1&endDate=-1 (Caused by ConnectTimeoutError(<HTTPSConnection(host='wcc.sc.egov.usda.gov', port=443) at 0x74fb4a474cb0>, 'Connection to wcc.sc.egov.usda.gov timed out. (connect timeout=None)'))"
+    "Mt Bachelor area (Irish Taylor)": {
+      "snow_depth_in": 0,
+      "snow_depth_in_date": "2026-10-28",
+      "swe_in": 0.6,
+      "swe_in_date": "2026-10-28",
+      "change_12h_in": 0,
+      "change_24h_in": 1
+    },
+    "Three Creek / Tam McArthur (Three Creeks Meadow)": {
+      "snow_depth_in": 0,
+      "snow_depth_in_date": "2026-10-28",
+      "swe_in": 0.1,
+      "swe_in_date": "2026-10-28",
+      "change_12h_in": 0,
+      "change_24h_in": 0
+    },
+    "Santiam / Hoodoo (Hogg Pass)": {
+      "snow_depth_in": 0,
+      "snow_depth_in_date": "2026-10-28",
+      "swe_in": 0.2,
+      "swe_in_date": "2026-10-28",
+      "change_12h_in": 0,
+      "change_24h_in": 0
+    },
+    "Ochocos (Ochoco Meadows)": {
+      "snow_depth_in": 0,
+      "snow_depth_in_date": "2026-10-28",
+      "swe_in": 0.1,
+      "swe_in_date": "2026-10-28",
+      "change_12h_in": 0,
+      "change_24h_in": 0
+    }
   },
   "odot_cams": {
     "Century Drive": [
@@ -4196,7 +4227,7 @@
         "milepoint": 21.11,
         "cctv-url": "http://www.TripCheck.com/roadcams/cams/Century Dr at MP 21.11 E_pid3545.JPG",
         "cctv-other": "Century Drive at MP 21.11",
-        "last-update-time": "2026-10-28T11:41:16.727-07:00",
+        "last-update-time": "2026-10-29T03:44:44.097-07:00",
         "tripcheck_link": "https://www.tripcheck.com/Pages/View-Custom-Cameras/?CamIds=3545"
       },
       {
@@ -4209,7 +4240,7 @@
         "milepoint": 21.11,
         "cctv-url": "http://www.TripCheck.com/roadcams/cams/Century Dr at MP 21.11 W_pid3557.JPG",
         "cctv-other": "Century Drive at MP 21.11",
-        "last-update-time": "2026-10-28T11:41:16.94-07:00",
+        "last-update-time": "2026-10-29T03:44:44.067-07:00",
         "tripcheck_link": "https://www.tripcheck.com/Pages/View-Custom-Cameras/?CamIds=3557"
       }
     ],
@@ -4224,7 +4255,7 @@
         "milepoint": 80.14,
         "cctv-url": "http://www.TripCheck.com/roadcams/cams/Santiam Pass_pid2728.JPG",
         "cctv-other": "US20 at Santiam Pass",
-        "last-update-time": "2026-10-28T11:41:12.58-07:00",
+        "last-update-time": "2026-10-29T03:44:40.367-07:00",
         "tripcheck_link": "https://www.tripcheck.com/Pages/View-Custom-Cameras/?CamIds=2728"
       },
       {
@@ -4237,7 +4268,7 @@
         "milepoint": 80.14,
         "cctv-url": "http://www.TripCheck.com/roadcams/cams/Santiam Pass WB_pid5258.jpg",
         "cctv-other": "US20 at Santiam Pass",
-        "last-update-time": "2026-10-28T11:41:12.517-07:00",
+        "last-update-time": "2026-10-29T03:44:40.367-07:00",
         "tripcheck_link": "https://www.tripcheck.com/Pages/View-Custom-Cameras/?CamIds=5258"
       }
     ],
@@ -4252,7 +4283,7 @@
         "milepoint": 63.64,
         "cctv-url": "http://www.TripCheck.com/roadcams/cams/US20atTombstone_pid1354.jpg",
         "cctv-other": "US20 at Tombstone",
-        "last-update-time": "2026-10-28T11:41:05.94-07:00",
+        "last-update-time": "2026-10-29T03:44:32.82-07:00",
         "tripcheck_link": "https://www.tripcheck.com/Pages/View-Custom-Cameras/?CamIds=1354"
       }
     ],
@@ -4267,7 +4298,7 @@
         "milepoint": 62.0,
         "cctv-url": "http://www.TripCheck.com/roadcams/cams/WillamettePass_pid658.jpg",
         "cctv-other": "OR58 at Willamette Pass",
-        "last-update-time": "2026-10-28T11:41:15.71-07:00",
+        "last-update-time": "2026-10-29T03:44:43.55-07:00",
         "tripcheck_link": "https://www.tripcheck.com/Pages/View-Custom-Cameras/?CamIds=658"
       },
       {
@@ -4280,7 +4311,7 @@
         "milepoint": 62.0,
         "cctv-url": "http://www.TripCheck.com/roadcams/cams/Willamette Pass_pid3351.JPG",
         "cctv-other": "OR58 at Willamette Pass",
-        "last-update-time": "2026-10-28T11:41:15.71-07:00",
+        "last-update-time": "2026-10-29T03:44:43.533-07:00",
         "tripcheck_link": "https://www.tripcheck.com/Pages/View-Custom-Cameras/?CamIds=3351"
       }
     ]
@@ -4301,7 +4332,7 @@
           "id": 1793300400,
           "day": "Thursday",
           "temperature_high": 41,
-          "temperature_low": 20,
+          "temperature_low": 21,
           "precipitation_high": 82,
           "precipitation_low": 82,
           "wind_speed": 6,
@@ -4581,10 +4612,10 @@
   "hoodoo": {
     "weather": {
       "Temperature": "29 &#176F",
-      "Wind": "SW",
+      "Wind": "WSW",
       "Snow depth": "0.3\"",
       "Humidity": "100 %",
-      "Barometer": "29.76\" Hg",
+      "Barometer": "29.75\" Hg",
       "Rain Gauge": "0.70\""
     },
     "snow_totals": {
@@ -4632,8 +4663,8 @@
   "willamette_pass": {
     "forecast": {
       "weather_provider": "NOAA",
-      "date": "October 29, 2026, 3:13 am",
-      "time": 1793268801000,
+      "date": "October 29, 2026, 3:25 am",
+      "time": 1793269521000,
       "current_weather": "Mostly Cloudy",
       "current_temperature": "33",
       "forecast": [
@@ -4753,35 +4784,7 @@
     }
   },
   "gfs_snowfall": {
-    "path": "gfs_snowfall_pnw.gif",
-    "legend_path": "gfs_snowfall_legend.png",
-    "cycle_run_at": "2026-10-29T06:00:00+00:00",
-    "forecast_hours": [
-      3,
-      6,
-      9,
-      12,
-      15,
-      18,
-      21,
-      24,
-      27,
-      30,
-      33,
-      36,
-      39,
-      42,
-      45,
-      48,
-      51,
-      54,
-      57,
-      60,
-      63,
-      66,
-      69,
-      72
-    ]
+    "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
   },
   "avalanche": {
     "Central Cascades": {
