@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T21:15:22.097357+00:00",
+  "generated_at": "2026-10-29T21:30:19.424836+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -914,7 +914,7 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 9.0,
+        "wind_speed_mph": 10.0,
         "wind_direction_deg": 202.5,
         "snow_level_ft": 5118,
         "temp_f": 41
@@ -2156,7 +2156,7 @@
         {
           "number": 1,
           "name": "This Afternoon",
-          "startTime": "2026-10-29T14:00:00-07:00",
+          "startTime": "2026-10-29T13:00:00-07:00",
           "endTime": "2026-10-29T18:00:00-07:00",
           "isDaytime": true,
           "temperature": 52,
@@ -2167,12 +2167,12 @@
             "value": 2
           },
           "windSpeed": "3 mph",
-          "windDirection": "NW",
+          "windDirection": "W",
           "icon": "https://api.weather.gov/icons/land/day/bkn?size=medium",
           "shortForecast": "Partly Sunny",
-          "detailedForecast": "Partly sunny. High near 52, with temperatures falling to around 49 in the afternoon. Northwest wind around 3 mph.",
+          "detailedForecast": "Partly sunny. High near 52, with temperatures falling to around 49 in the afternoon. West wind around 3 mph.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 5485
+          "snowLevelFt": 5065
         },
         {
           "number": 2,
@@ -3087,7 +3087,7 @@
     "Hoodoo": {
       "elevation_ft": 4705,
       "temp_f": 41,
-      "wind_speed_mph": 9.0,
+      "wind_speed_mph": 10.0,
       "wind_direction_deg": 202.5,
       "snow_level_ft": 5118,
       "precip_chance_today": 4,
@@ -3928,10 +3928,6 @@
     ],
     "historical_precip_snapshots": [
       {
-        "time": "2026-10-26T21:15:28.880633+00:00",
-        "precip_in": 0
-      },
-      {
         "time": "2026-10-26T22:15:31.301809+00:00",
         "precip_in": 0
       },
@@ -4191,8 +4187,8 @@
       "snow_depth_in_date": "2026-10-28",
       "swe_in": 0.6,
       "swe_in_date": "2026-10-28",
-      "change_12h_in": 1,
-      "change_24h_in": 0
+      "change_12h_in": -2,
+      "change_24h_in": -1
     },
     "Three Creek / Tam McArthur (Three Creeks Meadow)": {
       "snow_depth_in": 0,
@@ -4323,7 +4319,7 @@
   "mtbachelor": {
     "weather": {
       "current": {
-        "temperature": 32,
+        "temperature": 34,
         "weather_icon": "dor-mostlycloudy"
       },
       "forecast": [
@@ -4456,10 +4452,10 @@
           "active": true,
           "primary": true,
           "nonstandardizedDataPoints": {
-            "depth": "144.9",
-            "timestamp": "2026-10-29T13:00:00.000Z"
+            "depth": "145",
+            "timestamp": "2026-10-29T14:00:00.000Z"
           },
-          "temperature": "32.35",
+          "temperature": "33.66",
           "wind": {
             "low": "0",
             "high": "0",
@@ -4501,14 +4497,14 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-10-29T13:00:00.000Z"
+            "timestamp": "2026-10-29T14:00:00.000Z"
           },
-          "temperature": "26.15",
+          "temperature": "26.47",
           "wind": {
-            "low": "7.574",
-            "high": "16.85",
+            "low": "13.18",
+            "high": "22.67",
             "current": null,
-            "average": "7.574",
+            "average": "13.18",
             "direction": "WNW"
           },
           "humidity": "100",
@@ -4615,9 +4611,9 @@
   },
   "hoodoo": {
     "weather": {
-      "Temperature": "32 &#176F",
-      "Wind": "SSW @ 9 MPH",
-      "Snow depth": "1.9\"",
+      "Temperature": "31 &#176F",
+      "Wind": "SSW @ 10 MPH",
+      "Snow depth": "1.6\"",
       "Humidity": "100 %",
       "Barometer": "29.70\" Hg",
       "Rain Gauge": "0.52\""
@@ -4627,8 +4623,8 @@
         "Max": "2.7\"",
         "Min": "-2.5\"",
         "1 Hr": "0.2\"",
-        "3 Hr": "0.2\"",
-        "6 Hr": "-0.7\"",
+        "3 Hr": "0.4\"",
+        "6 Hr": "-0.1\"",
         "24 Hr": "-0.7\""
       },
       "season_total_in": 6.5
