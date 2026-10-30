@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T20:15:21.223044+00:00",
+  "generated_at": "2026-10-30T20:30:24.628009+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -7,7 +7,7 @@
         {
           "number": 1,
           "name": "This Afternoon",
-          "startTime": "2026-10-30T13:00:00-07:00",
+          "startTime": "2026-10-30T12:00:00-07:00",
           "endTime": "2026-10-30T18:00:00-07:00",
           "isDaytime": true,
           "temperature": 32,
@@ -914,8 +914,8 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 17.0,
-        "wind_direction_deg": 202.5,
+        "wind_speed_mph": 12.0,
+        "wind_direction_deg": 225,
         "snow_level_ft": 4802,
         "temp_f": 35
       },
@@ -2463,7 +2463,7 @@
         {
           "number": 1,
           "name": "This Afternoon",
-          "startTime": "2026-10-30T13:00:00-07:00",
+          "startTime": "2026-10-30T12:00:00-07:00",
           "endTime": "2026-10-30T18:00:00-07:00",
           "isDaytime": true,
           "temperature": 49,
@@ -2770,7 +2770,7 @@
         {
           "number": 1,
           "name": "This Afternoon",
-          "startTime": "2026-10-30T13:00:00-07:00",
+          "startTime": "2026-10-30T12:00:00-07:00",
           "endTime": "2026-10-30T18:00:00-07:00",
           "isDaytime": true,
           "temperature": 48,
@@ -3087,12 +3087,12 @@
     "Hoodoo": {
       "elevation_ft": 4705,
       "temp_f": 35,
-      "wind_speed_mph": 17.0,
-      "wind_direction_deg": 202.5,
+      "wind_speed_mph": 12.0,
+      "wind_direction_deg": 225,
       "snow_level_ft": 4802,
       "precip_chance_today": 15,
-      "snowfall_12h_in": -0.8,
-      "snowfall_24h_in": -0.1,
+      "snowfall_12h_in": -0.4,
+      "snowfall_24h_in": 0.3,
       "snowfall_48h_in": null
     },
     "Willamette Pass": {
@@ -4323,7 +4323,7 @@
   "mtbachelor": {
     "weather": {
       "current": {
-        "temperature": 31,
+        "temperature": 32,
         "weather_icon": "dor-mostlycloudy"
       },
       "forecast": [
@@ -4457,9 +4457,9 @@
           "primary": true,
           "nonstandardizedDataPoints": {
             "depth": "145",
-            "timestamp": "2026-10-30T12:00:00.000Z"
+            "timestamp": "2026-10-30T13:00:00.000Z"
           },
-          "temperature": "31.28",
+          "temperature": "32.06",
           "wind": {
             "low": "0",
             "high": "0",
@@ -4501,17 +4501,17 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-10-30T12:00:00.000Z"
+            "timestamp": "2026-10-30T13:00:00.000Z"
           },
-          "temperature": "25.68",
+          "temperature": "25.26",
           "wind": {
-            "low": "13.46",
-            "high": "25.15",
+            "low": "14.88",
+            "high": "26.2",
             "current": null,
-            "average": "13.46",
+            "average": "14.88",
             "direction": "W"
           },
-          "humidity": "99.1",
+          "humidity": "98.5",
           "display_name": "Pine Marten",
           "elevation_ft": 7800
         },
@@ -4616,9 +4616,9 @@
   "hoodoo": {
     "weather": {
       "Temperature": "32 &#176F",
-      "Wind": "SSW @ 17 MPH",
-      "Snow depth": "1.5\"",
-      "Humidity": "96 %",
+      "Wind": "SW @ 12 MPH",
+      "Snow depth": "1.9\"",
+      "Humidity": "95 %",
       "Barometer": "29.63\" Hg",
       "Rain Gauge": "0.47\""
     },
@@ -4626,11 +4626,11 @@
       "trend": {
         "Max": "2.7\"",
         "Min": "-0.7\"",
-        "1 Hr": "-0.1\"",
-        "3 Hr": "-0.3\"",
-        "6 Hr": "-0.7\"",
-        "12 Hr": "-0.8\"",
-        "24 Hr": "-0.1\""
+        "1 Hr": "0.0\"",
+        "3 Hr": "0.2\"",
+        "6 Hr": "-0.1\"",
+        "12 Hr": "-0.4\"",
+        "24 Hr": "0.3\""
       },
       "season_total_in": 6.5
     },
@@ -4672,8 +4672,8 @@
   "willamette_pass": {
     "forecast": {
       "weather_provider": "NOAA",
-      "date": "October 30, 2026, 12:55 pm",
-      "time": 1793390117000,
+      "date": "October 30, 2026, 1:04 pm",
+      "time": 1793390657000,
       "current_weather": "Partly Sunny",
       "current_temperature": "48",
       "forecast": [
