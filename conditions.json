@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T09:02:38.411853+00:00",
+  "generated_at": "2026-10-30T09:15:20.720331+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -7,7 +7,7 @@
         {
           "number": 1,
           "name": "Overnight",
-          "startTime": "2026-10-30T02:00:00-07:00",
+          "startTime": "2026-10-30T00:00:00-07:00",
           "endTime": "2026-10-30T06:00:00-07:00",
           "isDaytime": false,
           "temperature": 25,
@@ -23,7 +23,7 @@
           "shortForecast": "Mostly Cloudy",
           "detailedForecast": "Mostly cloudy, with a low around 25. Southwest wind around 5 mph.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 4908
+          "snowLevelFt": 5039
         },
         {
           "number": 2,
@@ -914,8 +914,8 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 3,
-        "wind_direction_deg": 110,
+        "wind_speed_mph": 16.0,
+        "wind_direction_deg": 112.5,
         "snow_level_ft": 4829,
         "temp_f": 31
       },
@@ -2156,7 +2156,7 @@
         {
           "number": 1,
           "name": "Overnight",
-          "startTime": "2026-10-30T02:00:00-07:00",
+          "startTime": "2026-10-30T01:00:00-07:00",
           "endTime": "2026-10-30T06:00:00-07:00",
           "isDaytime": false,
           "temperature": 29,
@@ -2172,7 +2172,7 @@
           "shortForecast": "Patchy Fog",
           "detailedForecast": "Patchy fog after 5am. Cloudy. Low around 29, with temperatures rising to around 31 overnight. Wind around 0 mph.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 4594
+          "snowLevelFt": 4855
         },
         {
           "number": 2,
@@ -3087,11 +3087,11 @@
     "Hoodoo": {
       "elevation_ft": 4705,
       "temp_f": 31,
-      "wind_speed_mph": 3,
-      "wind_direction_deg": 110,
+      "wind_speed_mph": 16.0,
+      "wind_direction_deg": 112.5,
       "snow_level_ft": 4829,
       "precip_chance_today": 11,
-      "snowfall_12h_in": null,
+      "snowfall_12h_in": 0.5,
       "snowfall_24h_in": null,
       "snowfall_48h_in": null
     },
@@ -3109,14 +3109,6 @@
   },
   "bachelor_timeseries": {
     "hourly": [
-      {
-        "time": "2026-10-29T02:00:00.000Z",
-        "temp_f": 24.35,
-        "wind_speed_mph": 12.16,
-        "wind_direction_deg": 237.4,
-        "precip_in": null,
-        "period": "historical"
-      },
       {
         "time": "2026-10-29T03:00:00.000Z",
         "temp_f": 23.49,
@@ -3302,12 +3294,12 @@
         "period": "historical"
       },
       {
-        "time": "2026-10-30T02:00:00+00:00",
-        "temp_f": 28.0,
-        "wind_speed_mph": 2.3,
-        "wind_direction_deg": 260,
-        "precip_in": 0.0,
-        "period": "forecast"
+        "time": "2026-10-30T02:00:00.000Z",
+        "temp_f": 25.8,
+        "wind_speed_mph": 6.688,
+        "wind_direction_deg": 104.2,
+        "precip_in": null,
+        "period": "historical"
       },
       {
         "time": "2026-10-30T03:00:00+00:00",
@@ -4186,6 +4178,10 @@
       {
         "time": "2026-10-30T08:15:19.483754+00:00",
         "precip_in": 1
+      },
+      {
+        "time": "2026-10-30T09:15:21.225086+00:00",
+        "precip_in": 1
       }
     ]
   },
@@ -4527,14 +4523,14 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-10-30T01:00:00.000Z"
+            "timestamp": "2026-10-30T02:00:00.000Z"
           },
-          "temperature": "25.92",
+          "temperature": "25.8",
           "wind": {
-            "low": "6.86",
-            "high": "14.76",
+            "low": "6.688",
+            "high": "16.33",
             "current": null,
-            "average": "6.86",
+            "average": "6.688",
             "direction": "ESE"
           },
           "humidity": null,
@@ -4618,13 +4614,65 @@
     }
   },
   "hoodoo": {
-    "error": "HTTPSConnectionPool(host='santiampsp.org', port=443): Max retries exceeded with url: /wx/weather.htm (Caused by ConnectTimeoutError(<HTTPSConnection(host='santiampsp.org', port=443) at 0x77fbc632b500>, 'Connection to santiampsp.org timed out. (connect timeout=None)'))"
+    "weather": {
+      "Temperature": "32 &#176F",
+      "Wind": "ESE @ 16 MPH",
+      "Snow depth": "2.1\"",
+      "Humidity": "87 %",
+      "Barometer": "29.63\" Hg",
+      "Rain Gauge": "0.45\""
+    },
+    "snow_totals": {
+      "trend": {
+        "Max": "2.7\"",
+        "Min": "-2.1\"",
+        "1 Hr": "0.0\"",
+        "3 Hr": "0.0\"",
+        "6 Hr": "-0.1\"",
+        "12 Hr": "0.5\""
+      },
+      "season_total_in": 6.5
+    },
+    "webcams": {
+      "Base Area": {
+        "src": "https://santiampsp.org/wx/weather16.jpg",
+        "link": "https://hoodoo.com/the-mountain/webcams/"
+      },
+      "Top of Manzanita": {
+        "src": "https://santiampsp.org/wx/weather3.jpg",
+        "link": "https://hoodoo.com/the-mountain/webcams/"
+      },
+      "Top of Ed": {
+        "src": "https://santiampsp.org/wx/weather2.jpg",
+        "link": "https://hoodoo.com/the-mountain/webcams/"
+      },
+      "Top of Easy Rider": {
+        "src": "https://santiampsp.org/wx/weather4.jpg",
+        "link": "https://hoodoo.com/the-mountain/webcams/"
+      },
+      "Hoodoo Parking Lot": {
+        "src": "https://santiampsp.org/wx/weather12.jpg",
+        "link": "https://hoodoo.com/the-mountain/webcams/"
+      },
+      "Hoodoo Summit": {
+        "src": "https://santiampsp.org/wx/weather1.jpg",
+        "link": "https://hoodoo.com/the-mountain/webcams/"
+      },
+      "Hayrick Butte & \"Gripper\" run from top of Ed chair": {
+        "src": "https://santiampsp.org/wx/weather2b.jpg",
+        "link": "https://hoodoo.com/the-mountain/webcams/"
+      },
+      "Hoodoo Parking Lot View #2": {
+        "src": "https://santiampsp.org/wx/weather10.jpg",
+        "link": "https://hoodoo.com/the-mountain/webcams/"
+      }
+    }
   },
   "willamette_pass": {
     "forecast": {
       "weather_provider": "NOAA",
-      "date": "October 30, 2026, 1:58 am",
-      "time": 1793350703000,
+      "date": "October 30, 2026, 2:13 am",
+      "time": 1793351599000,
       "current_weather": "Mostly Cloudy",
       "current_temperature": "31",
       "forecast": [
@@ -4720,7 +4768,10 @@
       "src": "https://api.mtbachelor.com/api/v1/cams/mtn/14",
       "link": "https://www.mtbachelor.com/the-mountain/webcams/live-cam-14/"
     },
-    "Hoodoo (Base Area)": null,
+    "Hoodoo (Base Area)": {
+      "src": "https://santiampsp.org/wx/weather16.jpg",
+      "link": "https://hoodoo.com/the-mountain/webcams/"
+    },
     "Willamette Pass (Base Area)": {
       "src": "https://www.youtube.com/embed/sNVA6oC7vcM",
       "link": "https://www.willamettepass.ski/weather-conditions-webcams/webcams/"
@@ -4729,15 +4780,15 @@
   "satellite": {
     "Pacific Northwest": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/pnw/13/GOES18-PNW-13-600x600.gif",
-      "last_modified": "Fri, 30 Oct 2026 08:40:54 GMT"
+      "last_modified": "Fri, 30 Oct 2026 09:11:23 GMT"
     },
     "North Pacific (macro)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/np/13/GOES18-NP-13-900x540.gif",
-      "last_modified": "Fri, 30 Oct 2026 08:41:03 GMT"
+      "last_modified": "Fri, 30 Oct 2026 09:11:32 GMT"
     },
     "Pacific US (PACUS)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/13/GOES18-CONUS-13-625x375.gif",
-      "last_modified": "Fri, 30 Oct 2026 08:35:35 GMT"
+      "last_modified": "Fri, 30 Oct 2026 09:05:42 GMT"
     }
   },
   "gfs_snowfall": {
