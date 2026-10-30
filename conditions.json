@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T12:24:45.333434+00:00",
+  "generated_at": "2026-10-30T12:30:34.194381+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -621,7 +621,7 @@
         {
           "number": 1,
           "name": "Overnight",
-          "startTime": "2026-10-30T04:00:00-07:00",
+          "startTime": "2026-10-30T05:00:00-07:00",
           "endTime": "2026-10-30T06:00:00-07:00",
           "isDaytime": false,
           "temperature": 28,
@@ -637,7 +637,7 @@
           "shortForecast": "Mostly Cloudy",
           "detailedForecast": "Mostly cloudy. Low around 28, with temperatures rising to around 31 overnight. East southeast wind around 3 mph.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 4725
+          "snowLevelFt": 4646
         },
         {
           "number": 2,
@@ -914,8 +914,8 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 4.0,
-        "wind_direction_deg": 90,
+        "wind_speed_mph": 7.0,
+        "wind_direction_deg": 157.5,
         "snow_level_ft": 4646,
         "temp_f": 31
       },
@@ -1235,7 +1235,7 @@
         {
           "number": 1,
           "name": "Overnight",
-          "startTime": "2026-10-30T04:00:00-07:00",
+          "startTime": "2026-10-30T05:00:00-07:00",
           "endTime": "2026-10-30T06:00:00-07:00",
           "isDaytime": false,
           "temperature": 29,
@@ -1246,12 +1246,12 @@
             "value": 0
           },
           "windSpeed": "6 mph",
-          "windDirection": "SE",
-          "icon": "https://api.weather.gov/icons/land/night/bkn?size=medium",
-          "shortForecast": "Mostly Cloudy",
-          "detailedForecast": "Mostly cloudy, with a low around 29. Southeast wind around 6 mph.",
+          "windDirection": "SSE",
+          "icon": "https://api.weather.gov/icons/land/night/sct?size=medium",
+          "shortForecast": "Partly Cloudy",
+          "detailedForecast": "Partly cloudy, with a low around 29. South southeast wind around 6 mph.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 4699
+          "snowLevelFt": 4619
         },
         {
           "number": 2,
@@ -1542,7 +1542,7 @@
         {
           "number": 1,
           "name": "Overnight",
-          "startTime": "2026-10-30T04:00:00-07:00",
+          "startTime": "2026-10-30T05:00:00-07:00",
           "endTime": "2026-10-30T06:00:00-07:00",
           "isDaytime": false,
           "temperature": 32,
@@ -1553,12 +1553,12 @@
             "value": 34
           },
           "windSpeed": "6 mph",
-          "windDirection": "SSE",
+          "windDirection": "S",
           "icon": "https://api.weather.gov/icons/land/night/snow,30?size=medium",
           "shortForecast": "Chance Rain And Snow",
-          "detailedForecast": "A chance of rain and snow. Mostly cloudy, with a low around 32. South southeast wind around 6 mph. Chance of precipitation is 30%.",
+          "detailedForecast": "A chance of rain and snow. Mostly cloudy, with a low around 32. South wind around 6 mph. Chance of precipitation is 30%.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 4908
+          "snowLevelFt": 4855
         },
         {
           "number": 2,
@@ -1849,7 +1849,7 @@
         {
           "number": 1,
           "name": "Overnight",
-          "startTime": "2026-10-30T04:00:00-07:00",
+          "startTime": "2026-10-30T05:00:00-07:00",
           "endTime": "2026-10-30T06:00:00-07:00",
           "isDaytime": false,
           "temperature": 28,
@@ -1861,11 +1861,11 @@
           },
           "windSpeed": "2 mph",
           "windDirection": "SE",
-          "icon": "https://api.weather.gov/icons/land/night/ovc?size=medium",
-          "shortForecast": "Cloudy",
-          "detailedForecast": "Cloudy, with a low around 28. Southeast wind around 2 mph.",
+          "icon": "https://api.weather.gov/icons/land/night/bkn?size=medium",
+          "shortForecast": "Mostly Cloudy",
+          "detailedForecast": "Mostly cloudy, with a low around 28. Southeast wind around 2 mph.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 4541
+          "snowLevelFt": 4384
         },
         {
           "number": 2,
@@ -3087,11 +3087,11 @@
     "Hoodoo": {
       "elevation_ft": 4705,
       "temp_f": 31,
-      "wind_speed_mph": 4.0,
-      "wind_direction_deg": 90,
+      "wind_speed_mph": 7.0,
+      "wind_direction_deg": 157.5,
       "snow_level_ft": 4646,
       "precip_chance_today": 11,
-      "snowfall_12h_in": 0.0,
+      "snowfall_12h_in": -0.2,
       "snowfall_24h_in": 0.5,
       "snowfall_48h_in": null
     },
@@ -4178,6 +4178,10 @@
       {
         "time": "2026-10-30T11:30:27.413627+00:00",
         "precip_in": 1
+      },
+      {
+        "time": "2026-10-30T12:30:34.437050+00:00",
+        "precip_in": 1
       }
     ]
   },
@@ -4611,10 +4615,10 @@
   },
   "hoodoo": {
     "weather": {
-      "Temperature": "31 &#176F",
-      "Wind": "East @ 4 MPH",
+      "Temperature": "32 &#176F",
+      "Wind": "SSE @ 7 MPH",
       "Snow depth": "2.0\"",
-      "Humidity": "93 %",
+      "Humidity": "91 %",
       "Barometer": "29.61\" Hg",
       "Rain Gauge": "0.45\""
     },
@@ -4622,10 +4626,10 @@
       "trend": {
         "Max": "2.7\"",
         "Min": "-0.7\"",
-        "1 Hr": "-0.1\"",
-        "3 Hr": "-0.1\"",
-        "6 Hr": "-0.2\"",
-        "12 Hr": "0.0\"",
+        "1 Hr": "-0.3\"",
+        "3 Hr": "-0.2\"",
+        "6 Hr": "-0.3\"",
+        "12 Hr": "-0.2\"",
         "24 Hr": "0.5\""
       },
       "season_total_in": 6.5
