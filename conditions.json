@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T16:15:19.100505+00:00",
+  "generated_at": "2026-10-30T16:30:17.231747+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -915,7 +915,7 @@
       ],
       "current": {
         "wind_speed_mph": 9.0,
-        "wind_direction_deg": 225,
+        "wind_direction_deg": 247.5,
         "snow_level_ft": 4462,
         "temp_f": 30
       },
@@ -2463,7 +2463,7 @@
         {
           "number": 1,
           "name": "Today",
-          "startTime": "2026-10-30T08:00:00-07:00",
+          "startTime": "2026-10-30T09:00:00-07:00",
           "endTime": "2026-10-30T18:00:00-07:00",
           "isDaytime": true,
           "temperature": 49,
@@ -3088,11 +3088,11 @@
       "elevation_ft": 4705,
       "temp_f": 30,
       "wind_speed_mph": 9.0,
-      "wind_direction_deg": 225,
+      "wind_direction_deg": 247.5,
       "snow_level_ft": 4462,
       "precip_chance_today": 27,
       "snowfall_12h_in": -0.1,
-      "snowfall_24h_in": 0.5,
+      "snowfall_24h_in": 0.3,
       "snowfall_48h_in": null
     },
     "Willamette Pass": {
@@ -4323,7 +4323,7 @@
   "mtbachelor": {
     "weather": {
       "current": {
-        "temperature": 28,
+        "temperature": 31,
         "weather_icon": "dor-mostlycloudy"
       },
       "forecast": [
@@ -4456,10 +4456,10 @@
           "active": true,
           "primary": true,
           "nonstandardizedDataPoints": {
-            "depth": "144.9",
-            "timestamp": "2026-10-30T08:00:00.000Z"
+            "depth": "145.1",
+            "timestamp": "2026-10-30T09:00:00.000Z"
           },
-          "temperature": "28.11",
+          "temperature": "31.05",
           "wind": {
             "low": "0",
             "high": "0",
@@ -4501,17 +4501,17 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-10-30T08:00:00.000Z"
+            "timestamp": "2026-10-30T09:00:00.000Z"
           },
-          "temperature": "24.6",
+          "temperature": "24.89",
           "wind": {
-            "low": "14.83",
-            "high": "44.01",
+            "low": "16.95",
+            "high": "38.15",
             "current": null,
-            "average": "14.83",
-            "direction": "SW"
+            "average": "16.95",
+            "direction": "SSW"
           },
-          "humidity": "97.2",
+          "humidity": "98.7",
           "display_name": "Pine Marten",
           "elevation_ft": 7800
         },
@@ -4616,7 +4616,7 @@
   "hoodoo": {
     "weather": {
       "Temperature": "30 &#176F",
-      "Wind": "SW @ 9 MPH",
+      "Wind": "WSW @ 9 MPH",
       "Snow depth": "2.1\"",
       "Humidity": "100 %",
       "Barometer": "29.62\" Hg",
@@ -4626,11 +4626,11 @@
       "trend": {
         "Max": "2.7\"",
         "Min": "-0.7\"",
-        "1 Hr": "0.1\"",
-        "3 Hr": "0.0\"",
-        "6 Hr": "0.0\"",
+        "1 Hr": "0.0\"",
+        "3 Hr": "-0.1\"",
+        "6 Hr": "-0.1\"",
         "12 Hr": "-0.1\"",
-        "24 Hr": "0.5\""
+        "24 Hr": "0.3\""
       },
       "season_total_in": 6.5
     },
@@ -4672,8 +4672,8 @@
   "willamette_pass": {
     "forecast": {
       "weather_provider": "NOAA",
-      "date": "October 30, 2026, 9:10 am",
-      "time": 1793376620000,
+      "date": "October 30, 2026, 9:19 am",
+      "time": 1793377167000,
       "current_weather": "Partly Sunny",
       "current_temperature": "30",
       "forecast": [
@@ -4794,7 +4794,35 @@
     }
   },
   "gfs_snowfall": {
-    "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
+    "path": "gfs_snowfall_pnw.gif",
+    "legend_path": "gfs_snowfall_legend.png",
+    "cycle_run_at": "2026-10-30T12:00:00+00:00",
+    "forecast_hours": [
+      3,
+      6,
+      9,
+      12,
+      15,
+      18,
+      21,
+      24,
+      27,
+      30,
+      33,
+      36,
+      39,
+      42,
+      45,
+      48,
+      51,
+      54,
+      57,
+      60,
+      63,
+      66,
+      69,
+      72
+    ]
   },
   "avalanche": {
     "Central Cascades": {
