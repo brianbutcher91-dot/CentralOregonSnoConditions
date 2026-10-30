@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T12:00:53.420660+00:00",
+  "generated_at": "2026-10-30T12:15:19.881837+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -914,8 +914,8 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 7.0,
-        "wind_direction_deg": 112.5,
+        "wind_speed_mph": 6.0,
+        "wind_direction_deg": 90,
         "snow_level_ft": 4646,
         "temp_f": 31
       },
@@ -3087,12 +3087,12 @@
     "Hoodoo": {
       "elevation_ft": 4705,
       "temp_f": 31,
-      "wind_speed_mph": 7.0,
-      "wind_direction_deg": 112.5,
+      "wind_speed_mph": 6.0,
+      "wind_direction_deg": 90,
       "snow_level_ft": 4646,
       "precip_chance_today": 11,
-      "snowfall_12h_in": 0.1,
-      "snowfall_24h_in": null,
+      "snowfall_12h_in": -0.1,
+      "snowfall_24h_in": 0.5,
       "snowfall_48h_in": null
     },
     "Willamette Pass": {
@@ -3109,14 +3109,6 @@
   },
   "bachelor_timeseries": {
     "hourly": [
-      {
-        "time": "2026-10-29T05:00:00.000Z",
-        "temp_f": 22.24,
-        "wind_speed_mph": 17.15,
-        "wind_direction_deg": 214.5,
-        "precip_in": null,
-        "period": "historical"
-      },
       {
         "time": "2026-10-29T06:00:00.000Z",
         "temp_f": 21.83,
@@ -3302,12 +3294,12 @@
         "period": "historical"
       },
       {
-        "time": "2026-10-30T05:00:00+00:00",
-        "temp_f": 26.0,
-        "wind_speed_mph": 5.8,
-        "wind_direction_deg": 200,
-        "precip_in": 0.0,
-        "period": "forecast"
+        "time": "2026-10-30T05:00:00.000Z",
+        "temp_f": 25.56,
+        "wind_speed_mph": 4.386,
+        "wind_direction_deg": 358.0,
+        "precip_in": null,
+        "period": "historical"
       },
       {
         "time": "2026-10-30T06:00:00+00:00",
@@ -3936,10 +3928,6 @@
     ],
     "historical_precip_snapshots": [
       {
-        "time": "2026-10-27T12:15:19.303373+00:00",
-        "precip_in": 0
-      },
-      {
         "time": "2026-10-27T13:15:24.251543+00:00",
         "precip_in": 0
       },
@@ -4531,15 +4519,15 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-10-30T04:00:00.000Z"
+            "timestamp": "2026-10-30T05:00:00.000Z"
           },
-          "temperature": "25.48",
+          "temperature": "25.56",
           "wind": {
-            "low": "4.445",
-            "high": "14.54",
+            "low": "4.386",
+            "high": "14.99",
             "current": null,
-            "average": "4.445",
-            "direction": "NE"
+            "average": "4.386",
+            "direction": "N"
           },
           "humidity": null,
           "display_name": "Cloud Chaser",
@@ -4624,20 +4612,21 @@
   "hoodoo": {
     "weather": {
       "Temperature": "30 &#176F",
-      "Wind": "ESE @ 7 MPH",
-      "Snow depth": "2.1\"",
+      "Wind": "East @ 6 MPH",
+      "Snow depth": "2.0\"",
       "Humidity": "100 %",
-      "Barometer": "29.61\" Hg",
+      "Barometer": "29.60\" Hg",
       "Rain Gauge": "0.45\""
     },
     "snow_totals": {
       "trend": {
         "Max": "2.7\"",
-        "Min": "-1.8\"",
-        "1 Hr": "0.1\"",
-        "3 Hr": "0.1\"",
-        "6 Hr": "0.0\"",
-        "12 Hr": "0.1\""
+        "Min": "-0.7\"",
+        "1 Hr": "-0.3\"",
+        "3 Hr": "-0.2\"",
+        "6 Hr": "-0.2\"",
+        "12 Hr": "-0.1\"",
+        "24 Hr": "0.5\""
       },
       "season_total_in": 6.5
     },
@@ -4679,8 +4668,8 @@
   "willamette_pass": {
     "forecast": {
       "weather_provider": "NOAA",
-      "date": "October 30, 2026, 4:34 am",
-      "time": 1793360063000,
+      "date": "October 30, 2026, 5:13 am",
+      "time": 1793362410000,
       "current_weather": "Mostly Cloudy",
       "current_temperature": "31",
       "forecast": [
