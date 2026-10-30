@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T22:00:56.769175+00:00",
+  "generated_at": "2026-10-30T22:15:20.188728+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -23,7 +23,7 @@
           "shortForecast": "Widespread Frost",
           "detailedForecast": "Widespread frost after 5pm. Partly sunny. High near 32, with temperatures falling to around 30 in the afternoon. Southwest wind around 6 mph.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 5380
+          "snowLevelFt": 5302
         },
         {
           "number": 2,
@@ -44,7 +44,7 @@
           "shortForecast": "Widespread Frost",
           "detailedForecast": "Widespread frost before 5am. Mostly cloudy, with a low around 23. Southwest wind 2 to 6 mph.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 5170
+          "snowLevelFt": 5118
         },
         {
           "number": 3,
@@ -300,10 +300,10 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 7,
+        "wind_speed_mph": 6,
         "wind_direction_deg": 240,
-        "snow_level_ft": 5380,
-        "temp_f": 32
+        "snow_level_ft": 5302,
+        "temp_f": 31
       },
       "lat": 43.9792,
       "lon": -121.6886
@@ -914,8 +914,8 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 9.0,
-        "wind_direction_deg": 270,
+        "wind_speed_mph": 11.0,
+        "wind_direction_deg": 225,
         "snow_level_ft": 4882,
         "temp_f": 36
       },
@@ -1235,7 +1235,7 @@
         {
           "number": 1,
           "name": "This Afternoon",
-          "startTime": "2026-10-30T12:00:00-07:00",
+          "startTime": "2026-10-30T13:00:00-07:00",
           "endTime": "2026-10-30T18:00:00-07:00",
           "isDaytime": true,
           "temperature": 39,
@@ -1251,7 +1251,7 @@
           "shortForecast": "Partly Sunny",
           "detailedForecast": "Partly sunny. High near 39, with temperatures falling to around 37 in the afternoon. West southwest wind around 9 mph.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 5171
+          "snowLevelFt": 5223
         },
         {
           "number": 2,
@@ -2193,7 +2193,7 @@
           "shortForecast": "Widespread Frost then Patchy Fog",
           "detailedForecast": "Widespread frost between 8pm and 5am, then patchy fog. Mostly cloudy, with a low around 30. West wind around 1 mph.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 5302
+          "snowLevelFt": 5275
         },
         {
           "number": 3,
@@ -2450,9 +2450,9 @@
       ],
       "current": {
         "wind_speed_mph": 5,
-        "wind_direction_deg": 230,
+        "wind_direction_deg": 240,
         "snow_level_ft": 5459,
-        "temp_f": 50
+        "temp_f": 49
       },
       "lat": 44.0582,
       "lon": -121.3153
@@ -2479,7 +2479,7 @@
           "shortForecast": "Mostly Sunny",
           "detailedForecast": "Mostly sunny, with a high near 49. Northwest wind around 2 mph.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 5223
+          "snowLevelFt": 5170
         },
         {
           "number": 2,
@@ -2500,7 +2500,7 @@
           "shortForecast": "Widespread Frost",
           "detailedForecast": "Widespread frost between 8pm and 2am, then widespread frost and patchy fog. Partly cloudy, with a low around 24. Northwest wind around 1 mph.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 5092
+          "snowLevelFt": 4987
         },
         {
           "number": 3,
@@ -2757,8 +2757,8 @@
       ],
       "current": {
         "wind_speed_mph": 2,
-        "wind_direction_deg": 320,
-        "snow_level_ft": 5223,
+        "wind_direction_deg": 300,
+        "snow_level_ft": 5170,
         "temp_f": 49
       },
       "lat": 44.2909,
@@ -3075,10 +3075,10 @@
   "wind_roses": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
-      "temp_f": 32,
-      "wind_speed_mph": 7,
+      "temp_f": 31,
+      "wind_speed_mph": 6,
       "wind_direction_deg": 240,
-      "snow_level_ft": 5380,
+      "snow_level_ft": 5302,
       "precip_chance_today": 1,
       "snowfall_12h_in": null,
       "snowfall_24h_in": 0,
@@ -3087,12 +3087,12 @@
     "Hoodoo": {
       "elevation_ft": 4705,
       "temp_f": 36,
-      "wind_speed_mph": 9.0,
-      "wind_direction_deg": 270,
+      "wind_speed_mph": 11.0,
+      "wind_direction_deg": 225,
       "snow_level_ft": 4882,
       "precip_chance_today": 15,
-      "snowfall_12h_in": -0.1,
-      "snowfall_24h_in": 0.3,
+      "snowfall_12h_in": 0.1,
+      "snowfall_24h_in": 0.5,
       "snowfall_48h_in": null
     },
     "Willamette Pass": {
@@ -3303,22 +3303,46 @@
       },
       {
         "time": "2026-10-30T15:00:00+00:00",
-        "temp_f": 26.0,
-        "wind_speed_mph": 6.9,
-        "wind_direction_deg": 230,
-        "precip_in": 0.0,
-        "period": "forecast"
-      },
-      {
-        "time": "2026-10-30T16:00:00+00:00",
-        "temp_f": 26.0,
-        "wind_speed_mph": 6.9,
+        "temp_f": 27.0,
+        "wind_speed_mph": 10.4,
         "wind_direction_deg": 240,
         "precip_in": 0.0,
         "period": "forecast"
       },
       {
+        "time": "2026-10-30T16:00:00+00:00",
+        "temp_f": 29.0,
+        "wind_speed_mph": 9.2,
+        "wind_direction_deg": 250,
+        "precip_in": 0.0,
+        "period": "forecast"
+      },
+      {
         "time": "2026-10-30T17:00:00+00:00",
+        "temp_f": 27.0,
+        "wind_speed_mph": 10.4,
+        "wind_direction_deg": 240,
+        "precip_in": 0.0,
+        "period": "forecast"
+      },
+      {
+        "time": "2026-10-30T18:00:00+00:00",
+        "temp_f": 27.0,
+        "wind_speed_mph": 8.1,
+        "wind_direction_deg": 240,
+        "precip_in": 0.0,
+        "period": "forecast"
+      },
+      {
+        "time": "2026-10-30T19:00:00+00:00",
+        "temp_f": 29.0,
+        "wind_speed_mph": 9.2,
+        "wind_direction_deg": 240,
+        "precip_in": 0.0,
+        "period": "forecast"
+      },
+      {
+        "time": "2026-10-30T20:00:00+00:00",
         "temp_f": 30.0,
         "wind_speed_mph": 9.2,
         "wind_direction_deg": 230,
@@ -3326,32 +3350,8 @@
         "period": "forecast"
       },
       {
-        "time": "2026-10-30T18:00:00+00:00",
-        "temp_f": 31.0,
-        "wind_speed_mph": 9.2,
-        "wind_direction_deg": 230,
-        "precip_in": 0.0,
-        "period": "forecast"
-      },
-      {
-        "time": "2026-10-30T19:00:00+00:00",
-        "temp_f": 32.0,
-        "wind_speed_mph": 8.1,
-        "wind_direction_deg": 240,
-        "precip_in": 0.0,
-        "period": "forecast"
-      },
-      {
-        "time": "2026-10-30T20:00:00+00:00",
-        "temp_f": 32.0,
-        "wind_speed_mph": 8.1,
-        "wind_direction_deg": 240,
-        "precip_in": 0.0,
-        "period": "forecast"
-      },
-      {
         "time": "2026-10-30T21:00:00+00:00",
-        "temp_f": 32.0,
+        "temp_f": 31.0,
         "wind_speed_mph": 8.1,
         "wind_direction_deg": 240,
         "precip_in": 0.0,
@@ -3359,31 +3359,31 @@
       },
       {
         "time": "2026-10-30T22:00:00+00:00",
-        "temp_f": 32.0,
-        "wind_speed_mph": 6.9,
-        "wind_direction_deg": 240,
-        "precip_in": 0.0,
-        "period": "forecast"
-      },
-      {
-        "time": "2026-10-30T23:00:00+00:00",
-        "temp_f": 32.0,
+        "temp_f": 31.0,
         "wind_speed_mph": 5.8,
         "wind_direction_deg": 240,
         "precip_in": 0.0,
         "period": "forecast"
       },
       {
-        "time": "2026-10-31T00:00:00+00:00",
-        "temp_f": 32.0,
+        "time": "2026-10-30T23:00:00+00:00",
+        "temp_f": 31.0,
         "wind_speed_mph": 4.6,
+        "wind_direction_deg": 250,
+        "precip_in": 0.0,
+        "period": "forecast"
+      },
+      {
+        "time": "2026-10-31T00:00:00+00:00",
+        "temp_f": 30.0,
+        "wind_speed_mph": 3.5,
         "wind_direction_deg": 240,
         "precip_in": 0.0,
         "period": "forecast"
       },
       {
         "time": "2026-10-31T01:00:00+00:00",
-        "temp_f": 31.0,
+        "temp_f": 26.0,
         "wind_speed_mph": 3.5,
         "wind_direction_deg": 250,
         "precip_in": 0.0,
@@ -3391,7 +3391,7 @@
       },
       {
         "time": "2026-10-31T02:00:00+00:00",
-        "temp_f": 29.0,
+        "temp_f": 25.0,
         "wind_speed_mph": 2.3,
         "wind_direction_deg": 250,
         "precip_in": 0.0,
@@ -3399,7 +3399,7 @@
       },
       {
         "time": "2026-10-31T03:00:00+00:00",
-        "temp_f": 27.0,
+        "temp_f": 24.0,
         "wind_speed_mph": 2.3,
         "wind_direction_deg": 230,
         "precip_in": 0.0,
@@ -3407,15 +3407,15 @@
       },
       {
         "time": "2026-10-31T04:00:00+00:00",
-        "temp_f": 26.0,
+        "temp_f": 23.0,
         "wind_speed_mph": 2.3,
-        "wind_direction_deg": 240,
+        "wind_direction_deg": 230,
         "precip_in": 0.0,
         "period": "forecast"
       },
       {
         "time": "2026-10-31T05:00:00+00:00",
-        "temp_f": 28.0,
+        "temp_f": 23.0,
         "wind_speed_mph": 2.3,
         "wind_direction_deg": 230,
         "precip_in": 0.0,
@@ -3423,9 +3423,9 @@
       },
       {
         "time": "2026-10-31T06:00:00+00:00",
-        "temp_f": 27.0,
+        "temp_f": 24.0,
         "wind_speed_mph": 4.6,
-        "wind_direction_deg": 210,
+        "wind_direction_deg": 220,
         "precip_in": 0.0,
         "period": "forecast"
       },
@@ -3433,7 +3433,7 @@
         "time": "2026-10-31T07:00:00+00:00",
         "temp_f": 23.0,
         "wind_speed_mph": 4.6,
-        "wind_direction_deg": 220,
+        "wind_direction_deg": 210,
         "precip_in": 0.0,
         "period": "forecast"
       },
@@ -3441,20 +3441,12 @@
         "time": "2026-10-31T08:00:00+00:00",
         "temp_f": 23.0,
         "wind_speed_mph": 4.6,
-        "wind_direction_deg": 220,
+        "wind_direction_deg": 200,
         "precip_in": 0.0,
         "period": "forecast"
       },
       {
         "time": "2026-10-31T09:00:00+00:00",
-        "temp_f": 23.0,
-        "wind_speed_mph": 4.6,
-        "wind_direction_deg": 210,
-        "precip_in": 0.0,
-        "period": "forecast"
-      },
-      {
-        "time": "2026-10-31T10:00:00+00:00",
         "temp_f": 23.0,
         "wind_speed_mph": 5.8,
         "wind_direction_deg": 200,
@@ -3462,10 +3454,18 @@
         "period": "forecast"
       },
       {
-        "time": "2026-10-31T11:00:00+00:00",
-        "temp_f": 24.0,
+        "time": "2026-10-31T10:00:00+00:00",
+        "temp_f": 23.0,
         "wind_speed_mph": 5.8,
         "wind_direction_deg": 190,
+        "precip_in": 0.0,
+        "period": "forecast"
+      },
+      {
+        "time": "2026-10-31T11:00:00+00:00",
+        "temp_f": 23.0,
+        "wind_speed_mph": 5.8,
+        "wind_direction_deg": 180,
         "precip_in": 0.0,
         "period": "forecast"
       },
@@ -3487,7 +3487,7 @@
       },
       {
         "time": "2026-10-31T14:00:00+00:00",
-        "temp_f": 25.0,
+        "temp_f": 23.0,
         "wind_speed_mph": 6.9,
         "wind_direction_deg": 180,
         "precip_in": 0.0,
@@ -4345,8 +4345,8 @@
           "day": "Friday",
           "temperature_high": 40,
           "temperature_low": 21,
-          "precipitation_high": 68,
-          "precipitation_low": 68,
+          "precipitation_high": 63,
+          "precipitation_low": 63,
           "wind_speed": 8,
           "wind_direction": "SW"
         },
@@ -4624,21 +4624,21 @@
   "hoodoo": {
     "weather": {
       "Temperature": "32 &#176F",
-      "Wind": "West @ 9 MPH",
-      "Snow depth": "2.1\"",
+      "Wind": "SW @ 11 MPH",
+      "Snow depth": "2.3\"",
       "Humidity": "100 %",
       "Barometer": "29.65\" Hg",
-      "Rain Gauge": "0.37\""
+      "Rain Gauge": "0.30\""
     },
     "snow_totals": {
       "trend": {
         "Max": "2.6\"",
         "Min": "-0.7\"",
-        "1 Hr": "0.2\"",
-        "3 Hr": "0.6\"",
-        "6 Hr": "0.0\"",
-        "12 Hr": "-0.1\"",
-        "24 Hr": "0.3\""
+        "1 Hr": "0.6\"",
+        "3 Hr": "0.8\"",
+        "6 Hr": "0.1\"",
+        "12 Hr": "0.1\"",
+        "24 Hr": "0.5\""
       },
       "season_total_in": 6.5
     },
@@ -4680,8 +4680,8 @@
   "willamette_pass": {
     "forecast": {
       "weather_provider": "NOAA",
-      "date": "October 30, 2026, 2:43 pm",
-      "time": 1793396603000,
+      "date": "October 30, 2026, 2:55 pm",
+      "time": 1793397319000,
       "current_weather": "Partly Sunny",
       "current_temperature": "50",
       "forecast": [
@@ -4804,7 +4804,7 @@
   "gfs_snowfall": {
     "path": "gfs_snowfall_pnw.gif",
     "legend_path": "gfs_snowfall_legend.png",
-    "cycle_run_at": "2026-10-30T12:00:00+00:00",
+    "cycle_run_at": "2026-10-30T18:00:00+00:00",
     "forecast_hours": [
       3,
       6,
