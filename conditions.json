@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T07:00:19.201682+00:00",
+  "generated_at": "2026-10-30T07:15:14.598724+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -914,8 +914,8 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 23.0,
-        "wind_direction_deg": 90,
+        "wind_speed_mph": 17.0,
+        "wind_direction_deg": 112.5,
         "snow_level_ft": 4804,
         "temp_f": 31
       },
@@ -3087,12 +3087,12 @@
     "Hoodoo": {
       "elevation_ft": 4705,
       "temp_f": 31,
-      "wind_speed_mph": 23.0,
-      "wind_direction_deg": 90,
+      "wind_speed_mph": 17.0,
+      "wind_direction_deg": 112.5,
       "snow_level_ft": 4804,
       "precip_chance_today": 25,
-      "snowfall_12h_in": 0.3,
-      "snowfall_24h_in": null,
+      "snowfall_12h_in": 0.6,
+      "snowfall_24h_in": 0.4,
       "snowfall_48h_in": null
     },
     "Willamette Pass": {
@@ -4336,21 +4336,6 @@
       },
       "forecast": [
         {
-          "date": "2026-10-29",
-          "description_long": "overcast clouds",
-          "description_short": "overcast clouds",
-          "details": "Clouds",
-          "weather_icon": "dor-mostlycloudy",
-          "id": 1793300400,
-          "day": "Thursday",
-          "temperature_high": 35,
-          "temperature_low": 21,
-          "precipitation_high": 61,
-          "precipitation_low": 61,
-          "wind_speed": 6,
-          "wind_direction": "WSW"
-        },
-        {
           "date": "2026-10-30",
           "description_long": "light snow",
           "description_short": "light snow",
@@ -4454,6 +4439,21 @@
           "precipitation_low": 77,
           "wind_speed": 5,
           "wind_direction": "SW"
+        },
+        {
+          "date": "2026-11-06",
+          "description_long": "few clouds",
+          "description_short": "few clouds",
+          "details": "Clouds",
+          "weather_icon": "dor-mostlysunny",
+          "id": 1793991600,
+          "day": "Friday",
+          "temperature_high": 43,
+          "temperature_low": 21,
+          "precipitation_high": 56,
+          "precipitation_low": 56,
+          "wind_speed": 5,
+          "wind_direction": "WNW"
         }
       ],
       "sensors": {
@@ -4623,9 +4623,9 @@
   },
   "hoodoo": {
     "weather": {
-      "Temperature": "31 &#176F",
-      "Wind": "East @ 23 MPH",
-      "Snow depth": "2.1\"",
+      "Temperature": "30 &#176F",
+      "Wind": "ESE @ 17 MPH",
+      "Snow depth": "2.3\"",
       "Humidity": "100 %",
       "Barometer": "29.65\" Hg",
       "Rain Gauge": "0.45\""
@@ -4634,10 +4634,11 @@
       "trend": {
         "Max": "2.7\"",
         "Min": "-2.3\"",
-        "1 Hr": "-0.1\"",
-        "3 Hr": "-0.1\"",
-        "6 Hr": "-0.1\"",
-        "12 Hr": "0.3\""
+        "1 Hr": "0.1\"",
+        "3 Hr": "0.0\"",
+        "6 Hr": "0.1\"",
+        "12 Hr": "0.6\"",
+        "24 Hr": "0.4\""
       },
       "season_total_in": 6.5
     },
@@ -4679,8 +4680,8 @@
   "willamette_pass": {
     "forecast": {
       "weather_provider": "NOAA",
-      "date": "October 29, 2026, 11:43 pm",
-      "time": 1793342601000,
+      "date": "October 29, 2026, 11:55 pm",
+      "time": 1793343318000,
       "current_weather": "Mostly Cloudy",
       "current_temperature": "33",
       "forecast": [
@@ -4792,15 +4793,15 @@
   "satellite": {
     "Pacific Northwest": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/pnw/13/GOES18-PNW-13-600x600.gif",
-      "last_modified": "Fri, 30 Oct 2026 06:41:13 GMT"
+      "last_modified": "Fri, 30 Oct 2026 07:11:35 GMT"
     },
     "North Pacific (macro)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/np/13/GOES18-NP-13-900x540.gif",
-      "last_modified": "Fri, 30 Oct 2026 06:41:22 GMT"
+      "last_modified": "Fri, 30 Oct 2026 07:11:45 GMT"
     },
     "Pacific US (PACUS)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/13/GOES18-CONUS-13-625x375.gif",
-      "last_modified": "Fri, 30 Oct 2026 06:35:38 GMT"
+      "last_modified": "Fri, 30 Oct 2026 07:05:51 GMT"
     }
   },
   "gfs_snowfall": {
