@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T05:00:20.971791+00:00",
+  "generated_at": "2026-10-31T05:17:35.061619+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -314,7 +314,7 @@
         {
           "number": 1,
           "name": "Tonight",
-          "startTime": "2026-10-30T18:00:00-07:00",
+          "startTime": "2026-10-30T19:00:00-07:00",
           "endTime": "2026-10-31T06:00:00-07:00",
           "isDaytime": false,
           "temperature": 27,
@@ -621,7 +621,7 @@
         {
           "number": 1,
           "name": "Tonight",
-          "startTime": "2026-10-30T21:00:00-07:00",
+          "startTime": "2026-10-30T22:00:00-07:00",
           "endTime": "2026-10-31T06:00:00-07:00",
           "isDaytime": false,
           "temperature": 25,
@@ -631,13 +631,13 @@
             "unitCode": "wmoUnit:percent",
             "value": 1
           },
-          "windSpeed": "0 to 6 mph",
+          "windSpeed": "1 to 6 mph",
           "windDirection": "ESE",
           "icon": "https://api.weather.gov/icons/land/night/sct?size=medium",
           "shortForecast": "Partly Cloudy",
-          "detailedForecast": "Partly cloudy. Low around 25, with temperatures rising to around 27 overnight. East southeast wind 0 to 6 mph.",
+          "detailedForecast": "Partly cloudy. Low around 25, with temperatures rising to around 27 overnight. East southeast wind 1 to 6 mph.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 4488
+          "snowLevelFt": 4409
         },
         {
           "number": 2,
@@ -914,8 +914,8 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 14.0,
-        "wind_direction_deg": 202.5,
+        "wind_speed_mph": 1,
+        "wind_direction_deg": 180,
         "snow_level_ft": 4409,
         "temp_f": 28
       },
@@ -1542,7 +1542,7 @@
         {
           "number": 1,
           "name": "Tonight",
-          "startTime": "2026-10-30T21:00:00-07:00",
+          "startTime": "2026-10-30T22:00:00-07:00",
           "endTime": "2026-10-31T06:00:00-07:00",
           "isDaytime": false,
           "temperature": 28,
@@ -1550,15 +1550,15 @@
           "temperatureTrend": null,
           "probabilityOfPrecipitation": {
             "unitCode": "wmoUnit:percent",
-            "value": 2
+            "value": 0
           },
-          "windSpeed": "3 to 9 mph",
+          "windSpeed": "5 to 9 mph",
           "windDirection": "SE",
           "icon": "https://api.weather.gov/icons/land/night/few?size=medium",
           "shortForecast": "Mostly Clear",
-          "detailedForecast": "Mostly clear, with a low around 28. Southeast wind 3 to 9 mph.",
+          "detailedForecast": "Mostly clear, with a low around 28. Southeast wind 5 to 9 mph.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 4435
+          "snowLevelFt": 4383
         },
         {
           "number": 2,
@@ -2770,7 +2770,7 @@
         {
           "number": 1,
           "name": "Tonight",
-          "startTime": "2026-10-30T19:00:00-07:00",
+          "startTime": "2026-10-30T18:00:00-07:00",
           "endTime": "2026-10-31T06:00:00-07:00",
           "isDaytime": false,
           "temperature": 19,
@@ -2780,11 +2780,11 @@
             "unitCode": "wmoUnit:percent",
             "value": 1
           },
-          "windSpeed": "1 mph",
-          "windDirection": "N",
+          "windSpeed": "2 mph",
+          "windDirection": "NW",
           "icon": "https://api.weather.gov/icons/land/night/fog?size=medium",
           "shortForecast": "Widespread Frost",
-          "detailedForecast": "Widespread frost between 8pm and 11pm, then widespread frost and patchy fog. Mostly cloudy, with a low around 19. North wind around 1 mph.",
+          "detailedForecast": "Widespread frost between 8pm and 11pm, then widespread frost and patchy fog. Mostly cloudy, with a low around 19. Northwest wind around 2 mph.",
           "precipitationAmountIn": 0.0,
           "snowLevelFt": 5380
         },
@@ -3087,12 +3087,12 @@
     "Hoodoo": {
       "elevation_ft": 4705,
       "temp_f": 28,
-      "wind_speed_mph": 14.0,
-      "wind_direction_deg": 202.5,
+      "wind_speed_mph": 1,
+      "wind_direction_deg": 180,
       "snow_level_ft": 4409,
       "precip_chance_today": 1,
-      "snowfall_12h_in": 0.1,
-      "snowfall_24h_in": -0.5,
+      "snowfall_12h_in": null,
+      "snowfall_24h_in": null,
       "snowfall_48h_in": null
     },
     "Willamette Pass": {
@@ -3109,14 +3109,6 @@
   },
   "bachelor_timeseries": {
     "hourly": [
-      {
-        "time": "2026-10-29T22:00:00.000Z",
-        "temp_f": 26.89,
-        "wind_speed_mph": 7.14,
-        "wind_direction_deg": 119.3,
-        "precip_in": null,
-        "period": "historical"
-      },
       {
         "time": "2026-10-29T23:00:00.000Z",
         "temp_f": 26.36,
@@ -3302,12 +3294,12 @@
         "period": "historical"
       },
       {
-        "time": "2026-10-30T22:00:00+00:00",
-        "temp_f": 31.0,
-        "wind_speed_mph": 5.8,
-        "wind_direction_deg": 240,
-        "precip_in": 0.0,
-        "period": "forecast"
+        "time": "2026-10-30T22:00:00.000Z",
+        "temp_f": 23.88,
+        "wind_speed_mph": 4.994,
+        "wind_direction_deg": 164.6,
+        "precip_in": null,
+        "period": "historical"
       },
       {
         "time": "2026-10-30T23:00:00+00:00",
@@ -3935,10 +3927,6 @@
       }
     ],
     "historical_precip_snapshots": [
-      {
-        "time": "2026-10-28T05:00:36.246409+00:00",
-        "precip_in": 3
-      },
       {
         "time": "2026-10-28T06:00:47.872894+00:00",
         "precip_in": 3
@@ -4622,66 +4610,13 @@
     }
   },
   "hoodoo": {
-    "weather": {
-      "Temperature": "31 &#176F",
-      "Wind": "SSW @ 14 MPH",
-      "Snow depth": "1.9\"",
-      "Humidity": "98 %",
-      "Barometer": "29.70\" Hg",
-      "Rain Gauge": "0.21\""
-    },
-    "snow_totals": {
-      "trend": {
-        "Max": "2.6\"",
-        "Min": "-0.7\"",
-        "1 Hr": "-0.4\"",
-        "3 Hr": "-0.2\"",
-        "6 Hr": "-0.2\"",
-        "12 Hr": "0.1\"",
-        "24 Hr": "-0.5\""
-      },
-      "season_total_in": 6.5
-    },
-    "webcams": {
-      "Base Area": {
-        "src": "https://santiampsp.org/wx/weather16.jpg",
-        "link": "https://hoodoo.com/the-mountain/webcams/"
-      },
-      "Top of Manzanita": {
-        "src": "https://santiampsp.org/wx/weather3.jpg",
-        "link": "https://hoodoo.com/the-mountain/webcams/"
-      },
-      "Top of Ed": {
-        "src": "https://santiampsp.org/wx/weather2.jpg",
-        "link": "https://hoodoo.com/the-mountain/webcams/"
-      },
-      "Top of Easy Rider": {
-        "src": "https://santiampsp.org/wx/weather4.jpg",
-        "link": "https://hoodoo.com/the-mountain/webcams/"
-      },
-      "Hoodoo Parking Lot": {
-        "src": "https://santiampsp.org/wx/weather12.jpg",
-        "link": "https://hoodoo.com/the-mountain/webcams/"
-      },
-      "Hoodoo Summit": {
-        "src": "https://santiampsp.org/wx/weather1.jpg",
-        "link": "https://hoodoo.com/the-mountain/webcams/"
-      },
-      "Hayrick Butte & \"Gripper\" run from top of Ed chair": {
-        "src": "https://santiampsp.org/wx/weather2b.jpg",
-        "link": "https://hoodoo.com/the-mountain/webcams/"
-      },
-      "Hoodoo Parking Lot View #2": {
-        "src": "https://santiampsp.org/wx/weather10.jpg",
-        "link": "https://hoodoo.com/the-mountain/webcams/"
-      }
-    }
+    "error": "HTTPSConnectionPool(host='santiampsp.org', port=443): Max retries exceeded with url: /wx/weather.htm (Caused by ConnectTimeoutError(<HTTPSConnection(host='santiampsp.org', port=443) at 0x71b7bf6c03e0>, 'Connection to santiampsp.org timed out. (connect timeout=None)'))"
   },
   "willamette_pass": {
     "forecast": {
       "weather_provider": "NOAA",
-      "date": "October 30, 2026, 9:40 pm",
-      "time": 1793421620000,
+      "date": "October 30, 2026, 9:55 pm",
+      "time": 1793422519000,
       "current_weather": "Partly Cloudy",
       "current_temperature": "32",
       "forecast": [
@@ -4765,43 +4700,28 @@
       "Lifts Open": "0/6",
       "Trails Open": "0/30"
     },
-    "webcams": {
-      "Base Area": {
-        "src": "https://www.youtube.com/embed/sNVA6oC7vcM",
-        "link": "https://www.willamettepass.ski/weather-conditions-webcams/webcams/"
-      },
-      "EPA": {
-        "src": "https://www.youtube.com/embed/uav7cBNVv0k",
-        "link": "https://www.willamettepass.ski/weather-conditions-webcams/webcams/"
-      }
-    }
+    "webcams": {}
   },
   "snow_stake_cams": {
     "Mt. Bachelor (Snow Stake)": {
       "src": "https://api.mtbachelor.com/api/v1/cams/mtn/14",
       "link": "https://www.mtbachelor.com/the-mountain/webcams/live-cam-14/"
     },
-    "Hoodoo (Base Area)": {
-      "src": "https://santiampsp.org/wx/weather16.jpg",
-      "link": "https://hoodoo.com/the-mountain/webcams/"
-    },
-    "Willamette Pass (Base Area)": {
-      "src": "https://www.youtube.com/embed/sNVA6oC7vcM",
-      "link": "https://www.willamettepass.ski/weather-conditions-webcams/webcams/"
-    }
+    "Hoodoo (Base Area)": null,
+    "Willamette Pass (Base Area)": null
   },
   "satellite": {
     "Pacific Northwest": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/pnw/13/GOES18-PNW-13-600x600.gif",
-      "last_modified": "Sat, 31 Oct 2026 04:31:10 GMT"
+      "last_modified": "Sat, 31 Oct 2026 05:01:46 GMT"
     },
     "North Pacific (macro)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/np/13/GOES18-NP-13-900x540.gif",
-      "last_modified": "Sat, 31 Oct 2026 04:31:24 GMT"
+      "last_modified": "Sat, 31 Oct 2026 05:02:08 GMT"
     },
     "Pacific US (PACUS)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/13/GOES18-CONUS-13-625x375.gif",
-      "last_modified": "Sat, 31 Oct 2026 04:30:55 GMT"
+      "last_modified": "Sat, 31 Oct 2026 05:01:24 GMT"
     }
   },
   "gfs_snowfall": {
