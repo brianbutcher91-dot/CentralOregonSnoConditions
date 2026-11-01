@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T13:15:17.738824+00:00",
+  "generated_at": "2026-11-01T13:30:21.312997+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -1235,7 +1235,7 @@
         {
           "number": 1,
           "name": "Overnight",
-          "startTime": "2026-11-01T05:00:00-08:00",
+          "startTime": "2026-11-01T04:00:00-08:00",
           "endTime": "2026-11-01T06:00:00-08:00",
           "isDaytime": false,
           "temperature": 29,
@@ -1243,7 +1243,7 @@
           "temperatureTrend": null,
           "probabilityOfPrecipitation": {
             "unitCode": "wmoUnit:percent",
-            "value": 2
+            "value": 4
           },
           "windSpeed": "2 mph",
           "windDirection": "NNE",
@@ -1251,7 +1251,7 @@
           "shortForecast": "Patchy Fog",
           "detailedForecast": "Patchy fog. Mostly cloudy, with a low around 29. North northeast wind around 2 mph.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 4856
+          "snowLevelFt": 4882
         },
         {
           "number": 2,
@@ -2156,7 +2156,7 @@
         {
           "number": 1,
           "name": "Overnight",
-          "startTime": "2026-11-01T04:00:00-08:00",
+          "startTime": "2026-11-01T05:00:00-08:00",
           "endTime": "2026-11-01T06:00:00-08:00",
           "isDaytime": false,
           "temperature": 32,
@@ -3091,8 +3091,8 @@
       "wind_direction_deg": 70,
       "snow_level_ft": 4935,
       "precip_chance_today": 3,
-      "snowfall_12h_in": -0.1,
-      "snowfall_24h_in": 0.0,
+      "snowfall_12h_in": 0.0,
+      "snowfall_24h_in": 0.3,
       "snowfall_48h_in": null
     },
     "Willamette Pass": {
@@ -3101,7 +3101,7 @@
       "wind_speed_mph": 2,
       "wind_direction_deg": 30,
       "snow_level_ft": 4856,
-      "precip_chance_today": 2,
+      "precip_chance_today": 4,
       "snowfall_12h_in": null,
       "snowfall_24h_in": 0.0,
       "snowfall_48h_in": 0.0
@@ -3928,10 +3928,6 @@
     ],
     "historical_precip_snapshots": [
       {
-        "time": "2026-10-29T13:30:20.176723+00:00",
-        "precip_in": 3
-      },
-      {
         "time": "2026-10-29T14:30:24.692664+00:00",
         "precip_in": 0
       },
@@ -4191,8 +4187,8 @@
       "snow_depth_in_date": "2026-10-31",
       "swe_in": 0.6,
       "swe_in_date": "2026-10-31",
-      "change_12h_in": 0,
-      "change_24h_in": 0
+      "change_12h_in": -1,
+      "change_24h_in": -1
     },
     "Three Creek / Tam McArthur (Three Creeks Meadow)": {
       "snow_depth_in": 0,
@@ -4335,12 +4331,12 @@
           "weather_icon": "dor-cloudy",
           "id": 1793559600,
           "day": "Sunday",
-          "temperature_high": 39,
+          "temperature_high": 36,
           "temperature_low": 20,
-          "precipitation_high": 73,
-          "precipitation_low": 73,
-          "wind_speed": 3,
-          "wind_direction": "NE"
+          "precipitation_high": 72,
+          "precipitation_low": 72,
+          "wind_speed": 2,
+          "wind_direction": "NNW"
         },
         {
           "date": "2026-11-02",
@@ -4350,12 +4346,12 @@
           "weather_icon": "dor-mostlycloudy",
           "id": 1793646000,
           "day": "Monday",
-          "temperature_high": 40,
-          "temperature_low": 19,
-          "precipitation_high": 60,
-          "precipitation_low": 60,
+          "temperature_high": 37,
+          "temperature_low": 21,
+          "precipitation_high": 56,
+          "precipitation_low": 56,
           "wind_speed": 5,
-          "wind_direction": "SE"
+          "wind_direction": "SSE"
         },
         {
           "date": "2026-11-03",
@@ -4456,10 +4452,10 @@
           "active": true,
           "primary": true,
           "nonstandardizedDataPoints": {
-            "depth": "145",
-            "timestamp": "2026-11-01T05:00:00.000Z"
+            "depth": "144.7",
+            "timestamp": "2026-11-01T06:00:00.000Z"
           },
-          "temperature": "24.32",
+          "temperature": "23.94",
           "wind": {
             "low": "0",
             "high": "0",
@@ -4501,17 +4497,17 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-11-01T05:00:00.000Z"
+            "timestamp": "2026-11-01T06:00:00.000Z"
           },
-          "temperature": "25.31",
+          "temperature": "25.34",
           "wind": {
-            "low": "0.296",
-            "high": "3.142",
+            "low": "0",
+            "high": "0.055",
             "current": null,
-            "average": "0.296",
-            "direction": "SW"
+            "average": "0",
+            "direction": "SSE"
           },
-          "humidity": "82.4",
+          "humidity": "86",
           "display_name": "Pine Marten",
           "elevation_ft": 7800
         },
@@ -4617,7 +4613,7 @@
     "weather": {
       "Temperature": "35 &#176F",
       "Wind": "ENE",
-      "Snow depth": "1.7\"",
+      "Snow depth": "1.9\"",
       "Humidity": "87 %",
       "Barometer": "29.72\" Hg",
       "Rain Gauge": "0.04\""
@@ -4626,11 +4622,10 @@
       "trend": {
         "Max": "2.6\"",
         "Min": "0.8\"",
-        "1 Hr": "-0.1\"",
-        "3 Hr": "0.1\"",
-        "6 Hr": "0.1\"",
-        "12 Hr": "-0.1\"",
-        "24 Hr": "0.0\""
+        "1 Hr": "0.0\"",
+        "6 Hr": "0.0\"",
+        "12 Hr": "0.0\"",
+        "24 Hr": "0.3\""
       },
       "season_total_in": 6.5
     },
@@ -4672,8 +4667,8 @@
   "willamette_pass": {
     "forecast": {
       "weather_provider": "NOAA",
-      "date": "November 1, 2026, 4:55 am",
-      "time": 1793537719000,
+      "date": "November 1, 2026, 5:10 am",
+      "time": 1793538618000,
       "current_weather": "Patchy Fog",
       "current_temperature": "31",
       "forecast": [
@@ -4714,11 +4709,6 @@
       "min_temp": "29",
       "hourly": [
         {
-          "time": "4a",
-          "temp": "29",
-          "details": ""
-        },
-        {
           "time": "5a",
           "temp": "29",
           "details": ""
@@ -4736,6 +4726,11 @@
         {
           "time": "12p",
           "temp": "40",
+          "details": ""
+        },
+        {
+          "time": "2p",
+          "temp": "41",
           "details": ""
         }
       ],
