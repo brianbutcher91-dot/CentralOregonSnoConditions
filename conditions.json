@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T21:15:18.521613+00:00",
+  "generated_at": "2026-11-01T21:30:23.677351+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -2155,8 +2155,8 @@
       "periods": [
         {
           "number": 1,
-          "name": "This Afternoon",
-          "startTime": "2026-11-01T13:00:00-08:00",
+          "name": "Today",
+          "startTime": "2026-11-01T11:00:00-08:00",
           "endTime": "2026-11-01T18:00:00-08:00",
           "isDaytime": true,
           "temperature": 49,
@@ -2168,11 +2168,11 @@
           },
           "windSpeed": "0 to 3 mph",
           "windDirection": "N",
-          "icon": "https://api.weather.gov/icons/land/day/skc?size=medium",
+          "icon": "https://api.weather.gov/icons/land/day/few?size=medium",
           "shortForecast": "Sunny",
           "detailedForecast": "Sunny. High near 49, with temperatures falling to around 46 in the afternoon. North wind 0 to 3 mph.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 5643
+          "snowLevelFt": 5355
         },
         {
           "number": 2,
@@ -2769,8 +2769,8 @@
       "periods": [
         {
           "number": 1,
-          "name": "Today",
-          "startTime": "2026-11-01T11:00:00-08:00",
+          "name": "This Afternoon",
+          "startTime": "2026-11-01T13:00:00-08:00",
           "endTime": "2026-11-01T18:00:00-08:00",
           "isDaytime": true,
           "temperature": 49,
@@ -2782,11 +2782,11 @@
           },
           "windSpeed": "2 mph",
           "windDirection": "N",
-          "icon": "https://api.weather.gov/icons/land/day/few?size=medium",
+          "icon": "https://api.weather.gov/icons/land/day/skc?size=medium",
           "shortForecast": "Sunny",
           "detailedForecast": "Sunny. High near 49, with temperatures falling to around 44 in the afternoon. North wind around 2 mph.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 5512
+          "snowLevelFt": 5958
         },
         {
           "number": 2,
@@ -3928,10 +3928,6 @@
     ],
     "historical_precip_snapshots": [
       {
-        "time": "2026-10-29T21:15:23.201608+00:00",
-        "precip_in": 1
-      },
-      {
         "time": "2026-10-29T22:15:24.636217+00:00",
         "precip_in": 1
       },
@@ -4323,7 +4319,7 @@
   "mtbachelor": {
     "weather": {
       "current": {
-        "temperature": 37,
+        "temperature": 39,
         "weather_icon": "dor-cloudy"
       },
       "forecast": [
@@ -4335,10 +4331,10 @@
           "weather_icon": "dor-cloudy",
           "id": 1793559600,
           "day": "Sunday",
-          "temperature_high": 41,
+          "temperature_high": 40,
           "temperature_low": 19,
-          "precipitation_high": 76,
-          "precipitation_low": 76,
+          "precipitation_high": 75,
+          "precipitation_low": 75,
           "wind_speed": 2,
           "wind_direction": "NNW"
         },
@@ -4457,9 +4453,9 @@
           "primary": true,
           "nonstandardizedDataPoints": {
             "depth": "144.9",
-            "timestamp": "2026-11-01T13:00:00.000Z"
+            "timestamp": "2026-11-01T14:00:00.000Z"
           },
-          "temperature": "36.83",
+          "temperature": "38.75",
           "wind": {
             "low": "0",
             "high": "0",
@@ -4501,17 +4497,17 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-11-01T13:00:00.000Z"
+            "timestamp": "2026-11-01T14:00:00.000Z"
           },
-          "temperature": "33.25",
+          "temperature": "34.1",
           "wind": {
-            "low": "0.06",
-            "high": "1.322",
+            "low": "0.068",
+            "high": "2.529",
             "current": null,
-            "average": "0.06",
-            "direction": "NE"
+            "average": "0.068",
+            "direction": "S"
           },
-          "humidity": "76.3",
+          "humidity": "73.18",
           "display_name": "Pine Marten",
           "elevation_ft": 7800
         },
@@ -4615,11 +4611,11 @@
   },
   "hoodoo": {
     "weather": {
-      "Temperature": "39 &#176F",
-      "Wind": "NNE",
+      "Temperature": "40 &#176F",
+      "Wind": "NE",
       "Snow depth": "1.5\"",
-      "Humidity": "80 %",
-      "Barometer": "29.84\" Hg",
+      "Humidity": "78 %",
+      "Barometer": "29.85\" Hg",
       "Rain Gauge": "0.02\""
     },
     "snow_totals": {
@@ -4667,15 +4663,15 @@
   "willamette_pass": {
     "forecast": {
       "weather_provider": "NOAA",
-      "date": "November 1, 2026, 12:55 pm",
-      "time": 1793566523000,
-      "current_weather": "Patchy Fog",
+      "date": "November 1, 2026, 1:28 pm",
+      "time": 1793568504000,
+      "current_weather": "Mostly Sunny",
       "current_temperature": "51",
       "forecast": [
         {
           "day": "Sunday",
-          "day_forecast": "Patchy fog after 5pm.  Otherwise, mostly sunny, with a high near 42. Light west northwest wind. ",
-          "night_forecast": "Patchy fog before 10pm.  Otherwise, mostly clear, with a low around 30. Calm wind becoming east southeast around 5 mph after midnight. "
+          "day_forecast": "Mostly sunny, with a high near 42. Light west northwest wind. ",
+          "night_forecast": "Mostly clear, with a low around 30. Calm wind becoming east southeast around 5 mph after midnight. "
         },
         {
           "day": "Monday",
@@ -4704,15 +4700,10 @@
         }
       ],
       "wind": "NA",
-      "icon": "2003-fog.svg",
+      "icon": "0100-sunny.svg",
       "max_temp": "42",
       "min_temp": "30",
       "hourly": [
-        {
-          "time": "12p",
-          "temp": "41",
-          "details": ""
-        },
         {
           "time": "2p",
           "temp": "42",
@@ -4730,6 +4721,11 @@
         },
         {
           "time": "8p",
+          "temp": "32",
+          "details": ""
+        },
+        {
+          "time": "10p",
           "temp": "32",
           "details": ""
         }
