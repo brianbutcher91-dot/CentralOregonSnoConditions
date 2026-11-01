@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T12:15:17.096149+00:00",
+  "generated_at": "2026-11-01T12:30:15.067284+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -7,7 +7,7 @@
         {
           "number": 1,
           "name": "Overnight",
-          "startTime": "2026-11-01T04:00:00-08:00",
+          "startTime": "2026-11-01T03:00:00-08:00",
           "endTime": "2026-11-01T06:00:00-08:00",
           "isDaytime": false,
           "temperature": 25,
@@ -15,15 +15,15 @@
           "temperatureTrend": null,
           "probabilityOfPrecipitation": {
             "unitCode": "wmoUnit:percent",
-            "value": 3
+            "value": 4
           },
           "windSpeed": "5 mph",
           "windDirection": "N",
-          "icon": "https://api.weather.gov/icons/land/night/sct?size=medium",
-          "shortForecast": "Partly Cloudy",
-          "detailedForecast": "Partly cloudy, with a low around 25. North wind around 5 mph.",
+          "icon": "https://api.weather.gov/icons/land/night/bkn?size=medium",
+          "shortForecast": "Mostly Cloudy",
+          "detailedForecast": "Mostly cloudy, with a low around 25. North wind around 5 mph.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 4935
+          "snowLevelFt": 5197
         },
         {
           "number": 2,
@@ -621,7 +621,7 @@
         {
           "number": 1,
           "name": "Overnight",
-          "startTime": "2026-11-01T03:00:00-08:00",
+          "startTime": "2026-11-01T04:00:00-08:00",
           "endTime": "2026-11-01T06:00:00-08:00",
           "isDaytime": false,
           "temperature": 29,
@@ -632,12 +632,12 @@
             "value": 3
           },
           "windSpeed": "1 mph",
-          "windDirection": "E",
+          "windDirection": "ENE",
           "icon": "https://api.weather.gov/icons/land/night/fog?size=medium",
           "shortForecast": "Patchy Fog",
-          "detailedForecast": "Patchy fog. Partly cloudy, with a low around 29. East wind around 1 mph.",
+          "detailedForecast": "Patchy fog. Partly cloudy, with a low around 29. East northeast wind around 1 mph.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 5066
+          "snowLevelFt": 5014
         },
         {
           "number": 2,
@@ -914,8 +914,8 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 3.0,
-        "wind_direction_deg": 0,
+        "wind_speed_mph": 1,
+        "wind_direction_deg": 80,
         "snow_level_ft": 5014,
         "temp_f": 30
       },
@@ -1235,7 +1235,7 @@
         {
           "number": 1,
           "name": "Overnight",
-          "startTime": "2026-11-01T03:00:00-08:00",
+          "startTime": "2026-11-01T04:00:00-08:00",
           "endTime": "2026-11-01T06:00:00-08:00",
           "isDaytime": false,
           "temperature": 29,
@@ -1246,12 +1246,12 @@
             "value": 4
           },
           "windSpeed": "2 mph",
-          "windDirection": "NE",
+          "windDirection": "NNE",
           "icon": "https://api.weather.gov/icons/land/night/fog?size=medium",
           "shortForecast": "Patchy Fog",
-          "detailedForecast": "Patchy fog. Mostly cloudy, with a low around 29. Northeast wind around 2 mph.",
+          "detailedForecast": "Patchy fog. Mostly cloudy, with a low around 29. North northeast wind around 2 mph.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 4934
+          "snowLevelFt": 4882
         },
         {
           "number": 2,
@@ -1542,7 +1542,7 @@
         {
           "number": 1,
           "name": "Overnight",
-          "startTime": "2026-11-01T03:00:00-08:00",
+          "startTime": "2026-11-01T04:00:00-08:00",
           "endTime": "2026-11-01T06:00:00-08:00",
           "isDaytime": false,
           "temperature": 31,
@@ -1553,12 +1553,12 @@
             "value": 3
           },
           "windSpeed": "3 mph",
-          "windDirection": "ENE",
+          "windDirection": "NE",
           "icon": "https://api.weather.gov/icons/land/night/sct?size=medium",
           "shortForecast": "Partly Cloudy",
-          "detailedForecast": "Partly cloudy, with a low around 31. East northeast wind around 3 mph.",
+          "detailedForecast": "Partly cloudy, with a low around 31. Northeast wind around 3 mph.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 5276
+          "snowLevelFt": 5197
         },
         {
           "number": 2,
@@ -3079,7 +3079,7 @@
       "wind_speed_mph": 5,
       "wind_direction_deg": 10,
       "snow_level_ft": 4935,
-      "precip_chance_today": 3,
+      "precip_chance_today": 4,
       "snowfall_12h_in": null,
       "snowfall_24h_in": 0,
       "snowfall_48h_in": 0
@@ -3087,12 +3087,12 @@
     "Hoodoo": {
       "elevation_ft": 4705,
       "temp_f": 30,
-      "wind_speed_mph": 3.0,
-      "wind_direction_deg": 0,
+      "wind_speed_mph": 1,
+      "wind_direction_deg": 80,
       "snow_level_ft": 5014,
       "precip_chance_today": 3,
-      "snowfall_12h_in": 0.2,
-      "snowfall_24h_in": 0.0,
+      "snowfall_12h_in": 0.1,
+      "snowfall_24h_in": 0.1,
       "snowfall_48h_in": null
     },
     "Willamette Pass": {
@@ -3928,10 +3928,6 @@
     ],
     "historical_precip_snapshots": [
       {
-        "time": "2026-10-29T12:15:27.455714+00:00",
-        "precip_in": 3
-      },
-      {
         "time": "2026-10-29T13:30:20.176723+00:00",
         "precip_in": 3
       },
@@ -4456,10 +4452,10 @@
           "active": true,
           "primary": true,
           "nonstandardizedDataPoints": {
-            "depth": "144.7",
-            "timestamp": "2026-11-01T04:00:00.000Z"
+            "depth": "145",
+            "timestamp": "2026-11-01T05:00:00.000Z"
           },
-          "temperature": "24.42",
+          "temperature": "24.32",
           "wind": {
             "low": "0",
             "high": "0",
@@ -4501,17 +4497,17 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-11-01T04:00:00.000Z"
+            "timestamp": "2026-11-01T05:00:00.000Z"
           },
-          "temperature": "26.03",
+          "temperature": "25.31",
           "wind": {
-            "low": "2.603",
-            "high": "10.05",
+            "low": "0.296",
+            "high": "3.142",
             "current": null,
-            "average": "2.603",
-            "direction": "SSW"
+            "average": "0.296",
+            "direction": "SW"
           },
-          "humidity": "84.1",
+          "humidity": "82.4",
           "display_name": "Pine Marten",
           "elevation_ft": 7800
         },
@@ -4615,10 +4611,10 @@
   },
   "hoodoo": {
     "weather": {
-      "Temperature": "34 &#176F",
-      "Wind": "North @ 3 MPH",
-      "Snow depth": "2.1\"",
-      "Humidity": "86 %",
+      "Temperature": "35 &#176F",
+      "Wind": "NNE",
+      "Snow depth": "2.0\"",
+      "Humidity": "82 %",
       "Barometer": "29.71\" Hg",
       "Rain Gauge": "0.04\""
     },
@@ -4626,11 +4622,11 @@
       "trend": {
         "Max": "2.6\"",
         "Min": "0.8\"",
-        "1 Hr": "0.4\"",
+        "1 Hr": "0.2\"",
         "3 Hr": "0.2\"",
         "6 Hr": "0.2\"",
-        "12 Hr": "0.2\"",
-        "24 Hr": "0.0\""
+        "12 Hr": "0.1\"",
+        "24 Hr": "0.1\""
       },
       "season_total_in": 6.5
     },
