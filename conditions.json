@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-01T20:15:22.613137+00:00",
+  "generated_at": "2026-11-01T20:30:26.345515+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
       "periods": [
         {
           "number": 1,
-          "name": "Today",
-          "startTime": "2026-11-01T11:00:00-08:00",
+          "name": "This Afternoon",
+          "startTime": "2026-11-01T12:00:00-08:00",
           "endTime": "2026-11-01T18:00:00-08:00",
           "isDaytime": true,
           "temperature": 36,
@@ -313,8 +313,8 @@
       "periods": [
         {
           "number": 1,
-          "name": "Today",
-          "startTime": "2026-11-01T11:00:00-08:00",
+          "name": "This Afternoon",
+          "startTime": "2026-11-01T12:00:00-08:00",
           "endTime": "2026-11-01T18:00:00-08:00",
           "isDaytime": true,
           "temperature": 37,
@@ -2462,8 +2462,8 @@
       "periods": [
         {
           "number": 1,
-          "name": "Today",
-          "startTime": "2026-11-01T11:00:00-08:00",
+          "name": "This Afternoon",
+          "startTime": "2026-11-01T12:00:00-08:00",
           "endTime": "2026-11-01T18:00:00-08:00",
           "isDaytime": true,
           "temperature": 51,
@@ -4178,6 +4178,10 @@
       {
         "time": "2026-11-01T19:30:19.735849+00:00",
         "precip_in": 2
+      },
+      {
+        "time": "2026-11-01T20:30:26.647543+00:00",
+        "precip_in": 2
       }
     ]
   },
@@ -4319,7 +4323,7 @@
   "mtbachelor": {
     "weather": {
       "current": {
-        "temperature": 35,
+        "temperature": 37,
         "weather_icon": "dor-cloudy"
       },
       "forecast": [
@@ -4331,7 +4335,7 @@
           "weather_icon": "dor-cloudy",
           "id": 1793559600,
           "day": "Sunday",
-          "temperature_high": 40,
+          "temperature_high": 41,
           "temperature_low": 19,
           "precipitation_high": 80,
           "precipitation_low": 80,
@@ -4452,10 +4456,10 @@
           "active": true,
           "primary": true,
           "nonstandardizedDataPoints": {
-            "depth": "144.8",
-            "timestamp": "2026-11-01T12:00:00.000Z"
+            "depth": "144.9",
+            "timestamp": "2026-11-01T13:00:00.000Z"
           },
-          "temperature": "34.87",
+          "temperature": "36.83",
           "wind": {
             "low": "0",
             "high": "0",
@@ -4497,17 +4501,17 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-11-01T12:00:00.000Z"
+            "timestamp": "2026-11-01T13:00:00.000Z"
           },
-          "temperature": "31.75",
+          "temperature": "33.25",
           "wind": {
-            "low": "0.043",
-            "high": "1.684",
+            "low": "0.06",
+            "high": "1.322",
             "current": null,
-            "average": "0.043",
-            "direction": "N"
+            "average": "0.06",
+            "direction": "NE"
           },
-          "humidity": "74.48",
+          "humidity": "76.3",
           "display_name": "Pine Marten",
           "elevation_ft": 7800
         },
@@ -4610,10 +4614,20 @@
     }
   },
   "hoodoo": {
-    "weather": {},
+    "weather": {
+      "Temperature": "38 &#176F",
+      "Wind": "NW",
+      "Snow depth": "1.5\"",
+      "Humidity": "84 %",
+      "Barometer": "29.83\" Hg",
+      "Rain Gauge": "0.02\""
+    },
     "snow_totals": {
-      "trend": {},
-      "season_total_in": null
+      "trend": {
+        "Max": "2.6\"",
+        "Min": "0.8\""
+      },
+      "season_total_in": 6.5
     },
     "webcams": {
       "Base Area": {
