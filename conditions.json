@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T11:15:26.994359+00:00",
+  "generated_at": "2026-11-01T11:30:21.309095+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -7,7 +7,7 @@
         {
           "number": 1,
           "name": "Overnight",
-          "startTime": "2026-11-01T03:00:00-08:00",
+          "startTime": "2026-11-01T02:00:00-08:00",
           "endTime": "2026-11-01T06:00:00-08:00",
           "isDaytime": false,
           "temperature": 25,
@@ -314,7 +314,7 @@
         {
           "number": 1,
           "name": "Overnight",
-          "startTime": "2026-11-01T03:00:00-08:00",
+          "startTime": "2026-11-01T02:00:00-08:00",
           "endTime": "2026-11-01T06:00:00-08:00",
           "isDaytime": false,
           "temperature": 27,
@@ -325,10 +325,10 @@
             "value": 4
           },
           "windSpeed": "2 mph",
-          "windDirection": "NW",
+          "windDirection": "W",
           "icon": "https://api.weather.gov/icons/land/night/fog?size=medium",
           "shortForecast": "Patchy Freezing Fog",
-          "detailedForecast": "Patchy freezing fog before 4am. Mostly cloudy, with a low around 27. Northwest wind around 2 mph.",
+          "detailedForecast": "Patchy freezing fog before 4am. Mostly cloudy, with a low around 27. West wind around 2 mph.",
           "precipitationAmountIn": 0.0,
           "snowLevelFt": 5144
         },
@@ -914,8 +914,8 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 3.0,
-        "wind_direction_deg": 112.5,
+        "wind_speed_mph": 1,
+        "wind_direction_deg": 90,
         "snow_level_ft": 5066,
         "temp_f": 29
       },
@@ -928,7 +928,7 @@
         {
           "number": 1,
           "name": "Overnight",
-          "startTime": "2026-11-01T03:00:00-08:00",
+          "startTime": "2026-11-01T02:00:00-08:00",
           "endTime": "2026-11-01T06:00:00-08:00",
           "isDaytime": false,
           "temperature": 25,
@@ -2770,7 +2770,7 @@
         {
           "number": 1,
           "name": "Overnight",
-          "startTime": "2026-11-01T03:00:00-08:00",
+          "startTime": "2026-11-01T02:00:00-08:00",
           "endTime": "2026-11-01T06:00:00-08:00",
           "isDaytime": false,
           "temperature": 25,
@@ -3087,12 +3087,12 @@
     "Hoodoo": {
       "elevation_ft": 4705,
       "temp_f": 29,
-      "wind_speed_mph": 3.0,
-      "wind_direction_deg": 112.5,
+      "wind_speed_mph": 1,
+      "wind_direction_deg": 90,
       "snow_level_ft": 5066,
       "precip_chance_today": 3,
-      "snowfall_12h_in": -0.2,
-      "snowfall_24h_in": -0.4,
+      "snowfall_12h_in": 0.0,
+      "snowfall_24h_in": -0.1,
       "snowfall_48h_in": null
     },
     "Willamette Pass": {
@@ -4188,7 +4188,7 @@
       "swe_in": 0.6,
       "swe_in_date": "2026-10-31",
       "change_12h_in": 0,
-      "change_24h_in": 1
+      "change_24h_in": 0
     },
     "Three Creek / Tam McArthur (Three Creeks Meadow)": {
       "snow_depth_in": 0,
@@ -4319,7 +4319,7 @@
   "mtbachelor": {
     "weather": {
       "current": {
-        "temperature": 25,
+        "temperature": 24,
         "weather_icon": "dor-mostlycloudy"
       },
       "forecast": [
@@ -4453,9 +4453,9 @@
           "primary": true,
           "nonstandardizedDataPoints": {
             "depth": "144.7",
-            "timestamp": "2026-11-01T03:00:00.000Z"
+            "timestamp": "2026-11-01T04:00:00.000Z"
           },
-          "temperature": "24.81",
+          "temperature": "24.42",
           "wind": {
             "low": "0",
             "high": "0",
@@ -4497,17 +4497,17 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-11-01T03:00:00.000Z"
+            "timestamp": "2026-11-01T04:00:00.000Z"
           },
-          "temperature": "26.79",
+          "temperature": "26.03",
           "wind": {
-            "low": "2.728",
-            "high": "10.83",
+            "low": "2.603",
+            "high": "10.05",
             "current": null,
-            "average": "2.728",
+            "average": "2.603",
             "direction": "SSW"
           },
-          "humidity": "78.84",
+          "humidity": "84.1",
           "display_name": "Pine Marten",
           "elevation_ft": 7800
         },
@@ -4612,21 +4612,20 @@
   "hoodoo": {
     "weather": {
       "Temperature": "35 &#176F",
-      "Wind": "ESE @ 3 MPH",
-      "Snow depth": "1.7\"",
-      "Humidity": "91 %",
-      "Barometer": "29.71\" Hg",
+      "Wind": "NNE",
+      "Snow depth": "2.1\"",
+      "Humidity": "88 %",
+      "Barometer": "29.72\" Hg",
       "Rain Gauge": "0.04\""
     },
     "snow_totals": {
       "trend": {
         "Max": "2.6\"",
         "Min": "0.8\"",
-        "1 Hr": "-0.2\"",
-        "3 Hr": "-0.2\"",
-        "6 Hr": "-0.2\"",
-        "12 Hr": "-0.2\"",
-        "24 Hr": "-0.4\""
+        "3 Hr": "-0.1\"",
+        "6 Hr": "0.0\"",
+        "12 Hr": "0.0\"",
+        "24 Hr": "-0.1\""
       },
       "season_total_in": 6.5
     },
