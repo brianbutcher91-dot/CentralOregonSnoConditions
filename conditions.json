@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T21:02:39.149566+00:00",
+  "generated_at": "2026-11-02T21:15:20.919247+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -914,8 +914,8 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 5,
-        "wind_direction_deg": 100,
+        "wind_speed_mph": 15.0,
+        "wind_direction_deg": 90,
         "snow_level_ft": 5984,
         "temp_f": 46
       },
@@ -927,8 +927,8 @@
       "periods": [
         {
           "number": 1,
-          "name": "This Afternoon",
-          "startTime": "2026-11-02T12:00:00-08:00",
+          "name": "Today",
+          "startTime": "2026-11-02T11:00:00-08:00",
           "endTime": "2026-11-02T18:00:00-08:00",
           "isDaytime": true,
           "temperature": 41,
@@ -2156,7 +2156,7 @@
         {
           "number": 1,
           "name": "This Afternoon",
-          "startTime": "2026-11-02T12:00:00-08:00",
+          "startTime": "2026-11-02T13:00:00-08:00",
           "endTime": "2026-11-02T18:00:00-08:00",
           "isDaytime": true,
           "temperature": 56,
@@ -2166,13 +2166,13 @@
             "unitCode": "wmoUnit:percent",
             "value": 3
           },
-          "windSpeed": "0 to 3 mph",
+          "windSpeed": "2 mph",
           "windDirection": "S",
           "icon": "https://api.weather.gov/icons/land/day/bkn?size=medium",
           "shortForecast": "Mostly Cloudy",
-          "detailedForecast": "Mostly cloudy. High near 56, with temperatures falling to around 54 in the afternoon. South wind 0 to 3 mph.",
+          "detailedForecast": "Mostly cloudy. High near 56, with temperatures falling to around 54 in the afternoon. South wind around 2 mph.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 5879
+          "snowLevelFt": 6272
         },
         {
           "number": 2,
@@ -2770,7 +2770,7 @@
         {
           "number": 1,
           "name": "This Afternoon",
-          "startTime": "2026-11-02T12:00:00-08:00",
+          "startTime": "2026-11-02T13:00:00-08:00",
           "endTime": "2026-11-02T18:00:00-08:00",
           "isDaytime": true,
           "temperature": 54,
@@ -2786,7 +2786,7 @@
           "shortForecast": "Mostly Cloudy",
           "detailedForecast": "Mostly cloudy. High near 54, with temperatures falling to around 50 in the afternoon. Southeast wind around 5 mph.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 5905
+          "snowLevelFt": 6378
         },
         {
           "number": 2,
@@ -3087,8 +3087,8 @@
     "Hoodoo": {
       "elevation_ft": 4705,
       "temp_f": 46,
-      "wind_speed_mph": 5,
-      "wind_direction_deg": 100,
+      "wind_speed_mph": 15.0,
+      "wind_direction_deg": 90,
       "snow_level_ft": 5984,
       "precip_chance_today": 4,
       "snowfall_12h_in": null,
@@ -4190,6 +4190,10 @@
       {
         "time": "2026-11-02T20:02:46.129661+00:00",
         "precip_in": 0
+      },
+      {
+        "time": "2026-11-02T21:15:21.422707+00:00",
+        "precip_in": 0
       }
     ]
   },
@@ -4345,8 +4349,8 @@
           "day": "Monday",
           "temperature_high": 44,
           "temperature_low": 18,
-          "precipitation_high": 55,
-          "precipitation_low": 55,
+          "precipitation_high": 54,
+          "precipitation_low": 54,
           "wind_speed": 5,
           "wind_direction": "SSE"
         },
@@ -4487,15 +4491,15 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-11-02T12:00:00.000Z"
+            "timestamp": "2026-11-02T13:00:00.000Z"
           },
-          "temperature": "39.92",
+          "temperature": "40.01",
           "wind": {
-            "low": "9.14",
-            "high": "23.26",
+            "low": "8.12",
+            "high": "20.36",
             "current": null,
-            "average": "9.14",
-            "direction": "SSE"
+            "average": "8.12",
+            "direction": "SE"
           },
           "humidity": null,
           "display_name": "Sunrise",
@@ -4622,13 +4626,61 @@
     }
   },
   "hoodoo": {
-    "error": "HTTPSConnectionPool(host='santiampsp.org', port=443): Max retries exceeded with url: /wx/weather.htm (Caused by ConnectTimeoutError(<HTTPSConnection(host='santiampsp.org', port=443) at 0x7bebdcd8a6c0>, 'Connection to santiampsp.org timed out. (connect timeout=None)'))"
+    "weather": {
+      "Temperature": "38 &#176F",
+      "Wind": "East @ 15 MPH",
+      "Snow depth": "1.5\"",
+      "Humidity": "73 %",
+      "Barometer": "30.06\" Hg",
+      "Rain Gauge": "0.01\""
+    },
+    "snow_totals": {
+      "trend": {
+        "Max": "2.3\"",
+        "Min": "0.8\""
+      },
+      "season_total_in": 6.5
+    },
+    "webcams": {
+      "Base Area": {
+        "src": "https://santiampsp.org/wx/weather16.jpg",
+        "link": "https://hoodoo.com/the-mountain/webcams/"
+      },
+      "Top of Manzanita": {
+        "src": "https://santiampsp.org/wx/weather3.jpg",
+        "link": "https://hoodoo.com/the-mountain/webcams/"
+      },
+      "Top of Ed": {
+        "src": "https://santiampsp.org/wx/weather2.jpg",
+        "link": "https://hoodoo.com/the-mountain/webcams/"
+      },
+      "Top of Easy Rider": {
+        "src": "https://santiampsp.org/wx/weather4.jpg",
+        "link": "https://hoodoo.com/the-mountain/webcams/"
+      },
+      "Hoodoo Parking Lot": {
+        "src": "https://santiampsp.org/wx/weather12.jpg",
+        "link": "https://hoodoo.com/the-mountain/webcams/"
+      },
+      "Hoodoo Summit": {
+        "src": "https://santiampsp.org/wx/weather1.jpg",
+        "link": "https://hoodoo.com/the-mountain/webcams/"
+      },
+      "Hayrick Butte & \"Gripper\" run from top of Ed chair": {
+        "src": "https://santiampsp.org/wx/weather2b.jpg",
+        "link": "https://hoodoo.com/the-mountain/webcams/"
+      },
+      "Hoodoo Parking Lot View #2": {
+        "src": "https://santiampsp.org/wx/weather10.jpg",
+        "link": "https://hoodoo.com/the-mountain/webcams/"
+      }
+    }
   },
   "willamette_pass": {
     "forecast": {
       "weather_provider": "NOAA",
-      "date": "November 2, 2026, 12:40 pm",
-      "time": 1793652022000,
+      "date": "November 2, 2026, 12:55 pm",
+      "time": 1793652920000,
       "current_weather": "Mostly Cloudy",
       "current_temperature": "50",
       "forecast": [
@@ -4725,7 +4777,10 @@
       "src": "https://api.mtbachelor.com/api/v1/cams/mtn/14",
       "link": "https://www.mtbachelor.com/the-mountain/webcams/live-cam-14/"
     },
-    "Hoodoo (Base Area)": null,
+    "Hoodoo (Base Area)": {
+      "src": "https://santiampsp.org/wx/weather16.jpg",
+      "link": "https://hoodoo.com/the-mountain/webcams/"
+    },
     "Willamette Pass (Base Area)": {
       "src": "https://www.youtube.com/embed/sNVA6oC7vcM",
       "link": "https://www.willamettepass.ski/weather-conditions-webcams/webcams/"
@@ -4738,7 +4793,7 @@
     },
     "North Pacific (macro)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/np/13/GOES18-NP-13-900x540.gif",
-      "last_modified": "Mon, 02 Nov 2026 21:01:49 GMT"
+      "last_modified": "Mon, 02 Nov 2026 21:01:48 GMT"
     },
     "Pacific US (PACUS)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/13/GOES18-CONUS-13-625x375.gif",
