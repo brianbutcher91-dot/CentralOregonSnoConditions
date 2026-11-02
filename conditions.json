@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T16:15:32.792167+00:00",
+  "generated_at": "2026-11-02T16:30:25.486315+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -914,8 +914,8 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 7.0,
-        "wind_direction_deg": 90,
+        "wind_speed_mph": 9.0,
+        "wind_direction_deg": 67.5,
         "snow_level_ft": 4988,
         "temp_f": 33
       },
@@ -3087,8 +3087,8 @@
     "Hoodoo": {
       "elevation_ft": 4705,
       "temp_f": 33,
-      "wind_speed_mph": 7.0,
-      "wind_direction_deg": 90,
+      "wind_speed_mph": 9.0,
+      "wind_direction_deg": 67.5,
       "snow_level_ft": 4988,
       "precip_chance_today": 2,
       "snowfall_12h_in": null,
@@ -3109,14 +3109,6 @@
   },
   "bachelor_timeseries": {
     "hourly": [
-      {
-        "time": "2026-11-01T09:00:00.000Z",
-        "temp_f": 26.51,
-        "wind_speed_mph": 8.74,
-        "wind_direction_deg": 255.0,
-        "precip_in": null,
-        "period": "historical"
-      },
       {
         "time": "2026-11-01T10:00:00.000Z",
         "temp_f": 26.96,
@@ -3302,12 +3294,12 @@
         "period": "historical"
       },
       {
-        "time": "2026-11-02T08:00:00+00:00",
-        "temp_f": 26.0,
-        "wind_speed_mph": 3.5,
-        "wind_direction_deg": 160,
-        "precip_in": 0.0,
-        "period": "forecast"
+        "time": "2026-11-02T08:00:00.000Z",
+        "temp_f": 36.21,
+        "wind_speed_mph": 14.29,
+        "wind_direction_deg": 148.7,
+        "precip_in": null,
+        "period": "historical"
       },
       {
         "time": "2026-11-02T09:00:00+00:00",
@@ -4190,6 +4182,10 @@
       {
         "time": "2026-11-02T15:30:22.654195+00:00",
         "precip_in": 0
+      },
+      {
+        "time": "2026-11-02T16:30:26.008330+00:00",
+        "precip_in": 0
       }
     ]
   },
@@ -4228,12 +4224,110 @@
     }
   },
   "odot_cams": {
-    "error": "HTTPSConnectionPool(host='api.odot.state.or.us', port=443): Max retries exceeded with url: /tripcheck/Cctv/Inventory?DeviceName=Century+Dr (Caused by NameResolutionError(\"HTTPSConnection(host='api.odot.state.or.us', port=443): Failed to resolve 'api.odot.state.or.us' ([Errno -5] No address associated with hostname)\"))"
+    "Century Drive": [
+      {
+        "device-id": 768,
+        "device-name": "Century Dr at MP 21.11 E",
+        "latitude": 43.99178,
+        "longitude": -121.65663,
+        "hwy-id": "",
+        "route-id": "CITY",
+        "milepoint": 21.11,
+        "cctv-url": "http://www.TripCheck.com/roadcams/cams/Century Dr at MP 21.11 E_pid3545.JPG",
+        "cctv-other": "Century Drive at MP 21.11",
+        "last-update-time": "2026-11-02T03:44:20.09-08:00",
+        "tripcheck_link": "https://www.tripcheck.com/Pages/View-Custom-Cameras/?CamIds=3545"
+      },
+      {
+        "device-id": 771,
+        "device-name": "Century Dr at MP 21.11 W",
+        "latitude": 43.99178,
+        "longitude": -121.65663,
+        "hwy-id": "",
+        "route-id": "CITY",
+        "milepoint": 21.11,
+        "cctv-url": "http://www.TripCheck.com/roadcams/cams/Century Dr at MP 21.11 W_pid3557.JPG",
+        "cctv-other": "Century Drive at MP 21.11",
+        "last-update-time": "2026-11-02T03:44:23.973-08:00",
+        "tripcheck_link": "https://www.tripcheck.com/Pages/View-Custom-Cameras/?CamIds=3557"
+      }
+    ],
+    "Santiam Pass": [
+      {
+        "device-id": 567,
+        "device-name": "Santiam Pass EB",
+        "latitude": 44.422,
+        "longitude": -121.85731,
+        "hwy-id": "016",
+        "route-id": "US20",
+        "milepoint": 80.14,
+        "cctv-url": "http://www.TripCheck.com/roadcams/cams/Santiam Pass_pid2728.JPG",
+        "cctv-other": "US20 at Santiam Pass",
+        "last-update-time": "2026-11-02T03:44:16.093-08:00",
+        "tripcheck_link": "https://www.tripcheck.com/Pages/View-Custom-Cameras/?CamIds=2728"
+      },
+      {
+        "device-id": 1443,
+        "device-name": "Santiam Pass WB",
+        "latitude": 44.422,
+        "longitude": -121.8573,
+        "hwy-id": "016",
+        "route-id": "US20",
+        "milepoint": 80.14,
+        "cctv-url": "http://www.TripCheck.com/roadcams/cams/Santiam Pass WB_pid5258.jpg",
+        "cctv-other": "US20 at Santiam Pass",
+        "last-update-time": "2026-11-02T03:44:16.157-08:00",
+        "tripcheck_link": "https://www.tripcheck.com/Pages/View-Custom-Cameras/?CamIds=5258"
+      }
+    ],
+    "Tombstone Pass": [
+      {
+        "device-id": 332,
+        "device-name": "US20 at Tombstone",
+        "latitude": 44.39548,
+        "longitude": -122.14151,
+        "hwy-id": "016",
+        "route-id": "US20",
+        "milepoint": 63.64,
+        "cctv-url": "http://www.TripCheck.com/roadcams/cams/US20atTombstone_pid1354.jpg",
+        "cctv-other": "US20 at Tombstone",
+        "last-update-time": "2026-11-02T03:44:04.983-08:00",
+        "tripcheck_link": "https://www.tripcheck.com/Pages/View-Custom-Cameras/?CamIds=1354"
+      }
+    ],
+    "Willamette Pass": [
+      {
+        "device-id": 207,
+        "device-name": "OR58 at Willamette Pass",
+        "latitude": 43.59702,
+        "longitude": -122.03383,
+        "hwy-id": "018",
+        "route-id": "OR58",
+        "milepoint": 62.0,
+        "cctv-url": "http://www.TripCheck.com/roadcams/cams/WillamettePass_pid658.jpg",
+        "cctv-other": "OR58 at Willamette Pass",
+        "last-update-time": "2026-11-02T03:44:23.457-08:00",
+        "tripcheck_link": "https://www.tripcheck.com/Pages/View-Custom-Cameras/?CamIds=658"
+      },
+      {
+        "device-id": 721,
+        "device-name": "OR58 at Willamette Pass W",
+        "latitude": 43.59702,
+        "longitude": -122.03386,
+        "hwy-id": "018",
+        "route-id": "OR58",
+        "milepoint": 62.0,
+        "cctv-url": "http://www.TripCheck.com/roadcams/cams/Willamette Pass_pid3351.JPG",
+        "cctv-other": "OR58 at Willamette Pass",
+        "last-update-time": "2026-11-02T03:44:19.463-08:00",
+        "tripcheck_link": "https://www.tripcheck.com/Pages/View-Custom-Cameras/?CamIds=3351"
+      }
+    ]
   },
   "mtbachelor": {
     "weather": {
       "current": {
-        "temperature": 23,
+        "temperature": 25,
         "weather_icon": "dor-mostlycloudy"
       },
       "forecast": [
@@ -4367,9 +4461,9 @@
           "primary": true,
           "nonstandardizedDataPoints": {
             "depth": "144.6",
-            "timestamp": "2026-11-02T07:00:00.000Z"
+            "timestamp": "2026-11-02T08:00:00.000Z"
           },
-          "temperature": "23.32",
+          "temperature": "24.86",
           "wind": {
             "low": "0",
             "high": "0",
@@ -4389,15 +4483,15 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-11-02T07:00:00.000Z"
+            "timestamp": "2026-11-02T08:00:00.000Z"
           },
-          "temperature": "32.49",
+          "temperature": "33.21",
           "wind": {
-            "low": "1.81",
-            "high": "8.72",
+            "low": "3.042",
+            "high": "12.08",
             "current": null,
-            "average": "1.81",
-            "direction": "SSW"
+            "average": "3.042",
+            "direction": "S"
           },
           "humidity": null,
           "display_name": "Sunrise",
@@ -4411,17 +4505,17 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-11-02T07:00:00.000Z"
+            "timestamp": "2026-11-02T08:00:00.000Z"
           },
-          "temperature": "32.63",
+          "temperature": "33.04",
           "wind": {
-            "low": "1.448",
-            "high": "9.58",
+            "low": "2.127",
+            "high": "12.83",
             "current": null,
-            "average": "1.448",
-            "direction": "SE"
+            "average": "2.127",
+            "direction": "SSW"
           },
-          "humidity": "40.14",
+          "humidity": "32.61",
           "display_name": "Pine Marten",
           "elevation_ft": 7800
         },
@@ -4433,14 +4527,14 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-11-02T07:00:00.000Z"
+            "timestamp": "2026-11-02T08:00:00.000Z"
           },
-          "temperature": "35.38",
+          "temperature": "36.21",
           "wind": {
-            "low": "12.82",
-            "high": "17.22",
+            "low": "14.29",
+            "high": "19.46",
             "current": null,
-            "average": "12.82",
+            "average": "14.29",
             "direction": "SSE"
           },
           "humidity": null,
@@ -4525,11 +4619,11 @@
   },
   "hoodoo": {
     "weather": {
-      "Temperature": "39 &#176F",
-      "Wind": "East @ 7 MPH",
+      "Temperature": "36 &#176F",
+      "Wind": "ENE @ 9 MPH",
       "Snow depth": "1.5\"",
-      "Humidity": "61 %",
-      "Barometer": "30.06\" Hg",
+      "Humidity": "71 %",
+      "Barometer": "30.07\" Hg",
       "Rain Gauge": "0.01\""
     },
     "snow_totals": {
@@ -4577,8 +4671,8 @@
   "willamette_pass": {
     "forecast": {
       "weather_provider": "NOAA",
-      "date": "November 2, 2026, 8:13 am",
-      "time": 1793636005000,
+      "date": "November 2, 2026, 8:19 am",
+      "time": 1793636357000,
       "current_weather": "Increasing Clouds",
       "current_temperature": "32",
       "forecast": [
@@ -4699,35 +4793,7 @@
     }
   },
   "gfs_snowfall": {
-    "path": "gfs_snowfall_pnw.gif",
-    "legend_path": "gfs_snowfall_legend.png",
-    "cycle_run_at": "2026-11-02T12:00:00+00:00",
-    "forecast_hours": [
-      3,
-      6,
-      9,
-      12,
-      15,
-      18,
-      21,
-      24,
-      27,
-      30,
-      33,
-      36,
-      39,
-      42,
-      45,
-      48,
-      51,
-      54,
-      57,
-      60,
-      63,
-      66,
-      69,
-      72
-    ]
+    "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
   },
   "avalanche": {
     "Central Cascades": {
