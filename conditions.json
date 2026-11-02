@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T10:32:32.896182+00:00",
+  "generated_at": "2026-11-02T10:45:20.038976+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -7,7 +7,7 @@
         {
           "number": 1,
           "name": "Overnight",
-          "startTime": "2026-11-02T02:00:00-08:00",
+          "startTime": "2026-11-02T01:00:00-08:00",
           "endTime": "2026-11-02T06:00:00-08:00",
           "isDaytime": false,
           "temperature": 27,
@@ -17,11 +17,11 @@
             "unitCode": "wmoUnit:percent",
             "value": 0
           },
-          "windSpeed": "12 mph",
+          "windSpeed": "8 to 12 mph",
           "windDirection": "S",
           "icon": "https://api.weather.gov/icons/land/night/sct?size=medium",
           "shortForecast": "Partly Cloudy",
-          "detailedForecast": "Partly cloudy, with a low around 27. South wind around 12 mph.",
+          "detailedForecast": "Partly cloudy, with a low around 27. South wind 8 to 12 mph.",
           "precipitationAmountIn": 0.0,
           "snowLevelFt": 4776
         },
@@ -314,7 +314,7 @@
         {
           "number": 1,
           "name": "Overnight",
-          "startTime": "2026-11-02T02:00:00-08:00",
+          "startTime": "2026-11-02T01:00:00-08:00",
           "endTime": "2026-11-02T06:00:00-08:00",
           "isDaytime": false,
           "temperature": 30,
@@ -325,10 +325,10 @@
             "value": 0
           },
           "windSpeed": "8 mph",
-          "windDirection": "SW",
+          "windDirection": "S",
           "icon": "https://api.weather.gov/icons/land/night/sct?size=medium",
           "shortForecast": "Partly Cloudy",
-          "detailedForecast": "Partly cloudy, with a low around 30. Southwest wind around 8 mph.",
+          "detailedForecast": "Partly cloudy, with a low around 30. South wind around 8 mph.",
           "precipitationAmountIn": 0.0,
           "snowLevelFt": 4830
         },
@@ -1849,7 +1849,7 @@
         {
           "number": 1,
           "name": "Overnight",
-          "startTime": "2026-11-02T02:00:00-08:00",
+          "startTime": "2026-11-02T01:00:00-08:00",
           "endTime": "2026-11-02T06:00:00-08:00",
           "isDaytime": false,
           "temperature": 28,
@@ -2770,7 +2770,7 @@
         {
           "number": 1,
           "name": "Overnight",
-          "startTime": "2026-11-02T02:00:00-08:00",
+          "startTime": "2026-11-02T01:00:00-08:00",
           "endTime": "2026-11-02T06:00:00-08:00",
           "isDaytime": false,
           "temperature": 22,
@@ -4328,7 +4328,7 @@
     "weather": {
       "current": {
         "temperature": 21,
-        "weather_icon": "dor-sunny"
+        "weather_icon": "dor-mostlysunny"
       },
       "forecast": [
         {
@@ -4340,7 +4340,7 @@
           "id": 1793646000,
           "day": "Monday",
           "temperature_high": 33,
-          "temperature_low": 20,
+          "temperature_low": 21,
           "precipitation_high": 54,
           "precipitation_low": 54,
           "wind_speed": 5,
@@ -4618,13 +4618,61 @@
     }
   },
   "hoodoo": {
-    "error": "HTTPSConnectionPool(host='santiampsp.org', port=443): Max retries exceeded with url: /wx/weather.htm (Caused by ConnectTimeoutError(<HTTPSConnection(host='santiampsp.org', port=443) at 0x768c63403b60>, 'Connection to santiampsp.org timed out. (connect timeout=None)'))"
+    "weather": {
+      "Temperature": "40 &#176F",
+      "Wind": "SE",
+      "Snow depth": "1.5\"",
+      "Humidity": "45 %",
+      "Barometer": "30.05\" Hg",
+      "Rain Gauge": "0.01\""
+    },
+    "snow_totals": {
+      "trend": {
+        "Max": "2.3\"",
+        "Min": "0.8\""
+      },
+      "season_total_in": 6.5
+    },
+    "webcams": {
+      "Base Area": {
+        "src": "https://santiampsp.org/wx/weather16.jpg",
+        "link": "https://hoodoo.com/the-mountain/webcams/"
+      },
+      "Top of Manzanita": {
+        "src": "https://santiampsp.org/wx/weather3.jpg",
+        "link": "https://hoodoo.com/the-mountain/webcams/"
+      },
+      "Top of Ed": {
+        "src": "https://santiampsp.org/wx/weather2.jpg",
+        "link": "https://hoodoo.com/the-mountain/webcams/"
+      },
+      "Top of Easy Rider": {
+        "src": "https://santiampsp.org/wx/weather4.jpg",
+        "link": "https://hoodoo.com/the-mountain/webcams/"
+      },
+      "Hoodoo Parking Lot": {
+        "src": "https://santiampsp.org/wx/weather12.jpg",
+        "link": "https://hoodoo.com/the-mountain/webcams/"
+      },
+      "Hoodoo Summit": {
+        "src": "https://santiampsp.org/wx/weather1.jpg",
+        "link": "https://hoodoo.com/the-mountain/webcams/"
+      },
+      "Hayrick Butte & \"Gripper\" run from top of Ed chair": {
+        "src": "https://santiampsp.org/wx/weather2b.jpg",
+        "link": "https://hoodoo.com/the-mountain/webcams/"
+      },
+      "Hoodoo Parking Lot View #2": {
+        "src": "https://santiampsp.org/wx/weather10.jpg",
+        "link": "https://hoodoo.com/the-mountain/webcams/"
+      }
+    }
   },
   "willamette_pass": {
     "forecast": {
       "weather_provider": "NOAA",
-      "date": "November 2, 2026, 2:10 am",
-      "time": 1793614221000,
+      "date": "November 2, 2026, 2:25 am",
+      "time": 1793615133000,
       "current_weather": "Partly Cloudy",
       "current_temperature": "31",
       "forecast": [
@@ -4720,7 +4768,10 @@
       "src": "https://api.mtbachelor.com/api/v1/cams/mtn/14",
       "link": "https://www.mtbachelor.com/the-mountain/webcams/live-cam-14/"
     },
-    "Hoodoo (Base Area)": null,
+    "Hoodoo (Base Area)": {
+      "src": "https://santiampsp.org/wx/weather16.jpg",
+      "link": "https://hoodoo.com/the-mountain/webcams/"
+    },
     "Willamette Pass (Base Area)": {
       "src": "https://www.youtube.com/embed/sNVA6oC7vcM",
       "link": "https://www.willamettepass.ski/weather-conditions-webcams/webcams/"
