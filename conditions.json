@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T05:15:18.847776+00:00",
+  "generated_at": "2026-11-02T05:30:22.656779+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -621,7 +621,7 @@
         {
           "number": 1,
           "name": "Tonight",
-          "startTime": "2026-11-01T21:00:00-08:00",
+          "startTime": "2026-11-01T20:00:00-08:00",
           "endTime": "2026-11-02T06:00:00-08:00",
           "isDaytime": false,
           "temperature": 30,
@@ -631,13 +631,13 @@
             "unitCode": "wmoUnit:percent",
             "value": 0
           },
-          "windSpeed": "1 to 5 mph",
-          "windDirection": "E",
+          "windSpeed": "0 to 5 mph",
+          "windDirection": "ENE",
           "icon": "https://api.weather.gov/icons/land/night/few?size=medium",
           "shortForecast": "Mostly Clear",
-          "detailedForecast": "Mostly clear, with a low around 30. East wind 1 to 5 mph.",
+          "detailedForecast": "Mostly clear, with a low around 30. East northeast wind 0 to 5 mph.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 5458
+          "snowLevelFt": 5564
         },
         {
           "number": 2,
@@ -914,7 +914,7 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 5.0,
+        "wind_speed_mph": 6.0,
         "wind_direction_deg": 90,
         "snow_level_ft": 5458,
         "temp_f": 32
@@ -2156,7 +2156,7 @@
         {
           "number": 1,
           "name": "Tonight",
-          "startTime": "2026-11-01T19:00:00-08:00",
+          "startTime": "2026-11-01T21:00:00-08:00",
           "endTime": "2026-11-02T06:00:00-08:00",
           "isDaytime": false,
           "temperature": 31,
@@ -2166,11 +2166,11 @@
             "unitCode": "wmoUnit:percent",
             "value": 0
           },
-          "windSpeed": "0 to 6 mph",
+          "windSpeed": "1 to 6 mph",
           "windDirection": "SW",
           "icon": "https://api.weather.gov/icons/land/night/few?size=medium",
           "shortForecast": "Mostly Clear",
-          "detailedForecast": "Mostly clear, with a low around 31. Southwest wind 0 to 6 mph.",
+          "detailedForecast": "Mostly clear, with a low around 31. Southwest wind 1 to 6 mph.",
           "precipitationAmountIn": 0.0,
           "snowLevelFt": 5827
         },
@@ -2201,7 +2201,7 @@
           "startTime": "2026-11-02T18:00:00-08:00",
           "endTime": "2026-11-03T06:00:00-08:00",
           "isDaytime": false,
-          "temperature": 34,
+          "temperature": 35,
           "temperatureUnit": "F",
           "temperatureTrend": null,
           "probabilityOfPrecipitation": {
@@ -2212,7 +2212,7 @@
           "windDirection": "",
           "icon": "https://api.weather.gov/icons/land/night/ovc?size=medium",
           "shortForecast": "Cloudy",
-          "detailedForecast": "Cloudy, with a low around 34. Wind around 0 mph.",
+          "detailedForecast": "Cloudy, with a low around 35. Wind around 0 mph.",
           "precipitationAmountIn": 0.0,
           "snowLevelFt": 6194
         },
@@ -2770,7 +2770,7 @@
         {
           "number": 1,
           "name": "Tonight",
-          "startTime": "2026-11-01T21:00:00-08:00",
+          "startTime": "2026-11-01T20:00:00-08:00",
           "endTime": "2026-11-02T06:00:00-08:00",
           "isDaytime": false,
           "temperature": 22,
@@ -3087,7 +3087,7 @@
     "Hoodoo": {
       "elevation_ft": 4705,
       "temp_f": 32,
-      "wind_speed_mph": 5.0,
+      "wind_speed_mph": 6.0,
       "wind_direction_deg": 90,
       "snow_level_ft": 5458,
       "precip_chance_today": 0,
@@ -3109,14 +3109,6 @@
   },
   "bachelor_timeseries": {
     "hourly": [
-      {
-        "time": "2026-10-31T22:00:00.000Z",
-        "temp_f": 27.59,
-        "wind_speed_mph": 4.474,
-        "wind_direction_deg": 124.1,
-        "precip_in": null,
-        "period": "historical"
-      },
       {
         "time": "2026-10-31T23:00:00.000Z",
         "temp_f": 27.27,
@@ -3302,12 +3294,12 @@
         "period": "historical"
       },
       {
-        "time": "2026-11-01T22:00:00+00:00",
-        "temp_f": 35.0,
-        "wind_speed_mph": 3.5,
-        "wind_direction_deg": 0,
-        "precip_in": 0.0,
-        "period": "forecast"
+        "time": "2026-11-01T22:00:00.000Z",
+        "temp_f": 28.66,
+        "wind_speed_mph": 3.458,
+        "wind_direction_deg": 252.2,
+        "precip_in": null,
+        "period": "historical"
       },
       {
         "time": "2026-11-01T23:00:00+00:00",
@@ -4195,7 +4187,7 @@
       "snow_depth_in_date": "2026-10-31",
       "swe_in": 0.6,
       "swe_in_date": "2026-10-31",
-      "change_12h_in": 0,
+      "change_12h_in": 1,
       "change_24h_in": 0
     },
     "Three Creek / Tam McArthur (Three Creeks Meadow)": {
@@ -4327,7 +4319,7 @@
   "mtbachelor": {
     "weather": {
       "current": {
-        "temperature": 27,
+        "temperature": 26,
         "weather_icon": "dor-sunny"
       },
       "forecast": [
@@ -4460,10 +4452,10 @@
           "active": true,
           "primary": true,
           "nonstandardizedDataPoints": {
-            "depth": "144.6",
-            "timestamp": "2026-11-01T21:00:00.000Z"
+            "depth": "144.9",
+            "timestamp": "2026-11-01T22:00:00.000Z"
           },
-          "temperature": "26.99",
+          "temperature": "25.67",
           "wind": {
             "low": "0",
             "high": "0",
@@ -4483,14 +4475,14 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-11-01T21:00:00.000Z"
+            "timestamp": "2026-11-01T22:00:00.000Z"
           },
-          "temperature": "30.94",
+          "temperature": "31.07",
           "wind": {
-            "low": "6.688",
-            "high": "11.63",
+            "low": "6.382",
+            "high": "11.19",
             "current": null,
-            "average": "6.688",
+            "average": "6.382",
             "direction": "SSW"
           },
           "humidity": null,
@@ -4505,17 +4497,17 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-11-01T21:00:00.000Z"
+            "timestamp": "2026-11-01T22:00:00.000Z"
           },
-          "temperature": "28.89",
+          "temperature": "29.18",
           "wind": {
-            "low": "1.86",
-            "high": "6.598",
+            "low": "0.001",
+            "high": "0.116",
             "current": null,
-            "average": "1.86",
-            "direction": "E"
+            "average": "0.001",
+            "direction": "ENE"
           },
-          "humidity": "48.73",
+          "humidity": "47.27",
           "display_name": "Pine Marten",
           "elevation_ft": 7800
         },
@@ -4527,14 +4519,14 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-11-01T21:00:00.000Z"
+            "timestamp": "2026-11-01T22:00:00.000Z"
           },
-          "temperature": "28.37",
+          "temperature": "28.66",
           "wind": {
-            "low": "3.893",
-            "high": "8.72",
+            "low": "3.458",
+            "high": "5.816",
             "current": null,
-            "average": "3.893",
+            "average": "3.458",
             "direction": "WSW"
           },
           "humidity": null,
@@ -4620,10 +4612,10 @@
   "hoodoo": {
     "weather": {
       "Temperature": "37 &#176F",
-      "Wind": "East @ 5 MPH",
+      "Wind": "East @ 6 MPH",
       "Snow depth": "1.5\"",
-      "Humidity": "81 %",
-      "Barometer": "30.02\" Hg",
+      "Humidity": "78 %",
+      "Barometer": "30.03\" Hg",
       "Rain Gauge": "0.01\""
     },
     "snow_totals": {
@@ -4671,8 +4663,8 @@
   "willamette_pass": {
     "forecast": {
       "weather_provider": "NOAA",
-      "date": "November 1, 2026, 8:55 pm",
-      "time": 1793595319000,
+      "date": "November 1, 2026, 9:10 pm",
+      "time": 1793596218000,
       "current_weather": "Mostly Clear",
       "current_temperature": "33",
       "forecast": [
