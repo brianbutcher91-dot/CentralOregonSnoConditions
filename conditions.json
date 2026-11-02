@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T07:30:25.919722+00:00",
+  "generated_at": "2026-11-02T07:45:25.609503+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -2156,7 +2156,7 @@
         {
           "number": 1,
           "name": "Tonight",
-          "startTime": "2026-11-01T23:00:00-08:00",
+          "startTime": "2026-11-01T22:00:00-08:00",
           "endTime": "2026-11-02T06:00:00-08:00",
           "isDaytime": false,
           "temperature": 31,
@@ -2166,11 +2166,11 @@
             "unitCode": "wmoUnit:percent",
             "value": 0
           },
-          "windSpeed": "6 mph",
+          "windSpeed": "2 to 6 mph",
           "windDirection": "SW",
           "icon": "https://api.weather.gov/icons/land/night/few?size=medium",
           "shortForecast": "Mostly Clear",
-          "detailedForecast": "Mostly clear, with a low around 31. Southwest wind around 6 mph.",
+          "detailedForecast": "Mostly clear, with a low around 31. Southwest wind 2 to 6 mph.",
           "precipitationAmountIn": 0.0,
           "snowLevelFt": 5643
         },
@@ -4320,7 +4320,7 @@
     "weather": {
       "current": {
         "temperature": 23,
-        "weather_icon": "dor-sunny"
+        "weather_icon": "dor-mostlysunny"
       },
       "forecast": [
         {
@@ -4395,7 +4395,7 @@
           "temperature_low": 30,
           "precipitation_high": 92,
           "precipitation_low": 92,
-          "wind_speed": 6,
+          "wind_speed": 7,
           "wind_direction": "W"
         },
         {
@@ -4614,7 +4614,7 @@
       "Temperature": "37 &#176F",
       "Wind": "ESE @ 17 MPH",
       "Snow depth": "1.5\"",
-      "Humidity": "81 %",
+      "Humidity": "83 %",
       "Barometer": "30.03\" Hg",
       "Rain Gauge": "0.01\""
     },
@@ -4663,10 +4663,10 @@
   "willamette_pass": {
     "forecast": {
       "weather_provider": "NOAA",
-      "date": "November 1, 2026, 11:04 pm",
-      "time": 1793603060000,
+      "date": "November 1, 2026, 11:43 pm",
+      "time": 1793605405000,
       "current_weather": "Partly Cloudy",
-      "current_temperature": "32",
+      "current_temperature": "31",
       "forecast": [
         {
           "day": "Sunday",
@@ -4708,11 +4708,6 @@
       "min_temp": "30",
       "hourly": [
         {
-          "time": "10p",
-          "temp": "32",
-          "details": ""
-        },
-        {
           "time": "12a",
           "temp": "31",
           "details": ""
@@ -4730,6 +4725,11 @@
         {
           "time": "5a",
           "temp": "30",
+          "details": ""
+        },
+        {
+          "time": "8a",
+          "temp": "33",
           "details": ""
         }
       ],
@@ -4776,15 +4776,15 @@
   "satellite": {
     "Pacific Northwest": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/pnw/13/GOES18-PNW-13-600x600.gif",
-      "last_modified": "Mon, 02 Nov 2026 07:01:34 GMT"
+      "last_modified": "Mon, 02 Nov 2026 07:31:45 GMT"
     },
     "North Pacific (macro)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/np/13/GOES18-NP-13-900x540.gif",
-      "last_modified": "Mon, 02 Nov 2026 07:01:59 GMT"
+      "last_modified": "Mon, 02 Nov 2026 07:32:15 GMT"
     },
     "Pacific US (PACUS)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/13/GOES18-CONUS-13-625x375.gif",
-      "last_modified": "Mon, 02 Nov 2026 07:01:12 GMT"
+      "last_modified": "Mon, 02 Nov 2026 07:31:10 GMT"
     }
   },
   "gfs_snowfall": {
