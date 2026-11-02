@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T17:30:31.501889+00:00",
+  "generated_at": "2026-11-02T17:45:23.250470+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -914,7 +914,7 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 19.0,
+        "wind_speed_mph": 22.0,
         "wind_direction_deg": 90,
         "snow_level_ft": 5198,
         "temp_f": 38
@@ -3087,7 +3087,7 @@
     "Hoodoo": {
       "elevation_ft": 4705,
       "temp_f": 38,
-      "wind_speed_mph": 19.0,
+      "wind_speed_mph": 22.0,
       "wind_direction_deg": 90,
       "snow_level_ft": 5198,
       "precip_chance_today": 2,
@@ -4333,8 +4333,8 @@
           "day": "Monday",
           "temperature_high": 35,
           "temperature_low": 18,
-          "precipitation_high": 75,
-          "precipitation_low": 75,
+          "precipitation_high": 70,
+          "precipitation_low": 70,
           "wind_speed": 5,
           "wind_direction": "SSE"
         },
@@ -4612,7 +4612,7 @@
   "hoodoo": {
     "weather": {
       "Temperature": "38 &#176F",
-      "Wind": "East @ 19 MPH",
+      "Wind": "East @ 22 MPH",
       "Snow depth": "1.5\"",
       "Humidity": "65 %",
       "Barometer": "30.06\" Hg",
@@ -4663,52 +4663,47 @@
   "willamette_pass": {
     "forecast": {
       "weather_provider": "NOAA",
-      "date": "November 2, 2026, 9:04 am",
-      "time": 1793639060000,
-      "current_weather": "Increasing Clouds",
-      "current_temperature": "42",
+      "date": "November 2, 2026, 9:43 am",
+      "time": 1793641397000,
+      "current_weather": "Mostly Cloudy",
+      "current_temperature": "46",
       "forecast": [
         {
           "day": "Monday",
-          "day_forecast": "Increasing clouds, with a high near 47. Southeast wind around 7 mph. ",
-          "night_forecast": "Cloudy, with a low around 34. East southeast wind 5 to 8 mph. "
+          "day_forecast": "Mostly cloudy, with a high near 47. Southeast wind 3 to 6 mph. ",
+          "night_forecast": "Cloudy, with a low around 34. Southeast wind 5 to 8 mph. "
         },
         {
           "day": "Tuesday",
-          "day_forecast": "Cloudy, then gradually becoming mostly sunny, with a high near 45. Southeast wind around 5 mph becoming west in the afternoon. ",
-          "night_forecast": "Partly cloudy, with a low around 30. Light and variable wind. "
+          "day_forecast": "Cloudy, then gradually becoming mostly sunny, with a high near 46. Southeast wind around 5 mph becoming light and variable  in the morning. ",
+          "night_forecast": "Partly cloudy, with a low around 31. Light and variable wind. "
         },
         {
           "day": "Wednesday",
-          "day_forecast": "Mostly sunny, with a high near 47. Light and variable wind becoming west southwest around 5 mph in the afternoon. ",
-          "night_forecast": "A 40 percent chance of rain.  Snow level 6900 feet lowering to 6300 feet after midnight . Mostly cloudy, with a low around 34."
+          "day_forecast": "A 30 percent chance of rain after 4pm.  Snow level rising to 6900 feet in the afternoon. Mostly sunny, with a high near 47. Light and variable wind becoming west southwest around 5 mph in the afternoon. ",
+          "night_forecast": "Rain likely, mainly after 10pm.  Snow level 6500 feet. Mostly cloudy, with a low around 34. Chance of precipitation is 60%."
         },
         {
           "day": "Thursday",
-          "day_forecast": "Partly sunny, with a high near 47.",
-          "night_forecast": "A chance of snow after 4am.  Snow level 6700 feet. Mostly cloudy, with a low around 34."
+          "day_forecast": "Mostly sunny, with a high near 45.",
+          "night_forecast": "Partly cloudy, with a low around 34."
         },
         {
           "day": "Friday",
-          "day_forecast": "A chance of rain and snow before 10am, then a chance of rain.  Snow level 6400 feet rising to 7800 feet in the afternoon. Mostly cloudy, with a high near 46.",
-          "night_forecast": "Mostly cloudy, with a low around 35."
+          "day_forecast": "A slight chance of rain and snow before 10am, then a slight chance of rain.  Snow level 6400 feet rising to 8600 feet in the afternoon. Mostly cloudy, with a high near 47.",
+          "night_forecast": "Partly cloudy, with a low around 36."
         },
         {
           "day": "Saturday",
-          "day_forecast": "Mostly sunny, with a high near 53.",
-          "night_forecast": "Mostly cloudy, with a low around 37."
+          "day_forecast": "Mostly sunny, with a high near 54.",
+          "night_forecast": "A slight chance of rain.  Snow level 8400 feet. Mostly cloudy, with a low around 38."
         }
       ],
       "wind": "NA",
-      "icon": "0102-few-clouds.svg",
+      "icon": "0101-cloudy.svg",
       "max_temp": "47",
       "min_temp": "34",
       "hourly": [
-        {
-          "time": "8a",
-          "temp": "33",
-          "details": ""
-        },
         {
           "time": "10a",
           "temp": "39",
@@ -4716,7 +4711,7 @@
         },
         {
           "time": "12p",
-          "temp": "44",
+          "temp": "45",
           "details": ""
         },
         {
@@ -4727,6 +4722,11 @@
         {
           "time": "4p",
           "temp": "44",
+          "details": ""
+        },
+        {
+          "time": "5p",
+          "temp": "42",
           "details": ""
         }
       ],
@@ -4773,15 +4773,15 @@
   "satellite": {
     "Pacific Northwest": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/pnw/13/GOES18-PNW-13-600x600.gif",
-      "last_modified": "Mon, 02 Nov 2026 17:01:54 GMT"
+      "last_modified": "Mon, 02 Nov 2026 17:31:44 GMT"
     },
     "North Pacific (macro)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/np/13/GOES18-NP-13-900x540.gif",
-      "last_modified": "Mon, 02 Nov 2026 17:02:04 GMT"
+      "last_modified": "Mon, 02 Nov 2026 17:31:57 GMT"
     },
     "Pacific US (PACUS)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/13/GOES18-CONUS-13-625x375.gif",
-      "last_modified": "Mon, 02 Nov 2026 17:01:15 GMT"
+      "last_modified": "Mon, 02 Nov 2026 17:31:08 GMT"
     }
   },
   "gfs_snowfall": {
