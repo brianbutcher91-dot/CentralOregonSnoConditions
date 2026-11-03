@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T08:15:21.967775+00:00",
+  "generated_at": "2026-11-03T08:30:23.728462+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -914,7 +914,7 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 35.0,
+        "wind_speed_mph": 31.0,
         "wind_direction_deg": 90,
         "snow_level_ft": 6877,
         "temp_f": 36
@@ -2155,8 +2155,8 @@
       "periods": [
         {
           "number": 1,
-          "name": "Tonight",
-          "startTime": "2026-11-02T23:00:00-08:00",
+          "name": "Overnight",
+          "startTime": "2026-11-03T00:00:00-08:00",
           "endTime": "2026-11-03T06:00:00-08:00",
           "isDaytime": false,
           "temperature": 35,
@@ -3087,7 +3087,7 @@
     "Hoodoo": {
       "elevation_ft": 4705,
       "temp_f": 36,
-      "wind_speed_mph": 35.0,
+      "wind_speed_mph": 31.0,
       "wind_direction_deg": 90,
       "snow_level_ft": 6877,
       "precip_chance_today": 5,
@@ -3114,14 +3114,6 @@
         "temp_f": 31.98,
         "wind_speed_mph": 11.22,
         "wind_direction_deg": 152.1,
-        "precip_in": null,
-        "period": "historical"
-      },
-      {
-        "time": "2026-11-02T01:00:00.000Z",
-        "temp_f": 31.88,
-        "wind_speed_mph": 9.71,
-        "wind_direction_deg": 149.2,
         "precip_in": null,
         "period": "historical"
       },
@@ -3298,6 +3290,14 @@
         "temp_f": 33.83,
         "wind_speed_mph": 11.02,
         "wind_direction_deg": 138.1,
+        "precip_in": null,
+        "period": "historical"
+      },
+      {
+        "time": "2026-11-03T00:00:00.000Z",
+        "temp_f": 36.79,
+        "wind_speed_mph": 12.42,
+        "wind_direction_deg": 145.3,
         "precip_in": null,
         "period": "historical"
       },
@@ -4191,14 +4191,26 @@
   },
   "snotel": {
     "Mt Bachelor area (Irish Taylor)": {
-      "change_12h_in": -1,
-      "change_24h_in": -1
+      "snow_depth_in": 1,
+      "snow_depth_in_date": "2026-11-02",
+      "swe_in": 0.7,
+      "swe_in_date": "2026-11-02",
+      "change_12h_in": 0,
+      "change_24h_in": 0
     },
     "Three Creek / Tam McArthur (Three Creeks Meadow)": {
+      "snow_depth_in": 0,
+      "snow_depth_in_date": "2026-11-02",
+      "swe_in": 0.1,
+      "swe_in_date": "2026-11-02",
       "change_12h_in": 0,
       "change_24h_in": 0
     },
     "Santiam / Hoodoo (Hogg Pass)": {
+      "snow_depth_in": 0,
+      "snow_depth_in_date": "2026-11-02",
+      "swe_in": 0.2,
+      "swe_in_date": "2026-11-02",
       "change_12h_in": 0,
       "change_24h_in": 0
     },
@@ -4311,7 +4323,7 @@
   "mtbachelor": {
     "weather": {
       "current": {
-        "temperature": 37,
+        "temperature": 38,
         "weather_icon": "dor-snow"
       },
       "forecast": [
@@ -4445,9 +4457,9 @@
           "primary": true,
           "nonstandardizedDataPoints": {
             "depth": "144.8",
-            "timestamp": "2026-11-02T23:00:00.000Z"
+            "timestamp": "2026-11-03T00:00:00.000Z"
           },
-          "temperature": "37.48",
+          "temperature": "37.58",
           "wind": {
             "low": "0",
             "high": "0",
@@ -4467,14 +4479,14 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-11-02T23:00:00.000Z"
+            "timestamp": "2026-11-03T00:00:00.000Z"
           },
-          "temperature": "36.02",
+          "temperature": "38.65",
           "wind": {
-            "low": "7.575",
-            "high": "16.55",
+            "low": "8.64",
+            "high": "19.91",
             "current": null,
-            "average": "7.575",
+            "average": "8.64",
             "direction": "SSE"
           },
           "humidity": null,
@@ -4489,17 +4501,17 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-11-02T23:00:00.000Z"
+            "timestamp": "2026-11-03T00:00:00.000Z"
           },
-          "temperature": "37.25",
+          "temperature": "39.77",
           "wind": {
-            "low": "23.32",
-            "high": "38.17",
+            "low": "17.97",
+            "high": "37.33",
             "current": null,
-            "average": "23.32",
-            "direction": "ESE"
+            "average": "17.97",
+            "direction": "SE"
           },
-          "humidity": "41.82",
+          "humidity": "32.83",
           "display_name": "Pine Marten",
           "elevation_ft": 7800
         },
@@ -4511,14 +4523,14 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-11-02T23:00:00.000Z"
+            "timestamp": "2026-11-03T00:00:00.000Z"
           },
-          "temperature": "33.83",
+          "temperature": "36.79",
           "wind": {
-            "low": "11.02",
-            "high": "21.03",
+            "low": "12.42",
+            "high": "20.13",
             "current": null,
-            "average": "11.02",
+            "average": "12.42",
             "direction": "SE"
           },
           "humidity": null,
@@ -4603,11 +4615,11 @@
   },
   "hoodoo": {
     "weather": {
-      "Temperature": "35 &#176F",
-      "Wind": "East @ 35 MPH",
+      "Temperature": "34 &#176F",
+      "Wind": "East @ 31 MPH",
       "Snow depth": "1.5\"",
-      "Humidity": "81 %",
-      "Barometer": "29.96\" Hg",
+      "Humidity": "84 %",
+      "Barometer": "29.97\" Hg",
       "Rain Gauge": "0.01\""
     },
     "snow_totals": {
@@ -4655,8 +4667,8 @@
   "willamette_pass": {
     "forecast": {
       "weather_provider": "NOAA",
-      "date": "November 2, 2026, 11:55 pm",
-      "time": 1793692531000,
+      "date": "November 3, 2026, 12:10 am",
+      "time": 1793693419000,
       "current_weather": "Mostly Cloudy",
       "current_temperature": "41",
       "forecast": [
