@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T03:15:21.328843+00:00",
+  "generated_at": "2026-11-03T03:22:02.712226+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -2156,7 +2156,7 @@
         {
           "number": 1,
           "name": "Tonight",
-          "startTime": "2026-11-02T18:00:00-08:00",
+          "startTime": "2026-11-02T19:00:00-08:00",
           "endTime": "2026-11-03T06:00:00-08:00",
           "isDaytime": false,
           "temperature": 35,
@@ -2172,7 +2172,7 @@
           "shortForecast": "Mostly Cloudy",
           "detailedForecast": "Mostly cloudy, with a low around 35. Wind around 0 mph.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 6378
+          "snowLevelFt": 6693
         },
         {
           "number": 2,
@@ -3110,14 +3110,6 @@
   "bachelor_timeseries": {
     "hourly": [
       {
-        "time": "2026-11-01T20:00:00.000Z",
-        "temp_f": 28.64,
-        "wind_speed_mph": 4.408,
-        "wind_direction_deg": 264.7,
-        "precip_in": null,
-        "period": "historical"
-      },
-      {
         "time": "2026-11-01T21:00:00.000Z",
         "temp_f": 28.37,
         "wind_speed_mph": 3.893,
@@ -3302,12 +3294,12 @@
         "period": "historical"
       },
       {
-        "time": "2026-11-02T19:00:00+00:00",
-        "temp_f": 40.0,
-        "wind_speed_mph": 6.9,
-        "wind_direction_deg": 200,
-        "precip_in": 0.0,
-        "period": "forecast"
+        "time": "2026-11-02T19:00:00.000Z",
+        "temp_f": 33.99,
+        "wind_speed_mph": 14.82,
+        "wind_direction_deg": 129.9,
+        "precip_in": null,
+        "period": "historical"
       },
       {
         "time": "2026-11-02T20:00:00+00:00",
@@ -4203,8 +4195,8 @@
       "snow_depth_in_date": "2026-11-01",
       "swe_in": 0.5,
       "swe_in_date": "2026-11-01",
-      "change_12h_in": 0,
-      "change_24h_in": 1
+      "change_12h_in": -1,
+      "change_24h_in": -1
     },
     "Three Creek / Tam McArthur (Three Creeks Meadow)": {
       "snow_depth_in": 0,
@@ -4232,110 +4224,12 @@
     }
   },
   "odot_cams": {
-    "Century Drive": [
-      {
-        "device-id": 768,
-        "device-name": "Century Dr at MP 21.11 E",
-        "latitude": 43.99178,
-        "longitude": -121.65663,
-        "hwy-id": "",
-        "route-id": "CITY",
-        "milepoint": 21.11,
-        "cctv-url": "http://www.TripCheck.com/roadcams/cams/Century Dr at MP 21.11 E_pid3545.JPG",
-        "cctv-other": "Century Drive at MP 21.11",
-        "last-update-time": "2026-11-02T03:44:20.09-08:00",
-        "tripcheck_link": "https://www.tripcheck.com/Pages/View-Custom-Cameras/?CamIds=3545"
-      },
-      {
-        "device-id": 771,
-        "device-name": "Century Dr at MP 21.11 W",
-        "latitude": 43.99178,
-        "longitude": -121.65663,
-        "hwy-id": "",
-        "route-id": "CITY",
-        "milepoint": 21.11,
-        "cctv-url": "http://www.TripCheck.com/roadcams/cams/Century Dr at MP 21.11 W_pid3557.JPG",
-        "cctv-other": "Century Drive at MP 21.11",
-        "last-update-time": "2026-11-02T03:44:23.973-08:00",
-        "tripcheck_link": "https://www.tripcheck.com/Pages/View-Custom-Cameras/?CamIds=3557"
-      }
-    ],
-    "Santiam Pass": [
-      {
-        "device-id": 567,
-        "device-name": "Santiam Pass EB",
-        "latitude": 44.422,
-        "longitude": -121.85731,
-        "hwy-id": "016",
-        "route-id": "US20",
-        "milepoint": 80.14,
-        "cctv-url": "http://www.TripCheck.com/roadcams/cams/Santiam Pass_pid2728.JPG",
-        "cctv-other": "US20 at Santiam Pass",
-        "last-update-time": "2026-11-02T03:44:16.093-08:00",
-        "tripcheck_link": "https://www.tripcheck.com/Pages/View-Custom-Cameras/?CamIds=2728"
-      },
-      {
-        "device-id": 1443,
-        "device-name": "Santiam Pass WB",
-        "latitude": 44.422,
-        "longitude": -121.8573,
-        "hwy-id": "016",
-        "route-id": "US20",
-        "milepoint": 80.14,
-        "cctv-url": "http://www.TripCheck.com/roadcams/cams/Santiam Pass WB_pid5258.jpg",
-        "cctv-other": "US20 at Santiam Pass",
-        "last-update-time": "2026-11-02T03:44:16.157-08:00",
-        "tripcheck_link": "https://www.tripcheck.com/Pages/View-Custom-Cameras/?CamIds=5258"
-      }
-    ],
-    "Tombstone Pass": [
-      {
-        "device-id": 332,
-        "device-name": "US20 at Tombstone",
-        "latitude": 44.39548,
-        "longitude": -122.14151,
-        "hwy-id": "016",
-        "route-id": "US20",
-        "milepoint": 63.64,
-        "cctv-url": "http://www.TripCheck.com/roadcams/cams/US20atTombstone_pid1354.jpg",
-        "cctv-other": "US20 at Tombstone",
-        "last-update-time": "2026-11-02T03:44:04.983-08:00",
-        "tripcheck_link": "https://www.tripcheck.com/Pages/View-Custom-Cameras/?CamIds=1354"
-      }
-    ],
-    "Willamette Pass": [
-      {
-        "device-id": 207,
-        "device-name": "OR58 at Willamette Pass",
-        "latitude": 43.59702,
-        "longitude": -122.03383,
-        "hwy-id": "018",
-        "route-id": "OR58",
-        "milepoint": 62.0,
-        "cctv-url": "http://www.TripCheck.com/roadcams/cams/WillamettePass_pid658.jpg",
-        "cctv-other": "OR58 at Willamette Pass",
-        "last-update-time": "2026-11-02T03:44:23.457-08:00",
-        "tripcheck_link": "https://www.tripcheck.com/Pages/View-Custom-Cameras/?CamIds=658"
-      },
-      {
-        "device-id": 721,
-        "device-name": "OR58 at Willamette Pass W",
-        "latitude": 43.59702,
-        "longitude": -122.03386,
-        "hwy-id": "018",
-        "route-id": "OR58",
-        "milepoint": 62.0,
-        "cctv-url": "http://www.TripCheck.com/roadcams/cams/Willamette Pass_pid3351.JPG",
-        "cctv-other": "OR58 at Willamette Pass",
-        "last-update-time": "2026-11-02T03:44:19.463-08:00",
-        "tripcheck_link": "https://www.tripcheck.com/Pages/View-Custom-Cameras/?CamIds=3351"
-      }
-    ]
+    "error": "HTTPSConnectionPool(host='api.odot.state.or.us', port=443): Max retries exceeded with url: /tripcheck/Cctv/Inventory?DeviceName=Century+Dr (Caused by NameResolutionError(\"HTTPSConnection(host='api.odot.state.or.us', port=443): Failed to resolve 'api.odot.state.or.us' ([Errno -5] No address associated with hostname)\"))"
   },
   "mtbachelor": {
     "weather": {
       "current": {
-        "temperature": 35,
+        "temperature": 33,
         "weather_icon": "dor-mostlycloudy"
       },
       "forecast": [
@@ -4469,9 +4363,9 @@
           "primary": true,
           "nonstandardizedDataPoints": {
             "depth": "145",
-            "timestamp": "2026-11-02T18:00:00.000Z"
+            "timestamp": "2026-11-02T19:00:00.000Z"
           },
-          "temperature": "34.67",
+          "temperature": "33.01",
           "wind": {
             "low": "0",
             "high": "0",
@@ -4491,14 +4385,14 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-11-02T18:00:00.000Z"
+            "timestamp": "2026-11-02T19:00:00.000Z"
           },
-          "temperature": "35.95",
+          "temperature": "36.04",
           "wind": {
-            "low": "8.8",
-            "high": "16.11",
+            "low": "9.8",
+            "high": "21.92",
             "current": null,
-            "average": "8.8",
+            "average": "9.8",
             "direction": "SE"
           },
           "humidity": null,
@@ -4513,17 +4407,17 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-11-02T18:00:00.000Z"
+            "timestamp": "2026-11-02T19:00:00.000Z"
           },
-          "temperature": "35.97",
+          "temperature": "33.73",
           "wind": {
-            "low": "13.61",
-            "high": "28.34",
+            "low": "26.11",
+            "high": "38.24",
             "current": null,
-            "average": "13.61",
-            "direction": "SE"
+            "average": "26.11",
+            "direction": "ESE"
           },
-          "humidity": "60.64",
+          "humidity": "58.55",
           "display_name": "Pine Marten",
           "elevation_ft": 7800
         },
@@ -4535,14 +4429,14 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-11-02T18:00:00.000Z"
+            "timestamp": "2026-11-02T19:00:00.000Z"
           },
-          "temperature": "33.98",
+          "temperature": "33.99",
           "wind": {
-            "low": "13.25",
-            "high": "22.82",
+            "low": "14.82",
+            "high": "23.49",
             "current": null,
-            "average": "13.25",
+            "average": "14.82",
             "direction": "SE"
           },
           "humidity": null,
@@ -4627,10 +4521,10 @@
   },
   "hoodoo": {
     "weather": {
-      "Temperature": "39 &#176F",
+      "Temperature": "40 &#176F",
       "Wind": "East @ 20 MPH",
       "Snow depth": "1.5\"",
-      "Humidity": "71 %",
+      "Humidity": "70 %",
       "Barometer": "30.07\" Hg",
       "Rain Gauge": "0.01\""
     },
@@ -4679,14 +4573,14 @@
   "willamette_pass": {
     "forecast": {
       "weather_provider": "NOAA",
-      "date": "November 2, 2026, 6:55 pm",
-      "time": 1793674521000,
+      "date": "November 2, 2026, 7:19 pm",
+      "time": 1793675960000,
       "current_weather": "Cloudy",
       "current_temperature": "42",
       "forecast": [
         {
           "day": "Monday",
-          "night_forecast": "Cloudy, with a low around 34. Calm wind becoming southeast 5 to 8 mph in the evening. "
+          "night_forecast": "Cloudy, with a low around 34. Southeast wind 3 to 8 mph. "
         },
         {
           "day": "Tuesday",
