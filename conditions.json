@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T19:01:06.117942+00:00",
+  "generated_at": "2026-11-03T19:15:35.650833+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -2156,7 +2156,7 @@
         {
           "number": 1,
           "name": "Today",
-          "startTime": "2026-11-03T10:00:00-08:00",
+          "startTime": "2026-11-03T11:00:00-08:00",
           "endTime": "2026-11-03T18:00:00-08:00",
           "isDaytime": true,
           "temperature": 52,
@@ -2311,7 +2311,7 @@
           "temperatureTrend": null,
           "probabilityOfPrecipitation": {
             "unitCode": "wmoUnit:percent",
-            "value": 2
+            "value": 1
           },
           "windSpeed": "1 to 7 mph",
           "windDirection": "SW",
@@ -2332,7 +2332,7 @@
           "temperatureTrend": null,
           "probabilityOfPrecipitation": {
             "unitCode": "wmoUnit:percent",
-            "value": 3
+            "value": 1
           },
           "windSpeed": "5 to 12 mph",
           "windDirection": "S",
@@ -2353,13 +2353,13 @@
           "temperatureTrend": null,
           "probabilityOfPrecipitation": {
             "unitCode": "wmoUnit:percent",
-            "value": 28
+            "value": 20
           },
           "windSpeed": "5 to 14 mph",
           "windDirection": "S",
-          "icon": "https://api.weather.gov/icons/land/night/bkn/rain_showers,30?size=medium",
-          "shortForecast": "Mostly Cloudy then Chance Rain Showers",
-          "detailedForecast": "A chance of rain showers after 4am. Mostly cloudy, with a low around 41.",
+          "icon": "https://api.weather.gov/icons/land/night/bkn/rain_showers,20?size=medium",
+          "shortForecast": "Mostly Cloudy then Slight Chance Rain Showers",
+          "detailedForecast": "A slight chance of rain showers after 4am. Mostly cloudy, with a low around 41.",
           "precipitationAmountIn": 0.0,
           "snowLevelFt": 8898
         },
@@ -2374,13 +2374,13 @@
           "temperatureTrend": null,
           "probabilityOfPrecipitation": {
             "unitCode": "wmoUnit:percent",
-            "value": 28
+            "value": 20
           },
           "windSpeed": "1 to 14 mph",
           "windDirection": "SW",
-          "icon": "https://api.weather.gov/icons/land/day/rain_showers,30/bkn?size=medium",
-          "shortForecast": "Chance Rain Showers then Mostly Cloudy",
-          "detailedForecast": "A chance of rain showers before 10am. Mostly cloudy, with a high near 56.",
+          "icon": "https://api.weather.gov/icons/land/day/rain_showers,20/bkn?size=medium",
+          "shortForecast": "Slight Chance Rain Showers then Mostly Cloudy",
+          "detailedForecast": "A slight chance of rain showers before 10am. Mostly cloudy, with a high near 56.",
           "precipitationAmountIn": 0.01,
           "snowLevelFt": 7615
         },
@@ -2390,18 +2390,18 @@
           "startTime": "2026-11-08T18:00:00-08:00",
           "endTime": "2026-11-09T06:00:00-08:00",
           "isDaytime": false,
-          "temperature": 38,
+          "temperature": 37,
           "temperatureUnit": "F",
           "temperatureTrend": null,
           "probabilityOfPrecipitation": {
             "unitCode": "wmoUnit:percent",
-            "value": 6
+            "value": 9
           },
           "windSpeed": "0 to 3 mph",
           "windDirection": "W",
           "icon": "https://api.weather.gov/icons/land/night/bkn?size=medium",
           "shortForecast": "Mostly Cloudy",
-          "detailedForecast": "Mostly cloudy, with a low around 38.",
+          "detailedForecast": "Mostly cloudy, with a low around 37.",
           "precipitationAmountIn": 0.0,
           "snowLevelFt": 6982
         },
@@ -2416,7 +2416,7 @@
           "temperatureTrend": null,
           "probabilityOfPrecipitation": {
             "unitCode": "wmoUnit:percent",
-            "value": 13
+            "value": 9
           },
           "windSpeed": "2 to 7 mph",
           "windDirection": "SW",
@@ -2432,18 +2432,18 @@
           "startTime": "2026-11-09T18:00:00-08:00",
           "endTime": "2026-11-10T06:00:00-08:00",
           "isDaytime": false,
-          "temperature": 39,
+          "temperature": 38,
           "temperatureUnit": "F",
           "temperatureTrend": null,
           "probabilityOfPrecipitation": {
             "unitCode": "wmoUnit:percent",
-            "value": 13
+            "value": 18
           },
           "windSpeed": "2 to 10 mph",
           "windDirection": "SW",
-          "icon": "https://api.weather.gov/icons/land/night/bkn?size=medium",
-          "shortForecast": "Mostly Cloudy",
-          "detailedForecast": "Mostly cloudy, with a low around 39.",
+          "icon": "https://api.weather.gov/icons/land/night/bkn/rain_showers,20?size=medium",
+          "shortForecast": "Mostly Cloudy then Slight Chance Rain Showers",
+          "detailedForecast": "A slight chance of rain showers after 4am. Mostly cloudy, with a low around 38.",
           "precipitationAmountIn": 0.0,
           "snowLevelFt": 7275
         }
@@ -3110,14 +3110,6 @@
   "bachelor_timeseries": {
     "hourly": [
       {
-        "time": "2026-11-02T11:00:00.000Z",
-        "temp_f": 35.41,
-        "wind_speed_mph": 18.78,
-        "wind_direction_deg": 143.4,
-        "precip_in": null,
-        "period": "historical"
-      },
-      {
         "time": "2026-11-02T12:00:00.000Z",
         "temp_f": 35.95,
         "wind_speed_mph": 17.99,
@@ -3298,6 +3290,14 @@
         "temp_f": 33.44,
         "wind_speed_mph": 12.67,
         "wind_direction_deg": 126.8,
+        "precip_in": null,
+        "period": "historical"
+      },
+      {
+        "time": "2026-11-03T11:00:00.000Z",
+        "temp_f": 33.59,
+        "wind_speed_mph": 7.962,
+        "wind_direction_deg": 111.8,
         "precip_in": null,
         "period": "historical"
       },
@@ -4186,6 +4186,10 @@
       {
         "time": "2026-11-03T18:15:30.367452+00:00",
         "precip_in": 0
+      },
+      {
+        "time": "2026-11-03T19:15:36.162125+00:00",
+        "precip_in": 0
       }
     ]
   },
@@ -4339,10 +4343,10 @@
           "weather_icon": "dor-snow",
           "id": 1793732400,
           "day": "Tuesday",
-          "temperature_high": 39,
+          "temperature_high": 38,
           "temperature_low": 25,
-          "precipitation_high": 75,
-          "precipitation_low": 75,
+          "precipitation_high": 79,
+          "precipitation_low": 79,
           "wind_speed": 6,
           "wind_direction": "SE"
         },
@@ -4622,7 +4626,7 @@
       "Temperature": "34 &#176F",
       "Wind": "East @ 29 MPH",
       "Snow depth": "-999.9\"",
-      "Humidity": "83 %",
+      "Humidity": "84 %",
       "Barometer": "29.89\" Hg",
       "Rain Gauge": "0.02\""
     },
@@ -4676,40 +4680,40 @@
   "willamette_pass": {
     "forecast": {
       "weather_provider": "NOAA",
-      "date": "November 3, 2026, 10:43 am",
-      "time": 1793731402000,
+      "date": "November 3, 2026, 10:55 am",
+      "time": 1793732120000,
       "current_weather": "Mostly Cloudy",
-      "current_temperature": "43",
+      "current_temperature": "44",
       "forecast": [
         {
           "day": "Tuesday",
-          "day_forecast": "Mostly cloudy, with a high near 46. Southeast wind around 7 mph becoming west in the afternoon. ",
-          "night_forecast": "Mostly clear, with a low around 31. Light north northeast wind. "
+          "day_forecast": "Mostly cloudy, with a high near 46. South southeast wind around 5 mph becoming calm  in the morning. ",
+          "night_forecast": "Mostly cloudy, then gradually becoming clear, with a low around 31. Light and variable wind. "
         },
         {
           "day": "Wednesday",
-          "day_forecast": "Rain likely after 4pm.  Snow level 6000 feet rising to 6900 feet in the afternoon. Increasing clouds, with a high near 47. Calm wind becoming west 5 to 7 mph in the afternoon.  Chance of precipitation is 60%.",
-          "night_forecast": "Rain.  Snow level 6800 feet lowering to 6100 feet after midnight . Low around 34. West wind 3 to 8 mph.  Chance of precipitation is 80%. New precipitation amounts of less than a tenth of an inch possible. "
+          "day_forecast": "Increasing clouds, with a high near 47. Light and variable wind becoming west around 5 mph in the afternoon. ",
+          "night_forecast": "Rain likely, mixing with snow after 1am, then gradually ending.  Snow level 6800 feet lowering to 6300 feet after midnight . Mostly cloudy, with a low around 34. West wind 3 to 6 mph.  Chance of precipitation is 60%. Little or no snow accumulation expected. "
         },
         {
           "day": "Thursday",
-          "day_forecast": "Mostly sunny, with a high near 44. Light west southwest wind. ",
-          "night_forecast": "Mostly cloudy, with a low around 34."
+          "day_forecast": "Mostly sunny, with a high near 45. Light west wind. ",
+          "night_forecast": "Mostly cloudy, with a low around 35."
         },
         {
           "day": "Friday",
-          "day_forecast": "A slight chance of rain and snow before 10am.  Snow level 6300 feet rising to 8500 feet in the afternoon. Mostly cloudy, with a high near 47. Chance of precipitation is 20%.",
-          "night_forecast": "Partly cloudy, with a low around 36."
+          "day_forecast": "Mostly cloudy, with a high near 50.",
+          "night_forecast": "Partly cloudy, with a low around 37."
         },
         {
           "day": "Saturday",
-          "day_forecast": "Mostly sunny, with a high near 55.",
-          "night_forecast": "A slight chance of rain after 10pm.  Snow level 8400 feet. Mostly cloudy, with a low around 38."
+          "day_forecast": "Mostly sunny, with a high near 57.",
+          "night_forecast": "A slight chance of rain after 10pm.  Snow level 8400 feet lowering to 7700 feet after midnight . Mostly cloudy, with a low around 37."
         },
         {
           "day": "Sunday",
-          "day_forecast": "A chance of rain.  Snow level 7700 feet. Partly sunny, with a high near 46.",
-          "night_forecast": "A slight chance of rain.  Snow level 7300 feet. Mostly cloudy, with a low around 35."
+          "day_forecast": "A chance of rain.  Snow level 7200 feet. Mostly cloudy, with a high near 45.",
+          "night_forecast": "A slight chance of rain.  Snow level 7000 feet. Mostly cloudy, with a low around 35."
         }
       ],
       "wind": "NA",
