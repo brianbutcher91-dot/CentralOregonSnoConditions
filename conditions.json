@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T23:30:24.367148+00:00",
+  "generated_at": "2026-11-03T23:45:21.346553+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -314,7 +314,7 @@
         {
           "number": 1,
           "name": "This Afternoon",
-          "startTime": "2026-11-03T14:00:00-08:00",
+          "startTime": "2026-11-03T15:00:00-08:00",
           "endTime": "2026-11-03T18:00:00-08:00",
           "isDaytime": true,
           "temperature": 40,
@@ -324,11 +324,11 @@
             "unitCode": "wmoUnit:percent",
             "value": 2
           },
-          "windSpeed": "3 mph",
+          "windSpeed": "2 mph",
           "windDirection": "N",
           "icon": "https://api.weather.gov/icons/land/day/bkn?size=medium",
           "shortForecast": "Mostly Cloudy",
-          "detailedForecast": "Mostly cloudy. High near 40, with temperatures falling to around 34 in the afternoon. North wind around 3 mph.",
+          "detailedForecast": "Mostly cloudy. High near 40, with temperatures falling to around 34 in the afternoon. North wind around 2 mph.",
           "precipitationAmountIn": 0.0,
           "snowLevelFt": 6903
         },
@@ -914,7 +914,7 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 15.0,
+        "wind_speed_mph": 12.0,
         "wind_direction_deg": 90,
         "snow_level_ft": 6772,
         "temp_f": 46
@@ -928,7 +928,7 @@
         {
           "number": 1,
           "name": "This Afternoon",
-          "startTime": "2026-11-03T13:00:00-08:00",
+          "startTime": "2026-11-03T15:00:00-08:00",
           "endTime": "2026-11-03T18:00:00-08:00",
           "isDaytime": true,
           "temperature": 37,
@@ -938,11 +938,11 @@
             "unitCode": "wmoUnit:percent",
             "value": 3
           },
-          "windSpeed": "2 to 7 mph",
-          "windDirection": "SW",
+          "windSpeed": "5 mph",
+          "windDirection": "W",
           "icon": "https://api.weather.gov/icons/land/day/bkn?size=medium",
-          "shortForecast": "Mostly Cloudy",
-          "detailedForecast": "Mostly cloudy. High near 37, with temperatures falling to around 32 in the afternoon. Southwest wind 2 to 7 mph.",
+          "shortForecast": "Partly Sunny",
+          "detailedForecast": "Partly sunny. High near 37, with temperatures falling to around 32 in the afternoon. West wind around 5 mph.",
           "precipitationAmountIn": 0.0,
           "snowLevelFt": 6745
         },
@@ -3087,7 +3087,7 @@
     "Hoodoo": {
       "elevation_ft": 4705,
       "temp_f": 46,
-      "wind_speed_mph": 15.0,
+      "wind_speed_mph": 12.0,
       "wind_direction_deg": 90,
       "snow_level_ft": 6772,
       "precip_chance_today": 3,
@@ -3300,14 +3300,6 @@
         "wind_direction_deg": 262.8,
         "precip_in": null,
         "period": "historical"
-      },
-      {
-        "time": "2026-11-03T16:00:00+00:00",
-        "temp_f": 31.0,
-        "wind_speed_mph": 8.1,
-        "wind_direction_deg": 180,
-        "precip_in": 0.0,
-        "period": "forecast"
       },
       {
         "time": "2026-11-03T17:00:00+00:00",
@@ -4186,6 +4178,10 @@
       {
         "time": "2026-11-03T22:45:16.433768+00:00",
         "precip_in": 0
+      },
+      {
+        "time": "2026-11-03T23:45:21.607800+00:00",
+        "precip_in": 0
       }
     ]
   },
@@ -4339,7 +4335,7 @@
           "weather_icon": "dor-snow",
           "id": 1793732400,
           "day": "Tuesday",
-          "temperature_high": 35,
+          "temperature_high": 37,
           "temperature_low": 25,
           "precipitation_high": 77,
           "precipitation_low": 77,
@@ -4619,10 +4615,10 @@
   },
   "hoodoo": {
     "weather": {
-      "Temperature": "36 &#176F",
-      "Wind": "East @ 15 MPH",
+      "Temperature": "37 &#176F",
+      "Wind": "East @ 12 MPH",
       "Snow depth": "-999.9\"",
-      "Humidity": "82 %",
+      "Humidity": "81 %",
       "Barometer": "29.92\" Hg",
       "Rain Gauge": "0.02\""
     },
@@ -4676,10 +4672,10 @@
   "willamette_pass": {
     "forecast": {
       "weather_provider": "NOAA",
-      "date": "November 3, 2026, 3:19 pm",
-      "time": 1793747960000,
+      "date": "November 3, 2026, 3:43 pm",
+      "time": 1793749406000,
       "current_weather": "Decreasing Clouds",
-      "current_temperature": "50",
+      "current_temperature": "53",
       "forecast": [
         {
           "day": "Tuesday",
@@ -4789,15 +4785,15 @@
   "satellite": {
     "Pacific Northwest": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/pnw/13/GOES18-PNW-13-600x600.gif",
-      "last_modified": "Tue, 03 Nov 2026 23:01:35 GMT"
+      "last_modified": "Tue, 03 Nov 2026 23:31:25 GMT"
     },
     "North Pacific (macro)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/np/13/GOES18-NP-13-900x540.gif",
-      "last_modified": "Tue, 03 Nov 2026 23:01:52 GMT"
+      "last_modified": "Tue, 03 Nov 2026 23:31:46 GMT"
     },
     "Pacific US (PACUS)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/13/GOES18-CONUS-13-625x375.gif",
-      "last_modified": "Tue, 03 Nov 2026 23:01:14 GMT"
+      "last_modified": "Tue, 03 Nov 2026 23:31:03 GMT"
     }
   },
   "gfs_snowfall": {
