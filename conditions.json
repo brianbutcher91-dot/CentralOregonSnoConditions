@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T13:15:20.173139+00:00",
+  "generated_at": "2026-11-03T13:30:21.622247+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -914,7 +914,7 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 23.0,
+        "wind_speed_mph": 32.0,
         "wind_direction_deg": 90,
         "snow_level_ft": 6379,
         "temp_f": 34
@@ -3087,7 +3087,7 @@
     "Hoodoo": {
       "elevation_ft": 4705,
       "temp_f": 34,
-      "wind_speed_mph": 23.0,
+      "wind_speed_mph": 32.0,
       "wind_direction_deg": 90,
       "snow_level_ft": 6379,
       "precip_chance_today": 1,
@@ -3109,14 +3109,6 @@
   },
   "bachelor_timeseries": {
     "hourly": [
-      {
-        "time": "2026-11-02T05:00:00.000Z",
-        "temp_f": 35.21,
-        "wind_speed_mph": 2.49,
-        "wind_direction_deg": 198.6,
-        "precip_in": null,
-        "period": "historical"
-      },
       {
         "time": "2026-11-02T06:00:00.000Z",
         "temp_f": 35.72,
@@ -3298,6 +3290,14 @@
         "temp_f": 35.06,
         "wind_speed_mph": 11.94,
         "wind_direction_deg": 143.2,
+        "precip_in": null,
+        "period": "historical"
+      },
+      {
+        "time": "2026-11-03T05:00:00.000Z",
+        "temp_f": 34.34,
+        "wind_speed_mph": 12.78,
+        "wind_direction_deg": 132.7,
         "precip_in": null,
         "period": "historical"
       },
@@ -4195,7 +4195,7 @@
       "snow_depth_in_date": "2026-11-02",
       "swe_in": 0.7,
       "swe_in_date": "2026-11-02",
-      "change_12h_in": 1,
+      "change_12h_in": 0,
       "change_24h_in": 0
     },
     "Three Creek / Tam McArthur (Three Creeks Meadow)": {
@@ -4327,7 +4327,7 @@
   "mtbachelor": {
     "weather": {
       "current": {
-        "temperature": 35,
+        "temperature": 36,
         "weather_icon": "dor-mostlycloudy"
       },
       "forecast": [
@@ -4369,41 +4369,41 @@
           "weather_icon": "dor-snow",
           "id": 1793905200,
           "day": "Thursday",
-          "temperature_high": 39,
-          "temperature_low": 28,
-          "precipitation_high": 82,
-          "precipitation_low": 82,
-          "wind_speed": 9,
+          "temperature_high": 40,
+          "temperature_low": 29,
+          "precipitation_high": 75,
+          "precipitation_low": 75,
+          "wind_speed": 6,
           "wind_direction": "W"
         },
         {
           "date": "2026-11-06",
-          "description_long": "light snow",
-          "description_short": "light snow",
-          "details": "Snow",
-          "weather_icon": "dor-snow",
+          "description_long": "overcast clouds",
+          "description_short": "overcast clouds",
+          "details": "Clouds",
+          "weather_icon": "dor-mostlycloudy",
           "id": 1793991600,
           "day": "Friday",
           "temperature_high": 46,
-          "temperature_low": 33,
-          "precipitation_high": 63,
-          "precipitation_low": 63,
-          "wind_speed": 7,
-          "wind_direction": "W"
+          "temperature_low": 35,
+          "precipitation_high": 55,
+          "precipitation_low": 55,
+          "wind_speed": 5,
+          "wind_direction": "WSW"
         },
         {
           "date": "2026-11-07",
-          "description_long": "overcast clouds",
-          "description_short": "overcast clouds",
+          "description_long": "broken clouds",
+          "description_short": "broken clouds",
           "details": "Clouds",
           "weather_icon": "dor-mostlycloudy",
           "id": 1794078000,
           "day": "Saturday",
           "temperature_high": 52,
-          "temperature_low": 38,
+          "temperature_low": 39,
           "precipitation_high": 50,
           "precipitation_low": 50,
-          "wind_speed": 14,
+          "wind_speed": 13,
           "wind_direction": "SW"
         },
         {
@@ -4414,27 +4414,27 @@
           "weather_icon": "dor-snow",
           "id": 1794164400,
           "day": "Sunday",
-          "temperature_high": 39,
-          "temperature_low": 33,
-          "precipitation_high": 95,
-          "precipitation_low": 95,
-          "wind_speed": 18,
+          "temperature_high": 38,
+          "temperature_low": 28,
+          "precipitation_high": 101,
+          "precipitation_low": 101,
+          "wind_speed": 15,
           "wind_direction": "SW"
         },
         {
           "date": "2026-11-09",
-          "description_long": "light rain",
-          "description_short": "light rain",
-          "details": "Rain",
-          "weather_icon": "dor-rain",
+          "description_long": "overcast clouds",
+          "description_short": "overcast clouds",
+          "details": "Clouds",
+          "weather_icon": "dor-mostlycloudy",
           "id": 1794250800,
           "day": "Monday",
-          "temperature_high": 46,
-          "temperature_low": 33,
-          "precipitation_high": 73,
-          "precipitation_low": 73,
-          "wind_speed": 4,
-          "wind_direction": "S"
+          "temperature_high": 44,
+          "temperature_low": 31,
+          "precipitation_high": 60,
+          "precipitation_low": 60,
+          "wind_speed": 10,
+          "wind_direction": "WSW"
         },
         {
           "date": "2026-11-10",
@@ -4461,9 +4461,9 @@
           "primary": true,
           "nonstandardizedDataPoints": {
             "depth": "145",
-            "timestamp": "2026-11-03T04:00:00.000Z"
+            "timestamp": "2026-11-03T05:00:00.000Z"
           },
-          "temperature": "35.25",
+          "temperature": "35.52",
           "wind": {
             "low": "0",
             "high": "0",
@@ -4483,14 +4483,14 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-11-03T04:00:00.000Z"
+            "timestamp": "2026-11-03T05:00:00.000Z"
           },
-          "temperature": "36.81",
+          "temperature": "36.26",
           "wind": {
-            "low": "7.807",
-            "high": "15.21",
+            "low": "7.668",
+            "high": "16.11",
             "current": null,
-            "average": "7.807",
+            "average": "7.668",
             "direction": "SSE"
           },
           "humidity": null,
@@ -4505,17 +4505,17 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-11-03T04:00:00.000Z"
+            "timestamp": "2026-11-03T05:00:00.000Z"
           },
-          "temperature": "37.93",
+          "temperature": "34.78",
           "wind": {
-            "low": "16.17",
-            "high": "33.21",
+            "low": "23.14",
+            "high": "30.61",
             "current": null,
-            "average": "16.17",
-            "direction": "ESE"
+            "average": "23.14",
+            "direction": "SE"
           },
-          "humidity": "68.89",
+          "humidity": "79.45",
           "display_name": "Pine Marten",
           "elevation_ft": 7800
         },
@@ -4527,14 +4527,14 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-11-03T04:00:00.000Z"
+            "timestamp": "2026-11-03T05:00:00.000Z"
           },
-          "temperature": "35.06",
+          "temperature": "34.34",
           "wind": {
-            "low": "11.94",
-            "high": "20.36",
+            "low": "12.78",
+            "high": "21.48",
             "current": null,
-            "average": "11.94",
+            "average": "12.78",
             "direction": "SE"
           },
           "humidity": null,
@@ -4619,10 +4619,10 @@
   },
   "hoodoo": {
     "weather": {
-      "Temperature": "33 &#176F",
-      "Wind": "East @ 23 MPH",
+      "Temperature": "34 &#176F",
+      "Wind": "East @ 32 MPH",
       "Snow depth": "1.5\"",
-      "Humidity": "89 %",
+      "Humidity": "84 %",
       "Barometer": "29.93\" Hg",
       "Rain Gauge": "0.02\""
     },
@@ -4785,7 +4785,7 @@
     },
     "North Pacific (macro)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/np/13/GOES18-NP-13-900x540.gif",
-      "last_modified": "Tue, 03 Nov 2026 13:01:52 GMT"
+      "last_modified": "Tue, 03 Nov 2026 13:01:51 GMT"
     },
     "Pacific US (PACUS)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/13/GOES18-CONUS-13-625x375.gif",
