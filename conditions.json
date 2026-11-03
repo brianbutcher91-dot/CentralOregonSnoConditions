@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T05:15:16.461319+00:00",
+  "generated_at": "2026-11-03T05:30:18.893631+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -621,7 +621,7 @@
         {
           "number": 1,
           "name": "Tonight",
-          "startTime": "2026-11-02T21:00:00-08:00",
+          "startTime": "2026-11-02T20:00:00-08:00",
           "endTime": "2026-11-03T06:00:00-08:00",
           "isDaytime": false,
           "temperature": 33,
@@ -631,13 +631,13 @@
             "unitCode": "wmoUnit:percent",
             "value": 6
           },
-          "windSpeed": "6 to 9 mph",
+          "windSpeed": "5 to 9 mph",
           "windDirection": "E",
           "icon": "https://api.weather.gov/icons/land/night/ovc?size=medium",
           "shortForecast": "Cloudy",
-          "detailedForecast": "Cloudy, with a low around 33. East wind 6 to 9 mph.",
+          "detailedForecast": "Cloudy, with a low around 33. East wind 5 to 9 mph.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 6902
+          "snowLevelFt": 6457
         },
         {
           "number": 2,
@@ -928,7 +928,7 @@
         {
           "number": 1,
           "name": "Tonight",
-          "startTime": "2026-11-02T20:00:00-08:00",
+          "startTime": "2026-11-02T19:00:00-08:00",
           "endTime": "2026-11-03T06:00:00-08:00",
           "isDaytime": false,
           "temperature": 34,
@@ -938,11 +938,11 @@
             "unitCode": "wmoUnit:percent",
             "value": 4
           },
-          "windSpeed": "7 to 12 mph",
+          "windSpeed": "6 to 12 mph",
           "windDirection": "S",
           "icon": "https://api.weather.gov/icons/land/night/bkn?size=medium",
           "shortForecast": "Mostly Cloudy",
-          "detailedForecast": "Mostly cloudy. Low around 34, with temperatures rising to around 36 overnight. South wind 7 to 12 mph.",
+          "detailedForecast": "Mostly cloudy. Low around 34, with temperatures rising to around 36 overnight. South wind 6 to 12 mph.",
           "precipitationAmountIn": 0.0,
           "snowLevelFt": 6825
         },
@@ -2463,7 +2463,7 @@
         {
           "number": 1,
           "name": "Tonight",
-          "startTime": "2026-11-02T19:00:00-08:00",
+          "startTime": "2026-11-02T20:00:00-08:00",
           "endTime": "2026-11-03T06:00:00-08:00",
           "isDaytime": false,
           "temperature": 31,
@@ -2770,7 +2770,7 @@
         {
           "number": 1,
           "name": "Tonight",
-          "startTime": "2026-11-02T19:00:00-08:00",
+          "startTime": "2026-11-02T18:00:00-08:00",
           "endTime": "2026-11-03T06:00:00-08:00",
           "isDaytime": false,
           "temperature": 28,
@@ -2786,7 +2786,7 @@
           "shortForecast": "Mostly Cloudy",
           "detailedForecast": "Mostly cloudy, with a low around 28. East wind around 3 mph.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 7192
+          "snowLevelFt": 6509
         },
         {
           "number": 2,
@@ -3110,14 +3110,6 @@
   "bachelor_timeseries": {
     "hourly": [
       {
-        "time": "2026-11-01T22:00:00.000Z",
-        "temp_f": 28.66,
-        "wind_speed_mph": 3.458,
-        "wind_direction_deg": 252.2,
-        "precip_in": null,
-        "period": "historical"
-      },
-      {
         "time": "2026-11-01T23:00:00.000Z",
         "temp_f": 29.72,
         "wind_speed_mph": 3.168,
@@ -3302,12 +3294,12 @@
         "period": "historical"
       },
       {
-        "time": "2026-11-02T21:00:00+00:00",
-        "temp_f": 41.0,
-        "wind_speed_mph": 5.8,
-        "wind_direction_deg": 190,
-        "precip_in": 0.0,
-        "period": "forecast"
+        "time": "2026-11-02T21:00:00.000Z",
+        "temp_f": 33.12,
+        "wind_speed_mph": 12.25,
+        "wind_direction_deg": 134.3,
+        "precip_in": null,
+        "period": "historical"
       },
       {
         "time": "2026-11-02T22:00:00+00:00",
@@ -4198,38 +4190,7 @@
     ]
   },
   "snotel": {
-    "Mt Bachelor area (Irish Taylor)": {
-      "snow_depth_in": 1,
-      "snow_depth_in_date": "2026-11-01",
-      "swe_in": 0.5,
-      "swe_in_date": "2026-11-01",
-      "change_12h_in": 0,
-      "change_24h_in": 0
-    },
-    "Three Creek / Tam McArthur (Three Creeks Meadow)": {
-      "snow_depth_in": 0,
-      "snow_depth_in_date": "2026-11-01",
-      "swe_in": 0.0,
-      "swe_in_date": "2026-11-01",
-      "change_12h_in": 0,
-      "change_24h_in": 0
-    },
-    "Santiam / Hoodoo (Hogg Pass)": {
-      "snow_depth_in": 0,
-      "snow_depth_in_date": "2026-11-01",
-      "swe_in": 0.0,
-      "swe_in_date": "2026-11-01",
-      "change_12h_in": 0,
-      "change_24h_in": 0
-    },
-    "Ochocos (Ochoco Meadows)": {
-      "snow_depth_in": 0,
-      "snow_depth_in_date": "2026-11-01",
-      "swe_in": 0.0,
-      "swe_in_date": "2026-11-01",
-      "change_12h_in": 0,
-      "change_24h_in": 0
-    }
+    "error": "500 Server Error: Internal Server Error for url: https://wcc.sc.egov.usda.gov/awdbRestApi/services/v1/data?stationTriplets=815%3AOR%3ASNTL&elements=SNWD%2CWTEQ&duration=DAILY&getFlags=false&beginDate=-1&endDate=-1"
   },
   "odot_cams": {
     "Century Drive": [
@@ -4335,7 +4296,7 @@
   "mtbachelor": {
     "weather": {
       "current": {
-        "temperature": 33,
+        "temperature": 34,
         "weather_icon": "dor-mostlycloudy"
       },
       "forecast": [
@@ -4469,9 +4430,9 @@
           "primary": true,
           "nonstandardizedDataPoints": {
             "depth": "145",
-            "timestamp": "2026-11-02T20:00:00.000Z"
+            "timestamp": "2026-11-02T21:00:00.000Z"
           },
-          "temperature": "32.8",
+          "temperature": "33.85",
           "wind": {
             "low": "0",
             "high": "0",
@@ -4491,15 +4452,15 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-11-02T20:00:00.000Z"
+            "timestamp": "2026-11-02T21:00:00.000Z"
           },
-          "temperature": "35.64",
+          "temperature": "35.13",
           "wind": {
-            "low": "9.79",
-            "high": "18.57",
+            "low": "8.67",
+            "high": "16.78",
             "current": null,
-            "average": "9.79",
-            "direction": "SE"
+            "average": "8.67",
+            "direction": "SSE"
           },
           "humidity": null,
           "display_name": "Sunrise",
@@ -4513,17 +4474,17 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-11-02T20:00:00.000Z"
+            "timestamp": "2026-11-02T21:00:00.000Z"
           },
-          "temperature": "33.47",
+          "temperature": "33.42",
           "wind": {
-            "low": "28.26",
-            "high": "38.28",
+            "low": "22.46",
+            "high": "33.98",
             "current": null,
-            "average": "28.26",
+            "average": "22.46",
             "direction": "SE"
           },
-          "humidity": "63.7",
+          "humidity": "59.34",
           "display_name": "Pine Marten",
           "elevation_ft": 7800
         },
@@ -4535,14 +4496,14 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-11-02T20:00:00.000Z"
+            "timestamp": "2026-11-02T21:00:00.000Z"
           },
-          "temperature": "33.52",
+          "temperature": "33.12",
           "wind": {
-            "low": "14.49",
-            "high": "23.71",
+            "low": "12.25",
+            "high": "21.25",
             "current": null,
-            "average": "14.49",
+            "average": "12.25",
             "direction": "SE"
           },
           "humidity": null,
@@ -4627,11 +4588,11 @@
   },
   "hoodoo": {
     "weather": {
-      "Temperature": "38 &#176F",
+      "Temperature": "37 &#176F",
       "Wind": "East @ 29 MPH",
       "Snow depth": "1.5\"",
-      "Humidity": "73 %",
-      "Barometer": "30.04\" Hg",
+      "Humidity": "75 %",
+      "Barometer": "30.03\" Hg",
       "Rain Gauge": "0.01\""
     },
     "snow_totals": {
