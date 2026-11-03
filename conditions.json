@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T01:15:31.516487+00:00",
+  "generated_at": "2026-11-03T01:30:24.551598+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -3110,14 +3110,6 @@
   "bachelor_timeseries": {
     "hourly": [
       {
-        "time": "2026-11-01T18:00:00.000Z",
-        "temp_f": 29.6,
-        "wind_speed_mph": 6.559,
-        "wind_direction_deg": 237.2,
-        "precip_in": null,
-        "period": "historical"
-      },
-      {
         "time": "2026-11-01T19:00:00.000Z",
         "temp_f": 29.02,
         "wind_speed_mph": 6.748,
@@ -3302,12 +3294,12 @@
         "period": "historical"
       },
       {
-        "time": "2026-11-02T17:00:00+00:00",
-        "temp_f": 36.0,
-        "wind_speed_mph": 8.1,
-        "wind_direction_deg": 190,
-        "precip_in": 0.0,
-        "period": "forecast"
+        "time": "2026-11-02T17:00:00.000Z",
+        "temp_f": 34.56,
+        "wind_speed_mph": 12.35,
+        "wind_direction_deg": 134.2,
+        "precip_in": null,
+        "period": "historical"
       },
       {
         "time": "2026-11-02T18:00:00+00:00",
@@ -4203,8 +4195,8 @@
       "snow_depth_in_date": "2026-11-01",
       "swe_in": 0.5,
       "swe_in_date": "2026-11-01",
-      "change_12h_in": -1,
-      "change_24h_in": 0
+      "change_12h_in": 0,
+      "change_24h_in": 1
     },
     "Three Creek / Tam McArthur (Three Creeks Meadow)": {
       "snow_depth_in": 0,
@@ -4335,7 +4327,7 @@
   "mtbachelor": {
     "weather": {
       "current": {
-        "temperature": 38,
+        "temperature": 36,
         "weather_icon": "dor-mostlycloudy"
       },
       "forecast": [
@@ -4347,7 +4339,7 @@
           "weather_icon": "dor-snow",
           "id": 1793646000,
           "day": "Monday",
-          "temperature_high": 38,
+          "temperature_high": 37,
           "temperature_low": 18,
           "precipitation_high": 58,
           "precipitation_low": 58,
@@ -4356,17 +4348,17 @@
         },
         {
           "date": "2026-11-03",
-          "description_long": "overcast clouds",
-          "description_short": "overcast clouds",
-          "details": "Clouds",
-          "weather_icon": "dor-mostlycloudy",
+          "description_long": "snow",
+          "description_short": "snow",
+          "details": "Snow",
+          "weather_icon": "dor-snow",
           "id": 1793732400,
           "day": "Tuesday",
           "temperature_high": 38,
           "temperature_low": 24,
-          "precipitation_high": 64,
-          "precipitation_low": 64,
-          "wind_speed": 6,
+          "precipitation_high": 65,
+          "precipitation_low": 65,
+          "wind_speed": 5,
           "wind_direction": "SE"
         },
         {
@@ -4468,10 +4460,10 @@
           "active": true,
           "primary": true,
           "nonstandardizedDataPoints": {
-            "depth": "144.8",
-            "timestamp": "2026-11-02T16:00:00.000Z"
+            "depth": "145",
+            "timestamp": "2026-11-02T17:00:00.000Z"
           },
-          "temperature": "37.74",
+          "temperature": "35.81",
           "wind": {
             "low": "0",
             "high": "0",
@@ -4491,14 +4483,14 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-11-02T16:00:00.000Z"
+            "timestamp": "2026-11-02T17:00:00.000Z"
           },
-          "temperature": "36.81",
+          "temperature": "36.62",
           "wind": {
-            "low": "8.37",
-            "high": "15.44",
+            "low": "8.51",
+            "high": "16.78",
             "current": null,
-            "average": "8.37",
+            "average": "8.51",
             "direction": "SE"
           },
           "humidity": null,
@@ -4513,17 +4505,17 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-11-02T16:00:00.000Z"
+            "timestamp": "2026-11-02T17:00:00.000Z"
           },
-          "temperature": "38.6",
+          "temperature": "36.83",
           "wind": {
-            "low": "6.046",
-            "high": "20.89",
+            "low": "4.795",
+            "high": "19.5",
             "current": null,
-            "average": "6.046",
-            "direction": "SSE"
+            "average": "4.795",
+            "direction": "SSW"
           },
-          "humidity": "47.8",
+          "humidity": "32.91",
           "display_name": "Pine Marten",
           "elevation_ft": 7800
         },
@@ -4535,14 +4527,14 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-11-02T16:00:00.000Z"
+            "timestamp": "2026-11-02T17:00:00.000Z"
           },
-          "temperature": "34.73",
+          "temperature": "34.56",
           "wind": {
-            "low": "10.85",
-            "high": "16.33",
+            "low": "12.35",
+            "high": "19.69",
             "current": null,
-            "average": "10.85",
+            "average": "12.35",
             "direction": "SE"
           },
           "humidity": null,
@@ -4627,11 +4619,11 @@
   },
   "hoodoo": {
     "weather": {
-      "Temperature": "40 &#176F",
+      "Temperature": "41 &#176F",
       "Wind": "ESE @ 13 MPH",
       "Snow depth": "1.5\"",
-      "Humidity": "69 %",
-      "Barometer": "30.08\" Hg",
+      "Humidity": "67 %",
+      "Barometer": "30.07\" Hg",
       "Rain Gauge": "0.01\""
     },
     "snow_totals": {
@@ -4679,10 +4671,10 @@
   "willamette_pass": {
     "forecast": {
       "weather_provider": "NOAA",
-      "date": "November 2, 2026, 4:55 pm",
-      "time": 1793667321000,
+      "date": "November 2, 2026, 5:28 pm",
+      "time": 1793669303000,
       "current_weather": "Cloudy",
-      "current_temperature": "47",
+      "current_temperature": "43",
       "forecast": [
         {
           "day": "Monday",
@@ -4724,11 +4716,6 @@
       "min_temp": "34",
       "hourly": [
         {
-          "time": "4p",
-          "temp": "44",
-          "details": ""
-        },
-        {
           "time": "5p",
           "temp": "42",
           "details": ""
@@ -4745,6 +4732,11 @@
         },
         {
           "time": "12a",
+          "temp": "37",
+          "details": ""
+        },
+        {
+          "time": "2a",
           "temp": "37",
           "details": ""
         }
