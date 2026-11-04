@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T22:15:27.521328+00:00",
+  "generated_at": "2026-11-04T22:30:29.914739+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -914,7 +914,7 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 15.0,
+        "wind_speed_mph": 13.0,
         "wind_direction_deg": 270,
         "snow_level_ft": 6378,
         "temp_f": 45
@@ -2155,8 +2155,8 @@
       "periods": [
         {
           "number": 1,
-          "name": "Today",
-          "startTime": "2026-11-04T11:00:00-08:00",
+          "name": "This Afternoon",
+          "startTime": "2026-11-04T14:00:00-08:00",
           "endTime": "2026-11-04T18:00:00-08:00",
           "isDaytime": true,
           "temperature": 56,
@@ -2166,13 +2166,13 @@
             "unitCode": "wmoUnit:percent",
             "value": 15
           },
-          "windSpeed": "5 mph",
+          "windSpeed": "3 mph",
           "windDirection": "W",
-          "icon": "https://api.weather.gov/icons/land/day/bkn/rain_showers,20?size=medium",
-          "shortForecast": "Partly Sunny then Slight Chance Rain Showers",
-          "detailedForecast": "A slight chance of rain showers after 4pm. Partly sunny. High near 56, with temperatures falling to around 51 in the afternoon. West wind around 5 mph. Chance of precipitation is 20%.",
+          "icon": "https://api.weather.gov/icons/land/day/rain_showers,20?size=medium",
+          "shortForecast": "Slight Chance Rain Showers",
+          "detailedForecast": "A slight chance of rain showers after 4pm. Mostly cloudy. High near 56, with temperatures falling to around 51 in the afternoon. West wind around 3 mph. Chance of precipitation is 20%.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 6300
+          "snowLevelFt": 6772
         },
         {
           "number": 2,
@@ -2770,7 +2770,7 @@
         {
           "number": 1,
           "name": "This Afternoon",
-          "startTime": "2026-11-04T14:00:00-08:00",
+          "startTime": "2026-11-04T13:00:00-08:00",
           "endTime": "2026-11-04T18:00:00-08:00",
           "isDaytime": true,
           "temperature": 55,
@@ -2783,8 +2783,8 @@
           "windSpeed": "5 mph",
           "windDirection": "W",
           "icon": "https://api.weather.gov/icons/land/day/bkn?size=medium",
-          "shortForecast": "Mostly Cloudy",
-          "detailedForecast": "Mostly cloudy. High near 55, with temperatures falling to around 50 in the afternoon. West wind around 5 mph.",
+          "shortForecast": "Partly Sunny",
+          "detailedForecast": "Partly sunny. High near 55, with temperatures falling to around 50 in the afternoon. West wind around 5 mph.",
           "precipitationAmountIn": 0.0,
           "snowLevelFt": 6850
         },
@@ -3087,7 +3087,7 @@
     "Hoodoo": {
       "elevation_ft": 4705,
       "temp_f": 45,
-      "wind_speed_mph": 15.0,
+      "wind_speed_mph": 13.0,
       "wind_direction_deg": 270,
       "snow_level_ft": 6378,
       "precip_chance_today": 41,
@@ -3109,14 +3109,6 @@
   },
   "bachelor_timeseries": {
     "hourly": [
-      {
-        "time": "2026-11-03T14:00:00.000Z",
-        "temp_f": 33.67,
-        "wind_speed_mph": 3.587,
-        "wind_direction_deg": 15.54,
-        "precip_in": null,
-        "period": "historical"
-      },
       {
         "time": "2026-11-03T15:00:00.000Z",
         "temp_f": 33.35,
@@ -3302,12 +3294,12 @@
         "period": "historical"
       },
       {
-        "time": "2026-11-04T14:00:00+00:00",
-        "temp_f": 27.0,
-        "wind_speed_mph": 6.9,
-        "wind_direction_deg": 250,
-        "precip_in": 0.0,
-        "period": "forecast"
+        "time": "2026-11-04T14:00:00.000Z",
+        "temp_f": 35.55,
+        "wind_speed_mph": 22.15,
+        "wind_direction_deg": 213.2,
+        "precip_in": null,
+        "period": "historical"
       },
       {
         "time": "2026-11-04T15:00:00+00:00",
@@ -4207,8 +4199,8 @@
       "snow_depth_in_date": "2026-11-03",
       "swe_in": 0.5,
       "swe_in_date": "2026-11-03",
-      "change_12h_in": -1,
-      "change_24h_in": -1
+      "change_12h_in": 0,
+      "change_24h_in": 1
     },
     "Three Creek / Tam McArthur (Three Creeks Meadow)": {
       "snow_depth_in": 0,
@@ -4351,7 +4343,7 @@
           "weather_icon": "dor-snow",
           "id": 1793818800,
           "day": "Wednesday",
-          "temperature_high": 46,
+          "temperature_high": 44,
           "temperature_low": 19,
           "precipitation_high": 66,
           "precipitation_low": 66,
@@ -4473,9 +4465,9 @@
           "primary": true,
           "nonstandardizedDataPoints": {
             "depth": "5.621",
-            "timestamp": "2026-11-04T13:00:00.000Z"
+            "timestamp": "2026-11-04T14:00:00.000Z"
           },
-          "temperature": "42",
+          "temperature": "42.14",
           "wind": {
             "low": "0",
             "high": "0",
@@ -4495,14 +4487,14 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-11-04T13:00:00.000Z"
+            "timestamp": "2026-11-04T14:00:00.000Z"
           },
-          "temperature": "37.98",
+          "temperature": "37.9",
           "wind": {
-            "low": "14.53",
-            "high": "28.86",
+            "low": "17.15",
+            "high": "28.63",
             "current": null,
-            "average": "14.53",
+            "average": "17.15",
             "direction": "WSW"
           },
           "humidity": null,
@@ -4517,17 +4509,17 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-11-04T13:00:00.000Z"
+            "timestamp": "2026-11-04T14:00:00.000Z"
           },
-          "temperature": "36.25",
+          "temperature": "36.38",
           "wind": {
-            "low": "20.27",
-            "high": "33.72",
+            "low": "16.76",
+            "high": "29.21",
             "current": null,
-            "average": "20.27",
+            "average": "16.76",
             "direction": "W"
           },
-          "humidity": "65.01",
+          "humidity": "65.82",
           "display_name": "Pine Marten",
           "elevation_ft": 7800
         },
@@ -4539,14 +4531,14 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-11-04T13:00:00.000Z"
+            "timestamp": "2026-11-04T14:00:00.000Z"
           },
-          "temperature": "35.82",
+          "temperature": "35.55",
           "wind": {
-            "low": "18.06",
-            "high": "34.67",
+            "low": "22.15",
+            "high": "31.09",
             "current": null,
-            "average": "18.06",
+            "average": "22.15",
             "direction": "SSW"
           },
           "humidity": null,
@@ -4631,8 +4623,8 @@
   },
   "hoodoo": {
     "weather": {
-      "Temperature": "41 &#176F",
-      "Wind": "West @ 15 MPH",
+      "Temperature": "42 &#176F",
+      "Wind": "West @ 13 MPH",
       "Snow depth": "-999.9\"",
       "Humidity": "70 %",
       "Barometer": "29.94\" Hg",
@@ -4688,8 +4680,8 @@
   "willamette_pass": {
     "forecast": {
       "weather_provider": "NOAA",
-      "date": "November 4, 2026, 2:10 pm",
-      "time": 1793830224000,
+      "date": "November 4, 2026, 2:25 pm",
+      "time": 1793831121000,
       "current_weather": "Mostly Cloudy",
       "current_temperature": "49",
       "forecast": [
@@ -4770,7 +4762,16 @@
       "Lifts Open": "0/6",
       "Trails Open": "0/30"
     },
-    "webcams": {}
+    "webcams": {
+      "Base Area": {
+        "src": "https://www.youtube.com/embed/sNVA6oC7vcM",
+        "link": "https://www.willamettepass.ski/weather-conditions-webcams/webcams/"
+      },
+      "EPA": {
+        "src": "https://www.youtube.com/embed/uav7cBNVv0k",
+        "link": "https://www.willamettepass.ski/weather-conditions-webcams/webcams/"
+      }
+    }
   },
   "snow_stake_cams": {
     "Mt. Bachelor (Snow Stake)": {
@@ -4781,7 +4782,10 @@
       "src": "https://santiampsp.org/wx/weather16.jpg",
       "link": "https://hoodoo.com/the-mountain/webcams/"
     },
-    "Willamette Pass (Base Area)": null
+    "Willamette Pass (Base Area)": {
+      "src": "https://www.youtube.com/embed/sNVA6oC7vcM",
+      "link": "https://www.willamettepass.ski/weather-conditions-webcams/webcams/"
+    }
   },
   "satellite": {
     "Pacific Northwest": {
