@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T21:45:19.093663+00:00",
+  "generated_at": "2026-11-05T21:50:16.528919+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -1849,7 +1849,7 @@
         {
           "number": 1,
           "name": "This Afternoon",
-          "startTime": "2026-11-05T12:00:00-08:00",
+          "startTime": "2026-11-05T13:00:00-08:00",
           "endTime": "2026-11-05T18:00:00-08:00",
           "isDaytime": true,
           "temperature": 44,
@@ -1860,12 +1860,12 @@
             "value": 0
           },
           "windSpeed": "2 mph",
-          "windDirection": "W",
+          "windDirection": "SW",
           "icon": "https://api.weather.gov/icons/land/day/sct?size=medium",
           "shortForecast": "Mostly Sunny",
-          "detailedForecast": "Mostly sunny. High near 44, with temperatures falling to around 39 in the afternoon. West wind around 2 mph.",
+          "detailedForecast": "Mostly sunny. High near 44, with temperatures falling to around 39 in the afternoon. Southwest wind around 2 mph.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 5354
+          "snowLevelFt": 5486
         },
         {
           "number": 2,
@@ -2155,8 +2155,8 @@
       "periods": [
         {
           "number": 1,
-          "name": "Today",
-          "startTime": "2026-11-05T11:00:00-08:00",
+          "name": "This Afternoon",
+          "startTime": "2026-11-05T13:00:00-08:00",
           "endTime": "2026-11-05T18:00:00-08:00",
           "isDaytime": true,
           "temperature": 54,
@@ -2172,7 +2172,7 @@
           "shortForecast": "Mostly Sunny",
           "detailedForecast": "Mostly sunny. High near 54, with temperatures falling to around 50 in the afternoon. Southeast wind around 2 mph.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 5432
+          "snowLevelFt": 5748
         },
         {
           "number": 2,
@@ -4345,8 +4345,8 @@
           "day": "Thursday",
           "temperature_high": 43,
           "temperature_low": 24,
-          "precipitation_high": 58,
-          "precipitation_low": 58,
+          "precipitation_high": 57,
+          "precipitation_low": 57,
           "wind_speed": 5,
           "wind_direction": "WSW"
         },
@@ -4794,7 +4794,7 @@
     },
     "North Pacific (macro)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/np/13/GOES18-NP-13-900x540.gif",
-      "last_modified": "Thu, 05 Nov 2026 21:32:26 GMT"
+      "last_modified": "Thu, 05 Nov 2026 21:32:27 GMT"
     },
     "Pacific US (PACUS)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/13/GOES18-CONUS-13-625x375.gif",
@@ -4802,35 +4802,7 @@
     }
   },
   "gfs_snowfall": {
-    "path": "gfs_snowfall_pnw.gif",
-    "legend_path": "gfs_snowfall_legend.png",
-    "cycle_run_at": "2026-11-05T12:00:00+00:00",
-    "forecast_hours": [
-      3,
-      6,
-      9,
-      12,
-      15,
-      18,
-      21,
-      24,
-      27,
-      30,
-      33,
-      36,
-      39,
-      42,
-      45,
-      48,
-      51,
-      54,
-      57,
-      60,
-      63,
-      66,
-      69,
-      72
-    ]
+    "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
   },
   "avalanche": {
     "Central Cascades": {
