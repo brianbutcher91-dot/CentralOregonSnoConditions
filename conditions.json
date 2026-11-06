@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T03:15:20.227277+00:00",
+  "generated_at": "2026-11-06T03:30:23.774978+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -915,7 +915,7 @@
       ],
       "current": {
         "wind_speed_mph": 4.0,
-        "wind_direction_deg": 135,
+        "wind_direction_deg": 112.5,
         "snow_level_ft": 5590,
         "temp_f": 36
       },
@@ -3088,7 +3088,7 @@
       "elevation_ft": 4705,
       "temp_f": 36,
       "wind_speed_mph": 4.0,
-      "wind_direction_deg": 135,
+      "wind_direction_deg": 112.5,
       "snow_level_ft": 5590,
       "precip_chance_today": 13,
       "snowfall_12h_in": 0.0,
@@ -3109,14 +3109,6 @@
   },
   "bachelor_timeseries": {
     "hourly": [
-      {
-        "time": "2026-11-04T19:00:00.000Z",
-        "temp_f": 29.42,
-        "wind_speed_mph": 29.64,
-        "wind_direction_deg": 223.6,
-        "precip_in": null,
-        "period": "historical"
-      },
       {
         "time": "2026-11-04T20:00:00.000Z",
         "temp_f": 28.88,
@@ -3302,12 +3294,12 @@
         "period": "historical"
       },
       {
-        "time": "2026-11-05T19:00:00+00:00",
-        "temp_f": 34.0,
-        "wind_speed_mph": 3.5,
-        "wind_direction_deg": 280,
-        "precip_in": 0.0,
-        "period": "forecast"
+        "time": "2026-11-05T19:00:00.000Z",
+        "temp_f": 36.36,
+        "wind_speed_mph": 13.74,
+        "wind_direction_deg": 178.1,
+        "precip_in": null,
+        "period": "historical"
       },
       {
         "time": "2026-11-05T20:00:00+00:00",
@@ -4339,7 +4331,7 @@
   "mtbachelor": {
     "weather": {
       "current": {
-        "temperature": 29,
+        "temperature": 28,
         "weather_icon": "dor-mostlycloudy"
       },
       "forecast": [
@@ -4472,10 +4464,10 @@
           "active": true,
           "primary": true,
           "nonstandardizedDataPoints": {
-            "depth": "144.2",
-            "timestamp": "2026-11-05T18:00:00.000Z"
+            "depth": "144.7",
+            "timestamp": "2026-11-05T19:00:00.000Z"
           },
-          "temperature": "28.78",
+          "temperature": "28.04",
           "wind": {
             "low": "0",
             "high": "0",
@@ -4495,14 +4487,14 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-11-05T18:00:00.000Z"
+            "timestamp": "2026-11-05T19:00:00.000Z"
           },
-          "temperature": "34.61",
+          "temperature": "35.78",
           "wind": {
-            "low": "3.275",
-            "high": "7.606",
+            "low": "2.806",
+            "high": "13.42",
             "current": null,
-            "average": "3.275",
+            "average": "2.806",
             "direction": "SSW"
           },
           "humidity": null,
@@ -4517,17 +4509,17 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-11-05T18:00:00.000Z"
+            "timestamp": "2026-11-05T19:00:00.000Z"
           },
-          "temperature": "35.16",
+          "temperature": "36.9",
           "wind": {
-            "low": "-0.045",
-            "high": "0.239",
+            "low": "-0.064",
+            "high": "0.266",
             "current": null,
-            "average": "-0.045",
+            "average": "-0.064",
             "direction": "N"
           },
-          "humidity": "30.73",
+          "humidity": "33.8",
           "display_name": "Pine Marten",
           "elevation_ft": 7800
         },
@@ -4539,15 +4531,15 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-11-05T18:00:00.000Z"
+            "timestamp": "2026-11-05T19:00:00.000Z"
           },
-          "temperature": "37.64",
+          "temperature": "36.36",
           "wind": {
-            "low": "4.815",
-            "high": "13.87",
+            "low": "13.74",
+            "high": "17",
             "current": null,
-            "average": "4.815",
-            "direction": "SSW"
+            "average": "13.74",
+            "direction": "S"
           },
           "humidity": null,
           "display_name": "Cloud Chaser",
@@ -4632,7 +4624,7 @@
   "hoodoo": {
     "weather": {
       "Temperature": "41 &#176F",
-      "Wind": "SE @ 4 MPH",
+      "Wind": "ESE @ 4 MPH",
       "Snow depth": "-999.9\"",
       "Humidity": "64 %",
       "Barometer": "30.11\" Hg",
