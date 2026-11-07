@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-07T09:00:44.564271+00:00",
+  "generated_at": "2026-11-07T09:15:20.125302+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
       "periods": [
         {
           "number": 1,
-          "name": "Overnight",
-          "startTime": "2026-11-07T01:00:00-08:00",
+          "name": "Tonight",
+          "startTime": "2026-11-06T23:00:00-08:00",
           "endTime": "2026-11-07T06:00:00-08:00",
           "isDaytime": false,
           "temperature": 33,
@@ -17,13 +17,13 @@
             "unitCode": "wmoUnit:percent",
             "value": 1
           },
-          "windSpeed": "12 to 17 mph",
+          "windSpeed": "8 to 17 mph",
           "windDirection": "SW",
-          "icon": "https://api.weather.gov/icons/land/night/few?size=medium",
-          "shortForecast": "Mostly Clear",
-          "detailedForecast": "Mostly clear. Low around 33, with temperatures rising to around 35 overnight. Southwest wind 12 to 17 mph.",
+          "icon": "https://api.weather.gov/icons/land/night/sct?size=medium",
+          "shortForecast": "Partly Cloudy",
+          "detailedForecast": "Partly cloudy. Low around 33, with temperatures rising to around 35 overnight. Southwest wind 8 to 17 mph.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 8505
+          "snowLevelFt": 9529
         },
         {
           "number": 2,
@@ -313,8 +313,8 @@
       "periods": [
         {
           "number": 1,
-          "name": "Tonight",
-          "startTime": "2026-11-06T23:00:00-08:00",
+          "name": "Overnight",
+          "startTime": "2026-11-07T01:00:00-08:00",
           "endTime": "2026-11-07T06:00:00-08:00",
           "isDaytime": false,
           "temperature": 39,
@@ -324,13 +324,13 @@
             "unitCode": "wmoUnit:percent",
             "value": 1
           },
-          "windSpeed": "7 to 14 mph",
+          "windSpeed": "9 to 14 mph",
           "windDirection": "SW",
           "icon": "https://api.weather.gov/icons/land/night/sct?size=medium",
           "shortForecast": "Partly Cloudy",
-          "detailedForecast": "Partly cloudy, with a low around 39. Southwest wind 7 to 14 mph, with gusts as high as 23 mph.",
+          "detailedForecast": "Partly cloudy, with a low around 39. Southwest wind 9 to 14 mph, with gusts as high as 23 mph.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 9791
+          "snowLevelFt": 8873
         },
         {
           "number": 2,
@@ -914,7 +914,7 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 15.0,
+        "wind_speed_mph": 18.0,
         "wind_direction_deg": 202.5,
         "snow_level_ft": 9423,
         "temp_f": 41
@@ -1848,8 +1848,8 @@
       "periods": [
         {
           "number": 1,
-          "name": "Overnight",
-          "startTime": "2026-11-07T01:00:00-08:00",
+          "name": "Tonight",
+          "startTime": "2026-11-06T23:00:00-08:00",
           "endTime": "2026-11-07T06:00:00-08:00",
           "isDaytime": false,
           "temperature": 37,
@@ -1857,15 +1857,15 @@
           "temperatureTrend": null,
           "probabilityOfPrecipitation": {
             "unitCode": "wmoUnit:percent",
-            "value": 0
+            "value": 1
           },
-          "windSpeed": "7 mph",
+          "windSpeed": "3 to 7 mph",
           "windDirection": "SE",
-          "icon": "https://api.weather.gov/icons/land/night/few?size=medium",
-          "shortForecast": "Mostly Clear",
-          "detailedForecast": "Mostly clear, with a low around 37. Southeast wind around 7 mph.",
+          "icon": "https://api.weather.gov/icons/land/night/sct?size=medium",
+          "shortForecast": "Partly Cloudy",
+          "detailedForecast": "Partly cloudy, with a low around 37. Southeast wind 3 to 7 mph.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 8926
+          "snowLevelFt": 9163
         },
         {
           "number": 2,
@@ -2155,8 +2155,8 @@
       "periods": [
         {
           "number": 1,
-          "name": "Overnight",
-          "startTime": "2026-11-07T00:00:00-08:00",
+          "name": "Tonight",
+          "startTime": "2026-11-06T23:00:00-08:00",
           "endTime": "2026-11-07T06:00:00-08:00",
           "isDaytime": false,
           "temperature": 39,
@@ -3087,7 +3087,7 @@
     "Hoodoo": {
       "elevation_ft": 4705,
       "temp_f": 41,
-      "wind_speed_mph": 15.0,
+      "wind_speed_mph": 18.0,
       "wind_direction_deg": 202.5,
       "snow_level_ft": 9423,
       "precip_chance_today": 2,
@@ -4194,6 +4194,10 @@
       {
         "time": "2026-11-07T08:15:16.538528+00:00",
         "precip_in": 0
+      },
+      {
+        "time": "2026-11-07T09:15:20.281325+00:00",
+        "precip_in": 0
       }
     ]
   },
@@ -4628,17 +4632,18 @@
   "hoodoo": {
     "weather": {
       "Temperature": "47 &#176F",
-      "Wind": "SSW @ 15 MPH",
-      "Snow depth": "-0.1\"",
-      "Humidity": "76 %",
+      "Wind": "SSW @ 18 MPH",
+      "Snow depth": "-0.2\"",
+      "Humidity": "79 %",
       "Barometer": "30.15\" Hg",
-      "Rain Gauge": "0.09\""
+      "Rain Gauge": "0.08\""
     },
     "snow_totals": {
       "trend": {
         "Max": "0.3\"",
         "Min": "-1.0\"",
-        "3 Hr": "0.1\""
+        "1 Hr": "0.7\"",
+        "3 Hr": "-0.2\""
       },
       "season_total_in": 6.5
     },
@@ -4680,8 +4685,8 @@
   "willamette_pass": {
     "forecast": {
       "weather_provider": "NOAA",
-      "date": "November 7, 2026, 12:40 am",
-      "time": 1794040825000,
+      "date": "November 7, 2026, 12:55 am",
+      "time": 1794041720000,
       "current_weather": "Mostly Clear",
       "current_temperature": "42",
       "forecast": [
@@ -4789,15 +4794,15 @@
   "satellite": {
     "Pacific Northwest": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/pnw/13/GOES18-PNW-13-600x600.gif",
-      "last_modified": "Sat, 07 Nov 2026 08:31:37 GMT"
+      "last_modified": "Sat, 07 Nov 2026 09:01:41 GMT"
     },
     "North Pacific (macro)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/np/13/GOES18-NP-13-900x540.gif",
-      "last_modified": "Sat, 07 Nov 2026 08:31:53 GMT"
+      "last_modified": "Sat, 07 Nov 2026 09:01:59 GMT"
     },
     "Pacific US (PACUS)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/13/GOES18-CONUS-13-625x375.gif",
-      "last_modified": "Sat, 07 Nov 2026 08:31:17 GMT"
+      "last_modified": "Sat, 07 Nov 2026 09:01:28 GMT"
     }
   },
   "gfs_snowfall": {
