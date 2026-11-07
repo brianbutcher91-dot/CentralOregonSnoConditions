@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-07T15:30:20.485240+00:00",
+  "generated_at": "2026-11-07T15:45:20.230292+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -914,7 +914,7 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 21.0,
+        "wind_speed_mph": 23.0,
         "wind_direction_deg": 202.5,
         "snow_level_ft": 8136,
         "temp_f": 40
@@ -1849,7 +1849,7 @@
         {
           "number": 1,
           "name": "Today",
-          "startTime": "2026-11-07T06:00:00-08:00",
+          "startTime": "2026-11-07T07:00:00-08:00",
           "endTime": "2026-11-07T18:00:00-08:00",
           "isDaytime": true,
           "temperature": 57,
@@ -1865,7 +1865,7 @@
           "shortForecast": "Partly Sunny",
           "detailedForecast": "Partly sunny. High near 57, with temperatures falling to around 51 in the afternoon. South wind 5 to 9 mph, with gusts as high as 22 mph.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 7771
+          "snowLevelFt": 8347
         },
         {
           "number": 2,
@@ -3087,7 +3087,7 @@
     "Hoodoo": {
       "elevation_ft": 4705,
       "temp_f": 40,
-      "wind_speed_mph": 21.0,
+      "wind_speed_mph": 23.0,
       "wind_direction_deg": 202.5,
       "snow_level_ft": 8136,
       "precip_chance_today": 3,
@@ -4328,7 +4328,7 @@
     "weather": {
       "current": {
         "temperature": 32,
-        "weather_icon": "dor-mostlycloudy"
+        "weather_icon": "dor-cloudy"
       },
       "forecast": [
         {
@@ -4341,8 +4341,8 @@
           "day": "Saturday",
           "temperature_high": 53,
           "temperature_low": 31,
-          "precipitation_high": 53,
-          "precipitation_low": 53,
+          "precipitation_high": 55,
+          "precipitation_low": 55,
           "wind_speed": 14,
           "wind_direction": "SW"
         },
@@ -4620,9 +4620,9 @@
   "hoodoo": {
     "weather": {
       "Temperature": "54 &#176F",
-      "Wind": "SSW @ 21 MPH",
-      "Snow depth": "0.1\"",
-      "Humidity": "20 %",
+      "Wind": "SSW @ 23 MPH",
+      "Snow depth": "-0.1\"",
+      "Humidity": "19 %",
       "Barometer": "30.04\" Hg",
       "Rain Gauge": "0.01\""
     },
@@ -4630,9 +4630,9 @@
       "trend": {
         "Max": "1.1\"",
         "Min": "-1.2\"",
-        "1 Hr": "0.2\"",
-        "3 Hr": "0.4\"",
-        "6 Hr": "0.7\""
+        "1 Hr": "-0.4\"",
+        "3 Hr": "-0.2\"",
+        "6 Hr": "0.3\""
       },
       "season_total_in": 6.5
     },
@@ -4756,16 +4756,7 @@
       "Lifts Open": "0/6",
       "Trails Open": "0/30"
     },
-    "webcams": {
-      "Base Area": {
-        "src": "https://www.youtube.com/embed/sNVA6oC7vcM",
-        "link": "https://www.willamettepass.ski/weather-conditions-webcams/webcams/"
-      },
-      "EPA": {
-        "src": "https://www.youtube.com/embed/uav7cBNVv0k",
-        "link": "https://www.willamettepass.ski/weather-conditions-webcams/webcams/"
-      }
-    }
+    "webcams": {}
   },
   "snow_stake_cams": {
     "Mt. Bachelor (Snow Stake)": {
@@ -4776,23 +4767,20 @@
       "src": "https://santiampsp.org/wx/weather16.jpg",
       "link": "https://hoodoo.com/the-mountain/webcams/"
     },
-    "Willamette Pass (Base Area)": {
-      "src": "https://www.youtube.com/embed/sNVA6oC7vcM",
-      "link": "https://www.willamettepass.ski/weather-conditions-webcams/webcams/"
-    }
+    "Willamette Pass (Base Area)": null
   },
   "satellite": {
     "Pacific Northwest": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/pnw/13/GOES18-PNW-13-600x600.gif",
-      "last_modified": "Sat, 07 Nov 2026 15:01:43 GMT"
+      "last_modified": "Sat, 07 Nov 2026 15:31:30 GMT"
     },
     "North Pacific (macro)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/np/13/GOES18-NP-13-900x540.gif",
-      "last_modified": "Sat, 07 Nov 2026 15:02:08 GMT"
+      "last_modified": "Sat, 07 Nov 2026 15:31:51 GMT"
     },
     "Pacific US (PACUS)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/13/GOES18-CONUS-13-625x375.gif",
-      "last_modified": "Sat, 07 Nov 2026 15:01:18 GMT"
+      "last_modified": "Sat, 07 Nov 2026 15:31:26 GMT"
     }
   },
   "gfs_snowfall": {
