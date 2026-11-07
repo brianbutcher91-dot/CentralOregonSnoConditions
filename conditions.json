@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-07T12:41:11.434614+00:00",
+  "generated_at": "2026-11-07T12:45:17.448320+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -914,8 +914,8 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 5,
-        "wind_direction_deg": 110,
+        "wind_speed_mph": 10.0,
+        "wind_direction_deg": 157.5,
         "snow_level_ft": 8452,
         "temp_f": 40
       },
@@ -3087,8 +3087,8 @@
     "Hoodoo": {
       "elevation_ft": 4705,
       "temp_f": 40,
-      "wind_speed_mph": 5,
-      "wind_direction_deg": 110,
+      "wind_speed_mph": 10.0,
+      "wind_direction_deg": 157.5,
       "snow_level_ft": 8452,
       "precip_chance_today": 0,
       "snowfall_12h_in": null,
@@ -3300,14 +3300,6 @@
         "wind_direction_deg": 169.1,
         "precip_in": null,
         "period": "historical"
-      },
-      {
-        "time": "2026-11-07T05:00:00+00:00",
-        "temp_f": 35.0,
-        "wind_speed_mph": 6.9,
-        "wind_direction_deg": 280,
-        "precip_in": 0.0,
-        "period": "forecast"
       },
       {
         "time": "2026-11-07T06:00:00+00:00",
@@ -4622,10 +4614,23 @@
     }
   },
   "hoodoo": {
-    "weather": {},
+    "weather": {
+      "Temperature": "51 &#176F",
+      "Wind": "SSE @ 10 MPH",
+      "Snow depth": "0.2\"",
+      "Humidity": "54 %",
+      "Barometer": "30.08\" Hg",
+      "Rain Gauge": "0.07\""
+    },
     "snow_totals": {
-      "trend": {},
-      "season_total_in": null
+      "trend": {
+        "Max": "0.6\"",
+        "Min": "-1.0\"",
+        "1 Hr": "0.2\"",
+        "3 Hr": "0.5\"",
+        "6 Hr": "0.4\""
+      },
+      "season_total_in": 6.5
     },
     "webcams": {
       "Base Area": {
