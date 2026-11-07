@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-07T16:02:40.432065+00:00",
+  "generated_at": "2026-11-07T16:15:17.360191+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -7,7 +7,7 @@
         {
           "number": 1,
           "name": "Today",
-          "startTime": "2026-11-07T08:00:00-08:00",
+          "startTime": "2026-11-07T07:00:00-08:00",
           "endTime": "2026-11-07T18:00:00-08:00",
           "isDaytime": true,
           "temperature": 49,
@@ -17,11 +17,11 @@
             "unitCode": "wmoUnit:percent",
             "value": 1
           },
-          "windSpeed": "7 to 16 mph",
+          "windSpeed": "7 to 17 mph",
           "windDirection": "SW",
           "icon": "https://api.weather.gov/icons/land/day/bkn?size=medium",
           "shortForecast": "Partly Sunny",
-          "detailedForecast": "Partly sunny. High near 49, with temperatures falling to around 43 in the afternoon. Southwest wind 7 to 16 mph, with gusts as high as 21 mph.",
+          "detailedForecast": "Partly sunny. High near 49, with temperatures falling to around 43 in the afternoon. Southwest wind 7 to 17 mph, with gusts as high as 21 mph.",
           "precipitationAmountIn": 0.0,
           "snowLevelFt": 8241
         },
@@ -621,7 +621,7 @@
         {
           "number": 1,
           "name": "Today",
-          "startTime": "2026-11-07T08:00:00-08:00",
+          "startTime": "2026-11-07T07:00:00-08:00",
           "endTime": "2026-11-07T18:00:00-08:00",
           "isDaytime": true,
           "temperature": 58,
@@ -637,7 +637,7 @@
           "shortForecast": "Partly Sunny",
           "detailedForecast": "Partly sunny. High near 58, with temperatures falling to around 52 in the afternoon. South southwest wind around 6 mph.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 8241
+          "snowLevelFt": 8136
         },
         {
           "number": 2,
@@ -914,8 +914,8 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 5,
-        "wind_direction_deg": 140,
+        "wind_speed_mph": 26.0,
+        "wind_direction_deg": 202.5,
         "snow_level_ft": 8241,
         "temp_f": 41
       },
@@ -1542,7 +1542,7 @@
         {
           "number": 1,
           "name": "Today",
-          "startTime": "2026-11-07T08:00:00-08:00",
+          "startTime": "2026-11-07T07:00:00-08:00",
           "endTime": "2026-11-07T18:00:00-08:00",
           "isDaytime": true,
           "temperature": 54,
@@ -1552,13 +1552,13 @@
             "unitCode": "wmoUnit:percent",
             "value": 3
           },
-          "windSpeed": "3 to 9 mph",
-          "windDirection": "SSW",
+          "windSpeed": "3 to 10 mph",
+          "windDirection": "S",
           "icon": "https://api.weather.gov/icons/land/day/bkn?size=medium",
           "shortForecast": "Partly Sunny",
-          "detailedForecast": "Partly sunny. High near 54, with temperatures falling to around 49 in the afternoon. South southwest wind 3 to 9 mph.",
+          "detailedForecast": "Partly sunny. High near 54, with temperatures falling to around 49 in the afternoon. South wind 3 to 10 mph.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 8162
+          "snowLevelFt": 8058
         },
         {
           "number": 2,
@@ -2156,7 +2156,7 @@
         {
           "number": 1,
           "name": "Today",
-          "startTime": "2026-11-07T07:00:00-08:00",
+          "startTime": "2026-11-07T06:00:00-08:00",
           "endTime": "2026-11-07T18:00:00-08:00",
           "isDaytime": true,
           "temperature": 65,
@@ -2172,7 +2172,7 @@
           "shortForecast": "Partly Sunny",
           "detailedForecast": "Partly sunny. High near 65, with temperatures falling to around 61 in the afternoon. South wind 5 to 13 mph, with gusts as high as 22 mph.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 8451
+          "snowLevelFt": 8189
         },
         {
           "number": 2,
@@ -2770,7 +2770,7 @@
         {
           "number": 1,
           "name": "Today",
-          "startTime": "2026-11-07T08:00:00-08:00",
+          "startTime": "2026-11-07T07:00:00-08:00",
           "endTime": "2026-11-07T18:00:00-08:00",
           "isDaytime": true,
           "temperature": 64,
@@ -3087,8 +3087,8 @@
     "Hoodoo": {
       "elevation_ft": 4705,
       "temp_f": 41,
-      "wind_speed_mph": 5,
-      "wind_direction_deg": 140,
+      "wind_speed_mph": 26.0,
+      "wind_direction_deg": 202.5,
       "snow_level_ft": 8241,
       "precip_chance_today": 3,
       "snowfall_12h_in": null,
@@ -4352,7 +4352,7 @@
           "id": 1794078000,
           "day": "Saturday",
           "temperature_high": 53,
-          "temperature_low": 31,
+          "temperature_low": 30,
           "precipitation_high": 55,
           "precipitation_low": 55,
           "wind_speed": 14,
@@ -4630,13 +4630,63 @@
     }
   },
   "hoodoo": {
-    "error": "HTTPSConnectionPool(host='santiampsp.org', port=443): Max retries exceeded with url: /wx/weather.htm (Caused by ConnectTimeoutError(<HTTPSConnection(host='santiampsp.org', port=443) at 0x786d7016f290>, 'Connection to santiampsp.org timed out. (connect timeout=None)'))"
+    "weather": {
+      "Temperature": "55 &#176F",
+      "Wind": "SSW @ 26 MPH",
+      "Snow depth": "-0.1\"",
+      "Humidity": "20 %",
+      "Barometer": "30.04\" Hg"
+    },
+    "snow_totals": {
+      "trend": {
+        "Max": "1.1\"",
+        "Min": "-1.2\"",
+        "1 Hr": "0.2\"",
+        "3 Hr": "1.2\"",
+        "6 Hr": "0.7\""
+      },
+      "season_total_in": 6.5
+    },
+    "webcams": {
+      "Base Area": {
+        "src": "https://santiampsp.org/wx/weather16.jpg",
+        "link": "https://hoodoo.com/the-mountain/webcams/"
+      },
+      "Top of Manzanita": {
+        "src": "https://santiampsp.org/wx/weather3.jpg",
+        "link": "https://hoodoo.com/the-mountain/webcams/"
+      },
+      "Top of Ed": {
+        "src": "https://santiampsp.org/wx/weather2.jpg",
+        "link": "https://hoodoo.com/the-mountain/webcams/"
+      },
+      "Top of Easy Rider": {
+        "src": "https://santiampsp.org/wx/weather4.jpg",
+        "link": "https://hoodoo.com/the-mountain/webcams/"
+      },
+      "Hoodoo Parking Lot": {
+        "src": "https://santiampsp.org/wx/weather12.jpg",
+        "link": "https://hoodoo.com/the-mountain/webcams/"
+      },
+      "Hoodoo Summit": {
+        "src": "https://santiampsp.org/wx/weather1.jpg",
+        "link": "https://hoodoo.com/the-mountain/webcams/"
+      },
+      "Hayrick Butte & \"Gripper\" run from top of Ed chair": {
+        "src": "https://santiampsp.org/wx/weather2b.jpg",
+        "link": "https://hoodoo.com/the-mountain/webcams/"
+      },
+      "Hoodoo Parking Lot View #2": {
+        "src": "https://santiampsp.org/wx/weather10.jpg",
+        "link": "https://hoodoo.com/the-mountain/webcams/"
+      }
+    }
   },
   "willamette_pass": {
     "forecast": {
       "weather_provider": "NOAA",
-      "date": "November 7, 2026, 7:40 am",
-      "time": 1794066020000,
+      "date": "November 7, 2026, 7:55 am",
+      "time": 1794066920000,
       "current_weather": "Partly Sunny",
       "current_temperature": "41",
       "forecast": [
@@ -4733,7 +4783,10 @@
       "src": "https://api.mtbachelor.com/api/v1/cams/mtn/14",
       "link": "https://www.mtbachelor.com/the-mountain/webcams/live-cam-14/"
     },
-    "Hoodoo (Base Area)": null,
+    "Hoodoo (Base Area)": {
+      "src": "https://santiampsp.org/wx/weather16.jpg",
+      "link": "https://hoodoo.com/the-mountain/webcams/"
+    },
     "Willamette Pass (Base Area)": {
       "src": "https://www.youtube.com/embed/sNVA6oC7vcM",
       "link": "https://www.willamettepass.ski/weather-conditions-webcams/webcams/"
@@ -4754,7 +4807,35 @@
     }
   },
   "gfs_snowfall": {
-    "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
+    "path": "gfs_snowfall_pnw.gif",
+    "legend_path": "gfs_snowfall_legend.png",
+    "cycle_run_at": "2026-11-07T12:00:00+00:00",
+    "forecast_hours": [
+      3,
+      6,
+      9,
+      12,
+      15,
+      18,
+      21,
+      24,
+      27,
+      30,
+      33,
+      36,
+      39,
+      42,
+      45,
+      48,
+      51,
+      54,
+      57,
+      60,
+      63,
+      66,
+      69,
+      72
+    ]
   },
   "avalanche": {
     "Central Cascades": {
