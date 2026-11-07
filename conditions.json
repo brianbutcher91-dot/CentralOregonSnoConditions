@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-07T12:30:19.406790+00:00",
+  "generated_at": "2026-11-07T12:41:11.434614+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -914,8 +914,8 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 9.0,
-        "wind_direction_deg": 135,
+        "wind_speed_mph": 5,
+        "wind_direction_deg": 110,
         "snow_level_ft": 8452,
         "temp_f": 40
       },
@@ -3087,8 +3087,8 @@
     "Hoodoo": {
       "elevation_ft": 4705,
       "temp_f": 40,
-      "wind_speed_mph": 9.0,
-      "wind_direction_deg": 135,
+      "wind_speed_mph": 5,
+      "wind_direction_deg": 110,
       "snow_level_ft": 8452,
       "precip_chance_today": 0,
       "snowfall_12h_in": null,
@@ -3300,6 +3300,14 @@
         "wind_direction_deg": 169.1,
         "precip_in": null,
         "period": "historical"
+      },
+      {
+        "time": "2026-11-07T05:00:00+00:00",
+        "temp_f": 35.0,
+        "wind_speed_mph": 6.9,
+        "wind_direction_deg": 280,
+        "precip_in": 0.0,
+        "period": "forecast"
       },
       {
         "time": "2026-11-07T06:00:00+00:00",
@@ -4178,6 +4186,10 @@
       {
         "time": "2026-11-07T11:30:20.983073+00:00",
         "precip_in": 0
+      },
+      {
+        "time": "2026-11-07T12:41:11.673856+00:00",
+        "precip_in": 0
       }
     ]
   },
@@ -4320,7 +4332,7 @@
     "weather": {
       "current": {
         "temperature": 31,
-        "weather_icon": "dor-mostlysunny"
+        "weather_icon": "dor-sunny"
       },
       "forecast": [
         {
@@ -4610,23 +4622,10 @@
     }
   },
   "hoodoo": {
-    "weather": {
-      "Temperature": "50 &#176F",
-      "Wind": "SE @ 9 MPH",
-      "Snow depth": "0.4\"",
-      "Humidity": "59 %",
-      "Barometer": "30.08\" Hg",
-      "Rain Gauge": "0.07\""
-    },
+    "weather": {},
     "snow_totals": {
-      "trend": {
-        "Max": "0.4\"",
-        "Min": "-1.0\"",
-        "1 Hr": "0.6\"",
-        "3 Hr": "0.3\"",
-        "6 Hr": "0.4\""
-      },
-      "season_total_in": 6.5
+      "trend": {},
+      "season_total_in": null
     },
     "webcams": {
       "Base Area": {
@@ -4666,14 +4665,14 @@
   "willamette_pass": {
     "forecast": {
       "weather_provider": "NOAA",
-      "date": "November 7, 2026, 4:10 am",
-      "time": 1794053422000,
-      "current_weather": "Mostly Clear",
+      "date": "November 7, 2026, 4:25 am",
+      "time": 1794054324000,
+      "current_weather": "Partly Sunny",
       "current_temperature": "41",
       "forecast": [
         {
           "day": "Saturday",
-          "day_forecast": "Partly sunny, with a high near 59. Southeast wind 7 to 9 mph becoming southwest in the afternoon. ",
+          "day_forecast": "Partly sunny, with a high near 59. East southeast wind 7 to 9 mph becoming southwest in the afternoon. ",
           "night_forecast": "Rain before 4am, then rain likely, possibly mixed with snow.  Snow level 7600 feet rising to 8600 feet after midnight. Low around 37. South southwest wind 6 to 13 mph becoming west after midnight. Winds could gust as high as 20 mph.  Chance of precipitation is 80%. Little or no snow accumulation expected. "
         },
         {
@@ -4683,12 +4682,12 @@
         },
         {
           "day": "Monday",
-          "day_forecast": "Rain likely, mainly after 4pm.  Snow level 6700 feet rising to 7200 feet in the afternoon. Mostly cloudy, with a high near 45. Chance of precipitation is 60%. New precipitation amounts of less than a tenth of an inch possible. ",
+          "day_forecast": "Rain likely, mainly after 4pm.  Snow level 6700 feet rising to 7200 feet in the afternoon. Mostly cloudy, with a high near 45. West southwest wind 6 to 8 mph.  Chance of precipitation is 60%. New precipitation amounts of less than a tenth of an inch possible. ",
           "night_forecast": "Rain likely before 10pm.  Snow level 8100 feet lowering to 7500 feet. Mostly cloudy, with a low around 37. Chance of precipitation is 60%."
         },
         {
           "day": "Tuesday",
-          "day_forecast": "A slight chance of rain.  Snow level 8200 feet rising to 9200 feet in the afternoon. Partly sunny, with a high near 51.",
+          "day_forecast": "A 20 percent chance of rain.  Snow level 8200 feet rising to 9200 feet in the afternoon. Partly sunny, with a high near 51.",
           "night_forecast": "Mostly cloudy, with a low around 39."
         },
         {
@@ -4698,13 +4697,14 @@
         },
         {
           "day": "Thursday",
-          "day_forecast": "A slight chance of rain.  Snow level 7200 feet. Partly sunny, with a high near 51."
+          "day_forecast": "A slight chance of rain.  Snow level 7200 feet. Partly sunny, with a high near 51.",
+          "night_forecast": "A slight chance of rain.  Snow level 6900 feet. Mostly cloudy, with a low around 35."
         }
       ],
       "wind": "NA",
-      "icon": "0150-clear-night.svg",
+      "icon": "0100-sunny.svg",
       "max_temp": "59",
-      "min_temp": "36",
+      "min_temp": "37",
       "hourly": [
         {
           "time": "4a",
@@ -4775,15 +4775,15 @@
   "satellite": {
     "Pacific Northwest": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/pnw/13/GOES18-PNW-13-600x600.gif",
-      "last_modified": "Sat, 07 Nov 2026 12:01:34 GMT"
+      "last_modified": "Sat, 07 Nov 2026 12:31:14 GMT"
     },
     "North Pacific (macro)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/np/13/GOES18-NP-13-900x540.gif",
-      "last_modified": "Sat, 07 Nov 2026 12:01:58 GMT"
+      "last_modified": "Sat, 07 Nov 2026 12:31:37 GMT"
     },
     "Pacific US (PACUS)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/13/GOES18-CONUS-13-625x375.gif",
-      "last_modified": "Sat, 07 Nov 2026 12:01:15 GMT"
+      "last_modified": "Sat, 07 Nov 2026 12:31:02 GMT"
     }
   },
   "gfs_snowfall": {
