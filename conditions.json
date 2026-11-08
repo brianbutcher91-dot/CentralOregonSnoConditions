@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-08T14:15:17.024278+00:00",
+  "generated_at": "2026-11-08T14:30:21.342994+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -914,8 +914,8 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 23.0,
-        "wind_direction_deg": 270,
+        "wind_speed_mph": 22.0,
+        "wind_direction_deg": 247.5,
         "snow_level_ft": 5853,
         "temp_f": 40
       },
@@ -3087,12 +3087,12 @@
     "Hoodoo": {
       "elevation_ft": 4705,
       "temp_f": 40,
-      "wind_speed_mph": 23.0,
-      "wind_direction_deg": 270,
+      "wind_speed_mph": 22.0,
+      "wind_direction_deg": 247.5,
       "snow_level_ft": 5853,
       "precip_chance_today": 35,
-      "snowfall_12h_in": 0.0,
-      "snowfall_24h_in": 0.2,
+      "snowfall_12h_in": 0.2,
+      "snowfall_24h_in": 0.0,
       "snowfall_48h_in": null
     },
     "Willamette Pass": {
@@ -3109,14 +3109,6 @@
   },
   "bachelor_timeseries": {
     "hourly": [
-      {
-        "time": "2026-11-07T06:00:00.000Z",
-        "temp_f": 43.32,
-        "wind_speed_mph": 6.057,
-        "wind_direction_deg": 191.1,
-        "precip_in": null,
-        "period": "historical"
-      },
       {
         "time": "2026-11-07T07:00:00.000Z",
         "temp_f": 43.2,
@@ -3302,12 +3294,12 @@
         "period": "historical"
       },
       {
-        "time": "2026-11-08T06:00:00+00:00",
-        "temp_f": 39.0,
-        "wind_speed_mph": 26.5,
-        "wind_direction_deg": 240,
-        "precip_in": 0.01,
-        "period": "forecast"
+        "time": "2026-11-08T06:00:00.000Z",
+        "temp_f": 28.5,
+        "wind_speed_mph": 20.22,
+        "wind_direction_deg": 254.3,
+        "precip_in": null,
+        "period": "historical"
       },
       {
         "time": "2026-11-08T07:00:00+00:00",
@@ -4203,7 +4195,7 @@
       "snow_depth_in_date": "2026-11-07",
       "swe_in": 0.4,
       "swe_in_date": "2026-11-07",
-      "change_12h_in": 1,
+      "change_12h_in": 0,
       "change_24h_in": 0
     },
     "Three Creek / Tam McArthur (Three Creeks Meadow)": {
@@ -4349,8 +4341,8 @@
           "day": "Sunday",
           "temperature_high": 45,
           "temperature_low": 32,
-          "precipitation_high": 84,
-          "precipitation_low": 84,
+          "precipitation_high": 85,
+          "precipitation_low": 85,
           "wind_speed": 16,
           "wind_direction": "SW"
         },
@@ -4468,10 +4460,10 @@
           "active": true,
           "primary": true,
           "nonstandardizedDataPoints": {
-            "depth": "3.527",
-            "timestamp": "2026-11-08T05:00:00.000Z"
+            "depth": "139.1",
+            "timestamp": "2026-11-08T06:00:00.000Z"
           },
-          "temperature": "32.31",
+          "temperature": "32.05",
           "wind": {
             "low": "0",
             "high": "0",
@@ -4491,14 +4483,14 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-11-08T05:00:00.000Z"
+            "timestamp": "2026-11-08T06:00:00.000Z"
           },
-          "temperature": "29.63",
+          "temperature": "29.45",
           "wind": {
-            "low": "10.61",
-            "high": "24.83",
+            "low": "9.52",
+            "high": "20.36",
             "current": null,
-            "average": "10.61",
+            "average": "9.52",
             "direction": "W"
           },
           "humidity": null,
@@ -4513,14 +4505,14 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-11-08T05:00:00.000Z"
+            "timestamp": "2026-11-08T06:00:00.000Z"
           },
-          "temperature": "28.19",
+          "temperature": "27.92",
           "wind": {
-            "low": "-0.055",
-            "high": "0.252",
+            "low": "-0.074",
+            "high": "0.245",
             "current": null,
-            "average": "-0.055",
+            "average": "-0.074",
             "direction": "N"
           },
           "humidity": "99.7",
@@ -4535,14 +4527,14 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-11-08T05:00:00.000Z"
+            "timestamp": "2026-11-08T06:00:00.000Z"
           },
-          "temperature": "28.52",
+          "temperature": "28.5",
           "wind": {
-            "low": "19.78",
-            "high": "38.25",
+            "low": "20.22",
+            "high": "39.82",
             "current": null,
-            "average": "19.78",
+            "average": "20.22",
             "direction": "WSW"
           },
           "humidity": null,
@@ -4628,7 +4620,7 @@
   "hoodoo": {
     "weather": {
       "Temperature": "33 &#176F",
-      "Wind": "West @ 23 MPH",
+      "Wind": "WSW @ 22 MPH",
       "Snow depth": "0.2\"",
       "Humidity": "100 %",
       "Barometer": "30.05\" Hg",
@@ -4638,10 +4630,10 @@
       "trend": {
         "Max": "1.1\"",
         "Min": "-2.3\"",
-        "1 Hr": "-0.2\"",
-        "3 Hr": "0.1\"",
-        "12 Hr": "0.0\"",
-        "24 Hr": "0.2\""
+        "1 Hr": "0.0\"",
+        "3 Hr": "-0.1\"",
+        "12 Hr": "0.2\"",
+        "24 Hr": "0.0\""
       },
       "season_total_in": 6.5
     },
@@ -4683,8 +4675,8 @@
   "willamette_pass": {
     "forecast": {
       "weather_provider": "NOAA",
-      "date": "November 8, 2026, 5:58 am",
-      "time": 1794146299000,
+      "date": "November 8, 2026, 6:10 am",
+      "time": 1794147018000,
       "current_weather": "Rain",
       "current_temperature": "41",
       "forecast": [
