@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T01:00:45.686614+00:00",
+  "generated_at": "2026-11-11T01:15:18.134860+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -928,7 +928,7 @@
         {
           "number": 1,
           "name": "This Afternoon",
-          "startTime": "2026-11-10T17:00:00-08:00",
+          "startTime": "2026-11-10T15:00:00-08:00",
           "endTime": "2026-11-10T18:00:00-08:00",
           "isDaytime": true,
           "temperature": 45,
@@ -938,13 +938,13 @@
             "unitCode": "wmoUnit:percent",
             "value": 1
           },
-          "windSpeed": "8 mph",
+          "windSpeed": "9 mph",
           "windDirection": "SW",
           "icon": "https://api.weather.gov/icons/land/day/bkn?size=medium",
           "shortForecast": "Partly Sunny",
-          "detailedForecast": "Partly sunny. High near 45, with temperatures falling to around 43 in the afternoon. Southwest wind around 8 mph.",
+          "detailedForecast": "Partly sunny. High near 45, with temperatures falling to around 43 in the afternoon. Southwest wind around 9 mph, with gusts as high as 20 mph.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 8766
+          "snowLevelFt": 9003
         },
         {
           "number": 2,
@@ -1849,7 +1849,7 @@
         {
           "number": 1,
           "name": "This Afternoon",
-          "startTime": "2026-11-10T17:00:00-08:00",
+          "startTime": "2026-11-10T15:00:00-08:00",
           "endTime": "2026-11-10T18:00:00-08:00",
           "isDaytime": true,
           "temperature": 54,
@@ -1857,15 +1857,15 @@
           "temperatureTrend": null,
           "probabilityOfPrecipitation": {
             "unitCode": "wmoUnit:percent",
-            "value": 2
+            "value": 5
           },
-          "windSpeed": "5 mph",
+          "windSpeed": "6 mph",
           "windDirection": "S",
           "icon": "https://api.weather.gov/icons/land/day/bkn?size=medium",
           "shortForecast": "Partly Sunny",
-          "detailedForecast": "Partly sunny. High near 54, with temperatures falling to around 50 in the afternoon. South wind around 5 mph.",
+          "detailedForecast": "Partly sunny. High near 54, with temperatures falling to around 50 in the afternoon. South wind around 6 mph.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 9135
+          "snowLevelFt": 9450
         },
         {
           "number": 2,
@@ -3091,8 +3091,8 @@
       "wind_direction_deg": 202.5,
       "snow_level_ft": 8531,
       "precip_chance_today": 3,
-      "snowfall_12h_in": 0.4,
-      "snowfall_24h_in": -0.1,
+      "snowfall_12h_in": 0.5,
+      "snowfall_24h_in": -0.2,
       "snowfall_48h_in": null
     },
     "Willamette Pass": {
@@ -3944,10 +3944,6 @@
     ],
     "historical_precip_snapshots": [
       {
-        "time": "2026-11-08T01:00:59.032266+00:00",
-        "precip_in": 0
-      },
-      {
         "time": "2026-11-08T02:15:16.351770+00:00",
         "precip_in": 0
       },
@@ -4351,7 +4347,7 @@
           "weather_icon": "dor-snow",
           "id": 1794337200,
           "day": "Tuesday",
-          "temperature_high": 47,
+          "temperature_high": 46,
           "temperature_low": 33,
           "precipitation_high": 72,
           "precipitation_low": 72,
@@ -4360,16 +4356,16 @@
         },
         {
           "date": "2026-11-11",
-          "description_long": "broken clouds",
-          "description_short": "broken clouds",
+          "description_long": "overcast clouds",
+          "description_short": "overcast clouds",
           "details": "Clouds",
           "weather_icon": "dor-mostlycloudy",
           "id": 1794423600,
           "day": "Wednesday",
-          "temperature_high": 56,
-          "temperature_low": 32,
-          "precipitation_high": 47,
-          "precipitation_low": 47,
+          "temperature_high": 55,
+          "temperature_low": 34,
+          "precipitation_high": 45,
+          "precipitation_low": 45,
           "wind_speed": 7,
           "wind_direction": "S"
         },
@@ -4382,7 +4378,7 @@
           "id": 1794510000,
           "day": "Thursday",
           "temperature_high": 50,
-          "temperature_low": 34,
+          "temperature_low": 31,
           "precipitation_high": 50,
           "precipitation_low": 50,
           "wind_speed": 14,
@@ -4633,8 +4629,8 @@
     "weather": {
       "Temperature": "51 &#176F",
       "Wind": "SSW @ 23 MPH",
-      "Snow depth": "-0.1\"",
-      "Humidity": "64 %",
+      "Snow depth": "0.0\"",
+      "Humidity": "63 %",
       "Barometer": "30.15\" Hg",
       "Rain Gauge": "0.87\""
     },
@@ -4643,10 +4639,10 @@
         "Max": "0.6\"",
         "Min": "-2.0\"",
         "1 Hr": "0.2\"",
-        "3 Hr": "0.3\"",
+        "3 Hr": "0.0\"",
         "6 Hr": "0.2\"",
-        "12 Hr": "0.4\"",
-        "24 Hr": "-0.1\""
+        "12 Hr": "0.5\"",
+        "24 Hr": "-0.2\""
       },
       "season_total_in": 6.5
     },
@@ -4688,8 +4684,8 @@
   "willamette_pass": {
     "forecast": {
       "weather_provider": "NOAA",
-      "date": "November 10, 2026, 4:55 pm",
-      "time": 1794358523000,
+      "date": "November 10, 2026, 5:10 pm",
+      "time": 1794359424000,
       "current_weather": "Mostly Cloudy",
       "current_temperature": "52",
       "forecast": [
@@ -4801,15 +4797,15 @@
   "satellite": {
     "Pacific Northwest": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/pnw/13/GOES18-PNW-13-600x600.gif",
-      "last_modified": "Wed, 11 Nov 2026 00:32:04 GMT"
+      "last_modified": "Wed, 11 Nov 2026 01:01:42 GMT"
     },
     "North Pacific (macro)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/np/13/GOES18-NP-13-900x540.gif",
-      "last_modified": "Wed, 11 Nov 2026 00:32:05 GMT"
+      "last_modified": "Wed, 11 Nov 2026 01:02:00 GMT"
     },
     "Pacific US (PACUS)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/13/GOES18-CONUS-13-625x375.gif",
-      "last_modified": "Wed, 11 Nov 2026 00:31:46 GMT"
+      "last_modified": "Wed, 11 Nov 2026 01:01:20 GMT"
     }
   },
   "gfs_snowfall": {
