@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T15:00:47.732624+00:00",
+  "generated_at": "2026-11-11T15:15:21.721659+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -914,7 +914,7 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 16.0,
+        "wind_speed_mph": 19.0,
         "wind_direction_deg": 202.5,
         "snow_level_ft": 7612,
         "temp_f": 42
@@ -1235,7 +1235,7 @@
         {
           "number": 1,
           "name": "Veterans Day",
-          "startTime": "2026-11-11T07:00:00-08:00",
+          "startTime": "2026-11-11T06:00:00-08:00",
           "endTime": "2026-11-11T18:00:00-08:00",
           "isDaytime": true,
           "temperature": 58,
@@ -1251,7 +1251,7 @@
           "shortForecast": "Partly Sunny",
           "detailedForecast": "Partly sunny. High near 58, with temperatures falling to around 50 in the afternoon. East southeast wind around 8 mph.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 7612
+          "snowLevelFt": 7717
         },
         {
           "number": 2,
@@ -2770,7 +2770,7 @@
         {
           "number": 1,
           "name": "Veterans Day",
-          "startTime": "2026-11-11T06:00:00-08:00",
+          "startTime": "2026-11-11T07:00:00-08:00",
           "endTime": "2026-11-11T18:00:00-08:00",
           "isDaytime": true,
           "temperature": 67,
@@ -2786,7 +2786,7 @@
           "shortForecast": "Partly Sunny",
           "detailedForecast": "Partly sunny. High near 67, with temperatures falling to around 58 in the afternoon. South wind 3 to 7 mph.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 8083
+          "snowLevelFt": 7663
         },
         {
           "number": 2,
@@ -3087,12 +3087,12 @@
     "Hoodoo": {
       "elevation_ft": 4705,
       "temp_f": 42,
-      "wind_speed_mph": 16.0,
+      "wind_speed_mph": 19.0,
       "wind_direction_deg": 202.5,
       "snow_level_ft": 7612,
       "precip_chance_today": 0,
-      "snowfall_12h_in": -0.1,
-      "snowfall_24h_in": -0.1,
+      "snowfall_12h_in": -0.6,
+      "snowfall_24h_in": -0.4,
       "snowfall_48h_in": null
     },
     "Willamette Pass": {
@@ -4620,9 +4620,9 @@
   "hoodoo": {
     "weather": {
       "Temperature": "53 &#176F",
-      "Wind": "SSW @ 16 MPH",
+      "Wind": "SSW @ 19 MPH",
       "Snow depth": "-0.6\"",
-      "Humidity": "35 %",
+      "Humidity": "34 %",
       "Barometer": "30.09\" Hg",
       "Rain Gauge": "0.87\""
     },
@@ -4630,11 +4630,11 @@
       "trend": {
         "Max": "0.8\"",
         "Min": "-2.0\"",
-        "1 Hr": "-0.2\"",
-        "3 Hr": "0.1\"",
-        "6 Hr": "0.3\"",
-        "12 Hr": "-0.1\"",
-        "24 Hr": "-0.1\""
+        "1 Hr": "-0.3\"",
+        "3 Hr": "-0.3\"",
+        "6 Hr": "0.1\"",
+        "12 Hr": "-0.6\"",
+        "24 Hr": "-0.4\""
       },
       "season_total_in": 6.5
     },
@@ -4676,8 +4676,8 @@
   "willamette_pass": {
     "forecast": {
       "weather_provider": "NOAA",
-      "date": "November 11, 2026, 6:40 am",
-      "time": 1794408020000,
+      "date": "November 11, 2026, 7:13 am",
+      "time": 1794410010000,
       "current_weather": "Partly Sunny",
       "current_temperature": "45",
       "forecast": [
@@ -4758,16 +4758,7 @@
       "Lifts Open": "0/6",
       "Trails Open": "0/30"
     },
-    "webcams": {
-      "Base Area": {
-        "src": "https://www.youtube.com/embed/sNVA6oC7vcM",
-        "link": "https://www.willamettepass.ski/weather-conditions-webcams/webcams/"
-      },
-      "EPA": {
-        "src": "https://www.youtube.com/embed/uav7cBNVv0k",
-        "link": "https://www.willamettepass.ski/weather-conditions-webcams/webcams/"
-      }
-    }
+    "webcams": {}
   },
   "snow_stake_cams": {
     "Mt. Bachelor (Snow Stake)": {
@@ -4778,23 +4769,20 @@
       "src": "https://santiampsp.org/wx/weather16.jpg",
       "link": "https://hoodoo.com/the-mountain/webcams/"
     },
-    "Willamette Pass (Base Area)": {
-      "src": "https://www.youtube.com/embed/sNVA6oC7vcM",
-      "link": "https://www.willamettepass.ski/weather-conditions-webcams/webcams/"
-    }
+    "Willamette Pass (Base Area)": null
   },
   "satellite": {
     "Pacific Northwest": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/pnw/13/GOES18-PNW-13-600x600.gif",
-      "last_modified": "Wed, 11 Nov 2026 14:31:43 GMT"
+      "last_modified": "Wed, 11 Nov 2026 15:01:32 GMT"
     },
     "North Pacific (macro)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/np/13/GOES18-NP-13-900x540.gif",
-      "last_modified": "Wed, 11 Nov 2026 14:31:58 GMT"
+      "last_modified": "Wed, 11 Nov 2026 15:01:58 GMT"
     },
     "Pacific US (PACUS)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/13/GOES18-CONUS-13-625x375.gif",
-      "last_modified": "Wed, 11 Nov 2026 14:31:37 GMT"
+      "last_modified": "Wed, 11 Nov 2026 15:01:17 GMT"
     }
   },
   "gfs_snowfall": {
