@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T17:30:25.008819+00:00",
+  "generated_at": "2026-11-11T17:45:26.414237+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -914,7 +914,7 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 22.0,
+        "wind_speed_mph": 21.0,
         "wind_direction_deg": 202.5,
         "snow_level_ft": 7507,
         "temp_f": 49
@@ -1235,7 +1235,7 @@
         {
           "number": 1,
           "name": "Veterans Day",
-          "startTime": "2026-11-11T06:00:00-08:00",
+          "startTime": "2026-11-11T09:00:00-08:00",
           "endTime": "2026-11-11T18:00:00-08:00",
           "isDaytime": true,
           "temperature": 58,
@@ -1251,7 +1251,7 @@
           "shortForecast": "Partly Sunny",
           "detailedForecast": "Partly sunny. High near 58, with temperatures falling to around 50 in the afternoon. East southeast wind around 8 mph.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 7717
+          "snowLevelFt": 7638
         },
         {
           "number": 2,
@@ -3087,12 +3087,12 @@
     "Hoodoo": {
       "elevation_ft": 4705,
       "temp_f": 49,
-      "wind_speed_mph": 22.0,
+      "wind_speed_mph": 21.0,
       "wind_direction_deg": 202.5,
       "snow_level_ft": 7507,
       "precip_chance_today": 0,
-      "snowfall_12h_in": 0.1,
-      "snowfall_24h_in": 0.2,
+      "snowfall_12h_in": -0.9,
+      "snowfall_24h_in": -0.2,
       "snowfall_48h_in": null
     },
     "Willamette Pass": {
@@ -4328,7 +4328,7 @@
     "weather": {
       "current": {
         "temperature": 51,
-        "weather_icon": "dor-mostlycloudy"
+        "weather_icon": "dor-cloudy"
       },
       "forecast": [
         {
@@ -4339,10 +4339,10 @@
           "weather_icon": "dor-cloudy",
           "id": 1794423600,
           "day": "Wednesday",
-          "temperature_high": 51,
+          "temperature_high": 50,
           "temperature_low": 32,
-          "precipitation_high": 51,
-          "precipitation_low": 51,
+          "precipitation_high": 48,
+          "precipitation_low": 48,
           "wind_speed": 6,
           "wind_direction": "S"
         },
@@ -4620,9 +4620,9 @@
   "hoodoo": {
     "weather": {
       "Temperature": "54 &#176F",
-      "Wind": "SSW @ 22 MPH",
-      "Snow depth": "-0.2\"",
-      "Humidity": "28 %",
+      "Wind": "SSW @ 21 MPH",
+      "Snow depth": "-0.5\"",
+      "Humidity": "27 %",
       "Barometer": "30.11\" Hg",
       "Rain Gauge": "0.87\""
     },
@@ -4630,11 +4630,11 @@
       "trend": {
         "Max": "0.8\"",
         "Min": "-2.0\"",
-        "1 Hr": "0.0\"",
-        "3 Hr": "0.0\"",
-        "6 Hr": "0.0\"",
-        "12 Hr": "0.1\"",
-        "24 Hr": "0.2\""
+        "1 Hr": "-0.5\"",
+        "3 Hr": "-0.5\"",
+        "6 Hr": "-0.9\"",
+        "12 Hr": "-0.9\"",
+        "24 Hr": "-0.2\""
       },
       "season_total_in": 6.5
     },
@@ -4676,8 +4676,8 @@
   "willamette_pass": {
     "forecast": {
       "weather_provider": "NOAA",
-      "date": "November 11, 2026, 9:25 am",
-      "time": 1794417925000,
+      "date": "November 11, 2026, 9:34 am",
+      "time": 1794418460000,
       "current_weather": "Partly Sunny",
       "current_temperature": "50",
       "forecast": [
@@ -4786,15 +4786,15 @@
   "satellite": {
     "Pacific Northwest": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/pnw/13/GOES18-PNW-13-600x600.gif",
-      "last_modified": "Wed, 11 Nov 2026 17:01:42 GMT"
+      "last_modified": "Wed, 11 Nov 2026 17:31:39 GMT"
     },
     "North Pacific (macro)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/np/13/GOES18-NP-13-900x540.gif",
-      "last_modified": "Wed, 11 Nov 2026 17:02:26 GMT"
+      "last_modified": "Wed, 11 Nov 2026 17:31:56 GMT"
     },
     "Pacific US (PACUS)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/13/GOES18-CONUS-13-625x375.gif",
-      "last_modified": "Wed, 11 Nov 2026 17:01:37 GMT"
+      "last_modified": "Wed, 11 Nov 2026 17:31:28 GMT"
     }
   },
   "gfs_snowfall": {
