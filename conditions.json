@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T14:30:26.703091+00:00",
+  "generated_at": "2026-11-11T14:45:21.209042+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -914,7 +914,7 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 16.0,
+        "wind_speed_mph": 18.0,
         "wind_direction_deg": 202.5,
         "snow_level_ft": 7743,
         "temp_f": 43
@@ -3087,12 +3087,12 @@
     "Hoodoo": {
       "elevation_ft": 4705,
       "temp_f": 43,
-      "wind_speed_mph": 16.0,
+      "wind_speed_mph": 18.0,
       "wind_direction_deg": 202.5,
       "snow_level_ft": 7743,
       "precip_chance_today": 0,
-      "snowfall_12h_in": 0.2,
-      "snowfall_24h_in": -0.2,
+      "snowfall_12h_in": 0.0,
+      "snowfall_24h_in": 0.1,
       "snowfall_48h_in": null
     },
     "Willamette Pass": {
@@ -4320,21 +4320,21 @@
     "weather": {
       "current": {
         "temperature": 53,
-        "weather_icon": "dor-cloudy"
+        "weather_icon": "dor-mostlycloudy"
       },
       "forecast": [
         {
           "date": "2026-11-11",
-          "description_long": "clear sky",
-          "description_short": "clear sky",
-          "details": "Clear",
-          "weather_icon": "dor-sunny",
+          "description_long": "few clouds",
+          "description_short": "few clouds",
+          "details": "Clouds",
+          "weather_icon": "dor-mostlysunny",
           "id": 1794423600,
           "day": "Wednesday",
           "temperature_high": 52,
           "temperature_low": 32,
-          "precipitation_high": 45,
-          "precipitation_low": 45,
+          "precipitation_high": 50,
+          "precipitation_low": 50,
           "wind_speed": 6,
           "wind_direction": "S"
         },
@@ -4612,8 +4612,8 @@
   "hoodoo": {
     "weather": {
       "Temperature": "53 &#176F",
-      "Wind": "SSW @ 16 MPH",
-      "Snow depth": "-0.2\"",
+      "Wind": "SSW @ 18 MPH",
+      "Snow depth": "-1.1\"",
       "Humidity": "36 %",
       "Barometer": "30.09\" Hg",
       "Rain Gauge": "0.87\""
@@ -4622,11 +4622,11 @@
       "trend": {
         "Max": "0.8\"",
         "Min": "-2.0\"",
-        "1 Hr": "0.0\"",
-        "3 Hr": "0.0\"",
-        "6 Hr": "0.0\"",
-        "12 Hr": "0.2\"",
-        "24 Hr": "-0.2\""
+        "1 Hr": "0.4\"",
+        "3 Hr": "-0.4\"",
+        "6 Hr": "0.4\"",
+        "12 Hr": "0.0\"",
+        "24 Hr": "0.1\""
       },
       "season_total_in": 6.5
     },
@@ -4778,15 +4778,15 @@
   "satellite": {
     "Pacific Northwest": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/pnw/13/GOES18-PNW-13-600x600.gif",
-      "last_modified": "Wed, 11 Nov 2026 14:01:36 GMT"
+      "last_modified": "Wed, 11 Nov 2026 14:31:43 GMT"
     },
     "North Pacific (macro)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/np/13/GOES18-NP-13-900x540.gif",
-      "last_modified": "Wed, 11 Nov 2026 14:02:13 GMT"
+      "last_modified": "Wed, 11 Nov 2026 14:31:58 GMT"
     },
     "Pacific US (PACUS)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/13/GOES18-CONUS-13-625x375.gif",
-      "last_modified": "Wed, 11 Nov 2026 14:01:16 GMT"
+      "last_modified": "Wed, 11 Nov 2026 14:31:37 GMT"
     }
   },
   "gfs_snowfall": {
