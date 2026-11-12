@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T13:02:41.597651+00:00",
+  "generated_at": "2026-11-12T13:15:18.460214+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -914,8 +914,8 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 5,
-        "wind_direction_deg": 160,
+        "wind_speed_mph": 21.0,
+        "wind_direction_deg": 202.5,
         "snow_level_ft": 7060,
         "temp_f": 41
       },
@@ -3087,12 +3087,12 @@
     "Hoodoo": {
       "elevation_ft": 4705,
       "temp_f": 41,
-      "wind_speed_mph": 5,
-      "wind_direction_deg": 160,
+      "wind_speed_mph": 21.0,
+      "wind_direction_deg": 202.5,
       "snow_level_ft": 7060,
       "precip_chance_today": 0,
-      "snowfall_12h_in": null,
-      "snowfall_24h_in": null,
+      "snowfall_12h_in": 0.3,
+      "snowfall_24h_in": -0.2,
       "snowfall_48h_in": null
     },
     "Willamette Pass": {
@@ -4329,16 +4329,16 @@
       "forecast": [
         {
           "date": "2026-11-12",
-          "description_long": "broken clouds",
-          "description_short": "broken clouds",
+          "description_long": "scattered clouds",
+          "description_short": "scattered clouds",
           "details": "Clouds",
-          "weather_icon": "dor-mostlycloudy",
+          "weather_icon": "dor-cloudy",
           "id": 1794510000,
           "day": "Thursday",
-          "temperature_high": 52,
+          "temperature_high": 51,
           "temperature_low": 30,
-          "precipitation_high": 52,
-          "precipitation_low": 52,
+          "precipitation_high": 51,
+          "precipitation_low": 51,
           "wind_speed": 15,
           "wind_direction": "S"
         },
@@ -4350,11 +4350,11 @@
           "weather_icon": "dor-snow",
           "id": 1794596400,
           "day": "Friday",
-          "temperature_high": 42,
-          "temperature_low": 30,
-          "precipitation_high": 98,
-          "precipitation_low": 98,
-          "wind_speed": 16,
+          "temperature_high": 43,
+          "temperature_low": 29,
+          "precipitation_high": 99,
+          "precipitation_low": 99,
+          "wind_speed": 17,
           "wind_direction": "S"
         },
         {
@@ -4614,13 +4614,65 @@
     }
   },
   "hoodoo": {
-    "error": "HTTPSConnectionPool(host='santiampsp.org', port=443): Max retries exceeded with url: /wx/weather.htm (Caused by ConnectTimeoutError(<HTTPSConnection(host='santiampsp.org', port=443) at 0x70dd1eaffc50>, 'Connection to santiampsp.org timed out. (connect timeout=None)'))"
+    "weather": {
+      "Temperature": "51 &#176F",
+      "Wind": "SSW @ 21 MPH",
+      "Snow depth": "-0.4\"",
+      "Humidity": "27 %",
+      "Barometer": "29.94\" Hg"
+    },
+    "snow_totals": {
+      "trend": {
+        "Max": "0.8\"",
+        "Min": "-1.9\"",
+        "1 Hr": "-0.4\"",
+        "3 Hr": "-0.3\"",
+        "6 Hr": "0.1\"",
+        "12 Hr": "0.3\"",
+        "24 Hr": "-0.2\""
+      },
+      "season_total_in": 6.5
+    },
+    "webcams": {
+      "Base Area": {
+        "src": "https://santiampsp.org/wx/weather16.jpg",
+        "link": "https://hoodoo.com/the-mountain/webcams/"
+      },
+      "Top of Manzanita": {
+        "src": "https://santiampsp.org/wx/weather3.jpg",
+        "link": "https://hoodoo.com/the-mountain/webcams/"
+      },
+      "Top of Ed": {
+        "src": "https://santiampsp.org/wx/weather2.jpg",
+        "link": "https://hoodoo.com/the-mountain/webcams/"
+      },
+      "Top of Easy Rider": {
+        "src": "https://santiampsp.org/wx/weather4.jpg",
+        "link": "https://hoodoo.com/the-mountain/webcams/"
+      },
+      "Hoodoo Parking Lot": {
+        "src": "https://santiampsp.org/wx/weather12.jpg",
+        "link": "https://hoodoo.com/the-mountain/webcams/"
+      },
+      "Hoodoo Summit": {
+        "src": "https://santiampsp.org/wx/weather1.jpg",
+        "link": "https://hoodoo.com/the-mountain/webcams/"
+      },
+      "Hayrick Butte & \"Gripper\" run from top of Ed chair": {
+        "src": "https://santiampsp.org/wx/weather2b.jpg",
+        "link": "https://hoodoo.com/the-mountain/webcams/"
+      },
+      "Hoodoo Parking Lot View #2": {
+        "src": "https://santiampsp.org/wx/weather10.jpg",
+        "link": "https://hoodoo.com/the-mountain/webcams/"
+      }
+    }
   },
   "willamette_pass": {
     "forecast": {
       "weather_provider": "NOAA",
-      "date": "November 12, 2026, 4:43 am",
-      "time": 1794487405000,
+      "date": "November 12, 2026, 4:55 am",
+      "time": 1794488118000,
       "current_weather": "Partly Sunny",
       "current_temperature": "45",
       "forecast": [
@@ -4717,7 +4769,10 @@
       "src": "https://api.mtbachelor.com/api/v1/cams/mtn/14",
       "link": "https://www.mtbachelor.com/the-mountain/webcams/live-cam-14/"
     },
-    "Hoodoo (Base Area)": null,
+    "Hoodoo (Base Area)": {
+      "src": "https://santiampsp.org/wx/weather16.jpg",
+      "link": "https://hoodoo.com/the-mountain/webcams/"
+    },
     "Willamette Pass (Base Area)": {
       "src": "https://www.youtube.com/embed/sNVA6oC7vcM",
       "link": "https://www.willamettepass.ski/weather-conditions-webcams/webcams/"
