@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T05:15:18.040413+00:00",
+  "generated_at": "2026-11-12T05:30:24.223331+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -914,8 +914,8 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 19.0,
-        "wind_direction_deg": 157.5,
+        "wind_speed_mph": 13.0,
+        "wind_direction_deg": 135,
         "snow_level_ft": 7533,
         "temp_f": 44
       },
@@ -2156,7 +2156,7 @@
         {
           "number": 1,
           "name": "Tonight",
-          "startTime": "2026-11-11T20:00:00-08:00",
+          "startTime": "2026-11-11T21:00:00-08:00",
           "endTime": "2026-11-12T06:00:00-08:00",
           "isDaytime": false,
           "temperature": 41,
@@ -3087,12 +3087,12 @@
     "Hoodoo": {
       "elevation_ft": 4705,
       "temp_f": 44,
-      "wind_speed_mph": 19.0,
-      "wind_direction_deg": 157.5,
+      "wind_speed_mph": 13.0,
+      "wind_direction_deg": 135,
       "snow_level_ft": 7533,
       "precip_chance_today": 0,
-      "snowfall_12h_in": 0.5,
-      "snowfall_24h_in": 0.0,
+      "snowfall_12h_in": 0.2,
+      "snowfall_24h_in": 0.3,
       "snowfall_48h_in": null
     },
     "Willamette Pass": {
@@ -3109,14 +3109,6 @@
   },
   "bachelor_timeseries": {
     "hourly": [
-      {
-        "time": "2026-11-10T21:00:00.000Z",
-        "temp_f": 41.95,
-        "wind_speed_mph": 4.424,
-        "wind_direction_deg": 158.1,
-        "precip_in": null,
-        "period": "historical"
-      },
       {
         "time": "2026-11-10T22:00:00.000Z",
         "temp_f": 41.43,
@@ -3298,6 +3290,14 @@
         "temp_f": 45.21,
         "wind_speed_mph": 13.32,
         "wind_direction_deg": 117.2,
+        "precip_in": null,
+        "period": "historical"
+      },
+      {
+        "time": "2026-11-11T21:00:00.000Z",
+        "temp_f": 44.71,
+        "wind_speed_mph": 14.25,
+        "wind_direction_deg": 112.0,
         "precip_in": null,
         "period": "historical"
       },
@@ -4182,6 +4182,10 @@
       {
         "time": "2026-11-12T04:15:19.253300+00:00",
         "precip_in": 0
+      },
+      {
+        "time": "2026-11-12T05:30:24.633078+00:00",
+        "precip_in": 0
       }
     ]
   },
@@ -4191,8 +4195,8 @@
       "snow_depth_in_date": "2026-11-10",
       "swe_in": 0.1,
       "swe_in_date": "2026-11-10",
-      "change_12h_in": -1,
-      "change_24h_in": -1
+      "change_12h_in": 0,
+      "change_24h_in": 0
     },
     "Three Creek / Tam McArthur (Three Creeks Meadow)": {
       "snow_depth_in": 0,
@@ -4457,9 +4461,9 @@
           "primary": true,
           "nonstandardizedDataPoints": {
             "depth": "0.113",
-            "timestamp": "2026-11-11T20:00:00.000Z"
+            "timestamp": "2026-11-11T21:00:00.000Z"
           },
-          "temperature": "51.35",
+          "temperature": "50.71",
           "wind": {
             "low": "0",
             "high": "0",
@@ -4479,14 +4483,14 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-11-11T20:00:00.000Z"
+            "timestamp": "2026-11-11T21:00:00.000Z"
           },
-          "temperature": "47.24",
+          "temperature": "46.68",
           "wind": {
-            "low": "6.564",
-            "high": "18.34",
+            "low": "6.461",
+            "high": "18.12",
             "current": null,
-            "average": "6.564",
+            "average": "6.461",
             "direction": "SSE"
           },
           "humidity": null,
@@ -4501,17 +4505,17 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-11-11T20:00:00.000Z"
+            "timestamp": "2026-11-11T21:00:00.000Z"
           },
-          "temperature": "45.77",
+          "temperature": "45.22",
           "wind": {
-            "low": "-0.097",
+            "low": "-0.087",
             "high": "0.225",
             "current": null,
-            "average": "-0.097",
+            "average": "-0.087",
             "direction": "N"
           },
-          "humidity": "30.97",
+          "humidity": "28.83",
           "display_name": "Pine Marten",
           "elevation_ft": 7800
         },
@@ -4523,14 +4527,14 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-11-11T20:00:00.000Z"
+            "timestamp": "2026-11-11T21:00:00.000Z"
           },
-          "temperature": "45.21",
+          "temperature": "44.71",
           "wind": {
-            "low": "13.32",
-            "high": "30.42",
+            "low": "14.25",
+            "high": "28.86",
             "current": null,
-            "average": "13.32",
+            "average": "14.25",
             "direction": "ESE"
           },
           "humidity": null,
@@ -4545,15 +4549,15 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-11-11T20:00:00.000Z"
+            "timestamp": "2026-11-11T21:00:00.000Z"
           },
-          "temperature": "43.14",
+          "temperature": "42.57",
           "wind": {
-            "low": "10.27",
-            "high": "25.95",
+            "low": "11.96",
+            "high": "24.38",
             "current": null,
-            "average": "10.27",
-            "direction": "SSE"
+            "average": "11.96",
+            "direction": "SE"
           },
           "humidity": null,
           "display_name": "Northwest",
@@ -4615,10 +4619,10 @@
   },
   "hoodoo": {
     "weather": {
-      "Temperature": "55 &#176F",
-      "Wind": "SSE @ 19 MPH",
-      "Snow depth": "-0.5\"",
-      "Humidity": "27 %",
+      "Temperature": "53 &#176F",
+      "Wind": "SE @ 13 MPH",
+      "Snow depth": "0.0\"",
+      "Humidity": "36 %",
       "Barometer": "30.08\" Hg",
       "Rain Gauge": "0.26\""
     },
@@ -4626,11 +4630,11 @@
       "trend": {
         "Max": "0.8\"",
         "Min": "-2.0\"",
-        "1 Hr": "0.2\"",
-        "3 Hr": "0.6\"",
-        "6 Hr": "0.9\"",
-        "12 Hr": "0.5\"",
-        "24 Hr": "0.0\""
+        "1 Hr": "0.5\"",
+        "3 Hr": "0.5\"",
+        "6 Hr": "1.1\"",
+        "12 Hr": "0.2\"",
+        "24 Hr": "0.3\""
       },
       "season_total_in": 6.5
     },
@@ -4757,16 +4761,7 @@
       "Lifts Open": "0/6",
       "Trails Open": "0/30"
     },
-    "webcams": {
-      "Base Area": {
-        "src": "https://www.youtube.com/embed/sNVA6oC7vcM",
-        "link": "https://www.willamettepass.ski/weather-conditions-webcams/webcams/"
-      },
-      "EPA": {
-        "src": "https://www.youtube.com/embed/uav7cBNVv0k",
-        "link": "https://www.willamettepass.ski/weather-conditions-webcams/webcams/"
-      }
-    }
+    "webcams": {}
   },
   "snow_stake_cams": {
     "Mt. Bachelor (Snow Stake)": {
@@ -4777,10 +4772,7 @@
       "src": "https://santiampsp.org/wx/weather16.jpg",
       "link": "https://hoodoo.com/the-mountain/webcams/"
     },
-    "Willamette Pass (Base Area)": {
-      "src": "https://www.youtube.com/embed/sNVA6oC7vcM",
-      "link": "https://www.willamettepass.ski/weather-conditions-webcams/webcams/"
-    }
+    "Willamette Pass (Base Area)": null
   },
   "satellite": {
     "Pacific Northwest": {
