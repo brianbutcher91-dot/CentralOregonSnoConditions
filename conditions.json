@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T12:30:19.964837+00:00",
+  "generated_at": "2026-11-12T12:45:24.073771+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -3091,8 +3091,8 @@
       "wind_direction_deg": 202.5,
       "snow_level_ft": 7139,
       "precip_chance_today": 0,
-      "snowfall_12h_in": 0.7,
-      "snowfall_24h_in": 0.3,
+      "snowfall_12h_in": 0.3,
+      "snowfall_24h_in": -0.2,
       "snowfall_48h_in": null
     },
     "Willamette Pass": {
@@ -3300,14 +3300,6 @@
         "wind_direction_deg": 338.3,
         "precip_in": null,
         "period": "historical"
-      },
-      {
-        "time": "2026-11-12T05:00:00+00:00",
-        "temp_f": 40.0,
-        "wind_speed_mph": 21.9,
-        "wind_direction_deg": 200,
-        "precip_in": 0.0,
-        "period": "forecast"
       },
       {
         "time": "2026-11-12T06:00:00+00:00",
@@ -3936,10 +3928,6 @@
     ],
     "historical_precip_snapshots": [
       {
-        "time": "2026-11-09T12:30:52.086761+00:00",
-        "precip_in": 0
-      },
-      {
         "time": "2026-11-09T13:45:22.147195+00:00",
         "precip_in": 0
       },
@@ -4340,7 +4328,7 @@
           "id": 1794510000,
           "day": "Thursday",
           "temperature_high": 52,
-          "temperature_low": 32,
+          "temperature_low": 30,
           "precipitation_high": 52,
           "precipitation_low": 52,
           "wind_speed": 15,
@@ -4621,8 +4609,8 @@
     "weather": {
       "Temperature": "49 &#176F",
       "Wind": "SSW @ 20 MPH",
-      "Snow depth": "0.2\"",
-      "Humidity": "35 %",
+      "Snow depth": "-0.4\"",
+      "Humidity": "33 %",
       "Barometer": "29.95\" Hg",
       "Rain Gauge": "0.01\""
     },
@@ -4630,11 +4618,11 @@
       "trend": {
         "Max": "0.8\"",
         "Min": "-1.9\"",
-        "1 Hr": "0.4\"",
-        "3 Hr": "0.4\"",
-        "6 Hr": "0.5\"",
-        "12 Hr": "0.7\"",
-        "24 Hr": "0.3\""
+        "1 Hr": "-0.5\"",
+        "3 Hr": "0.0\"",
+        "6 Hr": "-0.6\"",
+        "12 Hr": "0.3\"",
+        "24 Hr": "-0.2\""
       },
       "season_total_in": 6.5
     },
@@ -4676,9 +4664,9 @@
   "willamette_pass": {
     "forecast": {
       "weather_provider": "NOAA",
-      "date": "November 12, 2026, 4:04 am",
-      "time": 1794485060000,
-      "current_weather": "Mostly Cloudy",
+      "date": "November 12, 2026, 4:43 am",
+      "time": 1794487405000,
+      "current_weather": "Partly Sunny",
       "current_temperature": "45",
       "forecast": [
         {
@@ -4688,31 +4676,32 @@
         },
         {
           "day": "Friday",
-          "day_forecast": "Rain before 10am, then rain and snow.  Snow level 6900 feet lowering to 5900 feet in the afternoon . High near 41. Breezy, with a south southeast wind 17 to 22 mph decreasing to 9 to 14 mph in the afternoon. Winds could gust as high as 33 mph.  Chance of precipitation is 100%. Little or no snow accumulation expected. ",
+          "day_forecast": "Rain before 10am, then rain and snow.  Snow level 6900 feet lowering to 5900 feet in the afternoon . Temperature falling to around 35 by 5pm. Breezy, with a south southeast wind 17 to 22 mph decreasing to 9 to 14 mph in the afternoon. Winds could gust as high as 33 mph.  Chance of precipitation is 100%. Little or no snow accumulation expected. ",
           "night_forecast": "Snow likely, mainly before 4am.  Mostly cloudy, with a low around 32. Southwest wind around 8 mph.  Chance of precipitation is 70%. Little or no snow accumulation expected. "
         },
         {
           "day": "Saturday",
-          "day_forecast": "A 40 percent chance of snow before 10am.  Snow level rising to 6100 feet in the afternoon. Mostly cloudy, with a high near 39. Little or no snow accumulation expected. ",
+          "day_forecast": "A 40 percent chance of snow before 10am.  Snow level rising to 6100 feet in the afternoon. Mostly cloudy, with a high near 39. South southwest wind around 8 mph.  Little or no snow accumulation expected. ",
           "night_forecast": "Rain likely after 10pm.  Snow level 6600 feet. Mostly cloudy, with a low around 33. Chance of precipitation is 60%. New precipitation amounts between a tenth and quarter of an inch possible. "
         },
         {
           "day": "Sunday",
-          "day_forecast": "Rain and snow.  Snow level 6400 feet. Cloudy, with a high near 38.",
+          "day_forecast": "Rain and snow.  Snow level 6400 feet. High near 38. Chance of precipitation is 100%. Little or no snow accumulation expected. ",
           "night_forecast": "Rain and snow, mainly before 10pm.  Cloudy, with a low around 30."
         },
         {
           "day": "Monday",
           "day_forecast": "A chance of snow, mainly before 10am.  Mostly cloudy, with a high near 36.",
-          "night_forecast": "A slight chance of snow.  Mostly cloudy, with a low around 27."
+          "night_forecast": "A slight chance of snow before 10pm.  Mostly cloudy, with a low around 27."
         },
         {
           "day": "Tuesday",
-          "day_forecast": "Mostly sunny, with a high near 37."
+          "day_forecast": "Mostly sunny, with a high near 37.",
+          "night_forecast": "A chance of snow.  Mostly cloudy, with a low around 28."
         }
       ],
       "wind": "NA",
-      "icon": "0101-cloudy.svg",
+      "icon": "0100-sunny.svg",
       "max_temp": "54",
       "min_temp": "37",
       "hourly": [
@@ -4785,15 +4774,15 @@
   "satellite": {
     "Pacific Northwest": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/pnw/13/GOES18-PNW-13-600x600.gif",
-      "last_modified": "Thu, 12 Nov 2026 12:01:20 GMT"
+      "last_modified": "Thu, 12 Nov 2026 12:31:34 GMT"
     },
     "North Pacific (macro)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/np/13/GOES18-NP-13-900x540.gif",
-      "last_modified": "Thu, 12 Nov 2026 12:01:35 GMT"
+      "last_modified": "Thu, 12 Nov 2026 12:31:53 GMT"
     },
     "Pacific US (PACUS)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/13/GOES18-CONUS-13-625x375.gif",
-      "last_modified": "Thu, 12 Nov 2026 12:01:24 GMT"
+      "last_modified": "Thu, 12 Nov 2026 12:31:27 GMT"
     }
   },
   "gfs_snowfall": {
