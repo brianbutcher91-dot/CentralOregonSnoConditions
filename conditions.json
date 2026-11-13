@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T19:32:05.023550+00:00",
+  "generated_at": "2026-11-13T19:45:19.913565+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -3091,8 +3091,8 @@
       "wind_direction_deg": 270,
       "snow_level_ft": 6588,
       "precip_chance_today": 100,
-      "snowfall_12h_in": 0.2,
-      "snowfall_24h_in": 0.3,
+      "snowfall_12h_in": -0.1,
+      "snowfall_24h_in": -0.2,
       "snowfall_48h_in": null
     },
     "Willamette Pass": {
@@ -4333,8 +4333,8 @@
           "day": "Friday",
           "temperature_high": 44,
           "temperature_low": 28,
-          "precipitation_high": 71,
-          "precipitation_low": 71,
+          "precipitation_high": 72,
+          "precipitation_low": 72,
           "wind_speed": 17,
           "wind_direction": "S"
         },
@@ -4611,7 +4611,7 @@
   },
   "hoodoo": {
     "weather": {
-      "Temperature": "36 &#176F",
+      "Temperature": "33 &#176F",
       "Wind": "West @ 13 MPH",
       "Snow depth": "-0.2\"",
       "Humidity": "100 %",
@@ -4622,11 +4622,11 @@
       "trend": {
         "Max": "0.8\"",
         "Min": "-2.3\"",
-        "1 Hr": "-0.4\"",
-        "3 Hr": "1.0\"",
-        "6 Hr": "0.1\"",
-        "12 Hr": "0.2\"",
-        "24 Hr": "0.3\""
+        "1 Hr": "-0.6\"",
+        "3 Hr": "0.0\"",
+        "6 Hr": "0.3\"",
+        "12 Hr": "-0.1\"",
+        "24 Hr": "-0.2\""
       },
       "season_total_in": 6.5
     },
@@ -4668,14 +4668,14 @@
   "willamette_pass": {
     "forecast": {
       "weather_provider": "NOAA",
-      "date": "November 13, 2026, 11:07 am",
-      "time": 1794596837000,
-      "current_weather": "Rain then Rain/Snow",
+      "date": "November 13, 2026, 11:38 am",
+      "time": 1794598686000,
+      "current_weather": "Rain/Snow",
       "current_temperature": "45",
       "forecast": [
         {
           "day": "Friday",
-          "day_forecast": "Rain before 4pm, then a chance of rain and snow.  Snow level 7200 feet lowering to 5700 feet. Temperature falling to around 37 by 4pm. South wind 7 to 17 mph becoming west southwest in the afternoon. Winds could gust as high as 28 mph.  Chance of precipitation is 90%. Little or no snow accumulation expected. ",
+          "day_forecast": "Rain before 4pm, then a chance of rain and snow.  Snow level 6900 feet lowering to 5700 feet. Temperature falling to around 37 by 4pm. West southwest wind 7 to 11 mph, with gusts as high as 18 mph.  Chance of precipitation is 90%. Little or no snow accumulation expected. ",
           "night_forecast": "Snow likely, mainly between 10pm and 4am.  Mostly cloudy, with a steady temperature around 35. South southwest wind 7 to 10 mph.  Chance of precipitation is 70%. Little or no snow accumulation expected. "
         },
         {
@@ -4710,11 +4710,6 @@
       "min_temp": "35",
       "hourly": [
         {
-          "time": "10a",
-          "temp": "45",
-          "details": "rain "
-        },
-        {
           "time": "12p",
           "temp": "43",
           "details": "rain "
@@ -4732,6 +4727,11 @@
         {
           "time": "5p",
           "temp": "37",
+          "details": "chance of snow"
+        },
+        {
+          "time": "8p",
+          "temp": "36",
           "details": "chance of snow"
         }
       ],
