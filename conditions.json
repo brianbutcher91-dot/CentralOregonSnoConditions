@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T07:30:18.013080+00:00",
+  "generated_at": "2026-11-13T07:45:16.302306+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -914,8 +914,8 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 30.0,
-        "wind_direction_deg": 180,
+        "wind_speed_mph": 34.0,
+        "wind_direction_deg": 157.5,
         "snow_level_ft": 7087,
         "temp_f": 47
       },
@@ -1849,7 +1849,7 @@
         {
           "number": 1,
           "name": "Tonight",
-          "startTime": "2026-11-12T22:00:00-08:00",
+          "startTime": "2026-11-12T23:00:00-08:00",
           "endTime": "2026-11-13T06:00:00-08:00",
           "isDaytime": false,
           "temperature": 43,
@@ -1859,11 +1859,11 @@
             "unitCode": "wmoUnit:percent",
             "value": 2
           },
-          "windSpeed": "14 to 23 mph",
+          "windSpeed": "16 to 23 mph",
           "windDirection": "S",
           "icon": "https://api.weather.gov/icons/land/night/wind_bkn?size=medium",
           "shortForecast": "Mostly Cloudy",
-          "detailedForecast": "Mostly cloudy. Low around 43, with temperatures rising to around 45 overnight. South wind 14 to 23 mph, with gusts as high as 51 mph.",
+          "detailedForecast": "Mostly cloudy. Low around 43, with temperatures rising to around 45 overnight. South wind 16 to 23 mph, with gusts as high as 51 mph.",
           "precipitationAmountIn": 0.0,
           "snowLevelFt": 7612
         },
@@ -3087,12 +3087,12 @@
     "Hoodoo": {
       "elevation_ft": 4705,
       "temp_f": 47,
-      "wind_speed_mph": 30.0,
-      "wind_direction_deg": 180,
+      "wind_speed_mph": 34.0,
+      "wind_direction_deg": 157.5,
       "snow_level_ft": 7087,
       "precip_chance_today": 5,
-      "snowfall_12h_in": 0.1,
-      "snowfall_24h_in": 0.0,
+      "snowfall_12h_in": -0.1,
+      "snowfall_24h_in": -0.1,
       "snowfall_48h_in": null
     },
     "Willamette Pass": {
@@ -4182,6 +4182,10 @@
       {
         "time": "2026-11-13T06:30:30.814117+00:00",
         "precip_in": 0
+      },
+      {
+        "time": "2026-11-13T07:45:16.467011+00:00",
+        "precip_in": 0
       }
     ]
   },
@@ -4335,7 +4339,7 @@
           "weather_icon": "dor-cloudy",
           "id": 1794510000,
           "day": "Thursday",
-          "temperature_high": 45,
+          "temperature_high": 42,
           "temperature_low": 28,
           "precipitation_high": 45,
           "precipitation_low": 45,
@@ -4350,7 +4354,7 @@
           "weather_icon": "dor-snow",
           "id": 1794596400,
           "day": "Friday",
-          "temperature_high": 42,
+          "temperature_high": 44,
           "temperature_low": 27,
           "precipitation_high": 98,
           "precipitation_low": 98,
@@ -4381,7 +4385,7 @@
           "id": 1794769200,
           "day": "Sunday",
           "temperature_high": 32,
-          "temperature_low": 25,
+          "temperature_low": 23,
           "precipitation_high": 101,
           "precipitation_low": 101,
           "wind_speed": 9,
@@ -4616,20 +4620,20 @@
   "hoodoo": {
     "weather": {
       "Temperature": "47 &#176F",
-      "Wind": "South @ 30 MPH",
-      "Snow depth": "-0.1\"",
+      "Wind": "SSE @ 34 MPH",
+      "Snow depth": "-0.3\"",
       "Humidity": "54 %",
-      "Barometer": "29.53\" Hg"
+      "Barometer": "29.52\" Hg"
     },
     "snow_totals": {
       "trend": {
         "Max": "0.8\"",
         "Min": "-1.9\"",
-        "1 Hr": "0.0\"",
+        "1 Hr": "-0.2\"",
         "3 Hr": "0.1\"",
-        "6 Hr": "-0.4\"",
-        "12 Hr": "0.1\"",
-        "24 Hr": "0.0\""
+        "6 Hr": "-0.3\"",
+        "12 Hr": "-0.1\"",
+        "24 Hr": "-0.1\""
       },
       "season_total_in": 6.5
     },
@@ -4671,14 +4675,14 @@
   "willamette_pass": {
     "forecast": {
       "weather_provider": "NOAA",
-      "date": "November 12, 2026, 11:04 pm",
-      "time": 1794553458000,
-      "current_weather": "Increasing Clouds",
-      "current_temperature": "49",
+      "date": "November 12, 2026, 11:43 pm",
+      "time": 1794555819000,
+      "current_weather": "Mostly Cloudy",
+      "current_temperature": "47",
       "forecast": [
         {
           "day": "Thursday",
-          "night_forecast": "Increasing clouds, with a low around 38. South southeast wind 16 to 18 mph, with gusts as high as 28 mph. "
+          "night_forecast": "Mostly cloudy, with a low around 38. South southeast wind 16 to 18 mph, with gusts as high as 28 mph. "
         },
         {
           "day": "Friday",
@@ -4711,15 +4715,10 @@
         }
       ],
       "wind": "NA",
-      "icon": "0102-few-clouds.svg",
+      "icon": "0101-cloudy.svg",
       "max_temp": "42",
       "min_temp": "38",
       "hourly": [
-        {
-          "time": "10p",
-          "temp": "44",
-          "details": ""
-        },
         {
           "time": "12a",
           "temp": "43",
@@ -4739,6 +4738,11 @@
           "time": "5a",
           "temp": "41",
           "details": ""
+        },
+        {
+          "time": "8a",
+          "temp": "41",
+          "details": "rain likely and slight chance of snow"
         }
       ],
       "attribution": "",
@@ -4784,15 +4788,15 @@
   "satellite": {
     "Pacific Northwest": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/pnw/13/GOES18-PNW-13-600x600.gif",
-      "last_modified": "Fri, 13 Nov 2026 07:01:42 GMT"
+      "last_modified": "Fri, 13 Nov 2026 07:31:17 GMT"
     },
     "North Pacific (macro)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/np/13/GOES18-NP-13-900x540.gif",
-      "last_modified": "Fri, 13 Nov 2026 07:02:07 GMT"
+      "last_modified": "Fri, 13 Nov 2026 07:32:04 GMT"
     },
     "Pacific US (PACUS)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/13/GOES18-CONUS-13-625x375.gif",
-      "last_modified": "Fri, 13 Nov 2026 07:01:17 GMT"
+      "last_modified": "Fri, 13 Nov 2026 07:31:29 GMT"
     }
   },
   "gfs_snowfall": {
