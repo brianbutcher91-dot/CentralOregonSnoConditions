@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T04:15:17.338305+00:00",
+  "generated_at": "2026-11-14T04:30:23.338515+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -7,7 +7,7 @@
         {
           "number": 1,
           "name": "Tonight",
-          "startTime": "2026-11-13T18:00:00-08:00",
+          "startTime": "2026-11-13T20:00:00-08:00",
           "endTime": "2026-11-14T06:00:00-08:00",
           "isDaytime": false,
           "temperature": 26,
@@ -17,13 +17,13 @@
             "unitCode": "wmoUnit:percent",
             "value": 48
           },
-          "windSpeed": "15 to 28 mph",
+          "windSpeed": "17 to 28 mph",
           "windDirection": "SW",
           "icon": "https://api.weather.gov/icons/land/night/snow,30/snow,50?size=medium",
           "shortForecast": "Chance Light Snow",
-          "detailedForecast": "A chance of snow after 7pm. Mostly cloudy. Low around 26, with temperatures rising to around 28 overnight. Southwest wind 15 to 28 mph, with gusts as high as 35 mph. Chance of precipitation is 50%. New snow accumulation of less than one inch possible.",
+          "detailedForecast": "A chance of snow. Mostly cloudy. Low around 26, with temperatures rising to around 28 overnight. Southwest wind 17 to 28 mph, with gusts as high as 35 mph. Chance of precipitation is 50%. New snow accumulation of less than one inch possible.",
           "precipitationAmountIn": 0.03,
-          "snowLevelFt": 5511
+          "snowLevelFt": 5249
         },
         {
           "number": 2,
@@ -914,7 +914,7 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 25.0,
+        "wind_speed_mph": 20.0,
         "wind_direction_deg": 225,
         "snow_level_ft": 5092,
         "temp_f": 36
@@ -1235,7 +1235,7 @@
         {
           "number": 1,
           "name": "Tonight",
-          "startTime": "2026-11-13T18:00:00-08:00",
+          "startTime": "2026-11-13T20:00:00-08:00",
           "endTime": "2026-11-14T06:00:00-08:00",
           "isDaytime": false,
           "temperature": 32,
@@ -1245,13 +1245,13 @@
             "unitCode": "wmoUnit:percent",
             "value": 72
           },
-          "windSpeed": "6 to 12 mph",
+          "windSpeed": "7 to 12 mph",
           "windDirection": "SSW",
           "icon": "https://api.weather.gov/icons/land/night/snow,60/snow,70?size=medium",
           "shortForecast": "Light Snow Likely",
-          "detailedForecast": "Snow likely. Mostly cloudy. Low around 32, with temperatures rising to around 34 overnight. South southwest wind 6 to 12 mph. Chance of precipitation is 70%. New rainfall amounts less than a tenth of an inch possible.",
+          "detailedForecast": "Snow likely. Mostly cloudy. Low around 32, with temperatures rising to around 34 overnight. South southwest wind 7 to 12 mph. Chance of precipitation is 70%. New rainfall amounts less than a tenth of an inch possible.",
           "precipitationAmountIn": 0.03,
-          "snowLevelFt": 5350
+          "snowLevelFt": 5130
         },
         {
           "number": 2,
@@ -2156,7 +2156,7 @@
         {
           "number": 1,
           "name": "Tonight",
-          "startTime": "2026-11-13T20:00:00-08:00",
+          "startTime": "2026-11-13T19:00:00-08:00",
           "endTime": "2026-11-14T06:00:00-08:00",
           "isDaytime": false,
           "temperature": 35,
@@ -3087,12 +3087,12 @@
     "Hoodoo": {
       "elevation_ft": 4705,
       "temp_f": 36,
-      "wind_speed_mph": 25.0,
+      "wind_speed_mph": 20.0,
       "wind_direction_deg": 225,
       "snow_level_ft": 5092,
       "precip_chance_today": 81,
-      "snowfall_12h_in": 0.3,
-      "snowfall_24h_in": -0.3,
+      "snowfall_12h_in": 0.9,
+      "snowfall_24h_in": 0.2,
       "snowfall_48h_in": null
     },
     "Willamette Pass": {
@@ -3109,14 +3109,6 @@
   },
   "bachelor_timeseries": {
     "hourly": [
-      {
-        "time": "2026-11-12T20:00:00.000Z",
-        "temp_f": 40.47,
-        "wind_speed_mph": 26.0,
-        "wind_direction_deg": 107.8,
-        "precip_in": null,
-        "period": "historical"
-      },
       {
         "time": "2026-11-12T21:00:00.000Z",
         "temp_f": 39.04,
@@ -3302,12 +3294,12 @@
         "period": "historical"
       },
       {
-        "time": "2026-11-13T20:00:00+00:00",
-        "temp_f": 32.0,
-        "wind_speed_mph": 18.4,
-        "wind_direction_deg": 200,
-        "precip_in": 0.04,
-        "period": "forecast"
+        "time": "2026-11-13T20:00:00.000Z",
+        "temp_f": 25.62,
+        "wind_speed_mph": 8.06,
+        "wind_direction_deg": 197.1,
+        "precip_in": null,
+        "period": "historical"
       },
       {
         "time": "2026-11-13T21:00:00+00:00",
@@ -3944,10 +3936,6 @@
     ],
     "historical_precip_snapshots": [
       {
-        "time": "2026-11-11T04:30:19.078179+00:00",
-        "precip_in": 0
-      },
-      {
         "time": "2026-11-11T05:45:20.001038+00:00",
         "precip_in": 0
       },
@@ -4468,10 +4456,10 @@
           "active": true,
           "primary": true,
           "nonstandardizedDataPoints": {
-            "depth": "1.725",
-            "timestamp": "2026-11-13T19:00:00.000Z"
+            "depth": "1.716",
+            "timestamp": "2026-11-13T20:00:00.000Z"
           },
-          "temperature": "30.88",
+          "temperature": "30.61",
           "wind": {
             "low": "0",
             "high": "0",
@@ -4491,15 +4479,15 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-11-13T19:00:00.000Z"
+            "timestamp": "2026-11-13T20:00:00.000Z"
           },
-          "temperature": "27.35",
+          "temperature": "27.19",
           "wind": {
-            "low": "6.99",
-            "high": "27.29",
+            "low": "6.478",
+            "high": "23.94",
             "current": null,
-            "average": "6.99",
-            "direction": "NNW"
+            "average": "6.478",
+            "direction": "NNE"
           },
           "humidity": null,
           "display_name": "Sunrise",
@@ -4513,12 +4501,12 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-11-13T19:00:00.000Z"
+            "timestamp": "2026-11-13T20:00:00.000Z"
           },
-          "temperature": "25.72",
+          "temperature": "25.48",
           "wind": {
             "low": "-0.079",
-            "high": "0.232",
+            "high": "0.225",
             "current": null,
             "average": "-0.079",
             "direction": "N"
@@ -4535,15 +4523,15 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-11-13T19:00:00.000Z"
+            "timestamp": "2026-11-13T20:00:00.000Z"
           },
-          "temperature": "25.93",
+          "temperature": "25.62",
           "wind": {
-            "low": "7.473",
-            "high": "27.52",
+            "low": "8.06",
+            "high": "36.69",
             "current": null,
-            "average": "7.473",
-            "direction": "NE"
+            "average": "8.06",
+            "direction": "SSW"
           },
           "humidity": null,
           "display_name": "Cloud Chaser",
@@ -4557,15 +4545,15 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-11-13T19:00:00.000Z"
+            "timestamp": "2026-11-13T20:00:00.000Z"
           },
-          "temperature": "24.81",
+          "temperature": "24.51",
           "wind": {
-            "low": "8.43",
-            "high": "33.11",
+            "low": null,
+            "high": null,
             "current": null,
-            "average": "8.43",
-            "direction": "SW"
+            "average": null,
+            "direction": "N"
           },
           "humidity": null,
           "display_name": "Northwest",
@@ -4628,8 +4616,8 @@
   "hoodoo": {
     "weather": {
       "Temperature": "32 &#176F",
-      "Wind": "SW @ 25 MPH",
-      "Snow depth": "0.1\"",
+      "Wind": "SW @ 20 MPH",
+      "Snow depth": "-0.2\"",
       "Humidity": "100 %",
       "Barometer": "29.35\" Hg",
       "Rain Gauge": "0.47\""
@@ -4638,11 +4626,11 @@
       "trend": {
         "Max": "0.8\"",
         "Min": "-2.3\"",
-        "1 Hr": "-0.1\"",
-        "3 Hr": "0.1\"",
-        "6 Hr": "0.1\"",
-        "12 Hr": "0.3\"",
-        "24 Hr": "-0.3\""
+        "1 Hr": "0.0\"",
+        "3 Hr": "-0.3\"",
+        "6 Hr": "-0.3\"",
+        "12 Hr": "0.9\"",
+        "24 Hr": "0.2\""
       },
       "season_total_in": 6.5
     },
@@ -4684,8 +4672,8 @@
   "willamette_pass": {
     "forecast": {
       "weather_provider": "NOAA",
-      "date": "November 13, 2026, 7:58 pm",
-      "time": 1794628704000,
+      "date": "November 13, 2026, 8:10 pm",
+      "time": 1794629421000,
       "current_weather": "Snow Likely",
       "current_temperature": "35",
       "forecast": [
