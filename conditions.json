@@ -1,12 +1,33 @@
 {
-  "generated_at": "2026-11-14T14:30:26.177756+00:00",
+  "generated_at": "2026-11-14T14:45:17.456660+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
       "periods": [
         {
           "number": 1,
-          "name": "Today",
+          "name": "Overnight",
+          "startTime": "2026-11-14T05:00:00-08:00",
+          "endTime": "2026-11-14T06:00:00-08:00",
+          "isDaytime": false,
+          "temperature": 25,
+          "temperatureUnit": "F",
+          "temperatureTrend": null,
+          "probabilityOfPrecipitation": {
+            "unitCode": "wmoUnit:percent",
+            "value": 60
+          },
+          "windSpeed": "26 mph",
+          "windDirection": "SW",
+          "icon": "https://api.weather.gov/icons/land/night/snow,60?size=medium",
+          "shortForecast": "Light Snow Likely",
+          "detailedForecast": "Snow likely. Cloudy. Low around 25, with temperatures rising to around 28 overnight. Southwest wind around 26 mph, with gusts as high as 33 mph. Chance of precipitation is 60%. New snow accumulation of less than one inch possible.",
+          "precipitationAmountIn": 0.01,
+          "snowLevelFt": 5118
+        },
+        {
+          "number": 2,
+          "name": "Saturday",
           "startTime": "2026-11-14T06:00:00-08:00",
           "endTime": "2026-11-14T18:00:00-08:00",
           "isDaytime": true,
@@ -26,8 +47,8 @@
           "snowLevelFt": 5118
         },
         {
-          "number": 2,
-          "name": "Tonight",
+          "number": 3,
+          "name": "Saturday Night",
           "startTime": "2026-11-14T18:00:00-08:00",
           "endTime": "2026-11-15T06:00:00-08:00",
           "isDaytime": false,
@@ -47,7 +68,7 @@
           "snowLevelFt": 6194
         },
         {
-          "number": 3,
+          "number": 4,
           "name": "Sunday",
           "startTime": "2026-11-15T06:00:00-08:00",
           "endTime": "2026-11-15T18:00:00-08:00",
@@ -63,12 +84,12 @@
           "windDirection": "SW",
           "icon": "https://api.weather.gov/icons/land/day/snow,90/snow,60?size=medium",
           "shortForecast": "Light Snow",
-          "detailedForecast": "Snow. Mostly cloudy. High near 32, with temperatures falling to around 27 in the afternoon. Southwest wind 7 to 28 mph, with gusts as high as 35 mph. Chance of precipitation is 90%. New snow accumulation of 1 to 3 inches possible.",
+          "detailedForecast": "Snow. Mostly cloudy, with a high near 32. Southwest wind 7 to 28 mph, with gusts as high as 35 mph. Chance of precipitation is 90%. New snow accumulation of 1 to 3 inches possible.",
           "precipitationAmountIn": 0.13,
           "snowLevelFt": 6221
         },
         {
-          "number": 4,
+          "number": 5,
           "name": "Sunday Night",
           "startTime": "2026-11-15T18:00:00-08:00",
           "endTime": "2026-11-16T06:00:00-08:00",
@@ -89,7 +110,7 @@
           "snowLevelFt": 5274
         },
         {
-          "number": 5,
+          "number": 6,
           "name": "Monday",
           "startTime": "2026-11-16T06:00:00-08:00",
           "endTime": "2026-11-16T18:00:00-08:00",
@@ -105,12 +126,12 @@
           "windDirection": "W",
           "icon": "https://api.weather.gov/icons/land/day/snow,30?size=medium",
           "shortForecast": "Chance Light Snow",
-          "detailedForecast": "A chance of snow between 10am and 4pm. Partly sunny, with a high near 28. West wind 3 to 12 mph. Chance of precipitation is 30%.",
+          "detailedForecast": "A chance of snow between 10am and 4pm. Partly sunny, with a high near 28. Chance of precipitation is 30%.",
           "precipitationAmountIn": 0.0,
           "snowLevelFt": 3753
         },
         {
-          "number": 6,
+          "number": 7,
           "name": "Monday Night",
           "startTime": "2026-11-16T18:00:00-08:00",
           "endTime": "2026-11-17T06:00:00-08:00",
@@ -131,7 +152,7 @@
           "snowLevelFt": 4409
         },
         {
-          "number": 7,
+          "number": 8,
           "name": "Tuesday",
           "startTime": "2026-11-17T06:00:00-08:00",
           "endTime": "2026-11-17T18:00:00-08:00",
@@ -152,7 +173,7 @@
           "snowLevelFt": 3097
         },
         {
-          "number": 8,
+          "number": 9,
           "name": "Tuesday Night",
           "startTime": "2026-11-17T18:00:00-08:00",
           "endTime": "2026-11-18T06:00:00-08:00",
@@ -168,12 +189,12 @@
           "windDirection": "S",
           "icon": "https://api.weather.gov/icons/land/night/snow,70/snow,90?size=medium",
           "shortForecast": "Light Snow",
-          "detailedForecast": "Snow after 10pm. Mostly cloudy, with a low around 21. Chance of precipitation is 90%. New snow accumulation of 1 to 2 inches possible.",
+          "detailedForecast": "Snow after 10pm. Mostly cloudy, with a low around 21. New snow accumulation of 1 to 2 inches possible.",
           "precipitationAmountIn": 0.08,
           "snowLevelFt": 4213
         },
         {
-          "number": 9,
+          "number": 10,
           "name": "Wednesday",
           "startTime": "2026-11-18T06:00:00-08:00",
           "endTime": "2026-11-18T18:00:00-08:00",
@@ -194,7 +215,7 @@
           "snowLevelFt": 3452
         },
         {
-          "number": 10,
+          "number": 11,
           "name": "Wednesday Night",
           "startTime": "2026-11-18T18:00:00-08:00",
           "endTime": "2026-11-19T06:00:00-08:00",
@@ -215,7 +236,7 @@
           "snowLevelFt": 3831
         },
         {
-          "number": 11,
+          "number": 12,
           "name": "Thursday",
           "startTime": "2026-11-19T06:00:00-08:00",
           "endTime": "2026-11-19T18:00:00-08:00",
@@ -236,7 +257,7 @@
           "snowLevelFt": 2756
         },
         {
-          "number": 12,
+          "number": 13,
           "name": "Thursday Night",
           "startTime": "2026-11-19T18:00:00-08:00",
           "endTime": "2026-11-20T06:00:00-08:00",
@@ -257,7 +278,7 @@
           "snowLevelFt": 3599
         },
         {
-          "number": 13,
+          "number": 14,
           "name": "Friday",
           "startTime": "2026-11-20T06:00:00-08:00",
           "endTime": "2026-11-20T18:00:00-08:00",
@@ -276,27 +297,6 @@
           "detailedForecast": "Mostly sunny, with a high near 28.",
           "precipitationAmountIn": 0.0,
           "snowLevelFt": 2494
-        },
-        {
-          "number": 14,
-          "name": "Friday Night",
-          "startTime": "2026-11-20T18:00:00-08:00",
-          "endTime": "2026-11-21T06:00:00-08:00",
-          "isDaytime": false,
-          "temperature": 18,
-          "temperatureUnit": "F",
-          "temperatureTrend": null,
-          "probabilityOfPrecipitation": {
-            "unitCode": "wmoUnit:percent",
-            "value": 18
-          },
-          "windSpeed": "2 to 10 mph",
-          "windDirection": "S",
-          "icon": "https://api.weather.gov/icons/land/night/snow,20?size=medium",
-          "shortForecast": "Slight Chance Light Snow",
-          "detailedForecast": "A slight chance of snow after 10pm. Partly cloudy, with a low around 18.",
-          "precipitationAmountIn": 0.0,
-          "snowLevelFt": 3964
         }
       ],
       "current": {
@@ -914,8 +914,8 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 16.0,
-        "wind_direction_deg": 225,
+        "wind_speed_mph": 14,
+        "wind_direction_deg": 240,
         "snow_level_ft": 4934,
         "temp_f": 35
       },
@@ -2155,7 +2155,28 @@
       "periods": [
         {
           "number": 1,
-          "name": "Today",
+          "name": "Overnight",
+          "startTime": "2026-11-14T05:00:00-08:00",
+          "endTime": "2026-11-14T06:00:00-08:00",
+          "isDaytime": false,
+          "temperature": 34,
+          "temperatureUnit": "F",
+          "temperatureTrend": null,
+          "probabilityOfPrecipitation": {
+            "unitCode": "wmoUnit:percent",
+            "value": 26
+          },
+          "windSpeed": "9 mph",
+          "windDirection": "S",
+          "icon": "https://api.weather.gov/icons/land/night/rain,30?size=medium",
+          "shortForecast": "Chance Light Rain",
+          "detailedForecast": "A chance of rain. Mostly cloudy. Low around 34, with temperatures rising to around 37 overnight. South wind around 9 mph, with gusts as high as 21 mph. Chance of precipitation is 30%.",
+          "precipitationAmountIn": 0.0,
+          "snowLevelFt": 4909
+        },
+        {
+          "number": 2,
+          "name": "Saturday",
           "startTime": "2026-11-14T06:00:00-08:00",
           "endTime": "2026-11-14T18:00:00-08:00",
           "isDaytime": true,
@@ -2175,8 +2196,8 @@
           "snowLevelFt": 4909
         },
         {
-          "number": 2,
-          "name": "Tonight",
+          "number": 3,
+          "name": "Saturday Night",
           "startTime": "2026-11-14T18:00:00-08:00",
           "endTime": "2026-11-15T06:00:00-08:00",
           "isDaytime": false,
@@ -2196,7 +2217,7 @@
           "snowLevelFt": 6142
         },
         {
-          "number": 3,
+          "number": 4,
           "name": "Sunday",
           "startTime": "2026-11-15T06:00:00-08:00",
           "endTime": "2026-11-15T18:00:00-08:00",
@@ -2212,12 +2233,12 @@
           "windDirection": "SW",
           "icon": "https://api.weather.gov/icons/land/day/rain,60/rain,40?size=medium",
           "shortForecast": "Light Rain Likely",
-          "detailedForecast": "Rain likely. Partly sunny. High near 49, with temperatures falling to around 44 in the afternoon. Southwest wind 5 to 13 mph, with gusts as high as 29 mph. Chance of precipitation is 60%. New rainfall amounts less than a tenth of an inch possible.",
+          "detailedForecast": "Rain likely. Partly sunny, with a high near 49. Southwest wind 5 to 13 mph, with gusts as high as 29 mph. Chance of precipitation is 60%. New rainfall amounts less than a tenth of an inch possible.",
           "precipitationAmountIn": 0.02,
           "snowLevelFt": 6850
         },
         {
-          "number": 4,
+          "number": 5,
           "name": "Sunday Night",
           "startTime": "2026-11-15T18:00:00-08:00",
           "endTime": "2026-11-16T06:00:00-08:00",
@@ -2238,7 +2259,7 @@
           "snowLevelFt": 5380
         },
         {
-          "number": 5,
+          "number": 6,
           "name": "Monday",
           "startTime": "2026-11-16T06:00:00-08:00",
           "endTime": "2026-11-16T18:00:00-08:00",
@@ -2254,12 +2275,12 @@
           "windDirection": "SW",
           "icon": "https://api.weather.gov/icons/land/day/sct?size=medium",
           "shortForecast": "Mostly Sunny",
-          "detailedForecast": "Mostly sunny, with a high near 45. Southwest wind 2 to 7 mph.",
+          "detailedForecast": "Mostly sunny, with a high near 45.",
           "precipitationAmountIn": 0.0,
           "snowLevelFt": 3780
         },
         {
-          "number": 6,
+          "number": 7,
           "name": "Monday Night",
           "startTime": "2026-11-16T18:00:00-08:00",
           "endTime": "2026-11-17T06:00:00-08:00",
@@ -2280,7 +2301,7 @@
           "snowLevelFt": 4462
         },
         {
-          "number": 7,
+          "number": 8,
           "name": "Tuesday",
           "startTime": "2026-11-17T06:00:00-08:00",
           "endTime": "2026-11-17T18:00:00-08:00",
@@ -2301,7 +2322,7 @@
           "snowLevelFt": 2992
         },
         {
-          "number": 8,
+          "number": 9,
           "name": "Tuesday Night",
           "startTime": "2026-11-17T18:00:00-08:00",
           "endTime": "2026-11-18T06:00:00-08:00",
@@ -2317,12 +2338,12 @@
           "windDirection": "S",
           "icon": "https://api.weather.gov/icons/land/night/snow,50/snow,60?size=medium",
           "shortForecast": "Light Snow Likely",
-          "detailedForecast": "Snow likely after 10pm. Mostly cloudy, with a low around 30. Chance of precipitation is 60%. New snow accumulation of less than half an inch possible.",
+          "detailedForecast": "Snow likely after 10pm. Mostly cloudy, with a low around 30. New snow accumulation of less than half an inch possible.",
           "precipitationAmountIn": 0.03,
           "snowLevelFt": 4081
         },
         {
-          "number": 9,
+          "number": 10,
           "name": "Wednesday",
           "startTime": "2026-11-18T06:00:00-08:00",
           "endTime": "2026-11-18T18:00:00-08:00",
@@ -2343,7 +2364,7 @@
           "snowLevelFt": 3241
         },
         {
-          "number": 10,
+          "number": 11,
           "name": "Wednesday Night",
           "startTime": "2026-11-18T18:00:00-08:00",
           "endTime": "2026-11-19T06:00:00-08:00",
@@ -2364,7 +2385,7 @@
           "snowLevelFt": 3858
         },
         {
-          "number": 11,
+          "number": 12,
           "name": "Thursday",
           "startTime": "2026-11-19T06:00:00-08:00",
           "endTime": "2026-11-19T18:00:00-08:00",
@@ -2385,7 +2406,7 @@
           "snowLevelFt": 2651
         },
         {
-          "number": 12,
+          "number": 13,
           "name": "Thursday Night",
           "startTime": "2026-11-19T18:00:00-08:00",
           "endTime": "2026-11-20T06:00:00-08:00",
@@ -2406,7 +2427,7 @@
           "snowLevelFt": 3363
         },
         {
-          "number": 13,
+          "number": 14,
           "name": "Friday",
           "startTime": "2026-11-20T06:00:00-08:00",
           "endTime": "2026-11-20T18:00:00-08:00",
@@ -2425,27 +2446,6 @@
           "detailedForecast": "Mostly sunny, with a high near 42.",
           "precipitationAmountIn": 0.0,
           "snowLevelFt": 2229
-        },
-        {
-          "number": 14,
-          "name": "Friday Night",
-          "startTime": "2026-11-20T18:00:00-08:00",
-          "endTime": "2026-11-21T06:00:00-08:00",
-          "isDaytime": false,
-          "temperature": 26,
-          "temperatureUnit": "F",
-          "temperatureTrend": null,
-          "probabilityOfPrecipitation": {
-            "unitCode": "wmoUnit:percent",
-            "value": 15
-          },
-          "windSpeed": "0 to 3 mph",
-          "windDirection": "SW",
-          "icon": "https://api.weather.gov/icons/land/night/sct/snow,20?size=medium",
-          "shortForecast": "Partly Cloudy then Slight Chance Light Snow",
-          "detailedForecast": "A slight chance of snow after 4am. Partly cloudy, with a low around 26.",
-          "precipitationAmountIn": 0.0,
-          "snowLevelFt": 3596
         }
       ],
       "current": {
@@ -3087,12 +3087,12 @@
     "Hoodoo": {
       "elevation_ft": 4705,
       "temp_f": 35,
-      "wind_speed_mph": 16.0,
-      "wind_direction_deg": 225,
+      "wind_speed_mph": 14,
+      "wind_direction_deg": 240,
       "snow_level_ft": 4934,
       "precip_chance_today": 75,
-      "snowfall_12h_in": 0.5,
-      "snowfall_24h_in": 0.6,
+      "snowfall_12h_in": null,
+      "snowfall_24h_in": null,
       "snowfall_48h_in": null
     },
     "Willamette Pass": {
@@ -4341,8 +4341,8 @@
           "day": "Saturday",
           "temperature_high": 36,
           "temperature_low": 28,
-          "precipitation_high": 98,
-          "precipitation_low": 98,
+          "precipitation_high": 97,
+          "precipitation_low": 97,
           "wind_speed": 12,
           "wind_direction": "SW"
         },
@@ -4618,25 +4618,10 @@
     }
   },
   "hoodoo": {
-    "weather": {
-      "Temperature": "32 &#176F",
-      "Wind": "SW @ 16 MPH",
-      "Snow depth": "0.4\"",
-      "Humidity": "100 %",
-      "Barometer": "29.55\" Hg",
-      "Rain Gauge": "0.78\""
-    },
+    "weather": {},
     "snow_totals": {
-      "trend": {
-        "Max": "0.8\"",
-        "Min": "-2.3\"",
-        "1 Hr": "-0.1\"",
-        "3 Hr": "0.9\"",
-        "6 Hr": "0.5\"",
-        "12 Hr": "0.5\"",
-        "24 Hr": "0.6\""
-      },
-      "season_total_in": 6.5
+      "trend": {},
+      "season_total_in": null
     },
     "webcams": {
       "Base Area": {
@@ -4676,9 +4661,9 @@
   "willamette_pass": {
     "forecast": {
       "weather_provider": "NOAA",
-      "date": "November 14, 2026, 6:10 am",
-      "time": 1794665421000,
-      "current_weather": "Snow Likely",
+      "date": "November 14, 2026, 6:25 am",
+      "time": 1794666320000,
+      "current_weather": "Snow Likely then Mostly Cloudy",
       "current_temperature": "34",
       "forecast": [
         {
@@ -4693,7 +4678,7 @@
         },
         {
           "day": "Monday",
-          "day_forecast": "A 40 percent chance of snow, mainly between 10am and 4pm.  Partly sunny, with a high near 35. New snow accumulation of less than a half inch possible. ",
+          "day_forecast": "A 40 percent chance of snow, mainly between 10am and 4pm.  Partly sunny, with a high near 35. West wind around 6 mph.  New snow accumulation of less than a half inch possible. ",
           "night_forecast": "A 20 percent chance of snow before 10pm.  Mostly cloudy, with a low around 25."
         },
         {
@@ -4708,19 +4693,15 @@
         },
         {
           "day": "Thursday",
-          "day_forecast": "A slight chance of snow.  Mostly cloudy, with a high near 32."
+          "day_forecast": "A slight chance of snow.  Mostly cloudy, with a high near 32.",
+          "night_forecast": "A slight chance of snow.  Mostly cloudy, with a low around 22."
         }
       ],
       "wind": "NA",
-      "icon": "0499-snow.svg",
+      "icon": "0101-cloudy.svg",
       "max_temp": "40",
-      "min_temp": "31",
+      "min_temp": "37",
       "hourly": [
-        {
-          "time": "5a",
-          "temp": "33",
-          "details": "snow likely"
-        },
         {
           "time": "8a",
           "temp": "34",
@@ -4739,6 +4720,11 @@
         {
           "time": "2p",
           "temp": "39",
+          "details": ""
+        },
+        {
+          "time": "4p",
+          "temp": "38",
           "details": ""
         }
       ],
@@ -4781,15 +4767,15 @@
   "satellite": {
     "Pacific Northwest": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/pnw/13/GOES18-PNW-13-600x600.gif",
-      "last_modified": "Sat, 14 Nov 2026 14:01:43 GMT"
+      "last_modified": "Sat, 14 Nov 2026 14:31:52 GMT"
     },
     "North Pacific (macro)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/np/13/GOES18-NP-13-900x540.gif",
-      "last_modified": "Sat, 14 Nov 2026 14:02:20 GMT"
+      "last_modified": "Sat, 14 Nov 2026 14:32:04 GMT"
     },
     "Pacific US (PACUS)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/13/GOES18-CONUS-13-625x375.gif",
-      "last_modified": "Sat, 14 Nov 2026 14:01:21 GMT"
+      "last_modified": "Sat, 14 Nov 2026 14:31:30 GMT"
     }
   },
   "gfs_snowfall": {
