@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T09:45:16.650782+00:00",
+  "generated_at": "2026-11-14T10:00:18.894006+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -313,8 +313,8 @@
       "periods": [
         {
           "number": 1,
-          "name": "Overnight",
-          "startTime": "2026-11-14T01:00:00-08:00",
+          "name": "Tonight",
+          "startTime": "2026-11-13T23:00:00-08:00",
           "endTime": "2026-11-14T06:00:00-08:00",
           "isDaytime": false,
           "temperature": 30,
@@ -326,10 +326,10 @@
           },
           "windSpeed": "16 to 24 mph",
           "windDirection": "SW",
-          "icon": "https://api.weather.gov/icons/land/night/snow,70?size=medium",
+          "icon": "https://api.weather.gov/icons/land/night/snow,40/snow,70?size=medium",
           "shortForecast": "Light Snow Likely",
           "detailedForecast": "Snow likely. Mostly cloudy. Low around 30, with temperatures rising to around 32 overnight. Southwest wind 16 to 24 mph, with gusts as high as 44 mph. Chance of precipitation is 70%. New snow accumulation of 1 to 3 inches possible.",
-          "precipitationAmountIn": 0.06,
+          "precipitationAmountIn": 0.09,
           "snowLevelFt": 4961
         },
         {
@@ -621,7 +621,7 @@
         {
           "number": 1,
           "name": "Overnight",
-          "startTime": "2026-11-14T01:00:00-08:00",
+          "startTime": "2026-11-14T02:00:00-08:00",
           "endTime": "2026-11-14T06:00:00-08:00",
           "isDaytime": false,
           "temperature": 32,
@@ -632,12 +632,12 @@
             "value": 84
           },
           "windSpeed": "17 mph",
-          "windDirection": "SW",
+          "windDirection": "WSW",
           "icon": "https://api.weather.gov/icons/land/night/snow,80?size=medium",
           "shortForecast": "Rain And Snow",
-          "detailedForecast": "Rain and snow. Cloudy, with a low around 32. Southwest wind around 17 mph, with gusts as high as 35 mph. Chance of precipitation is 80%. Little or no snow accumulation expected.",
-          "precipitationAmountIn": 0.08,
-          "snowLevelFt": 4829
+          "detailedForecast": "Rain and snow. Cloudy, with a low around 32. West southwest wind around 17 mph, with gusts as high as 33 mph. Chance of precipitation is 80%. Little or no snow accumulation expected.",
+          "precipitationAmountIn": 0.06,
+          "snowLevelFt": 4856
         },
         {
           "number": 2,
@@ -914,10 +914,10 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 25.0,
-        "wind_direction_deg": 225,
-        "snow_level_ft": 4829,
-        "temp_f": 36
+        "wind_speed_mph": 27.0,
+        "wind_direction_deg": 247.5,
+        "snow_level_ft": 4856,
+        "temp_f": 35
       },
       "lat": 44.409,
       "lon": -121.872
@@ -927,8 +927,8 @@
       "periods": [
         {
           "number": 1,
-          "name": "Tonight",
-          "startTime": "2026-11-13T23:00:00-08:00",
+          "name": "Overnight",
+          "startTime": "2026-11-14T00:00:00-08:00",
           "endTime": "2026-11-14T06:00:00-08:00",
           "isDaytime": false,
           "temperature": 28,
@@ -1530,7 +1530,7 @@
       "current": {
         "wind_speed_mph": 8,
         "wind_direction_deg": 230,
-        "snow_level_ft": 4934,
+        "snow_level_ft": 4935,
         "temp_f": 34
       },
       "lat": 43.5975,
@@ -1836,9 +1836,9 @@
       ],
       "current": {
         "wind_speed_mph": 16,
-        "wind_direction_deg": 210,
-        "snow_level_ft": 4803,
-        "temp_f": 38
+        "wind_direction_deg": 220,
+        "snow_level_ft": 4829,
+        "temp_f": 37
       },
       "lat": 44.39548,
       "lon": -122.14151
@@ -2452,7 +2452,7 @@
         "wind_speed_mph": 13,
         "wind_direction_deg": 200,
         "snow_level_ft": 4856,
-        "temp_f": 41
+        "temp_f": 40
       },
       "lat": 44.0582,
       "lon": -121.3153
@@ -3066,7 +3066,7 @@
         "wind_speed_mph": 9,
         "wind_direction_deg": 200,
         "snow_level_ft": 4803,
-        "temp_f": 32
+        "temp_f": 31
       },
       "lat": 43.6716,
       "lon": -121.504
@@ -3086,13 +3086,13 @@
     },
     "Hoodoo": {
       "elevation_ft": 4705,
-      "temp_f": 36,
-      "wind_speed_mph": 25.0,
-      "wind_direction_deg": 225,
-      "snow_level_ft": 4829,
+      "temp_f": 35,
+      "wind_speed_mph": 27.0,
+      "wind_direction_deg": 247.5,
+      "snow_level_ft": 4856,
       "precip_chance_today": 84,
-      "snowfall_12h_in": 0.1,
-      "snowfall_24h_in": 0.2,
+      "snowfall_12h_in": -0.1,
+      "snowfall_24h_in": 0.4,
       "snowfall_48h_in": null
     },
     "Willamette Pass": {
@@ -3100,7 +3100,7 @@
       "temp_f": 34,
       "wind_speed_mph": 8,
       "wind_direction_deg": 230,
-      "snow_level_ft": 4934,
+      "snow_level_ft": 4935,
       "precip_chance_today": 85,
       "snowfall_12h_in": null,
       "snowfall_24h_in": 0.0,
@@ -3932,6 +3932,14 @@
         "wind_direction_deg": 250,
         "precip_in": 0.0,
         "period": "forecast"
+      },
+      {
+        "time": "2026-11-17T09:00:00+00:00",
+        "temp_f": 20.0,
+        "wind_speed_mph": 8.1,
+        "wind_direction_deg": 250,
+        "precip_in": 0.0,
+        "period": "forecast"
       }
     ],
     "historical_precip_snapshots": [
@@ -4620,8 +4628,8 @@
   "hoodoo": {
     "weather": {
       "Temperature": "32 &#176F",
-      "Wind": "SW @ 25 MPH",
-      "Snow depth": "-0.2\"",
+      "Wind": "WSW @ 27 MPH",
+      "Snow depth": "-0.1\"",
       "Humidity": "100 %",
       "Barometer": "29.42\" Hg",
       "Rain Gauge": "0.62\""
@@ -4630,11 +4638,11 @@
       "trend": {
         "Max": "0.8\"",
         "Min": "-2.3\"",
-        "1 Hr": "0.3\"",
+        "1 Hr": "0.0\"",
         "3 Hr": "0.1\"",
-        "6 Hr": "0.1\"",
-        "12 Hr": "0.1\"",
-        "24 Hr": "0.2\""
+        "6 Hr": "0.0\"",
+        "12 Hr": "-0.1\"",
+        "24 Hr": "0.4\""
       },
       "season_total_in": 6.5
     },
@@ -4676,8 +4684,8 @@
   "willamette_pass": {
     "forecast": {
       "weather_provider": "NOAA",
-      "date": "November 14, 2026, 1:25 am",
-      "time": 1794648321000,
+      "date": "November 14, 2026, 1:40 am",
+      "time": 1794649217000,
       "current_weather": "Snow",
       "current_temperature": "34",
       "forecast": [
@@ -4789,7 +4797,7 @@
     },
     "Pacific US (PACUS)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/13/GOES18-CONUS-13-625x375.gif",
-      "last_modified": "Sat, 14 Nov 2026 09:31:25 GMT"
+      "last_modified": "Sat, 14 Nov 2026 09:31:24 GMT"
     }
   },
   "gfs_snowfall": {
