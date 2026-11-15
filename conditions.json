@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-15T06:15:18.101111+00:00",
+  "generated_at": "2026-11-15T06:30:24.681379+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -7,7 +7,7 @@
         {
           "number": 1,
           "name": "Tonight",
-          "startTime": "2026-11-14T22:00:00-08:00",
+          "startTime": "2026-11-14T21:00:00-08:00",
           "endTime": "2026-11-15T06:00:00-08:00",
           "isDaytime": false,
           "temperature": 27,
@@ -21,9 +21,9 @@
           "windDirection": "SW",
           "icon": "https://api.weather.gov/icons/land/night/snow,70/snow,100?size=medium",
           "shortForecast": "Light Snow",
-          "detailedForecast": "Snow. Cloudy. Low around 27, with temperatures rising to around 32 overnight. Southwest wind 25 to 29 mph, with gusts as high as 36 mph. Chance of precipitation is 100%. New snow accumulation of 2 to 4 inches possible.",
+          "detailedForecast": "Snow after 10pm. Mostly cloudy. Low around 27, with temperatures rising to around 32 overnight. Southwest wind 25 to 29 mph, with gusts as high as 36 mph. Chance of precipitation is 100%. New snow accumulation of 2 to 4 inches possible.",
           "precipitationAmountIn": 0.22,
-          "snowLevelFt": 6353
+          "snowLevelFt": 6221
         },
         {
           "number": 2,
@@ -3110,14 +3110,6 @@
   "bachelor_timeseries": {
     "hourly": [
       {
-        "time": "2026-11-13T22:00:00.000Z",
-        "temp_f": 25.67,
-        "wind_speed_mph": 6.788,
-        "wind_direction_deg": 281.8,
-        "precip_in": null,
-        "period": "historical"
-      },
-      {
         "time": "2026-11-13T23:00:00.000Z",
         "temp_f": 25.41,
         "wind_speed_mph": 9.64,
@@ -3302,12 +3294,12 @@
         "period": "historical"
       },
       {
-        "time": "2026-11-14T22:00:00+00:00",
-        "temp_f": 31.0,
-        "wind_speed_mph": 15.0,
-        "wind_direction_deg": 210,
-        "precip_in": 0.0,
-        "period": "forecast"
+        "time": "2026-11-14T22:00:00.000Z",
+        "temp_f": 28.07,
+        "wind_speed_mph": 10.59,
+        "wind_direction_deg": 83.9,
+        "precip_in": null,
+        "period": "historical"
       },
       {
         "time": "2026-11-14T23:00:00+00:00",
@@ -4208,7 +4200,7 @@
       "swe_in": 0.2,
       "swe_in_date": "2026-11-13",
       "change_12h_in": 0,
-      "change_24h_in": 1
+      "change_24h_in": 0
     },
     "Three Creek / Tam McArthur (Three Creeks Meadow)": {
       "snow_depth_in": 0,
@@ -4366,7 +4358,7 @@
           "weather_icon": "dor-snow",
           "id": 1794769200,
           "day": "Sunday",
-          "temperature_high": 32,
+          "temperature_high": 33,
           "temperature_low": 23,
           "precipitation_high": 100,
           "precipitation_low": 100,
@@ -4472,10 +4464,10 @@
           "active": true,
           "primary": true,
           "nonstandardizedDataPoints": {
-            "depth": "2.032",
-            "timestamp": "2026-11-14T21:00:00.000Z"
+            "depth": "1.974",
+            "timestamp": "2026-11-14T22:00:00.000Z"
           },
-          "temperature": "33.11",
+          "temperature": "33.45",
           "wind": {
             "low": "0",
             "high": "0",
@@ -4495,15 +4487,15 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-11-14T21:00:00.000Z"
+            "timestamp": "2026-11-14T22:00:00.000Z"
           },
-          "temperature": "29.33",
+          "temperature": "29.28",
           "wind": {
-            "low": "10.09",
-            "high": "24.16",
+            "low": "8",
+            "high": "20.36",
             "current": null,
-            "average": "10.09",
-            "direction": "SE"
+            "average": "8",
+            "direction": "ESE"
           },
           "humidity": null,
           "display_name": "Sunrise",
@@ -4517,14 +4509,14 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-11-14T21:00:00.000Z"
+            "timestamp": "2026-11-14T22:00:00.000Z"
           },
-          "temperature": "28.65",
+          "temperature": "30.02",
           "wind": {
-            "low": "-0.064",
-            "high": "0.232",
+            "low": "-0.092",
+            "high": "0.198",
             "current": null,
-            "average": "-0.064",
+            "average": "-0.092",
             "direction": "N"
           },
           "humidity": "100",
@@ -4539,15 +4531,15 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-11-14T21:00:00.000Z"
+            "timestamp": "2026-11-14T22:00:00.000Z"
           },
           "temperature": "28.07",
           "wind": {
-            "low": "12.44",
-            "high": "26.62",
+            "low": "10.59",
+            "high": "22.37",
             "current": null,
-            "average": "12.44",
-            "direction": "ESE"
+            "average": "10.59",
+            "direction": "E"
           },
           "humidity": null,
           "display_name": "Cloud Chaser",
@@ -4561,14 +4553,14 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-11-14T21:00:00.000Z"
+            "timestamp": "2026-11-14T22:00:00.000Z"
           },
-          "temperature": "27.99",
+          "temperature": "29.08",
           "wind": {
-            "low": "13.78",
+            "low": "10.84",
             "high": "27.29",
             "current": null,
-            "average": "13.78",
+            "average": "10.84",
             "direction": "SSE"
           },
           "humidity": null,
