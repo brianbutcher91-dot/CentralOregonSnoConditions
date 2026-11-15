@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-15T05:15:18.484673+00:00",
+  "generated_at": "2026-11-15T05:30:20.394713+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -7,7 +7,7 @@
         {
           "number": 1,
           "name": "Tonight",
-          "startTime": "2026-11-14T20:00:00-08:00",
+          "startTime": "2026-11-14T21:00:00-08:00",
           "endTime": "2026-11-15T06:00:00-08:00",
           "isDaytime": false,
           "temperature": 27,
@@ -1235,7 +1235,7 @@
         {
           "number": 1,
           "name": "Tonight",
-          "startTime": "2026-11-14T21:00:00-08:00",
+          "startTime": "2026-11-14T20:00:00-08:00",
           "endTime": "2026-11-15T06:00:00-08:00",
           "isDaytime": false,
           "temperature": 33,
@@ -1249,9 +1249,9 @@
           "windDirection": "SSE",
           "icon": "https://api.weather.gov/icons/land/night/rain,40/snow,100?size=medium",
           "shortForecast": "Light Rain",
-          "detailedForecast": "Rain before 4am, then rain and snow. Mostly cloudy. Low around 33, with temperatures rising to around 36 overnight. South southeast wind 6 to 12 mph, with gusts as high as 25 mph. Chance of precipitation is 100%. New rainfall amounts between a tenth and quarter of an inch possible.",
+          "detailedForecast": "Rain between 9pm and 4am, then rain and snow. Mostly cloudy. Low around 33, with temperatures rising to around 36 overnight. South southeast wind 6 to 12 mph, with gusts as high as 25 mph. Chance of precipitation is 100%. New rainfall amounts between a tenth and quarter of an inch possible.",
           "precipitationAmountIn": 0.13,
-          "snowLevelFt": 6432
+          "snowLevelFt": 6221
         },
         {
           "number": 2,
@@ -2770,7 +2770,7 @@
         {
           "number": 1,
           "name": "Tonight",
-          "startTime": "2026-11-14T20:00:00-08:00",
+          "startTime": "2026-11-14T21:00:00-08:00",
           "endTime": "2026-11-15T06:00:00-08:00",
           "isDaytime": false,
           "temperature": 28,
@@ -3110,14 +3110,6 @@
   "bachelor_timeseries": {
     "hourly": [
       {
-        "time": "2026-11-13T21:00:00.000Z",
-        "temp_f": 25.65,
-        "wind_speed_mph": 6.479,
-        "wind_direction_deg": 167.4,
-        "precip_in": null,
-        "period": "historical"
-      },
-      {
         "time": "2026-11-13T22:00:00.000Z",
         "temp_f": 25.67,
         "wind_speed_mph": 6.788,
@@ -3298,6 +3290,14 @@
         "temp_f": 28.35,
         "wind_speed_mph": 15.11,
         "wind_direction_deg": 110.4,
+        "precip_in": null,
+        "period": "historical"
+      },
+      {
+        "time": "2026-11-14T21:00:00.000Z",
+        "temp_f": 28.07,
+        "wind_speed_mph": 12.44,
+        "wind_direction_deg": 102.8,
         "precip_in": null,
         "period": "historical"
       },
@@ -4200,7 +4200,7 @@
       "swe_in": 0.2,
       "swe_in_date": "2026-11-13",
       "change_12h_in": 0,
-      "change_24h_in": 0
+      "change_24h_in": 1
     },
     "Three Creek / Tam McArthur (Three Creeks Meadow)": {
       "snow_depth_in": 0,
@@ -4509,14 +4509,14 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-11-14T20:00:00.000Z"
+            "timestamp": "2026-11-14T21:00:00.000Z"
           },
-          "temperature": "28.28",
+          "temperature": "28.65",
           "wind": {
-            "low": "-0.082",
-            "high": "0.191",
+            "low": "-0.064",
+            "high": "0.232",
             "current": null,
-            "average": "-0.082",
+            "average": "-0.064",
             "direction": "N"
           },
           "humidity": "100",
@@ -4553,14 +4553,14 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-11-14T20:00:00.000Z"
+            "timestamp": "2026-11-14T21:00:00.000Z"
           },
-          "temperature": "27.48",
+          "temperature": "27.99",
           "wind": {
-            "low": "17.56",
-            "high": "29.08",
+            "low": "13.78",
+            "high": "27.29",
             "current": null,
-            "average": "17.56",
+            "average": "13.78",
             "direction": "SSE"
           },
           "humidity": null,
@@ -4680,8 +4680,8 @@
   "willamette_pass": {
     "forecast": {
       "weather_provider": "NOAA",
-      "date": "November 14, 2026, 8:55 pm",
-      "time": 1794718520000,
+      "date": "November 14, 2026, 9:10 pm",
+      "time": 1794719425000,
       "current_weather": "Chance Rain then Rain/Snow",
       "current_temperature": "39",
       "forecast": [
