@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-15T13:00:32.844933+00:00",
+  "generated_at": "2026-11-15T13:15:17.943411+00:00",
   "forecast": {
-    "error": "503 Server Error: Service Unavailable for url: https://api.weather.gov/gridpoints/PDT/23,40/forecast"
+    "error": "500 Server Error: Internal Server Error for url: https://api.weather.gov/gridpoints/PDT/35,41"
   },
   "wind_roses": {},
   "bachelor_timeseries": {
@@ -1229,7 +1229,7 @@
     "weather": {
       "current": {
         "temperature": 32,
-        "weather_icon": "dor-snow"
+        "weather_icon": "dor-mostlycloudy"
       },
       "forecast": [
         {
@@ -1241,7 +1241,7 @@
           "id": 1794769200,
           "day": "Sunday",
           "temperature_high": 33,
-          "temperature_low": 22,
+          "temperature_low": 23,
           "precipitation_high": 100,
           "precipitation_low": 100,
           "wind_speed": 11,
@@ -1255,12 +1255,12 @@
           "weather_icon": "dor-snow",
           "id": 1794855600,
           "day": "Monday",
-          "temperature_high": 30,
+          "temperature_high": 29,
           "temperature_low": 22,
           "precipitation_high": 95,
           "precipitation_low": 95,
-          "wind_speed": 7,
-          "wind_direction": "WSW"
+          "wind_speed": 6,
+          "wind_direction": "W"
         },
         {
           "date": "2026-11-17",
@@ -1577,8 +1577,8 @@
   "willamette_pass": {
     "forecast": {
       "weather_provider": "NOAA",
-      "date": "November 15, 2026, 4:43 am",
-      "time": 1794746605000,
+      "date": "November 15, 2026, 4:55 am",
+      "time": 1794747319000,
       "current_weather": "Rain/Snow",
       "current_temperature": "37",
       "forecast": [
@@ -1682,15 +1682,15 @@
   "satellite": {
     "Pacific Northwest": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/pnw/13/GOES18-PNW-13-600x600.gif",
-      "last_modified": "Sun, 15 Nov 2026 12:31:04 GMT"
+      "last_modified": "Sun, 15 Nov 2026 13:01:59 GMT"
     },
     "North Pacific (macro)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/np/13/GOES18-NP-13-900x540.gif",
-      "last_modified": "Sun, 15 Nov 2026 12:31:53 GMT"
+      "last_modified": "Sun, 15 Nov 2026 13:02:28 GMT"
     },
     "Pacific US (PACUS)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/13/GOES18-CONUS-13-625x375.gif",
-      "last_modified": "Sun, 15 Nov 2026 12:31:14 GMT"
+      "last_modified": "Sun, 15 Nov 2026 13:01:31 GMT"
     }
   },
   "gfs_snowfall": {
