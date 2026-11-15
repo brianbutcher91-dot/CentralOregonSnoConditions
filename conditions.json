@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-15T14:15:18.347353+00:00",
+  "generated_at": "2026-11-15T14:30:21.106615+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -3110,14 +3110,6 @@
   "bachelor_timeseries": {
     "hourly": [
       {
-        "time": "2026-11-14T06:00:00.000Z",
-        "temp_f": 25.81,
-        "wind_speed_mph": 8.88,
-        "wind_direction_deg": 26.41,
-        "precip_in": null,
-        "period": "historical"
-      },
-      {
         "time": "2026-11-14T07:00:00.000Z",
         "temp_f": 25.66,
         "wind_speed_mph": 6.67,
@@ -3298,6 +3290,14 @@
         "temp_f": 28.24,
         "wind_speed_mph": 7.574,
         "wind_direction_deg": 69.84,
+        "precip_in": null,
+        "period": "historical"
+      },
+      {
+        "time": "2026-11-15T06:00:00.000Z",
+        "temp_f": 28.09,
+        "wind_speed_mph": 5.479,
+        "wind_direction_deg": 73.35,
         "precip_in": null,
         "period": "historical"
       },
@@ -4190,6 +4190,10 @@
       {
         "time": "2026-11-15T13:30:20.084624+00:00",
         "precip_in": 3
+      },
+      {
+        "time": "2026-11-15T14:30:21.327168+00:00",
+        "precip_in": 3
       }
     ]
   },
@@ -4199,7 +4203,7 @@
       "snow_depth_in_date": "2026-11-14",
       "swe_in": 0.2,
       "swe_in_date": "2026-11-14",
-      "change_12h_in": 1,
+      "change_12h_in": 0,
       "change_24h_in": 0
     },
     "Three Creek / Tam McArthur (Three Creeks Meadow)": {
@@ -4464,10 +4468,10 @@
           "active": true,
           "primary": true,
           "nonstandardizedDataPoints": {
-            "depth": "2.29",
-            "timestamp": "2026-11-15T05:00:00.000Z"
+            "depth": "2.356",
+            "timestamp": "2026-11-15T06:00:00.000Z"
           },
-          "temperature": "32.54",
+          "temperature": "32.78",
           "wind": {
             "low": "0",
             "high": "0",
@@ -4487,15 +4491,15 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-11-15T05:00:00.000Z"
+            "timestamp": "2026-11-15T06:00:00.000Z"
           },
-          "temperature": "29.45",
+          "temperature": "29.44",
           "wind": {
-            "low": "5.163",
-            "high": "14.99",
+            "low": "4.375",
+            "high": "24.61",
             "current": null,
-            "average": "5.163",
-            "direction": "ENE"
+            "average": "4.375",
+            "direction": "E"
           },
           "humidity": null,
           "display_name": "Sunrise",
@@ -4509,14 +4513,14 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-11-15T05:00:00.000Z"
+            "timestamp": "2026-11-15T06:00:00.000Z"
           },
-          "temperature": "29.08",
+          "temperature": "28.2",
           "wind": {
-            "low": "-0.085",
-            "high": "0.232",
+            "low": "-0.091",
+            "high": "0.191",
             "current": null,
-            "average": "-0.085",
+            "average": "-0.091",
             "direction": "N"
           },
           "humidity": "100",
@@ -4531,14 +4535,14 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-11-15T05:00:00.000Z"
+            "timestamp": "2026-11-15T06:00:00.000Z"
           },
-          "temperature": "28.24",
+          "temperature": "28.09",
           "wind": {
-            "low": "7.574",
-            "high": "17.67",
+            "low": "5.479",
+            "high": "14.76",
             "current": null,
-            "average": "7.574",
+            "average": "5.479",
             "direction": "ENE"
           },
           "humidity": null,
@@ -4553,14 +4557,14 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-11-15T05:00:00.000Z"
+            "timestamp": "2026-11-15T06:00:00.000Z"
           },
-          "temperature": "28.31",
+          "temperature": "27.17",
           "wind": {
-            "low": "6.823",
+            "low": "6.858",
             "high": "17.22",
             "current": null,
-            "average": "6.823",
+            "average": "6.858",
             "direction": "SSE"
           },
           "humidity": null,
@@ -4680,8 +4684,8 @@
   "willamette_pass": {
     "forecast": {
       "weather_provider": "NOAA",
-      "date": "November 15, 2026, 5:55 am",
-      "time": 1794750922000,
+      "date": "November 15, 2026, 6:10 am",
+      "time": 1794751818000,
       "current_weather": "Rain/Snow",
       "current_temperature": "37",
       "forecast": [
