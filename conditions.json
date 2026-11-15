@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-15T14:30:21.106615+00:00",
+  "generated_at": "2026-11-15T14:45:14.083213+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -3936,10 +3936,6 @@
     ],
     "historical_precip_snapshots": [
       {
-        "time": "2026-11-12T14:30:27.839075+00:00",
-        "precip_in": 0
-      },
-      {
         "time": "2026-11-12T15:45:20.609112+00:00",
         "precip_in": 0
       },
@@ -4684,14 +4680,14 @@
   "willamette_pass": {
     "forecast": {
       "weather_provider": "NOAA",
-      "date": "November 15, 2026, 6:10 am",
-      "time": 1794751818000,
-      "current_weather": "Rain/Snow",
+      "date": "November 15, 2026, 6:43 am",
+      "time": 1794753800000,
+      "current_weather": "Rain/Snow then Snow",
       "current_temperature": "37",
       "forecast": [
         {
           "day": "Sunday",
-          "day_forecast": "Rain and snow, becoming all snow after noon.  Snow level 5600 feet. High near 37. Southwest wind around 5 mph.  Chance of precipitation is 90%. Little or no snow accumulation expected. ",
+          "day_forecast": "Rain and snow, becoming all snow after noon.  Snow level 6200 feet lowering to 5500 feet in the afternoon . High near 37. Southwest wind around 6 mph.  Chance of precipitation is 100%. Little or no snow accumulation expected. ",
           "night_forecast": "A 30 percent chance of snow before 7pm.  Partly cloudy, with a low around 30. Southwest wind around 6 mph.  Little or no snow accumulation expected. "
         },
         {
@@ -4701,12 +4697,12 @@
         },
         {
           "day": "Tuesday",
-          "day_forecast": "Mostly sunny, with a high near 37.",
+          "day_forecast": "Mostly sunny, with a high near 37. South southeast wind around 6 mph. ",
           "night_forecast": "Snow likely after 10pm.  Mostly cloudy, with a low around 29. Chance of precipitation is 70%. New snow accumulation of around an inch possible. "
         },
         {
           "day": "Wednesday",
-          "day_forecast": "Snow likely, mainly before 10am.  Mostly cloudy, with a high near 36.",
+          "day_forecast": "Snow likely, mainly before 10am.  Mostly cloudy, with a high near 36. Chance of precipitation is 60%. New snow accumulation of less than a half inch possible. ",
           "night_forecast": "A chance of snow, mainly before 4am.  Mostly cloudy, with a low around 28."
         },
         {
@@ -4716,19 +4712,15 @@
         },
         {
           "day": "Friday",
-          "day_forecast": "Partly sunny, with a high near 37."
+          "day_forecast": "Partly sunny, with a high near 37.",
+          "night_forecast": "A slight chance of snow.  Mostly cloudy, with a low around 26."
         }
       ],
       "wind": "NA",
       "icon": "0405-rain-and-snow.svg",
       "max_temp": "37",
-      "min_temp": "36",
+      "min_temp": "30",
       "hourly": [
-        {
-          "time": "5a",
-          "temp": "36",
-          "details": "rain and slight chance of snow"
-        },
         {
           "time": "8a",
           "temp": "37",
@@ -4748,6 +4740,11 @@
           "time": "2p",
           "temp": "36",
           "details": "snow likely"
+        },
+        {
+          "time": "4p",
+          "temp": "35",
+          "details": "chance of snow"
         }
       ],
       "attribution": "",
@@ -4789,15 +4786,15 @@
   "satellite": {
     "Pacific Northwest": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/pnw/13/GOES18-PNW-13-600x600.gif",
-      "last_modified": "Sun, 15 Nov 2026 14:01:43 GMT"
+      "last_modified": "Sun, 15 Nov 2026 14:31:21 GMT"
     },
     "North Pacific (macro)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/np/13/GOES18-NP-13-900x540.gif",
-      "last_modified": "Sun, 15 Nov 2026 14:01:53 GMT"
+      "last_modified": "Sun, 15 Nov 2026 14:31:20 GMT"
     },
     "Pacific US (PACUS)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/13/GOES18-CONUS-13-625x375.gif",
-      "last_modified": "Sun, 15 Nov 2026 14:01:30 GMT"
+      "last_modified": "Sun, 15 Nov 2026 14:31:14 GMT"
     }
   },
   "gfs_snowfall": {
