@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-16T09:00:35.673409+00:00",
+  "generated_at": "2026-11-16T09:15:21.398208+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -313,8 +313,8 @@
       "periods": [
         {
           "number": 1,
-          "name": "Tonight",
-          "startTime": "2026-11-15T23:00:00-08:00",
+          "name": "Overnight",
+          "startTime": "2026-11-16T01:00:00-08:00",
           "endTime": "2026-11-16T06:00:00-08:00",
           "isDaytime": false,
           "temperature": 24,
@@ -324,13 +324,13 @@
             "unitCode": "wmoUnit:percent",
             "value": 3
           },
-          "windSpeed": "6 mph",
+          "windSpeed": "5 mph",
           "windDirection": "W",
           "icon": "https://api.weather.gov/icons/land/night/sct?size=medium",
           "shortForecast": "Partly Cloudy",
-          "detailedForecast": "Partly cloudy, with a low around 24. West wind around 6 mph.",
+          "detailedForecast": "Partly cloudy, with a low around 24. West wind around 5 mph.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 4436
+          "snowLevelFt": 3990
         },
         {
           "number": 2,
@@ -914,8 +914,8 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 14.0,
-        "wind_direction_deg": 247.5,
+        "wind_speed_mph": 15.0,
+        "wind_direction_deg": 225,
         "snow_level_ft": 4278,
         "temp_f": 31
       },
@@ -3087,11 +3087,11 @@
     "Hoodoo": {
       "elevation_ft": 4705,
       "temp_f": 31,
-      "wind_speed_mph": 14.0,
-      "wind_direction_deg": 247.5,
+      "wind_speed_mph": 15.0,
+      "wind_direction_deg": 225,
       "snow_level_ft": 4278,
       "precip_chance_today": 7,
-      "snowfall_12h_in": -0.3,
+      "snowfall_12h_in": -0.2,
       "snowfall_24h_in": null,
       "snowfall_48h_in": null
     },
@@ -4352,7 +4352,7 @@
           "id": 1794855600,
           "day": "Monday",
           "temperature_high": 32,
-          "temperature_low": 22,
+          "temperature_low": 21,
           "precipitation_high": 95,
           "precipitation_low": 95,
           "wind_speed": 4,
@@ -4632,20 +4632,20 @@
   "hoodoo": {
     "weather": {
       "Temperature": "28 &#176F",
-      "Wind": "WSW @ 14 MPH",
-      "Snow depth": "-0.5\"",
+      "Wind": "SW @ 15 MPH",
+      "Snow depth": "-0.4\"",
       "Humidity": "100 %",
       "Barometer": "29.80\" Hg",
-      "Rain Gauge": "0.57\""
+      "Rain Gauge": "0.55\""
     },
     "snow_totals": {
       "trend": {
         "Max": "0.6\"",
         "Min": "-1.3\"",
-        "1 Hr": "0.0\"",
-        "3 Hr": "0.0\"",
-        "6 Hr": "-0.3\"",
-        "12 Hr": "-0.3\""
+        "1 Hr": "0.1\"",
+        "3 Hr": "-0.1\"",
+        "6 Hr": "-0.1\"",
+        "12 Hr": "-0.2\""
       },
       "season_total_in": 6.5
     },
@@ -4687,8 +4687,8 @@
   "willamette_pass": {
     "forecast": {
       "weather_provider": "NOAA",
-      "date": "November 16, 2026, 12:34 am",
-      "time": 1794818063000,
+      "date": "November 16, 2026, 1:13 am",
+      "time": 1794820403000,
       "current_weather": "Partly Cloudy",
       "current_temperature": "32",
       "forecast": [
@@ -4728,11 +4728,6 @@
       "min_temp": "28",
       "hourly": [
         {
-          "time": "12a",
-          "temp": "30",
-          "details": ""
-        },
-        {
           "time": "2a",
           "temp": "30",
           "details": ""
@@ -4750,6 +4745,11 @@
         {
           "time": "8a",
           "temp": "30",
+          "details": ""
+        },
+        {
+          "time": "10a",
+          "temp": "34",
           "details": ""
         }
       ],
@@ -4792,15 +4792,15 @@
   "satellite": {
     "Pacific Northwest": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/pnw/13/GOES18-PNW-13-600x600.gif",
-      "last_modified": "Mon, 16 Nov 2026 08:32:02 GMT"
+      "last_modified": "Mon, 16 Nov 2026 09:02:02 GMT"
     },
     "North Pacific (macro)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/np/13/GOES18-NP-13-900x540.gif",
-      "last_modified": "Mon, 16 Nov 2026 08:32:07 GMT"
+      "last_modified": "Mon, 16 Nov 2026 09:02:21 GMT"
     },
     "Pacific US (PACUS)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/13/GOES18-CONUS-13-625x375.gif",
-      "last_modified": "Mon, 16 Nov 2026 08:31:24 GMT"
+      "last_modified": "Mon, 16 Nov 2026 09:01:30 GMT"
     }
   },
   "gfs_snowfall": {
