@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T10:15:16.612545+00:00",
+  "generated_at": "2026-11-17T10:23:31.697694+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -914,7 +914,7 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 9.0,
+        "wind_speed_mph": 8.0,
         "wind_direction_deg": 270,
         "snow_level_ft": 3438,
         "temp_f": 29
@@ -1848,8 +1848,8 @@
       "periods": [
         {
           "number": 1,
-          "name": "Overnight",
-          "startTime": "2026-11-17T01:00:00-08:00",
+          "name": "Tonight",
+          "startTime": "2026-11-16T23:00:00-08:00",
           "endTime": "2026-11-17T06:00:00-08:00",
           "isDaytime": false,
           "temperature": 24,
@@ -1857,7 +1857,7 @@
           "temperatureTrend": null,
           "probabilityOfPrecipitation": {
             "unitCode": "wmoUnit:percent",
-            "value": 3
+            "value": 5
           },
           "windSpeed": "2 mph",
           "windDirection": "NW",
@@ -1865,7 +1865,7 @@
           "shortForecast": "Patchy Freezing Fog",
           "detailedForecast": "Patchy freezing fog. Mostly cloudy. Low around 24, with temperatures rising to around 26 overnight. Northwest wind around 2 mph.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 3543
+          "snowLevelFt": 3833
         },
         {
           "number": 2,
@@ -3087,12 +3087,12 @@
     "Hoodoo": {
       "elevation_ft": 4705,
       "temp_f": 29,
-      "wind_speed_mph": 9.0,
+      "wind_speed_mph": 8.0,
       "wind_direction_deg": 270,
       "snow_level_ft": 3438,
       "precip_chance_today": 9,
-      "snowfall_12h_in": 0.1,
-      "snowfall_24h_in": 0.6,
+      "snowfall_12h_in": -0.1,
+      "snowfall_24h_in": 0.5,
       "snowfall_48h_in": null
     },
     "Willamette Pass": {
@@ -4636,8 +4636,8 @@
   "hoodoo": {
     "weather": {
       "Temperature": "27 &#176F",
-      "Wind": "West @ 9 MPH",
-      "Snow depth": "0.1\"",
+      "Wind": "West @ 8 MPH",
+      "Snow depth": "-0.1\"",
       "Humidity": "100 %",
       "Barometer": "29.76\" Hg",
       "Rain Gauge": "0.33\""
@@ -4646,11 +4646,11 @@
       "trend": {
         "Max": "0.2\"",
         "Min": "-1.7\"",
-        "1 Hr": "0.3\"",
-        "3 Hr": "0.3\"",
-        "6 Hr": "0.4\"",
-        "12 Hr": "0.1\"",
-        "24 Hr": "0.6\""
+        "1 Hr": "0.0\"",
+        "3 Hr": "0.0\"",
+        "6 Hr": "0.1\"",
+        "12 Hr": "-0.1\"",
+        "24 Hr": "0.5\""
       },
       "season_total_in": 7.1
     },
