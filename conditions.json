@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T04:15:28.374043+00:00",
+  "generated_at": "2026-11-17T04:30:20.761005+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -7,7 +7,7 @@
         {
           "number": 1,
           "name": "Tonight",
-          "startTime": "2026-11-16T19:00:00-08:00",
+          "startTime": "2026-11-16T20:00:00-08:00",
           "endTime": "2026-11-17T06:00:00-08:00",
           "isDaytime": false,
           "temperature": 18,
@@ -314,7 +314,7 @@
         {
           "number": 1,
           "name": "Tonight",
-          "startTime": "2026-11-16T19:00:00-08:00",
+          "startTime": "2026-11-16T20:00:00-08:00",
           "endTime": "2026-11-17T06:00:00-08:00",
           "isDaytime": false,
           "temperature": 21,
@@ -914,8 +914,8 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 2,
-        "wind_direction_deg": 270,
+        "wind_speed_mph": 7.0,
+        "wind_direction_deg": 247.5,
         "snow_level_ft": 3833,
         "temp_f": 28
       },
@@ -928,7 +928,7 @@
         {
           "number": 1,
           "name": "Tonight",
-          "startTime": "2026-11-16T19:00:00-08:00",
+          "startTime": "2026-11-16T20:00:00-08:00",
           "endTime": "2026-11-17T06:00:00-08:00",
           "isDaytime": false,
           "temperature": 20,
@@ -943,7 +943,7 @@
           "icon": "https://api.weather.gov/icons/land/night/snow,20/sct?size=medium",
           "shortForecast": "Slight Chance Light Snow then Partly Cloudy",
           "detailedForecast": "A slight chance of snow before 10pm. Partly cloudy, with a low around 20. West wind 5 to 9 mph. Chance of precipitation is 20%. New snow accumulation of less than one inch possible.",
-          "precipitationAmountIn": 0.03,
+          "precipitationAmountIn": 0.02,
           "snowLevelFt": 4016
         },
         {
@@ -1849,7 +1849,7 @@
         {
           "number": 1,
           "name": "Tonight",
-          "startTime": "2026-11-16T18:00:00-08:00",
+          "startTime": "2026-11-16T20:00:00-08:00",
           "endTime": "2026-11-17T06:00:00-08:00",
           "isDaytime": false,
           "temperature": 25,
@@ -1863,9 +1863,9 @@
           "windDirection": "NW",
           "icon": "https://api.weather.gov/icons/land/night/snow,30/snow?size=medium",
           "shortForecast": "Areas Of Freezing Fog",
-          "detailedForecast": "Patchy fog and patchy freezing fog before 7pm, then areas of freezing fog and a chance of snow. Partly cloudy, with a low around 25. Northwest wind around 2 mph. Chance of precipitation is 30%. New snow accumulation of less than half an inch possible.",
+          "detailedForecast": "Areas of freezing fog and a chance of snow. Mostly cloudy, with a low around 25. Northwest wind around 2 mph. Chance of precipitation is 30%. New snow accumulation of less than half an inch possible.",
           "precipitationAmountIn": 0.01,
-          "snowLevelFt": 4541
+          "snowLevelFt": 3963
         },
         {
           "number": 2,
@@ -2156,7 +2156,7 @@
         {
           "number": 1,
           "name": "Tonight",
-          "startTime": "2026-11-16T18:00:00-08:00",
+          "startTime": "2026-11-16T19:00:00-08:00",
           "endTime": "2026-11-17T06:00:00-08:00",
           "isDaytime": false,
           "temperature": 28,
@@ -2164,15 +2164,15 @@
           "temperatureTrend": null,
           "probabilityOfPrecipitation": {
             "unitCode": "wmoUnit:percent",
-            "value": 21
+            "value": 17
           },
           "windSpeed": "0 to 3 mph",
-          "windDirection": "W",
+          "windDirection": "SW",
           "icon": "https://api.weather.gov/icons/land/night/snow,20/sct?size=medium",
           "shortForecast": "Slight Chance Rain And Snow then Partly Cloudy",
-          "detailedForecast": "A slight chance of rain and snow before 10pm. Partly cloudy, with a low around 28. West wind 0 to 3 mph. Chance of precipitation is 20%. New rainfall amounts less than a tenth of an inch possible.",
-          "precipitationAmountIn": 0.03,
-          "snowLevelFt": 4410
+          "detailedForecast": "A slight chance of rain and snow before 10pm. Partly cloudy, with a low around 28. Southwest wind 0 to 3 mph. Chance of precipitation is 20%. New rainfall amounts less than a tenth of an inch possible.",
+          "precipitationAmountIn": 0.02,
+          "snowLevelFt": 4094
         },
         {
           "number": 2,
@@ -3087,12 +3087,12 @@
     "Hoodoo": {
       "elevation_ft": 4705,
       "temp_f": 28,
-      "wind_speed_mph": 2,
-      "wind_direction_deg": 270,
+      "wind_speed_mph": 7.0,
+      "wind_direction_deg": 247.5,
       "snow_level_ft": 3833,
       "precip_chance_today": 16,
-      "snowfall_12h_in": null,
-      "snowfall_24h_in": null,
+      "snowfall_12h_in": 1.3,
+      "snowfall_24h_in": 0.2,
       "snowfall_48h_in": null
     },
     "Willamette Pass": {
@@ -3109,14 +3109,6 @@
   },
   "bachelor_timeseries": {
     "hourly": [
-      {
-        "time": "2026-11-15T20:00:00.000Z",
-        "temp_f": 22.84,
-        "wind_speed_mph": 16.25,
-        "wind_direction_deg": 245.0,
-        "precip_in": null,
-        "period": "historical"
-      },
       {
         "time": "2026-11-15T21:00:00.000Z",
         "temp_f": 23.27,
@@ -3302,12 +3294,12 @@
         "period": "historical"
       },
       {
-        "time": "2026-11-16T20:00:00+00:00",
-        "temp_f": 24.0,
-        "wind_speed_mph": 3.5,
-        "wind_direction_deg": 260,
-        "precip_in": 0.0,
-        "period": "forecast"
+        "time": "2026-11-16T20:00:00.000Z",
+        "temp_f": 19.43,
+        "wind_speed_mph": 8.35,
+        "wind_direction_deg": 208.2,
+        "precip_in": null,
+        "period": "historical"
       },
       {
         "time": "2026-11-16T21:00:00+00:00",
@@ -4441,10 +4433,10 @@
           "active": true,
           "primary": true,
           "nonstandardizedDataPoints": {
-            "depth": "3.68",
-            "timestamp": "2026-11-16T19:00:00.000Z"
+            "depth": "3.777",
+            "timestamp": "2026-11-16T20:00:00.000Z"
           },
-          "temperature": "26.25",
+          "temperature": "25.63",
           "wind": {
             "low": "0",
             "high": "0",
@@ -4464,14 +4456,14 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-11-16T19:00:00.000Z"
+            "timestamp": "2026-11-16T20:00:00.000Z"
           },
-          "temperature": "21.6",
+          "temperature": "21.32",
           "wind": {
-            "low": "11.47",
-            "high": "16.55",
+            "low": "9.92",
+            "high": "15.44",
             "current": null,
-            "average": "11.47",
+            "average": "9.92",
             "direction": "WSW"
           },
           "humidity": null,
@@ -4486,14 +4478,14 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-11-16T19:00:00.000Z"
+            "timestamp": "2026-11-16T20:00:00.000Z"
           },
-          "temperature": "21.7",
+          "temperature": "21.29",
           "wind": {
-            "low": "-0.114",
-            "high": "0.279",
+            "low": "-0.106",
+            "high": "0.3",
             "current": null,
-            "average": "-0.114",
+            "average": "-0.106",
             "direction": "N"
           },
           "humidity": "98.4",
@@ -4508,15 +4500,15 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-11-16T19:00:00.000Z"
+            "timestamp": "2026-11-16T20:00:00.000Z"
           },
-          "temperature": "19.83",
+          "temperature": "19.43",
           "wind": {
-            "low": "12.41",
-            "high": "22.15",
+            "low": "8.35",
+            "high": "15.88",
             "current": null,
-            "average": "12.41",
-            "direction": "SW"
+            "average": "8.35",
+            "direction": "SSW"
           },
           "humidity": null,
           "display_name": "Cloud Chaser",
@@ -4530,15 +4522,15 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-11-16T19:00:00.000Z"
+            "timestamp": "2026-11-16T20:00:00.000Z"
           },
-          "temperature": "20.6",
+          "temperature": "20.17",
           "wind": {
-            "low": "2.53",
-            "high": "8.05",
+            "low": "2.182",
+            "high": "7.158",
             "current": null,
-            "average": "2.53",
-            "direction": "SW"
+            "average": "2.182",
+            "direction": "S"
           },
           "humidity": null,
           "display_name": "Northwest",
@@ -4599,10 +4591,25 @@
     }
   },
   "hoodoo": {
-    "weather": {},
+    "weather": {
+      "Temperature": "27 &#176F",
+      "Wind": "WSW @ 7 MPH",
+      "Snow depth": "-0.2\"",
+      "Humidity": "100 %",
+      "Barometer": "29.80\" Hg",
+      "Rain Gauge": "0.33\""
+    },
     "snow_totals": {
-      "trend": {},
-      "season_total_in": null
+      "trend": {
+        "Max": "0.2\"",
+        "Min": "-1.7\"",
+        "1 Hr": "0.0\"",
+        "3 Hr": "0.2\"",
+        "6 Hr": "-0.1\"",
+        "12 Hr": "1.3\"",
+        "24 Hr": "0.2\""
+      },
+      "season_total_in": 6.5
     },
     "webcams": {
       "Base Area": {
@@ -4642,8 +4649,8 @@
   "willamette_pass": {
     "forecast": {
       "weather_provider": "NOAA",
-      "date": "November 16, 2026, 8:13 pm",
-      "time": 1794888820000,
+      "date": "November 16, 2026, 8:22 pm",
+      "time": 1794889361000,
       "current_weather": "Mostly Cloudy",
       "current_temperature": "28",
       "forecast": [
