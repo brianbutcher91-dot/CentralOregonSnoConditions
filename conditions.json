@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T19:15:24.037716+00:00",
+  "generated_at": "2026-11-18T19:30:23.755248+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -914,8 +914,8 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 14.0,
-        "wind_direction_deg": 135,
+        "wind_speed_mph": 15.0,
+        "wind_direction_deg": 112.5,
         "snow_level_ft": 3884,
         "temp_f": 31
       },
@@ -3087,12 +3087,12 @@
     "Hoodoo": {
       "elevation_ft": 4705,
       "temp_f": 31,
-      "wind_speed_mph": 14.0,
-      "wind_direction_deg": 135,
+      "wind_speed_mph": 15.0,
+      "wind_direction_deg": 112.5,
       "snow_level_ft": 3884,
       "precip_chance_today": 87,
-      "snowfall_12h_in": null,
-      "snowfall_24h_in": null,
+      "snowfall_12h_in": 0.0,
+      "snowfall_24h_in": 0.6,
       "snowfall_48h_in": null
     },
     "Willamette Pass": {
@@ -3109,14 +3109,6 @@
   },
   "bachelor_timeseries": {
     "hourly": [
-      {
-        "time": "2026-11-17T11:00:00.000Z",
-        "temp_f": 19.22,
-        "wind_speed_mph": 13.12,
-        "wind_direction_deg": 180.3,
-        "precip_in": null,
-        "period": "historical"
-      },
       {
         "time": "2026-11-17T12:00:00.000Z",
         "temp_f": 23.46,
@@ -3298,6 +3290,14 @@
         "temp_f": 20.97,
         "wind_speed_mph": 13.13,
         "wind_direction_deg": 101.4,
+        "precip_in": null,
+        "period": "historical"
+      },
+      {
+        "time": "2026-11-18T11:00:00.000Z",
+        "temp_f": 21.83,
+        "wind_speed_mph": 11.46,
+        "wind_direction_deg": 102.1,
         "precip_in": null,
         "period": "historical"
       },
@@ -4323,7 +4323,7 @@
   "mtbachelor": {
     "weather": {
       "current": {
-        "temperature": 26,
+        "temperature": 27,
         "weather_icon": "dor-snow"
       },
       "forecast": [
@@ -4337,8 +4337,8 @@
           "day": "Wednesday",
           "temperature_high": 28,
           "temperature_low": 20,
-          "precipitation_high": 79,
-          "precipitation_low": 79,
+          "precipitation_high": 80,
+          "precipitation_low": 80,
           "wind_speed": 13,
           "wind_direction": "SSE"
         },
@@ -4456,10 +4456,10 @@
           "active": true,
           "primary": true,
           "nonstandardizedDataPoints": {
-            "depth": "6.272",
-            "timestamp": "2026-11-18T10:00:00.000Z"
+            "depth": "6.576",
+            "timestamp": "2026-11-18T11:00:00.000Z"
           },
-          "temperature": "25.84",
+          "temperature": "26.55",
           "wind": {
             "low": "0",
             "high": "0",
@@ -4523,14 +4523,14 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-11-18T10:00:00.000Z"
+            "timestamp": "2026-11-18T11:00:00.000Z"
           },
-          "temperature": "20.97",
+          "temperature": "21.83",
           "wind": {
-            "low": "13.13",
-            "high": "25.73",
+            "low": "11.46",
+            "high": "27.29",
             "current": null,
-            "average": "13.13",
+            "average": "11.46",
             "direction": "ESE"
           },
           "humidity": null,
@@ -4545,14 +4545,14 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-11-18T10:00:00.000Z"
+            "timestamp": "2026-11-18T11:00:00.000Z"
           },
-          "temperature": "20.12",
+          "temperature": "20.86",
           "wind": {
-            "low": "4.769",
-            "high": "15.21",
+            "low": "3.778",
+            "high": "13.65",
             "current": null,
-            "average": "4.769",
+            "average": "3.778",
             "direction": "ESE"
           },
           "humidity": null,
@@ -4616,8 +4616,8 @@
   "hoodoo": {
     "weather": {
       "Temperature": "27 &#176F",
-      "Wind": "SE @ 14 MPH",
-      "Snow depth": "-0.4\"",
+      "Wind": "ESE @ 15 MPH",
+      "Snow depth": "0.2\"",
       "Humidity": "100 %",
       "Barometer": "29.57\" Hg",
       "Rain Gauge": "0.04\""
@@ -4625,7 +4625,9 @@
     "snow_totals": {
       "trend": {
         "Max": "1.1\"",
-        "Min": "-2.1\""
+        "Min": "-2.1\"",
+        "12 Hr": "0.0\"",
+        "24 Hr": "0.6\""
       },
       "season_total_in": 7.6
     },
@@ -4667,8 +4669,8 @@
   "willamette_pass": {
     "forecast": {
       "weather_provider": "NOAA",
-      "date": "November 18, 2026, 11:13 am",
-      "time": 1795029208000,
+      "date": "November 18, 2026, 11:25 am",
+      "time": 1795029924000,
       "current_weather": "Snow Likely then Chance Snow",
       "current_temperature": "32",
       "forecast": [
@@ -4709,11 +4711,6 @@
       "min_temp": "25",
       "hourly": [
         {
-          "time": "10a",
-          "temp": "32",
-          "details": "snow likely"
-        },
-        {
           "time": "12p",
           "temp": "32",
           "details": "chance of snow"
@@ -4732,6 +4729,11 @@
           "time": "5p",
           "temp": "31",
           "details": ""
+        },
+        {
+          "time": "8p",
+          "temp": "27",
+          "details": ""
         }
       ],
       "attribution": "",
@@ -4749,12 +4751,7 @@
       "Lifts Open": "0/6",
       "Trails Open": "0/30"
     },
-    "webcams": {
-      "Base Area": {
-        "src": "https://www.youtube.com/embed/sNVA6oC7vcM",
-        "link": "https://www.willamettepass.ski/weather-conditions-webcams/webcams/"
-      }
-    }
+    "webcams": {}
   },
   "snow_stake_cams": {
     "Mt. Bachelor (Snow Stake)": {
@@ -4765,10 +4762,7 @@
       "src": "https://santiampsp.org/wx/weather16.jpg",
       "link": "https://hoodoo.com/the-mountain/webcams/"
     },
-    "Willamette Pass (Base Area)": {
-      "src": "https://www.youtube.com/embed/sNVA6oC7vcM",
-      "link": "https://www.willamettepass.ski/weather-conditions-webcams/webcams/"
-    }
+    "Willamette Pass (Base Area)": null
   },
   "satellite": {
     "Pacific Northwest": {
