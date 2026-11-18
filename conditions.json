@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T23:15:27.228260+00:00",
+  "generated_at": "2026-11-18T23:30:23.486247+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -914,8 +914,8 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 8.0,
-        "wind_direction_deg": 270,
+        "wind_speed_mph": 6.0,
+        "wind_direction_deg": 292.5,
         "snow_level_ft": 3990,
         "temp_f": 32
       },
@@ -3087,8 +3087,8 @@
     "Hoodoo": {
       "elevation_ft": 4705,
       "temp_f": 32,
-      "wind_speed_mph": 8.0,
-      "wind_direction_deg": 270,
+      "wind_speed_mph": 6.0,
+      "wind_direction_deg": 292.5,
       "snow_level_ft": 3990,
       "precip_chance_today": 21,
       "snowfall_12h_in": null,
@@ -3109,14 +3109,6 @@
   },
   "bachelor_timeseries": {
     "hourly": [
-      {
-        "time": "2026-11-17T15:00:00.000Z",
-        "temp_f": 20.27,
-        "wind_speed_mph": 4.823,
-        "wind_direction_deg": 143.9,
-        "precip_in": null,
-        "period": "historical"
-      },
       {
         "time": "2026-11-17T16:00:00.000Z",
         "temp_f": 20.31,
@@ -3298,6 +3290,14 @@
         "temp_f": 19.27,
         "wind_speed_mph": 12.41,
         "wind_direction_deg": 214.5,
+        "precip_in": null,
+        "period": "historical"
+      },
+      {
+        "time": "2026-11-18T15:00:00.000Z",
+        "temp_f": 19.89,
+        "wind_speed_mph": 6.862,
+        "wind_direction_deg": 169.2,
         "precip_in": null,
         "period": "historical"
       },
@@ -4188,7 +4188,7 @@
       "swe_in": 0.1,
       "swe_in_date": "2026-11-17",
       "change_12h_in": 1,
-      "change_24h_in": 2
+      "change_24h_in": 1
     },
     "Three Creek / Tam McArthur (Three Creeks Meadow)": {
       "snow_depth_in": 0,
@@ -4203,7 +4203,7 @@
       "snow_depth_in_date": "2026-11-17",
       "swe_in": 0.1,
       "swe_in_date": "2026-11-17",
-      "change_12h_in": 3,
+      "change_12h_in": 1,
       "change_24h_in": 3
     },
     "Ochocos (Ochoco Meadows)": {
@@ -4331,7 +4331,7 @@
           "weather_icon": "dor-snow",
           "id": 1795028400,
           "day": "Wednesday",
-          "temperature_high": 28,
+          "temperature_high": 29,
           "temperature_low": 22,
           "precipitation_high": 81,
           "precipitation_low": 81,
@@ -4541,15 +4541,15 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-11-18T14:00:00.000Z"
+            "timestamp": "2026-11-18T15:00:00.000Z"
           },
-          "temperature": "21.35",
+          "temperature": "21.15",
           "wind": {
-            "low": "4.129",
-            "high": "8.28",
+            "low": "3.152",
+            "high": "7.83",
             "current": null,
-            "average": "4.129",
-            "direction": "SW"
+            "average": "3.152",
+            "direction": "SSW"
           },
           "humidity": null,
           "display_name": "Northwest",
@@ -4612,8 +4612,8 @@
   "hoodoo": {
     "weather": {
       "Temperature": "27 &#176F",
-      "Wind": "West @ 8 MPH",
-      "Snow depth": "1.5\"",
+      "Wind": "WNW @ 6 MPH",
+      "Snow depth": "1.6\"",
       "Humidity": "100 %",
       "Barometer": "29.60\" Hg",
       "Rain Gauge": "0.04\""
@@ -4663,8 +4663,8 @@
   "willamette_pass": {
     "forecast": {
       "weather_provider": "NOAA",
-      "date": "November 18, 2026, 2:55 pm",
-      "time": 1795042525000,
+      "date": "November 18, 2026, 3:10 pm",
+      "time": 1795043424000,
       "current_weather": "Mostly Cloudy",
       "current_temperature": "36",
       "forecast": [
