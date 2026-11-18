@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T09:15:31.584367+00:00",
+  "generated_at": "2026-11-18T09:30:28.377895+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -914,7 +914,7 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 25.0,
+        "wind_speed_mph": 24.0,
         "wind_direction_deg": 90,
         "snow_level_ft": 3072,
         "temp_f": 28
@@ -2155,8 +2155,8 @@
       "periods": [
         {
           "number": 1,
-          "name": "Tonight",
-          "startTime": "2026-11-17T23:00:00-08:00",
+          "name": "Overnight",
+          "startTime": "2026-11-18T01:00:00-08:00",
           "endTime": "2026-11-18T06:00:00-08:00",
           "isDaytime": false,
           "temperature": 29,
@@ -2168,11 +2168,11 @@
           },
           "windSpeed": "7 mph",
           "windDirection": "SE",
-          "icon": "https://api.weather.gov/icons/land/night/snow,20/snow,60?size=medium",
+          "icon": "https://api.weather.gov/icons/land/night/snow,60?size=medium",
           "shortForecast": "Light Snow Likely",
-          "detailedForecast": "Snow likely. Mostly cloudy. Low around 29, with temperatures rising to around 33 overnight. Southeast wind around 7 mph, with gusts as high as 18 mph. Chance of precipitation is 60%. Little or no snow accumulation expected.",
-          "precipitationAmountIn": 0.02,
-          "snowLevelFt": 2886
+          "detailedForecast": "Snow likely. Cloudy. Low around 29, with temperatures rising to around 34 overnight. Southeast wind around 7 mph. Chance of precipitation is 60%. Little or no snow accumulation expected.",
+          "precipitationAmountIn": 0.01,
+          "snowLevelFt": 3307
         },
         {
           "number": 2,
@@ -3087,12 +3087,12 @@
     "Hoodoo": {
       "elevation_ft": 4705,
       "temp_f": 28,
-      "wind_speed_mph": 25.0,
+      "wind_speed_mph": 24.0,
       "wind_direction_deg": 90,
       "snow_level_ft": 3072,
       "precip_chance_today": 72,
-      "snowfall_12h_in": -0.2,
-      "snowfall_24h_in": -0.4,
+      "snowfall_12h_in": -0.8,
+      "snowfall_24h_in": -1.2,
       "snowfall_48h_in": null
     },
     "Willamette Pass": {
@@ -4204,7 +4204,7 @@
       "swe_in": 0.1,
       "swe_in_date": "2026-11-17",
       "change_12h_in": 0,
-      "change_24h_in": 0
+      "change_24h_in": -1
     },
     "Three Creek / Tam McArthur (Three Creeks Meadow)": {
       "snow_depth_in": 0,
@@ -4627,9 +4627,9 @@
   },
   "hoodoo": {
     "weather": {
-      "Temperature": "24 &#176F",
-      "Wind": "East @ 25 MPH",
-      "Snow depth": "-0.6\"",
+      "Temperature": "25 &#176F",
+      "Wind": "East @ 24 MPH",
+      "Snow depth": "-1.6\"",
       "Humidity": "100 %",
       "Barometer": "29.57\" Hg",
       "Rain Gauge": "0.07\""
@@ -4638,11 +4638,11 @@
       "trend": {
         "Max": "0.5\"",
         "Min": "-2.1\"",
-        "1 Hr": "-0.8\"",
-        "3 Hr": "-0.3\"",
-        "6 Hr": "-0.5\"",
-        "12 Hr": "-0.2\"",
-        "24 Hr": "-0.4\""
+        "1 Hr": "-1.6\"",
+        "3 Hr": "-1.4\"",
+        "6 Hr": "-1.3\"",
+        "12 Hr": "-0.8\"",
+        "24 Hr": "-1.2\""
       },
       "season_total_in": 7.6
     },
@@ -4684,8 +4684,8 @@
   "willamette_pass": {
     "forecast": {
       "weather_provider": "NOAA",
-      "date": "November 18, 2026, 12:58 am",
-      "time": 1794992304000,
+      "date": "November 18, 2026, 1:10 am",
+      "time": 1794993028000,
       "current_weather": "Snow Likely",
       "current_temperature": "31",
       "forecast": [
@@ -4725,11 +4725,6 @@
       "min_temp": "28",
       "hourly": [
         {
-          "time": "12a",
-          "temp": "30",
-          "details": "chance of snow"
-        },
-        {
           "time": "2a",
           "temp": "30",
           "details": "chance of snow"
@@ -4748,6 +4743,11 @@
           "time": "8a",
           "temp": "31",
           "details": "snow "
+        },
+        {
+          "time": "10a",
+          "temp": "32",
+          "details": "chance of snow"
         }
       ],
       "attribution": "",
@@ -4765,12 +4765,7 @@
       "Lifts Open": "0/6",
       "Trails Open": "0/30"
     },
-    "webcams": {
-      "Base Area": {
-        "src": "https://www.youtube.com/embed/sNVA6oC7vcM",
-        "link": "https://www.willamettepass.ski/weather-conditions-webcams/webcams/"
-      }
-    }
+    "webcams": {}
   },
   "snow_stake_cams": {
     "Mt. Bachelor (Snow Stake)": {
@@ -4781,10 +4776,7 @@
       "src": "https://santiampsp.org/wx/weather16.jpg",
       "link": "https://hoodoo.com/the-mountain/webcams/"
     },
-    "Willamette Pass (Base Area)": {
-      "src": "https://www.youtube.com/embed/sNVA6oC7vcM",
-      "link": "https://www.willamettepass.ski/weather-conditions-webcams/webcams/"
-    }
+    "Willamette Pass (Base Area)": null
   },
   "satellite": {
     "Pacific Northwest": {
