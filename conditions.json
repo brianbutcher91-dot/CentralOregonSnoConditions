@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T04:00:31.956864+00:00",
+  "generated_at": "2026-11-18T04:15:30.674943+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -314,7 +314,7 @@
         {
           "number": 1,
           "name": "Tonight",
-          "startTime": "2026-11-17T18:00:00-08:00",
+          "startTime": "2026-11-17T20:00:00-08:00",
           "endTime": "2026-11-18T06:00:00-08:00",
           "isDaytime": false,
           "temperature": 24,
@@ -324,13 +324,13 @@
             "unitCode": "wmoUnit:percent",
             "value": 75
           },
-          "windSpeed": "3 to 20 mph",
+          "windSpeed": "9 to 20 mph",
           "windDirection": "S",
           "icon": "https://api.weather.gov/icons/land/night/snow,60/snow,80?size=medium",
           "shortForecast": "Light Snow",
-          "detailedForecast": "Snow after 10pm. Mostly cloudy. Low around 24, with temperatures rising to around 26 overnight. South wind 3 to 20 mph, with gusts as high as 40 mph. Chance of precipitation is 80%. New snow accumulation of less than one inch possible.",
+          "detailedForecast": "Snow after 10pm. Mostly cloudy. Low around 24, with temperatures rising to around 26 overnight. South wind 9 to 20 mph, with gusts as high as 40 mph. Chance of precipitation is 80%. New snow accumulation of less than one inch possible.",
           "precipitationAmountIn": 0.03,
-          "snowLevelFt": 3754
+          "snowLevelFt": 3228
         },
         {
           "number": 2,
@@ -914,7 +914,7 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 17.0,
+        "wind_speed_mph": 19.0,
         "wind_direction_deg": 112.5,
         "snow_level_ft": 3255,
         "temp_f": 27
@@ -2156,7 +2156,7 @@
         {
           "number": 1,
           "name": "Tonight",
-          "startTime": "2026-11-17T20:00:00-08:00",
+          "startTime": "2026-11-17T18:00:00-08:00",
           "endTime": "2026-11-18T06:00:00-08:00",
           "isDaytime": false,
           "temperature": 29,
@@ -2166,13 +2166,13 @@
             "unitCode": "wmoUnit:percent",
             "value": 52
           },
-          "windSpeed": "7 mph",
+          "windSpeed": "3 to 7 mph",
           "windDirection": "S",
           "icon": "https://api.weather.gov/icons/land/night/snow,30/snow,50?size=medium",
           "shortForecast": "Chance Light Snow",
-          "detailedForecast": "A chance of snow after 10pm. Mostly cloudy. Low around 29, with temperatures rising to around 33 overnight. South wind around 7 mph, with gusts as high as 20 mph. Chance of precipitation is 50%. Little or no snow accumulation expected.",
+          "detailedForecast": "A chance of snow after 10pm. Mostly cloudy. Low around 29, with temperatures rising to around 33 overnight. South wind 3 to 7 mph, with gusts as high as 20 mph. Chance of precipitation is 50%. Little or no snow accumulation expected.",
           "precipitationAmountIn": 0.02,
-          "snowLevelFt": 3097
+          "snowLevelFt": 3832
         },
         {
           "number": 2,
@@ -3087,12 +3087,12 @@
     "Hoodoo": {
       "elevation_ft": 4705,
       "temp_f": 27,
-      "wind_speed_mph": 17.0,
+      "wind_speed_mph": 19.0,
       "wind_direction_deg": 112.5,
       "snow_level_ft": 3255,
       "precip_chance_today": 77,
-      "snowfall_12h_in": 0.8,
-      "snowfall_24h_in": 0.5,
+      "snowfall_12h_in": 0.6,
+      "snowfall_24h_in": 0.6,
       "snowfall_48h_in": null
     },
     "Willamette Pass": {
@@ -4643,22 +4643,22 @@
   },
   "hoodoo": {
     "weather": {
-      "Temperature": "28 &#176F",
-      "Wind": "ESE @ 17 MPH",
-      "Snow depth": "0.2\"",
-      "Humidity": "87 %",
-      "Barometer": "29.64\" Hg",
+      "Temperature": "27 &#176F",
+      "Wind": "ESE @ 19 MPH",
+      "Snow depth": "0.3\"",
+      "Humidity": "91 %",
+      "Barometer": "29.63\" Hg",
       "Rain Gauge": "0.07\""
     },
     "snow_totals": {
       "trend": {
         "Max": "0.5\"",
         "Min": "-1.7\"",
-        "1 Hr": "0.1\"",
+        "1 Hr": "0.4\"",
         "3 Hr": "0.2\"",
         "6 Hr": "0.2\"",
-        "12 Hr": "0.8\"",
-        "24 Hr": "0.5\""
+        "12 Hr": "0.6\"",
+        "24 Hr": "0.6\""
       },
       "season_total_in": 7.1
     },
@@ -4700,39 +4700,39 @@
   "willamette_pass": {
     "forecast": {
       "weather_provider": "NOAA",
-      "date": "November 17, 2026, 7:43 pm",
-      "time": 1794973404000,
+      "date": "November 17, 2026, 8:10 pm",
+      "time": 1794975020000,
       "current_weather": "Chance Snow then Snow Likely",
       "current_temperature": "30",
       "forecast": [
         {
           "day": "Tuesday",
-          "night_forecast": "Snow likely after 11pm.  Mostly cloudy, with a low around 28. South southeast wind 10 to 16 mph, with gusts as high as 23 mph.  Chance of precipitation is 70%. Total nighttime snow accumulation of less than one inch possible. "
+          "night_forecast": "Snow likely after 11pm.  Mostly cloudy, with a low around 28. Southeast wind 10 to 15 mph, with gusts as high as 23 mph.  Chance of precipitation is 60%. Total nighttime snow accumulation of less than a half inch possible. "
         },
         {
           "day": "Wednesday",
-          "day_forecast": "Snow, mainly before 10am.  High near 35. South wind 7 to 14 mph, with gusts as high as 22 mph.  Chance of precipitation is 90%. New snow accumulation of around an inch possible. ",
-          "night_forecast": "Patchy fog before 10pm.  Otherwise, mostly cloudy, with a low around 24. Light east southeast wind. "
+          "day_forecast": "Snow, mainly before 10am.  High near 35. South wind 8 to 15 mph, with gusts as high as 22 mph.  Chance of precipitation is 100%. New snow accumulation of less than a half inch possible. ",
+          "night_forecast": "Mostly cloudy, with a low around 22. Calm wind becoming southeast around 5 mph in the evening. "
         },
         {
           "day": "Thursday",
-          "day_forecast": "Partly sunny, with a high near 34. Light and variable wind. ",
-          "night_forecast": "Mostly cloudy, with a low around 24. Light west wind. "
+          "day_forecast": "Mostly cloudy, with a high near 33. Light and variable wind becoming west northwest 5 to 7 mph in the afternoon. ",
+          "night_forecast": "Mostly cloudy, with a low around 25. West northwest wind around 7 mph. "
         },
         {
           "day": "Friday",
-          "day_forecast": "Mostly sunny, with a high near 35.",
-          "night_forecast": "A 10 percent chance of snow after 4am.  Mostly cloudy, with a low around 23."
+          "day_forecast": "Mostly sunny, with a high near 36.",
+          "night_forecast": "Partly cloudy, with a low around 23."
         },
         {
           "day": "Saturday",
           "day_forecast": "Snow, mainly after 10am.  Mostly cloudy, with a high near 33.",
-          "night_forecast": "Snow, mainly before 10pm.  Mostly cloudy, with a low around 26."
+          "night_forecast": "Snow, mainly before 10pm.  Mostly cloudy, with a low around 25."
         },
         {
           "day": "Sunday",
-          "day_forecast": "A chance of snow, mainly after 10am.  Mostly cloudy, with a high near 33.",
-          "night_forecast": "A chance of snow.  Mostly cloudy, with a low around 26."
+          "day_forecast": "A chance of snow, mainly after 10am.  Partly sunny, with a high near 34.",
+          "night_forecast": "A chance of snow.  Mostly cloudy, with a low around 25."
         },
         {
           "day": "Monday",
@@ -4757,17 +4757,17 @@
         {
           "time": "12a",
           "temp": "30",
-          "details": "snow likely"
+          "details": "chance of snow"
         },
         {
           "time": "2a",
           "temp": "30",
-          "details": "snow likely"
+          "details": "chance of snow"
         },
         {
           "time": "4a",
           "temp": "30",
-          "details": "snow likely"
+          "details": "chance of snow"
         }
       ],
       "attribution": "",
@@ -4809,15 +4809,15 @@
   "satellite": {
     "Pacific Northwest": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/pnw/13/GOES18-PNW-13-600x600.gif",
-      "last_modified": "Wed, 18 Nov 2026 03:31:57 GMT"
+      "last_modified": "Wed, 18 Nov 2026 04:01:55 GMT"
     },
     "North Pacific (macro)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/np/13/GOES18-NP-13-900x540.gif",
-      "last_modified": "Wed, 18 Nov 2026 03:32:09 GMT"
+      "last_modified": "Wed, 18 Nov 2026 04:02:01 GMT"
     },
     "Pacific US (PACUS)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/13/GOES18-CONUS-13-625x375.gif",
-      "last_modified": "Wed, 18 Nov 2026 03:31:29 GMT"
+      "last_modified": "Wed, 18 Nov 2026 04:01:28 GMT"
     }
   },
   "gfs_snowfall": {
