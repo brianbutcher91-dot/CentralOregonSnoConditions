@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T15:00:43.555062+00:00",
+  "generated_at": "2026-11-19T15:15:20.758860+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -314,7 +314,7 @@
         {
           "number": 1,
           "name": "Today",
-          "startTime": "2026-11-19T07:00:00-08:00",
+          "startTime": "2026-11-19T06:00:00-08:00",
           "endTime": "2026-11-19T18:00:00-08:00",
           "isDaytime": true,
           "temperature": 26,
@@ -322,15 +322,15 @@
           "temperatureTrend": null,
           "probabilityOfPrecipitation": {
             "unitCode": "wmoUnit:percent",
-            "value": 14
+            "value": 15
           },
           "windSpeed": "2 mph",
           "windDirection": "NW",
-          "icon": "https://api.weather.gov/icons/land/day/bkn/fog?size=medium",
-          "shortForecast": "Partly Sunny then Patchy Freezing Fog",
-          "detailedForecast": "Patchy freezing fog between 1pm and 4pm, then patchy fog. Partly sunny. High near 26, with temperatures falling to around 23 in the afternoon. Northwest wind around 2 mph.",
+          "icon": "https://api.weather.gov/icons/land/day/snow,20/fog?size=medium",
+          "shortForecast": "Slight Chance Light Snow then Patchy Freezing Fog",
+          "detailedForecast": "A slight chance of snow before 7am, then patchy freezing fog between 1pm and 4pm, then patchy fog. Partly sunny. High near 26, with temperatures falling to around 23 in the afternoon. Northwest wind around 2 mph. Chance of precipitation is 20%.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 2625
+          "snowLevelFt": 2730
         },
         {
           "number": 2,
@@ -621,7 +621,7 @@
         {
           "number": 1,
           "name": "Today",
-          "startTime": "2026-11-19T07:00:00-08:00",
+          "startTime": "2026-11-19T06:00:00-08:00",
           "endTime": "2026-11-19T18:00:00-08:00",
           "isDaytime": true,
           "temperature": 34,
@@ -637,7 +637,7 @@
           "shortForecast": "Partly Sunny then Patchy Fog",
           "detailedForecast": "Patchy fog after 5pm. Partly sunny. High near 34, with temperatures falling to around 29 in the afternoon. West northwest wind around 3 mph. Little or no snow accumulation expected.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 2598
+          "snowLevelFt": 2651
         },
         {
           "number": 2,
@@ -1235,7 +1235,7 @@
         {
           "number": 1,
           "name": "Today",
-          "startTime": "2026-11-19T07:00:00-08:00",
+          "startTime": "2026-11-19T06:00:00-08:00",
           "endTime": "2026-11-19T18:00:00-08:00",
           "isDaytime": true,
           "temperature": 34,
@@ -1251,7 +1251,7 @@
           "shortForecast": "Partly Sunny",
           "detailedForecast": "Partly sunny. High near 34, with temperatures falling to around 30 in the afternoon. West northwest wind around 3 mph.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 2782
+          "snowLevelFt": 2835
         },
         {
           "number": 2,
@@ -1849,7 +1849,7 @@
         {
           "number": 1,
           "name": "Today",
-          "startTime": "2026-11-19T07:00:00-08:00",
+          "startTime": "2026-11-19T06:00:00-08:00",
           "endTime": "2026-11-19T18:00:00-08:00",
           "isDaytime": true,
           "temperature": 30,
@@ -1857,15 +1857,15 @@
           "temperatureTrend": null,
           "probabilityOfPrecipitation": {
             "unitCode": "wmoUnit:percent",
-            "value": 19
+            "value": 20
           },
           "windSpeed": "2 mph",
           "windDirection": "NW",
-          "icon": "https://api.weather.gov/icons/land/day/fog/snow,20?size=medium",
+          "icon": "https://api.weather.gov/icons/land/day/snow,20?size=medium",
           "shortForecast": "Patchy Freezing Fog then Patchy Fog",
-          "detailedForecast": "Patchy freezing fog before 10am, then patchy fog and a slight chance of snow. Mostly cloudy. High near 30, with temperatures falling to around 28 in the afternoon. Northwest wind around 2 mph. Chance of precipitation is 20%. Little or no snow accumulation expected.",
+          "detailedForecast": "Patchy freezing fog and a slight chance of snow before 10am, then patchy fog and a slight chance of snow. Mostly cloudy. High near 30, with temperatures falling to around 28 in the afternoon. Northwest wind around 2 mph. Chance of precipitation is 20%. Little or no snow accumulation expected.",
           "precipitationAmountIn": 0.01,
-          "snowLevelFt": 2913
+          "snowLevelFt": 3254
         },
         {
           "number": 2,
@@ -3081,7 +3081,7 @@
       "snow_level_ft": 2572,
       "precip_chance_today": 13,
       "snowfall_12h_in": null,
-      "snowfall_24h_in": 2,
+      "snowfall_24h_in": 0,
       "snowfall_48h_in": 2
     },
     "Hoodoo": {
@@ -3091,8 +3091,8 @@
       "wind_direction_deg": 67.5,
       "snow_level_ft": 2598,
       "precip_chance_today": 14,
-      "snowfall_12h_in": -0.8,
-      "snowfall_24h_in": null,
+      "snowfall_12h_in": -0.2,
+      "snowfall_24h_in": 0.0,
       "snowfall_48h_in": null
     },
     "Willamette Pass": {
@@ -3300,6 +3300,14 @@
         "wind_direction_deg": 246.6,
         "precip_in": null,
         "period": "historical"
+      },
+      {
+        "time": "2026-11-19T07:00:00+00:00",
+        "temp_f": 17.0,
+        "wind_speed_mph": 3.5,
+        "wind_direction_deg": 130,
+        "precip_in": 0.0,
+        "period": "forecast"
       },
       {
         "time": "2026-11-19T08:00:00+00:00",
@@ -4479,14 +4487,14 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-11-19T06:00:00.000Z"
+            "timestamp": "2026-11-19T07:00:00.000Z"
           },
-          "temperature": "17.19",
+          "temperature": "18.32",
           "wind": {
-            "low": "7.254",
-            "high": "13.2",
+            "low": "6.464",
+            "high": "12.3",
             "current": null,
-            "average": "7.254",
+            "average": "6.464",
             "direction": "WSW"
           },
           "humidity": null,
@@ -4581,7 +4589,7 @@
       "created": 1795016392,
       "updated": 1795016392,
       "computed": {
-        "24_hour": 2,
+        "24_hour": 0,
         "48_hour": 2,
         "72_hour": 2,
         "7_day": 6,
@@ -4615,9 +4623,9 @@
   },
   "hoodoo": {
     "weather": {
-      "Temperature": "23 &#176F",
+      "Temperature": "22 &#176F",
       "Wind": "ENE @ 7 MPH",
-      "Snow depth": "0.5\"",
+      "Snow depth": "0.6\"",
       "Humidity": "100 %",
       "Barometer": "29.61\" Hg",
       "Rain Gauge": "0.03\""
@@ -4626,10 +4634,11 @@
       "trend": {
         "Max": "1.7\"",
         "Min": "-2.1\"",
-        "1 Hr": "-0.4\"",
-        "3 Hr": "-0.6\"",
-        "6 Hr": "-0.9\"",
-        "12 Hr": "-0.8\""
+        "1 Hr": "-0.2\"",
+        "3 Hr": "-0.7\"",
+        "6 Hr": "-0.7\"",
+        "12 Hr": "-0.2\"",
+        "24 Hr": "0.0\""
       },
       "season_total_in": 8.8
     },
@@ -4671,14 +4680,14 @@
   "willamette_pass": {
     "forecast": {
       "weather_provider": "NOAA",
-      "date": "November 19, 2026, 6:55 am",
-      "time": 1795100121000,
+      "date": "November 19, 2026, 7:10 am",
+      "time": 1795101019000,
       "current_weather": "Partly Sunny",
       "current_temperature": "27",
       "forecast": [
         {
           "day": "Thursday",
-          "day_forecast": "Partly sunny, with a high near 34. Light west wind. ",
+          "day_forecast": "Partly sunny, with a high near 34. Light northwest wind. ",
           "night_forecast": "A slight chance of snow between 9pm and 10pm.  Mostly cloudy, with a low around 25. Light west northwest wind.  Chance of precipitation is 20%."
         },
         {
@@ -4739,10 +4748,10 @@
         }
       ],
       "attribution": "",
-      "trails_updated": "November 18, 2026 12:58 pm",
+      "trails_updated": "November 19, 2026 7:01 am",
       "lifts_trails_page_updated": "November 10, 2026 8:51 am",
       "conditions_table_updated": "November 18, 2026 12:58 pm",
-      "todays_report_updated": "November 18, 2026 8:50 am"
+      "todays_report_updated": "November 19, 2026 7:01 am"
     },
     "snow_totals": {
       "24 Hr": "0\u201d",
@@ -4753,7 +4762,12 @@
       "Lifts Open": "0/6",
       "Trails Open": "0/30"
     },
-    "webcams": {}
+    "webcams": {
+      "Base Area": {
+        "src": "https://www.youtube.com/embed/sNVA6oC7vcM",
+        "link": "https://www.willamettepass.ski/weather-conditions-webcams/webcams/"
+      }
+    }
   },
   "snow_stake_cams": {
     "Mt. Bachelor (Snow Stake)": {
@@ -4764,20 +4778,23 @@
       "src": "https://santiampsp.org/wx/weather16.jpg",
       "link": "https://hoodoo.com/the-mountain/webcams/"
     },
-    "Willamette Pass (Base Area)": null
+    "Willamette Pass (Base Area)": {
+      "src": "https://www.youtube.com/embed/sNVA6oC7vcM",
+      "link": "https://www.willamettepass.ski/weather-conditions-webcams/webcams/"
+    }
   },
   "satellite": {
     "Pacific Northwest": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/pnw/13/GOES18-PNW-13-600x600.gif",
-      "last_modified": "Thu, 19 Nov 2026 14:31:54 GMT"
+      "last_modified": "Thu, 19 Nov 2026 15:01:31 GMT"
     },
     "North Pacific (macro)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/np/13/GOES18-NP-13-900x540.gif",
-      "last_modified": "Thu, 19 Nov 2026 14:31:59 GMT"
+      "last_modified": "Thu, 19 Nov 2026 15:02:14 GMT"
     },
     "Pacific US (PACUS)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/13/GOES18-CONUS-13-625x375.gif",
-      "last_modified": "Thu, 19 Nov 2026 14:31:32 GMT"
+      "last_modified": "Thu, 19 Nov 2026 15:01:40 GMT"
     }
   },
   "gfs_snowfall": {
