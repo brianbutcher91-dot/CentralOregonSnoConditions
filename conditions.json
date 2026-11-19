@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T17:15:18.690502+00:00",
+  "generated_at": "2026-11-19T17:32:38.069793+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -914,8 +914,8 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 11.0,
-        "wind_direction_deg": 112.5,
+        "wind_speed_mph": 3,
+        "wind_direction_deg": 280,
         "snow_level_ft": 2704,
         "temp_f": 27
       },
@@ -1542,7 +1542,7 @@
         {
           "number": 1,
           "name": "Today",
-          "startTime": "2026-11-19T08:00:00-08:00",
+          "startTime": "2026-11-19T09:00:00-08:00",
           "endTime": "2026-11-19T18:00:00-08:00",
           "isDaytime": true,
           "temperature": 35,
@@ -1552,13 +1552,13 @@
             "unitCode": "wmoUnit:percent",
             "value": 11
           },
-          "windSpeed": "2 to 6 mph",
+          "windSpeed": "3 mph",
           "windDirection": "W",
           "icon": "https://api.weather.gov/icons/land/day/bkn?size=medium",
           "shortForecast": "Partly Sunny",
-          "detailedForecast": "Partly sunny. High near 35, with temperatures falling to around 30 in the afternoon. West wind 2 to 6 mph.",
+          "detailedForecast": "Partly sunny. High near 35, with temperatures falling to around 30 in the afternoon. West wind around 3 mph.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 2677
+          "snowLevelFt": 2808
         },
         {
           "number": 2,
@@ -2156,7 +2156,7 @@
         {
           "number": 1,
           "name": "Today",
-          "startTime": "2026-11-19T09:00:00-08:00",
+          "startTime": "2026-11-19T08:00:00-08:00",
           "endTime": "2026-11-19T18:00:00-08:00",
           "isDaytime": true,
           "temperature": 37,
@@ -3087,12 +3087,12 @@
     "Hoodoo": {
       "elevation_ft": 4705,
       "temp_f": 27,
-      "wind_speed_mph": 11.0,
-      "wind_direction_deg": 112.5,
+      "wind_speed_mph": 3,
+      "wind_direction_deg": 280,
       "snow_level_ft": 2704,
       "precip_chance_today": 14,
-      "snowfall_12h_in": -0.9,
-      "snowfall_24h_in": 0.4,
+      "snowfall_12h_in": null,
+      "snowfall_24h_in": null,
       "snowfall_48h_in": null
     },
     "Willamette Pass": {
@@ -3109,14 +3109,6 @@
   },
   "bachelor_timeseries": {
     "hourly": [
-      {
-        "time": "2026-11-18T09:00:00.000Z",
-        "temp_f": 20.49,
-        "wind_speed_mph": 14.07,
-        "wind_direction_deg": 111.0,
-        "precip_in": null,
-        "period": "historical"
-      },
       {
         "time": "2026-11-18T10:00:00.000Z",
         "temp_f": 20.97,
@@ -3300,6 +3292,22 @@
         "wind_direction_deg": 260.4,
         "precip_in": null,
         "period": "historical"
+      },
+      {
+        "time": "2026-11-19T09:00:00.000Z",
+        "temp_f": 16.49,
+        "wind_speed_mph": 6.534,
+        "wind_direction_deg": 263.8,
+        "precip_in": null,
+        "period": "historical"
+      },
+      {
+        "time": "2026-11-19T10:00:00+00:00",
+        "temp_f": 18.0,
+        "wind_speed_mph": 5.8,
+        "wind_direction_deg": 270,
+        "precip_in": 0.0,
+        "period": "forecast"
       },
       {
         "time": "2026-11-19T11:00:00+00:00",
@@ -3928,10 +3936,6 @@
     ],
     "historical_precip_snapshots": [
       {
-        "time": "2026-11-16T17:30:39.603541+00:00",
-        "precip_in": 0
-      },
-      {
         "time": "2026-11-16T18:45:24.091648+00:00",
         "precip_in": 0
       },
@@ -4178,38 +4182,7 @@
     ]
   },
   "snotel": {
-    "Mt Bachelor area (Irish Taylor)": {
-      "snow_depth_in": 1,
-      "snow_depth_in_date": "2026-11-18",
-      "swe_in": 0.4,
-      "swe_in_date": "2026-11-18",
-      "change_12h_in": -1,
-      "change_24h_in": 0
-    },
-    "Three Creek / Tam McArthur (Three Creeks Meadow)": {
-      "snow_depth_in": 0,
-      "snow_depth_in_date": "2026-11-18",
-      "swe_in": 0.3,
-      "swe_in_date": "2026-11-18",
-      "change_12h_in": 0,
-      "change_24h_in": 0
-    },
-    "Santiam / Hoodoo (Hogg Pass)": {
-      "snow_depth_in": 2,
-      "snow_depth_in_date": "2026-11-18",
-      "swe_in": 0.4,
-      "swe_in_date": "2026-11-18",
-      "change_12h_in": -1,
-      "change_24h_in": 0
-    },
-    "Ochocos (Ochoco Meadows)": {
-      "snow_depth_in": 5,
-      "snow_depth_in_date": "2026-11-18",
-      "swe_in": 0.7,
-      "swe_in_date": "2026-11-18",
-      "change_12h_in": 1,
-      "change_24h_in": 3
-    }
+    "error": "503 Server Error: Service Unavailable for url: https://wcc.sc.egov.usda.gov/awdbRestApi/services/v1/data?stationTriplets=545%3AOR%3ASNTL&elements=SNWD%2CWTEQ&duration=DAILY&getFlags=false&beginDate=-1&endDate=-1"
   },
   "odot_cams": {
     "Century Drive": [
@@ -4315,7 +4288,7 @@
   "mtbachelor": {
     "weather": {
       "current": {
-        "temperature": 13,
+        "temperature": 14,
         "weather_icon": "dor-mostlycloudy"
       },
       "forecast": [
@@ -4448,10 +4421,10 @@
           "active": true,
           "primary": true,
           "nonstandardizedDataPoints": {
-            "depth": "6.706",
-            "timestamp": "2026-11-19T08:00:00.000Z"
+            "depth": "6.784",
+            "timestamp": "2026-11-19T09:00:00.000Z"
           },
-          "temperature": "13",
+          "temperature": "14.05",
           "wind": {
             "low": "0",
             "high": "0",
@@ -4515,14 +4488,14 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-11-19T08:00:00.000Z"
+            "timestamp": "2026-11-19T09:00:00.000Z"
           },
-          "temperature": "16.07",
+          "temperature": "16.49",
           "wind": {
-            "low": "4.879",
-            "high": "9.17",
+            "low": "6.534",
+            "high": "10.51",
             "current": null,
-            "average": "4.879",
+            "average": "6.534",
             "direction": "W"
           },
           "humidity": null,
@@ -4537,15 +4510,15 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-11-19T08:00:00.000Z"
+            "timestamp": "2026-11-19T09:00:00.000Z"
           },
-          "temperature": "12.94",
+          "temperature": "13.14",
           "wind": {
-            "low": "6.3",
-            "high": "10.74",
+            "low": "5.362",
+            "high": "8.5",
             "current": null,
-            "average": "6.3",
-            "direction": "E"
+            "average": "5.362",
+            "direction": "ENE"
           },
           "humidity": null,
           "display_name": "Northwest",
@@ -4606,66 +4579,13 @@
     }
   },
   "hoodoo": {
-    "weather": {
-      "Temperature": "26 &#176F",
-      "Wind": "ESE @ 11 MPH",
-      "Snow depth": "0.5\"",
-      "Humidity": "100 %",
-      "Barometer": "29.63\" Hg",
-      "Rain Gauge": "0.03\""
-    },
-    "snow_totals": {
-      "trend": {
-        "Max": "1.7\"",
-        "Min": "-2.1\"",
-        "1 Hr": "-0.1\"",
-        "3 Hr": "-0.3\"",
-        "6 Hr": "-0.8\"",
-        "12 Hr": "-0.9\"",
-        "24 Hr": "0.4\""
-      },
-      "season_total_in": 8.8
-    },
-    "webcams": {
-      "Base Area": {
-        "src": "https://santiampsp.org/wx/weather16.jpg",
-        "link": "https://hoodoo.com/the-mountain/webcams/"
-      },
-      "Top of Manzanita": {
-        "src": "https://santiampsp.org/wx/weather3.jpg",
-        "link": "https://hoodoo.com/the-mountain/webcams/"
-      },
-      "Top of Ed": {
-        "src": "https://santiampsp.org/wx/weather2.jpg",
-        "link": "https://hoodoo.com/the-mountain/webcams/"
-      },
-      "Top of Easy Rider": {
-        "src": "https://santiampsp.org/wx/weather4.jpg",
-        "link": "https://hoodoo.com/the-mountain/webcams/"
-      },
-      "Hoodoo Parking Lot": {
-        "src": "https://santiampsp.org/wx/weather12.jpg",
-        "link": "https://hoodoo.com/the-mountain/webcams/"
-      },
-      "Hoodoo Summit": {
-        "src": "https://santiampsp.org/wx/weather1.jpg",
-        "link": "https://hoodoo.com/the-mountain/webcams/"
-      },
-      "Hayrick Butte & \"Gripper\" run from top of Ed chair": {
-        "src": "https://santiampsp.org/wx/weather2b.jpg",
-        "link": "https://hoodoo.com/the-mountain/webcams/"
-      },
-      "Hoodoo Parking Lot View #2": {
-        "src": "https://santiampsp.org/wx/weather10.jpg",
-        "link": "https://hoodoo.com/the-mountain/webcams/"
-      }
-    }
+    "error": "HTTPSConnectionPool(host='santiampsp.org', port=443): Max retries exceeded with url: /wx/weather.htm (Caused by ConnectTimeoutError(<HTTPSConnection(host='santiampsp.org', port=443) at 0x7a624be14680>, 'Connection to santiampsp.org timed out. (connect timeout=None)'))"
   },
   "willamette_pass": {
     "forecast": {
       "weather_provider": "NOAA",
-      "date": "November 19, 2026, 8:55 am",
-      "time": 1795107320000,
+      "date": "November 19, 2026, 9:19 am",
+      "time": 1795108758000,
       "current_weather": "Partly Sunny",
       "current_temperature": "27",
       "forecast": [
@@ -4706,11 +4626,6 @@
       "min_temp": "25",
       "hourly": [
         {
-          "time": "8a",
-          "temp": "26",
-          "details": ""
-        },
-        {
           "time": "10a",
           "temp": "30",
           "details": ""
@@ -4728,6 +4643,11 @@
         {
           "time": "4p",
           "temp": "31",
+          "details": ""
+        },
+        {
+          "time": "5p",
+          "temp": "30",
           "details": ""
         }
       ],
@@ -4758,10 +4678,7 @@
       "src": "https://api.mtbachelor.com/api/v1/cams/mtn/14",
       "link": "https://www.mtbachelor.com/the-mountain/webcams/live-cam-14/"
     },
-    "Hoodoo (Base Area)": {
-      "src": "https://santiampsp.org/wx/weather16.jpg",
-      "link": "https://hoodoo.com/the-mountain/webcams/"
-    },
+    "Hoodoo (Base Area)": null,
     "Willamette Pass (Base Area)": {
       "src": "https://www.youtube.com/embed/sNVA6oC7vcM",
       "link": "https://www.willamettepass.ski/weather-conditions-webcams/webcams/"
@@ -4770,15 +4687,15 @@
   "satellite": {
     "Pacific Northwest": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/pnw/13/GOES18-PNW-13-600x600.gif",
-      "last_modified": "Thu, 19 Nov 2026 17:01:48 GMT"
+      "last_modified": "Thu, 19 Nov 2026 17:31:50 GMT"
     },
     "North Pacific (macro)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/np/13/GOES18-NP-13-900x540.gif",
-      "last_modified": "Thu, 19 Nov 2026 17:02:14 GMT"
+      "last_modified": "Thu, 19 Nov 2026 17:32:16 GMT"
     },
     "Pacific US (PACUS)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/13/GOES18-CONUS-13-625x375.gif",
-      "last_modified": "Thu, 19 Nov 2026 17:01:45 GMT"
+      "last_modified": "Thu, 19 Nov 2026 17:31:26 GMT"
     }
   },
   "gfs_snowfall": {
