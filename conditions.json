@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T04:30:32.740495+00:00",
+  "generated_at": "2026-11-20T04:45:19.485757+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -914,8 +914,8 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 7.0,
-        "wind_direction_deg": 67.5,
+        "wind_speed_mph": 6.0,
+        "wind_direction_deg": 45,
         "snow_level_ft": 3098,
         "temp_f": 26
       },
@@ -1235,7 +1235,7 @@
         {
           "number": 1,
           "name": "Tonight",
-          "startTime": "2026-11-19T18:00:00-08:00",
+          "startTime": "2026-11-19T20:00:00-08:00",
           "endTime": "2026-11-20T06:00:00-08:00",
           "isDaytime": false,
           "temperature": 23,
@@ -1250,8 +1250,8 @@
           "icon": "https://api.weather.gov/icons/land/night/bkn?size=medium",
           "shortForecast": "Mostly Cloudy",
           "detailedForecast": "Mostly cloudy, with a low around 23. Northwest wind around 3 mph. Little or no snow accumulation expected.",
-          "precipitationAmountIn": 0.01,
-          "snowLevelFt": 3386
+          "precipitationAmountIn": 0.0,
+          "snowLevelFt": 3097
         },
         {
           "number": 2,
@@ -2156,7 +2156,7 @@
         {
           "number": 1,
           "name": "Tonight",
-          "startTime": "2026-11-19T19:00:00-08:00",
+          "startTime": "2026-11-19T20:00:00-08:00",
           "endTime": "2026-11-20T06:00:00-08:00",
           "isDaytime": false,
           "temperature": 25,
@@ -3087,12 +3087,12 @@
     "Hoodoo": {
       "elevation_ft": 4705,
       "temp_f": 26,
-      "wind_speed_mph": 7.0,
-      "wind_direction_deg": 67.5,
+      "wind_speed_mph": 6.0,
+      "wind_direction_deg": 45,
       "snow_level_ft": 3098,
       "precip_chance_today": 15,
-      "snowfall_12h_in": 0.1,
-      "snowfall_24h_in": -0.9,
+      "snowfall_12h_in": 0.5,
+      "snowfall_24h_in": -0.4,
       "snowfall_48h_in": null
     },
     "Willamette Pass": {
@@ -4216,7 +4216,7 @@
       "swe_in": 0.7,
       "swe_in_date": "2026-11-18",
       "change_12h_in": 0,
-      "change_24h_in": 2
+      "change_24h_in": 1
     }
   },
   "odot_cams": {
@@ -4616,8 +4616,8 @@
   "hoodoo": {
     "weather": {
       "Temperature": "23 &#176F",
-      "Wind": "ENE @ 7 MPH",
-      "Snow depth": "0.6\"",
+      "Wind": "NE @ 6 MPH",
+      "Snow depth": "0.9\"",
       "Humidity": "100 %",
       "Barometer": "29.75\" Hg",
       "Rain Gauge": "0.01\""
@@ -4626,11 +4626,11 @@
       "trend": {
         "Max": "1.7\"",
         "Min": "-2.1\"",
-        "1 Hr": "-0.7\"",
-        "3 Hr": "-0.8\"",
-        "6 Hr": "-0.4\"",
-        "12 Hr": "0.1\"",
-        "24 Hr": "-0.9\""
+        "1 Hr": "-0.2\"",
+        "3 Hr": "-0.3\"",
+        "6 Hr": "0.1\"",
+        "12 Hr": "0.5\"",
+        "24 Hr": "-0.4\""
       },
       "season_total_in": 8.8
     },
@@ -4672,8 +4672,8 @@
   "willamette_pass": {
     "forecast": {
       "weather_provider": "NOAA",
-      "date": "November 19, 2026, 8:13 pm",
-      "time": 1795148008000,
+      "date": "November 19, 2026, 8:25 pm",
+      "time": 1795148732000,
       "current_weather": "Mostly Cloudy",
       "current_temperature": "27",
       "forecast": [
@@ -4781,15 +4781,15 @@
   "satellite": {
     "Pacific Northwest": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/pnw/13/GOES18-PNW-13-600x600.gif",
-      "last_modified": "Fri, 20 Nov 2026 04:01:47 GMT"
+      "last_modified": "Fri, 20 Nov 2026 04:31:58 GMT"
     },
     "North Pacific (macro)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/np/13/GOES18-NP-13-900x540.gif",
-      "last_modified": "Fri, 20 Nov 2026 04:01:53 GMT"
+      "last_modified": "Fri, 20 Nov 2026 04:32:12 GMT"
     },
     "Pacific US (PACUS)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/13/GOES18-CONUS-13-625x375.gif",
-      "last_modified": "Fri, 20 Nov 2026 04:01:33 GMT"
+      "last_modified": "Fri, 20 Nov 2026 04:31:30 GMT"
     }
   },
   "gfs_snowfall": {
