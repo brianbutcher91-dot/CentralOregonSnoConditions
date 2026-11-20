@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T00:15:16.887519+00:00",
+  "generated_at": "2026-11-20T00:30:19.484678+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -3091,7 +3091,7 @@
       "wind_direction_deg": 67.5,
       "snow_level_ft": 3544,
       "precip_chance_today": 30,
-      "snowfall_12h_in": 0.0,
+      "snowfall_12h_in": -0.4,
       "snowfall_24h_in": null,
       "snowfall_48h_in": null
     },
@@ -3109,14 +3109,6 @@
   },
   "bachelor_timeseries": {
     "hourly": [
-      {
-        "time": "2026-11-18T16:00:00.000Z",
-        "temp_f": 20.15,
-        "wind_speed_mph": 6.87,
-        "wind_direction_deg": 179.4,
-        "precip_in": null,
-        "period": "historical"
-      },
       {
         "time": "2026-11-18T17:00:00.000Z",
         "temp_f": 19.31,
@@ -3298,6 +3290,14 @@
         "temp_f": 21.6,
         "wind_speed_mph": 2.495,
         "wind_direction_deg": 335.2,
+        "precip_in": null,
+        "period": "historical"
+      },
+      {
+        "time": "2026-11-19T16:00:00.000Z",
+        "temp_f": 20.3,
+        "wind_speed_mph": 4.766,
+        "wind_direction_deg": 309.0,
         "precip_in": null,
         "period": "historical"
       },
@@ -4191,7 +4191,7 @@
       "snow_depth_in_date": "2026-11-18",
       "swe_in": 0.4,
       "swe_in_date": "2026-11-18",
-      "change_12h_in": 0,
+      "change_12h_in": -1,
       "change_24h_in": -1
     },
     "Three Creek / Tam McArthur (Three Creeks Meadow)": {
@@ -4200,7 +4200,7 @@
       "swe_in": 0.3,
       "swe_in_date": "2026-11-18",
       "change_12h_in": 0,
-      "change_24h_in": 0
+      "change_24h_in": -1
     },
     "Santiam / Hoodoo (Hogg Pass)": {
       "snow_depth_in": 2,
@@ -4208,7 +4208,7 @@
       "swe_in": 0.4,
       "swe_in_date": "2026-11-18",
       "change_12h_in": -1,
-      "change_24h_in": -1
+      "change_24h_in": 0
     },
     "Ochocos (Ochoco Meadows)": {
       "snow_depth_in": 5,
@@ -4323,7 +4323,7 @@
   "mtbachelor": {
     "weather": {
       "current": {
-        "temperature": 29,
+        "temperature": 26,
         "weather_icon": "dor-mostlycloudy"
       },
       "forecast": [
@@ -4456,10 +4456,10 @@
           "active": true,
           "primary": true,
           "nonstandardizedDataPoints": {
-            "depth": "6.509",
-            "timestamp": "2026-11-19T15:00:00.000Z"
+            "depth": "6.589",
+            "timestamp": "2026-11-19T16:00:00.000Z"
           },
-          "temperature": "28.55",
+          "temperature": "26.48",
           "wind": {
             "low": "0",
             "high": "0",
@@ -4479,15 +4479,15 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-11-19T15:00:00.000Z"
+            "timestamp": "2026-11-19T16:00:00.000Z"
           },
-          "temperature": "24.55",
+          "temperature": "22.44",
           "wind": {
-            "low": "1.959",
-            "high": "7.158",
+            "low": "3.364",
+            "high": "8.95",
             "current": null,
-            "average": "1.959",
-            "direction": "ESE"
+            "average": "3.364",
+            "direction": "N"
           },
           "humidity": null,
           "display_name": "Sunrise",
@@ -4523,15 +4523,15 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-11-19T15:00:00.000Z"
+            "timestamp": "2026-11-19T16:00:00.000Z"
           },
-          "temperature": "21.6",
+          "temperature": "20.3",
           "wind": {
-            "low": "2.495",
-            "high": "6.264",
+            "low": "4.766",
+            "high": "10.51",
             "current": null,
-            "average": "2.495",
-            "direction": "NNW"
+            "average": "4.766",
+            "direction": "NW"
           },
           "humidity": null,
           "display_name": "Cloud Chaser",
@@ -4545,15 +4545,15 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-11-19T15:00:00.000Z"
+            "timestamp": "2026-11-19T16:00:00.000Z"
           },
-          "temperature": "23.43",
+          "temperature": "21.03",
           "wind": {
-            "low": "2.229",
-            "high": "7.382",
+            "low": "4.555",
+            "high": "11.63",
             "current": null,
-            "average": "2.229",
-            "direction": "WSW"
+            "average": "4.555",
+            "direction": "NE"
           },
           "humidity": null,
           "display_name": "Northwest",
@@ -4626,10 +4626,10 @@
       "trend": {
         "Max": "1.7\"",
         "Min": "-2.1\"",
-        "1 Hr": "0.2\"",
+        "1 Hr": "-0.2\"",
         "3 Hr": "0.6\"",
-        "6 Hr": "0.6\"",
-        "12 Hr": "0.0\""
+        "6 Hr": "0.8\"",
+        "12 Hr": "-0.4\""
       },
       "season_total_in": 8.8
     },
@@ -4671,14 +4671,13 @@
   "willamette_pass": {
     "forecast": {
       "weather_provider": "NOAA",
-      "date": "November 19, 2026, 3:55 pm",
-      "time": 1795132516000,
-      "current_weather": "Slight Chance Snow",
+      "date": "November 19, 2026, 4:28 pm",
+      "time": 1795134516000,
+      "current_weather": "Mostly Cloudy",
       "current_temperature": "37",
       "forecast": [
         {
           "day": "Thursday",
-          "day_forecast": "A 20 percent chance of snow.  Partly sunny, with a high near 34. Light northwest wind. ",
           "night_forecast": "Mostly cloudy, with a low around 23. Light northwest wind. "
         },
         {
@@ -4689,12 +4688,12 @@
         {
           "day": "Saturday",
           "day_forecast": "Snow, mainly after 10am.  High near 32. South wind around 6 mph.  Chance of precipitation is 80%. New snow accumulation of less than one inch possible. ",
-          "night_forecast": "Snow, mainly before 10pm.  Low around 24. Chance of precipitation is 80%. New snow accumulation of less than a half inch possible. "
+          "night_forecast": "Snow, mainly before 10pm.  Low around 24. Southwest wind 3 to 6 mph.  Chance of precipitation is 80%. New snow accumulation of less than a half inch possible. "
         },
         {
           "day": "Sunday",
           "day_forecast": "Mostly cloudy, with a high near 32.",
-          "night_forecast": "A slight chance of snow.  Mostly cloudy, with a low around 26."
+          "night_forecast": "A 20 percent chance of snow.  Mostly cloudy, with a low around 26."
         },
         {
           "day": "Monday",
@@ -4703,13 +4702,17 @@
         },
         {
           "day": "Tuesday",
-          "day_forecast": "Rain and snow likely.  Cloudy, with a high near 36.",
+          "day_forecast": "Snow likely before 4pm, then rain and snow likely.  Cloudy, with a high near 36.",
           "night_forecast": "Rain and snow likely.  Cloudy, with a low around 31."
+        },
+        {
+          "day": "Wednesday",
+          "day_forecast": "A chance of rain and snow.  Mostly cloudy, with a high near 37."
         }
       ],
       "wind": "NA",
-      "icon": "0499-snow.svg",
-      "max_temp": "34",
+      "icon": "0101-cloudy.svg",
+      "max_temp": "35",
       "min_temp": "23",
       "hourly": [
         {
