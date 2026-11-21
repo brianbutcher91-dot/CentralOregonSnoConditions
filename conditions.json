@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T09:15:19.311831+00:00",
+  "generated_at": "2026-11-21T09:30:23.084422+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -314,7 +314,7 @@
         {
           "number": 1,
           "name": "Overnight",
-          "startTime": "2026-11-21T01:00:00-08:00",
+          "startTime": "2026-11-21T00:00:00-08:00",
           "endTime": "2026-11-21T06:00:00-08:00",
           "isDaytime": false,
           "temperature": 20,
@@ -330,7 +330,7 @@
           "shortForecast": "Partly Cloudy",
           "detailedForecast": "Partly cloudy, with a low around 20. Southwest wind around 9 mph.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 2730
+          "snowLevelFt": 2651
         },
         {
           "number": 2,
@@ -927,8 +927,8 @@
       "periods": [
         {
           "number": 1,
-          "name": "Tonight",
-          "startTime": "2026-11-20T23:00:00-08:00",
+          "name": "Overnight",
+          "startTime": "2026-11-21T01:00:00-08:00",
           "endTime": "2026-11-21T06:00:00-08:00",
           "isDaytime": false,
           "temperature": 15,
@@ -940,11 +940,11 @@
           },
           "windSpeed": "10 mph",
           "windDirection": "SW",
-          "icon": "https://api.weather.gov/icons/land/night/few?size=medium",
-          "shortForecast": "Mostly Clear",
-          "detailedForecast": "Mostly clear, with a low around 15. Southwest wind around 10 mph.",
+          "icon": "https://api.weather.gov/icons/land/night/sct?size=medium",
+          "shortForecast": "Partly Cloudy",
+          "detailedForecast": "Partly cloudy, with a low around 15. Southwest wind around 10 mph.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 3097
+          "snowLevelFt": 2861
         },
         {
           "number": 2,
@@ -2462,8 +2462,8 @@
       "periods": [
         {
           "number": 1,
-          "name": "Tonight",
-          "startTime": "2026-11-20T23:00:00-08:00",
+          "name": "Overnight",
+          "startTime": "2026-11-21T01:00:00-08:00",
           "endTime": "2026-11-21T06:00:00-08:00",
           "isDaytime": false,
           "temperature": 19,
@@ -2473,13 +2473,13 @@
             "unitCode": "wmoUnit:percent",
             "value": 0
           },
-          "windSpeed": "2 mph",
+          "windSpeed": "1 mph",
           "windDirection": "SW",
           "icon": "https://api.weather.gov/icons/land/night/sct?size=medium",
           "shortForecast": "Partly Cloudy",
-          "detailedForecast": "Partly cloudy, with a low around 19. Southwest wind around 2 mph.",
+          "detailedForecast": "Partly cloudy, with a low around 19. Southwest wind around 1 mph.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 2625
+          "snowLevelFt": 2467
         },
         {
           "number": 2,
@@ -2769,8 +2769,8 @@
       "periods": [
         {
           "number": 1,
-          "name": "Tonight",
-          "startTime": "2026-11-20T23:00:00-08:00",
+          "name": "Overnight",
+          "startTime": "2026-11-21T01:00:00-08:00",
           "endTime": "2026-11-21T06:00:00-08:00",
           "isDaytime": false,
           "temperature": 13,
@@ -2780,13 +2780,13 @@
             "unitCode": "wmoUnit:percent",
             "value": 0
           },
-          "windSpeed": "3 mph",
+          "windSpeed": "2 mph",
           "windDirection": "S",
           "icon": "https://api.weather.gov/icons/land/night/sct?size=medium",
           "shortForecast": "Partly Cloudy",
-          "detailedForecast": "Partly cloudy. Low around 13, with temperatures rising to around 15 overnight. South wind around 3 mph.",
+          "detailedForecast": "Partly cloudy. Low around 13, with temperatures rising to around 15 overnight. South wind around 2 mph.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 2703
+          "snowLevelFt": 2441
         },
         {
           "number": 2,
@@ -3091,7 +3091,7 @@
       "wind_direction_deg": 225,
       "snow_level_ft": 2861,
       "precip_chance_today": 0,
-      "snowfall_12h_in": 0.6,
+      "snowfall_12h_in": 0.5,
       "snowfall_24h_in": 0.4,
       "snowfall_48h_in": null
     },
@@ -3109,14 +3109,6 @@
   },
   "bachelor_timeseries": {
     "hourly": [
-      {
-        "time": "2026-11-20T01:00:00.000Z",
-        "temp_f": 17.54,
-        "wind_speed_mph": 9.98,
-        "wind_direction_deg": 269.8,
-        "precip_in": null,
-        "period": "historical"
-      },
       {
         "time": "2026-11-20T02:00:00.000Z",
         "temp_f": 17.67,
@@ -3302,12 +3294,12 @@
         "period": "historical"
       },
       {
-        "time": "2026-11-21T01:00:00+00:00",
-        "temp_f": 21.0,
-        "wind_speed_mph": 4.6,
-        "wind_direction_deg": 280,
-        "precip_in": 0.0,
-        "period": "forecast"
+        "time": "2026-11-21T01:00:00.000Z",
+        "temp_f": 30.96,
+        "wind_speed_mph": 19.66,
+        "wind_direction_deg": 204.1,
+        "precip_in": null,
+        "period": "historical"
       },
       {
         "time": "2026-11-21T02:00:00+00:00",
@@ -3944,10 +3936,6 @@
     ],
     "historical_precip_snapshots": [
       {
-        "time": "2026-11-18T09:15:31.730003+00:00",
-        "precip_in": 0
-      },
-      {
         "time": "2026-11-18T10:30:32.116498+00:00",
         "precip_in": 0
       },
@@ -4190,6 +4178,10 @@
       {
         "time": "2026-11-21T08:15:26.666189+00:00",
         "precip_in": 0
+      },
+      {
+        "time": "2026-11-21T09:30:23.607377+00:00",
+        "precip_in": 0
       }
     ]
   },
@@ -4199,7 +4191,7 @@
       "snow_depth_in_date": "2026-11-20",
       "swe_in": 0.5,
       "swe_in_date": "2026-11-20",
-      "change_12h_in": 1,
+      "change_12h_in": 0,
       "change_24h_in": 0
     },
     "Three Creek / Tam McArthur (Three Creeks Meadow)": {
@@ -4216,7 +4208,7 @@
       "swe_in": 0.4,
       "swe_in_date": "2026-11-20",
       "change_12h_in": 0,
-      "change_24h_in": 0
+      "change_24h_in": 1
     },
     "Ochocos (Ochoco Meadows)": {
       "snow_depth_in": 4,
@@ -4464,10 +4456,10 @@
           "active": true,
           "primary": true,
           "nonstandardizedDataPoints": {
-            "depth": "6.672",
-            "timestamp": "2026-11-21T00:00:00.000Z"
+            "depth": "6.461",
+            "timestamp": "2026-11-21T01:00:00.000Z"
           },
-          "temperature": "16.71",
+          "temperature": "16.54",
           "wind": {
             "low": "0",
             "high": "0",
@@ -4531,14 +4523,14 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-11-21T00:00:00.000Z"
+            "timestamp": "2026-11-21T01:00:00.000Z"
           },
-          "temperature": "28.91",
+          "temperature": "30.96",
           "wind": {
-            "low": "19.89",
-            "high": "23.49",
+            "low": "19.66",
+            "high": "24.61",
             "current": null,
-            "average": "19.89",
+            "average": "19.66",
             "direction": "SSW"
           },
           "humidity": null,
@@ -4553,15 +4545,15 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-11-21T00:00:00.000Z"
+            "timestamp": "2026-11-21T01:00:00.000Z"
           },
-          "temperature": "17.73",
+          "temperature": "17.11",
           "wind": {
-            "low": "5.732",
-            "high": "10.74",
+            "low": "7.507",
+            "high": "13.2",
             "current": null,
-            "average": "5.732",
-            "direction": "SSW"
+            "average": "7.507",
+            "direction": "SSE"
           },
           "humidity": null,
           "display_name": "Northwest",
@@ -4625,8 +4617,8 @@
     "weather": {
       "Temperature": "27 &#176F",
       "Wind": "SW @ 17 MPH",
-      "Snow depth": "1.7\"",
-      "Humidity": "87 %",
+      "Snow depth": "1.6\"",
+      "Humidity": "85 %",
       "Barometer": "29.83\" Hg",
       "Rain Gauge": "0.12\""
     },
@@ -4634,10 +4626,10 @@
       "trend": {
         "Max": "2.1\"",
         "Min": "-2.3\"",
-        "1 Hr": "0.2\"",
-        "3 Hr": "0.1\"",
-        "6 Hr": "2.5\"",
-        "12 Hr": "0.6\"",
+        "1 Hr": "0.1\"",
+        "3 Hr": "0.3\"",
+        "6 Hr": "1.7\"",
+        "12 Hr": "0.5\"",
         "24 Hr": "0.4\""
       },
       "season_total_in": 8.8
@@ -4680,8 +4672,8 @@
   "willamette_pass": {
     "forecast": {
       "weather_provider": "NOAA",
-      "date": "November 21, 2026, 12:55 am",
-      "time": 1795251317000,
+      "date": "November 21, 2026, 1:10 am",
+      "time": 1795252219000,
       "current_weather": "Increasing Clouds",
       "current_temperature": "23",
       "forecast": [
