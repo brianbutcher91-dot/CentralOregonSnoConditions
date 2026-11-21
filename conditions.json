@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T16:15:22.014147+00:00",
+  "generated_at": "2026-11-21T16:30:23.461843+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -7,7 +7,7 @@
         {
           "number": 1,
           "name": "Today",
-          "startTime": "2026-11-21T07:00:00-08:00",
+          "startTime": "2026-11-21T08:00:00-08:00",
           "endTime": "2026-11-21T18:00:00-08:00",
           "isDaytime": true,
           "temperature": 26,
@@ -17,11 +17,11 @@
             "unitCode": "wmoUnit:percent",
             "value": 60
           },
-          "windSpeed": "5 to 10 mph",
+          "windSpeed": "5 to 9 mph",
           "windDirection": "SW",
           "icon": "https://api.weather.gov/icons/land/day/bkn/snow,60?size=medium",
           "shortForecast": "Mostly Cloudy then Light Snow Likely",
-          "detailedForecast": "Snow likely after 1pm. Mostly cloudy. High near 26, with temperatures falling to around 22 in the afternoon. Southwest wind 5 to 10 mph. Chance of precipitation is 60%. New snow accumulation of less than one inch possible.",
+          "detailedForecast": "Snow likely after 1pm. Mostly cloudy. High near 26, with temperatures falling to around 22 in the afternoon. Southwest wind 5 to 9 mph. Chance of precipitation is 60%. New snow accumulation of less than one inch possible.",
           "precipitationAmountIn": 0.01,
           "snowLevelFt": 2231
         },
@@ -915,7 +915,7 @@
       ],
       "current": {
         "wind_speed_mph": 15.0,
-        "wind_direction_deg": 202.5,
+        "wind_direction_deg": 180,
         "snow_level_ft": 2388,
         "temp_f": 26
       },
@@ -2156,7 +2156,7 @@
         {
           "number": 1,
           "name": "Today",
-          "startTime": "2026-11-21T06:00:00-08:00",
+          "startTime": "2026-11-21T07:00:00-08:00",
           "endTime": "2026-11-21T18:00:00-08:00",
           "isDaytime": true,
           "temperature": 42,
@@ -2172,7 +2172,7 @@
           "shortForecast": "Mostly Cloudy then Chance Light Snow",
           "detailedForecast": "A chance of snow after 4pm. Mostly cloudy. High near 42, with temperatures falling to around 38 in the afternoon. South wind 2 to 8 mph. Chance of precipitation is 30%.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 2152
+          "snowLevelFt": 2100
         },
         {
           "number": 2,
@@ -3088,11 +3088,11 @@
       "elevation_ft": 4705,
       "temp_f": 26,
       "wind_speed_mph": 15.0,
-      "wind_direction_deg": 202.5,
+      "wind_direction_deg": 180,
       "snow_level_ft": 2388,
       "precip_chance_today": 70,
-      "snowfall_12h_in": 1.7,
-      "snowfall_24h_in": 0.1,
+      "snowfall_12h_in": 0.1,
+      "snowfall_24h_in": 0.0,
       "snowfall_48h_in": null
     },
     "Willamette Pass": {
@@ -3109,14 +3109,6 @@
   },
   "bachelor_timeseries": {
     "hourly": [
-      {
-        "time": "2026-11-20T08:00:00.000Z",
-        "temp_f": 19.54,
-        "wind_speed_mph": 12.46,
-        "wind_direction_deg": 279.5,
-        "precip_in": null,
-        "period": "historical"
-      },
       {
         "time": "2026-11-20T09:00:00.000Z",
         "temp_f": 19.59,
@@ -3302,12 +3294,12 @@
         "period": "historical"
       },
       {
-        "time": "2026-11-21T08:00:00+00:00",
-        "temp_f": 17.0,
-        "wind_speed_mph": 9.2,
-        "wind_direction_deg": 260,
-        "precip_in": 0.0,
-        "period": "forecast"
+        "time": "2026-11-21T08:00:00.000Z",
+        "temp_f": 25.82,
+        "wind_speed_mph": 11.63,
+        "wind_direction_deg": 190.4,
+        "precip_in": null,
+        "period": "historical"
       },
       {
         "time": "2026-11-21T09:00:00+00:00",
@@ -3944,10 +3936,6 @@
     ],
     "historical_precip_snapshots": [
       {
-        "time": "2026-11-18T16:15:24.833804+00:00",
-        "precip_in": 2
-      },
-      {
         "time": "2026-11-18T17:30:23.236897+00:00",
         "precip_in": 2
       },
@@ -4219,7 +4207,7 @@
       "snow_depth_in_date": "2026-11-20",
       "swe_in": 0.4,
       "swe_in_date": "2026-11-20",
-      "change_12h_in": 0,
+      "change_12h_in": -1,
       "change_24h_in": 0
     },
     "Ochocos (Ochoco Meadows)": {
@@ -4335,7 +4323,7 @@
   "mtbachelor": {
     "weather": {
       "current": {
-        "temperature": 17,
+        "temperature": 18,
         "weather_icon": "dor-mostlycloudy"
       },
       "forecast": [
@@ -4468,10 +4456,10 @@
           "active": true,
           "primary": true,
           "nonstandardizedDataPoints": {
-            "depth": "6.663",
-            "timestamp": "2026-11-21T07:00:00.000Z"
+            "depth": "6.574",
+            "timestamp": "2026-11-21T08:00:00.000Z"
           },
-          "temperature": "16.59",
+          "temperature": "17.52",
           "wind": {
             "low": "0",
             "high": "0",
@@ -4535,15 +4523,15 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-11-21T07:00:00.000Z"
+            "timestamp": "2026-11-21T08:00:00.000Z"
           },
-          "temperature": "26.05",
+          "temperature": "25.82",
           "wind": {
-            "low": "15.63",
-            "high": "27.07",
+            "low": "11.63",
+            "high": "23.26",
             "current": null,
-            "average": "15.63",
-            "direction": "SSW"
+            "average": "11.63",
+            "direction": "S"
           },
           "humidity": null,
           "display_name": "Cloud Chaser",
@@ -4557,15 +4545,15 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-11-21T07:00:00.000Z"
+            "timestamp": "2026-11-21T08:00:00.000Z"
           },
-          "temperature": "16.23",
+          "temperature": "16.57",
           "wind": {
-            "low": "9.23",
-            "high": "19.24",
+            "low": "9.82",
+            "high": "21.03",
             "current": null,
-            "average": "9.23",
-            "direction": "SSW"
+            "average": "9.82",
+            "direction": "S"
           },
           "humidity": null,
           "display_name": "Northwest",
@@ -4628,9 +4616,9 @@
   "hoodoo": {
     "weather": {
       "Temperature": "33 &#176F",
-      "Wind": "SSW @ 15 MPH",
-      "Snow depth": "0.8\"",
-      "Humidity": "24 %",
+      "Wind": "South @ 15 MPH",
+      "Snow depth": "1.3\"",
+      "Humidity": "25 %",
       "Barometer": "29.75\" Hg",
       "Rain Gauge": "0.12\""
     },
@@ -4638,11 +4626,11 @@
       "trend": {
         "Max": "2.5\"",
         "Min": "-2.3\"",
-        "1 Hr": "0.2\"",
-        "3 Hr": "0.2\"",
-        "6 Hr": "-0.3\"",
-        "12 Hr": "1.7\"",
-        "24 Hr": "0.1\""
+        "1 Hr": "-0.1\"",
+        "3 Hr": "0.1\"",
+        "6 Hr": "0.2\"",
+        "12 Hr": "0.1\"",
+        "24 Hr": "0.0\""
       },
       "season_total_in": 8.8
     },
