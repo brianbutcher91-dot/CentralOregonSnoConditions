@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T11:30:30.632457+00:00",
+  "generated_at": "2026-11-22T11:45:25.383825+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -914,8 +914,8 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 6,
-        "wind_direction_deg": 220,
+        "wind_speed_mph": 18.0,
+        "wind_direction_deg": 202.5,
         "snow_level_ft": 2625,
         "temp_f": 26
       },
@@ -2155,8 +2155,8 @@
       "periods": [
         {
           "number": 1,
-          "name": "Overnight",
-          "startTime": "2026-11-22T00:00:00-08:00",
+          "name": "Tonight",
+          "startTime": "2026-11-21T23:00:00-08:00",
           "endTime": "2026-11-22T06:00:00-08:00",
           "isDaytime": false,
           "temperature": 28,
@@ -3087,12 +3087,12 @@
     "Hoodoo": {
       "elevation_ft": 4705,
       "temp_f": 26,
-      "wind_speed_mph": 6,
-      "wind_direction_deg": 220,
+      "wind_speed_mph": 18.0,
+      "wind_direction_deg": 202.5,
       "snow_level_ft": 2625,
       "precip_chance_today": 67,
-      "snowfall_12h_in": null,
-      "snowfall_24h_in": null,
+      "snowfall_12h_in": 2.0,
+      "snowfall_24h_in": 2.2,
       "snowfall_48h_in": null
     },
     "Willamette Pass": {
@@ -4231,7 +4231,7 @@
         "milepoint": 21.11,
         "cctv-url": "http://www.TripCheck.com/roadcams/cams/Century Dr at MP 21.11 E_pid3545.JPG",
         "cctv-other": "Century Drive at MP 21.11",
-        "last-update-time": "2026-11-21T03:44:54.653-08:00",
+        "last-update-time": "2026-11-22T03:44:49.567-08:00",
         "tripcheck_link": "https://www.tripcheck.com/Pages/View-Custom-Cameras/?CamIds=3545"
       },
       {
@@ -4244,7 +4244,7 @@
         "milepoint": 21.11,
         "cctv-url": "http://www.TripCheck.com/roadcams/cams/Century Dr at MP 21.11 W_pid3557.JPG",
         "cctv-other": "Century Drive at MP 21.11",
-        "last-update-time": "2026-11-21T03:44:54.653-08:00",
+        "last-update-time": "2026-11-22T03:44:49.867-08:00",
         "tripcheck_link": "https://www.tripcheck.com/Pages/View-Custom-Cameras/?CamIds=3557"
       }
     ],
@@ -4259,7 +4259,7 @@
         "milepoint": 80.14,
         "cctv-url": "http://www.TripCheck.com/roadcams/cams/Santiam Pass_pid2728.JPG",
         "cctv-other": "US20 at Santiam Pass",
-        "last-update-time": "2026-11-21T03:44:43.12-08:00",
+        "last-update-time": "2026-11-22T03:44:40.1-08:00",
         "tripcheck_link": "https://www.tripcheck.com/Pages/View-Custom-Cameras/?CamIds=2728"
       },
       {
@@ -4272,7 +4272,7 @@
         "milepoint": 80.14,
         "cctv-url": "http://www.TripCheck.com/roadcams/cams/Santiam Pass WB_pid5258.jpg",
         "cctv-other": "US20 at Santiam Pass",
-        "last-update-time": "2026-11-21T03:44:43.167-08:00",
+        "last-update-time": "2026-11-22T03:44:40.037-08:00",
         "tripcheck_link": "https://www.tripcheck.com/Pages/View-Custom-Cameras/?CamIds=5258"
       }
     ],
@@ -4287,7 +4287,7 @@
         "milepoint": 63.64,
         "cctv-url": "http://www.TripCheck.com/roadcams/cams/US20atTombstone_pid1354.jpg",
         "cctv-other": "US20 at Tombstone",
-        "last-update-time": "2026-11-21T03:44:43.04-08:00",
+        "last-update-time": "2026-11-22T03:44:36.577-08:00",
         "tripcheck_link": "https://www.tripcheck.com/Pages/View-Custom-Cameras/?CamIds=1354"
       }
     ],
@@ -4302,7 +4302,7 @@
         "milepoint": 62.0,
         "cctv-url": "http://www.TripCheck.com/roadcams/cams/WillamettePass_pid658.jpg",
         "cctv-other": "OR58 at Willamette Pass",
-        "last-update-time": "2026-11-21T03:44:54.7-08:00",
+        "last-update-time": "2026-11-22T03:44:35.723-08:00",
         "tripcheck_link": "https://www.tripcheck.com/Pages/View-Custom-Cameras/?CamIds=658"
       },
       {
@@ -4315,7 +4315,7 @@
         "milepoint": 62.0,
         "cctv-url": "http://www.TripCheck.com/roadcams/cams/Willamette Pass_pid3351.JPG",
         "cctv-other": "OR58 at Willamette Pass",
-        "last-update-time": "2026-11-21T03:44:51.177-08:00",
+        "last-update-time": "2026-11-22T03:44:47.093-08:00",
         "tripcheck_link": "https://www.tripcheck.com/Pages/View-Custom-Cameras/?CamIds=3351"
       }
     ]
@@ -4336,7 +4336,7 @@
           "id": 1795374000,
           "day": "Sunday",
           "temperature_high": 33,
-          "temperature_low": 18,
+          "temperature_low": 19,
           "precipitation_high": 90,
           "precipitation_low": 90,
           "wind_speed": 7,
@@ -4614,10 +4614,25 @@
     }
   },
   "hoodoo": {
-    "weather": {},
+    "weather": {
+      "Temperature": "25 &#176F",
+      "Wind": "SSW @ 18 MPH",
+      "Snow depth": "3.7\"",
+      "Humidity": "100 %",
+      "Barometer": "29.73\" Hg",
+      "Rain Gauge": "0.16\""
+    },
     "snow_totals": {
-      "trend": {},
-      "season_total_in": null
+      "trend": {
+        "Max": "4.3\"",
+        "Min": "-2.3\"",
+        "1 Hr": "0.0\"",
+        "3 Hr": "-0.4\"",
+        "6 Hr": "-0.3\"",
+        "12 Hr": "2.0\"",
+        "24 Hr": "2.2\""
+      },
+      "season_total_in": 11.0
     },
     "webcams": {
       "Base Area": {
@@ -4762,15 +4777,15 @@
   "satellite": {
     "Pacific Northwest": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/pnw/13/GOES18-PNW-13-600x600.gif",
-      "last_modified": "Sun, 22 Nov 2026 11:01:27 GMT"
+      "last_modified": "Sun, 22 Nov 2026 11:31:39 GMT"
     },
     "North Pacific (macro)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/np/13/GOES18-NP-13-900x540.gif",
-      "last_modified": "Sun, 22 Nov 2026 11:01:38 GMT"
+      "last_modified": "Sun, 22 Nov 2026 11:31:58 GMT"
     },
     "Pacific US (PACUS)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/13/GOES18-CONUS-13-625x375.gif",
-      "last_modified": "Sun, 22 Nov 2026 11:01:05 GMT"
+      "last_modified": "Sun, 22 Nov 2026 11:31:21 GMT"
     }
   },
   "gfs_snowfall": {
