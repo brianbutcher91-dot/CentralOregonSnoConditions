@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T01:32:38.998231+00:00",
+  "generated_at": "2026-11-22T01:45:26.126618+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -914,8 +914,8 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 1,
-        "wind_direction_deg": 220,
+        "wind_speed_mph": 18.0,
+        "wind_direction_deg": 202.5,
         "snow_level_ft": 3701,
         "temp_f": 31
       },
@@ -2156,7 +2156,7 @@
         {
           "number": 1,
           "name": "This Afternoon",
-          "startTime": "2026-11-21T17:00:00-08:00",
+          "startTime": "2026-11-21T16:00:00-08:00",
           "endTime": "2026-11-21T18:00:00-08:00",
           "isDaytime": true,
           "temperature": 42,
@@ -2770,7 +2770,7 @@
         {
           "number": 1,
           "name": "This Afternoon",
-          "startTime": "2026-11-21T17:00:00-08:00",
+          "startTime": "2026-11-21T16:00:00-08:00",
           "endTime": "2026-11-21T18:00:00-08:00",
           "isDaytime": true,
           "temperature": 39,
@@ -2780,11 +2780,11 @@
             "unitCode": "wmoUnit:percent",
             "value": 67
           },
-          "windSpeed": "3 mph",
+          "windSpeed": "5 mph",
           "windDirection": "S",
           "icon": "https://api.weather.gov/icons/land/day/snow,70?size=medium",
           "shortForecast": "Light Snow Likely",
-          "detailedForecast": "Snow likely. Mostly cloudy. High near 39, with temperatures falling to around 34 in the afternoon. South wind around 3 mph. Chance of precipitation is 70%. Little or no snow accumulation expected.",
+          "detailedForecast": "Snow likely. Mostly cloudy. High near 39, with temperatures falling to around 34 in the afternoon. South wind around 5 mph. Chance of precipitation is 70%. Little or no snow accumulation expected.",
           "precipitationAmountIn": 0.0,
           "snowLevelFt": 3543
         },
@@ -3087,12 +3087,12 @@
     "Hoodoo": {
       "elevation_ft": 4705,
       "temp_f": 31,
-      "wind_speed_mph": 1,
-      "wind_direction_deg": 220,
+      "wind_speed_mph": 18.0,
+      "wind_direction_deg": 202.5,
       "snow_level_ft": 3701,
       "precip_chance_today": 74,
-      "snowfall_12h_in": null,
-      "snowfall_24h_in": null,
+      "snowfall_12h_in": 0.4,
+      "snowfall_24h_in": -0.5,
       "snowfall_48h_in": null
     },
     "Willamette Pass": {
@@ -4389,8 +4389,8 @@
         },
         {
           "date": "2026-11-25",
-          "description_long": "snow",
-          "description_short": "snow",
+          "description_long": "light snow",
+          "description_short": "light snow",
           "details": "Snow",
           "weather_icon": "dor-snow",
           "id": 1795633200,
@@ -4399,7 +4399,7 @@
           "temperature_low": 28,
           "precipitation_high": 99,
           "precipitation_low": 99,
-          "wind_speed": 12,
+          "wind_speed": 10,
           "wind_direction": "SSW"
         },
         {
@@ -4410,42 +4410,42 @@
           "weather_icon": "dor-snow",
           "id": 1795719600,
           "day": "Thursday",
-          "temperature_high": 34,
-          "temperature_low": 31,
-          "precipitation_high": 99,
-          "precipitation_low": 99,
-          "wind_speed": 16,
+          "temperature_high": 35,
+          "temperature_low": 32,
+          "precipitation_high": 98,
+          "precipitation_low": 98,
+          "wind_speed": 15,
           "wind_direction": "WSW"
         },
         {
           "date": "2026-11-27",
-          "description_long": "light rain",
-          "description_short": "light rain",
-          "details": "Rain",
-          "weather_icon": "dor-rain",
+          "description_long": "rain and snow",
+          "description_short": "rain and snow",
+          "details": "Snow",
+          "weather_icon": "dor-snow",
           "id": 1795806000,
           "day": "Friday",
-          "temperature_high": 42,
-          "temperature_low": 32,
+          "temperature_high": 43,
+          "temperature_low": 34,
           "precipitation_high": 92,
           "precipitation_low": 92,
-          "wind_speed": 8,
+          "wind_speed": 10,
           "wind_direction": "WSW"
         },
         {
           "date": "2026-11-28",
-          "description_long": "light rain",
-          "description_short": "light rain",
-          "details": "Rain",
-          "weather_icon": "dor-rain",
+          "description_long": "rain and snow",
+          "description_short": "rain and snow",
+          "details": "Snow",
+          "weather_icon": "dor-snow",
           "id": 1795892400,
           "day": "Saturday",
-          "temperature_high": 37,
+          "temperature_high": 36,
           "temperature_low": 29,
-          "precipitation_high": 84,
-          "precipitation_low": 84,
-          "wind_speed": 6,
-          "wind_direction": "SSE"
+          "precipitation_high": 94,
+          "precipitation_low": 94,
+          "wind_speed": 9,
+          "wind_direction": "WSW"
         }
       ],
       "sensors": {
@@ -4614,15 +4614,68 @@
     }
   },
   "hoodoo": {
-    "error": "HTTPSConnectionPool(host='santiampsp.org', port=443): Max retries exceeded with url: /wx/weather.htm (Caused by ConnectTimeoutError(<HTTPSConnection(host='santiampsp.org', port=443) at 0x797fab650410>, 'Connection to santiampsp.org timed out. (connect timeout=None)'))"
+    "weather": {
+      "Temperature": "26 &#176F",
+      "Wind": "SSW @ 18 MPH",
+      "Snow depth": "1.2\"",
+      "Humidity": "100 %",
+      "Barometer": "29.75\" Hg",
+      "Rain Gauge": "0.16\""
+    },
+    "snow_totals": {
+      "trend": {
+        "Max": "2.5\"",
+        "Min": "-2.3\"",
+        "1 Hr": "0.8\"",
+        "3 Hr": "-0.4\"",
+        "6 Hr": "-0.3\"",
+        "12 Hr": "0.4\"",
+        "24 Hr": "-0.5\""
+      },
+      "season_total_in": 8.8
+    },
+    "webcams": {
+      "Base Area": {
+        "src": "https://santiampsp.org/wx/weather16.jpg",
+        "link": "https://hoodoo.com/the-mountain/webcams/"
+      },
+      "Top of Manzanita": {
+        "src": "https://santiampsp.org/wx/weather3.jpg",
+        "link": "https://hoodoo.com/the-mountain/webcams/"
+      },
+      "Top of Ed": {
+        "src": "https://santiampsp.org/wx/weather2.jpg",
+        "link": "https://hoodoo.com/the-mountain/webcams/"
+      },
+      "Top of Easy Rider": {
+        "src": "https://santiampsp.org/wx/weather4.jpg",
+        "link": "https://hoodoo.com/the-mountain/webcams/"
+      },
+      "Hoodoo Parking Lot": {
+        "src": "https://santiampsp.org/wx/weather12.jpg",
+        "link": "https://hoodoo.com/the-mountain/webcams/"
+      },
+      "Hoodoo Summit": {
+        "src": "https://santiampsp.org/wx/weather1.jpg",
+        "link": "https://hoodoo.com/the-mountain/webcams/"
+      },
+      "Hayrick Butte & \"Gripper\" run from top of Ed chair": {
+        "src": "https://santiampsp.org/wx/weather2b.jpg",
+        "link": "https://hoodoo.com/the-mountain/webcams/"
+      },
+      "Hoodoo Parking Lot View #2": {
+        "src": "https://santiampsp.org/wx/weather10.jpg",
+        "link": "https://hoodoo.com/the-mountain/webcams/"
+      }
+    }
   },
   "willamette_pass": {
     "forecast": {
       "weather_provider": "NOAA",
-      "date": "November 21, 2026, 5:19 pm",
-      "time": 1795310358000,
+      "date": "November 21, 2026, 5:43 pm",
+      "time": 1795311802000,
       "current_weather": "Snow",
-      "current_temperature": "29",
+      "current_temperature": "28",
       "forecast": [
         {
           "day": "Saturday",
@@ -4713,7 +4766,10 @@
       "src": "https://api.mtbachelor.com/api/v1/cams/mtn/14",
       "link": "https://www.mtbachelor.com/the-mountain/webcams/live-cam-14/"
     },
-    "Hoodoo (Base Area)": null,
+    "Hoodoo (Base Area)": {
+      "src": "https://santiampsp.org/wx/weather16.jpg",
+      "link": "https://hoodoo.com/the-mountain/webcams/"
+    },
     "Willamette Pass (Base Area)": {
       "src": "https://www.youtube.com/embed/sNVA6oC7vcM",
       "link": "https://www.willamettepass.ski/weather-conditions-webcams/webcams/"
@@ -4726,7 +4782,7 @@
     },
     "North Pacific (macro)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/np/13/GOES18-NP-13-900x540.gif",
-      "last_modified": "Sun, 22 Nov 2026 01:32:15 GMT"
+      "last_modified": "Sun, 22 Nov 2026 01:32:14 GMT"
     },
     "Pacific US (PACUS)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/13/GOES18-CONUS-13-625x375.gif",
