@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T03:45:22.209639+00:00",
+  "generated_at": "2026-11-23T04:00:22.546970+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -303,7 +303,7 @@
         "wind_speed_mph": 8,
         "wind_direction_deg": 240,
         "snow_level_ft": 2546,
-        "temp_f": 18
+        "temp_f": 17
       },
       "lat": 43.9792,
       "lon": -121.6886
@@ -607,10 +607,10 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 5,
+        "wind_speed_mph": 6,
         "wind_direction_deg": 230,
         "snow_level_ft": 2440,
-        "temp_f": 21
+        "temp_f": 20
       },
       "lat": 44.1017,
       "lon": -121.6224
@@ -914,9 +914,9 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 14.0,
+        "wind_speed_mph": 16.0,
         "wind_direction_deg": 202.5,
-        "snow_level_ft": 2572,
+        "snow_level_ft": 2493,
         "temp_f": 24
       },
       "lat": 44.409,
@@ -1221,7 +1221,7 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 7,
+        "wind_speed_mph": 8,
         "wind_direction_deg": 190,
         "snow_level_ft": 2677,
         "temp_f": 18
@@ -1235,7 +1235,7 @@
         {
           "number": 1,
           "name": "Tonight",
-          "startTime": "2026-11-22T18:00:00-08:00",
+          "startTime": "2026-11-22T19:00:00-08:00",
           "endTime": "2026-11-23T06:00:00-08:00",
           "isDaytime": false,
           "temperature": 22,
@@ -1245,13 +1245,13 @@
             "unitCode": "wmoUnit:percent",
             "value": 2
           },
-          "windSpeed": "2 to 6 mph",
+          "windSpeed": "6 mph",
           "windDirection": "SSE",
           "icon": "https://api.weather.gov/icons/land/night/bkn?size=medium",
           "shortForecast": "Mostly Cloudy",
-          "detailedForecast": "Mostly cloudy, with a low around 22. South southeast wind 2 to 6 mph.",
+          "detailedForecast": "Mostly cloudy, with a low around 22. South southeast wind around 6 mph.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 2808
+          "snowLevelFt": 2782
         },
         {
           "number": 2,
@@ -1835,9 +1835,9 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 7,
+        "wind_speed_mph": 8,
         "wind_direction_deg": 160,
-        "snow_level_ft": 2704,
+        "snow_level_ft": 2625,
         "temp_f": 24
       },
       "lat": 44.39548,
@@ -2449,7 +2449,7 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 3,
+        "wind_speed_mph": 5,
         "wind_direction_deg": 190,
         "snow_level_ft": 2257,
         "temp_f": 31
@@ -2757,9 +2757,9 @@
       ],
       "current": {
         "wind_speed_mph": 0,
-        "wind_direction_deg": 280,
+        "wind_direction_deg": 300,
         "snow_level_ft": 2231,
-        "temp_f": 30
+        "temp_f": 29
       },
       "lat": 44.2909,
       "lon": -121.549
@@ -3064,9 +3064,9 @@
       ],
       "current": {
         "wind_speed_mph": 2,
-        "wind_direction_deg": 150,
+        "wind_direction_deg": 140,
         "snow_level_ft": 2572,
-        "temp_f": 27
+        "temp_f": 26
       },
       "lat": 43.6716,
       "lon": -121.504
@@ -3075,7 +3075,7 @@
   "wind_roses": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
-      "temp_f": 18,
+      "temp_f": 17,
       "wind_speed_mph": 8,
       "wind_direction_deg": 240,
       "snow_level_ft": 2546,
@@ -3087,12 +3087,12 @@
     "Hoodoo": {
       "elevation_ft": 4705,
       "temp_f": 24,
-      "wind_speed_mph": 14.0,
+      "wind_speed_mph": 16.0,
       "wind_direction_deg": 202.5,
-      "snow_level_ft": 2572,
+      "snow_level_ft": 2493,
       "precip_chance_today": 5,
-      "snowfall_12h_in": -0.2,
-      "snowfall_24h_in": null,
+      "snowfall_12h_in": -0.3,
+      "snowfall_24h_in": 1.5,
       "snowfall_48h_in": null
     },
     "Willamette Pass": {
@@ -3932,6 +3932,14 @@
         "wind_direction_deg": 190,
         "precip_in": 0.01,
         "period": "forecast"
+      },
+      {
+        "time": "2026-11-26T03:00:00+00:00",
+        "temp_f": 30.0,
+        "wind_speed_mph": 13.8,
+        "wind_direction_deg": 190,
+        "precip_in": 0.01,
+        "period": "forecast"
       }
     ],
     "historical_precip_snapshots": [
@@ -4620,9 +4628,9 @@
   "hoodoo": {
     "weather": {
       "Temperature": "25 &#176F",
-      "Wind": "SSW @ 14 MPH",
-      "Snow depth": "4.9\"",
-      "Humidity": "77 %",
+      "Wind": "SSW @ 16 MPH",
+      "Snow depth": "4.6\"",
+      "Humidity": "78 %",
       "Barometer": "29.85\" Hg",
       "Rain Gauge": "0.12\""
     },
@@ -4630,10 +4638,11 @@
       "trend": {
         "Max": "5.7\"",
         "Min": "-1.6\"",
-        "1 Hr": "0.0\"",
-        "3 Hr": "-0.1\"",
-        "6 Hr": "0.7\"",
-        "12 Hr": "-0.2\""
+        "1 Hr": "-0.2\"",
+        "3 Hr": "-0.3\"",
+        "6 Hr": "0.3\"",
+        "12 Hr": "-0.3\"",
+        "24 Hr": "1.5\""
       },
       "season_total_in": 11.0
     },
@@ -4675,10 +4684,10 @@
   "willamette_pass": {
     "forecast": {
       "weather_provider": "NOAA",
-      "date": "November 22, 2026, 7:43 pm",
-      "time": 1795405407000,
+      "date": "November 22, 2026, 7:55 pm",
+      "time": 1795406119000,
       "current_weather": "Mostly Cloudy",
-      "current_temperature": "28",
+      "current_temperature": "27",
       "forecast": [
         {
           "day": "Sunday",
