@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T05:00:45.004287+00:00",
+  "generated_at": "2026-11-23T05:15:26.712811+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -914,7 +914,7 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 20.0,
+        "wind_speed_mph": 19.0,
         "wind_direction_deg": 202.5,
         "snow_level_ft": 2310,
         "temp_f": 24
@@ -1849,7 +1849,7 @@
         {
           "number": 1,
           "name": "Tonight",
-          "startTime": "2026-11-22T19:00:00-08:00",
+          "startTime": "2026-11-22T21:00:00-08:00",
           "endTime": "2026-11-23T06:00:00-08:00",
           "isDaytime": false,
           "temperature": 20,
@@ -2156,7 +2156,7 @@
         {
           "number": 1,
           "name": "Tonight",
-          "startTime": "2026-11-22T18:00:00-08:00",
+          "startTime": "2026-11-22T21:00:00-08:00",
           "endTime": "2026-11-23T06:00:00-08:00",
           "isDaytime": false,
           "temperature": 26,
@@ -2172,7 +2172,7 @@
           "shortForecast": "Mostly Cloudy",
           "detailedForecast": "Mostly cloudy, with a low around 26. South wind around 5 mph.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 2861
+          "snowLevelFt": 2257
         },
         {
           "number": 2,
@@ -2463,7 +2463,7 @@
         {
           "number": 1,
           "name": "Tonight",
-          "startTime": "2026-11-22T18:00:00-08:00",
+          "startTime": "2026-11-22T21:00:00-08:00",
           "endTime": "2026-11-23T06:00:00-08:00",
           "isDaytime": false,
           "temperature": 19,
@@ -2479,7 +2479,7 @@
           "shortForecast": "Mostly Cloudy then Patchy Freezing Fog",
           "detailedForecast": "Patchy freezing fog after 1am. Mostly cloudy. Low around 19, with temperatures rising to around 21 overnight. Wind around 0 mph.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 2940
+          "snowLevelFt": 2231
         },
         {
           "number": 2,
@@ -2770,7 +2770,7 @@
         {
           "number": 1,
           "name": "Tonight",
-          "startTime": "2026-11-22T19:00:00-08:00",
+          "startTime": "2026-11-22T21:00:00-08:00",
           "endTime": "2026-11-23T06:00:00-08:00",
           "isDaytime": false,
           "temperature": 16,
@@ -2781,10 +2781,10 @@
             "value": 1
           },
           "windSpeed": "5 mph",
-          "windDirection": "SE",
+          "windDirection": "S",
           "icon": "https://api.weather.gov/icons/land/night/sct/fog?size=medium",
           "shortForecast": "Partly Cloudy then Patchy Freezing Fog",
-          "detailedForecast": "Patchy freezing fog after 1am. Partly cloudy, with a low around 16. Southeast wind around 5 mph.",
+          "detailedForecast": "Patchy freezing fog after 1am. Partly cloudy, with a low around 16. South wind around 5 mph.",
           "precipitationAmountIn": 0.0,
           "snowLevelFt": 2572
         },
@@ -3087,12 +3087,12 @@
     "Hoodoo": {
       "elevation_ft": 4705,
       "temp_f": 24,
-      "wind_speed_mph": 20.0,
+      "wind_speed_mph": 19.0,
       "wind_direction_deg": 202.5,
       "snow_level_ft": 2310,
       "precip_chance_today": 5,
-      "snowfall_12h_in": -0.2,
-      "snowfall_24h_in": 3.5,
+      "snowfall_12h_in": 0.1,
+      "snowfall_24h_in": 3.1,
       "snowfall_48h_in": null
     },
     "Willamette Pass": {
@@ -4198,7 +4198,38 @@
     ]
   },
   "snotel": {
-    "error": "503 Server Error: Service Unavailable for url: https://wcc.sc.egov.usda.gov/awdbRestApi/services/v1/data?stationTriplets=815%3AOR%3ASNTL&elements=SNWD&duration=HOURLY&getFlags=false&beginDate=2026-11-20+17%3A01&endDate=2026-11-23+17%3A01"
+    "Mt Bachelor area (Irish Taylor)": {
+      "snow_depth_in": 5,
+      "snow_depth_in_date": "2026-11-21",
+      "swe_in": 1.1,
+      "swe_in_date": "2026-11-21",
+      "change_12h_in": 1,
+      "change_24h_in": 3
+    },
+    "Three Creek / Tam McArthur (Three Creeks Meadow)": {
+      "snow_depth_in": 0,
+      "snow_depth_in_date": "2026-11-21",
+      "swe_in": 0.4,
+      "swe_in_date": "2026-11-21",
+      "change_12h_in": -1,
+      "change_24h_in": 1
+    },
+    "Santiam / Hoodoo (Hogg Pass)": {
+      "snow_depth_in": 3,
+      "snow_depth_in_date": "2026-11-21",
+      "swe_in": 0.7,
+      "swe_in_date": "2026-11-21",
+      "change_12h_in": 0,
+      "change_24h_in": 2
+    },
+    "Ochocos (Ochoco Meadows)": {
+      "snow_depth_in": 5,
+      "snow_depth_in_date": "2026-11-21",
+      "swe_in": 1.0,
+      "swe_in_date": "2026-11-21",
+      "change_12h_in": -1,
+      "change_24h_in": -1
+    }
   },
   "odot_cams": {
     "Century Drive": [
@@ -4460,14 +4491,14 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-11-22T20:00:00.000Z"
+            "timestamp": "2026-11-22T21:00:00.000Z"
           },
-          "temperature": "21.55",
+          "temperature": "22.34",
           "wind": {
-            "low": "12.35",
-            "high": "20.36",
+            "low": "12.7",
+            "high": "20.8",
             "current": null,
-            "average": "12.35",
+            "average": "12.7",
             "direction": "SSW"
           },
           "humidity": null,
@@ -4597,21 +4628,21 @@
   "hoodoo": {
     "weather": {
       "Temperature": "26 &#176F",
-      "Wind": "SSW @ 20 MPH",
-      "Snow depth": "5.2\"",
-      "Humidity": "62 %",
+      "Wind": "SSW @ 19 MPH",
+      "Snow depth": "5.0\"",
+      "Humidity": "58 %",
       "Barometer": "29.85\" Hg",
       "Rain Gauge": "0.12\""
     },
     "snow_totals": {
       "trend": {
         "Max": "5.7\"",
-        "Min": "-1.6\"",
-        "1 Hr": "0.3\"",
-        "3 Hr": "0.1\"",
-        "6 Hr": "0.3\"",
-        "12 Hr": "-0.2\"",
-        "24 Hr": "3.5\""
+        "Min": "-1.0\"",
+        "1 Hr": "-0.3\"",
+        "3 Hr": "-0.4\"",
+        "6 Hr": "0.0\"",
+        "12 Hr": "0.1\"",
+        "24 Hr": "3.1\""
       },
       "season_total_in": 11.0
     },
@@ -4653,8 +4684,8 @@
   "willamette_pass": {
     "forecast": {
       "weather_provider": "NOAA",
-      "date": "November 22, 2026, 8:40 pm",
-      "time": 1795408819000,
+      "date": "November 22, 2026, 9:13 pm",
+      "time": 1795410806000,
       "current_weather": "Mostly Cloudy",
       "current_temperature": "27",
       "forecast": [
@@ -4738,12 +4769,7 @@
       "Lifts Open": "0/6",
       "Trails Open": "0/30"
     },
-    "webcams": {
-      "Base Area": {
-        "src": "https://www.youtube.com/embed/sNVA6oC7vcM",
-        "link": "https://www.willamettepass.ski/weather-conditions-webcams/webcams/"
-      }
-    }
+    "webcams": {}
   },
   "snow_stake_cams": {
     "Mt. Bachelor (Snow Stake)": {
@@ -4754,23 +4780,20 @@
       "src": "https://santiampsp.org/wx/weather16.jpg",
       "link": "https://hoodoo.com/the-mountain/webcams/"
     },
-    "Willamette Pass (Base Area)": {
-      "src": "https://www.youtube.com/embed/sNVA6oC7vcM",
-      "link": "https://www.willamettepass.ski/weather-conditions-webcams/webcams/"
-    }
+    "Willamette Pass (Base Area)": null
   },
   "satellite": {
     "Pacific Northwest": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/pnw/13/GOES18-PNW-13-600x600.gif",
-      "last_modified": "Mon, 23 Nov 2026 04:31:46 GMT"
+      "last_modified": "Mon, 23 Nov 2026 05:01:31 GMT"
     },
     "North Pacific (macro)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/np/13/GOES18-NP-13-900x540.gif",
-      "last_modified": "Mon, 23 Nov 2026 04:32:01 GMT"
+      "last_modified": "Mon, 23 Nov 2026 05:01:50 GMT"
     },
     "Pacific US (PACUS)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/13/GOES18-CONUS-13-625x375.gif",
-      "last_modified": "Mon, 23 Nov 2026 04:31:20 GMT"
+      "last_modified": "Mon, 23 Nov 2026 05:01:23 GMT"
     }
   },
   "gfs_snowfall": {
