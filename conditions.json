@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-24T08:00:33.369605+00:00",
+  "generated_at": "2026-11-24T08:15:18.880619+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
       "periods": [
         {
           "number": 1,
-          "name": "Tonight",
-          "startTime": "2026-11-23T23:00:00-08:00",
+          "name": "Overnight",
+          "startTime": "2026-11-24T00:00:00-08:00",
           "endTime": "2026-11-24T06:00:00-08:00",
           "isDaytime": false,
           "temperature": 24,
@@ -313,8 +313,8 @@
       "periods": [
         {
           "number": 1,
-          "name": "Tonight",
-          "startTime": "2026-11-23T23:00:00-08:00",
+          "name": "Overnight",
+          "startTime": "2026-11-24T00:00:00-08:00",
           "endTime": "2026-11-24T06:00:00-08:00",
           "isDaytime": false,
           "temperature": 27,
@@ -620,8 +620,8 @@
       "periods": [
         {
           "number": 1,
-          "name": "Tonight",
-          "startTime": "2026-11-23T23:00:00-08:00",
+          "name": "Overnight",
+          "startTime": "2026-11-24T00:00:00-08:00",
           "endTime": "2026-11-24T06:00:00-08:00",
           "isDaytime": false,
           "temperature": 30,
@@ -637,7 +637,7 @@
           "shortForecast": "Cloudy",
           "detailedForecast": "Cloudy. Low around 30, with temperatures rising to around 32 overnight. Southeast wind around 10 mph, with gusts as high as 20 mph.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 4621
+          "snowLevelFt": 4779
         },
         {
           "number": 2,
@@ -914,7 +914,7 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 25.0,
+        "wind_speed_mph": 23.0,
         "wind_direction_deg": 180,
         "snow_level_ft": 4779,
         "temp_f": 32
@@ -927,8 +927,8 @@
       "periods": [
         {
           "number": 1,
-          "name": "Tonight",
-          "startTime": "2026-11-23T23:00:00-08:00",
+          "name": "Overnight",
+          "startTime": "2026-11-24T00:00:00-08:00",
           "endTime": "2026-11-24T06:00:00-08:00",
           "isDaytime": false,
           "temperature": 23,
@@ -1541,8 +1541,8 @@
       "periods": [
         {
           "number": 1,
-          "name": "Tonight",
-          "startTime": "2026-11-23T23:00:00-08:00",
+          "name": "Overnight",
+          "startTime": "2026-11-24T00:00:00-08:00",
           "endTime": "2026-11-24T06:00:00-08:00",
           "isDaytime": false,
           "temperature": 33,
@@ -1550,15 +1550,15 @@
           "temperatureTrend": null,
           "probabilityOfPrecipitation": {
             "unitCode": "wmoUnit:percent",
-            "value": 13
+            "value": 12
           },
-          "windSpeed": "16 to 20 mph",
+          "windSpeed": "20 mph",
           "windDirection": "SE",
           "icon": "https://api.weather.gov/icons/land/night/bkn?size=medium",
           "shortForecast": "Mostly Cloudy",
-          "detailedForecast": "Mostly cloudy. Low around 33, with temperatures rising to around 35 overnight. Southeast wind 16 to 20 mph, with gusts as high as 26 mph.",
+          "detailedForecast": "Mostly cloudy. Low around 33, with temperatures rising to around 35 overnight. Southeast wind around 20 mph, with gusts as high as 26 mph.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 5356
+          "snowLevelFt": 5408
         },
         {
           "number": 2,
@@ -1848,8 +1848,8 @@
       "periods": [
         {
           "number": 1,
-          "name": "Tonight",
-          "startTime": "2026-11-23T23:00:00-08:00",
+          "name": "Overnight",
+          "startTime": "2026-11-24T00:00:00-08:00",
           "endTime": "2026-11-24T06:00:00-08:00",
           "isDaytime": false,
           "temperature": 27,
@@ -3087,12 +3087,12 @@
     "Hoodoo": {
       "elevation_ft": 4705,
       "temp_f": 32,
-      "wind_speed_mph": 25.0,
+      "wind_speed_mph": 23.0,
       "wind_direction_deg": 180,
       "snow_level_ft": 4779,
       "precip_chance_today": 11,
-      "snowfall_12h_in": -1.1,
-      "snowfall_24h_in": -1.7,
+      "snowfall_12h_in": -1.3,
+      "snowfall_24h_in": -2.0,
       "snowfall_48h_in": null
     },
     "Willamette Pass": {
@@ -4190,6 +4190,10 @@
       {
         "time": "2026-11-24T07:00:43.833003+00:00",
         "precip_in": 0
+      },
+      {
+        "time": "2026-11-24T08:15:19.264221+00:00",
+        "precip_in": 0
       }
     ]
   },
@@ -4203,10 +4207,6 @@
       "change_24h_in": 0
     },
     "Santiam / Hoodoo (Hogg Pass)": {
-      "snow_depth_in": 4,
-      "snow_depth_in_date": "2026-11-22",
-      "swe_in": 0.6,
-      "swe_in_date": "2026-11-22",
       "change_12h_in": -1,
       "change_24h_in": -1
     },
@@ -4324,21 +4324,6 @@
       },
       "forecast": [
         {
-          "date": "2026-11-23",
-          "description_long": "light snow",
-          "description_short": "light snow",
-          "details": "Snow",
-          "weather_icon": "dor-snow",
-          "id": 1795460400,
-          "day": "Monday",
-          "temperature_high": 32,
-          "temperature_low": 12,
-          "precipitation_high": 63,
-          "precipitation_low": 63,
-          "wind_speed": 10,
-          "wind_direction": "SSE"
-        },
-        {
           "date": "2026-11-24",
           "description_long": "snow",
           "description_short": "snow",
@@ -4442,6 +4427,21 @@
           "precipitation_low": 98,
           "wind_speed": 15,
           "wind_direction": "SW"
+        },
+        {
+          "date": "2026-12-01",
+          "description_long": "light snow",
+          "description_short": "light snow",
+          "details": "Snow",
+          "weather_icon": "dor-snow",
+          "id": 1796151600,
+          "day": "Tuesday",
+          "temperature_high": 35,
+          "temperature_low": 23,
+          "precipitation_high": 83,
+          "precipitation_low": 83,
+          "wind_speed": 4,
+          "wind_direction": "NNW"
         }
       ],
       "sensors": {
@@ -4475,15 +4475,15 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-11-23T23:00:00.000Z"
+            "timestamp": "2026-11-24T00:00:00.000Z"
           },
-          "temperature": "25.59",
+          "temperature": "25.56",
           "wind": {
-            "low": "13.23",
-            "high": "27.74",
+            "low": "9.5",
+            "high": "22.59",
             "current": null,
-            "average": "13.23",
-            "direction": "S"
+            "average": "9.5",
+            "direction": "SSE"
           },
           "humidity": null,
           "display_name": "Sunrise",
@@ -4611,22 +4611,22 @@
   },
   "hoodoo": {
     "weather": {
-      "Temperature": "34 &#176F",
-      "Wind": "South @ 25 MPH",
-      "Snow depth": "3.5\"",
-      "Humidity": "91 %",
-      "Barometer": "29.92\" Hg",
+      "Temperature": "35 &#176F",
+      "Wind": "South @ 23 MPH",
+      "Snow depth": "3.3\"",
+      "Humidity": "89 %",
+      "Barometer": "29.93\" Hg",
       "Rain Gauge": "0.09\""
     },
     "snow_totals": {
       "trend": {
         "Max": "5.7\"",
         "Min": "2.2\"",
-        "1 Hr": "-0.6\"",
+        "1 Hr": "-0.9\"",
         "3 Hr": "-1.4\"",
-        "6 Hr": "-1.1\"",
-        "12 Hr": "-1.1\"",
-        "24 Hr": "-1.7\""
+        "6 Hr": "-1.3\"",
+        "12 Hr": "-1.3\"",
+        "24 Hr": "-2.0\""
       },
       "season_total_in": 12.5
     },
@@ -4668,8 +4668,8 @@
   "willamette_pass": {
     "forecast": {
       "weather_provider": "NOAA",
-      "date": "November 23, 2026, 11:43 pm",
-      "time": 1795506203000,
+      "date": "November 23, 2026, 11:55 pm",
+      "time": 1795506921000,
       "current_weather": "Mostly Cloudy",
       "current_temperature": "34",
       "forecast": [
@@ -4777,15 +4777,15 @@
   "satellite": {
     "Pacific Northwest": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/pnw/13/GOES18-PNW-13-600x600.gif",
-      "last_modified": "Tue, 24 Nov 2026 07:31:47 GMT"
+      "last_modified": "Tue, 24 Nov 2026 08:01:39 GMT"
     },
     "North Pacific (macro)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/np/13/GOES18-NP-13-900x540.gif",
-      "last_modified": "Tue, 24 Nov 2026 07:31:31 GMT"
+      "last_modified": "Tue, 24 Nov 2026 08:01:56 GMT"
     },
     "Pacific US (PACUS)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/13/GOES18-CONUS-13-625x375.gif",
-      "last_modified": "Tue, 24 Nov 2026 07:31:38 GMT"
+      "last_modified": "Tue, 24 Nov 2026 08:01:21 GMT"
     }
   },
   "gfs_snowfall": {
