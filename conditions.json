@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T04:15:19.566603+00:00",
+  "generated_at": "2026-11-24T04:30:21.786366+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -7,7 +7,7 @@
         {
           "number": 1,
           "name": "Tonight",
-          "startTime": "2026-11-23T18:00:00-08:00",
+          "startTime": "2026-11-23T20:00:00-08:00",
           "endTime": "2026-11-24T06:00:00-08:00",
           "isDaytime": false,
           "temperature": 24,
@@ -17,13 +17,13 @@
             "unitCode": "wmoUnit:percent",
             "value": 9
           },
-          "windSpeed": "14 to 26 mph",
+          "windSpeed": "21 to 26 mph",
           "windDirection": "S",
           "icon": "https://api.weather.gov/icons/land/night/wind_bkn?size=medium",
           "shortForecast": "Mostly Cloudy",
-          "detailedForecast": "Mostly cloudy. Low around 24, with temperatures rising to around 26 overnight. South wind 14 to 26 mph, with gusts as high as 33 mph.",
+          "detailedForecast": "Mostly cloudy. Low around 24, with temperatures rising to around 26 overnight. South wind 21 to 26 mph, with gusts as high as 33 mph.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 4436
+          "snowLevelFt": 4331
         },
         {
           "number": 2,
@@ -314,7 +314,7 @@
         {
           "number": 1,
           "name": "Tonight",
-          "startTime": "2026-11-23T20:00:00-08:00",
+          "startTime": "2026-11-23T18:00:00-08:00",
           "endTime": "2026-11-24T06:00:00-08:00",
           "isDaytime": false,
           "temperature": 27,
@@ -324,13 +324,13 @@
             "unitCode": "wmoUnit:percent",
             "value": 9
           },
-          "windSpeed": "23 mph",
+          "windSpeed": "9 to 23 mph",
           "windDirection": "S",
           "icon": "https://api.weather.gov/icons/land/night/wind_bkn?size=medium",
           "shortForecast": "Mostly Cloudy",
-          "detailedForecast": "Mostly cloudy. Low around 27, with temperatures rising to around 30 overnight. South wind around 23 mph, with gusts as high as 44 mph.",
+          "detailedForecast": "Mostly cloudy. Low around 27, with temperatures rising to around 30 overnight. South wind 9 to 23 mph, with gusts as high as 44 mph.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 4331
+          "snowLevelFt": 4410
         },
         {
           "number": 2,
@@ -914,8 +914,8 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 21.0,
-        "wind_direction_deg": 112.5,
+        "wind_speed_mph": 18.0,
+        "wind_direction_deg": 90,
         "snow_level_ft": 4148,
         "temp_f": 30
       },
@@ -3087,12 +3087,12 @@
     "Hoodoo": {
       "elevation_ft": 4705,
       "temp_f": 30,
-      "wind_speed_mph": 21.0,
-      "wind_direction_deg": 112.5,
+      "wind_speed_mph": 18.0,
+      "wind_direction_deg": 90,
       "snow_level_ft": 4148,
       "precip_chance_today": 16,
-      "snowfall_12h_in": -0.3,
-      "snowfall_24h_in": -0.6,
+      "snowfall_12h_in": -0.2,
+      "snowfall_24h_in": -0.2,
       "snowfall_48h_in": null
     },
     "Willamette Pass": {
@@ -3109,14 +3109,6 @@
   },
   "bachelor_timeseries": {
     "hourly": [
-      {
-        "time": "2026-11-22T20:00:00.000Z",
-        "temp_f": 18.17,
-        "wind_speed_mph": 10.88,
-        "wind_direction_deg": 171.0,
-        "precip_in": null,
-        "period": "historical"
-      },
       {
         "time": "2026-11-22T21:00:00.000Z",
         "temp_f": 19.5,
@@ -3302,12 +3294,12 @@
         "period": "historical"
       },
       {
-        "time": "2026-11-23T20:00:00+00:00",
-        "temp_f": 25.0,
-        "wind_speed_mph": 11.5,
-        "wind_direction_deg": 210,
-        "precip_in": 0.0,
-        "period": "forecast"
+        "time": "2026-11-23T20:00:00.000Z",
+        "temp_f": 22.4,
+        "wind_speed_mph": 18.97,
+        "wind_direction_deg": 119.3,
+        "precip_in": null,
+        "period": "historical"
       },
       {
         "time": "2026-11-23T21:00:00+00:00",
@@ -4215,8 +4207,8 @@
       "snow_depth_in_date": "2026-11-22",
       "swe_in": 0.4,
       "swe_in_date": "2026-11-22",
-      "change_12h_in": -1,
-      "change_24h_in": -1
+      "change_12h_in": 1,
+      "change_24h_in": 0
     },
     "Santiam / Hoodoo (Hogg Pass)": {
       "snow_depth_in": 4,
@@ -4472,10 +4464,10 @@
           "active": true,
           "primary": true,
           "nonstandardizedDataPoints": {
-            "depth": "10.44",
-            "timestamp": "2026-11-23T19:00:00.000Z"
+            "depth": "9.59",
+            "timestamp": "2026-11-23T20:00:00.000Z"
           },
-          "temperature": "29.38",
+          "temperature": "29.09",
           "wind": {
             "low": "0",
             "high": "0",
@@ -4539,14 +4531,14 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-11-23T19:00:00.000Z"
+            "timestamp": "2026-11-23T20:00:00.000Z"
           },
-          "temperature": "22.47",
+          "temperature": "22.4",
           "wind": {
-            "low": "19.95",
-            "high": "34.9",
+            "low": "18.97",
+            "high": "34.45",
             "current": null,
-            "average": "19.95",
+            "average": "18.97",
             "direction": "ESE"
           },
           "humidity": null,
@@ -4561,14 +4553,14 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-11-23T19:00:00.000Z"
+            "timestamp": "2026-11-23T20:00:00.000Z"
           },
-          "temperature": "21.96",
+          "temperature": "22.29",
           "wind": {
-            "low": "26.39",
-            "high": "38.7",
+            "low": "29.18",
+            "high": "41.61",
             "current": null,
-            "average": "26.39",
+            "average": "29.18",
             "direction": "SE"
           },
           "humidity": null,
@@ -4631,10 +4623,10 @@
   },
   "hoodoo": {
     "weather": {
-      "Temperature": "26 &#176F",
-      "Wind": "ESE @ 21 MPH",
-      "Snow depth": "4.7\"",
-      "Humidity": "95 %",
+      "Temperature": "27 &#176F",
+      "Wind": "East @ 18 MPH",
+      "Snow depth": "4.8\"",
+      "Humidity": "93 %",
       "Barometer": "29.91\" Hg",
       "Rain Gauge": "0.09\""
     },
@@ -4643,10 +4635,10 @@
         "Max": "5.7\"",
         "Min": "1.6\"",
         "1 Hr": "0.1\"",
-        "3 Hr": "0.2\"",
+        "3 Hr": "0.8\"",
         "6 Hr": "0.1\"",
-        "12 Hr": "-0.3\"",
-        "24 Hr": "-0.6\""
+        "12 Hr": "-0.2\"",
+        "24 Hr": "-0.2\""
       },
       "season_total_in": 12.5
     },
@@ -4688,43 +4680,43 @@
   "willamette_pass": {
     "forecast": {
       "weather_provider": "NOAA",
-      "date": "November 23, 2026, 7:55 pm",
-      "time": 1795492521000,
+      "date": "November 23, 2026, 8:22 pm",
+      "time": 1795494134000,
       "current_weather": "Mostly Cloudy",
-      "current_temperature": "32",
+      "current_temperature": "33",
       "forecast": [
         {
           "day": "Monday",
-          "night_forecast": "Mostly cloudy, with a low around 31. East southeast wind around 14 mph, with gusts as high as 21 mph. "
+          "night_forecast": "Mostly cloudy, with a low around 31. East southeast wind 11 to 13 mph, with gusts as high as 21 mph. "
         },
         {
           "day": "Tuesday",
-          "day_forecast": "Mostly cloudy, with a high near 39. Breezy, with a south southeast wind 18 to 23 mph, with gusts as high as 34 mph. ",
-          "night_forecast": "Rain and snow likely, mainly before midnight.  Snow level 5700 feet. Mostly cloudy, with a low around 33. South southeast wind 7 to 17 mph, with gusts as high as 26 mph.  Chance of precipitation is 60%. Little or no snow accumulation expected. "
+          "day_forecast": "A slight chance of rain and snow after 5pm.  Mostly cloudy, with a high near 39. Breezy, with a south southeast wind 17 to 22 mph, with gusts as high as 34 mph.  Chance of precipitation is 10%.",
+          "night_forecast": "A chance of rain and snow, mainly between 10pm and 11pm.  Snow level 5700 feet. Mostly cloudy, with a low around 33. South southeast wind 7 to 16 mph, with gusts as high as 26 mph.  Chance of precipitation is 40%. Little or no snow accumulation expected. "
         },
         {
           "day": "Wednesday",
-          "day_forecast": "Partly sunny, with a high near 42. South southwest wind 7 to 9 mph. ",
-          "night_forecast": "A 40 percent chance of rain after 10pm.  Snow level 6500 feet rising to 7500 feet. Mostly cloudy, with a low around 35. South southeast wind 6 to 9 mph. "
+          "day_forecast": "Partly sunny, with a high near 43. South southwest wind 7 to 9 mph. ",
+          "night_forecast": "Rain and snow after 4am.  Snow level 6600 feet. Low around 34. South southeast wind 6 to 9 mph.  Chance of precipitation is 80%. Little or no snow accumulation expected. "
         },
         {
           "day": "Thursday",
-          "day_forecast": "Rain.  Snow level 8800 feet lowering to 7900 feet in the afternoon . High near 41. Chance of precipitation is 90%. New precipitation amounts between a half and three quarters of an inch possible. ",
-          "night_forecast": "Rain.  Snow level 7900 feet. Low around 37. Chance of precipitation is 80%. New precipitation amounts between a quarter and half of an inch possible. "
+          "day_forecast": "Rain and snow, becoming all rain after 7am.  Snow level 8100 feet rising to 8900 feet in the afternoon. High near 41. Chance of precipitation is 90%. Little or no snow accumulation expected. ",
+          "night_forecast": "Rain.  Snow level 8300 feet rising to 8900 feet. Low around 37. Chance of precipitation is 90%. New precipitation amounts between a quarter and half of an inch possible. "
         },
         {
           "day": "Friday",
-          "day_forecast": "A chance of rain.  Snow level 8400 feet. Cloudy, with a high near 43.",
-          "night_forecast": "A chance of rain.  Snow level 7700 feet. Cloudy, with a low around 36."
+          "day_forecast": "Rain likely.  Snow level 8600 feet. Cloudy, with a high near 43.",
+          "night_forecast": "A chance of rain and snow.  Snow level 7800 feet lowering to 7300 feet after midnight . Cloudy, with a low around 35."
         },
         {
           "day": "Saturday",
-          "day_forecast": "A chance of rain.  Snow level 7100 feet. Cloudy, with a high near 42.",
-          "night_forecast": "Rain and snow likely.  Snow level 6900 feet. Cloudy, with a low around 34."
+          "day_forecast": "A slight chance of rain and snow.  Snow level 7200 feet. Mostly cloudy, with a high near 43.",
+          "night_forecast": "A chance of rain and snow.  Snow level 7300 feet. Mostly cloudy, with a low around 34."
         },
         {
           "day": "Sunday",
-          "day_forecast": "Rain and snow.  Snow level 6500 feet. Mostly cloudy, with a high near 39."
+          "day_forecast": "Rain and snow likely.  Snow level 7000 feet. Cloudy, with a high near 41."
         }
       ],
       "wind": "NA",
@@ -4744,17 +4736,17 @@
         },
         {
           "time": "12a",
-          "temp": "31",
+          "temp": "32",
           "details": ""
         },
         {
           "time": "2a",
-          "temp": "32",
+          "temp": "31",
           "details": ""
         },
         {
           "time": "4a",
-          "temp": "32",
+          "temp": "31",
           "details": ""
         }
       ],
