@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T04:41:22.257092+00:00",
+  "generated_at": "2026-11-24T04:45:22.543473+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -2156,7 +2156,7 @@
         {
           "number": 1,
           "name": "Tonight",
-          "startTime": "2026-11-23T20:00:00-08:00",
+          "startTime": "2026-11-23T18:00:00-08:00",
           "endTime": "2026-11-24T06:00:00-08:00",
           "isDaytime": false,
           "temperature": 34,
@@ -2166,13 +2166,13 @@
             "unitCode": "wmoUnit:percent",
             "value": 5
           },
-          "windSpeed": "12 mph",
+          "windSpeed": "5 to 12 mph",
           "windDirection": "S",
           "icon": "https://api.weather.gov/icons/land/night/bkn?size=medium",
           "shortForecast": "Mostly Cloudy",
-          "detailedForecast": "Mostly cloudy. Low around 34, with temperatures rising to around 36 overnight. South wind around 12 mph, with gusts as high as 25 mph.",
+          "detailedForecast": "Mostly cloudy. Low around 34, with temperatures rising to around 36 overnight. South wind 5 to 12 mph, with gusts as high as 25 mph.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 4147
+          "snowLevelFt": 4436
         },
         {
           "number": 2,
@@ -2770,7 +2770,7 @@
         {
           "number": 1,
           "name": "Tonight",
-          "startTime": "2026-11-23T20:00:00-08:00",
+          "startTime": "2026-11-23T19:00:00-08:00",
           "endTime": "2026-11-24T06:00:00-08:00",
           "isDaytime": false,
           "temperature": 27,
@@ -4194,38 +4194,7 @@
     ]
   },
   "snotel": {
-    "Mt Bachelor area (Irish Taylor)": {
-      "snow_depth_in": 6,
-      "snow_depth_in_date": "2026-11-22",
-      "swe_in": 1.3,
-      "swe_in_date": "2026-11-22",
-      "change_12h_in": -1,
-      "change_24h_in": -1
-    },
-    "Three Creek / Tam McArthur (Three Creeks Meadow)": {
-      "snow_depth_in": 1,
-      "snow_depth_in_date": "2026-11-22",
-      "swe_in": 0.4,
-      "swe_in_date": "2026-11-22",
-      "change_12h_in": 1,
-      "change_24h_in": 0
-    },
-    "Santiam / Hoodoo (Hogg Pass)": {
-      "snow_depth_in": 4,
-      "snow_depth_in_date": "2026-11-22",
-      "swe_in": 0.6,
-      "swe_in_date": "2026-11-22",
-      "change_12h_in": 0,
-      "change_24h_in": 0
-    },
-    "Ochocos (Ochoco Meadows)": {
-      "snow_depth_in": 4,
-      "snow_depth_in_date": "2026-11-22",
-      "swe_in": 1.0,
-      "swe_in_date": "2026-11-22",
-      "change_12h_in": 0,
-      "change_24h_in": 0
-    }
+    "error": "500 Server Error: Internal Server Error for url: https://wcc.sc.egov.usda.gov/awdbRestApi/services/v1/data?stationTriplets=526%3AOR%3ASNTL&elements=SNWD&duration=HOURLY&getFlags=false&beginDate=2026-11-21+16%3A45&endDate=2026-11-24+16%3A45"
   },
   "odot_cams": {
     "Century Drive": [
