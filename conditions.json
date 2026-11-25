@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T03:15:26.595959+00:00",
+  "generated_at": "2026-11-25T03:30:22.741525+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -914,7 +914,7 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 21.0,
+        "wind_speed_mph": 23.0,
         "wind_direction_deg": 180,
         "snow_level_ft": 6010,
         "temp_f": 39
@@ -928,7 +928,7 @@
         {
           "number": 1,
           "name": "Tonight",
-          "startTime": "2026-11-24T18:00:00-08:00",
+          "startTime": "2026-11-24T19:00:00-08:00",
           "endTime": "2026-11-25T06:00:00-08:00",
           "isDaytime": false,
           "temperature": 28,
@@ -944,7 +944,7 @@
           "shortForecast": "Mostly Cloudy",
           "detailedForecast": "Mostly cloudy. Low around 28, with temperatures rising to around 30 overnight. South wind 16 to 21 mph, with gusts as high as 37 mph.",
           "precipitationAmountIn": 0.0,
-          "snowLevelFt": 5459
+          "snowLevelFt": 5381
         },
         {
           "number": 2,
@@ -3087,12 +3087,12 @@
     "Hoodoo": {
       "elevation_ft": 4705,
       "temp_f": 39,
-      "wind_speed_mph": 21.0,
+      "wind_speed_mph": 23.0,
       "wind_direction_deg": 180,
       "snow_level_ft": 6010,
       "precip_chance_today": 53,
-      "snowfall_12h_in": 0.3,
-      "snowfall_24h_in": 0.2,
+      "snowfall_12h_in": 0.2,
+      "snowfall_24h_in": -0.1,
       "snowfall_48h_in": null
     },
     "Willamette Pass": {
@@ -3109,14 +3109,6 @@
   },
   "bachelor_timeseries": {
     "hourly": [
-      {
-        "time": "2026-11-23T19:00:00.000Z",
-        "temp_f": 22.47,
-        "wind_speed_mph": 19.95,
-        "wind_direction_deg": 118.6,
-        "precip_in": null,
-        "period": "historical"
-      },
       {
         "time": "2026-11-23T20:00:00.000Z",
         "temp_f": 22.4,
@@ -3302,12 +3294,12 @@
         "period": "historical"
       },
       {
-        "time": "2026-11-24T19:00:00+00:00",
-        "temp_f": 30.0,
-        "wind_speed_mph": 23.0,
-        "wind_direction_deg": 170,
-        "precip_in": 0.0,
-        "period": "forecast"
+        "time": "2026-11-24T19:00:00.000Z",
+        "temp_f": 26.32,
+        "wind_speed_mph": 15.9,
+        "wind_direction_deg": 105.4,
+        "precip_in": null,
+        "period": "historical"
       },
       {
         "time": "2026-11-24T20:00:00+00:00",
@@ -4219,15 +4211,15 @@
       "snow_depth_in_date": "2026-11-23",
       "swe_in": 0.5,
       "swe_in_date": "2026-11-23",
-      "change_12h_in": 0,
-      "change_24h_in": 1
+      "change_12h_in": 1,
+      "change_24h_in": 2
     },
     "Santiam / Hoodoo (Hogg Pass)": {
       "snow_depth_in": 3,
       "snow_depth_in_date": "2026-11-23",
       "swe_in": 0.8,
       "swe_in_date": "2026-11-23",
-      "change_12h_in": 0,
+      "change_12h_in": -1,
       "change_24h_in": -1
     },
     "Ochocos (Ochoco Meadows)": {
@@ -4476,8 +4468,8 @@
           "active": true,
           "primary": true,
           "nonstandardizedDataPoints": {
-            "depth": "9.42",
-            "timestamp": "2026-11-24T18:00:00.000Z"
+            "depth": "9.3",
+            "timestamp": "2026-11-24T19:00:00.000Z"
           },
           "temperature": "33.29",
           "wind": {
@@ -4543,15 +4535,15 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-11-24T18:00:00.000Z"
+            "timestamp": "2026-11-24T19:00:00.000Z"
           },
-          "temperature": "26.53",
+          "temperature": "26.32",
           "wind": {
-            "low": "16.27",
-            "high": "34.45",
+            "low": "15.9",
+            "high": "37.36",
             "current": null,
-            "average": "16.27",
-            "direction": "E"
+            "average": "15.9",
+            "direction": "ESE"
           },
           "humidity": null,
           "display_name": "Cloud Chaser",
@@ -4565,14 +4557,14 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-11-24T18:00:00.000Z"
+            "timestamp": "2026-11-24T19:00:00.000Z"
           },
-          "temperature": "25.7",
+          "temperature": "25.06",
           "wind": {
-            "low": "16.33",
-            "high": "37.58",
+            "low": "16.62",
+            "high": "35.34",
             "current": null,
-            "average": "16.33",
+            "average": "16.62",
             "direction": "SSE"
           },
           "humidity": null,
@@ -4636,8 +4628,8 @@
   "hoodoo": {
     "weather": {
       "Temperature": "38 &#176F",
-      "Wind": "South @ 21 MPH",
-      "Snow depth": "4.4\"",
+      "Wind": "South @ 23 MPH",
+      "Snow depth": "4.5\"",
       "Humidity": "62 %",
       "Barometer": "29.85\" Hg",
       "Rain Gauge": "0.05\""
@@ -4646,11 +4638,11 @@
       "trend": {
         "Max": "5.7\"",
         "Min": "2.8\"",
-        "1 Hr": "0.3\"",
-        "3 Hr": "0.3\"",
+        "1 Hr": "-0.6\"",
+        "3 Hr": "0.2\"",
         "6 Hr": "0.1\"",
-        "12 Hr": "0.3\"",
-        "24 Hr": "0.2\""
+        "12 Hr": "0.2\"",
+        "24 Hr": "-0.1\""
       },
       "season_total_in": 12.5
     },
@@ -4692,8 +4684,8 @@
   "willamette_pass": {
     "forecast": {
       "weather_provider": "NOAA",
-      "date": "November 24, 2026, 6:55 pm",
-      "time": 1795575322000,
+      "date": "November 24, 2026, 7:13 pm",
+      "time": 1795576411000,
       "current_weather": "Chance Rain/Snow and Breezy",
       "current_temperature": "38",
       "forecast": [
