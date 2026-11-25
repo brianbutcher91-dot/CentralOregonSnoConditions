@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T18:15:28.379294+00:00",
+  "generated_at": "2026-11-25T18:30:40.346694+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -914,7 +914,7 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 22.0,
+        "wind_speed_mph": 20.0,
         "wind_direction_deg": 202.5,
         "snow_level_ft": 5722,
         "temp_f": 41
@@ -1394,9 +1394,9 @@
           },
           "windSpeed": "5 mph",
           "windDirection": "SE",
-          "icon": "https://api.weather.gov/icons/land/night/bkn/snow,20?size=medium",
-          "shortForecast": "Mostly Cloudy then Slight Chance Rain And Snow",
-          "detailedForecast": "A slight chance of rain and snow after 4am. Mostly cloudy, with a low around 35.",
+          "icon": "https://api.weather.gov/icons/land/night/bkn/rain,20?size=medium",
+          "shortForecast": "Mostly Cloudy then Slight Chance Light Rain",
+          "detailedForecast": "A slight chance of rain after 4am. Mostly cloudy, with a low around 35.",
           "precipitationAmountIn": 0.0,
           "snowLevelFt": 7139
         },
@@ -1411,15 +1411,15 @@
           "temperatureTrend": null,
           "probabilityOfPrecipitation": {
             "unitCode": "wmoUnit:percent",
-            "value": 76
+            "value": 78
           },
           "windSpeed": "5 mph",
           "windDirection": "SSE",
-          "icon": "https://api.weather.gov/icons/land/day/snow,60/snow,80?size=medium",
-          "shortForecast": "Slight Chance Rain And Snow then Rain And Snow",
-          "detailedForecast": "A slight chance of rain and snow before 10am, then rain and snow. Mostly cloudy, with a high near 41.",
-          "precipitationAmountIn": 0.08,
-          "snowLevelFt": 7165
+          "icon": "https://api.weather.gov/icons/land/day/rain,60/rain,80?size=medium",
+          "shortForecast": "Light Rain",
+          "detailedForecast": "Rain. Mostly cloudy, with a high near 41.",
+          "precipitationAmountIn": 0.1,
+          "snowLevelFt": 7166
         },
         {
           "number": 10,
@@ -1436,10 +1436,10 @@
           },
           "windSpeed": "3 to 8 mph",
           "windDirection": "SSE",
-          "icon": "https://api.weather.gov/icons/land/night/snow,90?size=medium",
-          "shortForecast": "Rain And Snow",
-          "detailedForecast": "Rain and snow before 1am, then rain and snow. Cloudy, with a low around 35.",
-          "precipitationAmountIn": 0.23,
+          "icon": "https://api.weather.gov/icons/land/night/rain,90?size=medium",
+          "shortForecast": "Light Rain",
+          "detailedForecast": "Rain. Cloudy, with a low around 35.",
+          "precipitationAmountIn": 0.22,
           "snowLevelFt": 7507
         },
         {
@@ -1455,11 +1455,11 @@
             "unitCode": "wmoUnit:percent",
             "value": 85
           },
-          "windSpeed": "3 to 10 mph",
+          "windSpeed": "5 to 10 mph",
           "windDirection": "SSW",
           "icon": "https://api.weather.gov/icons/land/day/snow,90/snow,70?size=medium",
-          "shortForecast": "Rain And Snow then Rain And Snow Likely",
-          "detailedForecast": "Rain and snow before 10am, then rain and snow likely. Cloudy, with a high near 39.",
+          "shortForecast": "Rain And Snow Likely",
+          "detailedForecast": "Rain before 10am, then rain and snow likely. Cloudy, with a high near 39.",
           "precipitationAmountIn": 0.2,
           "snowLevelFt": 6693
         },
@@ -1479,8 +1479,8 @@
           "windSpeed": "5 mph",
           "windDirection": "SSW",
           "icon": "https://api.weather.gov/icons/land/night/snow,70/snow,40?size=medium",
-          "shortForecast": "Rain And Snow Likely",
-          "detailedForecast": "Rain and snow likely before 7pm, then rain and snow likely. Cloudy, with a low around 33.",
+          "shortForecast": "Chance Rain And Snow",
+          "detailedForecast": "Rain likely before 10pm, then a chance of rain and snow. Cloudy, with a low around 33.",
           "precipitationAmountIn": 0.04,
           "snowLevelFt": 6667
         },
@@ -1502,7 +1502,7 @@
           "icon": "https://api.weather.gov/icons/land/day/snow,40?size=medium",
           "shortForecast": "Chance Rain And Snow",
           "detailedForecast": "A chance of rain and snow. Mostly cloudy, with a high near 38.",
-          "precipitationAmountIn": 0.01,
+          "precipitationAmountIn": 0.0,
           "snowLevelFt": 6063
         },
         {
@@ -1519,7 +1519,7 @@
             "value": 40
           },
           "windSpeed": "3 mph",
-          "windDirection": "SSW",
+          "windDirection": "S",
           "icon": "https://api.weather.gov/icons/land/night/snow,40/snow,30?size=medium",
           "shortForecast": "Chance Rain And Snow",
           "detailedForecast": "A chance of rain and snow. Mostly cloudy, with a low around 31.",
@@ -3087,12 +3087,12 @@
     "Hoodoo": {
       "elevation_ft": 4705,
       "temp_f": 41,
-      "wind_speed_mph": 22.0,
+      "wind_speed_mph": 20.0,
       "wind_direction_deg": 202.5,
       "snow_level_ft": 5722,
       "precip_chance_today": 7,
       "snowfall_12h_in": -0.7,
-      "snowfall_24h_in": -0.5,
+      "snowfall_24h_in": -0.6,
       "snowfall_48h_in": null
     },
     "Willamette Pass": {
@@ -3109,14 +3109,6 @@
   },
   "bachelor_timeseries": {
     "hourly": [
-      {
-        "time": "2026-11-24T10:00:00.000Z",
-        "temp_f": 23.84,
-        "wind_speed_mph": 16.91,
-        "wind_direction_deg": 103.8,
-        "precip_in": null,
-        "period": "historical"
-      },
       {
         "time": "2026-11-24T11:00:00.000Z",
         "temp_f": 24.03,
@@ -3298,6 +3290,14 @@
         "temp_f": 26.83,
         "wind_speed_mph": 6.968,
         "wind_direction_deg": 112.6,
+        "precip_in": null,
+        "period": "historical"
+      },
+      {
+        "time": "2026-11-25T10:00:00.000Z",
+        "temp_f": 27.59,
+        "wind_speed_mph": 4.151,
+        "wind_direction_deg": 335.6,
         "precip_in": null,
         "period": "historical"
       },
@@ -3936,10 +3936,6 @@
     ],
     "historical_precip_snapshots": [
       {
-        "time": "2026-11-22T18:30:35.559275+00:00",
-        "precip_in": 4
-      },
-      {
         "time": "2026-11-22T19:45:18.727136+00:00",
         "precip_in": 4
       },
@@ -4203,7 +4199,7 @@
       "snow_depth_in_date": "2026-11-24",
       "swe_in": 1.4,
       "swe_in_date": "2026-11-24",
-      "change_12h_in": -1,
+      "change_12h_in": 1,
       "change_24h_in": -1
     },
     "Three Creek / Tam McArthur (Three Creeks Meadow)": {
@@ -4219,7 +4215,7 @@
       "snow_depth_in_date": "2026-11-24",
       "swe_in": 0.8,
       "swe_in_date": "2026-11-24",
-      "change_12h_in": 1,
+      "change_12h_in": 0,
       "change_24h_in": 0
     },
     "Ochocos (Ochoco Meadows)": {
@@ -4335,7 +4331,7 @@
   "mtbachelor": {
     "weather": {
       "current": {
-        "temperature": 29,
+        "temperature": 31,
         "weather_icon": "dor-mostlycloudy"
       },
       "forecast": [
@@ -4347,10 +4343,10 @@
           "weather_icon": "dor-snow",
           "id": 1795633200,
           "day": "Wednesday",
-          "temperature_high": 36,
+          "temperature_high": 37,
           "temperature_low": 28,
-          "precipitation_high": 73,
-          "precipitation_low": 73,
+          "precipitation_high": 72,
+          "precipitation_low": 72,
           "wind_speed": 9,
           "wind_direction": "SSW"
         },
@@ -4468,10 +4464,10 @@
           "active": true,
           "primary": true,
           "nonstandardizedDataPoints": {
-            "depth": "9.56",
-            "timestamp": "2026-11-25T09:00:00.000Z"
+            "depth": "9.38",
+            "timestamp": "2026-11-25T10:00:00.000Z"
           },
-          "temperature": "28.54",
+          "temperature": "31.16",
           "wind": {
             "low": "0",
             "high": "0",
@@ -4557,15 +4553,15 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-11-25T09:00:00.000Z"
+            "timestamp": "2026-11-25T10:00:00.000Z"
           },
-          "temperature": "25.52",
+          "temperature": "25.32",
           "wind": {
-            "low": "12.47",
-            "high": "26.84",
+            "low": "16.89",
+            "high": "29.3",
             "current": null,
-            "average": "12.47",
-            "direction": "SSE"
+            "average": "16.89",
+            "direction": "S"
           },
           "humidity": null,
           "display_name": "Northwest",
@@ -4627,10 +4623,10 @@
   },
   "hoodoo": {
     "weather": {
-      "Temperature": "38 &#176F",
-      "Wind": "SSW @ 22 MPH",
-      "Snow depth": "3.9\"",
-      "Humidity": "77 %",
+      "Temperature": "39 &#176F",
+      "Wind": "SSW @ 20 MPH",
+      "Snow depth": "4.0\"",
+      "Humidity": "75 %",
       "Barometer": "30.07\" Hg",
       "Rain Gauge": "0.20\""
     },
@@ -4639,10 +4635,10 @@
         "Max": "5.3\"",
         "Min": "2.8\"",
         "1 Hr": "0.0\"",
-        "3 Hr": "-0.1\"",
+        "3 Hr": "-0.3\"",
         "6 Hr": "-0.4\"",
         "12 Hr": "-0.7\"",
-        "24 Hr": "-0.5\""
+        "24 Hr": "-0.6\""
       },
       "season_total_in": 13.1
     },
