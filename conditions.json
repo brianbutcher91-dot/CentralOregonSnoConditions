@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T16:15:20.760841+00:00",
+  "generated_at": "2026-11-26T16:30:22.462228+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -914,8 +914,8 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 24.0,
-        "wind_direction_deg": 225,
+        "wind_speed_mph": 21.0,
+        "wind_direction_deg": 247.5,
         "snow_level_ft": 8268,
         "temp_f": 40
       },
@@ -1849,7 +1849,7 @@
         {
           "number": 1,
           "name": "Thanksgiving Day",
-          "startTime": "2026-11-26T08:00:00-08:00",
+          "startTime": "2026-11-26T07:00:00-08:00",
           "endTime": "2026-11-26T18:00:00-08:00",
           "isDaytime": true,
           "temperature": 45,
@@ -2156,7 +2156,7 @@
         {
           "number": 1,
           "name": "Thanksgiving Day",
-          "startTime": "2026-11-26T07:00:00-08:00",
+          "startTime": "2026-11-26T08:00:00-08:00",
           "endTime": "2026-11-26T18:00:00-08:00",
           "isDaytime": true,
           "temperature": 52,
@@ -2171,7 +2171,7 @@
           "icon": "https://api.weather.gov/icons/land/day/rain,90?size=medium",
           "shortForecast": "Light Rain",
           "detailedForecast": "Rain. Mostly cloudy. High near 52, with temperatures falling to around 50 in the afternoon. Southwest wind 7 to 16 mph, with gusts as high as 32 mph. Chance of precipitation is 90%. New rainfall amounts between a tenth and quarter of an inch possible.",
-          "precipitationAmountIn": 0.16,
+          "precipitationAmountIn": 0.14,
           "snowLevelFt": 9370
         },
         {
@@ -2463,7 +2463,7 @@
         {
           "number": 1,
           "name": "Thanksgiving Day",
-          "startTime": "2026-11-26T08:00:00-08:00",
+          "startTime": "2026-11-26T07:00:00-08:00",
           "endTime": "2026-11-26T18:00:00-08:00",
           "isDaytime": true,
           "temperature": 52,
@@ -2478,7 +2478,7 @@
           "icon": "https://api.weather.gov/icons/land/day/rain,90?size=medium",
           "shortForecast": "Light Rain",
           "detailedForecast": "Rain. Mostly cloudy. High near 52, with temperatures falling to around 49 in the afternoon. Southwest wind around 7 mph, with gusts as high as 26 mph. Chance of precipitation is 90%. New rainfall amounts between a half and three quarters of an inch possible.",
-          "precipitationAmountIn": 0.39,
+          "precipitationAmountIn": 0.44,
           "snowLevelFt": 9212
         },
         {
@@ -2770,7 +2770,7 @@
         {
           "number": 1,
           "name": "Thanksgiving Day",
-          "startTime": "2026-11-26T08:00:00-08:00",
+          "startTime": "2026-11-26T07:00:00-08:00",
           "endTime": "2026-11-26T18:00:00-08:00",
           "isDaytime": true,
           "temperature": 49,
@@ -3087,12 +3087,12 @@
     "Hoodoo": {
       "elevation_ft": 4705,
       "temp_f": 40,
-      "wind_speed_mph": 24.0,
-      "wind_direction_deg": 225,
+      "wind_speed_mph": 21.0,
+      "wind_direction_deg": 247.5,
       "snow_level_ft": 8268,
       "precip_chance_today": 100,
-      "snowfall_12h_in": -1.9,
-      "snowfall_24h_in": -3.0,
+      "snowfall_12h_in": -2.1,
+      "snowfall_24h_in": -3.4,
       "snowfall_48h_in": null
     },
     "Willamette Pass": {
@@ -3109,14 +3109,6 @@
   },
   "bachelor_timeseries": {
     "hourly": [
-      {
-        "time": "2026-11-25T08:00:00.000Z",
-        "temp_f": 26.78,
-        "wind_speed_mph": 5.605,
-        "wind_direction_deg": 101.1,
-        "precip_in": null,
-        "period": "historical"
-      },
       {
         "time": "2026-11-25T09:00:00.000Z",
         "temp_f": 26.83,
@@ -3298,6 +3290,14 @@
         "temp_f": 33.48,
         "wind_speed_mph": 10.11,
         "wind_direction_deg": 12.49,
+        "precip_in": null,
+        "period": "historical"
+      },
+      {
+        "time": "2026-11-26T08:00:00.000Z",
+        "temp_f": 33.82,
+        "wind_speed_mph": 11.01,
+        "wind_direction_deg": 2.655,
         "precip_in": null,
         "period": "historical"
       },
@@ -4190,6 +4190,10 @@
       {
         "time": "2026-11-26T15:15:27.256971+00:00",
         "precip_in": 0
+      },
+      {
+        "time": "2026-11-26T16:30:24.106023+00:00",
+        "precip_in": 0
       }
     ]
   },
@@ -4208,7 +4212,7 @@
       "swe_in": 0.6,
       "swe_in_date": "2026-11-25",
       "change_12h_in": -1,
-      "change_24h_in": -2
+      "change_24h_in": -1
     },
     "Santiam / Hoodoo (Hogg Pass)": {
       "snow_depth_in": 2,
@@ -4331,7 +4335,7 @@
   "mtbachelor": {
     "weather": {
       "current": {
-        "temperature": 38,
+        "temperature": 39,
         "weather_icon": "dor-rain"
       },
       "forecast": [
@@ -4464,10 +4468,10 @@
           "active": true,
           "primary": true,
           "nonstandardizedDataPoints": {
-            "depth": "8.68",
-            "timestamp": "2026-11-26T07:00:00.000Z"
+            "depth": "8.59",
+            "timestamp": "2026-11-26T08:00:00.000Z"
           },
-          "temperature": "37.97",
+          "temperature": "39",
           "wind": {
             "low": "0",
             "high": "0",
@@ -4531,15 +4535,15 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-11-26T07:00:00.000Z"
+            "timestamp": "2026-11-26T08:00:00.000Z"
           },
-          "temperature": "33.48",
+          "temperature": "33.82",
           "wind": {
-            "low": "10.11",
-            "high": "28.19",
+            "low": "11.01",
+            "high": "32.44",
             "current": null,
-            "average": "10.11",
-            "direction": "NNE"
+            "average": "11.01",
+            "direction": "N"
           },
           "humidity": null,
           "display_name": "Cloud Chaser",
@@ -4553,14 +4557,14 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-11-26T07:00:00.000Z"
+            "timestamp": "2026-11-26T08:00:00.000Z"
           },
-          "temperature": "32.43",
+          "temperature": "33.69",
           "wind": {
-            "low": "42.35",
-            "high": "61.74",
+            "low": "47.47",
+            "high": "67.11",
             "current": null,
-            "average": "42.35",
+            "average": "47.47",
             "direction": "SSW"
           },
           "humidity": null,
@@ -4624,21 +4628,21 @@
   "hoodoo": {
     "weather": {
       "Temperature": "37 &#176F",
-      "Wind": "SW @ 24 MPH",
-      "Snow depth": "0.7\"",
+      "Wind": "WSW @ 21 MPH",
+      "Snow depth": "0.8\"",
       "Humidity": "100 %",
-      "Barometer": "30.07\" Hg",
+      "Barometer": "30.09\" Hg",
       "Rain Gauge": "0.38\""
     },
     "snow_totals": {
       "trend": {
         "Max": "5.3\"",
         "Min": "0.1\"",
-        "1 Hr": "-0.7\"",
-        "3 Hr": "-1.0\"",
-        "6 Hr": "-1.4\"",
-        "12 Hr": "-1.9\"",
-        "24 Hr": "-3.0\""
+        "1 Hr": "-0.4\"",
+        "3 Hr": "-1.4\"",
+        "6 Hr": "-1.8\"",
+        "12 Hr": "-2.1\"",
+        "24 Hr": "-3.4\""
       },
       "season_total_in": 13.1
     },
@@ -4680,10 +4684,10 @@
   "willamette_pass": {
     "forecast": {
       "weather_provider": "NOAA",
-      "date": "November 26, 2026, 7:49 am",
-      "time": 1795708158000,
+      "date": "November 26, 2026, 8:10 am",
+      "time": 1795709420000,
       "current_weather": "Rain",
-      "current_temperature": "43",
+      "current_temperature": "42",
       "forecast": [
         {
           "day": "Thursday",
