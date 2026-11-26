@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T21:15:24.944086+00:00",
+  "generated_at": "2026-11-26T21:30:24.106152+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -914,8 +914,8 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 26.0,
-        "wind_direction_deg": 247.5,
+        "wind_speed_mph": 12,
+        "wind_direction_deg": 260,
         "snow_level_ft": 7086,
         "temp_f": 40
       },
@@ -3087,12 +3087,12 @@
     "Hoodoo": {
       "elevation_ft": 4705,
       "temp_f": 40,
-      "wind_speed_mph": 26.0,
-      "wind_direction_deg": 247.5,
+      "wind_speed_mph": 12,
+      "wind_direction_deg": 260,
       "snow_level_ft": 7086,
       "precip_chance_today": 97,
-      "snowfall_12h_in": -2.0,
-      "snowfall_24h_in": -2.7,
+      "snowfall_12h_in": null,
+      "snowfall_24h_in": null,
       "snowfall_48h_in": null
     },
     "Willamette Pass": {
@@ -3109,14 +3109,6 @@
   },
   "bachelor_timeseries": {
     "hourly": [
-      {
-        "time": "2026-11-25T13:00:00.000Z",
-        "temp_f": 28.34,
-        "wind_speed_mph": 7.388,
-        "wind_direction_deg": 101.1,
-        "precip_in": null,
-        "period": "historical"
-      },
       {
         "time": "2026-11-25T14:00:00.000Z",
         "temp_f": 28.76,
@@ -3302,12 +3294,12 @@
         "period": "historical"
       },
       {
-        "time": "2026-11-26T13:00:00+00:00",
-        "temp_f": 36.0,
-        "wind_speed_mph": 25.3,
-        "wind_direction_deg": 240,
-        "precip_in": 0.05,
-        "period": "forecast"
+        "time": "2026-11-26T13:00:00.000Z",
+        "temp_f": 30.95,
+        "wind_speed_mph": 15.1,
+        "wind_direction_deg": 250.3,
+        "precip_in": null,
+        "period": "historical"
       },
       {
         "time": "2026-11-26T14:00:00+00:00",
@@ -4215,7 +4207,7 @@
       "snow_depth_in_date": "2026-11-25",
       "swe_in": 0.6,
       "swe_in_date": "2026-11-25",
-      "change_12h_in": 0,
+      "change_12h_in": -1,
       "change_24h_in": -1
     },
     "Santiam / Hoodoo (Hogg Pass)": {
@@ -4339,7 +4331,7 @@
   "mtbachelor": {
     "weather": {
       "current": {
-        "temperature": 37,
+        "temperature": 35,
         "weather_icon": "dor-rain"
       },
       "forecast": [
@@ -4472,10 +4464,10 @@
           "active": true,
           "primary": true,
           "nonstandardizedDataPoints": {
-            "depth": "7.18",
-            "timestamp": "2026-11-26T12:00:00.000Z"
+            "depth": "7.581",
+            "timestamp": "2026-11-26T13:00:00.000Z"
           },
-          "temperature": "37.24",
+          "temperature": "34.76",
           "wind": {
             "low": "0",
             "high": "0",
@@ -4539,15 +4531,15 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-11-26T12:00:00.000Z"
+            "timestamp": "2026-11-26T13:00:00.000Z"
           },
-          "temperature": "33.11",
+          "temperature": "30.95",
           "wind": {
-            "low": "10.69",
-            "high": "34.9",
+            "low": "15.1",
+            "high": "39.82",
             "current": null,
-            "average": "10.69",
-            "direction": "WNW"
+            "average": "15.1",
+            "direction": "WSW"
           },
           "humidity": null,
           "display_name": "Cloud Chaser",
@@ -4561,14 +4553,14 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-11-26T12:00:00.000Z"
+            "timestamp": "2026-11-26T13:00:00.000Z"
           },
-          "temperature": "32.08",
+          "temperature": "30.1",
           "wind": {
-            "low": "32.89",
-            "high": "58.16",
+            "low": "22.83",
+            "high": "118.8",
             "current": null,
-            "average": "32.89",
+            "average": "22.83",
             "direction": "SW"
           },
           "humidity": null,
@@ -4630,25 +4622,10 @@
     }
   },
   "hoodoo": {
-    "weather": {
-      "Temperature": "36 &#176F",
-      "Wind": "WSW @ 26 MPH",
-      "Snow depth": "0.8\"",
-      "Humidity": "100 %",
-      "Barometer": "30.16\" Hg",
-      "Rain Gauge": "1.25\""
-    },
+    "weather": {},
     "snow_totals": {
-      "trend": {
-        "Max": "5.3\"",
-        "Min": "-0.6\"",
-        "1 Hr": "-0.2\"",
-        "3 Hr": "-0.3\"",
-        "6 Hr": "-1.2\"",
-        "12 Hr": "-2.0\"",
-        "24 Hr": "-2.7\""
-      },
-      "season_total_in": 13.1
+      "trend": {},
+      "season_total_in": null
     },
     "webcams": {
       "Base Area": {
@@ -4688,14 +4665,14 @@
   "willamette_pass": {
     "forecast": {
       "weather_provider": "NOAA",
-      "date": "November 26, 2026, 12:40 pm",
-      "time": 1795725620000,
+      "date": "November 26, 2026, 1:16 pm",
+      "time": 1795727783000,
       "current_weather": "Rain/Snow",
-      "current_temperature": "44",
+      "current_temperature": "43",
       "forecast": [
         {
           "day": "Thursday",
-          "day_forecast": "Rain before 4pm, then rain, possibly mixed with snow.  Snow level 8700 feet lowering to 8100 feet. High near 40. West wind around 13 mph, with gusts as high as 20 mph.  Chance of precipitation is 100%. Little or no snow accumulation expected. ",
+          "day_forecast": "Rain before 4pm, then rain, possibly mixed with snow.  Snow level 8200 feet. High near 40. West wind around 13 mph, with gusts as high as 20 mph.  Chance of precipitation is 100%. Little or no snow accumulation expected. ",
           "night_forecast": "Rain, possibly mixed with snow, becoming all rain after midnight.  Snow level 7600 feet rising to 8800 feet after midnight. Low around 38. West wind 10 to 14 mph, with gusts as high as 21 mph.  Chance of precipitation is 90%. Little or no snow accumulation expected. "
         },
         {
@@ -4730,11 +4707,6 @@
       "min_temp": "38",
       "hourly": [
         {
-          "time": "12p",
-          "temp": "38",
-          "details": "rain "
-        },
-        {
           "time": "2p",
           "temp": "39",
           "details": "rain "
@@ -4753,6 +4725,11 @@
           "time": "8p",
           "temp": "39",
           "details": "rain likely and slight chance of snow"
+        },
+        {
+          "time": "10p",
+          "temp": "40",
+          "details": "chance of rain"
         }
       ],
       "attribution": "",
