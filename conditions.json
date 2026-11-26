@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T18:14:04.680353+00:00",
+  "generated_at": "2026-11-26T18:15:26.390643+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -914,8 +914,8 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 14,
-        "wind_direction_deg": 240,
+        "wind_speed_mph": 24.0,
+        "wind_direction_deg": 247.5,
         "snow_level_ft": 7663,
         "temp_f": 39
       },
@@ -2770,7 +2770,7 @@
         {
           "number": 1,
           "name": "Thanksgiving Day",
-          "startTime": "2026-11-26T10:00:00-08:00",
+          "startTime": "2026-11-26T09:00:00-08:00",
           "endTime": "2026-11-26T18:00:00-08:00",
           "isDaytime": true,
           "temperature": 48,
@@ -2786,7 +2786,7 @@
           "shortForecast": "Light Rain",
           "detailedForecast": "Rain. Mostly cloudy. High near 48, with temperatures falling to around 45 in the afternoon. Southwest wind 3 to 9 mph, with gusts as high as 23 mph. Chance of precipitation is 90%. New rainfall amounts less than a tenth of an inch possible.",
           "precipitationAmountIn": 0.04,
-          "snowLevelFt": 9081
+          "snowLevelFt": 8687
         },
         {
           "number": 2,
@@ -3087,12 +3087,12 @@
     "Hoodoo": {
       "elevation_ft": 4705,
       "temp_f": 39,
-      "wind_speed_mph": 14,
-      "wind_direction_deg": 240,
+      "wind_speed_mph": 24.0,
+      "wind_direction_deg": 247.5,
       "snow_level_ft": 7663,
       "precip_chance_today": 100,
-      "snowfall_12h_in": null,
-      "snowfall_24h_in": null,
+      "snowfall_12h_in": -1.9,
+      "snowfall_24h_in": -3.0,
       "snowfall_48h_in": null
     },
     "Willamette Pass": {
@@ -4345,8 +4345,8 @@
       "forecast": [
         {
           "date": "2026-11-26",
-          "description_long": "moderate rain",
-          "description_short": "moderate rain",
+          "description_long": "heavy intensity rain",
+          "description_short": "heavy intensity rain",
           "details": "Rain",
           "weather_icon": "dor-rain",
           "id": 1795719600,
@@ -4539,14 +4539,14 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-11-26T09:00:00.000Z"
+            "timestamp": "2026-11-26T10:00:00.000Z"
           },
-          "temperature": "34.54",
+          "temperature": "34.49",
           "wind": {
-            "low": "11.36",
-            "high": "50.33",
+            "low": "12.5",
+            "high": "41.61",
             "current": null,
-            "average": "11.36",
+            "average": "12.5",
             "direction": "NNE"
           },
           "humidity": null,
@@ -4630,10 +4630,25 @@
     }
   },
   "hoodoo": {
-    "weather": {},
+    "weather": {
+      "Temperature": "38 &#176F",
+      "Wind": "WSW @ 24 MPH",
+      "Snow depth": "0.9\"",
+      "Humidity": "100 %",
+      "Barometer": "30.12\" Hg",
+      "Rain Gauge": "0.71\""
+    },
     "snow_totals": {
-      "trend": {},
-      "season_total_in": null
+      "trend": {
+        "Max": "5.3\"",
+        "Min": "-0.6\"",
+        "1 Hr": "-0.1\"",
+        "3 Hr": "-0.9\"",
+        "6 Hr": "-1.2\"",
+        "12 Hr": "-1.9\"",
+        "24 Hr": "-3.0\""
+      },
+      "season_total_in": 13.1
     },
     "webcams": {
       "Base Area": {
