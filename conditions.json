@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T19:00:56.917038+00:00",
+  "generated_at": "2026-11-27T19:15:20.313570+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -914,8 +914,8 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 21.0,
-        "wind_direction_deg": 247.5,
+        "wind_speed_mph": 7,
+        "wind_direction_deg": 250,
         "snow_level_ft": 8871,
         "temp_f": 41
       },
@@ -3087,12 +3087,12 @@
     "Hoodoo": {
       "elevation_ft": 4705,
       "temp_f": 41,
-      "wind_speed_mph": 21.0,
-      "wind_direction_deg": 247.5,
+      "wind_speed_mph": 7,
+      "wind_direction_deg": 250,
       "snow_level_ft": 8871,
       "precip_chance_today": 100,
-      "snowfall_12h_in": -0.3,
-      "snowfall_24h_in": -0.6,
+      "snowfall_12h_in": null,
+      "snowfall_24h_in": null,
       "snowfall_48h_in": null
     },
     "Willamette Pass": {
@@ -4349,8 +4349,8 @@
           "day": "Friday",
           "temperature_high": 42,
           "temperature_low": 32,
-          "precipitation_high": 93,
-          "precipitation_low": 93,
+          "precipitation_high": 91,
+          "precipitation_low": 91,
           "wind_speed": 15,
           "wind_direction": "W"
         },
@@ -4491,15 +4491,15 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-11-27T10:00:00.000Z"
+            "timestamp": "2026-11-27T11:00:00.000Z"
           },
-          "temperature": "39.23",
+          "temperature": "38.53",
           "wind": {
-            "low": "7.8",
-            "high": "30.42",
+            "low": "5.576",
+            "high": "27.52",
             "current": null,
-            "average": "7.8",
-            "direction": "SSW"
+            "average": "5.576",
+            "direction": "NE"
           },
           "humidity": null,
           "display_name": "Sunrise",
@@ -4626,25 +4626,10 @@
     }
   },
   "hoodoo": {
-    "weather": {
-      "Temperature": "39 &#176F",
-      "Wind": "WSW @ 21 MPH",
-      "Snow depth": "-1.5\"",
-      "Humidity": "100 %",
-      "Barometer": "30.11\" Hg",
-      "Rain Gauge": "2.38\""
-    },
+    "weather": {},
     "snow_totals": {
-      "trend": {
-        "Max": "4.0\"",
-        "Min": "-1.5\"",
-        "1 Hr": "-0.1\"",
-        "3 Hr": "0.0\"",
-        "6 Hr": "0.1\"",
-        "12 Hr": "-0.3\"",
-        "24 Hr": "-0.6\""
-      },
-      "season_total_in": 13.1
+      "trend": {},
+      "season_total_in": null
     },
     "webcams": {
       "Base Area": {
@@ -4684,35 +4669,35 @@
   "willamette_pass": {
     "forecast": {
       "weather_provider": "NOAA",
-      "date": "November 27, 2026, 10:40 am",
-      "time": 1795804811000,
-      "current_weather": "Chance Rain then Rain",
-      "current_temperature": "51",
+      "date": "November 27, 2026, 11:10 am",
+      "time": 1795806621000,
+      "current_weather": "Rain Likely then Rain",
+      "current_temperature": "49",
       "forecast": [
         {
           "day": "Friday",
-          "day_forecast": "Rain, mainly after noon.  High near 43. West wind around 16 mph, with gusts as high as 24 mph.  Chance of precipitation is 90%. New precipitation amounts between a quarter and half of an inch possible. ",
-          "night_forecast": "Rain, mainly before midnight.  Snow level 8100 feet. Low around 38. West northwest wind 12 to 17 mph decreasing to 6 to 11 mph after midnight. Winds could gust as high as 25 mph.  Chance of precipitation is 80%. New precipitation amounts between a quarter and half of an inch possible. "
+          "day_forecast": "Rain.  High near 43. West wind around 16 mph, with gusts as high as 24 mph.  Chance of precipitation is 100%. New precipitation amounts between a half and three quarters of an inch possible. ",
+          "night_forecast": "Rain, mainly before 1am.  Snow level 8200 feet lowering to 7400 feet after midnight . Low around 38. West northwest wind 12 to 17 mph decreasing to 6 to 11 mph after midnight. Winds could gust as high as 25 mph.  Chance of precipitation is 90%. New precipitation amounts between three quarters and one inch possible. "
         },
         {
           "day": "Saturday",
           "day_forecast": "Mostly cloudy, with a high near 45. Light southeast wind. ",
-          "night_forecast": "Rain likely after 4am.  Snow level 8100 feet. Mostly cloudy, with a low around 37. East southeast wind around 7 mph.  Chance of precipitation is 60%."
+          "night_forecast": "A chance of rain and snow, mainly after 4am.  Snow level 8100 feet. Mostly cloudy, with a low around 37. East southeast wind around 7 mph.  Chance of precipitation is 30%. Little or no snow accumulation expected. "
         },
         {
           "day": "Sunday",
-          "day_forecast": "Rain.  Snow level 7300 feet rising to 8300 feet in the afternoon. High near 42. Southwest wind 8 to 11 mph.  Chance of precipitation is 90%. New precipitation amounts between a tenth and quarter of an inch possible. ",
-          "night_forecast": "Rain before 1am, then rain, possibly mixed with snow.  Snow level 7300 feet lowering to 6500 feet. Low around 34. Chance of precipitation is 100%. Little or no snow accumulation expected. "
+          "day_forecast": "Rain, mainly after 10am.  Snow level 7200 feet rising to 8500 feet in the afternoon. High near 42. Southwest wind 8 to 11 mph.  Chance of precipitation is 80%. New precipitation amounts between a tenth and quarter of an inch possible. ",
+          "night_forecast": "Rain before 1am, then rain and snow.  Snow level 7600 feet lowering to 6400 feet after midnight . Low around 35. Chance of precipitation is 100%. Little or no snow accumulation expected. "
         },
         {
           "day": "Monday",
-          "day_forecast": "Rain and snow before 1pm, then snow likely between 1pm and 4pm, then a chance of rain and snow after 4pm.  Snow level 5600 feet. High near 36. Chance of precipitation is 90%. New snow accumulation of less than a half inch possible. ",
-          "night_forecast": "A chance of rain and snow before 7pm, then a chance of snow.  Cloudy, with a low around 29."
+          "day_forecast": "Rain and snow.  Snow level 5700 feet. High near 37. Chance of precipitation is 90%. Little or no snow accumulation expected. ",
+          "night_forecast": "A chance of rain and snow before 7pm, then a chance of snow between 7pm and 10pm.  Mostly cloudy, with a low around 29."
         },
         {
           "day": "Tuesday",
-          "day_forecast": "A slight chance of snow before 10am.  Partly sunny, with a high near 36.",
-          "night_forecast": "Mostly cloudy, with a low around 25."
+          "day_forecast": "Partly sunny, with a high near 35.",
+          "night_forecast": "Mostly cloudy, with a low around 23."
         },
         {
           "day": "Wednesday",
@@ -4728,12 +4713,12 @@
         {
           "time": "10a",
           "temp": "41",
-          "details": "chance of rain"
+          "details": "rain likely"
         },
         {
           "time": "12p",
           "temp": "43",
-          "details": "rain likely"
+          "details": "rain "
         },
         {
           "time": "2p",
@@ -4790,15 +4775,15 @@
   "satellite": {
     "Pacific Northwest": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/pnw/13/GOES18-PNW-13-600x600.gif",
-      "last_modified": "Fri, 27 Nov 2026 18:31:49 GMT"
+      "last_modified": "Fri, 27 Nov 2026 19:01:38 GMT"
     },
     "North Pacific (macro)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/SECTOR/np/13/GOES18-NP-13-900x540.gif",
-      "last_modified": "Fri, 27 Nov 2026 18:32:11 GMT"
+      "last_modified": "Fri, 27 Nov 2026 19:02:13 GMT"
     },
     "Pacific US (PACUS)": {
       "url": "https://cdn.star.nesdis.noaa.gov/GOES18/ABI/CONUS/13/GOES18-CONUS-13-625x375.gif",
-      "last_modified": "Fri, 27 Nov 2026 18:31:29 GMT"
+      "last_modified": "Fri, 27 Nov 2026 19:01:31 GMT"
     }
   },
   "gfs_snowfall": {
