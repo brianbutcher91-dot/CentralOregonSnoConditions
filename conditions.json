@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T15:45:19.607621+00:00",
+  "generated_at": "2026-11-27T16:00:21.728503+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -610,7 +610,7 @@
         "wind_speed_mph": 9,
         "wind_direction_deg": 260,
         "snow_level_ft": 9055,
-        "temp_f": 36
+        "temp_f": 37
       },
       "lat": 44.1017,
       "lon": -121.6224
@@ -914,9 +914,9 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 20.0,
+        "wind_speed_mph": 18.0,
         "wind_direction_deg": 225,
-        "snow_level_ft": 8318,
+        "snow_level_ft": 8660,
         "temp_f": 40
       },
       "lat": 44.409,
@@ -1222,9 +1222,9 @@
       ],
       "current": {
         "wind_speed_mph": 14,
-        "wind_direction_deg": 260,
+        "wind_direction_deg": 250,
         "snow_level_ft": 9212,
-        "temp_f": 40
+        "temp_f": 38
       },
       "lat": 43.7025,
       "lon": -121.2661
@@ -1530,7 +1530,7 @@
       "current": {
         "wind_speed_mph": 13,
         "wind_direction_deg": 270,
-        "snow_level_ft": 9501,
+        "snow_level_ft": 9344,
         "temp_f": 40
       },
       "lat": 43.5975,
@@ -1835,10 +1835,10 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 5,
+        "wind_speed_mph": 3,
         "wind_direction_deg": 260,
-        "snow_level_ft": 8320,
-        "temp_f": 42
+        "snow_level_ft": 8661,
+        "temp_f": 41
       },
       "lat": 44.39548,
       "lon": -122.14151
@@ -2142,8 +2142,8 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 2,
-        "wind_direction_deg": 190,
+        "wind_speed_mph": 3,
+        "wind_direction_deg": 220,
         "snow_level_ft": 7927,
         "temp_f": 39
       },
@@ -2156,7 +2156,7 @@
         {
           "number": 1,
           "name": "Today",
-          "startTime": "2026-11-27T07:00:00-08:00",
+          "startTime": "2026-11-27T06:00:00-08:00",
           "endTime": "2026-11-27T18:00:00-08:00",
           "isDaytime": true,
           "temperature": 53,
@@ -2170,9 +2170,9 @@
           "windDirection": "SW",
           "icon": "https://api.weather.gov/icons/land/day/rain,30/rain,90?size=medium",
           "shortForecast": "Light Rain",
-          "detailedForecast": "Rain. Mostly cloudy, with a high near 53. Southwest wind 5 to 9 mph, with gusts as high as 24 mph. Chance of precipitation is 90%. New rainfall amounts between a tenth and quarter of an inch possible.",
+          "detailedForecast": "Rain after 7am. Mostly cloudy, with a high near 53. Southwest wind 5 to 9 mph, with gusts as high as 24 mph. Chance of precipitation is 90%. New rainfall amounts between a tenth and quarter of an inch possible.",
           "precipitationAmountIn": 0.08,
-          "snowLevelFt": 9133
+          "snowLevelFt": 8923
         },
         {
           "number": 2,
@@ -2452,7 +2452,7 @@
         "wind_speed_mph": 5,
         "wind_direction_deg": 210,
         "snow_level_ft": 9133,
-        "temp_f": 45
+        "temp_f": 44
       },
       "lat": 44.0582,
       "lon": -121.3153
@@ -2759,7 +2759,7 @@
         "wind_speed_mph": 0,
         "wind_direction_deg": 0,
         "snow_level_ft": 8924,
-        "temp_f": 41
+        "temp_f": 40
       },
       "lat": 44.2909,
       "lon": -121.549
@@ -3087,12 +3087,12 @@
     "Hoodoo": {
       "elevation_ft": 4705,
       "temp_f": 40,
-      "wind_speed_mph": 20.0,
+      "wind_speed_mph": 18.0,
       "wind_direction_deg": 225,
-      "snow_level_ft": 8318,
+      "snow_level_ft": 8660,
       "precip_chance_today": 100,
-      "snowfall_12h_in": -0.6,
-      "snowfall_24h_in": -1.9,
+      "snowfall_12h_in": 0.1,
+      "snowfall_24h_in": -1.3,
       "snowfall_48h_in": null
     },
     "Willamette Pass": {
@@ -3100,7 +3100,7 @@
       "temp_f": 40,
       "wind_speed_mph": 13,
       "wind_direction_deg": 270,
-      "snow_level_ft": 9501,
+      "snow_level_ft": 9344,
       "precip_chance_today": 95,
       "snowfall_12h_in": null,
       "snowfall_24h_in": 0.0,
@@ -3932,6 +3932,14 @@
         "wind_direction_deg": 240,
         "precip_in": 0.03,
         "period": "forecast"
+      },
+      {
+        "time": "2026-11-30T15:00:00+00:00",
+        "temp_f": 32.0,
+        "wind_speed_mph": 34.5,
+        "wind_direction_deg": 240,
+        "precip_in": 0.03,
+        "period": "forecast"
       }
     ],
     "historical_precip_snapshots": [
@@ -4349,8 +4357,8 @@
           "day": "Friday",
           "temperature_high": 44,
           "temperature_low": 33,
-          "precipitation_high": 95,
-          "precipitation_low": 95,
+          "precipitation_high": 96,
+          "precipitation_low": 96,
           "wind_speed": 15,
           "wind_direction": "W"
         },
@@ -4628,8 +4636,8 @@
   "hoodoo": {
     "weather": {
       "Temperature": "38 &#176F",
-      "Wind": "SW @ 20 MPH",
-      "Snow depth": "-0.7\"",
+      "Wind": "SW @ 18 MPH",
+      "Snow depth": "-0.3\"",
       "Humidity": "100 %",
       "Barometer": "30.11\" Hg",
       "Rain Gauge": "2.34\""
@@ -4638,11 +4646,11 @@
       "trend": {
         "Max": "4.4\"",
         "Min": "-1.0\"",
-        "1 Hr": "-0.5\"",
-        "3 Hr": "0.0\"",
-        "6 Hr": "-0.4\"",
-        "12 Hr": "-0.6\"",
-        "24 Hr": "-1.9\""
+        "1 Hr": "0.1\"",
+        "3 Hr": "0.1\"",
+        "6 Hr": "-0.3\"",
+        "12 Hr": "0.1\"",
+        "24 Hr": "-1.3\""
       },
       "season_total_in": 13.1
     },
@@ -4684,10 +4692,10 @@
   "willamette_pass": {
     "forecast": {
       "weather_provider": "NOAA",
-      "date": "November 27, 2026, 5:16 am",
-      "time": 1795785380000,
-      "current_weather": "Chance Rain",
-      "current_temperature": "40",
+      "date": "November 27, 2026, 7:43 am",
+      "time": 1795794217000,
+      "current_weather": "Chance Rain then Rain",
+      "current_temperature": "44",
       "forecast": [
         {
           "day": "Friday",
@@ -4701,12 +4709,12 @@
         },
         {
           "day": "Sunday",
-          "day_forecast": "Rain.  Snow level 7300 feet rising to 8300 feet in the afternoon. High near 42. Chance of precipitation is 90%. New precipitation amounts between a tenth and quarter of an inch possible. ",
+          "day_forecast": "Rain.  Snow level 7300 feet rising to 8300 feet in the afternoon. High near 42. Southwest wind 8 to 11 mph.  Chance of precipitation is 90%. New precipitation amounts between a tenth and quarter of an inch possible. ",
           "night_forecast": "Rain before 1am, then rain, possibly mixed with snow.  Snow level 7300 feet lowering to 6500 feet. Low around 34. Chance of precipitation is 100%. Little or no snow accumulation expected. "
         },
         {
           "day": "Monday",
-          "day_forecast": "Rain and snow before 1pm, then snow likely between 1pm and 4pm, then a chance of rain and snow after 4pm.  Snow level 5600 feet. Cloudy, with a high near 36.",
+          "day_forecast": "Rain and snow before 1pm, then snow likely between 1pm and 4pm, then a chance of rain and snow after 4pm.  Snow level 5600 feet. High near 36. Chance of precipitation is 90%. New snow accumulation of less than a half inch possible. ",
           "night_forecast": "A chance of rain and snow before 7pm, then a chance of snow.  Cloudy, with a low around 29."
         },
         {
@@ -4716,24 +4724,15 @@
         },
         {
           "day": "Wednesday",
-          "day_forecast": "Mostly sunny, with a high near 39."
+          "day_forecast": "Mostly sunny, with a high near 39.",
+          "night_forecast": "A chance of snow.  Mostly cloudy, with a low around 29."
         }
       ],
       "wind": "NA",
       "icon": "0399-rain.svg",
       "max_temp": "43",
-      "min_temp": "40",
+      "min_temp": "38",
       "hourly": [
-        {
-          "time": "4a",
-          "temp": "39",
-          "details": "chance of rain"
-        },
-        {
-          "time": "5a",
-          "temp": "40",
-          "details": "chance of rain"
-        },
         {
           "time": "8a",
           "temp": "40",
@@ -4748,6 +4747,16 @@
           "time": "12p",
           "temp": "43",
           "details": "rain likely"
+        },
+        {
+          "time": "2p",
+          "temp": "43",
+          "details": "rain "
+        },
+        {
+          "time": "4p",
+          "temp": "43",
+          "details": "rain "
         }
       ],
       "attribution": "",
@@ -4803,7 +4812,7 @@
   "gfs_snowfall": {
     "path": "gfs_snowfall_pnw.gif",
     "legend_path": "gfs_snowfall_legend.png",
-    "cycle_run_at": "2026-11-27T06:00:00+00:00",
+    "cycle_run_at": "2026-11-27T12:00:00+00:00",
     "forecast_hours": [
       3,
       6,
