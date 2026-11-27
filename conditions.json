@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T13:36:05.212417+00:00",
+  "generated_at": "2026-11-27T13:45:22.048405+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -621,7 +621,7 @@
         {
           "number": 1,
           "name": "Overnight",
-          "startTime": "2026-11-27T04:00:00-08:00",
+          "startTime": "2026-11-27T05:00:00-08:00",
           "endTime": "2026-11-27T06:00:00-08:00",
           "isDaytime": false,
           "temperature": 38,
@@ -635,9 +635,9 @@
           "windDirection": "W",
           "icon": "https://api.weather.gov/icons/land/night/rain,90?size=medium",
           "shortForecast": "Light Rain",
-          "detailedForecast": "Rain. Cloudy. Low around 38, with temperatures rising to around 40 overnight. West wind around 8 mph, with gusts as high as 18 mph. Chance of precipitation is 90%. New rainfall amounts less than a tenth of an inch possible.",
-          "precipitationAmountIn": 0.02,
-          "snowLevelFt": 7400
+          "detailedForecast": "Rain. Cloudy. Low around 38, with temperatures rising to around 40 overnight. West wind around 8 mph. Chance of precipitation is 90%. New rainfall amounts less than a tenth of an inch possible.",
+          "precipitationAmountIn": 0.01,
+          "snowLevelFt": 7662
         },
         {
           "number": 2,
@@ -914,8 +914,8 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 8,
-        "wind_direction_deg": 260,
+        "wind_speed_mph": 10.0,
+        "wind_direction_deg": 270,
         "snow_level_ft": 7662,
         "temp_f": 40
       },
@@ -1542,7 +1542,7 @@
         {
           "number": 1,
           "name": "Overnight",
-          "startTime": "2026-11-27T04:00:00-08:00",
+          "startTime": "2026-11-27T05:00:00-08:00",
           "endTime": "2026-11-27T06:00:00-08:00",
           "isDaytime": false,
           "temperature": 39,
@@ -1550,15 +1550,15 @@
           "temperatureTrend": null,
           "probabilityOfPrecipitation": {
             "unitCode": "wmoUnit:percent",
-            "value": 94
+            "value": 92
           },
-          "windSpeed": "6 mph",
+          "windSpeed": "5 mph",
           "windDirection": "WSW",
           "icon": "https://api.weather.gov/icons/land/night/rain,90?size=medium",
           "shortForecast": "Light Rain",
-          "detailedForecast": "Rain. Cloudy. Low around 39, with temperatures rising to around 42 overnight. West southwest wind around 6 mph. Chance of precipitation is 90%. New rainfall amounts between a tenth and quarter of an inch possible.",
-          "precipitationAmountIn": 0.04,
-          "snowLevelFt": 7269
+          "detailedForecast": "Rain. Cloudy. Low around 39, with temperatures rising to around 42 overnight. West southwest wind around 5 mph. Chance of precipitation is 90%. New rainfall amounts between a tenth and quarter of an inch possible.",
+          "precipitationAmountIn": 0.02,
+          "snowLevelFt": 7559
         },
         {
           "number": 2,
@@ -3087,12 +3087,12 @@
     "Hoodoo": {
       "elevation_ft": 4705,
       "temp_f": 40,
-      "wind_speed_mph": 8,
-      "wind_direction_deg": 260,
+      "wind_speed_mph": 10.0,
+      "wind_direction_deg": 270,
       "snow_level_ft": 7662,
       "precip_chance_today": 86,
-      "snowfall_12h_in": null,
-      "snowfall_24h_in": null,
+      "snowfall_12h_in": -0.2,
+      "snowfall_24h_in": -2.5,
       "snowfall_48h_in": null
     },
     "Willamette Pass": {
@@ -4227,7 +4227,7 @@
       "snow_depth_in_date": "2026-11-26",
       "swe_in": 1.0,
       "swe_in_date": "2026-11-26",
-      "change_12h_in": 0,
+      "change_12h_in": -1,
       "change_24h_in": -2
     }
   },
@@ -4626,10 +4626,25 @@
     }
   },
   "hoodoo": {
-    "weather": {},
+    "weather": {
+      "Temperature": "36 &#176F",
+      "Wind": "West @ 10 MPH",
+      "Snow depth": "-0.1\"",
+      "Humidity": "100 %",
+      "Barometer": "30.15\" Hg",
+      "Rain Gauge": "2.32\""
+    },
     "snow_totals": {
-      "trend": {},
-      "season_total_in": null
+      "trend": {
+        "Max": "4.4\"",
+        "Min": "-1.0\"",
+        "1 Hr": "0.3\"",
+        "3 Hr": "0.0\"",
+        "6 Hr": "0.1\"",
+        "12 Hr": "-0.2\"",
+        "24 Hr": "-2.5\""
+      },
+      "season_total_in": 13.1
     },
     "webcams": {
       "Base Area": {
@@ -4669,8 +4684,8 @@
   "willamette_pass": {
     "forecast": {
       "weather_provider": "NOAA",
-      "date": "November 27, 2026, 5:04 am",
-      "time": 1795784655000,
+      "date": "November 27, 2026, 5:13 am",
+      "time": 1795785212000,
       "current_weather": "Chance Rain",
       "current_temperature": "40",
       "forecast": [
