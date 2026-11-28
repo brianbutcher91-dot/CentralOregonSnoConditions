@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-28T08:15:28.273564+00:00",
+  "generated_at": "2026-11-28T08:30:23.504121+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -914,7 +914,7 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 15.0,
+        "wind_speed_mph": 11.0,
         "wind_direction_deg": 270,
         "snow_level_ft": 6508,
         "temp_f": 40
@@ -2155,11 +2155,11 @@
       "periods": [
         {
           "number": 1,
-          "name": "Tonight",
-          "startTime": "2026-11-27T23:00:00-08:00",
+          "name": "Overnight",
+          "startTime": "2026-11-28T00:00:00-08:00",
           "endTime": "2026-11-28T06:00:00-08:00",
           "isDaytime": false,
-          "temperature": 39,
+          "temperature": 38,
           "temperatureUnit": "F",
           "temperatureTrend": null,
           "probabilityOfPrecipitation": {
@@ -2170,7 +2170,7 @@
           "windDirection": "NW",
           "icon": "https://api.weather.gov/icons/land/night/rain,40?size=medium",
           "shortForecast": "Chance Light Rain",
-          "detailedForecast": "A chance of rain before 1am. Mostly cloudy. Low around 39, with temperatures rising to around 41 overnight. Northwest wind around 2 mph. Chance of precipitation is 40%.",
+          "detailedForecast": "A chance of rain before 1am. Mostly cloudy. Low around 38, with temperatures rising to around 40 overnight. Northwest wind around 2 mph. Chance of precipitation is 40%.",
           "precipitationAmountIn": 0.0,
           "snowLevelFt": 7559
         },
@@ -2180,7 +2180,7 @@
           "startTime": "2026-11-28T06:00:00-08:00",
           "endTime": "2026-11-28T18:00:00-08:00",
           "isDaytime": true,
-          "temperature": 51,
+          "temperature": 49,
           "temperatureUnit": "F",
           "temperatureTrend": null,
           "probabilityOfPrecipitation": {
@@ -2189,9 +2189,9 @@
           },
           "windSpeed": "2 mph",
           "windDirection": "SE",
-          "icon": "https://api.weather.gov/icons/land/day/fog/bkn?size=medium",
-          "shortForecast": "Patchy Fog then Mostly Cloudy",
-          "detailedForecast": "Patchy fog between 7am and 10am. Mostly cloudy. High near 51, with temperatures falling to around 47 in the afternoon. Southeast wind around 2 mph.",
+          "icon": "https://api.weather.gov/icons/land/day/bkn?size=medium",
+          "shortForecast": "Mostly Cloudy",
+          "detailedForecast": "Mostly cloudy. High near 49, with temperatures falling to around 45 in the afternoon. Southeast wind around 2 mph.",
           "precipitationAmountIn": 0.0,
           "snowLevelFt": 6377
         },
@@ -3087,12 +3087,12 @@
     "Hoodoo": {
       "elevation_ft": 4705,
       "temp_f": 40,
-      "wind_speed_mph": 15.0,
+      "wind_speed_mph": 11.0,
       "wind_direction_deg": 270,
       "snow_level_ft": 6508,
       "precip_chance_today": 4,
-      "snowfall_12h_in": 0.5,
-      "snowfall_24h_in": 0.2,
+      "snowfall_12h_in": 0.2,
+      "snowfall_24h_in": 0.5,
       "snowfall_48h_in": null
     },
     "Willamette Pass": {
@@ -3109,14 +3109,6 @@
   },
   "bachelor_timeseries": {
     "hourly": [
-      {
-        "time": "2026-11-27T00:00:00.000Z",
-        "temp_f": 30.92,
-        "wind_speed_mph": 19.2,
-        "wind_direction_deg": 248.3,
-        "precip_in": null,
-        "period": "historical"
-      },
       {
         "time": "2026-11-27T01:00:00.000Z",
         "temp_f": 31.53,
@@ -3298,6 +3290,14 @@
         "temp_f": 31.88,
         "wind_speed_mph": 22.02,
         "wind_direction_deg": 252.4,
+        "precip_in": null,
+        "period": "historical"
+      },
+      {
+        "time": "2026-11-28T00:00:00.000Z",
+        "temp_f": 31.69,
+        "wind_speed_mph": 15.54,
+        "wind_direction_deg": 270.9,
         "precip_in": null,
         "period": "historical"
       },
@@ -4187,14 +4187,26 @@
   },
   "snotel": {
     "Mt Bachelor area (Irish Taylor)": {
+      "snow_depth_in": 1,
+      "snow_depth_in_date": "2026-11-27",
+      "swe_in": 0.7,
+      "swe_in_date": "2026-11-27",
       "change_12h_in": 0,
       "change_24h_in": 0
     },
     "Three Creek / Tam McArthur (Three Creeks Meadow)": {
+      "snow_depth_in": 0,
+      "snow_depth_in_date": "2026-11-27",
+      "swe_in": 0.3,
+      "swe_in_date": "2026-11-27",
       "change_12h_in": 0,
       "change_24h_in": 0
     },
     "Santiam / Hoodoo (Hogg Pass)": {
+      "snow_depth_in": 0,
+      "snow_depth_in_date": "2026-11-27",
+      "swe_in": 0.3,
+      "swe_in_date": "2026-11-27",
       "change_12h_in": 0,
       "change_24h_in": 0
     },
@@ -4321,23 +4333,23 @@
           "day": "Saturday",
           "temperature_high": 43,
           "temperature_low": 31,
-          "precipitation_high": 84,
-          "precipitation_low": 84,
+          "precipitation_high": 92,
+          "precipitation_low": 92,
           "wind_speed": 9,
           "wind_direction": "WNW"
         },
         {
           "date": "2026-11-29",
-          "description_long": "light rain",
-          "description_short": "light rain",
+          "description_long": "moderate rain",
+          "description_short": "moderate rain",
           "details": "Rain",
           "weather_icon": "dor-rain",
           "id": 1795978800,
           "day": "Sunday",
-          "temperature_high": 41,
-          "temperature_low": 32,
-          "precipitation_high": 86,
-          "precipitation_low": 86,
+          "temperature_high": 42,
+          "temperature_low": 31,
+          "precipitation_high": 96,
+          "precipitation_low": 96,
           "wind_speed": 11,
           "wind_direction": "S"
         },
@@ -4440,10 +4452,10 @@
           "active": true,
           "primary": true,
           "nonstandardizedDataPoints": {
-            "depth": "7.387",
-            "timestamp": "2026-11-27T23:00:00.000Z"
+            "depth": "7.203",
+            "timestamp": "2026-11-28T00:00:00.000Z"
           },
-          "temperature": "35.38",
+          "temperature": "35.34",
           "wind": {
             "low": "0",
             "high": "0",
@@ -4507,15 +4519,15 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-11-27T23:00:00.000Z"
+            "timestamp": "2026-11-28T00:00:00.000Z"
           },
-          "temperature": "31.88",
+          "temperature": "31.69",
           "wind": {
-            "low": "22.02",
-            "high": "50.11",
+            "low": "15.54",
+            "high": "39.15",
             "current": null,
-            "average": "22.02",
-            "direction": "WSW"
+            "average": "15.54",
+            "direction": "W"
           },
           "humidity": null,
           "display_name": "Cloud Chaser",
@@ -4529,14 +4541,14 @@
           "primary": false,
           "nonstandardizedDataPoints": {
             "depth": null,
-            "timestamp": "2026-11-27T23:00:00.000Z"
+            "timestamp": "2026-11-28T00:00:00.000Z"
           },
-          "temperature": "30.85",
+          "temperature": "30.61",
           "wind": {
-            "low": "37.88",
-            "high": "62.19",
+            "low": "28.4",
+            "high": "55.7",
             "current": null,
-            "average": "37.88",
+            "average": "28.4",
             "direction": "SW"
           },
           "humidity": null,
@@ -4600,10 +4612,10 @@
   "hoodoo": {
     "weather": {
       "Temperature": "35 &#176F",
-      "Wind": "West @ 15 MPH",
-      "Snow depth": "0.4\"",
+      "Wind": "West @ 11 MPH",
+      "Snow depth": "0.3\"",
       "Humidity": "100 %",
-      "Barometer": "30.05\" Hg",
+      "Barometer": "30.06\" Hg",
       "Rain Gauge": "3.47\""
     },
     "snow_totals": {
@@ -4611,10 +4623,10 @@
         "Max": "2.9\"",
         "Min": "-1.5\"",
         "1 Hr": "0.1\"",
-        "3 Hr": "0.4\"",
-        "6 Hr": "0.0\"",
-        "12 Hr": "0.5\"",
-        "24 Hr": "0.2\""
+        "3 Hr": "0.3\"",
+        "6 Hr": "0.3\"",
+        "12 Hr": "0.2\"",
+        "24 Hr": "0.5\""
       },
       "season_total_in": 13.1
     },
