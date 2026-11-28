@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-28T03:45:20.486330+00:00",
+  "generated_at": "2026-11-28T04:00:31.349319+00:00",
   "forecast": {
     "Mt Bachelor": {
       "elevation_ft": 7638,
@@ -301,7 +301,7 @@
       ],
       "current": {
         "wind_speed_mph": 23,
-        "wind_direction_deg": 270,
+        "wind_direction_deg": 280,
         "snow_level_ft": 7804,
         "temp_f": 37
       },
@@ -607,10 +607,10 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 13,
-        "wind_direction_deg": 270,
+        "wind_speed_mph": 12,
+        "wind_direction_deg": 280,
         "snow_level_ft": 7682,
-        "temp_f": 40
+        "temp_f": 39
       },
       "lat": 44.1017,
       "lon": -121.6224
@@ -914,9 +914,9 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 17.0,
-        "wind_direction_deg": 292.5,
-        "snow_level_ft": 7531,
+        "wind_speed_mph": 12,
+        "wind_direction_deg": 270,
+        "snow_level_ft": 7296,
         "temp_f": 42
       },
       "lat": 44.409,
@@ -1222,9 +1222,9 @@
       ],
       "current": {
         "wind_speed_mph": 20,
-        "wind_direction_deg": 270,
+        "wind_direction_deg": 280,
         "snow_level_ft": 8092,
-        "temp_f": 38
+        "temp_f": 39
       },
       "lat": 43.7025,
       "lon": -121.2661
@@ -1530,7 +1530,7 @@
       "current": {
         "wind_speed_mph": 17,
         "wind_direction_deg": 290,
-        "snow_level_ft": 8268,
+        "snow_level_ft": 8241,
         "temp_f": 43
       },
       "lat": 43.5975,
@@ -1835,9 +1835,9 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 10,
+        "wind_speed_mph": 9,
         "wind_direction_deg": 270,
-        "snow_level_ft": 7558,
+        "snow_level_ft": 7270,
         "temp_f": 43
       },
       "lat": 44.39548,
@@ -2143,9 +2143,9 @@
       ],
       "current": {
         "wind_speed_mph": 5,
-        "wind_direction_deg": 270,
+        "wind_direction_deg": 280,
         "snow_level_ft": 7060,
-        "temp_f": 40
+        "temp_f": 39
       },
       "lat": 44.4333,
       "lon": -120.3333
@@ -2449,10 +2449,10 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 5,
+        "wind_speed_mph": 3,
         "wind_direction_deg": 230,
         "snow_level_ft": 7638,
-        "temp_f": 49
+        "temp_f": 47
       },
       "lat": 44.0582,
       "lon": -121.3153
@@ -2756,10 +2756,10 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 5,
-        "wind_direction_deg": 300,
+        "wind_speed_mph": 3,
+        "wind_direction_deg": 310,
         "snow_level_ft": 7480,
-        "temp_f": 47
+        "temp_f": 46
       },
       "lat": 44.2909,
       "lon": -121.549
@@ -3063,10 +3063,10 @@
         }
       ],
       "current": {
-        "wind_speed_mph": 9,
-        "wind_direction_deg": 230,
+        "wind_speed_mph": 10,
+        "wind_direction_deg": 250,
         "snow_level_ft": 8110,
-        "temp_f": 46
+        "temp_f": 45
       },
       "lat": 43.6716,
       "lon": -121.504
@@ -3077,7 +3077,7 @@
       "elevation_ft": 7638,
       "temp_f": 37,
       "wind_speed_mph": 23,
-      "wind_direction_deg": 270,
+      "wind_direction_deg": 280,
       "snow_level_ft": 7804,
       "precip_chance_today": 100,
       "snowfall_12h_in": null,
@@ -3087,12 +3087,12 @@
     "Hoodoo": {
       "elevation_ft": 4705,
       "temp_f": 42,
-      "wind_speed_mph": 17.0,
-      "wind_direction_deg": 292.5,
-      "snow_level_ft": 7531,
+      "wind_speed_mph": 12,
+      "wind_direction_deg": 270,
+      "snow_level_ft": 7296,
       "precip_chance_today": 96,
-      "snowfall_12h_in": 0.8,
-      "snowfall_24h_in": 0.2,
+      "snowfall_12h_in": null,
+      "snowfall_24h_in": null,
       "snowfall_48h_in": null
     },
     "Willamette Pass": {
@@ -3100,7 +3100,7 @@
       "temp_f": 43,
       "wind_speed_mph": 17,
       "wind_direction_deg": 290,
-      "snow_level_ft": 8268,
+      "snow_level_ft": 8241,
       "precip_chance_today": 100,
       "snowfall_12h_in": null,
       "snowfall_24h_in": 0.0,
@@ -3932,6 +3932,14 @@
         "wind_direction_deg": 250,
         "precip_in": 0.0,
         "period": "forecast"
+      },
+      {
+        "time": "2026-12-01T03:00:00+00:00",
+        "temp_f": 27.0,
+        "wind_speed_mph": 8.1,
+        "wind_direction_deg": 250,
+        "precip_in": 0.0,
+        "period": "forecast"
       }
     ],
     "historical_precip_snapshots": [
@@ -4622,25 +4630,10 @@
     }
   },
   "hoodoo": {
-    "weather": {
-      "Temperature": "39 &#176F",
-      "Wind": "WNW @ 17 MPH",
-      "Snow depth": "0.0\"",
-      "Humidity": "100 %",
-      "Barometer": "29.95\" Hg",
-      "Rain Gauge": "3.24\""
-    },
+    "weather": {},
     "snow_totals": {
-      "trend": {
-        "Max": "3.5\"",
-        "Min": "-1.5\"",
-        "1 Hr": "0.3\"",
-        "3 Hr": "-0.4\"",
-        "6 Hr": "0.1\"",
-        "12 Hr": "0.8\"",
-        "24 Hr": "0.2\""
-      },
-      "season_total_in": 13.1
+      "trend": {},
+      "season_total_in": null
     },
     "webcams": {
       "Base Area": {
@@ -4680,8 +4673,8 @@
   "willamette_pass": {
     "forecast": {
       "weather_provider": "NOAA",
-      "date": "November 27, 2026, 7:43 pm",
-      "time": 1795837402000,
+      "date": "November 27, 2026, 7:55 pm",
+      "time": 1795838121000,
       "current_weather": "Rain then Rain Likely",
       "current_temperature": "45",
       "forecast": [
